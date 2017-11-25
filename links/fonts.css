@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'alte_haas_grotesk_regular';
+    src: url('../media/fonts/alte_haas_grotesk_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alte_haas_grotesk_bold';
+    src: url('../media/fonts/alte_haas_grotesk_bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

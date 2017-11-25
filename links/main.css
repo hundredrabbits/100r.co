@@ -1,0 +1,126 @@
+body { background:#000; color:#fff; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial;  overflow-x: hidden;}
+
+c { display: block }
+c h1 { display: block; font-size:30px; font-weight: bold; text-align: center; color:#222; margin-bottom: 15px}
+c h1 small { font-weight: noral; font-size:12px; display:block; }
+c h2 { display: block; font-size:30px; text-align: center; color:#222; margin-bottom: 30px; font-weight:normal; font-family: "alte_haas_grotesk_bold"}
+c h2 small {  }
+c h3 { font-style: italic;display: block;margin-bottom: 30px;font-size: 20px;max-width: 50% }
+c p { display: block;max-width: 600px;color: #999;font-size: 23px;margin: 0px auto 30px auto;line-height: 32px;}
+c p.main { font-weight: bold; margin-bottom: 30px;}
+c p a { color:white; text-decoration: underline; }
+c img { max-width: 100vw; display: block }
+c img.main { margin: 0px auto 30px }
+c b { font-weight: bold }
+c table { margin-bottom: 30px}
+c h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
+c hr { clear:both; }
+c w { width: calc(100vw - 320px);display: block;margin: 0px auto;max-width: 600px }
+c w img { max-width: 100%; margin-bottom: 30px; border-radius: 3px }
+c w.wide { max-width: 700px }
+c pre { max-width: 600px;margin: 0px auto;margin-bottom: 30px;font-family: courier;font-size: 12px;line-height: 20px;background: #fff;color: #000;padding: 15px;border-radius: 3px }
+
+overlay { z-index: 900;position: absolute;width: 100vw;}
+:target { z-index:999; }
+
+c.status { padding: 30px 0px; z-index:900;}
+c.status h2 { width:50%; display: inline-block; color:white; float:left;}
+c.status h2 small { display: block; font-size:19px;}
+
+c.menu { display: block; text-align: center; font-weight: bold; font-size:12px; padding:20px; }
+c.menu a { border:2px solid white;padding:5px 10px;border-radius: 100px; margin-right:10px; }
+c.menu a:hover { border:2px solid #333; }
+
+ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
+ul.default li a { font-weight: bold }
+
+c.header { z-index: 9000;position: fixed; top:0 }
+c.header svg { display: block; margin:30px; width: 88px; height:88px;  }
+
+c.introduction { padding:70px; background:#f5f5f5; }
+c.introduction img { max-width: 220px; margin:0px auto 15px;}
+c.introduction p {  }
+c.introduction ul { margin:0px auto; color: #222; font-size:13px; line-height: 20px}
+c.introduction ul li { vertical-align: top }
+c.introduction ul li b { display: inline-block;width: calc(50% - 15px);font-weight: bold;text-align: right;padding-right: 15px;}
+c.introduction ul li span { display: inline-block; width:calc(50% - 15px); text-align: left; padding-left:15px; }
+c.introduction a { text-decoration: underline; }
+
+c.timeline { margin:30px 0px; position: relative;overflow: hidden; padding-bottom:0px}
+c.timeline event { display: block; font-size:12px; position:relative; left:calc(50% - 10px); line-height: 30px; margin-bottom: 20px; clear:both;z-index:999}
+c.timeline event svg { width: 20px;height: 20px;display: inline-block;position: absolute;left: 0px;top: 5px;z-index: 900}
+c.timeline event svg line { stroke:#fff; }
+c.timeline event .title { font-weight: bold; padding-left:75px; padding-right:15px;}
+c.timeline event .details { font-weight: normal }
+c.timeline event .offset { color:#999; }
+c.timeline event line.spacer { display: block;height: 1px;background: #333;width: 40px;position: absolute;top: 15px;left: 14px; z-index: 90;}
+c.timeline center { background: #333;width: 1px;position: absolute;left: 50%;top: 0px;height: 90000px }
+
+c.timeline event.odd { left:0px; width:calc(50% + 10px); text-align: right }
+c.timeline event.odd .title { float:right; padding-left:15px; padding-right:75px; }
+c.timeline event.odd svg { right:0px; left:initial; }
+c.timeline event.odd line.spacer { left:initial; right:12px; }
+
+c.timeline event.sail .title { font-weight: normal; font-style: italic; color:#999; }
+c.timeline event.podcast .title a { background: #fff;color: #000;padding: 5px 10px;border-radius: 3px }
+c.timeline event.expense .title { font-weight: normal; color:#999; }
+c.timeline event.expense line.spacer { background:black; border-top:1px dotted #ff0000; }
+c.timeline event.expense.spending .details { color:#ff0000; }
+c.timeline event.expense.spending svg circle { stroke:#ff0000; }
+c.timeline event.expense.gain .details { color:#a5eadc; }
+c.timeline event.expense.gain line.spacer { background:black; border-top:1px dotted #a5eadc; }
+c.timeline event.expense.gain svg circle { stroke:#a5eadc; fill: #a5eadc }
+c.timeline event.event line.spacer { background:white; }
+c.timeline event.sail line.spacer { display: none }
+c.timeline event.patreon { background: black;width: 100%;left: 0px;text-align: center;z-index: 8000; margin: 60px 0px 30px; }
+c.timeline event.patreon .title { padding:0px; float:none; }
+c.timeline event.patreon hr { border-top:1px dotted #333; margin-top:-15px;}
+c.timeline event.patreon text { background: #000;padding: 20px 20px }
+c.timeline event.first { background: black;width: 100%;left: 0px;text-align: center;z-index: 8000; margin-bottom: 0px }
+c.timeline event.first .title { padding:0px; float:none; }
+c.timeline event .note { display: block;padding-left: 75px;padding-right: 15px;color: #999;max-width: 250px;line-height: 20px}
+c.timeline event.odd .note { float:right; padding-left:15px; padding-right:75px; }
+c.timeline event.video { min-height: 170px }
+c.timeline event.video text { display: block;padding-top: 75px }
+c.timeline event.video line { display: none }
+c.timeline event.video .title { text-decoration: underline; }
+c.timeline event.video media { width: 150px;height: 150px;border-radius: 100px;position: absolute;right: -80px;z-index: 9999;border: 15px solid black; display:block; background-size:cover;}
+c.timeline event.video.even media { right:initial; left: -80px; }
+c.timeline event.video.even .title { padding-left: 130px }
+c.timeline event.video.odd .title { padding-right: 110px }
+c.timeline event.profile media { width: 300px;height: 300px;border-radius: 300px;z-index: 9999;border: 15px solid black;display: block;background-size: cover;margin-left:-150px; margin-bottom:20px; background-position: center center}
+c.timeline event.profile ul { width:150px;display:inline-block;line-height: 20px;color:#999 }
+c.timeline event.profile ul b { color:white; }
+c.timeline event.profile ul a { text-decoration: underline }
+c.timeline event.profile ul.left { text-align:right; margin-left:-160px; padding-right:20px;}
+c.timeline event.profile ul.right { text-align:left; padding-left:20px;}
+
+c.timeline event.sailboat media { width: 300px;height: 300px;border-radius: 300px;z-index: 9999;border: 15px solid black;display: block;background-size: cover;margin-left:-150px; margin-bottom:20px; background-position: center center}
+c.timeline event.sailboat ul { width:150px;display:inline-block;line-height: 20px;color:#999 }
+c.timeline event.sailboat ul b { color:white; }
+c.timeline event.sailboat ul a { text-decoration: underline }
+c.timeline event.sailboat ul.left { text-align:right; margin-left:-160px; padding-right:20px;}
+c.timeline event.sailboat ul.right { text-align:left; padding-left:20px;}
+
+
+c.timeline event.release { height:350px; }
+c.timeline event.release text { display: block;padding-top: 150px;padding-right:150px}
+c.timeline event.release line { display: none }
+c.timeline event.release .title { text-decoration: underline; }
+c.timeline event.release media { width: 300px;height: 300px;border-radius: 300px;position: absolute;right: -150px;z-index: 9999;border: 15px solid black;display: block;background-size: cover;}
+c.timeline event.release.even media { right:initial; left: -160px; }
+c.timeline event.release.even text { padding-left: 150px }
+c.timeline event.release.odd .title { padding-right: 110px }
+
+
+#map { height:100vh; width:100vw; position: fixed !important; top:0px; left:0px; }
+
+.labels {
+  color: white;
+  background-color: red;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-size: 10px;
+  text-align: center;
+  width: 30px;
+  white-space: nowrap;
+}
