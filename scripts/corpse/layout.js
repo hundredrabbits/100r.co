@@ -33,7 +33,7 @@ function Layout(host)
     
     for(id in invoke.vessel.timeline.events){
       var event = invoke.vessel.timeline.events[id];
-      if(event.type != "video"){ continue; }
+      // if(event.type != "video"){ continue; }
       this.timeline.appendChild(event.el)
     }
 

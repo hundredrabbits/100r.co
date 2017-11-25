@@ -50,8 +50,9 @@ c.timeline { margin:30px 0px; position: relative;overflow: hidden; padding-botto
 c.timeline event { display: block; font-size:12px; position:relative; left:calc(50% - 10px); line-height: 30px; margin-bottom: 20px; clear:both;z-index:999;max-width: 25vw;padding-left:200px;text-align: left;}
 c.timeline event svg { width: 20px;height: 20px;display: inline-block;position: absolute;left: 0px;top: 5px;z-index: 900}
 c.timeline event svg line { stroke:#fff; }
-c.timeline event .title { font-weight: bold; padding-left:75px; padding-right:15px;}
-c.timeline event .details { font-weight: normal }
+c.timeline event svg circle { fill:#fff; }
+c.timeline event .title { font-weight: bold; padding-right:15px;}
+c.timeline event .details { font-weight: normal;color: #999;display: block;line-height: 20px}
 c.timeline event .offset { color:#999; }
 c.timeline event media { width: 150px;height: 150px;border-radius: 100px;position: absolute;right: -80px;z-index: 9999;border: 15px solid black; display:block; background-size:cover;}
 c.timeline event line.spacer { display: block;height: 1px;background: #333;width: 40px;position: absolute;top: 15px;left: 14px; z-index: 90;}
@@ -60,7 +61,13 @@ c.timeline center { background: #333;width: 1px;position: absolute;left: 50%;top
 c.timeline event.video { height:180px }
 c.timeline event.video media { left:-90px; }
 c.timeline event.video line { top: 90px;left: 90px }
-c.timeline event.video text { top: 75px;position: absolute;left:90px }
+c.timeline event.video text { top: 75px;position: absolute;}
+
+c.timeline event.expense .details { color:red; }
+c.timeline event.expense .details:after { content:"$"; }
+
+c.timeline event.sail .details:after { content:"nm"; }
+
 #map { height:100vh; width:100vw; position: fixed !important; top:0px; left:0px; }
 
 .labels {
