@@ -1,4 +1,19 @@
 var $TIMELINE = new Memory(`
+2017-11-19
+  TYPE : video
+  NAME : November 2017
+  LINK : https://www.youtube.com/watch?v=hI_W5fgZUQU
+
+2017-10-19
+  TYPE : video
+  NAME : October 2017
+  LINK : https://www.youtube.com/watch?v=hrZ5h0j8jTo
+
+2017-09-01
+  TYPE : video
+  NAME : September 2017
+  LINK : https://www.youtube.com/watch?v=6YoK9NgSVaE
+
 2017-09-01
   TYPE : video
   NAME : September 2017
