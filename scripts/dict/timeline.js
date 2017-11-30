@@ -1,4 +1,8 @@
 var $TIMELINE = new Memory(`
+2017-11-30
+  TYPE : expense
+  NAME : 4 New 6V Batteries
+  VLUE : -810
 
 2017-11-19
   TYPE : video
@@ -834,14 +838,12 @@ var $TIMELINE = new Memory(`
 2016-04-15
   TYPE : expense
   NAME : Inflatable Dinghy
-  VLUE : -870.00
-  TEXT : PLASTIMO Raid II Inflatable Tender
+  VLUE : -870
 
 2016-04-14
   TYPE : expense
   NAME : Solar Panels & Controller
-  VLUE : -1300.00
-  TEXT : Installed a solar panel on the deck in front of the mast and on top of the bimini
+  VLUE : -1300
 
 2016-04-12
   TYPE : sail
@@ -915,20 +917,17 @@ var $TIMELINE = new Memory(`
 2016-03-15
   TYPE : expense
   NAME : Foul Weather Gear
-  VLUE : -2100.00
-  TEXT : Cycled to Victoria from North Saanich to get specialized gear from Trotac
+  VLUE : -2100
 
 2016-03-09
   TYPE : expense
   NAME : Insurance
-  VLUE : -619.00
-  TEXT : Found Mardon, a company that insures liveaboards
+  VLUE : -619
 
 2016-02-24
   TYPE : expense
   NAME : Sales Tax
-  VLUE : -4500.00
-  TEXT : Didn't remember we had to pay this. Made a dent in our wallets.
+  VLUE : -4500
 
 2016-02-21
   TYPE : video
@@ -942,18 +941,18 @@ var $TIMELINE = new Memory(`
 2016-02-09
   TYPE : expense
   NAME : Registration
-  VLUE : -275.00
+  VLUE : -275
 
 2016-02-02
   TYPE : expense
   NAME : Inspection
-  VLUE : -528.00
+  VLUE : -528
   LINK : https://www.patreon.com/posts/4196830
 
 2016-01-29
   TYPE : expense
   NAME : Haul Out
-  VLUE : -300.00
+  VLUE : -300
 
 2016-01-28
   TYPE : sailboat
@@ -961,14 +960,13 @@ var $TIMELINE = new Memory(`
 2016-01-27
   TYPE : expense
   NAME : Yamaha 33 Sloop
-  VLUE : -38000.00
+  VLUE : -38000
   LINK : https://www.patreon.com/posts/yamaha-33-4194848
 
 2016-01-23
   TYPE : expense
   NAME : VHF Radio Classes
-  VLUE : -150.00
-  TEXT : Cycled to Richmond from Burnaby to take our class, we aced it
+  VLUE : -150
 
 2016-01-18
   TYPE : video
@@ -993,7 +991,7 @@ var $TIMELINE = new Memory(`
 2015-12-05
   TYPE : expense
   NAME : GoPro Camera
-  VLUE : -410.00
+  VLUE : -410
 
 2015-11-02
   TYPE : profile
