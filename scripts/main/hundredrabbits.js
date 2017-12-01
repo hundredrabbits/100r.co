@@ -13,7 +13,6 @@ function Hundredrabbits()
     this.timeline.start()
     this.corpse   = new Layout(this);
     this.corpse.install();
-    this.corpse.start();
   }
 
   this.query = function()
