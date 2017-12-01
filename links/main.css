@@ -76,6 +76,7 @@ c.timeline event.expense circle { fill:#f00; }
 c.timeline event.maintenance { display: none }
 
 c.timeline event.sail .details:after { content:"nm"; }
+c.timeline event.sail line { width:120px; }
 
 #map { height:100vh; width:100vw; position: fixed !important; top:0px; left:0px; }
 
