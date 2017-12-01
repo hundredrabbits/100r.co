@@ -45,6 +45,7 @@ var $TIMELINE = new Memory(`
   TYPE : release
   NAME : Left
   LINK : https://www.youtube.com/watch?v=QloUoqqhXGE
+  TEXT : A Writing Software
 
 2017-08-15
   TYPE : video
@@ -131,6 +132,7 @@ var $TIMELINE = new Memory(`
   TYPE : release
   NAME : Thousand Rooms
   LINK : https://hundredrabbits.itch.io/thousand-rooms
+  TEXT : A short story
 
 2017-05-13
   TYPE : video
@@ -240,6 +242,7 @@ var $TIMELINE = new Memory(`
   TYPE : release
   NAME : Donsol
   LINK : https://hundredrabbits.itch.io/donsol
+  TEXT : A card game
 
 2016-12-27
   TYPE : expense
@@ -254,6 +257,7 @@ var $TIMELINE = new Memory(`
 2016-12-24
   TYPE : release
   NAME : Oquonie
+  TEXT : A puzzle game
 
 2016-12-23
   TYPE : maintenance
@@ -992,9 +996,6 @@ var $TIMELINE = new Memory(`
   TYPE : expense
   NAME : GoPro Camera
   VLUE : -410
-
-2015-11-02
-  TYPE : profile
 
 2015-11-01
   TYPE : first

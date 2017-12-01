@@ -63,10 +63,17 @@ c.timeline event.video media { left:-90px; }
 c.timeline event.video line { top: 90px;left: 90px }
 c.timeline event.video text { top: 75px;position: absolute;}
 
+c.timeline event.release { height:270px }
+c.timeline event.release media { left: -135px;width: 250px;height: 250px;border-radius: 300px }
+c.timeline event.release text { top: 130px;position: absolute; }
+c.timeline event.release text .details { text-transform: capitalize; }
+
 c.timeline event.expense .details { color: red;position: absolute;top:5px; left:140px }
 c.timeline event.expense .details:after { content:"$"; }
 c.timeline event.expense line { width:120px; }
 c.timeline event.expense circle { fill:#f00; }
+
+c.timeline event.maintenance { display: none }
 
 c.timeline event.sail .details:after { content:"nm"; }
 
