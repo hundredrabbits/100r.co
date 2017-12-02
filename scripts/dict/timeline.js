@@ -1,4 +1,10 @@
 var $TIMELINE = new Memory(`
+
+2017-12-03
+  TYPE : expense
+  NAME : 2 Solar Panels(180W)
+  VLUE : -100
+
 2017-11-30
   TYPE : expense
   NAME : 4 New 6V Batteries
@@ -846,7 +852,7 @@ var $TIMELINE = new Memory(`
 
 2016-04-14
   TYPE : expense
-  NAME : Solar Panels & Controller
+  NAME : 2 Solar Panels(160W) & Controller
   VLUE : -1300
 
 2016-04-12
