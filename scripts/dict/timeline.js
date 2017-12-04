@@ -3,7 +3,7 @@ var $TIMELINE = new Memory(`
 2017-12-03
   TYPE : expense
   NAME : 2 Solar Panels(180W)
-  VLUE : -100
+  VLUE : -150
 
 2017-11-30
   TYPE : expense
