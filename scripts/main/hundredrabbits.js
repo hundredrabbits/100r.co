@@ -2,7 +2,7 @@ function Hundredrabbits()
 {
   Invoke.call(this);
   
-  this.requirements = {corpse:["layout","timeline","event","drool"],dict:["timeline"]};
+  this.requirements = {corpse:["layout","timeline","event","drool","map"],dict:["timeline"]};
 
   this.name = "hundredrabbits";
   this.corpse = null;
@@ -21,6 +21,11 @@ function Hundredrabbits()
     var hash = window.location.hash.replace("#","");
     return hash;
   }
+}
+
+function initMap()
+{
+  invoke.vessel.corpse.map.start(); 
 }
 
 invoke.seal("main","hundredrabbits");

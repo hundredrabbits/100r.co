@@ -5,6 +5,7 @@ function Layout(host)
   this.timeline = document.createElement('c'); this.timeline.id = "timeline"; this.timeline.className = "timeline";
 
   this.drool = new Drool(false);
+  this.map = new Google_Map();
 
   this.start = function()
   {
@@ -39,6 +40,8 @@ function Layout(host)
 
     this.md.appendChild(this.timeline)
     this.drool.install(document.getElementById("logo"),120);
+
+    document.body.appendChild(this.map.el)
   }
 
   this.load = function(key)

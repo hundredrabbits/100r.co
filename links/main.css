@@ -54,7 +54,7 @@ c.timeline event svg circle { fill:#fff; }
 c.timeline event .title { font-weight: bold; padding-right:15px;}
 c.timeline event .details { font-weight: normal;color: #999;display: block;line-height: 20px}
 c.timeline event .offset { color:#999; }
-c.timeline event media { width: 150px;height: 150px;border-radius: 100px;position: absolute;right: -80px;z-index: 9999;border: 15px solid black; display:block; background-size:cover;}
+c.timeline event media { width: 150px;height: 150px;border-radius: 100px;position: absolute;right: -80px;z-index: 9999;border: 15px solid black; display:block; background-size:cover; background-size:80%;background-color:white;background-repeat:no-repeat;background-position: center}
 c.timeline event line.spacer { display: block;height: 1px;background: #333;width: 40px;position: absolute;top: 15px;left: 14px; z-index: 90;}
 c.timeline center { background: #333;width: 1px;position: absolute;left: 50%;top: 0px;height: 90000px }
 
@@ -78,6 +78,7 @@ c.timeline event.maintenance { display: none }
 c.timeline event.sail .details:after { content:"nm"; }
 c.timeline event.sail line { width:120px; }
 
+#hundredrabbits { width: 100vw;height: 100vh;z-index: 9000;position: absolute;top:-30px;left:0px }
 #map { height:100vh; width:100vw; position: fixed !important; top:0px; left:0px; }
 
 .labels {
