@@ -22,10 +22,4 @@ function Hundredrabbits()
     return hash;
   }
 }
-
-function initMap()
-{
-  invoke.vessel.corpse.map.start(); 
-}
-
 invoke.seal("main","hundredrabbits");
