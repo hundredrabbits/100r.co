@@ -24,7 +24,7 @@ function Layout(host)
     
     <c class='headline'>
       <h1>Hundred Rabbits</h1>
-      <p>We have sailed `+(km.toString().substr(0,2)+"'"+km.toString().substr(2,3))+`km making tools and games aboard <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>.</p>
+      <p>We have sailed <a id='show_map'>`+(km.toString().substr(0,2)+"'"+km.toString().substr(2,3))+`km</a> making tools and games aboard <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>.</p>
     </c>
     <c class="menu">
       <a href="https://hundredrabbits.itch.io" target="_blank">Games</a> 
@@ -70,6 +70,7 @@ function Layout(host)
 
     document.getElementById("toggle_about").addEventListener("click", this.toggle_about);
     document.getElementById("toggle_support").addEventListener("click", this.toggle_support);
+    document.getElementById("show_map").addEventListener("click", this.show_map);
   
     for(id in invoke.vessel.timeline.events){
       var event = invoke.vessel.timeline.events[id];
@@ -93,6 +94,13 @@ function Layout(host)
   {
     document.getElementById("about").style.display = "none";
     document.getElementById("support").style.display = "block";
+  }
+
+  this.show_map = function(e)
+  {
+    document.getElementById("about").style.display = "none";
+    document.getElementById("support").style.display = "none";
+    document.getElementById("hundredrabbits").style.display = "none";
   }
 
   this.load = function(key)
