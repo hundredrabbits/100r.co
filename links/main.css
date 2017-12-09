@@ -32,7 +32,7 @@ c.headline p { text-align: center;display: block;font-size: 18px;font-weight: bo
 
 c.menu { display: block; text-align: center; font-weight: bold; font-size:12px; padding:20px; margin-bottom:75px }
 c.menu a { border:2px solid white;padding:5px 10px;border-radius: 100px; margin-right:10px; }
-c.menu a:hover { border:2px solid #333; }
+c.menu a:hover { border:2px solid #333; cursor: pointer;}
 
 ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
 ul.default li a { font-weight: bold }
@@ -91,7 +91,7 @@ c.timeline event.sail line { width:120px; }
 #about b, #support b { font-weight: bold }
 #about columns, #support columns { display: block;columns: 2;font-size: 14px;column-gap: 50px;margin-bottom: 45px }
 
-#support { background: black; max-width: 600px; margin: 0px auto; padding: 30px 45px; }
+#support { background: black; max-width: 600px; margin: 0px auto; padding: 30px 45px; display: none}
 #support list { display: block;margin-bottom: 30px }
 #support list ln { display: block; line-height: 25px; font-family: 'courier',mono }
 #support p { margin-bottom: 30px }

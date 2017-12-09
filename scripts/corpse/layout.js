@@ -27,11 +27,10 @@ function Layout(host)
       <p>We have sailed `+(km.toString().substr(0,2)+"'"+km.toString().substr(2,3))+`km making tools and games aboard <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>.</p>
     </c>
     <c class="menu">
-      <a href="" target="_blank">About</a> 
       <a href="https://hundredrabbits.itch.io" target="_blank">Games</a> 
       <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">Videos</a> 
-      <a href="https://patreon.com/100" target="_blank">Support Us</a>
-      <a href="" target="_blank">Show Map</a>
+      <a id='toggle_about'>About</a> 
+      <a id='toggle_support'>Support Us</a>
     </c>
     <div id='about'>
       <img src="media/content/profile.about.jpg">
@@ -68,6 +67,9 @@ function Layout(host)
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
     </div>`
+
+    document.getElementById("toggle_about").addEventListener("click", this.toggle_about);
+    document.getElementById("toggle_support").addEventListener("click", this.toggle_support);
   
     for(id in invoke.vessel.timeline.events){
       var event = invoke.vessel.timeline.events[id];
@@ -79,6 +81,18 @@ function Layout(host)
     this.drool.install(document.getElementById("logo"),120);
 
     document.body.appendChild(this.map.el)
+  }
+
+  this.toggle_about = function(e)
+  {
+    document.getElementById("about").style.display = "block";
+    document.getElementById("support").style.display = "none";
+  }
+
+  this.toggle_support = function(e)
+  {
+    document.getElementById("about").style.display = "none";
+    document.getElementById("support").style.display = "block";
   }
 
   this.load = function(key)
