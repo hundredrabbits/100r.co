@@ -1,6 +1,6 @@
 function Google_Map()
 {
-  var map;
+  var map = null;
   this.el = document.createElement('div'); this.el.id = "map";
 
   this.start = function()
@@ -8,17 +8,17 @@ function Google_Map()
     var current_coord = {lat: -35.836830, lng: 174.468635};
     map = new google.maps.Map(document.getElementById('map'), { center: current_coord, zoom: 8, disableDefaultUI: true });
 
-    map.set('styles', this.style);
+    map.set('styles', invoke.vessel.corpse.map.style);
 
-    var path = new google.maps.Polyline({ path: this.path(), geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0, strokeWeight: 2 });
+    var path = new google.maps.Polyline({ path: invoke.vessel.corpse.map.path(), geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0, strokeWeight: 2 });
     path.setMap(map);
 
-    this.add_marker("current",current_coord);
-    this.add_marker("polynesia",{lat: -8.826494, lng: -140.142672});
-    this.add_marker("tokyo",{lat: 35.626411, lng: 139.776893});
-    this.add_marker("auckland",{lat: -36.841539, lng: 174.761052});
-    this.add_marker("vladivostok",{lat: 43.114753, lng: 131.872834});
-    this.add_marker("vancouver",{lat: 48.802228, lng: -123.601410});
+    invoke.vessel.corpse.map.add_marker("current",current_coord);
+    invoke.vessel.corpse.map.add_marker("polynesia",{lat: -8.826494, lng: -140.142672});
+    invoke.vessel.corpse.map.add_marker("tokyo",{lat: 35.626411, lng: 139.776893});
+    invoke.vessel.corpse.map.add_marker("auckland",{lat: -36.841539, lng: 174.761052});
+    invoke.vessel.corpse.map.add_marker("vladivostok",{lat: 43.114753, lng: 131.872834});
+    invoke.vessel.corpse.map.add_marker("vancouver",{lat: 48.802228, lng: -123.601410});
   }
 
   this.markers = [];
