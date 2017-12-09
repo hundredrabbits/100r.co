@@ -8,7 +8,13 @@
 <body>
   <script>
     var invoke = new Invoke("hundredrabbits"); invoke.summon();
-    function initMap(){ setTimeout(invoke.vessel.corpse.map.start,1000) }
+    function load_map(){
+      console.log(invoke,invoke.vessel)
+      invoke.vessel.corpse.map.start()
+    }
+    function initMap(){ 
+      setTimeout(load_map,1000) 
+    }
   </script>
 </body>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>
