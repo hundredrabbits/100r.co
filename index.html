@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>--</title>
+  <title>Hundred Rabbits</title>
   <script src="scripts/core/invoke.js"></script>
 </head>
 <body>
   <script>
     var invoke = new Invoke("hundredrabbits"); invoke.summon();
-    function initMap(){invoke.vessel.corpse.map.start(); }
+    function initMap(){ setTimeout(invoke.vessel.corpse.map.start,1000) }
   </script>
 </body>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>
