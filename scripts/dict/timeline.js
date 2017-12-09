@@ -12,7 +12,8 @@ var $TIMELINE = new Memory(`
 
 2017-11-21
   TYPE : press
-  NAME : ​Developing Games and Tools from the Ocean: An Interview with Hundred Rabbits
+  NAME : ​An Interview with Hundred Rabbits
+  TEXT : Developing Games and Tools from the Ocean
   LINK : https://itch.io/blog/15488/developing-games-and-tools-from-the-ocean-an-interview-with-hundred-rabbits
 
 2017-11-19
