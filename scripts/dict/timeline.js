@@ -10,15 +10,26 @@ var $TIMELINE = new Memory(`
   NAME : 4 New 6V Batteries
   VLUE : -810
 
+2017-11-21
+  TYPE : press
+  NAME : ​Developing Games and Tools from the Ocean: An Interview with Hundred Rabbits
+  LINK : https://itch.io/blog/15488/developing-games-and-tools-from-the-ocean-an-interview-with-hundred-rabbits
+
 2017-11-19
   TYPE : video
   NAME : November 2017
   LINK : https://www.youtube.com/watch?v=hI_W5fgZUQU
 
+2017-11-13
+  TYPE : press
+  NAME : ​Interview with Devine Lu Linvega
+  LINK : https://monochromatic.co/writing/interview-with-devine
+
 2017-10-21
   TYPE : sail
   NAME : Whangarei, NZ
   VLUE : 1199
+  TEXT : The first two days were shit, we were very seasick. We sailed upwind, with the waves crashing repeatedly over the port side and bow. We alternated between 2 days of bad weather, two days of okay weather, can't say we had much sun during this passage either. We sailed with our full foul weather gear, coated with a layer of salt. We didn't get any severe weather, although it was not a relaxing trip due to the size of the incoming swells. 
   POSI
     -35.836830, 174.468635
     -35.553695, 174.797350
@@ -62,6 +73,7 @@ var $TIMELINE = new Memory(`
   TYPE : sail
   NAME : Vava'u, Tonga
   VLUE : 234
+  TEXT : Short sail, although we tried to make a quick passage because of the bad weather on our tail. We made it into Vava'u in the early morning hours, doing tacks in the entrance and waiting for daylight.
   POSI
     -18.665240, -174.008847
     -18.564752, -172.495912
@@ -76,6 +88,7 @@ var $TIMELINE = new Memory(`
   TYPE : sail
   NAME : Niue
   VLUE : 580
+  TEXT : We played 'dodge the squall' at night, but we still got wet. We arrived in Niue, pushing through seemingly unending sheets of rain.
   POSI
     -19.054495, -169.924992
     -19.560540, -168.341915
