@@ -22,4 +22,5 @@ function Hundredrabbits()
     return hash;
   }
 }
+
 invoke.seal("main","hundredrabbits");

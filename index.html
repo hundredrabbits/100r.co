@@ -6,7 +6,10 @@
   <script src="scripts/core/invoke.js"></script>
 </head>
 <body>
-  <script>var invoke = new Invoke("hundredrabbits"); invoke.summon();</script>
+  <script>
+    var invoke = new Invoke("hundredrabbits"); invoke.summon();
+    function initMap(){invoke.vessel.corpse.map.start(); }
+  </script>
 </body>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=invoke.vessel.corpse.map.start" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>
 </html>
