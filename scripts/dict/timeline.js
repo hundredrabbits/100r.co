@@ -19,6 +19,7 @@ var $TIMELINE = new Memory(`
 2017-11-19
   TYPE : video
   NAME : November 2017
+  TEXT: Our Salty Sail to New Zealand
   LINK : https://www.youtube.com/watch?v=hI_W5fgZUQU
 
 2017-11-13
@@ -47,16 +48,13 @@ var $TIMELINE = new Memory(`
 2017-10-19
   TYPE : video
   NAME : October 2017
+  TEXT : Today, We Play
   LINK : https://www.youtube.com/watch?v=hrZ5h0j8jTo
 
 2017-09-01
   TYPE : video
   NAME : September 2017
-  LINK : https://www.youtube.com/watch?v=6YoK9NgSVaE
-
-2017-09-01
-  TYPE : video
-  NAME : September 2017
+  TEXT : Staying Still while in Tonga
   LINK : https://www.youtube.com/watch?v=6YoK9NgSVaE
 
 2017-08-20
@@ -68,6 +66,7 @@ var $TIMELINE = new Memory(`
 2017-08-15
   TYPE : video
   NAME : August 2017
+  TEXT : Three countries, one month
   LINK : https://www.youtube.com/watch?v=r95qCQUS4LM
 
 2017-08-03
@@ -83,6 +82,7 @@ var $TIMELINE = new Memory(`
 2017-07-31
   TYPE : video
   NAME : Capsule 6
+  TEXT : The Coral Chasms of Niue
   LINK : https://youtu.be/6C1_2X74iXo
     
 2017-07-22
@@ -145,18 +145,20 @@ var $TIMELINE = new Memory(`
 
 2017-05-31
   TYPE : video
-  NAME : Season 2 Episode 5
+  NAME : May 2017
+  TEXT : Maeva beach in Tahiti
   LINK : https://www.youtube.com/watch?v=KW3V_60-jRc
 
 2017-05-29
   TYPE : release
   NAME : Thousand Rooms
   LINK : https://hundredrabbits.itch.io/thousand-rooms
-  TEXT : A short story
+  TEXT : Thousand Rooms is a visual novel, following the behaviours of four characters and a room.
 
 2017-05-13
   TYPE : video
-  NAME : Season 2 Episode 4
+  NAME : March 2017
+  TEXT : Crossing the Pacific Ocean from La Paz to Marquesas
   LINK : https://www.youtube.com/watch?v=raCuLpJRqTY
 
 2017-05-02
@@ -190,7 +192,8 @@ var $TIMELINE = new Memory(`
 
 2017-04-08
   TYPE : video
-  NAME : Season 2 Episode 3
+  NAME : March 2017
+  TEXT : Crossing the Pacific Ocean from La Paz to Marquesas
   LINK : https://youtu.be/oycB4h4Kvwo
 
 2017-04-03
@@ -246,8 +249,9 @@ var $TIMELINE = new Memory(`
 
 2017-02-28
   TYPE : video
-  NAME : Season 2 Episode 2
-  LINK : https://youtu.be/bkt69OVv9lw?list=PLV-JXZPiMUdtBGYfvbp9M7N0Tc15GMqy1
+  NAME : February 2017
+  TEXT : Getting ready to cross the pacific ocean
+  LINK : https://www.youtube.com/watch?v=bkt69OVv9lw
 
 2017-01-27
   TYPE : maintenance
@@ -255,14 +259,15 @@ var $TIMELINE = new Memory(`
 
 2017-01-26
   TYPE : video
-  NAME : Season 2 Episode 1
+  NAME : January 2017
+  TEXT : Studio on a sailboat? Check!
   LINK : https://www.youtube.com/watch?v=GcNTVeSvB2s
 
 2017-01-07
   TYPE : release
   NAME : Donsol
   LINK : https://hundredrabbits.itch.io/donsol
-  TEXT : A card game
+  TEXT : Donsol is a card game about exploring a dungeon made of a standard 54 poker card set.
 
 2016-12-27
   TYPE : expense
@@ -271,13 +276,14 @@ var $TIMELINE = new Memory(`
 
 2016-12-26
   TYPE : video
-  NAME : Season 1 Episode 12
+  NAME : December 2016
+  TEXT : Sailing Baja California
   LINK : https://www.youtube.com/watch?v=nnwfAlhzwEo
 
 2016-12-24
   TYPE : release
   NAME : Oquonie
-  TEXT : A puzzle game
+  TEXT : Oquonie is a textless puzzle game in which you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
 
 2016-12-23
   TYPE : maintenance
@@ -313,12 +319,14 @@ var $TIMELINE = new Memory(`
 
 2016-11-28
   TYPE : video
-  NAME : Season 1 Episode 11
+  NAME : November 2016
+  TEXT : Sailing in fog in Ensenada
   LINK : https://www.youtube.com/watch?v=xn5096EsYD4
 
 2016-11-14
   TYPE : video
   NAME : Capsule 3
+  TEXT : Using Chrome OS for development
   LINK : https://www.youtube.com/watch?v=FAmGmuUEhww
 
 2016-11-07
@@ -328,7 +336,8 @@ var $TIMELINE = new Memory(`
 
 2016-11-05
   TYPE : video
-  NAME : Season 1 Episode 10
+  NAME : October 2016
+  TEXT : Sailing the American Pacific coast
   LINK : https://www.youtube.com/watch?v=EmLJct4OhKY
 
 2016-11-03
@@ -379,7 +388,8 @@ var $TIMELINE = new Memory(`
 
 2016-10-07
   TYPE : video
-  NAME : Season 1 Episode 9
+  NAME : September 2016
+  TEXT : Experiencing San Francisco on a sailboat
   LINK : https://www.youtube.com/watch?v=poGtT89jZjs
 
 2016-10-04
@@ -396,6 +406,7 @@ var $TIMELINE = new Memory(`
 2016-09-15
   TYPE : video
   NAME : Capsule 2
+  TEXT : Baking beer bread on the boat
   LINK : https://www.youtube.com/watch?v=ppASJRVcXmM
 
 2016-09-14
@@ -421,7 +432,8 @@ var $TIMELINE = new Memory(`
 
 2016-08-31
   TYPE : video
-  NAME : Season 1 Episode 8
+  NAME : August 2016
+  TEXT : Sailing from Vancouver to San Francisco
   LINK : https://www.youtube.com/watch?v=KCXjuuMKaS4
 
 2016-08-22
@@ -447,7 +459,8 @@ var $TIMELINE = new Memory(`
 2016-08-12
   TYPE : video
   NAME : Capsule 1
-  LINK : https://www.youtube.com/watch?v=ppASJRVcXmM
+  TEXT : Iridium GO to Google Map
+  LINK : https://www.youtube.com/watch?v=SImQRglWpCE&list=PLV-JXZPiMUdtrpg5DSz5mxslYsyZ_I-MG
 
 2016-08-11
   TYPE : sail
@@ -492,7 +505,8 @@ var $TIMELINE = new Memory(`
 
 2016-07-25
   TYPE : video
-  NAME : Season 1 Episode 7
+  NAME : July 2016
+  TEXT : We hit a storm in the pacific
   LINK : https://www.youtube.com/watch?v=5Zz-y7_by-0
 
 2016-07-21
@@ -595,7 +609,8 @@ var $TIMELINE = new Memory(`
 
 2016-06-19
   TYPE : video
-  NAME : Season 1 Episode 6
+  NAME : June 2016
+  TEXT : Preparations for our pacific crossing.
   LINK : https://www.youtube.com/watch?v=z50Nql1nDNY
 
 2016-06-16
@@ -741,7 +756,8 @@ var $TIMELINE = new Memory(`
 
 2016-05-17
   TYPE : video
-  NAME : Season 1 Episode 5
+  NAME : May 2016
+  TEXT : How we pass the time.
   LINK : https://www.youtube.com/watch?v=j35o7Nyv63Q
 
 2016-05-14
@@ -856,7 +872,8 @@ var $TIMELINE = new Memory(`
 
 2016-04-17
   TYPE : video
-  NAME : Season 1 Episode 4
+  NAME : April 2016
+  TEXT : An office with a view.
   LINK : https://www.youtube.com/watch?v=OQGYic8XAkg
 
 2016-04-15
@@ -935,7 +952,8 @@ var $TIMELINE = new Memory(`
 
 2016-03-20
   TYPE : video
-  NAME : Season 1 Episode 3
+  NAME : March 2016
+  TEXT : Our first month as liveaboards.
   LINK : https://www.youtube.com/watch?v=D6_I9CDKiAg
 
 2016-03-15
@@ -955,7 +973,8 @@ var $TIMELINE = new Memory(`
 
 2016-02-21
   TYPE : video
-  NAME : Season 1 Episode 2
+  NAME : February 2016
+  TEXT : Moving into our yamaha 33 sailboat
   LINK : https://www.youtube.com/watch?v=ZjPapqiVnX4
 
 2016-02-14
@@ -994,7 +1013,8 @@ var $TIMELINE = new Memory(`
 
 2016-01-18
   TYPE : video
-  NAME : Season 1 Episode 1
+  NAME : January 2016
+  TEXT : We bought a sailboat!
   LINK : https://www.youtube.com/watch?v=-ZsMjHj6MxE
 
 2016-01-14
