@@ -61,7 +61,11 @@ function Layout(host)
         <ln><b>$BTC</b> 1NU2Pso6nYbRpCAftX3yqQW9w2NSUxzsNa</ln>
       </list>
       <p> You can also use paypal to show your support.</p>
-    <a href="https://www.paypal.com/donate/?token=4hr9ad3Db-tAG2J2H6oDAYQVXHsX_v5uK8Yam1gn_apqJJUsitUNTPKw_d6kqaVeKeViVG&country.x=CA&locale.x=CA" class="button">Go to paypal</a>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="B7NZHUNK2WGNJ">
+        <input type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class='button' value='Go to Paypal'>
+      </form>
     </div>`
 
     document.getElementById("toggle_about").addEventListener("click", this.toggle_about);

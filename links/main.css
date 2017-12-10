@@ -101,7 +101,7 @@ c.timeline event.press line { width: 160px; }
 #support p.large { font-size: 24px;max-width: 450px;line-height: 35px }
 #support .paypal { margin-bottom: 30px }
 #support .button {display: block;width: 160px;background: #000;border: 3px solid #fff;border-radius: 80px;text-decoration: none; ; text-align: center; padding-bottom: 10px; padding-top: 10px }
-#support .button:hover {background-color: #fff; color: black}
+#support .button:hover {background-color: #fff; color: black; cursor: pointer;}
 
 #about { background: black; max-width: 600px; margin: 0px auto; padding: 30px 45px; display: none }
 #about list { display: block;margin-bottom: 30px }
