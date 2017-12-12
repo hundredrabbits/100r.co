@@ -125,4 +125,5 @@ c.timeline event.press line { width: 160px; }
 #knowledge list.sidebar ln a:hover { text-decoration: underline; cursor: pointer; }
 #knowledge yu { display: block; }
 #knowledge img { margin: 0px auto;display: block }
+#knowledge img:hover { cursor: pointer; opacity: 0.6 }
 

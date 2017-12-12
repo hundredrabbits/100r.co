@@ -4,7 +4,7 @@ function KnowledgeBase(host)
 
   this.start = function()
   {
-    this.hd.innerHTML = "<img src='media/interface/logo.svg'/>";
+    this.hd.innerHTML = "<a href='index.html'><img src='media/interface/logo.svg'/></a>";
     this.md.innerHTML = this.build();
   }
 
