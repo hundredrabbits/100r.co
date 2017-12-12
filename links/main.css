@@ -112,6 +112,7 @@ c.timeline event.press line { width: 160px; }
 #knowledge { max-width: 600px; display: block; margin:100px auto; padding-left:200px;font-family: 'Helvetica Neue',Helvetica,Arial; }
 #knowledge h2 { display: block; font-size:20px; color:#fff; margin-bottom: 15px; font-weight:normal; font-family: "alte_haas_grotesk_bold"; line-height: 40px; text-transform: capitalize;border-top: 1px solid #333;padding-top: 10px; margin-top:15px; }
 #knowledge h2:target { color:red; }
+#knowledge #md > *:nth-child(2) { border-top:0px; }
 #knowledge p { margin-bottom: 20px;font-size: 14px;line-height: 20px; }
 #knowledge p b { font-weight:bold; }
 #knowledge p a { font-weight:bold;display: inline-block;border-bottom: 2px solid red }
