@@ -58,8 +58,9 @@ Off The Grid
     & Salt water is highly corrosive, even an open window can let in salt air and long term, it can damage electronics. The usb ports of our laptops, as well as our usb cables have suffered damage as a result of this. We now store all devices and cables away after use, in large plastic containers. Since we use our phones for navigation, or to listen to music outside, we keep them in protective sleeves.
     & Having backups for your devices is of the utmost importance, extra power adaptors and mini usb cables are a must. Extra computers is also recommended, especially if you are working somewhere where new hardware is impossible to find, or too expensive.
     & If you can work on a machine that costs less money, do it. If something happens to it, it wont be too complicated to replace. Macbooks consume a lot of energy, and battery life is always an issue. Power consumption is something that should be taken into account when choosing a computer for working at sea.
-    & We use a {{Chromebook}} to do our writing work, it is also our media station. We work on macbooks, but would like to change this in the future. Using an Ipad for sketching and drawing is a good solution, as is using Ronin which uses less power than photoshop.
+    & We use a {{Chromebook}} to do our writing work, it is also our media station. We work on macbooks, but would like to change this in the future. Using an Ipad for sketching and drawing is a good solution, as is using {{Ronin|https://hundredrabbits.itch.io/ronin}} which uses less power than photoshop.
     & We have a {{500G portable hardrive}} that is waterproof and shockproof, we store all of the footage we shoot as well as backups of files that had not yet been uploaded online. 
+    & Rekka uses an ipad 2 with autodesk sketchbook for concept art, and draws using fingers instead of a pen (fingers are just as precise). Finished work is done on a macbook pro, the files are transferred via usb and then moved to desktop using {{IExplorer|https://macroplant.com/iexplorer}} (using the demo version). The work is finished in photoshop, using an intuos 4 tablet.
 
 Liveaboard
   Habitat
@@ -83,7 +84,7 @@ Liveaboard
   Water storage
     & Our main tank carries 170L, while an additional 150L is stored in jerry cans. When it is not possible to dock at a marina, we use smaller(4x10L) jerry cans to ferry water from shore. While it requires more trips, the lighter containers are less prone to breakage.
   Electricity
-    & We have 2 Solar Panels(1 x 60W, 1 x 100W), hoping to aquire an additional 100W panel. For additional power, we also carry a Honda EU1000i generator. Our boat has a 75AMP Balmar alternator, but it is only used when we need to use high-power systems like the macerator and the windlass. Every single light is LED, cutting down the consumption of power, from lights, by 10 compared to halogens.
+    & We have 4 Solar Panels(1 x 60W, 1 x 100W and 2 X 90W). For additional power, we also carry a Honda EU1000i generator. Our boat has a 75AMP Balmar alternator, but it is only used when we need to use high-power systems like the macerator and the windlass. Every single light is LED, cutting down the consumption of power, from lights, by 10 compared to halogens.
   Radio
     & As a sailor, you {*must offer help*} to a boat in trouble. Radio communication is key, specific channels are used in every country for emergencies or information exchange. Every morning, sailors will tune in to a specific channel and listen to a {*morning net*}, a public radio exchange in which the weather and local events are announced, as well as boats seeking crew, or items that need to be sold or found. When the weather is foul, the local channels are very busy.
   Comraderie
@@ -131,12 +132,12 @@ Used goods
     & *Note that all of these places have big yacht concentrations. The more boats there are, the more used gear you will find.
   Local notice boards
     & It's a good idea to look at marina notice boards when foreign yachts start populating your area. We've seen many ads with amazing deals: lots of cheap dinghies, outboards, paddle boards etc. More often than not, people are just passing through and want to get rid of items quickly.
-    & We walk by the marina office everyday, and always stop to look for new notices. This is how we got our extra solar panels. We purchased two 90W solar panels for 150$ from an older English couple, they sold these panels to upgrade to larger models (they have more electronics and toys than we do). We've installed them already and they work perfectly, the owner of the boat even came to help us set them up (the sailing community is awesome like that). 
+    & We walk by the marina office everyday, and always stop to look for new notices. This is how we got our extra solar panels. We purchased two 90W {{solar panels|#Electricity}} for 150$ from an older English couple, they sold these panels to upgrade to larger models (they have more electronics and toys than we do). We've installed them already and they work perfectly, the owner of the boat even came to help us set them up (the sailing community is awesome like that). 
   Marina trash
     & Every time we bring recycling to the marina bins, we look at the trash to see if there are any goodies. The other day we found a working 600W inverter, with american-style outlets. Chances are the owner wanted to upgrade to a higher wattage, and didn't think it worth while to sell this one (given the voltage). There aren't that made north american yachts passing through NZ on a yearly basis, and the ones that are there are not necessarily looking for inverters (most yachts need bigger inverters than this). This was a godsend for us, we needed to upgrade our little 250W. Now we can charge both of our laptops at once (yay).
     & If you keep your boat near a big city where lots of racers congregate, chances are the marinas in the area will have bins with lots of good gear. Racing yachts are particular about their boats, some count the number of tacks they make and replace the sail when they reach a certain number. I imagine the sail's performance may be reduced, but to a cruiser or tinkerer, there are many things one can do with an old sail. Friends of ours have found great-looking sails in trash bins around big marinas in Auckland.
     & We've seen entire boat ovens, rigging wire and jabsco toilets in bins. While these items may not be working, sometimes you can salvage parts. We've collected many items over the past 2 years, we almost always find a use for them*.
-    & *Note: in no way do we want to become hoarders, it's important to be selective in your findings. Otherwise, after a year of accumulation, it's always a good idea to review what you have and to get rid of stuff. Swap meets are great for that.
+    & *Note: in no way do we want to become hoarders, it's important to be selective in your findings. Otherwise, after a year of accumulation, it's always a good idea to review what you have and to get rid of stuff. {{Swap meets|#Swap meets}} are great for that.
   Thrift stores
     & Back when we lived on land, we moved a lot. Instead of purchasing new items, we would get them at thrift stores and then return the items when they were no longer needed. In Montreal, we purchased items from Les Petits freres, a store who's proceeds goes into helping the elderly. They could help themselves to items in the store for free. The items you give and take serve a much greater purpose than you think.
     & Recently, Devine & I wanted to buy a sewing machine so we could do some projects on the boat. Most of the machines we saw in store didn't fit our budget. There is also the fact that we have limited knowledge of such things, and turned to our sailing friends for model suggestions.  
@@ -146,17 +147,21 @@ Used goods
 Resources
   Manuals
     - {*The Feeding and Caring of the Offshore Crew*}, Pardey
-    - {*Self-sufficiant Sailor*}, Pardey
+    - {*Self-sufficient Sailor*}, Pardey
     - {*World Cruising Routes*}, Jimmy Cornel
     - {*How to sail around the world*}, Hal Roth
     - {*The Seaworthy Offshore Sailboat*}, John Vigor
     - {*The Complete Anchoring Handbook*}, Poiraud Achim Ginsberg-Klemmt
   Travel Literature
     - {*An Island To Oneself*}, Tom Neale
-    - {*North Into The Night*}, Simon
-    - {*The Curve Of Time*}, Blanchet
-    - {*Walden*}, Thoreau
-    - {*The Box Wine Sailors*}, McCullough
+    - {*North Into The Night*}, Alvah Simon
+    - {*The Curve Of Time*}, Wylie Blanchet
+    - {*Walden*}, Henry David Thoreau
+    - {*The Box Wine Sailors*}, Amy McCullough
+  Documentaries
+    - {{Life on a little wooden boat|https://vimeo.com/94842405}} 
+    - {{Minimalism in a tiny home at sea|https://www.youtube.com/watch?v=CkaH_UUH0Ek}}
+    - {{Untie the lines|https://www.youtube.com/watch?v=VERYUyO93_Y}}
 `);
 
 invoke.vessel.seal("dict","knowledge",payload);
