@@ -32,7 +32,7 @@ c.headline p { text-align: center;display: block;font-size: 18px;font-weight: bo
 c.headline p a { cursor: pointer; }
 
 c.menu { display: block; text-align: center; font-weight: bold; font-size:12px; padding:20px; margin-bottom:75px }
-c.menu a { border:2px solid white;padding:5px 10px;border-radius: 100px; margin-right:10px; }
+c.menu a { border:2px solid white;padding:5px 10px;border-radius: 100px; margin-right:10px; line-height: 40px}
 c.menu a:hover { border:2px solid #333; cursor: pointer;}
 
 ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
@@ -50,7 +50,7 @@ c.introduction ul li b { display: inline-block;width: calc(50% - 15px);font-weig
 c.introduction ul li span { display: inline-block; width:calc(50% - 15px); text-align: left; padding-left:15px; }
 c.introduction a { text-decoration: underline; }
 
-c.timeline { margin:30px 0px; position: relative;overflow: hidden; padding-bottom:0px}
+c.timeline { margin:30px 0px; position: relative;overflow: hidden; padding-bottom:100px}
 c.timeline event { display: block; font-size:12px; position:relative; left:calc(50% - 10px); line-height: 30px; margin-bottom: 20px; clear:both;z-index:999;max-width: 25vw;padding-left:200px;text-align: left;}
 c.timeline event svg { width: 20px;height: 20px;display: inline-block;position: absolute;left: 0px;top: 5px;z-index: 900}
 c.timeline event svg line { stroke:#fff; }

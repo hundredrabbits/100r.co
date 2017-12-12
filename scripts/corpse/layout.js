@@ -28,9 +28,9 @@ function Layout(host)
     </c>
     <c class="menu">
       <a href="https://hundredrabbits.itch.io" target="_blank">Games</a> 
-      <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">Videos</a> 
-      <a id='toggle_about'>About</a> 
-      <a href="resources.html">Resources</a> 
+      <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">Videos</a>
+      <a href="resources.html">Resources</a>  <br />
+      <a id='toggle_about'>About</a>
       <a id='toggle_support'>Support Us</a>
     </c>
     <div id='about'>
