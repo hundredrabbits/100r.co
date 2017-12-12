@@ -54,6 +54,9 @@ function Invoke(name)
     if(remaining.length == 0){
       this.start();
     }
+    else{
+      console.log("Waiting for:",remaining[0])
+    }
   }
 
   this.start = function()
