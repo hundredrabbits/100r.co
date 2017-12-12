@@ -109,5 +109,19 @@ c.timeline event.press line { width: 160px; }
 #about p.small { font-size: 12px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
 #about img { max-width: 95%; margin-bottom: 30px; border-radius: 3px }
 
+#knowledge { max-width: 600px; display: block; margin:100px auto; padding-left:200px;font-family: 'Helvetica Neue',Helvetica,Arial; }
+#knowledge h2 { display: block; font-size:20px; color:#fff; margin-bottom: 15px; font-weight:normal; font-family: "alte_haas_grotesk_bold"; line-height: 40px; text-transform: capitalize;border-top: 1px solid #333;padding-top: 10px; margin-top:15px; }
+#knowledge h2:target { color:red; }
+#knowledge p { margin-bottom: 20px;font-size: 14px;line-height: 20px; }
+#knowledge p b { font-weight:bold; }
+#knowledge p a { font-weight:bold;display: inline-block;border-bottom: 2px solid red }
+#knowledge list { display: block }
+#knowledge list ln { display: block; font-size:14px; line-height: 25px }
 
+#knowledge list.sidebar { margin-bottom: 20px;font-size: 12px;line-height: 20px;position: absolute;left: calc(50% - 450px);width: 200px;text-align: right; top:360px; text-transform: capitalize; font-weight: bold; }
+#knowledge list.sidebar ln { display: block;  }
+#knowledge list.sidebar ln.topic { color:#555; margin-top:20px; }
+#knowledge list.sidebar ln a:hover { text-decoration: underline; cursor: pointer; }
+#knowledge yu { display: block; }
+#knowledge img { margin: 0px auto;display: block }
 

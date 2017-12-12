@@ -3,30 +3,33 @@ function Runic(raw)
   this.raw = raw;
 
   this.runes = {
-    "&":{tag:"p"},
-    "-":{tag:"list",sub:"ln",stash:true},
-    "#":{tag:"code",sub:"ln",stash:true},
-    "?":{tag:"note"},
-    ":":{tag:"info"},
-    "*":{tag:"h2"},
-    "=":{tag:"h3"},
-    "+":{tag:"hs"},
-    "|":{tag:"tr",sub:"td",rep:true},
-    "»":{tag:"tr",sub:"th",rep:true},
-    ">":{tag:""}
+    "&":{tag:"p",class:""},
+    "~":{tag:"list",sub:"ln",class:"parent",stash:true},
+    "-":{tag:"list",sub:"ln",class:"",stash:true},
+    "#":{tag:"code",sub:"ln",class:"",stash:true},
+    "?":{tag:"note",class:""},
+    ":":{tag:"info",class:""},
+    "*":{tag:"h2",class:""},
+    "=":{tag:"h3",class:""},
+    "+":{tag:"hs",class:""},
+    "|":{tag:"tr",sub:"td",class:"",rep:true},
+    "»":{tag:"tr",sub:"th",class:"",rep:true},
+    ">":{tag:"",class:""}
   }    
 
   this.markup = function(html)
   {
     html = html.replace(/{_/g,"<i>").replace(/_}/g,"</i>")
     html = html.replace(/{\*/g,"<b>").replace(/\*}/g,"</b>")
+    html = html.replace(/{\#/g,"<code class='inline'>").replace(/\#}/g,"</code>")
 
     var parts = html.split("{{")
     for(id in parts){
       var part = parts[id].split("}}")[0];
       var target = part.indexOf("|") > -1 ? part.split("|")[1] : "/"+part;
       var name = part.indexOf("|") > -1 ? part.split("|")[0] : part;
-      html = html.replace("{{"+part+"}}","<a href='"+target+"'>"+name+"</a>")
+
+      html = html.replace("{{"+part+"}}","<a href='"+target.replace(" ","+")+"' class='"+((target.indexOf("https:") > -1 || target.indexOf("http:") > -1 || target.indexOf("dat:") > -1) ? "external" : "local")+"'>"+name+"</a>")
     }
 
     return html;
@@ -45,7 +48,7 @@ function Runic(raw)
       var trail = lines[id].substr(1,1);
       var line = this.markup(lines[id].substr(2));
       if(!line || line.trim() == ""){ continue; }
-      if(!rune){ return "Unknown rune:("+rune+")"; }
+      if(!rune){ console.log("Unknown rune",rune); }
       if(trail != " "){ console.warn("Runic","Non-rune["+trail+"] at:"+id+"("+line+")"); continue; }
       html += this.render(line,rune);
     }
@@ -62,11 +65,11 @@ function Runic(raw)
   {
     // Append to Stash
     if(this.stash.length > 0){
-      if(rune && this.stash[0].rune.tag == rune.tag){
-        this.stash.push({line:line,rune:rune});return "";
+      if(rune && this.stash[0].rune.tag == rune.tag && rune.stash){
+        this.stash.push({line:line,rune:rune}); return "";
       }
       else{
-        var print = this.pop_stash(); this.stash = []; return print;
+        var print = this.pop_stash(); this.stash = []; return print+(rune ? "<"+rune.tag+" class='"+rune.class+"'>"+line+"</"+rune.tag+">" : "");
       }
     }
     // New Stash
@@ -74,19 +77,27 @@ function Runic(raw)
       this.stash.push({line:line,rune:rune}); return "";
     }
     // Default
-    return rune ? "<"+rune.tag+">"+line+"</"+rune.tag+">" : "";
+    return rune ? (rune.tag ? "<"+rune.tag+" class='"+rune.class+"'>"+line+"</"+rune.tag+">" : line) : "";
   }
 
   this.pop_stash = function(stash = this.stash)
   {
     var html = ""
     for(id in stash){
-      html += "<"+stash[0].rune.sub+">"+stash[id].line+"</"+stash[0].rune.sub+">\n";
+      html += "<"+stash[0].rune.sub+" class='"+stash[id].rune.class+"'>"+stash[id].line+"</"+stash[0].rune.sub+">\n";
     }
-    return "<"+stash[0].rune.tag+">"+html+"</"+stash[0].rune.tag+">";
+    return "<"+stash[0].rune.tag+" class='"+stash[0].rune.class+"'>"+html+"</"+stash[0].rune.tag+">";
   }
 
-  this.html = this.parse(raw);
+  this.html = function()
+  {
+    return this.parse(this.raw);
+  }
+
+  this.toString = function()
+  {
+    return this.html();
+  }
 }
 
 invoke.seal("core","runic");
