@@ -151,7 +151,7 @@ Resources
     - {*How to sail around the world*}, Hal Roth
     - {*The Seaworthy Offshore Sailboat*}, John Vigor
     - {*The Complete Anchoring Handbook*}, Poiraud Achim Ginsberg-Klemmt
-    + Travel Literature
+  Travel Literature
     - {*An Island To Oneself*}, Tom Neale
     - {*North Into The Night*}, Simon
     - {*The Curve Of Time*}, Blanchet
