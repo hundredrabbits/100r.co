@@ -33,7 +33,7 @@ Off The Grid
     & Being in good physical shape is important, wether you need to run, jump or lift something heavy without injuring yourself. Knowing how to tie solid knots is paramount, knowing how to tie a good {bowline knot} could save your life.
     & A good stainless-steel {*knife*}, a spindle of {*paracord*}, a phone-size {*ziplock bag*}, a waterproof {*flashlight*} and a good {*drinking bottle*} for fresh water will go a long way.
   Nutrition
-    & Following a {{plant-based diet|Nutrition}} while traveling is possible. Planning provisions ahead is important, a lot of the places may not have specialty items. We found nutritional yeast, miso, flax seeds and B12 supplements, especially hard to find.
+    & Following a {{plant-based diet|http://grimgrains.com}} while traveling is possible. Planning provisions ahead is important, a lot of the places may not have specialty items. We found nutritional yeast, miso, flax seeds and B12 supplements, especially hard to find.
     & Buying a large supply of shelf-stable tofu is always a good idea; as it is a complete protein that can be used to make sauces and sautees, while providing calcium. Carry iodized salt, or items with iodine like seaweed.
     & Staples like nut milks and oats are found everywhere, varying in price and quality. There will always be fresh vegetables available, but the selection can be poor at times. Carrying cans and and dried version of those foods can help, for example: canned and dried potatoes. Canned spinach may not be appealing, but in a place where there are no leafy greens available, it's better than not having any at all.
   Distractions
