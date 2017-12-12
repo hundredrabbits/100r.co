@@ -19,13 +19,18 @@ function KnowledgeBase(host)
       sidebar_html += "<ln class='topic'>"+name+"</ln>"
       for(id in topics){
         var content = topics[id];
-        html += "<h2 id='"+id+"'>"+id+"</h2>";
-        sidebar_html += "<ln><a href='#"+id+"'>"+id+"</a></ln>"
+        html += "<h2 id='"+this.format_hash(id)+"'>"+id+"</h2>";
+        sidebar_html += "<ln><a href='#"+this.format_hash(id)+"'>"+id+"</a></ln>"
         html += new Runic(content);
       }
     }
 
     return "<list class='sidebar'>"+sidebar_html+"</list>"+html;
+  }
+
+  this.format_hash = function(str)
+  {
+    return str.replace(/ /g,'_').toLowerCase();
   }
 }
 
