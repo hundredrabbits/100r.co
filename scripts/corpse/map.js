@@ -5,7 +5,7 @@ function Google_Map()
 
   this.start = function()
   {
-    var current_coord = {lat: -35.836830, lng: 174.468635};
+    var current_coord = this.here();
     map = new google.maps.Map(document.getElementById('map'), { center: current_coord, zoom: 8, disableDefaultUI: true });
 
     map.set('styles', invoke.vessel.corpse.map.style);
@@ -51,6 +51,22 @@ function Google_Map()
         var lat = parseFloat(c.split(",")[0].trim());
         var lng = parseFloat(c.split(",")[1].trim())
         coordinates.push({lat:lat,lng:lng});
+      }
+    }
+    return coordinates;
+  }
+
+  this.here = function()
+  {
+    var coordinates = [];
+    for(id in invoke.vessel.timeline.events){
+      var event = invoke.vessel.timeline.events[id];
+      if(event.type != "sail"){ continue; }
+      for(i in event.posi){
+        var c = event.posi[i];
+        var lat = parseFloat(c.split(",")[0].trim());
+        var lng = parseFloat(c.split(",")[1].trim())
+        return {lat:lat,lng:lng};
       }
     }
     return coordinates;
