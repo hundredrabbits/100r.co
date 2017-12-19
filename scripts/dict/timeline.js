@@ -1,5 +1,11 @@
 var $TIMELINE = new Memory(`
 
+2017-12-19
+  TYPE : video
+  NAME : December 2017
+  TEXT : December 2017: Our meeting on the private island of Pakatoa 
+  LINK : https://www.youtube.com/watch?v=kq5BOsgO_4k
+
 2017-12-15
   TYPE : sail
   NAME : Auckland, NZ
@@ -42,7 +48,7 @@ var $TIMELINE = new Memory(`
 2017-11-19
   TYPE : video
   NAME : November 2017
-  TEXT: Our Salty Sail to New Zealand
+  TEXT : Our Salty Sail to New Zealand
   LINK : https://www.youtube.com/watch?v=hI_W5fgZUQU
 
 2017-11-13
