@@ -1017,9 +1017,6 @@ var $TIMELINE = new Memory(`
   NAME : Haul Out
   VLUE : -300
 
-2016-01-28
-  TYPE : sailboat
-
 2016-01-27
   TYPE : expense
   NAME : Yamaha 33 Sloop
