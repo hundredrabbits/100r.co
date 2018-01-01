@@ -88,11 +88,11 @@ c.timeline event.press line { width: 160px; }
 #hundredrabbits { width: 100vw;height: 100vh;z-index: 9000;position: absolute;top:-30px;left:0px; padding-bottom:100px; }
 #map { height:100vh; width:100vw; position: fixed !important; top:0px; left:0px; }
 
-#about p, #support p { margin-bottom: 30px; line-height: 24px }
-#about a, #support a  { text-decoration: underline; }
-#about h2, #support h2 { font-size: 30px;margin-bottom: 30px;font-weight: normal;font-family: "alte_haas_grotesk_bold" }
-#about b, #support b { font-weight: bold }
-#about columns, #support columns { display: block;columns: 2;font-size: 14px;column-gap: 50px;margin-bottom: 45px }
+#about p, #support p, #game p { margin-bottom: 30px; line-height: 24px }
+#about a, #support a { text-decoration: underline; }
+#about h2, #support h2, #game h2 { font-size: 30px;margin-bottom: 30px;font-weight: normal;font-family: "alte_haas_grotesk_bold" }
+#about b, #support b, #game b { font-weight: bold }
+#about columns, #support columns, #game columns { display: block;columns: 2;font-size: 14px;column-gap: 50px;margin-bottom: 45px }
 
 #support { background: black; max-width: 600px; margin: 0px auto; padding: 30px 45px; display: none}
 #support list { display: block;margin-bottom: 30px }
@@ -108,6 +108,12 @@ c.timeline event.press line { width: 160px; }
 #about list ln { display: block; }
 #about p.small { font-size: 12px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
 #about img { max-width: 95%; margin-bottom: 30px; border-radius: 3px }
+
+#game { background: black; max-width: 600px; margin: 0px auto; padding: 30px 45px; display: none }
+#game list { display: block;margin-bottom: 30px }
+#game list ln { display: block; }
+#game p.small { font-size: 12px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
+#game img { max-width: 95%; margin-bottom: 30px; border-radius: 3px }
 
 #knowledge { max-width: 600px; display: block; margin:100px auto; padding-left:200px;font-family: 'Helvetica Neue',Helvetica,Arial; }
 #knowledge h2 { display: block; font-size:20px; color:#fff; margin-bottom: 15px; font-weight:normal; font-family: "alte_haas_grotesk_bold"; line-height: 40px; text-transform: capitalize;border-top: 1px solid #333;padding-top: 10px; margin-top:15px; }

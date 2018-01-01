@@ -26,13 +26,26 @@ function Layout(host)
       <h1>Hundred Rabbits</h1>
       <p>We have sailed <a id='show_map'>`+(km.toString().substr(0,2)+"'"+km.toString().substr(2,3))+`km</a> making tools and games aboard <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>.</p>
     </c>
+
     <c class="menu">
-      <a href="https://hundredrabbits.itch.io" target="_blank">Games</a> 
+      <a href="https://hundredrabbits.itch.io" target="_blank">Store</a> 
       <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">Videos</a>
-      <a href="resources.html">Resources</a>  <br />
+      <a href="resources.html">Resources</a>
       <a id='toggle_about'>About</a>
       <a id='toggle_support'>Support Us</a>
+      <a id='toggle_game'>Games</a>
     </c>
+
+    <div id='game'>
+      <h2>Our games</h2>
+      <p>Selecting a game will take you to a microsite, containing additional information about each project. Each page also features a presskit.</p>
+      <center>
+        <a href='http://markl.100r.co' target='_blank'><img src="media/content/logo.markl.png"></a>
+        <a href='http://oquonie.100r.co' target='_blank'><img src="media/content/logo.oquonie.png"></a>
+        <a href='http://donsol.100r.co' target='_blank'><img src="media/content/logo.donsol.png"></a>
+      </center>
+    </div>
+
     <div id='about'>
       <img src="media/content/profile.about.jpg">
       <h2>The Rabbits</h2>
@@ -71,6 +84,7 @@ function Layout(host)
 
     document.getElementById("toggle_about").addEventListener("click", this.toggle_about);
     document.getElementById("toggle_support").addEventListener("click", this.toggle_support);
+    document.getElementById("toggle_game").addEventListener("click", this.toggle_game);
     document.getElementById("show_map").addEventListener("click", this.show_map);
   
     for(id in invoke.vessel.timeline.events){
@@ -85,22 +99,32 @@ function Layout(host)
     document.body.appendChild(this.map.el)
   }
 
+this.toggle_game = function(e)
+  {
+    document.getElementById("about").style.display = "none";
+    document.getElementById("support").style.display = "none";
+    document.getElementById("game").style.display = "block";
+  }
+
   this.toggle_about = function(e)
   {
     document.getElementById("about").style.display = "block";
     document.getElementById("support").style.display = "none";
+    document.getElementById("game").style.display = "none";
   }
 
   this.toggle_support = function(e)
   {
     document.getElementById("about").style.display = "none";
     document.getElementById("support").style.display = "block";
+    document.getElementById("game").style.display = "none";
   }
 
   this.show_map = function(e)
   {
     document.getElementById("about").style.display = "none";
     document.getElementById("support").style.display = "none";
+    document.getElementById("game").style.display = "none";
     document.getElementById("hundredrabbits").style.display = "none";
   }
 

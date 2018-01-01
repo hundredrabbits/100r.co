@@ -286,7 +286,7 @@ var $TIMELINE = new Memory(`
 2017-01-07
   TYPE : release
   NAME : Donsol
-  LINK : https://hundredrabbits.itch.io/donsol
+  LINK : http://donsol.100r.co
   TEXT : Donsol is a card game about exploring a dungeon made of a standard 54 poker card set.
 
 2016-12-27
@@ -303,6 +303,7 @@ var $TIMELINE = new Memory(`
 2016-12-24
   TYPE : release
   NAME : Oquonie
+  LINK : http://oquonie.100r.co
   TEXT : Oquonie is a textless puzzle game in which you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
 
 2016-12-23
