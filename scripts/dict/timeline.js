@@ -19,12 +19,45 @@ var $TIMELINE = new Memory(`
   TEXT : December 2017: Our meeting on the private island of Pakatoa 
   LINK : https://www.youtube.com/watch?v=kq5BOsgO_4k
 
+2017-12-17
+  TYPE : sail
+  NAME : Kawau Island, NZ
+  VLUE : 20
+  TEXT : Anchored in Bon Accord harbour, to let a spell of bad weather pass before heading back up to Whangarei. A boat nearly dragged into us, given the wind.
+  POSI
+    -36.426799, 174.835928
+
+2017-12-16
+  TYPE : sail
+  NAME : Waiheke Island, NZ
+  VLUE : 10
+  TEXT : Raised our gennaker and raced to Huruhi bay. Went to plant potatoes on land with friends. 
+  POSI
+    -36.794595, 175.012414
+
 2017-12-15
   TYPE : sail
   NAME : Pakatoa Island, NZ
-  VLUE : 80
+  VLUE : 20
+  TEXT : Had a guided tour of the island and of its abandoned 60's resort. Had a campfire at night, experienced bioluminescence on sand for the first time.
   POSI
     -36.792672, 175.189824
+
+2017-12-14
+  TYPE : sail
+  NAME : Kawau Island, NZ
+  VLUE : 20
+  TEXT : Anchored in North Cove for the day, found out later that this is where Lin Pardey lives.
+  POSI
+    -36.409248, 174.830599
+
+2017-12-13
+  TYPE : sail
+  NAME : Urquharts Bay, NZ
+  VLUE : 10
+  TEXT : Waited in this bay to leave early next morning. The wind was blowing hard from the south still, waiting is better.
+  POSI
+    -35.846378, 174.530205
 
 2017-12-03
   TYPE : expense
