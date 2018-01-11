@@ -1,5 +1,11 @@
 var $TIMELINE = new Memory(`
 
+2018-01-11
+  TYPE : video
+  NAME : Capsule 7
+  TEXT : Capsule 7: A Tour Of Pino, a Yamaha 33 Sailboat 
+  LINK : https://www.youtube.com/watch?v=Ds2mIS6w8p0
+
 2017-12-21
   TYPE : sail
   NAME : Whangarei, NZ
