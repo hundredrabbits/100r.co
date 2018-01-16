@@ -1,5 +1,11 @@
 var $TIMELINE = new Memory(`
 
+2018-01-16
+  TYPE : press
+  NAME : ​Checkpoints podcast
+  TEXT : Episode #112: Devine Lu Linvega
+  LINK : http://declandineen.com/checkpoints/kf54xkfyccgstbsbarnpb2nss3tcrw-ej3a7-9sadh-jxes2-crl62-58nhd-zex9e-r2pz9-7xztw-zk9db-wnxa7-j9mba-xr5xx-je849-nmgan-y75cn-rwapt-m97yr-nyhb6-mr2gx
+
 2018-01-11
   TYPE : video
   NAME : Capsule 7
