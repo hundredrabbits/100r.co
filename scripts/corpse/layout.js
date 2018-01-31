@@ -60,26 +60,39 @@ function Layout(host)
     </div>
 
     <div id='support'>
-      <h2>Become a patron of our floating studio</h2>
+      <h2>The first studio on a sailboat</h2>
+      <p>We never thought it possible to have a studio on a sailboat, we have people like you to thank for that. Whether it be because you like our games, or that you use our tools and want to see us make more. Or maybe it's because you share our view of open-source content.</p>
+      <p>Whatever it may be, here is how you can help us...</p>
+
+      <h2>Become a patron</h2>
       <p class='large'><a href="https://www.youtube.com/watch?v=wH-IDF809fQ" target="_blank">Patreon</a> help fund artists as they produce smaller works like music, art and tools.</p>
       <columns>
-        <p>To do this, go to our <a href="https://patreon.com/100" target="_blank">Patreon page</a> and click on the <b>Become a patron</b> button. You have the option of choosing a reward (each tier has different rewards), and that's it!</p>
+        <p>To give a donation, go to our <a href="https://patreon.com/100" target="_blank">Patreon page</a> and click on the <b>Become a patron</b> button. You have the option of choosing a reward (each tier has different rewards), and that's it!</p>
         <p>Your donations permits us to continue to produce open-source content. We believe that tools should always be free, your donations will help ensure this. Our games, while being paid games, are open source too and viewable on our <a href="https://github.com/hundredrabbits" target="_blank">github</a>.</p> 
         <p>Your support also goes into creating our <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">monthly videos</a> that go in depth on our projects, and life on a sailboat (that is free for everyone to watch). We have learned a lot from the shared experiences of others, we hope that our videos will have the same effect.</p>
         <p>All the money we get is re-invested back into the Hundredrabbits projects. With your support we can also pay for internet and for the inevitable - and incessant - upkeep of our devices (which often break at sea, and from continued use).</p> 
-        <p>Thank you for your support!<br /><b>Rekka & Devine</b></p>
+        <form action="https://patreon.com/100" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="B7NZHUNK2WGNJ">
+        <input type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class='button' value='Become a Patron'>
+      </form>
+      <br>
+        <p>Thank you for your support!<br/><b>Rekka & Devine</b></p>
       </columns>
-      <h2>Alternative ways to Support Us</h2>
-      <list>
-        <ln><b>$ETH</b> 0x7a5f5d9B697F04f5deE82c81859F7cC4FDb6e990</ln>
-        <ln><b>$BTC</b> 1NU2Pso6nYbRpCAftX3yqQW9w2NSUxzsNa</ln>
-      </list>
-      <p> You can also use paypal to show your support.</p>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <h2>How else can I show my support?</h2>
+      <p> If making monthly donation doesn't work for you, but you still want to show your appreciation. You can make a one time donation on paypal...</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="B7NZHUNK2WGNJ">
         <input type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class='button' value='Go to Paypal'>
       </form>
+      <br>
+      <p>Or you can go the cryptocurrency route.</p>
+      <list>
+        <ln><b>$ETH</b> 0x7a5f5d9B697F04f5deE82c81859F7cC4FDb6e990</ln>
+        <ln><b>$BTC</b> 1NU2Pso6nYbRpCAftX3yqQW9w2NSUxzsNa</ln>
+      </list>
+  
     </div>`
 
     document.getElementById("toggle_about").addEventListener("click", this.toggle_about);
