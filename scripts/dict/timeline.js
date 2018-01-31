@@ -1,5 +1,12 @@
 var $TIMELINE = new Memory(`
 
+
+2018-01-30
+  TYPE : video
+  NAME : January 2018
+  TEXT : January 2018: Our sailboat to-do's
+  LINK : https://youtu.be/4olb-3BQU2E
+
 2018-01-16
   TYPE : press
   NAME : ​Checkpoints podcast
