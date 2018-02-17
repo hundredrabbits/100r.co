@@ -43,6 +43,7 @@ function Layout(host)
         <a href='http://markl.100r.co' target='_blank'><img src="media/content/logo.markl.png"></a>
         <a href='http://oquonie.100r.co' target='_blank'><img src="media/content/logo.oquonie.png"></a>
         <a href='http://donsol.100r.co' target='_blank'><img src="media/content/logo.donsol.png"></a>
+        <a href='https://hundredrabbits.itch.io/hiversaires' target='_blank'><img src="media/content/logo.hiversaires.png"></a>
       </center>
     </div>
 
@@ -53,7 +54,7 @@ function Layout(host)
         <p>We are <b>Rekka</b> & <b>Devine</b>, two unlikely sailors. In January 2016 we left the cold of Montreal and moved west to British Columbia, there, we purchased our sailboat <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>. Keep in mind, we were a pair of city kids with limited outdoor experience, and neither of us had ever stepped onto a sailboat before.</p>
         <p>So why a sailboat? In 2012 we moved to Japan, there, we worked on our first games Hiversaires and Oquonie (the latter was completed in Thailand). We love how those travel experiences impacted our projects. After we returned to Canada, we decided that traveling best fueled our work and so we looked at our options. Moving to a new country means selling all you have, we have done this countless times (and are tired of it). We had heard of people living on sailboats like SY <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>Lizzy Belle</a> (David Wellsford), SY <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Daphne</a> (Terese Carey) and SY <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Karl</a> (Nike Steiger), and became obssessed with the idea. Lack of experience aside, we thought that being in a mobile studio would help us accomplish our desire to travel while having a stable home.</p> 
         <p>Since then, we have left Canada and have sailed down the american west coast and over to Mexico. After that, we made the big jump across the pacific to French Polynesia, and crossed the wondrous south pacific islands over to New Zealand (where we are currently). Our goal right now is to make it back to Japan with Pino. We have become true digital nomads, we share our experience in the form of monthly videos; all the while, creating art, tools, books and games.</p>
-        <p>Our goal is to keep traveling, while continuing to work on <a href="https://itch.io/c/248074/tools" target="_blank">cool stuff</a>.</p>        
+        <p>Our goal is to keep moving, while continuing to work on <a href="https://itch.io/c/248074/tools" target="_blank">cool stuff</a>.</p>        
       </columns>
       <img src="media/content/sailboat.boat.jpg">
       <p class='small'>Our <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>sailboat</a> is a Yamaha33, a 1982 masthead sloop sailboat. 'Pino' is the name of an android in the anime Ergo Proxy.'Hundredrabbits' is inspired from an imaginary sailboat (also, frome Ergo proxy) named the 'centzon totochtin', or 'four hundred rabbits'.</p>
@@ -61,8 +62,7 @@ function Layout(host)
 
     <div id='support'>
       <h2>The first studio on a sailboat</h2>
-      <p>We never thought it possible to have a studio on a sailboat, we have people like you to thank for that. Whether it be because you like our games, or that you use our tools and want to see us make more. Or maybe it's because you share our view of open-source content.</p>
-      <p>Whatever it may be, here is how you can help us...</p>
+      <p>We never thought it possible to have a studio on a sailboat, we have people like you to thank for that. Any amount of subscriptions and donations helps us become less dependent on app sales, and allows us to invest more time in fine-tuning tools for you to use. All we want is for everyone to be able to create cool stuff, and to have access to free tools to do it.</p>
 
       <h2>Become a patron</h2>
       <p class='large'><a href="https://www.youtube.com/watch?v=wH-IDF809fQ" target="_blank">Patreon</a> help fund artists as they produce smaller works like music, art and tools.</p>
@@ -80,7 +80,7 @@ function Layout(host)
         <p>Thank you for your support!<br/><b>Rekka & Devine</b></p>
       </columns>
       <h2>How else can I show my support?</h2>
-      <p> If making monthly donation doesn't work for you, but you still want to show your appreciation. You can make a one time donation on paypal...</p>
+      <p> If making a monthly donation doesn't work for you, but you still want to show your appreciation. You can make a one time donation on paypal.</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="B7NZHUNK2WGNJ">

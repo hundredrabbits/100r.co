@@ -1,5 +1,10 @@
 var $TIMELINE = new Memory(`
 
+2018-02-17
+  TYPE : release
+  NAME : Hiversaires
+  TEXT : Hiversaires re-release
+  LINK : https://hundredrabbits.itch.io/hiversaires
 
 2018-01-30
   TYPE : video
