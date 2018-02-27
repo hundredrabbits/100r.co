@@ -1,5 +1,15 @@
 var $TIMELINE = new Memory(`
 
+2018-02-28
+  TYPE : expense
+  NAME : Haul Out
+  VLUE : -430
+  
+2018-02-26
+  TYPE : expense
+  NAME : Anti-fouling
+  VLUE : -250
+
 2018-02-17
   TYPE : release
   NAME : Hiversaires
