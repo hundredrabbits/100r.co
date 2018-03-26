@@ -1,5 +1,21 @@
 var $TIMELINE = new Memory(`
 
+2018-03-20
+  TYPE : expense
+  NAME : New windows
+  VLUE : -1300
+
+2018-03-23
+  TYPE : press
+  NAME : ​Bonus speaker series
+  TEXT : Talk about digital nomadism at Media design school in Auckland
+  
+2018-02-29
+  TYPE : video
+  NAME : February 2018
+  TEXT : February 2018: Time for a haul-out!
+  LINK : https://youtu.be/Hq0Kyo5l1wE
+
 2018-02-28
   TYPE : expense
   NAME : Haul Out
