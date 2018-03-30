@@ -10,15 +10,10 @@ function Google_Map()
 
     map.set('styles', invoke.vessel.corpse.map.style);
 
+    this.add_destinations();
+
     var path = new google.maps.Polyline({ path: invoke.vessel.corpse.map.path(), geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0, strokeWeight: 2 });
     path.setMap(map);
-
-    invoke.vessel.corpse.map.add_marker("current",current_coord);
-    invoke.vessel.corpse.map.add_marker("polynesia",{lat: -8.826494, lng: -140.142672});
-    invoke.vessel.corpse.map.add_marker("tokyo",{lat: 35.626411, lng: 139.776893});
-    invoke.vessel.corpse.map.add_marker("auckland",{lat: -36.841539, lng: 174.761052});
-    invoke.vessel.corpse.map.add_marker("vladivostok",{lat: 43.114753, lng: 131.872834});
-    invoke.vessel.corpse.map.add_marker("vancouver",{lat: 48.802228, lng: -123.601410});
 
     var lineSymbol = {
       path: 'M 0,-1 0,1',
@@ -53,6 +48,18 @@ function Google_Map()
       "featureType": "road", "elementType": "geometry.stroke", "stylers": [{ "visibility": "on" },{ "weight": 0.1 },{ "color": "#111111" }]},{
       "elementType": "labels.text.stroke", "stylers": [{ "visibility": "off" }]}]
 
+  this.add_destinations = function()
+  {
+    for(id in invoke.vessel.timeline.events){
+      var event = invoke.vessel.timeline.events[id];
+      if(event.type != "sail"){ continue; }
+      var c = event.posi[0];
+      var lat = parseFloat(c.split(",")[0].trim());
+      var lng = parseFloat(c.split(",")[1].trim())
+      this.add_marker(event.name,{lat: lat, lng: lng});
+    }
+  }
+
   this.path = function()
   {
     var coordinates = [];
@@ -68,7 +75,6 @@ function Google_Map()
     }
     return coordinates;
   }
-
 
   this.upcoming_path = function()
   {
@@ -91,6 +97,9 @@ function Google_Map()
 
     // Wakayama
     coordinates.push({lat: 33.738601, lng: 135.278150})
+
+    // Yokohama
+    coordinates.push({lat: 35.447387, lng: 139.695465})
 
     return coordinates;
   }
