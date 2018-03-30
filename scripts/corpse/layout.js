@@ -110,6 +110,10 @@ function Layout(host)
     this.drool.install(document.getElementById("logo"),120);
 
     document.body.appendChild(this.map.el)
+
+    if(window.location.hash == "#map"){
+      this.show_map();
+    }
   }
 
 this.toggle_game = function(e)
@@ -135,6 +139,7 @@ this.toggle_game = function(e)
 
   this.show_map = function(e)
   {
+    window.location.hash = "#map"
     document.getElementById("about").style.display = "none";
     document.getElementById("support").style.display = "none";
     document.getElementById("game").style.display = "none";

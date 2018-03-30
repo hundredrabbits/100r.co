@@ -19,6 +19,19 @@ function Google_Map()
     invoke.vessel.corpse.map.add_marker("auckland",{lat: -36.841539, lng: 174.761052});
     invoke.vessel.corpse.map.add_marker("vladivostok",{lat: 43.114753, lng: 131.872834});
     invoke.vessel.corpse.map.add_marker("vancouver",{lat: 48.802228, lng: -123.601410});
+
+    var lineSymbol = {
+      path: 'M 0,-1 0,1',
+      strokeOpacity: 1,
+      scale: 2
+    };
+
+    var upcoming_path = new google.maps.Polyline({ path: invoke.vessel.corpse.map.upcoming_path(), geodesic: true, strokeColor: '#FF0000', strokeOpacity: 0.0, icons: [{
+      icon: lineSymbol,
+      offset: '0',
+      repeat: '10px'
+    }], });
+    upcoming_path.setMap(map);
   }
 
   this.markers = [];
@@ -53,6 +66,32 @@ function Google_Map()
         coordinates.push({lat:lat,lng:lng});
       }
     }
+    return coordinates;
+  }
+
+
+  this.upcoming_path = function()
+  {
+    var coordinates = []
+
+    // Whangarei, NZ
+    coordinates.push({lat: -35.836830, lng:174.468635})
+
+    // Suva, Fiji
+    coordinates.push({lat: -18.134383, lng: 178.466936})
+
+    // Wallis
+    coordinates.push({lat: -13.351492, lng: -176.215409})
+
+    // Kosrea
+    coordinates.push({lat: 5.348007, lng: 162.946751})
+
+    // Guam
+    coordinates.push({lat: 13.492058, lng: 144.740704})
+
+    // Wakayama
+    coordinates.push({lat: 33.738601, lng: 135.278150})
+
     return coordinates;
   }
 
