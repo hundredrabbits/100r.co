@@ -1,5 +1,11 @@
 var $TIMELINE = new Memory(`
 
+2018-04-05
+  TYPE : press
+  NAME : ​Raspberri Pi blog feature
+  TEXT : Raspberry Pi aboard Pino, the smart sailboat
+  LINK : https://www.raspberrypi.org/blog/pino-smart-sailing-boat/
+
 2018-03-29
   TYPE : video
   NAME : March 2018
