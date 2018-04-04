@@ -6,7 +6,7 @@ function Google_Map()
   this.start = function()
   {
     var current_coord = this.here();
-    map = new google.maps.Map(document.getElementById('map'), { center: current_coord, zoom: 8, disableDefaultUI: true });
+    map = new google.maps.Map(document.getElementById('map'), { center: current_coord, zoom: 4, disableDefaultUI: true });
 
     map.set('styles', invoke.vessel.corpse.map.style);
 
@@ -83,11 +83,11 @@ function Google_Map()
     // Whangarei, NZ
     coordinates.push({lat: -35.836830, lng:174.468635})
 
-    // Suva, Fiji
-    coordinates.push({lat: -18.134383, lng: 178.466936})
+    // Noumea, New Caledonia
+    coordinates.push({lat: -22.261800, lng: 166.481943})
 
-    // Wallis
-    coordinates.push({lat: -13.351492, lng: -176.215409})
+    // Port Vila, Vanuatu
+    coordinates.push({lat: -17.740864, lng: 168.292979})
 
     // Kosrea
     coordinates.push({lat: 5.348007, lng: 162.946751})
@@ -98,8 +98,8 @@ function Google_Map()
     // Wakayama
     coordinates.push({lat: 33.738601, lng: 135.278150})
 
-    // Yokohama
-    coordinates.push({lat: 35.447387, lng: 139.695465})
+    // Osaka Bay
+    coordinates.push({lat: 34.336973, lng: 135.178785})
 
     return coordinates;
   }
