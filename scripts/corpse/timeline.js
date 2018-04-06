@@ -10,8 +10,8 @@ function Timeline(memory)
 
   this.add_events = function()
   {
-    for(date in this.memory.hash){
-      this.events.push(new Event(date,this.memory.hash[date]))
+    for(date in this.memory){
+      this.events.push(new Event(date,this.memory[date]))
     }
     console.info("Added "+this.events.length+" events.")
   }

@@ -1,4 +1,4 @@
-var payload = new Memory(`
+var payload = new Indental(`
   
 Off The Grid
   Water
@@ -201,6 +201,6 @@ Resources
     - {{Life on a little wooden boat|https://vimeo.com/94842405}} 
     - {{Minimalism in a tiny home at sea|https://www.youtube.com/watch?v=CkaH_UUH0Ek}}
     - {{Untie the lines|https://www.youtube.com/watch?v=VERYUyO93_Y}}
-`);
+`).parse();
 
 invoke.vessel.seal("dict","knowledge",payload);

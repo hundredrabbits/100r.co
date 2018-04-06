@@ -1,16 +1,16 @@
 function Event(date,data)
 {
   this.el = document.createElement('event'); 
-  this.el.className = data.type;
+  this.el.className = data.TYPE;
 
   this.date = date;
   this.data = data;
-  this.type = data.type;
-  this.name = data.name;
-  this.text = data.text;
-  this.link = data.link;
-  this.vlue = data.vlue;
-  this.posi = data.posi;
+  this.type = data.TYPE;
+  this.name = data.NAME;
+  this.text = data.TEXT;
+  this.link = data.LINK;
+  this.vlue = data.VLUE;
+  this.posi = data.POSI;
 
   this.el.innerHTML = ""
   this.el.innerHTML += this.type == "video" || this.type == "release" ? `<a href='`+this.link+`' target='_blank'><media style='background-image:url(media/content/event.`+(this.name ? this.name.replace(/ /g,'.').toLowerCase() : '')+`.jpg)'></media></a>` : ''

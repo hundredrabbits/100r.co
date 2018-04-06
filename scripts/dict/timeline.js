@@ -1,4 +1,4 @@
-var $TIMELINE = new Memory(`
+var $TIMELINE = new Indental(`
 
 2018-04-05
   TYPE : press
@@ -1154,6 +1154,6 @@ var $TIMELINE = new Memory(`
   TYPE : first
   NAME : Founded HundredRabbits
   LINK : https://www.patreon.com/100
-`);
+`).parse();
 
 invoke.vessel.seal("dict","timeline");

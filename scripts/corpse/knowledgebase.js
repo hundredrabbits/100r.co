@@ -10,7 +10,7 @@ function KnowledgeBase(host)
 
   this.build = function()
   {
-    var cats = invoke.vessel.storage["knowledge"].hash;
+    var cats = invoke.vessel.storage["knowledge"];
     var html = "";
     var sidebar_html = "";
 
