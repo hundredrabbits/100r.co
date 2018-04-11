@@ -1,5 +1,15 @@
 var $TIMELINE = new Indental(`
 
+2018-04-11
+  TYPE : expense
+  NAME : New Main Sail
+  VLUE : -3300
+
+2018-04-10
+  TYPE : expense
+  NAME : New Gearbox Cables
+  VLUE : -130
+
 2018-04-05
   TYPE : press
   NAME : ​Raspberri Pi blog feature
