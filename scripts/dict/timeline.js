@@ -1,5 +1,11 @@
 var $TIMELINE = new Indental(`
 
+2018-05-01
+  TYPE : release
+  NAME : Paradise
+  TEXT : Paradise re-release
+  LINK : https://hundredrabbits.itch.io/paradise
+
 2018-04-25
   TYPE : video
   NAME : April 2018
