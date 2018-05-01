@@ -44,6 +44,7 @@ function Layout(host)
         <a href='http://oquonie.100r.co' target='_blank'><img src="media/content/logo.oquonie.png"></a>
         <a href='http://donsol.100r.co' target='_blank'><img src="media/content/logo.donsol.png"></a>
         <a href='https://hundredrabbits.itch.io/hiversaires' target='_blank'><img src="media/content/logo.hiversaires.png"></a>
+        <a href='https://hundredrabbits.itch.io/paradise' target='_blank'><img src="media/content/logo.paradise.png"></a>
       </center>
     </div>
 
