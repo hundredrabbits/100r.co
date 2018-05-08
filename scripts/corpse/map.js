@@ -83,11 +83,8 @@ function Google_Map()
     // Whangarei, NZ
     coordinates.push({lat: -35.836830, lng:174.468635})
 
-    // Noumea, New Caledonia
-    coordinates.push({lat: -22.261800, lng: 166.481943})
-
-    // Port Vila, Vanuatu
-    coordinates.push({lat: -17.740864, lng: 168.292979})
+    // Suva, Fiji
+    coordinates.push({lat: -18.141887, lng: 178.471571})
 
     // Kosrea
     coordinates.push({lat: 5.348007, lng: 162.946751})
