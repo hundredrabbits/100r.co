@@ -1,5 +1,10 @@
 var $TIMELINE = new Indental(`
 
+2018-05-08
+  TYPE : expense
+  NAME : AIS Transceiver
+  VLUE : -1600
+
 2018-05-01
   TYPE : release
   NAME : Paradise
