@@ -1,5 +1,13 @@
 var $TIMELINE = new Indental(`
 
+2018-05-23
+  TYPE : maintenance
+  NAME : Changed crank case oil
+
+2018-05-22
+  TYPE : maintenance
+  NAME : Changed alternator belt
+
 2018-05-08
   TYPE : expense
   NAME : AIS Transceiver
