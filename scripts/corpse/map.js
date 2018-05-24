@@ -80,8 +80,8 @@ function Google_Map()
   {
     var coordinates = []
 
-    // Whangarei, NZ
-    coordinates.push({lat: -35.836830, lng:174.468635})
+    // Whangarei, NZ , 
+    coordinates.push({lat: -35.828341, lng:174.521460})
 
     // Suva, Fiji
     coordinates.push({lat: -18.141887, lng: 178.471571})

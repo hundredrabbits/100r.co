@@ -1,5 +1,12 @@
 var $TIMELINE = new Indental(`
 
+2017-05-25
+  TYPE : sail
+  NAME : Opua, NZ
+  VLUE : 110
+  POSI
+    -35.828341, 174.521460
+
 2018-05-23
   TYPE : maintenance
   NAME : Changed crank case oil
