@@ -5,7 +5,9 @@ var $TIMELINE = new Indental(`
   NAME : Opua, NZ
   VLUE : 110
   POSI
-    -35.828341, 174.521460
+    -35.304385, 174.112657
+    -35.251133, 174.297708
+    -35.619508, 174.531416
 
 2018-05-23
   TYPE : maintenance

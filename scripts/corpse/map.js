@@ -6,7 +6,11 @@ function Google_Map()
   this.start = function()
   {
     var current_coord = this.here();
-    map = new google.maps.Map(document.getElementById('map'), { center: current_coord, zoom: 4, disableDefaultUI: true });
+    map = new google.maps.Map(document.getElementById('map'), { 
+      center: current_coord, 
+      zoom: 7, 
+      disableDefaultUI: true 
+    });
 
     map.set('styles', invoke.vessel.corpse.map.style);
 
@@ -38,12 +42,12 @@ function Google_Map()
 
   this.style = [{
       "featureType": "water","elementType": "geometry","stylers": [{ "color": "#000000" }]},{
-      "featureType": "landscape", "stylers": [{ "color": "#222222" }]},{
+      "featureType": "landscape", "stylers": [{ "color": "#333333" }]},{
       "featureType": "transit", "stylers": [{ "visibility": "off" }]},{
       "featureType": "road", "stylers": [{ "visibility": "off" }]},{
       "featureType": "poi", "stylers": [{ "visibility": "off" }]},{
       "featureType": "administrative", "stylers": [{ "visibility": "off" }]},{
-      "featureType": "water", "elementType": "labels.text.fill", "stylers": [{ "visibility": "on" },{ "color": "#222222" }]},{
+      "featureType": "water", "elementType": "labels.text.fill", "stylers": [{ "visibility": "on" },{ "color": "#333333" }]},{
       "featureType": "landscape", "elementType": "labels", "stylers": [{ "color": "#555555" },{ "visibility": "simplified" }]},{
       "featureType": "road", "elementType": "geometry.stroke", "stylers": [{ "visibility": "on" },{ "weight": 0.1 },{ "color": "#111111" }]},{
       "elementType": "labels.text.stroke", "stylers": [{ "visibility": "off" }]}]
@@ -80,8 +84,8 @@ function Google_Map()
   {
     var coordinates = []
 
-    // Whangarei, NZ , 
-    coordinates.push({lat: -35.828341, lng:174.521460})
+    // Last location
+    coordinates.push(this.here())
 
     // Suva, Fiji
     coordinates.push({lat: -18.141887, lng: 178.471571})
