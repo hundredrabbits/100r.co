@@ -4,6 +4,7 @@ var $TIMELINE = new Indental(`
   TYPE : sail
   NAME : Opua, NZ
   VLUE : 110
+  TEXT : We transit north to await a weather window for Fiji, spending time in Taurikura bay, Tutukaka bay, Whangamumu Harbour and Oneroa bay. We tested our new tiller and sail, rounding Cape Brett in high winds was a breeze. 
   POSI
     -35.304385, 174.112657
     -35.251133, 174.297708
