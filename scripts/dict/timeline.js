@@ -1,5 +1,11 @@
 var $TIMELINE = new Indental(`
 
+2018-06-02
+  TYPE : video
+  NAME : May 2018
+  TEXT : May 2018: Leaving New Zealand
+  LINK : https://youtu.be/5pqu_LoxxZ4
+
 2017-05-25
   TYPE : sail
   NAME : Opua, NZ
