@@ -1,5 +1,13 @@
 var $TIMELINE = new Indental(`
 
+2017-06-11
+  TYPE : sail
+  NAME : Savusavu, Fiji
+  VLUE : 1200
+  TEXT : We are transiting toward Fiji.
+  POSI
+    -35.304385, 174.112657
+
 2018-06-02
   TYPE : video
   NAME : May 2018

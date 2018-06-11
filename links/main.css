@@ -80,7 +80,6 @@ c.timeline event.expense circle { fill:#f00; }
 
 c.timeline event.maintenance { display: none }
 
-c.timeline event.sail .details:after { content:"nm"; }
 c.timeline event.sail line { width: 160px; }
 
 c.timeline event.press line { width: 160px; }
