@@ -8,7 +8,7 @@ var $TIMELINE = new Indental(`
   VLUE : 1200
   TEXT : We are transiting toward Fiji.
   POSI
-
+    -21.567383, -179.918497
     -22.970062, 179.595467
     -26.575228, -179.853775
     -26.762868, 179.945785
