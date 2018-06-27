@@ -87,9 +87,6 @@ function Google_Map()
     // Last location
     coordinates.push(this.here())
 
-    // Suva, Fiji
-    coordinates.push({lat: -18.141887, lng: 178.471571})
-
     // Kosrea
     coordinates.push({lat: 5.348007, lng: 162.946751})
 

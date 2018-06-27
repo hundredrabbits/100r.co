@@ -1,7 +1,5 @@
 var $TIMELINE = new Indental(`
 
-
-
 2018-06-11
   TYPE : sail
   NAME : Savusavu, Fiji
