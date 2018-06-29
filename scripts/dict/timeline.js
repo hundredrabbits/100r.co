@@ -1,9 +1,15 @@
 var $TIMELINE = new Indental(`
 
+2018-06-29
+  TYPE : video
+  NAME : June 2018
+  TEXT : June 2018: Sailing from New Zealand to Fiji
+  LINK : https://youtu.be/-xIusjkjnKY
+
 2018-06-11
   TYPE : sail
   NAME : Savusavu, Fiji
-  VLUE : 1200
+  VLUE : 1210
   TEXT : We are transiting toward Fiji.
   POSI
     -16.793807, 179.290818
