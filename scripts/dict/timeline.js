@@ -1,5 +1,11 @@
 var $TIMELINE = new Indental(`
 
+2018-06-30
+  TYPE : press
+  NAME : ​Play by Play 2018
+  TEXT : Digital nomads talk
+  LINK : https://youtu.be/WY5QwPBOsZY
+
 2018-06-29
   TYPE : video
   NAME : June 2018
