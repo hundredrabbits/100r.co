@@ -9,6 +9,7 @@ function Runic(raw)
     "#":{tag:"code",sub:"ln",class:"",stash:true},
     "?":{tag:"note",class:""},
     ":":{tag:"info",class:""},
+    "%":{glyph:"%"},
     "*":{tag:"h2",class:""},
     "=":{tag:"h3",class:""},
     "+":{tag:"hs",class:""},
@@ -44,16 +45,30 @@ function Runic(raw)
     var lines = !Array.isArray(raw) ? raw.split("\n") : raw;
 
     for(id in lines){
+      var char = lines[id].substr(0,1).trim().toString()
       var rune = this.runes[lines[id].substr(0,1)];
       var trail = lines[id].substr(1,1);
       var line = this.markup(lines[id].substr(2));
       if(!line || line.trim() == ""){ continue; }
       if(!rune){ console.log("Unknown rune",rune); }
       if(trail != " "){ console.warn("Runic","Non-rune["+trail+"] at:"+id+"("+line+")"); continue; }
+      if(char == "%"){ html += this.media(line); continue; }
       html += this.render(line,rune);
     }
     html += this.render();
     return html;
+  }
+  
+  this.media = function(val)
+  {
+    var service = val.split(" ")[0];
+    var id = val.split(" ")[1];
+
+    if(service == "itchio"){ return `<iframe frameborder="0" src="https://itch.io/embed/${id}?link_color=000000" width="600" height="167"></iframe>`; }
+    if(service == "bandcamp"){ return `<iframe style="border: 0; width: 600px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=${id}/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/" seamless></iframe>`; }
+    if(service == "youtube"){ return `<iframe width="100%" height="380" src="https://www.youtube.com/embed/${id}" style="max-width:700px" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`; }
+    if(service == "custom"){ return `<iframe src='${id}' style='width:100%;height:350px;'></iframe>`; }
+    return `<img src='media/${val}'/>`
   }
 
   // Render

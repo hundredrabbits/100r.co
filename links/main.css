@@ -147,6 +147,7 @@ c.timeline event.press line { width: 160px; }
 #blog .content p { font-size:16px; line-height: 25px }
 #blog .content p a { background:transparent; color:white;font-family: "alte_haas_grotesk_bold"; }
 #blog .content p a:hover { text-decoration: underline; }
+#blog .content img { display: block;max-width: 100%;margin-bottom: 30px;width: 100%;}
 #blog .content list { display: block;margin-bottom:30px;padding-left:30px;font-family: monospace ;font-size:12px }
 #blog .content list ln { display: block; font-size:14px; line-height: 25px; position: relative; }
 #blog .content list ln b { font-weight: bold }
@@ -157,6 +158,6 @@ c.timeline event.press line { width: 160px; }
 #blog list.sidebar ln.topic { color:#555; margin-top:20px; }
 #blog list.sidebar ln a:hover { text-decoration: underline; cursor: pointer; }
 #blog yu { display: block; }
-#blog img { margin: 0px auto;display: block;position: absolute;left: calc(50% - 400px); top:70px;}
-#blog img:hover { cursor: pointer; opacity: 0.6 }
+#blog #hd img { margin: 0px auto;display: block;position: absolute;left: calc(50% - 400px); top:70px;}
+#blog #hd img:hover { cursor: pointer; opacity: 0.6 }
 

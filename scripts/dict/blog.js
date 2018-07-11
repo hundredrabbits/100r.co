@@ -23,6 +23,7 @@ Diary
       & "I don't know – looks shallow, plus there's a people with dive suits on it. It's probably for the locals." 
       & We glimpsed another free dock further ahead, a finger, part of the marina, it looked like a regular slip. Getting there meant moving inbetween a few boats, channel markers and moorings – the floating dock seemed a better option in comparison. Then, we saw two persons on the marina finger, waving us over. This is where we'd have to dock. Docking is always a nerve-wrecking experience, we didn't have current to contend with but perpendicular to the dock, was a large power boat, with nothing between it and our bow. If we came in too fast, we'd bump into it for sure- bumping into still objects is always embarassing. I was still attaching fenders at this point, while Devine manoeuvered Pino around various obstacles.  
       & "Sailing vessel Pino, this is Coprashed marina."
+      % blog/savusavu.jpg
       & They couldn't have picked a worse time to hail us, the dock lay ahead and two of the lines weren't yet set up. I ran inside, sweating from all the running, it was also 26C out, and I was in full foul-weather gear. Couldn't they see that we were right there and that they could ask us questions later?
       & "This is Pino." I said to them on the radio, trying to peel part of my foul weather gear off because I was cooking inside it.
       & "Where was your last port again?" 
