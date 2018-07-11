@@ -152,7 +152,7 @@ c.timeline event.press line { width: 160px; }
 #blog .content list ln { display: block; font-size:14px; line-height: 25px; position: relative; }
 #blog .content list ln b { font-weight: bold }
 #blog .content list ln a { font-weight: bold }
-#blog .content list ln:before { content: "—";position: absolute;color: #999;left: -15px;}
+#blog .content list ln:before { content: "";position: absolute;color: #999;left: -15px;}
 #blog list.sidebar { margin-bottom: 20px;font-size: 12px;line-height: 20px;position: absolute;left: calc(50% - 450px);width: 200px;text-align: right; top:245px; text-transform: capitalize; font-weight: bold; }
 #blog list.sidebar ln { display: block;  }
 #blog list.sidebar ln.topic { color:#555; margin-top:20px; }
