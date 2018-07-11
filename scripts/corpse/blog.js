@@ -10,19 +10,21 @@ function Blog(host)
 
   this.build = function()
   {
-    var cats = invoke.vessel.storage["blog"].DIARY;
+    var cats = invoke.vessel.storage["blog"];
     var html = "";
     var sidebar_html = "";
-    console.log(cats)
     for(name in cats){
       var topics = cats[name];
       sidebar_html += `<ln class='topic'>${name}</ln>`
       for(id in topics){
         var entry = topics[id];
-        html += "<h2 id='"+this.format_hash(id)+"'>"+id+"</h2>";
         sidebar_html += "<ln><a href='#"+this.format_hash(id)+"'>"+id+"</a></ln>"
-        html += `<h3>${entry.LOCATION} — ${entry.DATE}</h3>`
-        html += new Runic(entry.TEXT);
+        html += `
+        <yu class='content'>
+          <h2 id='${this.format_hash(id)}'>${id}</h2>
+          <h3>${entry.LOCATION} — ${entry.DATE}</h3>
+          ${new Runic(entry.TEXT)}
+        </yu>`
       }
     }
 

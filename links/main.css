@@ -142,13 +142,16 @@ c.timeline event.press line { width: 160px; }
 #blog #md > *:nth-child(2) { border-top:0px; }
 #blog p { margin-bottom: 20px;font-size: 14px;line-height: 20px; }
 #blog p b { font-weight:bold; }
-#blog p a { font-weight:bold;display: inline-block;background: white;color: black;padding: 0px 5px}
-#blog p a:hover { background:red; }
 #blog p a.local { background:#777; }
-#blog list { display: block }
-#blog list ln { display: block; font-size:14px; line-height: 25px }
-#blog list ln b { font-weight: bold }
-#blog list ln a { font-weight: bold }
+#blog .content { padding-top:10px }
+#blog .content p { font-size:16px; line-height: 25px }
+#blog .content p a { background:transparent; color:white;font-family: "alte_haas_grotesk_bold"; }
+#blog .content p a:hover { text-decoration: underline; }
+#blog .content list { display: block;margin-bottom:30px;padding-left:30px;font-family: monospace ;font-size:12px }
+#blog .content list ln { display: block; font-size:14px; line-height: 25px; position: relative; }
+#blog .content list ln b { font-weight: bold }
+#blog .content list ln a { font-weight: bold }
+#blog .content list ln:before { content: "—";position: absolute;color: #999;left: -15px;}
 #blog list.sidebar { margin-bottom: 20px;font-size: 12px;line-height: 20px;position: absolute;left: calc(50% - 450px);width: 200px;text-align: right; top:245px; text-transform: capitalize; font-weight: bold; }
 #blog list.sidebar ln { display: block;  }
 #blog list.sidebar ln.topic { color:#555; margin-top:20px; }
