@@ -52,5 +52,3 @@ function Indental(data)
     }
   }
 }
-
-invoke.seal("core","indental");
