@@ -10,10 +10,10 @@ function Blog(host)
 
   this.build = function()
   {
-    var cats = invoke.vessel.storage["blog"];
+    var cats = invoke.vessel.storage["blog"].DIARY;
     var html = "";
     var sidebar_html = "";
-
+    console.log(cats)
     for(name in cats){
       var topics = cats[name];
       sidebar_html += `<ln class='topic'>${name}</ln>`
