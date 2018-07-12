@@ -28,12 +28,12 @@ function Layout(host)
     </c>
 
     <c class="menu">
-      <a href="https://hundredrabbits.itch.io" target="_blank">Store</a> 
+      <a id='toggle_about'>About</a>
+      <a href="https://hundredrabbits.itch.io" target="_blank">Games</a>
+      <a href="blog.html">Blog</a>
       <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">Videos</a>
       <a href="resources.html">Resources</a>
-      <a id='toggle_about'>About</a>
       <a id='toggle_support'>Support Us</a>
-      <a id='toggle_game'>Games</a>
     </c>
 
     <div id='game'>
@@ -64,7 +64,9 @@ function Layout(host)
     <div id='support'>
       <h2>The first studio on a sailboat</h2>
       <p>We never thought it was possible to have a studio on a sailboat, we have people like you to thank for that. Any subscriptions and donations helps us become less dependent on app sales, and allows us to invest more time in fine-tuning tools for you to use. All we want is for everyone to be able to create cool stuff, and to have access to free tools to do it.</p>
-
+      <p>Here is how you can support us:</p>
+      <h2> Buy our games and tools </h2>
+      <p>A sure way to support us, is to <a href="https://hundredrabbits.itch.io" target="blank">buy our games</a> on itch.io</p>
       <h2>Become a patron</h2>
       <p class='large'><a href="https://www.youtube.com/watch?v=wH-IDF809fQ" target="_blank">Patreon</a> help fund artists as they produce smaller works like music, art and tools.</p>
       <columns>
@@ -98,7 +100,6 @@ function Layout(host)
 
     document.getElementById("toggle_about").addEventListener("click", this.toggle_about);
     document.getElementById("toggle_support").addEventListener("click", this.toggle_support);
-    document.getElementById("toggle_game").addEventListener("click", this.toggle_game);
     document.getElementById("show_map").addEventListener("click", this.show_map);
   
     for(id in invoke.vessel.timeline.events){
