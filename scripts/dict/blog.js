@@ -3,7 +3,7 @@ var payload = new Indental(`
 Diary
   Captain, what is this?
     Location : Savusavu, Fiji
-    Date : 2012-02-03
+    Date : 2018-06-12
     Text
       & After 15 days on the water, you can imagine how eager we were to get into port. It was the 27th of June, we left on the 12th from Opua. We hove-to for the night, waiting for sunrise before entering {{Savusavu bay|https://en.wikipedia.org/wiki/Savusavu}}, entering a strange harbour in the dark is unwise. Yachts cannot anchor in Fiji waters before checking in, and check-in is only possible after 8am, so we waited outside of the reef for this reason too. 
       & At dawn, we pointed towards Vanua Levu and started sailing again, the wind at our backs. I went below to make some coffee, both of us needed a boost. Devine was in the cockpit, keeping a weary eye on a large storm cloud ahead. The wind increased as we neared it, but it did not trouble us long. We made our way inside the reef, which offered some protection from the building swells. Now closer to land, we could see rows of hills ahead, and caught the perfume of greenery with it. After that, came a sure sign of civilization: buildings, low, with green and red roofs. As we got nearer, came an even more obvious marker of civilization: cars, and small power boats. We'd arrived.  
@@ -23,7 +23,6 @@ Diary
       - "I don't know – looks shallow, plus there's a people with dive suits on it. It's probably for the locals." 
       & We glimpsed another free dock further ahead, a finger, part of the marina, it looked like a regular slip. Getting there meant moving inbetween a few boats, channel markers and moorings – the floating dock seemed a better option in comparison. Then, we saw two persons on the marina finger, waving us over. This is where we'd have to dock. Docking is always a nerve-wrecking experience, we didn't have current to contend with but perpendicular to the dock, was a large power boat, with nothing between it and our bow. If we came in too fast, we'd bump into it for sure- bumping into still objects is always embarassing. I was still attaching fenders at this point, while Devine manoeuvered Pino around various obstacles.  
       - "Sailing vessel Pino, this is Coprashed marina."
-      % blog/savusavu.jpg
       & They couldn't have picked a worse time to hail us, the dock lay ahead and two of the lines weren't yet set up. I ran inside, sweating from all the running, it was also 26C out, and I was in full foul-weather gear. Couldn't they see that we were right there and that they could ask us questions later?
       - "This is Pino." 
       & I said to them on the radio, trying to peel part of my foul weather gear off because I was cooking inside it.
@@ -36,6 +35,7 @@ Diary
       & We wished we'd bothered to learn some Fijian before arriving here. Bula could mean welcome, or hello, we hoped for the latter, us repeating "Welcome!" would be awkward indeed. We waited for the proper authorities to visit, and noticed then that the new zealand power boat had bands of yellow with 'crime scene' written all over it. 
       - "Is that what happens when they find undeclared veggies aboard?" 
       & We wondered, all the while becoming paranoid about the bit of ginger and pumpkin we'd hidden away. We saw police walking the docks, everyone we'd met so far was all smiles, but these guys looked serious. They wandered away for a second, I stepped off Pino, moving a few feet away, to try and take a photo of Devine and the boat to show others we'd arrived. I took a photo, but a second after, Devine motioned for me to return, a marina attendant was walking towards us as if to say that we had to stay on the boat. With the stone-faced police walking about, it was best to heed their warning. 
+      % blog/savusavu.jpg
       & It was some time before the authorities came to see us. The first, in a long of officials, was the health inspector. He was a friendly fellow, dressed in casual wear, a colorful blouse and sandals. He had us sign and fill papers – writing down Pino's info and our passport numbers is second nature now. 
       - "Is it just you two? Did anyone die aboard this vessel?"
       - "Uh, yes and no."
