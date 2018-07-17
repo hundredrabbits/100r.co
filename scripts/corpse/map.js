@@ -87,6 +87,12 @@ function Google_Map()
     // Last location
     coordinates.push(this.here())
 
+    // Wallis
+    coordinates.push({lat: -13.307227, lng: -176.170777})
+
+    // Tuvalu
+    coordinates.push({lat: -8.583168, lng: 179.040541})
+
     // Kosrea
     coordinates.push({lat: 5.348007, lng: 162.946751})
 
