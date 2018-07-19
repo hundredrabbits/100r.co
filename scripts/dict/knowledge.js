@@ -201,6 +201,8 @@ Resources
     - {{Life on a little wooden boat|https://vimeo.com/94842405}} 
     - {{Minimalism in a tiny home at sea|https://www.youtube.com/watch?v=CkaH_UUH0Ek}}
     - {{Untie the lines|https://www.youtube.com/watch?v=VERYUyO93_Y}}
+  Inspiration
+    - {{Steven K. Robert|https://microship.com/winnebiko-ii/}}
 `).parse();
 
 invoke.vessel.seal("dict","knowledge",payload);
