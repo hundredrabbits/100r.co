@@ -2,7 +2,7 @@ var payload = new Indental(`
 
 Diary
 
-  Rain with a chance of mosquitoes
+  Rainy with a chance of mosquitoes
     Location : Nuku Hiva, French Polynesia
     Date : 2017-01-04
     Text
