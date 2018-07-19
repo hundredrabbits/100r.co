@@ -21,7 +21,8 @@ Diary
       & My brain put two-and-two together. Sharks.
       & While I think them wonderful, my monkey brain still fears teeth. 
       & Devine & I gulped, and cared little to swim after that, even after seeing kids leaping off that same pier for a swim a few hours later.
-      - "We led sheltered lives haven't we?" Devine said, wide-eyed still.
+      - "We led sheltered lives haven't we?" 
+      & Devine said, wide-eyed still.
       & These kids were fearless, they made a game of it, just like they made a game of swimming where the waves break on the shore. The island doesn't have a reef, so when the tide comes in, large swells race to shore, and then the water explodes upwards as it hits the perpendicular surface with a cloud CLAP! There was no beach there, at low-tide the bottom was just mud and rocks, mostly rocks, polished after years of being caressed by the sea. The waves hitting the wall were considerable, even so, the kids would grab a street sign, an advertisement, whatever they could find that could be used as a body-board, and they'd and sit in the water, waiting for the waves to come. The waves always did come, and buried them all in an instant, the kids laughed, they'd played this game a hundred times.
       & We were impressed, and again, felt we'd led very sheltered lives.
       & The people in Nuku Hiva are exceptionally nice. Because we could speak french, we had an edge over those who couldn't, it was easier to befriend locals, a lot of them even recognized our accent. 
@@ -41,7 +42,8 @@ Diary
       & New Zealand - Kia ora!
       & We did mix these up on occasion, we always counted on the fact that they'd assumed we said the correct thing. In doubt, you could say them quickly, under your breath, no one would know, or if they did, they were too damn polite to say anything about it.
       & Marquesans are really keen on tattoos, a lot of people had them, and were very pleased to see ours! A lot of foreigners come here to get tattoos, including an old salt we met, the captain of a 70-foot steel boat. If you asked him about tattoos, he would tell you, in a broken english accent, that he cared little for them, but somehow ended up with some ink on his shoulder anyways. He wasn't too fond of my black arm tattoo.
-      - "What does it mean?" He asked me one day.
+      - "What does it mean?" 
+      & He asked me one day.
       - "It has no meaning, it's purely aesthetic,"
       & Then, after realizing that I'd reached the limit of his english, I simplified.
       - "It means nothing, I just like it."
@@ -72,8 +74,8 @@ Diary
       - "Watch your head you two, you die if you get hit in the head by a falling coconut."
       & We looked up at the top of the tree we had moored onto, and there was indeed a lot of them up there, waiting to kill us perhaps, we thought, or maybe they just didn't feel like it today.
       & There was a tap nearby, just a pipe sticking out of the ground with a faucet at the end of it. It didn't belong there at all, it looked like an anomaly, a glitch in the matrix.
-      - "Water is very clean, very good. Best water in french polynesia!" The german guy said. 
-      & Soon, a Marquesan named Paul joined us, a jolly and friendly-looking fellow. Our guide and he knew each other, in fact, the german guy gave him a hinano beer, which they cracked opened in front of us. Paul explained that the water came from the mountain, and as the german guy had said, many times already, it was very good and very clean. 
+      - "Water is very clean, very good. Best water in french polynesia!" 
+      & The german guy said. Soon, a Marquesan named Paul joined us, a jolly and friendly-looking fellow. Our guide and he knew each other, in fact, the german guy gave him a hinano beer, which they cracked opened in front of us. Paul explained that the water came from the mountain, and as the german guy had said, many times already, it was very good and very clean. 
       - "You sell fruit here?" We then asked.
       - "Yes, yes! Oh! I like your tattoos! Come, I'll introduce you to my uncle, he likes tattoos too!"
       & He also said he'd take us to pick some fruit, all from trees on his property, which was the queen's land, or something along those lines. We walked up to an old house, with skulls attached to the wood beams, and other trinkets hanging about. This was his uncle's house. The first we saw upon entering, was a kitten on a leash.
