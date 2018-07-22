@@ -102,6 +102,9 @@ On buying a sailboat
     & Another helpful reference document for gearing up for offshore travel, is the {{New Zealand Cat 1 requirements list|https://astrolabesailing.com/2014/03/24/yachting-nz-cat-1/}}. New Zealand registered yachts can't go offshore without passing a Cat 1 survey, if they don't pass, they can't leave.
 
 Liveaboard
+  Kitchen tools
+    & Choose quality tools that don't require electricity, that have few components (unibody) and made of materials that will last – or that can be composted.
+    & For cooking, we have: a large marble mortar and pestle, a bamboo spatula, a unibody ss cleaver, a smaller unibody ss serrated knife, a ss julienne slicer, 4 bowls with anti-skid bottoms, one large ss bowl for bread making, 1 square baking tray, 1 small non-stick pan, 1 large cast iron pan, 2 forks, 2 soup spoons, 2 teaspoons, 2 small wooden bowls, 2 wooden plates, 2 ss camping mugs, 4 ss tea mugs & matching saucers (for guests), 1 manual camping coffee grinder (ceramic bur), 1 black pepper grinder (ceramic bur, don't cheap out on this), 1 small pot, 1 medium pot, 1 large pot, 1 pressure cooker (non-electric), set of 4 ss measuring cups, 1 unibody wooden rolling pin, 1 claw-shaped can opener and 1 ss potato masher (for hummus)
   Habitat
     & As with most things in life, 20% of anything does 80% of the work. When moving into a smaller space, it is important to find that 20% and surround yourself with things purposefully. Single-serving tools and kitchenware will not do.
     & Investing in good quality {*army blankets and waterproof sleepingbags*} will make a world of difference. Non-metallic(bamboo or ceramic) kitchenware is also essential, everything rusts on a boat - even stainless-steel. To keep our clothes dry, we store them in large sealed industrial plastic containers.
