@@ -16,11 +16,11 @@ function KnowledgeBase(host)
 
     for(name in cats){
       var topics = cats[name];
-      sidebar_html += "<ln class='topic'>"+name+"</ln>"
+      sidebar_html += `<ln class='topic'>${name.capitalize()}</ln>`
       for(id in topics){
         var content = topics[id];
-        html += "<h2 id='"+this.format_hash(id)+"'>"+id+"</h2>";
-        sidebar_html += "<ln><a href='#"+this.format_hash(id)+"'>"+id+"</a></ln>"
+        html += `<h2 id='${this.format_hash(id)}'>${id.capitalize()}</h2>`;
+        sidebar_html += `<ln><a href='#${this.format_hash(id)}'>${id.capitalize()}</a></ln>`
         html += new Runic(content);
       }
     }
