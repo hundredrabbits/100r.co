@@ -103,7 +103,7 @@ On buying a sailboat
 
 Liveaboard
   Kitchen tools
-    & Choose quality tools that {*don't require electricity*}, that have few components(like unibody knives) and made of materials that will last – or that can be composted. For cooking, we have:
+    & Choose {{quality tools|https://grimgrains.com/tools}} that {*don't require electricity*}, that have few components(like unibody knives) and made of materials that will last – or that can be composted. For cooking, we have:
     - 1x Large mortar and pestle(marble)
     - 1x spatula(bamboo)
     - 1x Vegetable cleaver(stainless, unibody)
