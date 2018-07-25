@@ -124,7 +124,7 @@ c.timeline event.press line { width: 160px; }
 #knowledge p a:hover { background:red; }
 #knowledge p a.local { background:#777; }
 #knowledge list { display: block }
-#knowledge list ln { display: block; font-size:14px; line-height: 25px }
+#knowledge list ln { display: block; font-size:14px; line-height: 20px }
 #knowledge list ln b { font-weight: bold }
 #knowledge list ln a { font-weight: bold }
 #knowledge list.sidebar { margin-bottom: 20px;font-size: 12px;line-height: 20px;position: absolute;left: calc(50% - 450px);width: 200px;text-align: right; top:245px; text-transform: capitalize; font-weight: bold; }
