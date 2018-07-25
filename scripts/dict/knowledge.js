@@ -30,7 +30,7 @@ Off The Grid
     & Provisioning can be expensive in certain countries, so stocking strategically with cheaper stores, ahead of time, can help to save money.
     & Canning is essential when traveling on a budget, a pressure cooker and glass jars will save you money and will help reduce waste. Preparing your own stores, also means that you choose what goes in it, therefore reducing your intake of added salts and sugars.
   Essentials
-    & Being in good physical shape is important, wether you need to run, jump or lift something heavy without injuring yourself. Knowing how to tie solid knots is paramount, knowing how to tie a good {bowline knot} could save your life.
+    & Being in good physical shape is important, wether you need to run, jump or lift something heavy without injuring yourself. Knowing how to tie solid knots is paramount, knowing how to tie a good {{bowline knot|https://www.animatedknots.com/bowline/}} could save your life.
     & A good stainless-steel {*knife*}, a spindle of {*paracord*}, a phone-size {*ziplock bag*}, a waterproof {*flashlight*} and a good {*drinking bottle*} for fresh water will go a long way.
   Nutrition
     & Following a {{plant-based diet|http://grimgrains.com}} while traveling is possible. Planning provisions ahead is important, a lot of the places may not have specialty items. We found nutritional yeast, miso, flax seeds and B12 supplements, especially hard to find.
@@ -103,8 +103,23 @@ On buying a sailboat
 
 Liveaboard
   Kitchen tools
-    & Choose quality tools that don't require electricity, that have few components (unibody) and made of materials that will last – or that can be composted.
-    & For cooking, we have: a large marble mortar and pestle, a bamboo spatula, a unibody ss cleaver, a smaller unibody ss serrated knife, a ss julienne slicer, 4 bowls with anti-skid bottoms, one large ss bowl for bread making, 1 square baking tray, 1 small non-stick pan, 1 large cast iron pan, 2 forks, 2 soup spoons, 2 teaspoons, 2 small wooden bowls, 2 wooden plates, 2 ss camping mugs, 4 ss tea mugs & matching saucers (for guests), 1 manual camping coffee grinder (ceramic bur), 1 black pepper grinder (ceramic bur, don't cheap out on this), 1 small pot, 1 medium pot, 1 large pot, 1 pressure cooker (non-electric), set of 4 ss measuring cups, 1 unibody wooden rolling pin, 1 claw-shaped can opener and 1 ss potato masher (for hummus)
+    & Choose {{quality tools|https://grimgrains.com/tools}} that {*don't require electricity*}, that have few components(like unibody knives) and made of materials that will last – or that can be composted. For cooking, we have:
+    - 1x Large mortar and pestle(marble)
+    - 1x spatula(bamboo)
+    - 1x Vegetable cleaver(stainless, unibody)
+    - 1x Serrated knife(stainless, unibody)
+    - 1x Julienne slicer(stainless)
+    - 1x Baking tray
+    - 2x Cooking pans(Non-stick & cast iron)
+    - 1x Manual coffee grinder(ceramic)
+    - 1x Manual spices grinder (ceramic)
+    - 3x Cooking pots(small, medium & large)
+    - 4x Measuring cups(stainless)
+    - 1x Large bowl for bread making(stainless)
+    - 1x Pressure cooker(non-electric)
+    - 1x Rolling pin(unibody, wood)
+    - 1x Claw-shaped can opener
+    - 1x Potato masher
   Habitat
     & As with most things in life, 20% of anything does 80% of the work. When moving into a smaller space, it is important to find that 20% and surround yourself with things purposefully. Single-serving tools and kitchenware will not do.
     & Investing in good quality {*army blankets and waterproof sleepingbags*} will make a world of difference. Non-metallic(bamboo or ceramic) kitchenware is also essential, everything rusts on a boat - even stainless-steel. To keep our clothes dry, we store them in large sealed industrial plastic containers.
@@ -188,18 +203,18 @@ Used goods
 
 Resources
   Manuals
-    - <a target="_blank" href="https://www.amazon.com/gp/product/1929214340/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1929214340&linkCode=as2&tag=hundredrabbit-20&linkId=5f516eb82cb6b960fbbef4ed8fc0c8c5">The Care and Feeding of the Sailing Crew</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=1929214340" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Pardey
-    - <a target="_blank" href="https://www.amazon.com/gp/product/0964603675/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0964603675&linkCode=as2&tag=hundredrabbit-20&linkId=8afbef1bf14988f979b15292b6c347be">Self Sufficient Sailor </a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=0964603675" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Pardey
-    - <a target="_blank" href="https://www.amazon.com/gp/product/0957262647/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0957262647&linkCode=as2&tag=hundredrabbit-20&linkId=0e04161ead7a3732676aa99304093f69">World Cruising Routes</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=0957262647" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Jimmy Cornel
-    - <a target="_blank" href="https://www.amazon.com/gp/product/B00IGYQV6E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00IGYQV6E&linkCode=as2&tag=hundredrabbit-20&linkId=ea2bd07760b8ce0aec61413c125494a5">How to Sail Around the World</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=B00IGYQV6E" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Hal Roth
-    - <a target="_blank" href="https://www.amazon.com/gp/product/007137616X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=007137616X&linkCode=as2&tag=hundredrabbit-20&linkId=31b32cfe5726928783254fd1365fc06c">Seaworthy Offshore Sailboat</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=007137616X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, John Vigor
-    - <a target="_blank" href="https://www.amazon.com/gp/product/0071475087/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0071475087&linkCode=as2&tag=hundredrabbit-20&linkId=c12f9642d3a6f11f5084083e9a633d31">The Complete Anchoring Handbook</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=0071475087" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Poiraud Achim Ginsberg-Klemmt
+    - <a target="_blank" href="https://www.amazon.com/gp/product/1929214340/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1929214340&linkCode=as2&tag=hundredrabbit-20&linkId=5f516eb82cb6b960fbbef4ed8fc0c8c5">The Care and Feeding of the Sailing Crew</a>, Pardey
+    - <a target="_blank" href="https://www.amazon.com/gp/product/0964603675/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0964603675&linkCode=as2&tag=hundredrabbit-20&linkId=8afbef1bf14988f979b15292b6c347be">Self Sufficient Sailor </a>, Pardey
+    - <a target="_blank" href="https://www.amazon.com/gp/product/0957262647/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0957262647&linkCode=as2&tag=hundredrabbit-20&linkId=0e04161ead7a3732676aa99304093f69">World Cruising Routes</a>, Jimmy Cornel
+    - <a target="_blank" href="https://www.amazon.com/gp/product/B00IGYQV6E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00IGYQV6E&linkCode=as2&tag=hundredrabbit-20&linkId=ea2bd07760b8ce0aec61413c125494a5">How to Sail Around the World</a>, Hal Roth
+    - <a target="_blank" href="https://www.amazon.com/gp/product/007137616X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=007137616X&linkCode=as2&tag=hundredrabbit-20&linkId=31b32cfe5726928783254fd1365fc06c">Seaworthy Offshore Sailboat</a>, John Vigor
+    - <a target="_blank" href="https://www.amazon.com/gp/product/0071475087/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0071475087&linkCode=as2&tag=hundredrabbit-20&linkId=c12f9642d3a6f11f5084083e9a633d31">The Complete Anchoring Handbook</a>, Poiraud Achim Ginsberg-Klemmt
   Travel Literature
-    - <a target="_blank" href="https://www.amazon.com/gp/product/0918024765/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0918024765&linkCode=as2&tag=hundredrabbit-20&linkId=2824b0f623f0eb450f4b7dfe9f34e9a6">An Island to Oneself</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=0918024765" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Tom Neale
-    - <a target="_blank" href="https://www.amazon.com/gp/product/076790446X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=076790446X&linkCode=as2&tag=hundredrabbit-20&linkId=d5dce32f4a2b2c205739dbc8235a68df">North to the Night</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=076790446X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Alvah Simon
-    - <a target="_blank" href="https://www.amazon.com/gp/product/1770500375/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1770500375&linkCode=as2&tag=hundredrabbit-20&linkId=d18c9b054db9c976a157ab345252540c">The Curve of Time</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=1770500375" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Wylie Blanchet
-    - <a target="_blank" href="https://www.amazon.com/gp/product/0451532163/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0451532163&linkCode=as2&tag=hundredrabbit-20&linkId=6abadbb330ac3ee06484a7987dd938ce">Walden and Civil Disobedience</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=0451532163" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Henry David Thoreau
-    - <a target="_blank" href="https://www.amazon.com/gp/product/1613733488/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1613733488&linkCode=as2&tag=hundredrabbit-20&linkId=ab347d9ebee204d1b1c546bc1db2caef">The Box Wine Sailors</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hundredrabbit-20&l=am2&o=1&a=1613733488" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, Amy McCullough
+    - <a target="_blank" href="https://www.amazon.com/gp/product/0918024765/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0918024765&linkCode=as2&tag=hundredrabbit-20&linkId=2824b0f623f0eb450f4b7dfe9f34e9a6">An Island to Oneself</a>, Tom Neale
+    - <a target="_blank" href="https://www.amazon.com/gp/product/076790446X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=076790446X&linkCode=as2&tag=hundredrabbit-20&linkId=d5dce32f4a2b2c205739dbc8235a68df">North to the Night</a>, Alvah Simon
+    - <a target="_blank" href="https://www.amazon.com/gp/product/1770500375/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1770500375&linkCode=as2&tag=hundredrabbit-20&linkId=d18c9b054db9c976a157ab345252540c">The Curve of Time</a>, Wylie Blanchet
+    - <a target="_blank" href="https://www.amazon.com/gp/product/0451532163/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0451532163&linkCode=as2&tag=hundredrabbit-20&linkId=6abadbb330ac3ee06484a7987dd938ce">Walden and Civil Disobedience</a>, Henry David Thoreau
+    - <a target="_blank" href="https://www.amazon.com/gp/product/1613733488/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1613733488&linkCode=as2&tag=hundredrabbit-20&linkId=ab347d9ebee204d1b1c546bc1db2caef">The Box Wine Sailors</a>, Amy McCullough
   Documentaries
     - {{Life on a little wooden boat|https://vimeo.com/94842405}} 
     - {{Minimalism in a tiny home at sea|https://www.youtube.com/watch?v=CkaH_UUH0Ek}}
