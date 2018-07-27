@@ -6,11 +6,23 @@ var $TIMELINE = new Indental(`
   TEXT : July 2018: Kava and quiet times in Fiji
   LINK : https://youtu.be/KBYXcieCxP4
 
+2018-07-20
+  TYPE : press
+  NAME : ​Blog entry
+  TEXT : Rainy with a chance of mosquitoes
+  LINK : https://100r.co/blog.html#rainy_with_a_chance_of_mosquitoes
+
 2018-06-30
   TYPE : press
   NAME : ​Play by Play 2018
   TEXT : Digital nomads talk
   LINK : https://youtu.be/WY5QwPBOsZY
+
+2018-06-31
+  TYPE : press
+  NAME : ​Blog entry
+  TEXT : Captain, what is this?
+  LINK : https://100r.co/blog.html#captain,_what_is_this?
 
 2018-06-29
   TYPE : video
