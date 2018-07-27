@@ -10,11 +10,16 @@
   <title>Hundred Rabbits — Blog</title>
   <script src="scripts/core/indental.js"></script>
   <script src="scripts/core/invoke.js"></script>
+  <script src="scripts/lib/rss.js"></script>
+  
+  <link rel="alternate"  type="application/rss+xml" title="Feed" href="links/rss.xml" />
 </head>
 <body>
   <script>
     var invoke = new Invoke("blog"); 
     invoke.summon();
+
+    var rss = new Rss();
   </script>
 </body>
 </html>

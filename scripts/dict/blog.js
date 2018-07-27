@@ -1,7 +1,6 @@
 var payload = new Indental(`
 
 Diary
-
   Rainy with a chance of mosquitoes
     Location : Nuku Hiva, French Polynesia
     Date : 2017-01-04
@@ -24,7 +23,7 @@ Diary
       & And tails.
       & Sharks. Many sharks.
       & While I think them wonderful, my monkey brain still fears teeth. 
-      & Devine & I gulped. We cared little to swim after that, even after seeing kids leaping off that same pier for a swim a few hours later.
+      & Devine and I gulped. We cared little to swim after that, even after seeing kids leaping off that same pier for a swim a few hours later.
       - "We led sheltered lives haven't we?" 
       & Devine said, wide-eyed still.
       & These kids were fearless. They made a game of it, just like they made a game of swimming where the waves break on the shore. The island doesn't have a reef, so when the tide and wind-driven waves come in, the water races to shore, unhindered, and explodes onto the sea wall with a cloud CLAP! There was no beach there, at low-tide the bottom was just mud and rocks, mostly rocks, polished after years of being caressed by the sea. The waves hitting the wall were considerable, even so, the kids took to the sea! They grabbed street signs, bits of wood, whatever they could find that could be used as a body-board, then they'd sit in the water, waiting for the waves to come. The waves always did come, and buried them all in an instant. The kids laughed, they'd played this game a hundred times.
@@ -155,7 +154,7 @@ Diary
       - "Lots and lots of coffee." 
       - "Beans?" 
       - "Yes, it's better kept as beans." 
-      & Then the quarantine officer pushed another paper for us to sign, all while making a mess of our galley and asking questions about where we'd been. It was a dizzying experience, having so many people aboard, with the table covered in pieces of writing: 'sign this, sign that!' This moment, was made even more chaotic, with them exchanging pleasantries (we hope) in Fijian. Devine & I smiled at one another, what a strange scene, sometimes they didn't even pay attention to us at all.
+      & Then the quarantine officer pushed another paper for us to sign, all while making a mess of our galley and asking questions about where we'd been. It was a dizzying experience, having so many people aboard, with the table covered in pieces of writing: 'sign this, sign that!' This moment, was made even more chaotic, with them exchanging pleasantries (we hope) in Fijian. Devine and I smiled at one another, what a strange scene, sometimes they didn't even pay attention to us at all.
       - "So, you left from Mexico when?" one of the women asked.
       & She was inspecting every inch of our passports and had noticed how the numbers on our passports followed each other, and decided that this was suspicious. It is odd, but it's what happens when you have new passports processed together. 
       - "Captain." 
@@ -182,7 +181,7 @@ Diary
       & We made lunch, but could not sleep yet, we had fees to pay to the quarantine and health officers and had to go into town to get some money to do it. They told us where to find their respective offices, that Savusavu was a one-street town and that they'd be easy to find. They gave us general direction, we didn't take notes thinking we'd remember, severely overestimating the capabilities of our tired brains. We also moved our boat off the dock and onto a mooring, and pumped some air into Iggy the dinghy before going into town.
       & We were looking for a green building, but none we passed looked like a proper office. This was our first excursion into town, our first look at Fiji. The city, while small, was very animated and busy, there were people everywere. Everyone we passed waved at us, "Bula!" We returned their wave and greeting – by now, we knew bula meant hello. We passed by an area packed with windowless buses, with vendors outside trying to sell its passengers soft drinks and snacks. Wild dogs roamed the streets, we passed a green space with people, sitting while chatting and sharing food. We caught a glimpse of the digicel booth, we'd have to come here later to get some data for our phones. The fresh vegetable market was right next to the bus station, looking very much like the one in Tonga, but bigger, with stalls selling indian staples. We couldn't wait to get some paw paw and breadfruit! The town had many stores: lots of hardware shops selling more or less the same content, a hideously pink grocery store called Max value, a chinese bakery etc. 
       & We arrived at the edge of town then, or the part of town where the street transitions from buildings to bush, and still no health or quarantine office in sight. We remembered them saying that the customs office was on the other side of town, where there were less buildings. This one, we figured, we couldn't miss. We found it straight away, picked up our passports, and asked for directions to the health and quarantine offices again. They assured us that if we kept walking the other way, that we'd find the green building. 
-      & Devine & I dragged our tired bodies back over there, and did find a green building. The quarantice office wasn't on the street, but at the back of it. The quarantine officer took a liking to us and we talked for a long while, but our bodies longed for a rest. We must have said goodbye 10 times before he agreed to let us go. He told us how to find the health office – hopefully this time, we wouldn't forget. We walked out, and about 5 minutes into our walk, we realized that we had contradicting information. 
+      & Devine and I dragged our tired bodies back over there, and did find a green building. The quarantice office wasn't on the street, but at the back of it. The quarantine officer took a liking to us and we talked for a long while, but our bodies longed for a rest. We must have said goodbye 10 times before he agreed to let us go. He told us how to find the health office – hopefully this time, we wouldn't forget. We walked out, and about 5 minutes into our walk, we realized that we had contradicting information. 
       - "He said it's on the left and past a round-about," I said. 
       - "No, he said it's on the right close to the customs office" 
       & I felt my skin getting warmer, I couldn't believe we'd forgotten again. Dead on our feet, Devine volunteered to return to ask the chatty man about the health office again. 
