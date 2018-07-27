@@ -2,7 +2,7 @@ var $TIMELINE = new Indental(`
 
 2018-07-27
   TYPE : video
-  NAME : ​July 2018
+  NAME : July 2018
   TEXT : July 2018: Kava and quiet times in Fiji
   LINK : https://youtu.be/KBYXcieCxP4
 
