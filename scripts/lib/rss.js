@@ -62,7 +62,7 @@ function Rss()
 
 String.prototype.to_rss = function()
 {
-  return this.replace(/\</g,"&lt;").replace(/\>/g,"&gt;")
+  return this.replace(/\</g,"&lt;").replace(/\>/g,"&gt;").replace(/\"/g,"&quot;")
 }
 
 String.prototype.to_entities = function()
