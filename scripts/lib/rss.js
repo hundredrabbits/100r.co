@@ -6,7 +6,7 @@ function Rss()
     var diaries = []
     for(var title in blog){
       var diary = blog[title];
-      diaries.push({title:title.capitalize(),date:new Date(diary.DATE).toUTCString(),description:new Runic(diary.TEXT).parse()})
+      diaries.push({title:title.capitalize(),date:new Date(diary.DATE).toUTCString(),description:new Runic([diary.TEXT[0],diary.TEXT[1],diary.TEXT[2]]).parse()})
     }
 
     var html = this.render(diaries);
@@ -28,6 +28,7 @@ function Rss()
     <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
     <description>
       ${diary.description.to_rss()}
+      ${`<p><a href='https://100r.co/blog.html'>Continue Reading</a></p>`.to_rss()}
     </description>
   </item>
 `
