@@ -27,7 +27,7 @@ function Rss()
     <guid isPermaLink='false'>IV${id}</guid>
     <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
     <description>
-      ${diary.description.to_rss()}
+      <![CDATA[${diary.description.to_rss()}]]>
     </description>
   </item>
 `
@@ -43,7 +43,7 @@ function Rss()
 
 <channel>
   <title>Hundred Rabbits — Journal</title>
-  <link>https://100r.co/blog.html</link>
+  <link><![CDATA[https://100r.co/blog]]></link>
   <description>The Rabbits'Journal</description>
   <generator>Oscean - Riven</generator>
   ${this.items(diaries)}
