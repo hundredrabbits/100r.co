@@ -27,7 +27,7 @@ function Rss()
     <guid isPermaLink='false'>IV${id}</guid>
     <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
     <description>
-      <![CDATA[${diary.description.to_rss()}]]>
+      ${diary.description.to_rss()}
     </description>
   </item>
 `
