@@ -61,6 +61,7 @@ function Runic(raw)
   
   this.media = function(val)
   {
+    return ""
     var service = val.split(" ")[0];
     var id = val.split(" ")[1];
 
