@@ -1,11 +1,10 @@
 var payload = new Indental(`
 
-
 Diary
 
   The rock of Polynesia
     Location : Niue
-    Date : 2017-29-07
+    Date : 2017-07-29
     Text
       % blog/niue1.jpg
       & Niue, pronounced 'New-ay', a rock in the pacific, one of the largest coral islands on earth. It's the first country to offer free, state-funded, wireless internet to all its residents and has a goal of being completely solar powered - uh. Wow? 
