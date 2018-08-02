@@ -135,10 +135,3 @@ c.timeline event.press line { width: 160px; }
 #knowledge img { margin: 0px auto;display: block;position: absolute;left: calc(50% - 400px); top:70px;}
 #knowledge img:hover { cursor: pointer; opacity: 0.6 }
 
-
-@media (max-width: 950px) {
-  body #blog #hd img { position: relative;left: auto;top: auto }
-  body #blog list.sidebar { display: none }
-  body #blog { padding-left:0px; padding:30px; }
-}
-

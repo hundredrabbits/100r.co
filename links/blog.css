@@ -48,3 +48,12 @@
 #blog #md div.text p a { text-decoration: underline; }
 #blog #md div.text list { margin-bottom:30px; padding-left:30px; display: block }
 #blog #md div.text list ln { font-family: 'courier';font-size: 14px}
+
+@media (max-width: 950px) {
+  body #blog #hd img { position: relative;left: auto;top: auto }
+  body #blog #sb { position: relative;left: auto;width: 100%;top: auto;columns: 3;text-align: left; }
+  body #blog #sb list { vertical-align: top }
+  body #blog #sb list ln.head { vertical-align: top; }
+  body #blog { padding-left:0px; padding:30px; }
+}
+
