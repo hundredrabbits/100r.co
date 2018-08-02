@@ -30,6 +30,8 @@ function Blog()
   {
     var result = this.find(target);
 
+    setTimeout(()=>{ window.scrollTo(0,0); },50)
+
     if(!result){ this.missing(target); return; }
 
     var entry = this.tables[result.id][result.name];
