@@ -15,7 +15,7 @@ function Blog()
     host.appendChild(this.el)
   }
 
-  this.start = function()
+  this.bang = function()
   {
     this.hd.innerHTML = "<a href='index.html'><img src='media/interface/logo.svg'/></a>";
     this.sb.innerHTML = this._sidebar();
@@ -29,10 +29,11 @@ function Blog()
   this.load = function(target)
   {
     var result = this.find(target);
+
+    if(!result){ this.missing(target); return; }
+
     var entry = this.tables[result.id][result.name];
-
     window.location.hash = `${result.name.to_url()}`
-
     this.update(result,entry);
   }
 
@@ -61,6 +62,13 @@ function Blog()
     }
 
     this.md.innerHTML = `<article>${html}</article>`;
+  }
+
+  this.missing = function(target)
+  {
+    var html = `<h1>404</h1>`
+    html += `<h2>Could not find "${target}".</h2><p>If you think this to be an error, <br/>please contact {{@hundredrabbits|http://twitter.com/hundredrabbits}}.</p>`;
+    this.md.innerHTML = html.to_markup();
   }
 
   this._sidebar = function()
@@ -104,3 +112,31 @@ function Blog()
     return `${this._sidebar()}`
   }
 }
+
+var detectBackOrForward = function(onBack, onForward)
+{
+  hashHistory = [window.location.hash];
+  historyLength = window.history.length;
+
+  return function()
+  {
+    var hash = window.location.hash, length = window.history.length;
+    if (hashHistory.length && historyLength == length) {
+      if (hashHistory[hashHistory.length - 2] == hash) {
+        hashHistory = hashHistory.slice(0, -1);
+        onBack();
+      } else {
+        hashHistory.push(hash);
+        onForward();
+      }
+    } else {
+      hashHistory.push(hash);
+      historyLength = length;
+    }
+  }
+};
+
+window.addEventListener("hashchange", detectBackOrForward(
+  function() { console.log("back"); app.bang() },
+  function() { console.log("forward"); app.bang() }
+));
