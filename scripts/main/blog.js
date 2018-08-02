@@ -20,7 +20,7 @@ function Blog()
     this.hd.innerHTML = "<a href='index.html'><img src='media/interface/logo.svg'/></a>";
     this.sb.innerHTML = this._sidebar();
 
-    var target = window.location.hash.replace("#","").replace(/\+/g," ").trim();
+    var target = window.location.hash.replace("#","").replace(/\_/g," ").replace(/\+/g," ").trim();
     var blogs = Object.keys(this.tables.blog)
     var latest_blog = blogs[0]
     this.load(target ? target : latest_blog)
