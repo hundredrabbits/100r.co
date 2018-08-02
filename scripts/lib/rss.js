@@ -2,10 +2,9 @@ function Rss()
 {
   this.show = function(html)
   {
-    var blog = invoke.vessel.storage.blog.DIARY;
     var diaries = []
-    for(var title in blog){
-      var diary = blog[title];
+    for(var title in db_blog){
+      var diary = db_blog[title];
       diaries.push({title:title.capitalize(),date:new Date(diary.DATE).toUTCString(),description:new Runic([diary.TEXT[0],diary.TEXT[1],diary.TEXT[2]]).parse()})
     }
 

@@ -48,6 +48,14 @@ function Blog()
         }
       }
     }
+    // Deep lookup
+    console.log("Deep blog lookup",target)
+    for(id in this.tables.blog){
+      var blog = this.tables.blog[id]
+      if(blog.LOCATION.toLowerCase().indexOf(target.toLowerCase()) < 0){ continue; }
+      return {id:"blog",name:id}
+    }
+  
     return null;
   }
 

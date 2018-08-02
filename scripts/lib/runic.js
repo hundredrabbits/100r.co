@@ -18,24 +18,6 @@ function Runic(raw)
     ">":{tag:"",class:""}
   }    
 
-  this.markup = function(html)
-  {
-    html = html.replace(/{_/g,"<i>").replace(/_}/g,"</i>")
-    html = html.replace(/{\*/g,"<b>").replace(/\*}/g,"</b>")
-    html = html.replace(/{\#/g,"<code class='inline'>").replace(/\#}/g,"</code>")
-
-    var parts = html.split("{{")
-    for(id in parts){
-      var part = parts[id].split("}}")[0];
-      var target = part.indexOf("|") > -1 ? part.split("|")[1] : "/"+part;
-      var name = part.indexOf("|") > -1 ? part.split("|")[0] : part;
-
-      html = html.replace("{{"+part+"}}","<a href='"+target.replace(" ","+")+"' class='"+((target.indexOf("https:") > -1 || target.indexOf("http:") > -1 || target.indexOf("dat:") > -1) ? "external" : "local")+"'>"+name+"</a>")
-    }
-
-    return html;
-  }
-
   this.parse = function(raw = this.raw)
   {
     if(!raw){ return ""; }
@@ -48,7 +30,7 @@ function Runic(raw)
       var char = lines[id].substr(0,1).trim().toString()
       var rune = this.runes[lines[id].substr(0,1)];
       var trail = lines[id].substr(1,1);
-      var line = this.markup(lines[id].substr(2));
+      var line = lines[id].substr(2).to_markup();
       if(!line || line.trim() == ""){ continue; }
       if(!rune){ console.log("Unknown rune",rune); }
       if(trail != " "){ console.warn("Runic","Non-rune["+trail+"] at:"+id+"("+line+")"); continue; }
