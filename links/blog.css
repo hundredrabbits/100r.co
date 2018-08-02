@@ -1,0 +1,50 @@
+#blog { max-width: 600px; display: block; margin:100px auto; padding-left:200px;font-family: 'Helvetica Neue',Helvetica,Arial; }
+#blog h2 { display: block; font-size:20px; color:#fff; font-weight:normal; font-family: "alte_haas_grotesk_bold"; line-height: 40px; text-transform: capitalize; margin-bottom:20px; }
+#blog h2:target { color:red; }
+#blog h3 { line-height: 20px; font-size: 12px; font-family: "alte_haas_grotesk_bold"; margin-bottom:20px; color:#555;}
+#blog #md > *:nth-child(2) { border-top:0px; }
+#blog p { margin-bottom: 20px;font-size: 14px;line-height: 20px; }
+#blog p b { font-weight:bold; }
+#blog p a.local { background:#777; }
+#blog .content { padding-top:10px }
+#blog .content p { font-size:16px; line-height: 25px }
+#blog .content p a { background:transparent; color:white;font-family: "alte_haas_grotesk_bold"; }
+#blog .content p a:hover { text-decoration: underline; }
+#blog .content img { display: block;max-width: 100%;margin-bottom: 30px;width: 100%;}
+#blog .content list { display: block;margin-bottom:30px;padding-left:30px;font-family: monospace ;font-size:12px }
+#blog .content list ln { display: block; font-size:14px; line-height: 25px; position: relative; }
+#blog .content list ln b { font-weight: bold }
+#blog .content list ln a { font-weight: bold }
+#blog .content list ln:before { content: "";position: absolute;color: #999;left: -15px;}
+
+#blog yu { display: block; }
+#blog #hd img { margin: 0px auto;display: block;position: absolute;left: calc(50% - 400px); top:70px;}
+#blog #hd img:hover { cursor: pointer; opacity: 0.6 }
+
+#blog #sb { margin-bottom: 20px;font-size: 12px;line-height: 20px;position: absolute;left: calc(50% - 450px);width: 200px;text-align: right; top:245px; text-transform: capitalize; font-weight: bold; }
+#blog #sb list { margin-bottom:30px; }
+#blog #sb list ln { display: block;  }
+#blog #sb list ln.head { color: #555;margin-top: 20px;border-bottom:1px solid #333;line-height: 30px;margin-bottom: 15px}
+#blog #sb list ln a:hover { text-decoration: underline; cursor: pointer; }
+
+#blog #md h1 { font-family: 'alte_haas_grotesk_bold';font-size:30px;border-bottom:1px solid #333;line-height: 60px;margin-bottom:30px;padding-bottom:15px;text-transform: capitalize  }
+#blog #md h2.location { display: none }
+#blog #md h2.date { display: none }
+#blog #md h2.text { display: none }
+#blog #md list { display: block; margin-bottom: 30px; padding-left:30px; }
+#blog #md list ln { display: block;font-size: 14px;line-height: 20px;font-weight: 600}
+#blog #md img { display: block;max-width: 100%;width: 100%;margin-bottom:30px }
+#blog #md p { display: block;  }
+#blog #md p a { text-decoration: underline; font-weight: bold  }
+#blog #md p a:hover { text-decoration: underline; color:#999; }
+#blog #md list ln a { text-decoration: underline; font-weight: bold  }
+#blog #md list ln a:hover { text-decoration: underline; color:#999; }
+#blog #md input.button { background: white;color:black;font-weight: bold;padding:0px 15px;line-height: 30px;font-size:14px;border-radius: 100px;margin-bottom: 30px}
+#blog #md div.location { display: none }
+#blog #md div.date { display: none }
+#blog #md div.text {  }
+#blog #md div.text p {}
+#blog #md div.text p b { font-weight: bold }
+#blog #md div.text p a { text-decoration: underline; }
+#blog #md div.text list { margin-bottom:30px; padding-left:30px; display: block }
+#blog #md div.text list ln { font-family: 'courier';font-size: 14px}

@@ -135,31 +135,6 @@ c.timeline event.press line { width: 160px; }
 #knowledge img { margin: 0px auto;display: block;position: absolute;left: calc(50% - 400px); top:70px;}
 #knowledge img:hover { cursor: pointer; opacity: 0.6 }
 
-#blog { max-width: 600px; display: block; margin:100px auto; padding-left:200px;font-family: 'Helvetica Neue',Helvetica,Arial; }
-#blog h2 { display: block; font-size:20px; color:#fff; font-weight:normal; font-family: "alte_haas_grotesk_bold"; line-height: 40px; text-transform: capitalize;border-top: 1px solid #333;padding-top: 10px; margin-top:15px; }
-#blog h2:target { color:red; }
-#blog h3 { line-height: 20px; font-size: 12px; font-family: "alte_haas_grotesk_bold"; margin-bottom:20px; color:#555;}
-#blog #md > *:nth-child(2) { border-top:0px; }
-#blog p { margin-bottom: 20px;font-size: 14px;line-height: 20px; }
-#blog p b { font-weight:bold; }
-#blog p a.local { background:#777; }
-#blog .content { padding-top:10px }
-#blog .content p { font-size:16px; line-height: 25px }
-#blog .content p a { background:transparent; color:white;font-family: "alte_haas_grotesk_bold"; }
-#blog .content p a:hover { text-decoration: underline; }
-#blog .content img { display: block;max-width: 100%;margin-bottom: 30px;width: 100%;}
-#blog .content list { display: block;margin-bottom:30px;padding-left:30px;font-family: monospace ;font-size:12px }
-#blog .content list ln { display: block; font-size:14px; line-height: 25px; position: relative; }
-#blog .content list ln b { font-weight: bold }
-#blog .content list ln a { font-weight: bold }
-#blog .content list ln:before { content: "";position: absolute;color: #999;left: -15px;}
-#blog list.sidebar { margin-bottom: 20px;font-size: 12px;line-height: 20px;position: absolute;left: calc(50% - 450px);width: 200px;text-align: right; top:245px; text-transform: capitalize; font-weight: bold; }
-#blog list.sidebar ln { display: block;  }
-#blog list.sidebar ln.topic { color:#555; margin-top:20px; }
-#blog list.sidebar ln a:hover { text-decoration: underline; cursor: pointer; }
-#blog yu { display: block; }
-#blog #hd img { margin: 0px auto;display: block;position: absolute;left: calc(50% - 400px); top:70px;}
-#blog #hd img:hover { cursor: pointer; opacity: 0.6 }
 
 @media (max-width: 950px) {
   body #blog #hd img { position: relative;left: auto;top: auto }

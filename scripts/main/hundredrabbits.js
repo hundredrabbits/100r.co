@@ -9,7 +9,6 @@ function Hundredrabbits()
 
   this.start = function()
   {
-    console.log($TIMELINE)
     this.timeline = new Timeline($TIMELINE);
     this.timeline.start()
     this.corpse   = new Layout(this);
