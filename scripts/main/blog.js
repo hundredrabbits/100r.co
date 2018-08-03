@@ -45,7 +45,7 @@ function Blog()
       var table = this.tables[id]
       for(name in table){
         var category = table[name];
-        if(target.toUpperCase() == name.toUpperCase()){
+        if(target.to_path() == name.to_path()){
           return {id:id,name:name};
         }
       }
