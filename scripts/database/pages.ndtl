@@ -18,14 +18,14 @@ OUR SAILBOAT
 TOOLS AND GAMES
   Games
     & Selecting a game will take you to a microsite, containing additional information about each project. Each page also features a presskit.
-    - {{Markl|http://markl.100r.co}}
-    - {{Oquonie|http://oquonie.100r.co}}
-    - {{Donsol|http://donsol.100r.co}}
-    - {{Hiversaires|https://hundredrabbits.itch.io/hiversaires}}
-    - {{Paradise|https://hundredrabbits.itch.io/paradise}}
+    - {{Markl|http://markl.100r.co}}, TAIBA.
+    - {{Oquonie|http://oquonie.100r.co}}, puzzle game.
+    - {{Donsol|http://donsol.100r.co}}, card game.
+    - {{Hiversaires|https://hundredrabbits.itch.io/hiversaires}}, point-n-click.
+    - {{Paradise|https://hundredrabbits.itch.io/paradise}}, text-adventure.
   Tools
-    - {{Dotgrid|https://hundredrabbits.itch.io/Dotgrid}}
-    - {{Left|https://hundredrabbits.itch.io/Left}}
+    - {{Dotgrid|https://hundredrabbits.itch.io/Dotgrid}}, vector tool.
+    - {{Left|https://hundredrabbits.itch.io/Left}}, text editor.
 
 SUPPORT
   The first studio on a sailboat
@@ -34,9 +34,10 @@ SUPPORT
     & A sure way to support us, is to {*buy our games*} on {{itch.io|https://hundredrabbits.itch.io}}.
   Become a patron
     & <a href="https://www.youtube.com/watch?v=wH-IDF809fQ" target="_blank">Patreon</a> help fund artists as they produce smaller works like music, art and tools.
-    & To give a donation, go to our <a href="https://patreon.com/100" target="_blank">Patreon page</a> and click on the <b>Become a patron</b> button. You have the option of choosing a reward (each tier has different rewards), and that's it!
-    & Your donations permits us to continue to produce open-source content. We believe that tools should always be free, your donations will help ensure this. Our games, while being paid games, are open source too and viewable on our <a href="https://github.com/hundredrabbits" target="_blank">github</a>.
+    & To give a donation, go to our {{Patreon page|https://patreon.com/100}} and click on the <b>Become a patron</b> button. You have the option of choosing a reward (each tier has different rewards), and that's it!
+    & Your donations permits us to continue to produce open-source content. We believe that tools should always be free, your donations will help ensure this. Our games, while being paid games, are open source too and viewable on our {{Github|https://github.com/hundredrabbits}}.
     & Your support also goes into creating our <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">monthly videos</a> that go in depth on our projects, and life on a sailboat (that is free for everyone to watch). We have learned a lot from the shared experiences of others, we hope that our videos will have the same effect.
+    % content/at.work.jpg
     & All the money we get is re-invested back into the Hundredrabbits projects. With your support we can also pay for internet and for the inevitable - and incessant - upkeep of our devices (which often break at sea, and from continued use).
     > <form action="https://patreon.com/100" method="post" target="_top">
     > <input type="hidden" name="cmd" value="_s-xclick">
