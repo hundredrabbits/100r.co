@@ -2,6 +2,7 @@ function Blog()
 {
   this.el = document.createElement('yu');
   this.el.id = "blog";
+  this.el.className = "loading";
 
   this.el.appendChild(this.hd = document.createElement('yu')); this.hd.id = "hd";
   this.el.appendChild(this.sb = document.createElement('yu')); this.sb.id = "sb";
@@ -12,7 +13,7 @@ function Blog()
 
   this.install = function(host)
   {
-    host.appendChild(this.el)
+    host.appendChild(this.el);
   }
 
   this.bang = function()
@@ -22,21 +23,27 @@ function Blog()
 
     var target = window.location.hash.replace("#","").replace(/\_/g," ").replace(/\+/g," ").trim();
     var blogs = Object.keys(this.tables.blog)
-    var latest_blog = blogs[0]
-    this.load(target ? target : latest_blog)
+    var latest_blog = blogs[0];
+
+    this.load(target ? target : latest_blog);
   }
 
   this.load = function(target)
   {
     var result = this.find(target);
 
-    setTimeout(()=>{ window.scrollTo(0,0); },50)
-
     if(!result){ this.missing(target); return; }
 
     var entry = this.tables[result.id][result.name];
     window.location.hash = `${result.name.to_url()}`
+
+    this.el.className = "loading";
     this.update(result,entry);
+
+    setTimeout(()=>{ 
+      this.el.className = "ready"; 
+      window.scrollTo(0,0); 
+    },200)
   }
 
   this.find = function(target)

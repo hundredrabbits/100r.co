@@ -1,4 +1,5 @@
-#blog { max-width: 600px; display: block; margin:100px auto; padding-left:200px;font-family: 'Helvetica Neue',Helvetica,Arial;min-height: 700px }
+#blog { max-width: 600px; display: block; margin:100px auto; padding-left:200px;font-family: 'Helvetica Neue',Helvetica,Arial;min-height: 700px;  }
+
 #blog h2 { display: block; font-size:20px; color:#fff; font-weight:normal; font-family: "alte_haas_grotesk_bold"; line-height: 40px; text-transform: capitalize; margin-bottom:20px; }
 #blog h2:target { color:red; }
 #blog h3 { line-height: 20px; font-size: 12px; font-family: "alte_haas_grotesk_bold"; margin-bottom:20px; color:#555;}
@@ -15,7 +16,10 @@
 #blog #sb list ln.head { color: #555;margin-top: 20px;border-bottom:1px solid #333;line-height: 30px;margin-bottom: 15px}
 #blog #sb list ln a:hover { text-decoration: underline; cursor: pointer; }
 
-#blog #md h1 { font-family: 'alte_haas_grotesk_bold';font-size:30px;border-bottom:1px solid #333;line-height: 60px;margin-bottom:30px;padding-bottom:15px;text-transform: capitalize  }
+#blog.loading #md { opacity: 0; transition: opacity 0ms }
+#blog.ready #md { opacity: 1 }
+
+#blog #md h1 { font-family: 'alte_haas_grotesk_bold';font-size:30px;border-bottom:1px solid #333;line-height: 60px;margin-bottom:30px;padding-bottom:15px;text-transform: capitalize; transition: opacity 150ms; }
 #blog #md h2.location { display: none }
 #blog #md h2.date { display: none }
 #blog #md h2.text { display: none }
