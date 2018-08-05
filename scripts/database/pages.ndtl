@@ -59,4 +59,28 @@ SUPPORT
     - <b>$ETH</b> 0x7a5f5d9B697F04f5deE82c81859F7cC4FDb6e990
     - <b>$BTC</b> 1NU2Pso6nYbRpCAftX3yqQW9w2NSUxzsNa
 
+PRESS
+  Talks
+    - {{Digital Nomads|https://youtu.be/WY5QwPBOsZY}}, Play by Play 2018.
+  Features
+    - {{Raspberry Pi aboard a smart sailboat|https://www.raspberrypi.org/blog/pino-smart-sailing-boat/}}, Raspberri Pi blog.
+    - {{The Nomads of Game Development|http://www.vice.com/read/the-nomads-of-game-development}}, VICE.
+    - {{Life aboard a boat lures new generation of romantics|http://www.metronews.ca/features/vancouver/vancouvering/2016/08/12/boat-life-lures-new-generation-of-vancouver-romantics.html}}, Metro news.
+    - {{Two Canadian game developers set sail around the world|http://dailyhive.com/vancouver/two-canadian-game-developers-set-sail-around-the-world}}, Dailyhive.
+    - {{Making games on a sailboat|https://killscreen.com/articles/making-games-on-a-boat-to-get-back-that-feeling-of-being-l}}, Kill Screen.
+    - {{A design studio on a sailboat|http://motherboard.vice.com/read/the-game-design-studio-on-a-boat}}, Motherboard.
+  Interviews
+    - {{Developing Games and Tools from the Ocean|https://itch.io/blog/15488/developing-games-and-tools-from-the-ocean-an-interview-with-hundred-rabbits}}, Itch.
+    - {{Interview with Devine Lu Linvega|https://monochromatic.co/writing/interview-with-devine}}, Monochromatic.
+  Video
+    - {{Branching paths|http://store.steampowered.com/app/494680}}(Steam), Independent.
+    - {{In Our House|https://www.youtube.com/watch?v=Im8ZAuUlmYA}}, Patreon.
+  Appearances
+    - {{NYKRA|http://nykra.com}}, Endesga.
+  Print
+    - {*Rekka Bellum & Devine Lu Linvega: Deriveurs professionels*}, Canard PC magazine.
+    - {{Cook Island News|http://www.cookislandsnews.com/national/local/item/65279-digital-nomads-cross-the-pacific}}, The Cook Island Newspaper.
+  Podcasts
+    - {{Episode #112: Devine Lu Linvega|http://declandineen.com/checkpoints/kf54xkfyccgstbsbarnpb2nss3tcrw-ej3a7-9sadh-jxes2-crl62-58nhd-zex9e-r2pz9-7xztw-zk9db-wnxa7-j9mba-xr5xx-je849-nmgan-y75cn-rwapt-m97yr-nyhb6-mr2gx}}, Checkpoints podcast.
+
 `).parse();

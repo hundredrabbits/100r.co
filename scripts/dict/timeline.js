@@ -6,24 +6,6 @@ var $TIMELINE = new Indental(`
   TEXT : July 2018: Kava and quiet times in Fiji
   LINK : https://youtu.be/KBYXcieCxP4
 
-2018-07-20
-  TYPE : press
-  NAME : ​Blog entry
-  TEXT : Rainy with a chance of mosquitoes
-  LINK : https://100r.co/blog.html#rainy_with_a_chance_of_mosquitoes
-
-2018-06-30
-  TYPE : press
-  NAME : ​Play by Play 2018
-  TEXT : Digital nomads talk
-  LINK : https://youtu.be/WY5QwPBOsZY
-
-2018-06-31
-  TYPE : press
-  NAME : ​Blog entry
-  TEXT : Captain, what is this?
-  LINK : https://100r.co/blog.html#captain,_what_is_this?
-
 2018-06-29
   TYPE : video
   NAME : June 2018
@@ -103,12 +85,6 @@ var $TIMELINE = new Indental(`
   NAME : New Gearbox Cables
   VLUE : -130
 
-2018-04-05
-  TYPE : press
-  NAME : ​Raspberri Pi blog feature
-  TEXT : Raspberry Pi aboard Pino, the smart sailboat
-  LINK : https://www.raspberrypi.org/blog/pino-smart-sailing-boat/
-
 2018-03-29
   TYPE : video
   NAME : March 2018
@@ -120,11 +96,6 @@ var $TIMELINE = new Indental(`
   NAME : New windows
   VLUE : -1300
 
-2018-03-23
-  TYPE : press
-  NAME : ​Bonus speaker series
-  TEXT : Talk about digital nomadism at Media design school in Auckland
-  
 2018-02-29
   TYPE : video
   NAME : February 2018
@@ -152,12 +123,6 @@ var $TIMELINE = new Indental(`
   NAME : January 2018
   TEXT : January 2018: Our sailboat to-do's
   LINK : https://youtu.be/4olb-3BQU2E
-
-2018-01-16
-  TYPE : press
-  NAME : ​Checkpoints podcast
-  TEXT : Episode #112: Devine Lu Linvega
-  LINK : http://declandineen.com/checkpoints/kf54xkfyccgstbsbarnpb2nss3tcrw-ej3a7-9sadh-jxes2-crl62-58nhd-zex9e-r2pz9-7xztw-zk9db-wnxa7-j9mba-xr5xx-je849-nmgan-y75cn-rwapt-m97yr-nyhb6-mr2gx
 
 2018-01-11
   TYPE : video
@@ -228,22 +193,11 @@ var $TIMELINE = new Indental(`
   NAME : 4 New 6V Batteries
   VLUE : -810
 
-2017-11-21
-  TYPE : press
-  NAME : ​An Interview with Hundred Rabbits
-  TEXT : Developing Games and Tools from the Ocean
-  LINK : https://itch.io/blog/15488/developing-games-and-tools-from-the-ocean-an-interview-with-hundred-rabbits
-
 2017-11-19
   TYPE : video
   NAME : November 2017
   TEXT : Our Salty Sail to New Zealand
   LINK : https://www.youtube.com/watch?v=hI_W5fgZUQU
-
-2017-11-13
-  TYPE : press
-  NAME : ​Interview with Devine Lu Linvega
-  LINK : https://monochromatic.co/writing/interview-with-devine
 
 2017-10-21
   TYPE : sail
@@ -316,11 +270,6 @@ var $TIMELINE = new Indental(`
     -20.572463, -163.509240
     -20.844795, -161.494413
     -21.204798, -159.784932
-
-2017-07-15
-  TYPE : press
-  NAME : ​Cook Island News
-  LINK : http://www.cookislandsnews.com/national/local/item/65279-digital-nomads-cross-the-pacific
 
 2017-07-13
   TYPE : maintenance
@@ -413,11 +362,6 @@ var $TIMELINE = new Indental(`
   NAME : March 2017
   TEXT : Crossing the Pacific Ocean from La Paz to Marquesas
   LINK : https://youtu.be/oycB4h4Kvwo
-
-2017-04-03
-  TYPE : press
-  NAME : ​Canard PC magazine 
-  TEXT : Rekka Bellum & Devine Lu Linvega: Deriveurs professionels 
 
 2017-03-02
   TYPE : sail
@@ -611,12 +555,6 @@ var $TIMELINE = new Indental(`
   TEXT : Experiencing San Francisco on a sailboat
   LINK : https://www.youtube.com/watch?v=poGtT89jZjs
 
-2016-10-04
-  TYPE : press
-  NAME : ​Patreon Feature
-  LINK : https://www.youtube.com/watch?v=Im8ZAuUlmYA
-  TEXT : In Our House
-
 2016-10-02
   TYPE : expense
   NAME : Windvane
@@ -655,12 +593,6 @@ var $TIMELINE = new Indental(`
   TEXT : Sailing from Vancouver to San Francisco
   LINK : https://www.youtube.com/watch?v=KCXjuuMKaS4
 
-2016-08-22
-  TYPE : press
-  NAME : VICE Feature
-  LINK : http://www.vice.com/read/the-nomads-of-game-development
-  TEXT : ​The Nomads of Game Development
-
 2016-08-15
   TYPE : sail
   NAME : Alameda
@@ -668,12 +600,6 @@ var $TIMELINE = new Indental(`
   TEXT : We motor sailed with Rekka's parents to Alameda to visit BluePelican, a used marine goods store. The sail was quiet, no wind or waves. Uncommon for the San Francisco bay area.
   POSI
     37.784018, -122.264479
-
-2016-08-14
-  TYPE : press
-  NAME : Metronews Feature
-  TEXT : Life aboard a boat lures new generation of romantics
-  LINK : http://www.metronews.ca/features/vancouver/vancouvering/2016/08/12/boat-life-lures-new-generation-of-vancouver-romantics.html
 
 2016-08-12
   TYPE : video
@@ -716,12 +642,6 @@ var $TIMELINE = new Indental(`
   POSI
     48.802228, -123.601410
 
-2016-07-29
-  TYPE : press
-  NAME : Documentary Feature
-  TEXT : Branching paths
-  LINK : http://store.steampowered.com/app/494680
-
 2016-07-25
   TYPE : video
   NAME : July 2016
@@ -741,12 +661,6 @@ var $TIMELINE = new Indental(`
   NAME : A Storm
   LINK : https://www.youtube.com/watch?v=-ZsMjHj6MxE
   TEXT : A short podcast on the storm that blocked our path to Hawaii.
-
-2016-07-13
-  TYPE : press
-  NAME : Dailyhive Feature
-  TEXT : Two Canadian game developers set sail around the world
-  LINK : http://dailyhive.com/vancouver/two-canadian-game-developers-set-sail-around-the-world
 
 2016-07-12
   TYPE : sail
@@ -1075,12 +989,6 @@ var $TIMELINE = new Indental(`
   POSI
     49.353006, -123.270112
 
-2016-04-19
-  TYPE : press
-  NAME : Kill Screen Feature
-  TEXT : Making games on a sailboat
-  LINK : https://killscreen.com/articles/making-games-on-a-boat-to-get-back-that-feeling-of-being-l
-
 2016-04-18
   TYPE : sail
   NAME : Silva Bay
@@ -1241,12 +1149,6 @@ var $TIMELINE = new Indental(`
   TYPE : event
   NAME : Leaving Party
   LINK : https://www.facebook.com/events/696266160509400/
-
-2015-12-11
-  TYPE : press
-  NAME : Motherboard Feature
-  TEXT : A design studio on a sailboat
-  LINK : http://motherboard.vice.com/read/the-game-design-studio-on-a-boat
 
 2015-12-05
   TYPE : expense
