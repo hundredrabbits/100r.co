@@ -3,7 +3,7 @@
 #blog h2 { display: block; font-size:20px; color:#fff; font-weight:normal; font-family: "alte_haas_grotesk_bold"; line-height: 40px; text-transform: capitalize; margin-bottom:20px; }
 #blog h2:target { color:red; }
 #blog h3 { line-height: 20px; font-size: 12px; font-family: "alte_haas_grotesk_bold"; margin-bottom:20px; color:#555;}
-#blog #md > *:nth-child(2) { border-top:0px; }
+
 #blog p { margin-bottom: 20px;font-size: 14px;line-height: 20px; }
 #blog p b { font-weight:bold; }
 #blog yu { display: block; }
@@ -16,8 +16,11 @@
 #blog #sb list ln.head { color: #555;margin-top: 20px;border-bottom:1px solid #333;line-height: 30px;margin-bottom: 15px}
 #blog #sb list ln a:hover { text-decoration: underline; cursor: pointer; }
 
+#blog #md { opacity: 0; transition: opacity 250ms }
+#blog #md > *:nth-child(2) { border-top:0px; }
 #blog.loading #md { opacity: 0; transition: opacity 0ms }
 #blog.ready #md { opacity: 1 }
+#blog.ready #md img { opacity: 1 }
 
 #blog #md h1 { font-family: 'alte_haas_grotesk_bold';font-size:30px;border-bottom:1px solid #333;line-height: 60px;margin-bottom:30px;padding-bottom:15px;text-transform: capitalize; transition: opacity 150ms; }
 #blog #md h2.location { display: none }
@@ -25,8 +28,8 @@
 #blog #md h2.text { display: none }
 #blog #md list { display: block; margin-bottom: 30px; padding-left:30px; }
 #blog #md list ln { display: block;font-size: 14px;line-height: 20px;font-weight: 600}
-#blog #md img { display: block;max-width: 100%;width: 100%;margin-bottom:30px }
-#blog #md p { display: block;  }
+#blog #md img { display: block;max-width: 100%;width: 100%;margin-bottom:30px; opacity: 0; transition: opacity 2000ms; border-radius: 2px }
+#blog #md p { display: block; font-size:16px;line-height: 24px; margin-bottom:30px; }
 #blog #md p a { text-decoration: underline; font-weight: bold  }
 #blog #md p a:hover { text-decoration: underline; color:#999; }
 #blog #md list ln a { text-decoration: underline; font-weight: bold  }
@@ -36,11 +39,11 @@
 #blog #md div.location { display: none }
 #blog #md div.date { display: none }
 #blog #md div.text {  }
-#blog #md div.text p {}
+#blog #md div.text p {  }
 #blog #md div.text p b { font-weight: bold }
 #blog #md div.text p a { text-decoration: underline; }
 #blog #md div.text list { margin-bottom:30px; padding-left:30px; display: block }
-#blog #md div.text list ln { font-family: 'courier';font-size: 14px}
+#blog #md div.text list ln { font-family: 'courier new';font-size: 14px}
 
 @media (max-width: 950px) {
   body #blog #hd img { position: relative;left: auto;top: auto }
