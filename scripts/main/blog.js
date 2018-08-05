@@ -40,10 +40,7 @@ function Blog()
     this.el.className = "loading";
     this.update(result,entry);
 
-    setTimeout(()=>{ 
-      this.el.className = "ready"; 
-      window.scrollTo(0,0); 
-    },200)
+    this.show();
   }
 
   this.find = function(target)
@@ -86,6 +83,16 @@ function Blog()
     var html = `<h1>404</h1>`
     html += `<h2>Could not find "${target}".</h2><p>If you think this to be an error, <br/>please contact {{@hundredrabbits|http://twitter.com/hundredrabbits}}.</p>`;
     this.md.innerHTML = html.to_markup();
+
+    this.show();
+  }
+
+  this.show = function(delay = 200)
+  {
+    setTimeout(()=>{ 
+      this.el.className = "ready"; 
+      window.scrollTo(0,0); 
+    },delay)
   }
 
   this._sidebar = function()
