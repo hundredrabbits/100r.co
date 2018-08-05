@@ -31,7 +31,8 @@
 #blog #md p a:hover { text-decoration: underline; color:#999; }
 #blog #md list ln a { text-decoration: underline; font-weight: bold  }
 #blog #md list ln a:hover { text-decoration: underline; color:#999; }
-#blog #md input.button { background: white;color:black;font-weight: bold;padding:0px 15px;line-height: 30px;font-size:14px;border-radius: 100px;margin-bottom: 30px}
+#blog #md input.button { background: white;color:black;font-weight: bold;padding:0px 15px;line-height: 30px;font-size:14px;border-radius: 100px;margin-bottom: 30px; border:2px solid black;}
+#blog #md input.button:hover { background:#000; cursor: pointer; border:2px solid white; color:white; }
 #blog #md div.location { display: none }
 #blog #md div.date { display: none }
 #blog #md div.text {  }
