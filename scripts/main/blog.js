@@ -1,13 +1,13 @@
 function Blog()
 {
-  this.el = document.createElement('yu');
+  this.el = document.createElement('div');
   this.el.id = "blog";
   this.el.className = "loading";
 
-  this.el.appendChild(this.hd = document.createElement('yu')); this.hd.id = "hd";
-  this.el.appendChild(this.sb = document.createElement('yu')); this.sb.id = "sb";
-  this.el.appendChild(this.md = document.createElement('yu')); this.md.id = "md";
-  this.el.appendChild(this.fd = document.createElement('yu')); this.fd.id = "fd";
+  this.el.appendChild(this.hd = document.createElement('div')); this.hd.id = "hd";
+  this.el.appendChild(this.sb = document.createElement('div')); this.sb.id = "sb";
+  this.el.appendChild(this.md = document.createElement('div')); this.md.id = "md";
+  this.el.appendChild(this.fd = document.createElement('div')); this.fd.id = "fd";
 
   this.tables = {blog:db_blog,knowledge:db_knowledge,pages:db_pages}
 
@@ -123,11 +123,11 @@ function Blog()
       for(id in topics){
         var entry = topics[id];
         html += `
-        <yu class='content'>
+        <div class='content'>
           <h2 id='${id.to_path()}'>${id}</h2>
           <h3>${entry.LOCATION} — ${entry.DATE}</h3>
           ${new Runic(entry.TEXT)}
-        </yu>`
+        </div>`
       }
     }
     return html;
