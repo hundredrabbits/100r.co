@@ -12,8 +12,10 @@
 
 #blog #sb { margin-bottom: 20px;font-size: 12px;line-height: 20px;position: absolute;left: calc(50% - 450px);width: 200px;text-align: right; top:245px; text-transform: capitalize; font-weight: bold; }
 #blog #sb list { margin-bottom:30px; }
-#blog #sb list ln { display: block;  }
+#blog #sb list ln { display: block; }
 #blog #sb list ln.head { color: #555;margin-top: 20px;border-bottom:1px solid #333;line-height: 30px;margin-bottom: 15px}
+#blog #sb list ln.head.selected { color:#fff; text-decoration: none}
+#blog #sb list ln.selected { text-decoration: underline; }
 #blog #sb list ln a:hover { text-decoration: underline; cursor: pointer; }
 
 #blog #md { opacity: 0; transition: opacity 250ms }

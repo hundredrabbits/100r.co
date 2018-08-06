@@ -75,6 +75,8 @@ function Blog()
       html += `<div class='${id.toLowerCase()}'>${Array.isArray(field) ? new Runic(field).parse() : field}</div>`
     }
 
+    this.sb.innerHTML = this._sidebar(result);
+
     this.md.innerHTML = `<article>${html}</article>`;
   }
 
@@ -95,17 +97,17 @@ function Blog()
     },delay)
   }
 
-  this._sidebar = function()
+  this._sidebar = function(result = {id:'',name:''})
   {
     var html = "";
 
     for(id in this.tables){
       var table = this.tables[id]
       html += `<list class='table'>`
-      html += `<ln class='head'>${id.capitalize()}</ln>`
+      html += `<ln class='head ${result.id.to_path() == id.to_path() ? 'selected' : ''}'>${id.capitalize()}</ln>`
       for(name in table){
         var category = table[name];
-        html += `<ln>{{${name.capitalize()}}}</ln>`.to_markup()
+        html += `<ln class='${result.name.to_path() == name.to_path() ? 'selected' : ''}'>{{${name.capitalize()}}}</ln>`.to_markup()
       }
       html += '</list>'
     }
