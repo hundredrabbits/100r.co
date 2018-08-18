@@ -1,0 +1,95 @@
+var db_raspberry = new Indental(`
+  
+THE RASPBERRY PI
+  Introduction
+    & The {*Raspberry Pi*} is a small single-board computer that is fairly cheap and easily accessible from anywhere.
+    & The {{Pi Computer|Computer}} is currently used only as an experimental development tool aboard {{Pino}}, but could readily be turned into a complete development platform, would our principal computers fail.
+    & — To quickly setup a new {{Raspberry}} board, see the {{Pi Setup}}.
+  Setup
+    & Download {{Raspbian Lite|https://www.raspberrypi.org/downloads/raspbian/}}. Use {{Etcher|https://etcher.io}} to create the Boot SD card. Once Etcher has finished, re-insert it and type:
+    & {*I. Setup*}
+    # touch /Volumes/boot/ssh <comment># Enable SSH</comment>
+    # touch /Volumes/boot/wpa_supplicant.conf <comment># Auto-connect to wifi</comment>
+    # nano /Volumes/boot/wpa_supplicant.conf
+    & {*II. Edit*}
+    # country=CA
+    # ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+    # update_config=1
+    # network={
+    #   ssid="network_name"
+    #   psk="network_password"
+    # }
+    & {*III. Connect*}
+    # ping raspberrypi.local <comment># Find its IP address</comment>
+    # ssh pi@192.168.1.73 <comment># Use password "{*raspberry*}"</comment>
+    # sudo raspi-config <comment># {*Interface/SSH*} & {*Advanced/Expand FS*}</comment>
+    # sudo nano /etc/hostname <comment># Rename</comment>
+    # sudo nano /etc/hosts <comment># Rename</comment>
+    # passwd <comment># Change Password</comment>
+    # sudo reboot
+    & {*IV. Update*}
+    # sudo apt-get update
+    # sudo apt-get upgrade
+    # sudo apt-get dist-upgrade
+    & {*Gadget Mode(USB)*}
+    # dtoverlay=dwc2 <comment># Append in config.txt</comment>
+    # modules-load=dwc2,g_ether <comment># Append in cmdline.txt, or after rootwait</comment>
+
+THE MEDIA STATION
+  Introduction
+    & Our media station is a {{OSMC|http://osmc.tv}} powered {{Raspberry Pi|Raspberry}}.
+    & OSMC is a fast and beautiful operating system for the RPi board, it instantly gets media from our external drives, and streams audio to our {{Stereo Station}} via Airplay.
+    & Setting up OSMC is extremly simple, one simply needs to burn a SD Card with the {{latest Build|https://osmc.tv/download/}}, it installs itself upon boot and is usable in matters of seconds on the Raspberry Pi 3B+.
+    & This rig can be operated solely by touch, and requires no keyboard.
+  Parts
+    - Raspberry Pi {{3B+|https://www.raspberrypi.org}}
+    - Raspberry Pi {{Touch 7"|https://www.raspberrypi.org/products/raspberry-pi-touch-display/}}, 800x480
+    - SmartiPi Touch 7" Case
+    - Samsung EVO+ 16GB SD Card
+  LINK
+    OSMC : http://osmc.tv
+
+THE RADIO
+  Introduction
+    & Our {{sailboat|Pino}}'s speakers are connected to a {{Pi Zero W|Raspberry}} with {{Pimoroni's pHat Beat|https://github.com/pimoroni/phat-beat}}.
+    & The hat sends {{Airplay|https://www.apple.com/airplay/}} audio into two speaker-wire outputs, making a very powerful and cheap stereo. We share this device among our {{Media Station}} and phones.
+  Parts
+    - Raspberry Pi {{Zero W 1.1|https://www.raspberrypi.org}}
+    - Pimoroni's {{pHat Beat|https://shop.pimoroni.com/products/phat-beat}}
+    - Pimoroni's {{Pogo Pins|https://shop.pimoroni.com/products/pogo-a-go-go-solderless-gpio-pogo-pins}}
+    - 4x Brass Spacers
+    - 4x Screws
+    - 4x Bolts
+    - Samsung EVO+ 8GB SD Card
+  Installation
+    # curl -sS get.pimoroni.com/airdac | bash
+  LINK
+    Guide : https://learn.pimoroni.com/tutorial/sandyj/streaming-airplay-to-your-pi 
+
+THE PIANO
+  Introduction
+    & A hackable toy piano to play {{muzzak|https://twitter.com/neauoire/status/1029498719811424256}} on rainy days.
+    & Features 6 synth & 1 drum instruments, 5 octaves, automated arpgeggios, volume controls and external keyboard support. Connect to a speaker and play, or connect a keyboard to have access to a few more octaves and shortcuts. Read the full guide on {{Github|https://github.com/neauoire/Framboisedorf.local}}.
+  Parts
+    - Pimoroni's {{Piano Hat|https://shop.pimoroni.com/products/piano-hat}}
+    - 4 x M2.5 Standoffs
+    - {{PiBow|https://shop.pimoroni.com/products/pibow-coupe-for-raspberry-pi-3-b-plus}} Case
+  LINK
+    Sources : https://github.com/neauoire/Framboisedorf
+    Guide : https://learn.pimoroni.com/tutorial/piano-hat/getting-started-with-piano-hat
+    Projects : https://github.com/pimoroni/Piano-HAT
+
+THE COMPUTER
+  Introduction
+    & This {{Raspberry}} rig is a media platform and distractionless workstation. Its purpose is also to program other Raspberry Pi projects.
+  Parts
+    - Raspberry Pi {{3B+|https://www.raspberrypi.org}}
+    - Raspberry Pi Touch 7" [{{Backlight Controls|https://github.com/hundredrabbits/backlight-control}}]
+    - Pimoroni's {{Blinkt|https://shop.pimoroni.com/products/blinkt}} [{{Blinkt Controls|https://github.com/hundredrabbits/blinkt-control}}]
+    - SmartiPi Touch 7" Case
+    - Samsung EVO+ 64GB SD Card
+    - Anker Fast Charge USB Cable
+  LINK
+    Github : https://github.com/hundredrabbits/computer.local
+    
+`).parse();

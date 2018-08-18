@@ -9,7 +9,7 @@ function Blog()
   this.el.appendChild(this.md = document.createElement('div')); this.md.id = "md";
   this.el.appendChild(this.fd = document.createElement('div')); this.fd.id = "fd";
 
-  this.tables = {blog:db_blog,knowledge:db_knowledge,pages:db_pages}
+  this.tables = {blog:db_blog,knowledge:db_knowledge,raspberry:db_raspberry,pages:db_pages}
 
   this.install = function(host)
   {
