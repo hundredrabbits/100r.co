@@ -3,7 +3,7 @@ var db_raspberry = new Indental(`
 RASPBERRY PI
   Introduction
     & The {*Raspberry Pi*} is a small single-board computer that is fairly cheap and easily accessible from anywhere. 
-    & We currently use the Pi for a variety of projects on {{Pino}}, as it takes little power, and seems to be resistant to corrosion. Our {{Pi Computers|Computer}} are currently used only as experimental development tools, but could readily be turned into a complete development platform, would our principal computers fail.
+    & We currently use the Pi for a variety of projects on {{Pino}}, as it takes little power, and seems to be resistant to corrosion. Our {{Pi Computers|the Computer}} are currently used only as experimental development tools, but could readily be turned into a complete development platform, would our principal computers fail.
     > <img src='media/blog/raspberry.svg' style='width:100px; margin:30px auto; display:block'/>
   Setup
     & Download {{Raspbian Lite|https://www.raspberrypi.org/downloads/raspbian/}}, and with {{Etcher|https://etcher.io}} flash the SD card. Once Etcher has finished, re-insert it and type:
