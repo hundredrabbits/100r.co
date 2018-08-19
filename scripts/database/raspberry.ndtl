@@ -2,15 +2,15 @@ var db_raspberry = new Indental(`
   
 RASPBERRY PI
   Introduction
-    & The {*Raspberry Pi*} is a small single-board computer that is fairly cheap and easily accessible from anywhere.
-    & The {{Pi Computer|Computer}} is currently used only as an experimental development tool aboard {{Pino}}, but could readily be turned into a complete development platform, would our principal computers fail.
+    & The {*Raspberry Pi*} is a small single-board computer that is fairly cheap and easily accessible from anywhere. 
+    & We currently use the Pi for a variety of projects on {{Pino}}, as it takes little power, and seems to be resistant to corrosion. Our {{Pi Computers|Computer}} are currently used only as experimental development tools, but could readily be turned into a complete development platform, would our principal computers fail.
+    > <img src='media/blog/raspberry.svg' style='width:100px; margin:30px auto; display:block'/>
   Setup
-    & Download {{Raspbian Lite|https://www.raspberrypi.org/downloads/raspbian/}}. Use {{Etcher|https://etcher.io}} to create the Boot SD card. Once Etcher has finished, re-insert it and type:
-    & {*I. Setup*}
+    & Download {{Raspbian Lite|https://www.raspberrypi.org/downloads/raspbian/}}, and with {{Etcher|https://etcher.io}} flash the SD card. Once Etcher has finished, re-insert it and type:
     # touch /Volumes/boot/ssh <comment># Enable SSH</comment>
     # touch /Volumes/boot/wpa_supplicant.conf <comment># Auto-connect to wifi</comment>
     # nano /Volumes/boot/wpa_supplicant.conf
-    & {*II. Edit*}
+    & {*Edit wpa_supplicant.conf*}
     # country=CA
     # ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
     # update_config=1
@@ -18,7 +18,7 @@ RASPBERRY PI
     #   ssid="network_name"
     #   psk="network_password"
     # }
-    & {*III. Connect*}
+    & {*Connect to the Pi*}
     # ping raspberrypi.local <comment># Find its IP address</comment>
     # ssh pi@192.168.1.73 <comment># Use password "{*raspberry*}"</comment>
     # sudo raspi-config <comment># {*Interface/SSH*} & {*Advanced/Expand FS*}</comment>
@@ -26,7 +26,7 @@ RASPBERRY PI
     # sudo nano /etc/hosts <comment># Rename</comment>
     # passwd <comment># Change Password</comment>
     # sudo reboot
-    & {*IV. Update*}
+    & {*Update everything*}
     # sudo apt-get update
     # sudo apt-get upgrade
     # sudo apt-get dist-upgrade

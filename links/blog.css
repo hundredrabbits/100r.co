@@ -46,6 +46,7 @@
 #blog #md div.text list { margin-bottom:30px; padding-left:30px; display: block }
 #blog #md div.text list ln { font-family: 'courier new';font-size: 14px}
 #blog #md code { display: block;font-family: 'courier new', courier;margin-bottom: 30px;border: 1px solid white;padding: 20px;border-radius: 3px;font-size:12px;line-height: 20px; font-weight: bold; white-space: pre }
+#blog #md code comment { display: inline-block; color:#777; }
 
 @media (max-width: 950px) {
   body #blog #hd img { position: relative;left: auto;top: auto }
