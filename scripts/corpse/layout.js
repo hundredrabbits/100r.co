@@ -54,33 +54,9 @@ function Layout(host)
     }
   }
 
-this.toggle_game = function(e)
-  {
-    document.getElementById("about").style.display = "none";
-    document.getElementById("support").style.display = "none";
-    document.getElementById("game").style.display = "block";
-  }
-
-  this.toggle_about = function(e)
-  {
-    document.getElementById("about").style.display = "block";
-    document.getElementById("support").style.display = "none";
-    document.getElementById("game").style.display = "none";
-  }
-
-  this.toggle_support = function(e)
-  {
-    document.getElementById("about").style.display = "none";
-    document.getElementById("support").style.display = "block";
-    document.getElementById("game").style.display = "none";
-  }
-
   this.show_map = function(e)
   {
     window.location.hash = "#map"
-    document.getElementById("about").style.display = "none";
-    document.getElementById("support").style.display = "none";
-    document.getElementById("game").style.display = "none";
     document.getElementById("hundredrabbits").style.display = "none";
   }
 
