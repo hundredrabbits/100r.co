@@ -1,3 +1,5 @@
+'use strict';
+
 function Blog()
 {
   this.el = document.createElement('div');
@@ -21,20 +23,20 @@ function Blog()
     this.hd.innerHTML = "<a href='index.html'><img src='media/interface/logo.svg'/></a>";
     this.sb.innerHTML = this._sidebar();
 
-    var target = window.location.hash.replace("#","").replace(/\_/g," ").replace(/\+/g," ").trim();
-    var blogs = Object.keys(this.tables.blog)
-    var latest_blog = blogs[0];
+    let target = window.location.hash.replace("#","").replace(/\_/g," ").replace(/\+/g," ").trim();
+    let blogs = Object.keys(this.tables.blog)
+    let latest_blog = blogs[0];
 
     this.load(target ? target : latest_blog);
   }
 
   this.load = function(target)
   {
-    var result = this.find(target);
+    let result = this.find(target);
 
     if(!result){ this.missing(target); return; }
 
-    var entry = this.tables[result.id][result.name];
+    let entry = this.tables[result.id][result.name];
     window.location.hash = `${result.name.to_url()}`
 
     this.el.className = "loading";
@@ -46,9 +48,9 @@ function Blog()
   this.find = function(target)
   {
     for(id in this.tables){
-      var table = this.tables[id]
+      let table = this.tables[id]
       for(name in table){
-        var category = table[name];
+        let category = table[name];
         if(target.to_path() == name.to_path()){
           return {id:id,name:name};
         }
@@ -57,7 +59,7 @@ function Blog()
     // Deep lookup
     console.log("Deep blog lookup",target)
     for(id in this.tables.blog){
-      var blog = this.tables.blog[id]
+      let blog = this.tables.blog[id]
       if(blog.LOCATION.toLowerCase().indexOf(target.toLowerCase()) < 0){ continue; }
       return {id:"blog",name:id}
     }
@@ -67,10 +69,10 @@ function Blog()
 
   this.update = function(result,entry)
   {
-    var html = `<h1>${result.name.capitalize()}</h1>`
+    let html = `<h1>${result.name.capitalize()}</h1>`
 
     for(id in entry){
-      var field = entry[id];
+      let field = entry[id];
       html += `<h2 class='${id.toLowerCase()}'>${id.capitalize()}</h2>`
       html += `<div class='${id.toLowerCase()}'>${Array.isArray(field) ? new Runic(field).parse() : field}</div>`
     }
@@ -82,7 +84,7 @@ function Blog()
 
   this.missing = function(target)
   {
-    var html = `<h1>404</h1>`
+    let html = `<h1>404</h1>`
     html += `<h2>Could not find "${target}".</h2><p>If you think this to be an error, <br/>please contact {{@hundredrabbits|http://twitter.com/hundredrabbits}}.</p>`;
     this.md.innerHTML = html.to_markup();
 
@@ -99,14 +101,14 @@ function Blog()
 
   this._sidebar = function(result = {id:'',name:''})
   {
-    var html = "";
+    let html = "";
 
     for(id in this.tables){
-      var table = this.tables[id]
+      let table = this.tables[id]
       html += `<list class='table'>`
       html += `<ln class='head ${result.id.to_path() == id.to_path() ? 'selected' : ''}'>${id.capitalize()}</ln>`
       for(name in table){
-        var category = table[name];
+        let category = table[name];
         html += `<ln class='${result.name.to_path() == name.to_path() ? 'selected' : ''}'>{{${name.capitalize()}}}</ln>`.to_markup()
       }
       html += '</list>'
@@ -117,11 +119,11 @@ function Blog()
   this._diaries = function()
   {
     return ""
-    var html = "";
+    let html = "";
     for(name in db_blog){
-      var topics = db_blog[name];
+      let topics = db_blog[name];
       for(id in topics){
-        var entry = topics[id];
+        let entry = topics[id];
         html += `
         <div class='content'>
           <h2 id='${id.to_path()}'>${id}</h2>
@@ -139,14 +141,14 @@ function Blog()
   }
 }
 
-var detectBackOrForward = function(onBack, onForward)
+let detectBackOrForward = function(onBack, onForward)
 {
-  hashHistory = [window.location.hash];
-  historyLength = window.history.length;
+  let hashHistory = [window.location.hash];
+  let historyLength = window.history.length;
 
   return function()
   {
-    var hash = window.location.hash, length = window.history.length;
+    let hash = window.location.hash, length = window.history.length;
     if (hashHistory.length && historyLength == length) {
       if (hashHistory[hashHistory.length - 2] == hash) {
         hashHistory = hashHistory.slice(0, -1);
