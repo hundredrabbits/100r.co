@@ -6,6 +6,7 @@ var $TIMELINE = new Indental(`
   VLUE : 120
   TEXT : We are transiting toward Suva.
   POSI
+    -17.745357, 178.746733
     -17.439853, 178.945537
 
 2018-07-27
