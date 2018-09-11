@@ -1,5 +1,11 @@
 var $TIMELINE = new Indental(`
 
+2018-08-01
+  TYPE : video
+  NAME : August 2018
+  TEXT : August 2018: Island hopping in Fiji
+  LINK : https://youtu.be/qmvtKBWmz4g
+
 2018-09-04
   TYPE : sail
   NAME : Suva, Fiji
