@@ -10,7 +10,7 @@ var $TIMELINE = new Indental(`
   TYPE : sail
   NAME : Suva, Fiji
   VLUE : 120
-  TEXT : We are transiting toward Suva.
+  TEXT : We are transiting toward Suva, spent two nights anchored off Cousteau's resort, then moved off to Makogai island, Leleuvia and then Lami bay in Suva.
   POSI
     -18.109974, 178.396472
     -17.745357, 178.746733
