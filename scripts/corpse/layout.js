@@ -34,8 +34,17 @@ function Layout(host)
       <a href="https://hundredrabbits.itch.io" target="_blank">Games</a>
       <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">Videos</a>
       <a href="blog.html#Support">Support Us</a>
-    </c>`
+    </c>
 
+    <c class= "subscribe">
+      <p>Never miss an update</p>
+      <form action="https://tinyletter.com/hundredrabbits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/hundredrabbits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required>
+      <input type="submit" value="Subscribe" name="subscribe" class="button">
+    </form>
+    </c>  
+
+    `
     document.getElementById("show_map").addEventListener("click", this.show_map);
   
     for(id in invoke.vessel.timeline.events){

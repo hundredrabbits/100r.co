@@ -6,6 +6,7 @@ c h1 small { font-weight: noral; font-size:12px; display:block; }
 c h2 { display: block; font-size:30px; text-align: center; color:#222; margin-bottom: 30px; font-weight:normal; font-family: "alte_haas_grotesk_bold"}
 c h2 small {  }
 c h3 { font-style: italic;display: block;margin-bottom: 30px;font-size: 20px;max-width: 50% }
+c h4 { display: block; font-size:30px; text-align: center; color:#fff; margin-bottom: 30px; font-weight:normal; font-family: "alte_haas_grotesk_bold"}
 c p { display: block;max-width: 600px;color: #999;font-size: 23px;margin: 0px auto 30px auto;line-height: 32px;}
 c p.main { font-weight: bold; margin-bottom: 30px;}
 c p a { color:white; text-decoration: underline; }
@@ -23,6 +24,13 @@ c pre { max-width: 600px;margin: 0px auto;margin-bottom: 30px;font-family: couri
 overlay { z-index: 900;position: absolute;width: 100vw;}
 :target { z-index:999; }
 
+c.subscribe { margin-bottom:75px  }
+c.subscribe p { text-align: center;display: block;font-size: 18px;font-weight: bold;max-width: 375px;margin: 0px auto;margin-bottom: 10px;line-height: 25px;color:#fff}
+c.subscribe form { display: block; width: 300px;color: white; background: #000;border: 2px solid #E1E0E0;border-radius: 80px;text-decoration: none;;text-align: left;padding-bottom: 10px;padding:10px 15px;margin-bottom:30px; position: relative; margin:0px auto}
+c.subscribe form .email {color:white; background-color: black}
+c.subscribe form input.button { display: block;color: black;background: #fff;border-radius: 80px;text-decoration: none; text-align: center;margin-bottom: 30px;position: absolute;padding: 5px 15px;text-transform: uppercase;top: 5px;right: 7px;line-height: 18px;font-weight: bold;font-size:11px}
+c.subscribe form input.button:hover {background-color: grey; color: white; cursor: pointer;}
+
 c.status { padding: 30px 0px; z-index:900;}
 c.status h2 { width:50%; display: inline-block; color:white; float:left;}
 c.status h2 small { display: block; font-size:19px;}
@@ -31,7 +39,7 @@ c.headline h1 { text-align: center;font-size: 34px;font-family: 'alte_haas_grote
 c.headline p { text-align: center;display: block;font-size: 18px;font-weight: bold;max-width: 375px;margin: 0px auto;margin-bottom: 45px;line-height: 25px;color:#fff}
 c.headline p a { cursor: pointer; }
 
-c.menu { display: block; text-align: center; font-weight: bold; font-size:12px; padding:20px; margin-bottom:75px }
+c.menu { display: block; text-align: center; font-weight: bold; font-size:12px; padding:20px; margin-bottom:30px }
 c.menu a { border:2px solid white;padding:5px 10px;border-radius: 100px; margin-right:10px; line-height: 40px}
 c.menu a:hover { border:2px solid #333; cursor: pointer;}
 
