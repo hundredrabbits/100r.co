@@ -4,7 +4,6 @@ function Layout(host)
 
   this.timeline = document.createElement('c'); this.timeline.id = "timeline"; this.timeline.className = "timeline";
 
-  this.drool = new Drool(false);
   this.map = new Google_Map();
 
   this.start = function()
@@ -20,8 +19,9 @@ function Layout(host)
     var km = parseInt(sailed * 1.852)
 
     this.hd.innerHTML = `
-    <canvas id='logo' style='margin:10vh auto; display:block; width:300px; height:300px' width='600' height='600'></canvas>
     
+    <img src='media/interface/logo.svg' id='logo'/>
+
     <c class='headline'>
       <h1>Hundred Rabbits</h1>
       <p>We have sailed <a id='show_map'>`+(km.toString().substr(0,2)+"'"+km.toString().substr(2,3))+`km</a> making tools and games aboard <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>.</p>
@@ -54,7 +54,6 @@ function Layout(host)
     }
 
     this.md.appendChild(this.timeline)
-    this.drool.install(document.getElementById("logo"),120);
 
     document.body.appendChild(this.map.el)
 

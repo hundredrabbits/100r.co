@@ -2,7 +2,7 @@ function Hundredrabbits()
 {
   Invoke.call(this);
   
-  this.requirements = {corpse:["layout","timeline","event","drool","map"],dict:["timeline"]};
+  this.requirements = {corpse:["layout","timeline","event","map"],dict:["timeline"]};
 
   this.name = "hundredrabbits";
   this.corpse = null;

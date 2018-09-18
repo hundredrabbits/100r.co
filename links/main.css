@@ -92,5 +92,6 @@ c.timeline event.sail line { width: 160px; }
 
 c.timeline event.press line { width: 160px; }
 
-#hundredrabbits { width: 100vw;height: 100vh;z-index: 9000;position: absolute;top:-30px;left:0px; padding-bottom:100px; }
+#hundredrabbits { width: 100vw;height: auto;z-index: 9000;position: absolute;top:0px;left:0px; padding-bottom:100px; }
+#logo { display: block;margin: 100px auto;width:200px }
 #map { height:100vh; width:100vw; position: fixed !important; top:0px; left:0px; }
