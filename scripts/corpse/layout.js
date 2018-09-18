@@ -39,9 +39,9 @@ function Layout(host)
     <c class= "subscribe">
       <p>Never miss an update</p>
       <form action="https://tinyletter.com/hundredrabbits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/hundredrabbits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-      <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required>
-      <input type="submit" value="Subscribe" name="subscribe" class="button">
-    </form>
+        <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required>
+        <input type="submit" value="Subscribe" name="subscribe" class="button">
+      </form>
     </c>  
 
     `

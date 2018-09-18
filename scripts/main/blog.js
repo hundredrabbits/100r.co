@@ -22,6 +22,7 @@ function Blog()
   {
     this.hd.innerHTML = "<a href='index.html'><img src='media/interface/logo.svg'/></a>";
     this.sb.innerHTML = this._sidebar();
+    this.fd.innerHTML = this._footer();
 
     let target = window.location.hash.replace("#","").replace(/\_/g," ").replace(/\+/g," ").trim();
     let blogs = Object.keys(this.tables.blog)
@@ -114,6 +115,15 @@ function Blog()
       html += '</list>'
     }
     return html;
+  }
+
+  this._footer = function()
+  {
+    return `
+    <form action="https://tinyletter.com/hundredrabbits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/hundredrabbits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required>
+      <input type="submit" value="Subscribe" name="subscribe" class="button">
+    </form>`
   }
 
   this._diaries = function()
