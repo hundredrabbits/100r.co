@@ -11,7 +11,13 @@ function Blog()
   this.el.appendChild(this.md = document.createElement('div')); this.md.id = "md";
   this.el.appendChild(this.fd = document.createElement('div')); this.fd.id = "fd";
 
-  this.tables = {blog:db_blog,knowledge:db_knowledge,raspberry:db_raspberry,pages:db_pages}
+  this.tables = {
+    blog:db_blog,
+    knowledge:db_knowledge,
+    raspberry:db_raspberry,
+    applications:db_applications,
+    pages:db_pages
+  }
 
   this.install = function(host)
   {
@@ -120,6 +126,7 @@ function Blog()
   this._footer = function()
   {
     return `
+    <h3>Mailing list</h3>
     <form action="https://tinyletter.com/hundredrabbits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/hundredrabbits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
       <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required>
       <input type="submit" value="Subscribe" name="subscribe" class="button">

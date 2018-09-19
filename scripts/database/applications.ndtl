@@ -1,0 +1,104 @@
+var db_applications = new Indental(`
+
+GAMES
+  Games
+    & Selecting a game will take you to a microsite, containing additional information about each project. Each page also features a presskit.
+    - {{Markl|http://markl.100r.co}}, TAIBA.
+    - {{Oquonie|http://oquonie.100r.co}}, puzzle game.
+    - {{Donsol|http://donsol.100r.co}}, card game.
+    - {{Hiversaires|https://hundredrabbits.itch.io/hiversaires}}, point-n-click.
+    - {{Paradise|https://hundredrabbits.itch.io/paradise}}, text-adventure.
+
+LEFT
+  A minimalist text editor
+    % content/app.left1.png
+    & {{Left|https://hundredrabbits.itch.io/Left}} is a distractionless writing tool with auto-complete, synonyms, writing statistics, markup navigation and a speed-reader.
+    & The application is {*free*} (donations welcome) and {*Open Source*}, its original purpose was to help {{Rekka|https://kokorobot.ca}} with the writing of the upcoming novel {{Wiktopher|https://wiktopher.kokorobot.ca}}.
+  Download
+    & <iframe frameborder="0" src="https://itch.io/embed/173127?bg_color=000000&amp;fg_color=ffffff&amp;link_color=838383" width="552" height="167"></iframe>
+  Guide
+    - Create markers by beginning lines with <b>#</b>, <b>##</b> or <b>--</b>.
+    - Navigate quickly between markers with <b>c-]</b> and <b>c-[></b>.
+    - Open a text file by dragging it, or with <b>c-o</b>.
+    - Highlight some text and press <b>c-k</b> to enable the speed reader.
+    - Press <b>tab</b> to auto-complete a previously used, or common, word.
+    - Press <b>shift tab</b> to scroll through the selected word's synonyms.
+    - Press <b>c-\></b> to toggle the navigation.
+  Details
+    - L stands for Lines.
+    - W stands for Words.
+    - V stands for Vocabulary, or unique words.
+    - C stands for Characters.
+  Quick Inserts
+    & You can quickly insert or transform text by activating the Insert Mode with <b>c-i</b>, followed by one of these shortcuts:
+    - <b>c-d</b> Date
+    - <b>c-t</b> Time
+    - <b>c-p</b> Path
+    - <b>c-h</b> Header
+    - <b>c-H</b> Sub-Header
+    - <b>c-/</b> Comment
+    - <b>c-l</b> Line
+  Themes
+    % content/app.left2.png
+    & The colour of the app can be changed, you can choose from a variety of pre-made themes, or you can make your own.
+    & {{Download|https://github.com/hundredrabbits/Themes#collection}} additional themes
+
+  Extras
+    - This application supports the {{Ecosystem Theme|https://github.com/hundredrabbits/Themes}}.
+    - See the {{License|https://github.com/hundredrabbits/Left/blob/master/LICENSE.md}} file for license rights and limitations (MIT).
+    - {{Pull Requests|https://github.com/hundredrabbits/Left}} are welcome!
+
+DOTGRID
+  Dotgrid
+    % content/app.dotgrid1.jpg
+    & Dotgrid is a distractionless vector tool with line styles, corner controls, colours, grid-based tools, PNG and SVG export.
+    & The application is {*free*} (donations welcome) and {*Open Source*}, and also available live to be used with your browser, on your Raspberry Pi, or on your mobile device. 
+    & It can render as both PNG and SVG files. Dotgrid supports the full SVG specs, and includes additional effects such as mirroring and radial drawing.
+  Download
+    & <iframe frameborder="0" src="https://itch.io/embed/190851?bg_color=000&amp;fg_color=fff&amp;link_color=838383" width="552" height="167"></iframe>
+  Guide
+    & The grid can be made bigger, or smaller, by grabbing one of the four corners.
+    & Stroke types (<b>shortcuts</b>):
+    - Line <b>A</b>
+    - Arc <b>S</b>
+    - Arc Rev <b>D</b>
+    - Bezier <b>F</b>
+    - Close <b>Z</b>
+    & Stroke effects (<b>shortcuts</b>):
+    - Line cap <b>Q</b>
+    - Line join <b>W</b>
+    - Mirror <b>E</b>
+    - Fill <b>R</b>
+    - Thicker <b>}</b>
+    - Thinner <b>{</b>
+    - Thicker +5 <b>]</b>
+    - Thinner -5 <b>[</b>
+    & Dotgrid can be operated with the keyboard, here's how:
+    - Add point <b>enter key</b>
+    - Move up <b>up arrow key</b>
+    - Move down <b>down arrow key</b>
+    - Move right <b>right arrow ley</b>
+    - Move left <b>left arrow key</b>
+    - Remove point <b>press delete</b>
+    - Remove segment <b>press delete</b>
+    & Dotgrid has 3 layers, you can toggle between them using:
+    - Foreground <b>command 1</b> 
+    - Middle <b>command 2</b> 
+    - Background <b>command 3</b> 
+    & Other options:
+    - Color picker <b>G</b>
+    - Toggle grid on/off <b>H</b>
+    - Save <b>command-s</b>
+    - Export <b>command-e</b>
+    - Render <b>command-r</b>
+  Themes
+    % content/app.dotgrid2.jpg
+    & The colour of the app can be changed, you can choose from a variety of pre-made themes, or you can make your own.
+    & {{Download|https://github.com/hundredrabbits/Themes#collection}} additional themes
+
+  Extras
+    - This application supports the {{Ecosystem Theme|https://github.com/hundredrabbits/Themes}}.
+    - See the {{License|https://github.com/hundredrabbits/Dotgrid/blob/master/LICENSE.md}} file for license rights and limitations (MIT).
+    - {{Pull Requests|https://github.com/hundredrabbits/Dotgrid}} are welcome!
+
+`).parse();
