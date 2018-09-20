@@ -2,10 +2,13 @@ var db_knowledge = new Indental(`
   
 Off The Grid
   Water
-    & In most dry places, desalinated potable water is free or available for cheap. In most tropical islands, potable water is available but often scarce, and so it is best to {*catch rain water*} which can then be treated with bleach: 1/2 tsp for every 5 gallons (depending on the strenght of your bleach).
+    & In most dry places, desalinated potable water is free or available for cheap. In most tropical islands, potable water is available but often scarce, and so it is best to {*catch rain water*} which can then be treated with bleach, with the only ‘active’ ingredient ‘sodium hypochlorite'. 
+    & The amount depends on the concentration, the ratios will be different for 6% than for 8%. 
+    & For 6% bleach, add 1/2 tsp for every 5 gallons. For 8%, add a 1/4 tsp. Shake container well after adding bleach, and let container air out for 30 minutes or so before drinking. 
+    & Also, the water can be boiled for a minute before drinking. Another option of course, is to add filters inbetween your tank and your tap, although this may still mean that there will be contamination in your tank. Another option, is to filter the water before it gets in your tank - these filters can be expensive though. 
   Showers
-    & Coastal locations like marinas and public beaches often have fresh water showers for local swimmers or marina guests. Usually free, or available for use at a nominal fee.
-    & We also carry a <a target="_blank" href="https://www.amazon.com/gp/product/B0009PUT20/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0009PUT20&linkCode=as2&tag=hundredrabbit-20&linkId=6a58773485c039406a82ee6540a3d8d7">Solar Shower</a>, a black pouch hung outside and made warm by sunlight. We will often simply {*bathe in salt water, and rinse with fresh water*} from a spray bottle in locations where water is scarce.
+    & Coastal locations like marinas and public beaches often have fresh water showers for local swimmers or marina guests. Usually free, or available for use at a nominal fee (1-2$ for 5 minutes).
+    & We also carry a <a target="_blank" href="https://www.amazon.com/gp/product/B0009PUT20/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0009PUT20&linkCode=as2&tag=hundredrabbit-20&linkId=6a58773485c039406a82ee6540a3d8d7">Solar Shower</a>, a black pouch hung outside and made warm by sunlight. We will often simply {*bathe in salt water, and rinse with fresh water*} from a spray bottle in locations where water is scarce. The better option is to use those large pressurized weed killer spray bottles, they're inexpensive and easy to find.
   Provisioning
     & While modern grocery stores can be found in larger cities, these can often be far apart. In smaller towns, fresh vegetable and fruit markets are seldom open everyday, most only once a week.
     & For remote places, {*canned, dried or shelf-stable foods are a good alternative to refrigeration*}. Choosing canned foods is something worth experimenting with - buy an assortment, find which suit your tastes. We usually look for unsalted ones, without corn syrup.
