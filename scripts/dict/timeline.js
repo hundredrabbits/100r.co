@@ -1,10 +1,14 @@
 var $TIMELINE = new Indental(`
 
-2018-08-01
-  TYPE : video
-  NAME : August 2018
-  TEXT : August 2018: Island hopping in Fiji
-  LINK : https://youtu.be/qmvtKBWmz4g
+2018-09-25
+  TYPE : sail
+  NAME : Musket Cove, Fiji
+  VLUE : 90
+  POSI
+    -17.911933, 177.261568
+    -18.148331, 177.268032
+    -18.279248, 178.152853
+    -18.129214, 178.400010
 
 2018-09-04
   TYPE : sail
@@ -18,6 +22,12 @@ var $TIMELINE = new Indental(`
     -18.051212, 178.744896
     -17.745357, 178.746733
     -17.439853, 178.945537
+
+2018-09-01
+  TYPE : video
+  NAME : August 2018
+  TEXT : August 2018: Island hopping in Fiji
+  LINK : https://youtu.be/qmvtKBWmz4g
 
 2018-07-27
   TYPE : video
