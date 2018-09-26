@@ -3,8 +3,9 @@ var $TIMELINE = new Indental(`
 2018-09-25
   TYPE : sail
   NAME : Musket Cove, Fiji
-  VLUE : 90
+  VLUE : 110
   POSI
+    -17.772371, 177.190616
     -17.911933, 177.261568
     -18.148331, 177.268032
     -18.279248, 178.152853
