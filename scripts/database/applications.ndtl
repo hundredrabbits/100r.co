@@ -79,18 +79,18 @@ DOTGRID
     - Move down <b>down arrow key</b>
     - Move right <b>right arrow ley</b>
     - Move left <b>left arrow key</b>
-    - Remove point <b>press delete</b>
-    - Remove segment <b>press delete</b>
+    - Remove point <b>backspace</b>
+    - Remove segment <b>backspace</b>
     & Dotgrid has 3 layers, you can toggle between them using:
-    - Foreground <b>command 1</b> 
-    - Middle <b>command 2</b> 
-    - Background <b>command 3</b> 
+    - Foreground <b>c-1</b> 
+    - Middle <b>c-2</b> 
+    - Background <b>c-3</b> 
     & Other options:
     - Color picker <b>G</b>
     - Toggle grid on/off <b>H</b>
-    - Save <b>command-s</b>
-    - Export <b>command-e</b>
-    - Render <b>command-r</b>
+    - Save <b>c-s</b>
+    - Export <b>c-e</b>
+    - Render <b>c-r</b>
   Themes
     % content/app.dotgrid2.jpg
     & The colour of the app can be changed, you can choose from a variety of pre-made themes, or you can make your own.
