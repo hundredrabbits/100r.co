@@ -1,9 +1,17 @@
 var $TIMELINE = new Indental(`
 
+2018-09-29
+  TYPE : video
+  NAME : September 2018
+  TEXT : September 2018: Sailing to Suva
+  LINK : https://www.youtube.com/watch?v=WHuMwRRPqJo
+
 2018-09-25
   TYPE : sail
   NAME : Musket Cove, Fiji
   VLUE : 110
+  TEXT : We left Lami midday, with good wind and sailed overnight to Momi Bay, playing dodge-the-boats at night - so happy we have AIS now. We anchored in Momi bay for one night, then early next day, moved to Malolo Lailai. 
+
   POSI
     -17.772371, 177.190616
     -17.911933, 177.261568
