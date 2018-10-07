@@ -1,5 +1,12 @@
 var $TIMELINE = new Indental(`
 
+2018-10-27
+  TYPE : sail
+  NAME : Tuvalu
+  VLUE : 0
+  POSI
+    -17.681329, 177.386322
+
 2018-09-29
   TYPE : video
   NAME : September 2018
@@ -11,7 +18,6 @@ var $TIMELINE = new Indental(`
   NAME : Musket Cove, Fiji
   VLUE : 110
   TEXT : We left Lami midday, with good wind and sailed overnight to Momi Bay, playing dodge-the-boats at night - so happy we have AIS now. We anchored in Momi bay for one night, then early next day, moved to Malolo Lailai. 
-
   POSI
     -17.772371, 177.190616
     -17.911933, 177.261568
