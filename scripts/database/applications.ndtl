@@ -38,6 +38,9 @@ LEFT
     - <b>c-H</b> Sub-Header
     - <b>c-/</b> Comment
     - <b>c-l</b> Line
+  Fonts
+    - Toggle through the three built-in fonts with <b>c-<</b> or <b>c-></b>.
+    - Decrease or increase the font size with <b>c--</b> or <b>c-=</b>, and reset it with <b>c-0</b>.
   Themes
     % content/app.left2.png
     & The colour of the app can be changed, you can choose from a variety of pre-made themes, or you can make your own.
