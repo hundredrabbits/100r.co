@@ -31,6 +31,7 @@
 #blog #md list { display: block; margin-bottom: 30px; padding-left:30px; }
 #blog #md list ln { display: block;font-size: 14px;line-height: 20px;font-weight: 600}
 #blog #md img { display: block;max-width: 100%;width: 100%;margin-bottom:30px; opacity: 0; transition: opacity 2000ms; border-radius: 2px }
+#blog #md img.auto { max-width: 100%; width: auto; max-width: 60%;width: auto;margin: 0px auto;display: block; }
 #blog #md p { display: block; font-size:16px;line-height: 24px; margin-bottom:30px; }
 #blog #md p a { text-decoration: underline; font-weight: bold  }
 #blog #md p a:hover { text-decoration: underline; color:#999; }

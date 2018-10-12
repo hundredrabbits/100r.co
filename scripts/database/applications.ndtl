@@ -81,33 +81,28 @@ LEFT
 
     & This application supports the {{Ecosystem Theme|https://github.com/hundredrabbits/Themes}}. See the {{License|https://github.com/hundredrabbits/Left/blob/master/LICENSE.md}} file for license rights and limitations (MIT). {{Pull Requests|https://github.com/hundredrabbits/Left}} are welcome!
 DOTGRID
-  Dotgrid
-    % content/app.dotgrid1.jpg
-    & Dotgrid is a distractionless vector tool with line styles, corner controls, colours, grid-based tools, PNG and SVG export.
-    & The application is {*free*} (donations welcome) and {*Open Source*}, and also available live to be used with your browser, on your Raspberry Pi, or on your mobile device. 
-    & It can render as both PNG and SVG files. Dotgrid supports the full SVG specs, and includes additional effects such as mirroring and radial drawing.
+  Introduction
+    % content/applications/dotgrid.second.jpg
+    & Dotgrid is a distractionless vector tool with line styles, corner controls, colours, grid-based tools, PNG and SVG export. Dotgrid supports the full SVG specs, and includes additional effects such as mirroring and radial drawing.
+    & The application is {*free & Open Source*}, and {{available online|https://hundredrabbits.github.io/Dotgrid/}} to be used within your browser, on your Raspberry Pi, or on your mobile device. 
   Download
     & <iframe frameborder="0" src="https://itch.io/embed/190851?bg_color=000&amp;fg_color=fff&amp;link_color=838383" width="552" height="167"></iframe>
   Tutorial
-    & Launching Dotgrid, you are presented with a small window with a dotted grid, to make shapes you are confined to this grid - know that this is in no way restrictive, the grid can be made bigger, or smaller as needed by grabbing one of the four corners. This permits you to do simpler, or more complex designs. 
-    & If you move your cursor over the grid, a <b>white circle</b> appears around each dot, this is to show you where you are on the grid. Notice too, that the smaller dots, on the edges of said grid, also show you were your cursor is horizontally, and vertically.
-    & A row of icons sits on the bottom of the window. This is a list of tools, permitting you to alter the look, shape and colour of your vector shapes. 
-    & Place your cursor over a dot, any dot, and click. This will create a white dot on the grid. Now pick another dot, and click again, notice how the tools on the menu at the bottom became lighter, you have enough points to use them. The icon darken out when you can't use them, because of how many points you have.
-    & Below, is an explanation of each tool on the menu:
-  Line
+    & Upon opening the application, you are presented with a dotted grid, which can be made bigger, or smaller, by resizing the window. A list of tools, represented as icons, sits on the bottom of the window.
+    & Clicking anywhere on the grid will add a white dot to the grid, and by adding additional dots to the grid, notice how the available tool icons become lighter, that means you have enough points to use them, their icon will darken again when you don't.
+  Line(A)
     & Create two points on the grid. Selecting <b>Line</b> (the slanted line icon) will link the two points you just created together with a straight white line. The shortcut to use it is:
-    - Line <b>A</b>
-  Arc and Reverse Arc
+    % content/applications/dotgrid.line.jpg auto
+  Arc(S) & Reverse-Arc(D)
     & Click on backspace to clear your last segment, and draw another two sets of points, but this time, click on <b>Arc</b> (the first curve line icon). This, will connect your two points with a curve. 
     & If you undo your last move with <b>⌘ z</b>, connect your two points again by pressing <b>Arc Reverse</b> (the inverse curve icon). This creates an inverted curve. The shortcut to use these are:
-    - Arc <b>S</b>
-    - Arc Reverse <b>D</b>
-  Bezier
+    % content/applications/dotgrid.arc.jpg auto
+  Bezier(F)
     & Place two dots on your grid, with a third between them but offset, then press <b>Bezier</b> (the S icon). A white dot will appear separate from the main line, this is a handle that you can use to create your curve. Move the handle (or third point) to change its shape. The shortcut to use it is:
-    - Bezier <b>F</b>
-  Close
+    % content/applications/dotgrid.bezier.jpg auto
+  Close(Z)
     & Create 3 points on the grid, press <b>Line</b>, then press <b>Close</b> (the flat oval icon), your shape will complete itself. If you don't close a shape, you won't be able to fill it, and it will create problems when using Line cap. The shortcut to use it is:
-    - Close <b>Z</b>
+    % content/applications/dotgrid.circle.jpg auto
   Line cap
     & Make a triangle on the grid using 3 points, select the <b>Line</b> to connect them, then, select <b>Linecap</b> (line with a diamond shape at the end). By default, you get a 'round' line cap, you can cycle through the different types by pressing the linecap icon again. You have 3 linecap styles to choose from:
     - <b>Round</b> A rounded end cap is added to the end of the line
@@ -125,13 +120,12 @@ DOTGRID
     - Thinner <b>{</b>
     - Thicker +5 <b>]</b>
     - Thinner -5 <b>[</b>
-  Mirror
+  Mirror(E)
     & Drawing a shape, and select <b>Mirror</b> (the icon with 4 lines that aren't crossing), will mirror the image horizontally on the canvas. Pressing on it again, will mirror it vertically, doing it again, mirrors it three-ways from the center, and a 4th time will mirror it 4-ways from the center. This can be used to draw complex symmetrical shapes, like snowflakes. 
     & You can tell which sort of mirroring you've got, by seeing the changes in the icon on the menu. To remove the effect, click on the icon until it returns to its original state, with the lines not crossing. The shortcut to use it is:
-    - Mirror <b>E</b>
-  Fill
+  Fill(R)
     & Drawing a closed shape, and selecting <b>Fill</b> (icon resembling a twisted rectangle) will fill it with a single colour. Pressing on the icon again, will remove the fill. Know that if you have other closed shapes on your canvas, this function will fill them all. The shortcut to use it is:
-    - Fill <b>R</b>
+    % content/applications/dotgrid.fill.jpg auto
   Coloured circle
     & You can change the colour of any shape, by clicking on the white circle on the lower right-hand side and entering a colour code. 
   Other Functions
@@ -146,7 +140,7 @@ DOTGRID
     & To create a circle, draw 5 points on the grid, with the 5th returning to the starting point, then press <b>Arc</b>. You will now have a circle. Select <b>Close</b> to close the shape. The roundness of your circle will depend on where you placed your points. You can always adjust, by selecting the points individually and moving them around. 
     & When making complex shapes, mind how you build your shapes and how the lines will connect, the order will affect your design. 
   Visual
-    % content/app.dotgrid2.jpg
+    % content/applications/dotgrid.main.jpg
     & You can change the look and colour of Dotgrid. To do this, {{download|https://hundredrabbits.itch.io/dotgrid}} themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Dotgrid. The colours will change instantly. 
     & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app (Left, Donsol, Pico and Marabu).
     & You can also {{create|https://github.com/hundredrabbits/Themes#collection}} your own themes.
