@@ -2,8 +2,9 @@ var $TIMELINE = new Indental(`
 
 2018-10-27
   TYPE : sail
-  NAME : Tuvalu
+  NAME : Vuda point
   VLUE : 0
+  TEXT : We moved Pino to Vuda point marina, to stock up for our big trip north! 
   POSI
     -17.681329, 177.386322
 
