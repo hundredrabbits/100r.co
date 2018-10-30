@@ -88,7 +88,7 @@ function Google_Map()
     coordinates.push(this.here())
 
     // Tuvalu
-    coordinates.push({lat: -8.583168, lng: 179.040541})
+    
 
     // Kosrea
     coordinates.push({lat: 5.348007, lng: 162.946751})
