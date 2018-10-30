@@ -6,7 +6,8 @@ var $TIMELINE = new Indental(`
   VLUE : 0
   TEXT : We moved Pino to Vuda point marina, to stock up for our big trip north! 
   POSI
-    
+
+    -9.541815, 178.576015
     -10.075820, 179.376008
     -10.469583, 179.248887
     -12.601030, 178.213172
