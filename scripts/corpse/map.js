@@ -87,8 +87,8 @@ function Google_Map()
     // Last location
     coordinates.push(this.here())
 
-    // Tuvalu
-    
+    // Majuro
+    coordinates.push({lat: 7.101722, lng: 171.369853})
 
     // Kosrea
     coordinates.push({lat: 5.348007, lng: 162.946751})
