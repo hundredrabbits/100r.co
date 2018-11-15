@@ -1,5 +1,11 @@
 var $TIMELINE = new Indental(`
 
+2018-11-15
+  TYPE : sail
+  NAME : Majuro, Marshall Islands
+  VLUE : 0
+  TEXT : Pino moved to Majuro, to winter in the north pacific to wait for the weather to go further west to Japan!
+
 2018-10-27
   TYPE : sail
   NAME : Vuda point
