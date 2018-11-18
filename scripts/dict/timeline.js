@@ -5,13 +5,6 @@ var $TIMELINE = new Indental(`
   NAME : Majuro, Marshall Islands
   VLUE : 1724
   TEXT : Pino moved to Majuro, to winter in the north pacific to wait for the weather to go further west to Japan!
-
-2018-10-27
-  TYPE : sail
-  NAME : Vuda point
-  VLUE : 0
-  TEXT : We moved Pino to Vuda point marina, to stock up for our big trip north! 
-  
   POSI
     7.107737, 171.367520
     6.345580, 172.584075
