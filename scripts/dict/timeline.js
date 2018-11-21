@@ -1,5 +1,11 @@
 var $TIMELINE = new Indental(`
 
+2018-11-21
+  TYPE : video
+  NAME : November 2018
+  TEXT : November 2018: 24 days at sea, from Fiji to Majuro
+  LINK : https://youtu.be/FhxB_2YwPTY
+
 2018-11-15
   TYPE : sail
   NAME : Majuro, Marshall Islands
@@ -35,6 +41,14 @@ var $TIMELINE = new Indental(`
   NAME : September 2018
   TEXT : September 2018: Sailing to Suva
   LINK : https://www.youtube.com/watch?v=WHuMwRRPqJo
+
+2018-10-03
+  TYPE : sail
+  NAME : Vuda point, Fiji
+  VLUE : 20
+  TEXT : A very grey sail into Vuda marina, which will be our point of departure from Fiji. 
+  POSI
+    -17.680405, 177.386173
 
 2018-09-25
   TYPE : sail
