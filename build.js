@@ -1,7 +1,14 @@
-console.log('Build')
+console.time("Build");
 
 const Database = require('./build/database')
+const Manager = require('./build/manager')
+const Builder = require('./build/builder')
 
-// Load Database
+const indexes = ["applications","blog","knowledge","pages","raspberry","timeline"]
+const database = new Database(indexes)
+const manager = new Manager(database)
+const builder = new Builder(manager)
 
-const database = new Database(["applications","blog","knowledge","pages","raspberry","timeline"])
+builder.build()
+
+console.timeEnd("Build");
