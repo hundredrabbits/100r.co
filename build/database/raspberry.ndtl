@@ -1,5 +1,3 @@
-var db_raspberry = new Indental(`
-  
 RASPBERRY PI
   Introduction
     & The {*Raspberry Pi*} is a small single-board computer that is fairly cheap and easily accessible from anywhere. 
@@ -103,5 +101,3 @@ THE COMPUTER
     - Anker Fast Charge USB Cable
   Links
     - {{Softwares|https://github.com/hundredrabbits/computer.local}}
-    
-`).parse();

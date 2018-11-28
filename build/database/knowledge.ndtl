@@ -1,5 +1,3 @@
-var db_knowledge = new Indental(`
-  
 Off The Grid
   Water
     & In most dry places, desalinated potable water is free or available for cheap. In most tropical islands, potable water is available but often scarce, and so it is best to {*catch rain water*} which can then be treated with bleach, with the only ‘active’ ingredient ‘sodium hypochlorite'. 
@@ -231,4 +229,3 @@ Resources
   Inspiration
     - {{Steven K. Robert|https://microship.com/winnebiko-ii/}}
     - {{From Vladivostok to Otaru|https://www.voilieranthea.com/l_b_vers_le_nord.html}}, SV Anthea
-`).parse();

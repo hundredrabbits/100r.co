@@ -1,5 +1,3 @@
-var $TIMELINE = new Indental(`
-
 2018-11-21
   TYPE : video
   NAME : November 2018
@@ -1240,6 +1238,3 @@ var $TIMELINE = new Indental(`
   TYPE : first
   NAME : Founded HundredRabbits
   LINK : https://www.patreon.com/100
-`).parse();
-
-invoke.vessel.seal("dict","timeline");

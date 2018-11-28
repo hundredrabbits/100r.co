@@ -1,5 +1,3 @@
-var db_blog = new Indental(`
-
 The promise of pancakes
   Location : Majuro, The Marshall islands
   Date : 2018-11-26
@@ -1002,5 +1000,3 @@ RAINY WITH A CHANCE OF MOSQUITOES
     & Iggy was very full then, with much water and fruit, we were ready for our transit to the Tuamotus. We had to ride in the ugly part of the river again to get to Pino, without our german guide this time. We managed well enough, our eyes widening with every coming swell. What a shame it would be, if all of these fruits fell into the deep.
     & Our time in Nuku Hiva was at an end, but other islands and challenges lay ahead.
     & {*{{Watch a video|https://www.youtube.com/watch?v=raCuLpJRqTY}}*} of our time in {*Nuku Hiva*}.
-
-`).parse();
