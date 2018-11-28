@@ -15,7 +15,7 @@ function Page (id, table, database, parent = 'home') {
   }
 
   function _main (data) {
-    return `${runic(data, curlic)}`
+    return `${runic(data, curlic)}`.trim()
   }
 
   function _list (data) {
@@ -27,7 +27,16 @@ function Page (id, table, database, parent = 'home') {
   }
 
   function _body (id, parent, content) {
-    return `<h1>${id}</h1>\n<h2>${parent}</h2>\n${Object.keys(table).reduce(_template, '')}\n`
+    return `<h1>${id}</h1>\n<h2>${parent}</h2>\n${Object.keys(table).reduce(_template, '')}\n`.trim()
+  }
+
+  function _navi (database) {
+    const keys = Object.keys(database)
+    return `<ul>${keys.reduce((acc, key) => {
+      const keys = Object.keys(database[key])
+      return `${acc}<li>${key}</li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='/${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
+    }, '')
+    }</ul>`.trim()
   }
 
   this.toHtml = function () {
@@ -44,6 +53,7 @@ function Page (id, table, database, parent = 'home') {
 </head>
 <body>
   ${_body(this.id, this.parent)}
+  ${_navi(database)}
 </body>
 </html>`
   }
