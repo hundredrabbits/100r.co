@@ -54,7 +54,7 @@
 #blog #fd h3 { font-family: 'alte_haas_grotesk_bold';font-size:30px;line-height: 45px;margin-bottom:30px;padding-bottom:15px;text-transform: capitalize; transition: opacity 150ms; }
 #blog #fd form { display: block; width: 300px;color: white; background: #000;border: 2px solid #E1E0E0;border-radius: 80px;text-decoration: none;;text-align: left;padding-bottom: 10px;padding:10px 15px;margin-bottom:30px; position: relative;}
 #blog #fd form .email {color:white; background-color: black}
-#blog #fd form input.button { display: block;color: black;background: #fff;border-radius: 80px;text-decoration: none; text-align: center;margin-bottom: 30px;position: absolute;padding: 5px 15px;text-transform: uppercase;top: 5px;right: 7px;line-height: 18px;font-weight: bold;font-size:11px}
+#blog #fd form input.button { display: block;color: black;background: #fff;border-radius: 80px;text-decoration: none; text-align: center;margin-bottom: 30px;position: absolute;padding: 5px 15px;text-transform: uppercase;top: 5px;right: 5px;line-height: 18px;font-weight: bold;font-size:11px}
 #blog #fd form input.button:hover {background-color: grey; color: white; cursor: pointer;}
 
 @media (max-width: 950px) {
