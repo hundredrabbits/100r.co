@@ -29,7 +29,7 @@ function Layout(host)
 
     <c class="menu">
       <a href="blog.html#About">The Rabbits</a>
-      <a href="blog.html#Our+sailboat">SV Pino</a>
+      <a href="blog.html#pino">SV Pino</a>
       <a href="blog.html">Blog</a>
       <a href="https://hundredrabbits.itch.io" target="_blank">Games</a>
       <a href="https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A" target="_blank">Videos</a>
