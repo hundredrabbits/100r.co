@@ -38,7 +38,7 @@ function runic (lines = [], templater = null, host = null) {
       const htm = templater ? templater(txt) : txt
       return `${acc}${r.tag ? `<${r.tag} class='${r.class ? r.class : ''}'>${htm}</${r.tag}>` : `${htm}`}`
     }, '')
-    return wr ? `${acc}<${wr} class='${wrClass || ''}'>${html}</${wr}>` : `${acc}${html}`
+    return wr ? `${acc}<${wr} class='${wrClass || ''}'>${html}</${wr}>\n` : `${acc}${html}\n`
   }
 
   // Templates
