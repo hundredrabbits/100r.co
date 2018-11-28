@@ -6,11 +6,27 @@
   <meta name="author" content="Devine Lu Linvega">
   <meta name='description' content='The Nataniev Library(Static).'/>
   <meta name='keywords' content='Aliceffekt, Traumae, Devine Lu Linvega, Lietal, Oquonie, Verreciel, Nataniev, Oscean, Solarpunk' />
-  <link rel="alternate"  type="application/rss+xml" title="Feed" href="links/rss.xml" />
+  
   <title>Hundred Rabbits — The radio</title>
+
+  <link rel="alternate"  type="application/rss+xml" title="Feed" href="../links/rss.xml" />
+  <link rel="stylesheet" type="text/css" href="../links/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="../links/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="../links/main.css"/>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53987113-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-53987113-3');
+  </script>
+
 </head>
 <body>
-  <h1>the radio</h1>
+  <div id='core'>
+    <h1>the radio</h1>
 <h2>raspberry</h2>
 <h3>INTRODUCTION</h3>
 <p class=''>Our <a href='index.html#pino' target='_self' class='local' data-goto='Pino'>sailboat</a>'s speakers are connected to a <b>Pi Zero W</b> with <a href='https://github.com/pimoroni/phat-beat' target='_blank' class='external' data-goto=''>Pimoroni's pHat Beat</a>.</p><p class=''>The hat sends <a href='https://www.apple.com/airplay/' target='_blank' class='external' data-goto=''>Airplay</a> audio into two speaker-wire outputs, making a very powerful and cheap stereo. We share this device among our <a href='index.html#media+station' target='_self' class='local' data-goto='Media Station'>Media Station</a> and phones.</p>
@@ -20,7 +36,9 @@
 <h3>INSTALLATION</h3>
 <p class=''>The full guide is <a href='https://learn.pimoroni.com/tutorial/sandyj/streaming-airplay-to-your-pi' target='_blank' class='external' data-goto=''>here</a>.</p>
 <code class=''><li class=''>curl -sS get.pimoroni.com/airdac | bash</li></code>
-  <ul><li>applications</li>
+  </div>
+  <div id='navi'>
+    <ul><li>applications</li>
 <ul><li><a href='/games'>Games</a></li>
 <li><a href='/left'>Left</a></li>
 <li><a href='/dotgrid'>Dotgrid</a></li>
@@ -59,5 +77,6 @@
 <li><a href='/the_computer'>The computer</a></li>
 </ul>
 </ul>
+  </div>
 </body>
 </html>

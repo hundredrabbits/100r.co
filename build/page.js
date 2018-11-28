@@ -26,7 +26,7 @@ function Page (id, table, database, parent = 'home') {
     return `${acc}<h3>${key}</h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(table[key])}\n`
   }
 
-  function _body (id, parent, content) {
+  function _core (id, parent, content) {
     return `<h1>${id}</h1>\n<h2>${parent}</h2>\n${Object.keys(table).reduce(_template, '')}\n`.trim()
   }
 
@@ -48,12 +48,31 @@ function Page (id, table, database, parent = 'home') {
   <meta name="author" content="Devine Lu Linvega">
   <meta name='description' content='The Nataniev Library(Static).'/>
   <meta name='keywords' content='Aliceffekt, Traumae, Devine Lu Linvega, Lietal, Oquonie, Verreciel, Nataniev, Oscean, Solarpunk' />
-  <link rel="alternate"  type="application/rss+xml" title="Feed" href="links/rss.xml" />
+  
   <title>Hundred Rabbits — ${this.id.toCapitalCase()}</title>
+
+  <link rel="alternate"  type="application/rss+xml" title="Feed" href="../links/rss.xml" />
+  <link rel="stylesheet" type="text/css" href="../links/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="../links/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="../links/main.css"/>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53987113-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-53987113-3');
+  </script>
+
 </head>
 <body>
-  ${_body(this.id, this.parent)}
-  ${_navi(database)}
+  <div id='core'>
+    ${_core(this.id, this.parent)}
+  </div>
+  <div id='navi'>
+    ${_navi(database)}
+  </div>
 </body>
 </html>`
   }
