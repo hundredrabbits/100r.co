@@ -1,11 +1,12 @@
-function Database(tables)
-{
+'use strict'
+
+function Database (tables) {
   const fs = require('fs')
   const indental = require('./lib/indental')
 
   this.storage = {}
 
-  for(const id in tables){
+  for (const id in tables) {
     const table = tables[id]
     const path = `./build/database/${table}.ndtl`
     const content = fs.readFileSync(path, 'utf8')

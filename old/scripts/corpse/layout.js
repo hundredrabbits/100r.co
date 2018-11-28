@@ -1,19 +1,17 @@
-function Layout(host)
-{
-  Corpse.call(this,host);
+function Layout (host) {
+  Corpse.call(this, host)
 
-  this.timeline = document.createElement('c'); this.timeline.id = "timeline"; this.timeline.className = "timeline";
+  this.timeline = document.createElement('c'); this.timeline.id = 'timeline'; this.timeline.className = 'timeline'
 
-  this.map = new Google_Map();
+  this.map = new Google_Map()
 
-  this.start = function()
-  {
-    var sailed = 0;
-    var spent  = 0;
-    for(id in invoke.vessel.timeline.events){
-      var event = invoke.vessel.timeline.events[id];
-      if(event.type == "sail"){ sailed += parseFloat(event.vlue);}
-      if(event.type == "expense"){ spent += parseFloat(event.vlue);}
+  this.start = function () {
+    var sailed = 0
+    var spent = 0
+    for (id in invoke.vessel.timeline.events) {
+      var event = invoke.vessel.timeline.events[id]
+      if (event.type == 'sail') { sailed += parseFloat(event.vlue) }
+      if (event.type == 'expense') { spent += parseFloat(event.vlue) }
     }
 
     var km = parseInt(sailed * 1.852)
@@ -24,7 +22,7 @@ function Layout(host)
 
     <c class='headline'>
       <h1>Hundred Rabbits</h1>
-      <p>We have sailed <a id='show_map'>`+(km.toString().substr(0,2)+"'"+km.toString().substr(2,3))+`km</a> making tools and games aboard <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>.</p>
+      <p>We have sailed <a id='show_map'>` + (km.toString().substr(0, 2) + "'" + km.toString().substr(2, 3)) + `km</a> making tools and games aboard <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>.</p>
     </c>
 
     <c class="menu">
@@ -45,10 +43,10 @@ function Layout(host)
     </c>  
 
     `
-    document.getElementById("show_map").addEventListener("click", this.show_map);
-  
-    for(id in invoke.vessel.timeline.events){
-      var event = invoke.vessel.timeline.events[id];
+    document.getElementById('show_map').addEventListener('click', this.show_map)
+
+    for (id in invoke.vessel.timeline.events) {
+      var event = invoke.vessel.timeline.events[id]
       // if(event.type != "video"){ continue; }
       this.timeline.appendChild(event.el)
     }
@@ -57,20 +55,18 @@ function Layout(host)
 
     document.body.appendChild(this.map.el)
 
-    if(window.location.hash == "#map"){
-      this.show_map();
+    if (window.location.hash == '#map') {
+      this.show_map()
     }
   }
 
-  this.show_map = function(e)
-  {
-    window.location.hash = "#map"
-    document.getElementById("hundredrabbits").style.display = "none";
+  this.show_map = function (e) {
+    window.location.hash = '#map'
+    document.getElementById('hundredrabbits').style.display = 'none'
   }
 
-  this.load = function(key)
-  {
+  this.load = function (key) {
   }
 }
 
-invoke.vessel.seal("corpse","layout");
+invoke.vessel.seal('corpse', 'layout')
