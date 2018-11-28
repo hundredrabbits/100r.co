@@ -11,8 +11,8 @@ function Manager (tables) {
     this.pages[parent] = new Page(parent, generics)
     for (const id in table) {
       const sub = table[id]
-      if (this.pages[id]) { console.warn(`Re-declaring page #${id}`); return }
-      this.pages[id] = new Page(id, table, generics, parent)
+      if (this.pages[id]) { console.warn(`Re-declaring page #${id}!`); return }
+      this.pages[id] = new Page(id, sub, generics, parent)
     }
   }
 }

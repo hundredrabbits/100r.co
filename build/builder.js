@@ -7,8 +7,9 @@ function Builder (pages) {
     console.log('Building..')
     for (const id in pages) {
       const page = pages[id]
-      console.log(`Building ${page.path()}`)
-      fs.writeFileSync(page.path(), page.toHtml())
+      const path = `./pages/${page.filename}.html`
+      console.log(`Building ${path}`)
+      fs.writeFileSync(path, page.toHtml())
     }
   }
 }

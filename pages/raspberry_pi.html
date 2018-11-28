@@ -1,1 +1,15 @@
-hey
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Devine Lu Linvega">
+  <meta name='description' content='The Nataniev Library(Static).'/>
+  <meta name='keywords' content='Aliceffekt, Traumae, Devine Lu Linvega, Lietal, Oquonie, Verreciel, Nataniev, Oscean, Solarpunk' />
+  <link rel="alternate"  type="application/rss+xml" title="Feed" href="links/rss.xml" />
+  <title>Hundred Rabbits — Raspberry pi</title>
+</head>
+<body>
+  <h1>raspberry pi</h1><h2>raspberry</h2><h3>INTRODUCTION</h3><p class=''>The {*Raspberry Pi*} is a small single-board computer that is fairly cheap and easily accessible from anywhere.</p><p class=''>We currently use the Pi for a variety of projects on {{Pino}}, as it takes little power, and seems to be resistant to corrosion. Our {{Pi Computers|the Computer}} are currently used only as experimental development tools, but could readily be turned into a complete development platform, would our principal computers fail.</p><img src='media/blog/raspberry.svg' style='width:100px; margin:30px auto; display:block'/><h3>SETUP</h3><p class=''>Download {{Raspbian Lite|https://www.raspberrypi.org/downloads/raspbian/}}, and with {{Etcher|https://etcher.io}} flash the SD card. Once Etcher has finished, re-insert it and type:</p><code class=''><li class=''>touch /Volumes/boot/ssh <comment># Enable SSH</comment></li><li class=''>touch /Volumes/boot/wpa_supplicant.conf <comment># Auto-connect to wifi</comment></li><li class=''>nano /Volumes/boot/wpa_supplicant.conf</li></code><p class=''>{*Edit wpa_supplicant.conf*}</p><code class=''><li class=''>country=CA</li><li class=''>ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev</li><li class=''>update_config=1</li><li class=''>network={</li><li class=''>  ssid="network_name"</li><li class=''>  psk="network_password"</li><li class=''>}</li></code><p class=''>{*Connect to the Pi*}</p><code class=''><li class=''>ping raspberrypi.local <comment># Find its IP address</comment></li><li class=''>ssh pi@192.168.1.73 <comment># Use password "{*raspberry*}"</comment></li><li class=''>sudo raspi-config <comment># {*Interface/SSH*} & {*Advanced/Expand FS*}</comment></li><li class=''>sudo nano /etc/hostname <comment># Rename</comment></li><li class=''>sudo nano /etc/hosts <comment># Rename</comment></li><li class=''>passwd <comment># Change Password</comment></li><li class=''>sudo reboot</li></code><p class=''>{*Update everything*}</p><code class=''><li class=''>sudo apt-get update</li><li class=''>sudo apt-get upgrade</li><li class=''>sudo apt-get dist-upgrade</li></code><p class=''>{*Gadget Mode(USB)*}</p><code class=''><li class=''>dtoverlay=dwc2 <comment># Append in config.txt</comment></li><li class=''>modules-load=dwc2,g_ether <comment># Append in cmdline.txt, or after rootwait</comment></li></code>
+</body>
+</html>

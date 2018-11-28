@@ -11,7 +11,6 @@ function runic (lines = [], templater = null, host = null) {
     '@': { tag: 'div', class: 'quote', fn: quote },
     '|': { tag: 'tr', wrapper: 'table', fn: table },
     '%': { fn: media },
-    'λ': { fn: heol },
     '>': {}
   }
 
@@ -69,9 +68,7 @@ function runic (lines = [], templater = null, host = null) {
     return `<td>${content.trim().replace(/ \| /g, '</td><td>')}</td>`
   }
 
-  function heol (content) {
-    return `${new Heol(content, Ø('database').cache, host)}`
-  }
-
   return lines.filter(isRunic).reduce(stash, []).reduce(_html, '')
 }
+
+module.exports = runic
