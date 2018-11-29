@@ -19,22 +19,22 @@ function Page (id, table, database, parent = 'home') {
   }
 
   function _list (data) {
-    return `<ul>${Object.keys(data).reduce((acc, key, val) => { return `${acc}<li><a href='/${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
+    return `<ul>${Object.keys(data).reduce((acc, key, val) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
   }
 
   function _template (acc, key) {
-    return `${acc}<h3>${key}</h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(table[key])}\n`
+    return `${acc}<h3>${key.toCapitalCase()}</h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(table[key])}\n`
   }
 
   function _core (id, parent, content) {
-    return `<h1>${id}</h1>\n<h2>${parent}</h2>\n${Object.keys(table).reduce(_template, '')}\n`.trim()
+    return `<h1>${id.toCapitalCase()}</h1>\n<h2><a href='${parent.toUrl()}.html'>${parent.toCapitalCase()}</a></h2>\n${Object.keys(table).reduce(_template, '')}\n`.trim()
   }
 
   function _navi (database) {
     const keys = Object.keys(database)
     return `<ul>${keys.reduce((acc, key) => {
       const keys = Object.keys(database[key])
-      return `${acc}<li>${key}</li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='/${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
+      return `${acc}<li>${key}</li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
     }, '')
     }</ul>`.trim()
   }

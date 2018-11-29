@@ -1,2 +1,13 @@
 body { background:#000; color:#fff; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial;  overflow-x: hidden;}
 
+body #navi { background:blue; }
+body #core { max-width: 700px;overflow: hidden;margin:45px 100px }
+body #core * { margin-bottom: 30px }
+body #core h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; margin-bottom: 0px}
+body #core h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; margin-bottom:30px; color:#555;}
+body #core h2:before { content:'/'; }
+body #core h2 a { color:white; }
+body #core h2 a:hover { text-decoration: underline; }
+body #core h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
+body #core img { max-width: 100%; margin-bottom: 30px; border-radius: 2px }
+body #core p { line-height: 30px;font-size: 18px;max-width:500px }
