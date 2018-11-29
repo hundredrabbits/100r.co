@@ -34,10 +34,10 @@ body #wrapper #core p a { text-decoration: underline; }
 body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core p b { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;}
 body #wrapper #core ul { padding-left:30px; max-width: 400px}
-body #wrapper #core ul li { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;font-size: 16px;line-height: 25px;margin-bottom: 10px; }
+body #wrapper #core ul li { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;font-size: 16px;line-height: 25px;margin-bottom: 0px; }
 body #wrapper #core ul li a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core ul li a { text-decoration: underline; }
-body #wrapper #core ul.jump { columns: 3; padding:0px; }
+body #wrapper #core ul.jump { columns: 3; padding:0px; max-width:800px }
 body #wrapper #core ul.jump li { font-size:14px; margin-bottom: 0px }
 body #wrapper #core code { background:white; font-family: 'input_mono_regular'; display: block; color:black; line-height: 20px; padding:20px; }
 body #wrapper #core code li { display: block; margin-bottom: 0px; font-size:12px; white-space: pre }
