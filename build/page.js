@@ -23,7 +23,7 @@ function Page (id, table, database, parent = 'home') {
   }
 
   function _jump (table) {
-    return Object.keys(table).length >= 5 ? `<ul class='jump'>${Object.keys(table).reduce((acc, key, val) => { return `${acc}<li><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n` : ''
+    return Object.keys(table).length >= 9 ? `<ul class='jump'>${Object.keys(table).reduce((acc, key, val) => { return `${acc}<li><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n` : ''
   }
 
   function _template (acc, key) {

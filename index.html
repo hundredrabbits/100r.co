@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Devine Lu Linvega">
+  <meta name='description' content='The Nataniev Library(Static).'/>
+  <meta name='keywords' content='Aliceffekt, Traumae, Devine Lu Linvega, Lietal, Oquonie, Verreciel, Nataniev, Oscean, Solarpunk' />
+  
+  <title>Hundred Rabbits</title>
+
+  <link rel="alternate"  type="application/rss+xml" title="Feed" href="../links/rss.xml" />
+  <link rel="stylesheet" type="text/css" href="links/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="links/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="links/main.css"/>
+  <script src="map.js"></script>
+
+</head>
+<body>
+  <div id="world" style="height:100vh"></div>
+  <div id="logo"></div>
+
+  <script type="text/javascript">
+  
+    const map = new GoogleMap()
+
+    function initMap(){ 
+      setTimeout(() => {
+        map.start()
+      },2500) 
+    }
+
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>
+</body>
+</html>
