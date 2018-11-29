@@ -73,7 +73,7 @@ function Page (id, table, database, parent = 'home') {
 </head>
 <body>
   <div id='wrapper'>
-    <a id='logo' href='/index.html'></a>
+    <a id='logo' href='https://100r.co'></a>
     <div id='core'>
       ${_core(this.id, this.parent)}
     </div>

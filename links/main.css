@@ -29,8 +29,8 @@ body #wrapper #core img { max-width: 100%; margin-bottom: 30px; border-radius: 2
 body #wrapper #core img.auto { max-width: 50%;  }
 body #wrapper #core img.small { max-height: 150px  }
 body #wrapper #core p { line-height: 30px;font-size: 18px;max-width:500px }
-body #wrapper #core ul { padding-left:30px;}
-body #wrapper #core ul li { margin-bottom: 0px; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:14px; line-height: 20px }
+body #wrapper #core ul { padding-left:30px; max-width: 400px}
+body #wrapper #core ul li { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;font-size: 16px;line-height: 25px;margin-bottom: 10px; }
 body #wrapper #core ul li a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core p a { text-decoration: underline; }
 body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }
