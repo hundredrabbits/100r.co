@@ -46,4 +46,8 @@ function indental (data, Type) {
   return h
 }
 
+if (!module || !module.exports) {
+  const module = { exports: null }
+}
+
 module.exports = indental

@@ -1,5 +1,4 @@
 function GoogleMap () {
-
   var map = null
 
   this.style = [{
@@ -15,27 +14,16 @@ function GoogleMap () {
     'elementType': 'labels.text.stroke', 'stylers': [{ 'visibility': 'off' }] }]
 
   this.start = function () {
-
-    map = new google.maps.Map(document.getElementById('world'), { center: this.here(), zoom: 7, disableDefaultUI: true })
-
+    map = new google.maps.Map(document.getElementById('world'), { center: this.here(), zoom: 5, disableDefaultUI: true })
     map.set('styles', this.style)
 
-    // this.add_destinations()
+    this.installUpcomingPath(map)
+
+    this.add_destinations()
 
     // var path = new google.maps.Polyline({ path: this.path(), geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0, strokeWeight: 2 })
 
     // path.setMap(map)
-
-    var upcoming_path = new google.maps.Polyline({ path: this.upcomingPath(),
-      geodesic: true,
-      strokeColor: '#FF0000',
-      strokeOpacity: 0.0,
-      icons: [{
-        icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 2 },
-        offset: '0',
-        repeat: '10px'
-      }] })
-    upcoming_path.setMap(map)
   }
 
   this.markers = []
@@ -44,18 +32,16 @@ function GoogleMap () {
     this.markers.push(new google.maps.Marker({ position: coord, icon: { path: google.maps.SymbolPath.CIRCLE, strokeColor: 'red', scale: 2, strokeWeight: 0, fillOpacity: 1, fillColor: 'white' }, draggable: false, map: map }))
   }
 
-  
-
-  // this.add_destinations = function () {
-  //   for (id in invoke.vessel.timeline.events) {
-  //     var event = invoke.vessel.timeline.events[id]
-  //     if (event.type != 'sail') { continue }
-  //     var c = event.posi[0]
-  //     var lat = parseFloat(c.split(',')[0].trim())
-  //     var lng = parseFloat(c.split(',')[1].trim())
-  //     this.add_marker(event.name, { lat: lat, lng: lng })
-  //   }
-  // }
+  this.add_destinations = function () {
+    for (id in invoke.vessel.timeline.events) {
+      var event = invoke.vessel.timeline.events[id]
+      if (event.type != 'sail') { continue }
+      var c = event.posi[0]
+      var lat = parseFloat(c.split(',')[0].trim())
+      var lng = parseFloat(c.split(',')[1].trim())
+      this.add_marker(event.name, { lat: lat, lng: lng })
+    }
+  }
 
   // this.path = function () {
   //   var coordinates = []
@@ -72,12 +58,23 @@ function GoogleMap () {
   //   return coordinates
   // }
 
+  this.installUpcomingPath = function (map) {
+    var upcoming_path = new google.maps.Polyline({ path: this.upcomingPath(),
+      geodesic: true,
+      strokeColor: '#FF0000',
+      strokeOpacity: 0.0,
+      icons: [{
+        icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 2 },
+        offset: '0',
+        repeat: '10px'
+      }] })
+    upcoming_path.setMap(map)
+  }
+
   this.upcomingPath = function () {
     var coordinates = []
     // Last location
     coordinates.push(this.here())
-    // Majuro
-    coordinates.push({ lat: 7.101722, lng: 171.369853 })
     // Kosrea
     coordinates.push({ lat: 5.348007, lng: 162.946751 })
     // Guam
