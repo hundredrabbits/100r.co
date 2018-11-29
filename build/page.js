@@ -22,12 +22,16 @@ function Page (id, table, database, parent = 'home') {
     return `<ul>${Object.keys(data).reduce((acc, key, val) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
   }
 
+  function _jump (table){
+    return Object.keys(table).length >= 5 ? `<ul class='jump'>${Object.keys(table).reduce((acc,key,val) => { return `${acc}<li><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n`}, '')}</ul>\n` : ''
+  }
+
   function _template (acc, key) {
     return `${acc}<h3 id='${key.toUrl()}'><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(table[key])}\n`
   }
 
   function _core (id, parent, content) {
-    return `<h1>${id.toCapitalCase()}</h1>\n<h2><a href='${parent.toUrl()}.html'>${parent.toCapitalCase()}</a></h2>\n${Object.keys(table).reduce(_template, '')}\n`.trim()
+    return `<h1>${id.toCapitalCase()}</h1>\n<h2><a href='${parent.toUrl()}.html'>${parent.toCapitalCase()}</a></h2>\n${_jump(table)}${Object.keys(table).reduce(_template, '')}\n`.trim()
   }
 
   function _navi (database) {

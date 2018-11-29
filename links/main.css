@@ -5,20 +5,24 @@ body #wrapper { background:black; margin-top:5px; padding-top:30px; }
 
 body #wrapper #logo { display: block;width: 100px;height: 100px;background-image: url(../media/interface/logo.svg);background-size:contain;position: absolute;top:5px }
 
-body #wrapper #core { max-width: 700px;overflow: hidden;margin:30px; margin-left:300px; transition: margin-left 500ms; margin-top:135px; }
+body #wrapper #core { max-width: 700px;overflow: hidden;margin:30px; margin-left:300px; transition: margin-left 500ms; margin-top:135px; padding-bottom:200px;}
 body #wrapper #core * { margin-bottom: 30px }
-body #wrapper #core h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; margin-bottom: 0px}
-body #wrapper #core h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:14px; text-transform: capitalize; margin-bottom:30px; color:#555;}
+body #wrapper #core h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; }
+body #wrapper #core h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:14px; text-transform: capitalize; margin-bottom:30px; color:#555; display: none}
 body #wrapper #core h2:before { content:'/'; }
 body #wrapper #core h2 a { color:white; }
 body #wrapper #core h2 a:hover { text-decoration: underline; }
 body #wrapper #core h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
-body #wrapper #core img { max-width: 100%; margin-bottom: 30px; border-radius: 2px }
+body #wrapper #core img { max-width: 100%; margin-bottom: 30px; border-radius: 2px; display: block; }
+body #wrapper #core img.auto { max-width: 50%;  }
 body #wrapper #core p { line-height: 30px;font-size: 18px;max-width:500px }
 body #wrapper #core ul { padding-left:30px;}
 body #wrapper #core ul li { margin-bottom: 0px; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:14px; line-height: 20px }
+body #wrapper #core ul li a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core p a { text-decoration: underline; }
+body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core ul li a { text-decoration: underline; }
+body #wrapper #core ul.jump { columns: 3; padding:0px; }
 
 body #wrapper #navi { position: absolute;top: 200px;left:30px;font-size:14px; border-top: 2px solid white;padding-top: 30px }
 body #wrapper #navi ul { margin-bottom: 30px }
@@ -27,6 +31,6 @@ body #wrapper #navi ul li a:hover { text-decoration: underline; }
 body #wrapper #navi > ul > li { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; text-transform: capitalize; margin-bottom: 5px}
 
 @media (max-width: 900px) {
-  body #core { margin-left:30px; max-width:100%; }
-  body #navi { position: relative; }
+  body #wrapper #core { margin-left:30px; max-width:100%; }
+  body #wrapper #navi { position: relative; }
 }
