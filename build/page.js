@@ -22,11 +22,12 @@ function Page (id, table, database, parent = 'home') {
     return `<ul>${Object.keys(data).reduce((acc, key, val) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
   }
 
-  function _jump (table){
-    return Object.keys(table).length >= 5 ? `<ul class='jump'>${Object.keys(table).reduce((acc,key,val) => { return `${acc}<li><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n`}, '')}</ul>\n` : ''
+  function _jump (table) {
+    return Object.keys(table).length >= 5 ? `<ul class='jump'>${Object.keys(table).reduce((acc, key, val) => { return `${acc}<li><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n` : ''
   }
 
   function _template (acc, key) {
+    if (key === 'SETTINGS') { return acc }
     return `${acc}<h3 id='${key.toUrl()}'><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(table[key])}\n`
   }
 
@@ -38,7 +39,7 @@ function Page (id, table, database, parent = 'home') {
     const keys = Object.keys(database)
     return `<ul>${keys.reduce((acc, key) => {
       const keys = Object.keys(database[key])
-      return `${acc}<li><a href='${key.toUrl()}.html'>${key}</a></li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
+      return `${acc}<li>${key}</li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
     }, '')
     }</ul>`.trim()
   }

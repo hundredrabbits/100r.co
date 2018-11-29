@@ -9,7 +9,7 @@ const Builder = require('./build/builder')
 const indexes = ['blog', 'knowledge', 'applications', 'pages', 'raspberry']
 const database = new Database(indexes)
 const manager = new Manager(database.storage)
-const builder = new Builder(manager.pages)
+const builder = new Builder(manager.pages, manager.feeds)
 
 console.timeEnd('Setup')
 
