@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="The first game studio on a sailboat, two game devs circumnavigate the pacific ocean in search of inspiration.">
+  <meta name="keywords" content="Sailing, sailboat, yamaha 33, sailing to fiji, sailing to japan, game devs, markl, oquonie, game devs on a boat, studio on a boat, artist, illustrator, games, sailing to tonga, sailing to french polynesia, sailing to new zealand, dotgrid, left, young sailors, hundred rabbits, minimalist living">
+  <meta name="author" content="Rekka Bellum, Devine Lu Linvega, Hundredrabbits">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53987113-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-53987113-3');
+  </script>
+  <title>Hundred Rabbits</title>
+  <script src="scripts/core/indental.js"></script>
+  <script src="scripts/core/invoke.js"></script>
+  <link rel="alternate"  type="application/rss+xml" title="Feed" href="links/rss.xml" />
+</head>
+<body>
+  <script>
+    var invoke = new Invoke("hundredrabbits"); invoke.summon();
+    function load_map(){
+      invoke.vessel.corpse.map.start()
+    }
+    function initMap(){ 
+      setTimeout(load_map,2500) 
+    }
+  </script>
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>
+</html>

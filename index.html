@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="description" content="The first game studio on a sailboat, two game devs circumnavigate the pacific ocean in search of inspiration.">
-  <meta name="keywords" content="Sailing, sailboat, yamaha 33, sailing to fiji, sailing to japan, game devs, markl, oquonie, game devs on a boat, studio on a boat, artist, illustrator, games, sailing to tonga, sailing to french polynesia, sailing to new zealand, dotgrid, left, young sailors, hundred rabbits, minimalist living">
-  <meta name="author" content="Rekka Bellum, Devine Lu Linvega, Hundredrabbits">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53987113-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-53987113-3');
-  </script>
   <meta charset="utf-8">
-  <title>Hundred Rabbits</title>
-  <script src="scripts/core/indental.js"></script>
-  <script src="scripts/core/invoke.js"></script>
+  <meta name="author" content="Devine Lu Linvega">
+  <meta name='description' content='The Nataniev Library(Static).'/>
+  <meta name='keywords' content='Aliceffekt, Traumae, Devine Lu Linvega, Lietal, Oquonie, Verreciel, Nataniev, Oscean, Solarpunk' />
   
-  <link rel="alternate"  type="application/rss+xml" title="Feed" href="links/rss.xml" />
+  <title>Hundred Rabbits</title>
+
+  <link rel="alternate"  type="application/rss+xml" title="Feed" href="../links/rss.xml" />
+  <link rel="stylesheet" type="text/css" href="links/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="links/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="links/main.css"/>
+  <script>const module = { exports: null }</script>
+  <script src="build/lib/indental.js" type="text/javascript"></script>
+  <script src="route.ndtl" type="text/javascript"></script>
+  <script src="tracker.js"></script>
+  <script src="map.js"></script>
 </head>
-<body>
-  <script>
-    var invoke = new Invoke("hundredrabbits"); invoke.summon();
-    function load_map(){
-      invoke.vessel.corpse.map.start()
+<body class='splash'>
+  <div id='wrapper'>
+    <div id="world"></div>
+    <div id="logo"></div>
+    <div id="intro">
+      <h1>Hundred Rabbits</h1>
+      <p>We have sailed <a id="distance" href='pages/blog.html'>0km</a> making <a href='pages/tools.html'>tools</a> and <a href='pages/games.html'>games</a> aboard <a href="pages/pino.html">a sailboat</a>.</p>
+    </div>
+    <ul id='social'>
+      <li><a href='https://twitter.com/hundredrabbits' class='twitter' target='_blank'></a></li>
+      <li><a href='https://github.com/hundredrabbits' class='github' target='_blank'></a></li>
+      <li><a href='https://patreon.com/100' class='patreon' target='_blank'></a></li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+    const tracker = new Tracker(route)
+    tracker.start()
+
+    const element = document.getElementById('distance')
+
+    if(element){
+      element.innerHTML = tracker.payload.distance  
     }
+
+    const map = new GoogleMap(tracker.payload)
     function initMap(){ 
-      setTimeout(load_map,2500) 
+      setTimeout(() => { map.install() },500) 
     }
   </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>
 </body>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>
 </html>
