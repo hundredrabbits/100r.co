@@ -67,11 +67,14 @@ function Page (id, table, database, parent = 'home') {
 
 </head>
 <body>
-  <div id='core'>
-    ${_core(this.id, this.parent)}
-  </div>
-  <div id='navi'>
-    ${_navi(database)}
+  <div id='wrapper'>
+    <a id='logo' href='/index.html'></a>
+    <div id='core'>
+      ${_core(this.id, this.parent)}
+    </div>
+    <div id='navi'>
+      ${_navi(database)}
+    </div>
   </div>
 </body>
 </html>`
