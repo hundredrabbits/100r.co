@@ -60,5 +60,6 @@ body #wrapper #navi > ul > li { font-family: "alte_haas_grotesk_bold", "Helvetic
 
 @media (max-width: 900px) {
   body #wrapper #core { margin-left:30px; max-width:100%; }
-  body #wrapper #navi { position: relative; }
+  body #wrapper #navi { position: relative;top:0px;left:30px; padding-bottom: 60px }
+  body #wrapper ul.jump { columns: 2 !important }
 }

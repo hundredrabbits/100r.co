@@ -18,8 +18,8 @@ function Page (id, table, database, parent) {
     return `${runic(data, curlic)}`.trim()
   }
 
-  function _list (name,data) {
-    return `<ul>${Object.keys(data).reduce((acc, key, val) => { return `${acc}<li><a href='${!parent ? name.toUrl()+'.html#'+key.toUrl() : key.toUrl()+'.html'}'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
+  function _list (name, data) {
+    return `<ul>${Object.keys(data).reduce((acc, key, val) => { return key !== 'SETTINGS' ? `${acc}<li><a href='${!parent ? name.toUrl() + '.html#' + key.toUrl() : key.toUrl() + '.html'}'>${key.toCapitalCase()}</a></li>\n` : '' }, '')}</ul>\n`
   }
 
   function _jump (table) {
@@ -28,7 +28,7 @@ function Page (id, table, database, parent) {
 
   function _template (acc, key) {
     if (key === 'SETTINGS') { return acc }
-    return `${acc}<h3 id='${key.toUrl()}'><a href='${parent ? '#'+key.toUrl() : key.toUrl()+'.html'}'>${key.toCapitalCase()}</a></h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(key,table[key])}\n`
+    return `${acc}<h3 id='${key.toUrl()}'><a href='${parent ? '#' + key.toUrl() : key.toUrl() + '.html'}'>${key.toCapitalCase()}</a></h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(key, table[key])}\n`
   }
 
   function _core (id, parent, content) {
@@ -44,8 +44,7 @@ function Page (id, table, database, parent) {
     }</ul>`.trim()
   }
 
-  function _social()
-  {
+  function _social () {
     return `
     <ul id='social'>
       <li><a href='https://twitter.com/hundredrabbits' class='twitter' target='_blank'></a></li>
