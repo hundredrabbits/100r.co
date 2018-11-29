@@ -23,7 +23,7 @@ function Page (id, table, database, parent = 'home') {
   }
 
   function _template (acc, key) {
-    return `${acc}<h3>${key.toCapitalCase()}</h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(table[key])}\n`
+    return `${acc}<h3 id='${key.toUrl()}'><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(table[key])}\n`
   }
 
   function _core (id, parent, content) {
@@ -34,7 +34,7 @@ function Page (id, table, database, parent = 'home') {
     const keys = Object.keys(database)
     return `<ul>${keys.reduce((acc, key) => {
       const keys = Object.keys(database[key])
-      return `${acc}<li>${key}</li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
+      return `${acc}<li><a href='${key.toUrl()}.html'>${key}</a></li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
     }, '')
     }</ul>`.trim()
   }
