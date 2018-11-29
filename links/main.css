@@ -29,15 +29,17 @@ body #wrapper #core img { max-width: 100%; margin-bottom: 30px; border-radius: 2
 body #wrapper #core img.auto { max-width: 50%;  }
 body #wrapper #core img.small { max-height: 150px  }
 body #wrapper #core p { line-height: 30px;font-size: 18px;max-width:500px }
+body #wrapper #core p a { text-decoration: underline; }
+body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }
+body #wrapper #core p b { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;}
 body #wrapper #core ul { padding-left:30px; max-width: 400px}
 body #wrapper #core ul li { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;font-size: 16px;line-height: 25px;margin-bottom: 10px; }
 body #wrapper #core ul li a:hover { text-decoration: none; background:white; color:black; }
-body #wrapper #core p a { text-decoration: underline; }
-body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core ul li a { text-decoration: underline; }
 body #wrapper #core ul.jump { columns: 3; padding:0px; }
 body #wrapper #core code { background:white; font-family: 'input_mono_regular'; display: block; color:black; line-height: 20px; padding:20px; }
 body #wrapper #core code li { display: block; margin-bottom: 0px; font-size:12px; white-space: pre }
+body #wrapper #core input { display: inline-block; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;background:black;border:2px solid white;padding:0px 20px;line-height: 40px;border-radius: 30px;font-size:14px }
 
 body #wrapper #navi { position: absolute;top: 200px;left:30px;font-size:14px; border-top: 2px solid white;padding-top: 30px }
 body #wrapper #navi ul { margin-bottom: 30px }
