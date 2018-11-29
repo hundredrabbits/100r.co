@@ -23,9 +23,9 @@
   <div id="world" style="height:100vh"></div>
   <div id="logo"></div>
   <script type="text/javascript">
-    const map = new GoogleMap()
+    const map = new GoogleMap(route)
     function initMap(){ 
-      setTimeout(() => { map.start(route) },1500) 
+      setTimeout(() => { map.start() },1500) 
     }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>

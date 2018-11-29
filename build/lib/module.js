@@ -1,1 +1,0 @@
-const module = { exports: null }

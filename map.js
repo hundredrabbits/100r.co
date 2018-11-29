@@ -1,6 +1,6 @@
-function GoogleMap () {
-  var map = null
+'use strict'
 
+function GoogleMap (route) {
   this.style = [{
     'featureType': 'water', 'elementType': 'geometry', 'stylers': [{ 'color': '#000000' }] }, {
     'featureType': 'landscape', 'stylers': [{ 'color': '#333333' }] }, {
@@ -14,92 +14,82 @@ function GoogleMap () {
     'elementType': 'labels.text.stroke', 'stylers': [{ 'visibility': 'off' }] }]
 
   this.start = function () {
-    map = new google.maps.Map(document.getElementById('world'), { center: this.here(), zoom: 5, disableDefaultUI: true })
+    const here = this.here()
+    console.log('Current Location', here)
+    const destinations = this.destinations()
+    console.log('Destinations', destinations.length)
+    const vertices = this.vertices()
+    console.log('Vertices', vertices.length)
+    const futureVertices = this.futureVertices()
+    console.log('Future', futureVertices.length)
+
+    const element = document.getElementById('world')
+    const map = new google.maps.Map(element, { center: here, zoom: 5, disableDefaultUI: true })
+
     map.set('styles', this.style)
 
-    this.installUpcomingPath(map)
+    // Add Path
+    const path = new google.maps.Polyline({ path: vertices, geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0, strokeWeight: 2 })
+    path.setMap(map)
 
-    this.add_destinations()
+    // Future
+    const futurePath = new google.maps.Polyline({ path: futureVertices, geodesic: true, strokeColor: '#FF0000', strokeOpacity: 0.0, icons: [{ icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 2 }, offset: '0', repeat: '10px' }] })
+    futurePath.setMap(map)
 
-    // var path = new google.maps.Polyline({ path: this.path(), geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0, strokeWeight: 2 })
-
-    // path.setMap(map)
-  }
-
-  this.markers = []
-
-  this.add_marker = function (name, coord) {
-    this.markers.push(new google.maps.Marker({ position: coord, icon: { path: google.maps.SymbolPath.CIRCLE, strokeColor: 'red', scale: 2, strokeWeight: 0, fillOpacity: 1, fillColor: 'white' }, draggable: false, map: map }))
-  }
-
-  this.add_destinations = function () {
-    for (id in invoke.vessel.timeline.events) {
-      var event = invoke.vessel.timeline.events[id]
-      if (event.type != 'sail') { continue }
-      var c = event.posi[0]
-      var lat = parseFloat(c.split(',')[0].trim())
-      var lng = parseFloat(c.split(',')[1].trim())
-      this.add_marker(event.name, { lat: lat, lng: lng })
+    // Add Markers
+    for (const id in destinations) {
+      const pos = destinations[id]
+      addMarker(map, pos)
     }
   }
 
-  // this.path = function () {
-  //   var coordinates = []
-  //   for (id in invoke.vessel.timeline.events) {
-  //     var event = invoke.vessel.timeline.events[id]
-  //     if (event.type != 'sail') { continue }
-  //     for (i in event.posi) {
-  //       var c = event.posi[i]
-  //       var lat = parseFloat(c.split(',')[0].trim())
-  //       var lng = parseFloat(c.split(',')[1].trim())
-  //       coordinates.push({ lat: lat, lng: lng })
-  //     }
-  //   }
-  //   return coordinates
-  // }
-
-  this.installUpcomingPath = function (map) {
-    var upcoming_path = new google.maps.Polyline({ path: this.upcomingPath(),
-      geodesic: true,
-      strokeColor: '#FF0000',
-      strokeOpacity: 0.0,
-      icons: [{
-        icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 2 },
-        offset: '0',
-        repeat: '10px'
-      }] })
-    upcoming_path.setMap(map)
+  this.here = function () {
+    const key = Object.keys(route)[0]
+    const pos = convert(route[key].POSI[0])
+    return pos
   }
 
-  this.upcomingPath = function () {
+  this.destinations = function () {
+    const a = []
+    for (const id in route) {
+      a.push(convert(route[id].POSI[0]))
+    }
+    return a
+  }
+
+  this.vertices = function () {
+    const a = []
+    for (const id in route) {
+      const destination = route[id]
+      for (const id in destination.POSI) {
+        a.push(convert(destination.POSI[id]))
+      }
+    }
+    return a
+  }
+
+  this.futureVertices = function () {
     var coordinates = []
     // Last location
     coordinates.push(this.here())
-    // Kosrea
-    coordinates.push({ lat: 5.348007, lng: 162.946751 })
     // Guam
     coordinates.push({ lat: 13.492058, lng: 144.740704 })
     // Wakayama
     coordinates.push({ lat: 33.738601, lng: 135.278150 })
     // Osaka Bay
     coordinates.push({ lat: 34.336973, lng: 135.178785 })
-
+    //
     return coordinates
   }
 
-  this.here = function () {
-    return { lat: 7.101722, lng: 171.369853 }
-    // var coordinates = []
-    // for (id in invoke.vessel.timeline.events) {
-    //   var event = invoke.vessel.timeline.events[id]
-    //   if (event.type != 'sail') { continue }
-    //   for (i in event.posi) {
-    //     var c = event.posi[i]
-    //     var lat = parseFloat(c.split(',')[0].trim())
-    //     var lng = parseFloat(c.split(',')[1].trim())
-    //     return { lat: lat, lng: lng }
-    //   }
-    // }
-    // return coordinates
+  function addMarker (map, pos, icon = { path: google.maps.SymbolPath.CIRCLE, strokeColor: 'red', scale: 2, strokeWeight: 0, fillOpacity: 1, fillColor: 'white' }) {
+    new google.maps.Marker({ position: pos, icon: icon, draggable: false, map: map })
+  }
+
+  function convert (pos) {
+    const parts = pos.split(',')
+    const lat = parseFloat(parts[0].trim())
+    const lng = parseFloat(parts[1].trim())
+    return { lat: lat, lng: lng }
   }
 }
