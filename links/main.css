@@ -27,6 +27,7 @@ body #wrapper #core h2 a:hover { text-decoration: underline; }
 body #wrapper #core h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
 body #wrapper #core img { max-width: 100%; margin-bottom: 30px; border-radius: 2px; display: block; }
 body #wrapper #core img.auto { max-width: 50%;  }
+body #wrapper #core img.small { max-height: 150px  }
 body #wrapper #core p { line-height: 30px;font-size: 18px;max-width:500px }
 body #wrapper #core ul { padding-left:30px;}
 body #wrapper #core ul li { margin-bottom: 0px; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:14px; line-height: 20px }
@@ -35,6 +36,8 @@ body #wrapper #core p a { text-decoration: underline; }
 body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core ul li a { text-decoration: underline; }
 body #wrapper #core ul.jump { columns: 3; padding:0px; }
+body #wrapper #core code { background:white; font-family: 'input_mono_regular'; display: block; color:black; line-height: 20px; padding:20px; }
+body #wrapper #core code li { display: block; margin-bottom: 0px; font-size:12px; white-space: pre }
 
 body #wrapper #navi { position: absolute;top: 200px;left:30px;font-size:14px; border-top: 2px solid white;padding-top: 30px }
 body #wrapper #navi ul { margin-bottom: 30px }
