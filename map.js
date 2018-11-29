@@ -1,6 +1,8 @@
 'use strict'
 
-function GoogleMap (route) {
+function GoogleMap (payload) {
+  this.el = null
+
   this.style = [{
     'featureType': 'water', 'elementType': 'geometry', 'stylers': [{ 'color': '#000000' }] }, {
     'featureType': 'landscape', 'stylers': [{ 'color': '#333333' }] }, {
@@ -13,19 +15,22 @@ function GoogleMap (route) {
     'featureType': 'road', 'elementType': 'geometry.stroke', 'stylers': [{ 'visibility': 'on' }, { 'weight': 0.1 }, { 'color': '#111111' }] }, {
     'elementType': 'labels.text.stroke', 'stylers': [{ 'visibility': 'off' }] }]
 
-  this.start = function () {
-    const here = this.here()
-    console.log('Current Location', here)
-    const destinations = this.destinations()
-    console.log('Destinations', destinations.length)
-    const vertices = this.vertices()
-    console.log('Vertices', vertices.length)
-    const futureVertices = this.futureVertices()
-    console.log('Future', futureVertices.length)
-
+  this.install = function () {
     const element = document.getElementById('world')
-    const map = new google.maps.Map(element, { center: here, zoom: 5, disableDefaultUI: true })
+    setTimeout(() => { this.load(element, payload) }, 500)
+  }
 
+  this.load = function (element, payload) {
+    console.info('Loading Map')
+
+    // Unpack
+    const here = payload.here
+    const destinations = payload.destinations
+    const vertices = payload.vertices
+    const futureVertices = payload.futureVertices
+
+    // Load
+    const map = new google.maps.Map(element, { center: here, zoom: 4, disableDefaultUI: true })
     map.set('styles', this.style)
 
     // Add Path
@@ -38,58 +43,18 @@ function GoogleMap (route) {
 
     // Add Markers
     for (const id in destinations) {
-      const pos = destinations[id]
-      addMarker(map, pos)
+      addMarker(map, destinations[id])
     }
+
+    setTimeout(() => { this.show(element) }, 1000)
   }
 
-  this.here = function () {
-    const key = Object.keys(route)[0]
-    const pos = convert(route[key].POSI[0])
-    return pos
-  }
-
-  this.destinations = function () {
-    const a = []
-    for (const id in route) {
-      a.push(convert(route[id].POSI[0]))
-    }
-    return a
-  }
-
-  this.vertices = function () {
-    const a = []
-    for (const id in route) {
-      const destination = route[id]
-      for (const id in destination.POSI) {
-        a.push(convert(destination.POSI[id]))
-      }
-    }
-    return a
-  }
-
-  this.futureVertices = function () {
-    var coordinates = []
-    // Last location
-    coordinates.push(this.here())
-    // Guam
-    coordinates.push({ lat: 13.492058, lng: 144.740704 })
-    // Wakayama
-    coordinates.push({ lat: 33.738601, lng: 135.278150 })
-    // Osaka Bay
-    coordinates.push({ lat: 34.336973, lng: 135.178785 })
-    //
-    return coordinates
+  this.show = function (element) {
+    console.info('Showing Map')
+    element.className = 'ready'
   }
 
   function addMarker (map, pos, icon = { path: google.maps.SymbolPath.CIRCLE, strokeColor: 'red', scale: 2, strokeWeight: 0, fillOpacity: 1, fillColor: 'white' }) {
     new google.maps.Marker({ position: pos, icon: icon, draggable: false, map: map })
-  }
-
-  function convert (pos) {
-    const parts = pos.split(',')
-    const lat = parseFloat(parts[0].trim())
-    const lng = parseFloat(parts[1].trim())
-    return { lat: lat, lng: lng }
   }
 }

@@ -1,7 +1,19 @@
 html { background:white; }
 body { background:#fff; color:#fff; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; }
 
+body #world { opacity: 0; transition: opacity 2000ms; height:100vh; }
+body #world.ready { opacity: 1 }
+
 body #wrapper { background:black; margin-top:5px; padding-top:30px; }
+
+body.splash { overflow-y: hidden }
+body.splash #wrapper { margin-top: 0px; padding-top:30px }
+body.splash #wrapper #logo { position: fixed;width:200px;height:200px;left:calc(50vw - 100px);top:calc(50vh - 200px); }
+body.splash #wrapper #intro { position: fixed;width:400px;left:calc(50vw - 200px);top:calc(50vh + 100px); }
+body.splash #wrapper #intro h1 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-align: center; display: block; margin-bottom:30px; }
+body.splash #wrapper #intro p { text-align: center; text-align: center;line-height: 25px;font-size:18px }
+body.splash #wrapper #intro p a { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; text-decoration: underline; }
+body.splash #wrapper #intro p a:hover { text-decoration: none; cursor: pointer; }
 
 body #wrapper #logo { display: block;width: 100px;height: 100px;background-image: url(../media/interface/logo.svg);background-size:contain;position: absolute;top:5px }
 
