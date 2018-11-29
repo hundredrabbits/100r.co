@@ -9,6 +9,7 @@ function Manager (tables) {
 
   for (const parent in tables) {
     const table = tables[parent]
+    this.pages[parent] = new Page(parent, table, tables)
     for (const id in table) {
       const sub = table[id]
       if (this.pages[id]) { console.warn(`Re-declaring page #${id}!`); return }

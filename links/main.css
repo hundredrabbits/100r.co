@@ -14,6 +14,7 @@ body.splash #wrapper #intro h1 { font-family: "alte_haas_grotesk_bold", "Helveti
 body.splash #wrapper #intro p { text-align: center; text-align: center;line-height: 25px;font-size:18px }
 body.splash #wrapper #intro p a { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; text-decoration: underline; }
 body.splash #wrapper #intro p a:hover { text-decoration: none; cursor: pointer; }
+body.splash #wrapper #social { position: fixed;top:30px;right:30px; }
 
 body #wrapper #logo { display: block;width: 100px;height: 100px;background-image: url(../media/interface/logo.svg);background-size:contain;position: absolute;top:5px }
 
@@ -28,7 +29,7 @@ body #wrapper #core h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue"
 body #wrapper #core img { max-width: 100%; margin-bottom: 30px; border-radius: 2px; display: block; }
 body #wrapper #core img.auto { max-width: 50%;  }
 body #wrapper #core img.small { max-height: 150px  }
-body #wrapper #core p { line-height: 30px;font-size: 18px;max-width:500px }
+body #wrapper #core p { line-height: 30px;font-size: 20px;max-width: 600px }
 body #wrapper #core p a { text-decoration: underline; }
 body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core p b { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;}
@@ -37,9 +38,19 @@ body #wrapper #core ul li { font-family: "alte_haas_grotesk_bold", "Helvetica Ne
 body #wrapper #core ul li a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core ul li a { text-decoration: underline; }
 body #wrapper #core ul.jump { columns: 3; padding:0px; }
+body #wrapper #core ul.jump li { font-size:14px; margin-bottom: 0px }
 body #wrapper #core code { background:white; font-family: 'input_mono_regular'; display: block; color:black; line-height: 20px; padding:20px; }
 body #wrapper #core code li { display: block; margin-bottom: 0px; font-size:12px; white-space: pre }
 body #wrapper #core input { display: inline-block; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;background:black;border:2px solid white;padding:0px 20px;line-height: 40px;border-radius: 30px;font-size:14px }
+
+body #wrapper #social {}
+body #wrapper #social li { width:25px; height:25px; display: block; float:left; margin-left:5px; }
+body #wrapper #social li a { display: block; width:25px; height:25px; background-size: contain; }
+body #wrapper #social li a:hover { opacity: 0.75 }
+body #wrapper #social li a.twitter { background-image: url(../media/interface/icon.twitter.png) }
+body #wrapper #social li a.patreon { background-image: url(../media/interface/icon.patreon.png) }
+body #wrapper #social li a.youtube { background-image: url(../media/interface/icon.youtube.png) }
+body #wrapper #social li a.github { background-image: url(../media/interface/icon.github.png) }
 
 body #wrapper #navi { position: absolute;top: 200px;left:30px;font-size:14px; border-top: 2px solid white;padding-top: 30px }
 body #wrapper #navi ul { margin-bottom: 30px }

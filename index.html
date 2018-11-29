@@ -24,12 +24,24 @@
     <div id="logo"></div>
     <div id="intro">
       <h1>Hundred Rabbits</h1>
-      <p>We have sailed <a id="distance">23'669km</a> making <a href='pages/pino.html'>tools</a> and <a href='pages/games.html'>games</a> aboard <a href="pages/pino.html">a sailboat</a>.</p>
+      <p>We have sailed <a id="distance" href='pages/blog.html'>0km</a> making <a href='pages/tools.html'>tools</a> and <a href='pages/games.html'>games</a> aboard <a href="pages/pino.html">a sailboat</a>.</p>
     </div>
+    <ul id='social'>
+      <li><a href='https://twitter.com/hundredrabbits' class='twitter' target='_blank'></a></li>
+      <li><a href='https://github.com/hundredrabbits' class='github' target='_blank'></a></li>
+      <li><a href='https://patreon.com/100' class='patreon' target='_blank'></a></li>
+    </ul>
   </div>
   <script type="text/javascript">
     const tracker = new Tracker(route)
     tracker.start()
+
+    const element = document.getElementById('distance')
+
+    if(element){
+      element.innerHTML = tracker.payload.distance  
+    }
+
     const map = new GoogleMap(tracker.payload)
     function initMap(){ 
       setTimeout(() => { map.install() },500) 

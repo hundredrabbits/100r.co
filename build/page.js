@@ -32,16 +32,22 @@ function Page (id, table, database, parent = 'home') {
   }
 
   function _core (id, parent, content) {
-    return `<h1>${id.toCapitalCase()}</h1>\n<h2><a href='${parent.toUrl()}.html'>${parent.toCapitalCase()}</a></h2>\n${_jump(table)}${Object.keys(table).reduce(_template, '')}\n`.trim()
+    console.log(id,Object.keys(table))
+    return `<h1>${id.toCapitalCase()}</h1>\n${_jump(table)}${Object.keys(table).reduce(_template, '')}\n`.trim()
   }
 
   function _navi (database) {
     const keys = Object.keys(database)
     return `<ul>${keys.reduce((acc, key) => {
       const keys = Object.keys(database[key])
-      return `${acc}<li>${key}</li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
+      return `${acc}<li><a href='${key.toUrl()}.html'>${key}</a></li>\n<ul>${keys.reduce((acc, key) => { return `${acc}<li><a href='${key.toUrl()}.html'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n`
     }, '')
     }</ul>`.trim()
+  }
+
+  function _social()
+  {
+    return `<ul id='social'><li><a href='http://twitter.com/hundredrabbits' class='twitter' target='_blank'></a></li><li><a href='http://github.com/hundredrabbits' class='github' target='_blank'></a></li></ul>`
   }
 
   this.toHtml = function () {
@@ -79,6 +85,7 @@ function Page (id, table, database, parent = 'home') {
     </div>
     <div id='navi'>
       ${_navi(database)}
+      ${_social()}
     </div>
   </div>
 </body>
