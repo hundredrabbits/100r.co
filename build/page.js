@@ -14,16 +14,14 @@ function Page (id, table, database, parent) {
     return `./pages/${this.filename}.html`
   }
 
-  function _description()
-  {
+  function _description () {
     return 'A digital studio aboard a sailboat.'
   }
 
-  function _keywords()
-  {
+  function _keywords () {
     let str = ''
     const db = database[parent]
-    for(const id in db){
+    for (const id in db) {
       str += `${id}, `
     }
     str += Object.keys(table).join(', ').trim()
