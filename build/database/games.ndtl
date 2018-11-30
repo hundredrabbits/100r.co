@@ -1,15 +1,99 @@
 MARKL
-  TAIBA
-    & More details soon
+  Info
+    & Markl is an upcoming {*Tactical AI Battle Arena*}. You must program your fighter's reactions to survive through a series of encounters.
+  Screenshots
+    % content/games/markl.1.jpg
+    % content/games/markl.2.jpg
+    % content/games/markl.3.jpg
+  Links
+    - {Microsite(https://markl.100r.co)}
+  Platforms
+    & PC, Mac and Linux
+  Release
+    & TBD
 
 OQUONIE
-  TAIBA
-    & More details soon
+  Info
+    & Oquonie is an IGF nominated {*textless isometric puzzle game*}. You must make your way through a seemingly endless succession of rooms; you will not be alone, your incarnations will have the help of bizaroid characters that speak an obscure language.
+  Video
+    % youtube mepnp69qI64
+  Download  
+    % itchio 23183
+  Screenshots
+    % content/games/oquonie.1.jpg
+    % content/games/oquonie.2.jpg
+    % content/games/oquonie.3.jpg
+  Links
+    - {Microsite(https://oquonie.100r.co)}
+    - {Itunes(https://itunes.apple.com/us/app/oquonie/id819777958?mt=8)}
+   Platforms
+    & PC, Mac, IOS and Linux
+  Release
+    & February 2014
 
 DONSOL
-  TAIBA
-    & More details soon
+  Info
+    & Donsol is a {*dungeon crawler card game*} played with a standard 54 card deck. 
+  Video
+    % youtube GNoZrr56GqA
+  Download  
+    % itchio 109936
+  Screenshots
+    % content/games/donsol.1.jpg
+    % content/games/donsol.2.jpg
+    % content/games/donsol.3.jpg
+  Themes
+    & These themes are part of the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}, which means that you can apply a theme to any supported app (Dotgrid, Donsol, Orca and Marabu).
+  Links
+    - {Microsite(https://donsol.100r.co)}
+    - {Itunes(https://itunes.apple.com/us/app/donsol/id976367718?mt=8)}
+  Platforms
+    & PC, Mac, IOS and Linux
+  Release
+    & April 2015
 
 PARADISE
-  TAIBA
-    & More details soon
+  Info
+    & Paradise plays like a strange {*interactive fiction novel*}, in an ever-changing world where you are not an avatar but a force acting upon places, and objects, and puns, words - moving around and into your other selves, threading chaos.
+  Video
+    % youtube 9gmMVjHJ6cU
+  Download
+    % itchio 251450
+  Screenshots
+    % content/games/paradise.1.jpg
+  Themes
+    & These themes are part of the {*{Ecosystem Theme(https://github.com/hundredrabbits/Themes)}*}, which means that you can apply a theme to any supported app (Dotgrid, Donsol, Orca and Marabu).
+  Platforms
+    & PC, Mac and Linux
+  Release
+    & April 28th 2018
+
+HIVERSAIRES
+  Info
+    & Hiversaires is a {*point-and-click adventure game*}. Venture down entangled corridors, enter the dark world.  
+  Video
+    % youtube X8fxC0s8J_8
+  Download
+    % itchio 225445
+  Screenshots
+    % content/games/hiversaire.1.jpg
+    % content/games/hiversaire.2.jpg
+    % content/games/hiversaire.3.jpg
+  Platforms
+    & PC, Mac and Linux
+  Release
+    & April 3rd 2013, re-released for desktop on February 27th 2018.
+
+VERRECIEL
+  Info
+    & Verreciel is a {*space exploration game*} with controls reminiscent of modular synthetisers.
+  Download
+    % itchio 173320
+  Screenshots
+    % content/games/verreciel.1.jpg
+    % content/games/verreciel.2.jpg
+  Platforms
+    & PC, Mac and Linux
+  Release
+    & September 4th 2017
+
