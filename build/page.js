@@ -14,6 +14,22 @@ function Page (id, table, database, parent) {
     return `./pages/${this.filename}.html`
   }
 
+  function _description()
+  {
+    return 'A digital studio aboard a sailboat.'
+  }
+
+  function _keywords()
+  {
+    let str = ''
+    const db = database[parent]
+    for(const id in db){
+      str += `${id}, `
+    }
+    str += Object.keys(table).join(', ').trim()
+    return str.toLowerCase().trim()
+  }
+
   function _main (data) {
     return `${runic(data, curlic)}`.trim()
   }
@@ -54,15 +70,24 @@ function Page (id, table, database, parent) {
     `
   }
 
+  // TODO
+  // <c class="subscribe">
+  //   <p>Never miss an update</p>
+  //   <form action="https://tinyletter.com/hundredrabbits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/hundredrabbits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+  //     <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required="">
+  //     <input type="submit" value="Subscribe" name="subscribe" class="button">
+  //   </form>
+  // </c>
+
   this.toHtml = function () {
     return `
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Devine Lu Linvega">
-  <meta name='description' content='The Nataniev Library(Static).'/>
-  <meta name='keywords' content='Aliceffekt, Traumae, Devine Lu Linvega, Lietal, Oquonie, Verreciel, Nataniev, Oscean, Solarpunk' />
+  <meta name="author" content="Devine Lu Linvega, Rekka Bellum">
+  <meta name='description' content='${_description()}'/>
+  <meta name='keywords' content='${_keywords()}' />
   
   <title>Hundred Rabbits — ${this.id.toCapitalCase()}</title>
 
