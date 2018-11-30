@@ -2,9 +2,9 @@ MARKL
   Info
     & Markl is an upcoming Tactical AI Battle Arena.
   Screenshots
-    % media/content/games/markl1.jpg
-    % media/content/games/markl2.jpg
-    % media/content/games/markl3.jpg
+    % content/games/markl.1.jpg
+    % content/games/markl.2.jpg
+    % content/games/markl.3.jpg
   Links
     - {Microsite(https://markl.100r.co)}
 
@@ -14,11 +14,11 @@ OQUONIE
   Video
     % youtube mepnp69qI64
   Download  
-    % itch io 23183
+    % itchio 23183
   Screenshots
-    % media/content/games/oquonie1.jpg
-    % media/content/games/oquonie2.jpg
-    % media/content/games/oquonie3.jpg
+    % content/games/oquonie.1.jpg
+    % content/games/oquonie.2.jpg
+    % content/games/oquonie.3.jpg
   Links
     - {Microsite(https://oquonie.100r.co)}
     - {Itunes(https://itunes.apple.com/us/app/oquonie/id819777958?mt=8)}
@@ -29,11 +29,11 @@ DONSOL
   Video
     % youtube GNoZrr56GqA
   Download  
-    % itch io 109936
+    % itchio 109936
   Screenshots
-    % media/content/games/donsol1.jpg
-    % media/content/games/donsol2.jpg
-    % media/content/games/donsol3.jpg
+    % content/games/donsol.1.jpg
+    % content/games/donsol.2.jpg
+    % content/games/donsol.3.jpg
   Themes
     & These themes are part of the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}, which means that you can apply a theme to any supported app (Dotgrid, Donsol, Orca and Marabu).
   Links
@@ -46,9 +46,9 @@ PARADISE
   Video
     % youtube 9gmMVjHJ6cU
   Download
-    % itch io 251450
+    % itchio 251450
   Screenshots
-    % media/content/games/paradise.1.jpg
+    % content/games/paradise.1.jpg
   Themes
     & These themes are part of the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}, which means that you can apply a theme to any supported app (Dotgrid, Donsol, Orca and Marabu).
 
@@ -58,19 +58,18 @@ HIVERSAIRE
   Video
     % youtube X8fxC0s8J_8
   Download
-    % itch io 225445
+    % itchio 225445
   Screenshots
-    % media/content/games/hiversaire.1.jpg
-    % media/content/games/hiversaire.2.jpg
-    % media/content/games/hiversaire.3.jpg
+    % content/games/hiversaire.1.jpg
+    % content/games/hiversaire.2.jpg
+    % content/games/hiversaire.3.jpg
 
-Verreciel 
+VERRECIEL
   Info
     & Verreciel is a space exploration game with controls reminiscent of modular synthetisers
   Download
-    % itch io 173320
+    % itchio 173320
   Screenshots
-    % media/content/games/verreciel.1.jpg
-    % media/content/games/verreciel.2.jpg
-    % media/content/games/verreciel.3.jpg
+    % content/games/verreciel.1.jpg
+    % content/games/verreciel.2.jpg
 
