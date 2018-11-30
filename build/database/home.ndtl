@@ -48,25 +48,11 @@ SUPPORT
     - Play our {games(https://itch.io/c/264883/games)}.
     - Help us {find & fix bugs(http://github.com/hundredrabbits/)}.
     - Sponsor us on {Patreon(https://patreon.com/100)}.
-    - Watch our {Videos(https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A)}
+    - Watch our {Videos(https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A)}.
+    - Make a donation with {Paypal(https://www.paypal.com/donate/?token=W0D--M64CSzX2IvNBojjYz2ODKn4RzRL4BY5VdzPSiI33nO9rJnfb0DZ3oqrSOlrgaryHW&country.x=CA&locale.x=CA)}.
     % content/at.work.jpg
     & All the money we get is re-invested back into the Hundredrabbits projects. With your support we can also pay for internet and for the inevitable - and incessant - upkeep of our devices (which often break at sea, and from continued use).
-    > <form action="https://patreon.com/100" method="post" target="_top">
-    > <input type="hidden" name="cmd" value="_s-xclick">
-    > <input type="hidden" name="hosted_button_id" value="B7NZHUNK2WGNJ">
-    > <input type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class='button' value='Become a Patron'>
-    > </form>
     & Thank you for your support!<br/><b>Rekka & Devine</b>
-  How else can I show my support?
-    & If making a monthly donation doesn't work for you, but you still want to show your appreciation. You can make a one time donation on paypal.
-    > <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    > <input type="hidden" name="cmd" value="_s-xclick">
-    > <input type="hidden" name="hosted_button_id" value="B7NZHUNK2WGNJ">
-    > <input type="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class='button' value='Go to Paypal'>
-    > </form>
-    & Or you can go the cryptocurrency route.
-    - <b>$ETH</b> 0x7a5f5d9B697F04f5deE82c81859F7cC4FDb6e990
-    - <b>$BTC</b> 1NU2Pso6nYbRpCAftX3yqQW9w2NSUxzsNa
 
 PRESS
   Talks
@@ -78,6 +64,7 @@ PRESS
     - {Two Canadian game developers set sail around the world(http://dailyhive.com/vancouver/two-canadian-game-developers-set-sail-around-the-world)}, Dailyhive.
     - {Making games on a sailboat(https://killscreen.com/articles/making-games-on-a-boat-to-get-back-that-feeling-of-being-l)}, Kill Screen.
     - {A design studio on a sailboat(http://motherboard.vice.com/read/the-game-design-studio-on-a-boat)}, Motherboard.
+    - {Can Devine create his own language? Or a new world?(https://killscreen.com/articles/devine-lu-linvega-nataniev-hiversaires/)}, Kill Screen.
   Interviews
     - {Developing Games and Tools from the Ocean(https://itch.io/blog/15488/developing-games-and-tools-from-the-ocean-an-interview-with-hundred-rabbits)}, Itch.
     - {On Lifestyle(https://monochromatic.co/writing/interview-with-devine)}, Monochromatic.
@@ -87,9 +74,21 @@ PRESS
     - {In Our House(https://www.youtube.com/watch?v=Im8ZAuUlmYA)}, Patreon.
   Appearances
     - {NYKRA(http://nykra.com)}, Endesga.
+    - {Toto Temple Deluxe(http://tototemple.com)}, Juicy Beast.
   Print
     - {*Rekka Bellum & Devine Lu Linvega: Deriveurs professionels*}, Canard PC magazine.
     - {Cook Island News(http://www.cookislandsnews.com/national/local/item/65279-digital-nomads-cross-the-pacific)}, The Cook Island Newspaper.
   Podcasts
     - {Episode #112: Devine Lu Linvega(http://declandineen.com/checkpoints/kf54xkfyccgstbsbarnpb2nss3tcrw-ej3a7-9sadh-jxes2-crl62-58nhd-zex9e-r2pz9-7xztw-zk9db-wnxa7-j9mba-xr5xx-je849-nmgan-y75cn-rwapt-m97yr-nyhb6-mr2gx)}, Checkpoints podcast.
+  Oquonie
+    - {A maze worth entering(https://killscreen.com/articles/oquonie-maze-worth-entering/)}, Kill Screen.
+    - {Road to the IGF(https://www.gamasutra.com/view/news/237028/Road_to_the_IGF_Devine_Lu_Linvega_and_Rekka_Bells_Oquonie.php)}, Gamasutra.
+    - {A paradox(http://indiegamemag.com/oquonie-review/)}, Indiegame mag.
+    - {Oquonie: Down the rabbit hole(https://www.cnet.com/news/oquonie-down-the-rabbit-hole/)}, Cnet.
+  Donsol
+    - {A deck of cards into a dungeon crawl(https://www.rockpapershotgun.com/game/donsol/)}, RockPaperShotgun
+    - {The latest place you can explore dungeons? A deck of cards(https://killscreen.com/articles/donsol/)}, Kill Screen.
+  Hiversaires
+    - {A worldless adventure through an alien world(https://www.theverge.com/2013/4/22/4252204/hiversaires-a-wordless-adventure-through-an-alien-world)}, The Verge
+    - {Hiversaires rekindles the power of ignorance(https://killscreen.com/articles/starship-damrey-hiversaires/)}, Kill Screen.
 
