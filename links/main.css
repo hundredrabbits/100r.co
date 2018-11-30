@@ -33,7 +33,7 @@ body #wrapper #core p { line-height: 30px;font-size: 20px;max-width: 600px }
 body #wrapper #core p a { text-decoration: underline; }
 body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core p b { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;}
-body #wrapper #core ul { padding-left:30px; max-width: 400px}
+body #wrapper #core ul { padding-left:30px; max-width: 560px}
 body #wrapper #core ul li { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;font-size: 16px;line-height: 25px;margin-bottom: 0px; }
 body #wrapper #core ul li a:hover { text-decoration: none; background:white; color:black; }
 body #wrapper #core ul li a { text-decoration: underline; }
