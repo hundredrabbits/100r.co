@@ -58,6 +58,12 @@ body #wrapper #navi ul li { line-height: 20px; display: block; }
 body #wrapper #navi ul li a:hover { text-decoration: underline; }
 body #wrapper #navi > ul > li { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; text-transform: capitalize; margin-bottom: 5px}
 
+body #wrapper #footer { border-top:2px solid white; padding:60px 30px; text-align: center }
+body #wrapper #footer p { margin-bottom: 30px; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; }
+body #wrapper #footer form { border:2px solid white;display: inline-block;padding:3px;border-radius: 30px;}
+body #wrapper #footer form input.email { background:transparent; padding-left:5px; margin-left:10px; }
+body #wrapper #footer form input.button { background: white;font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;color: black;padding:0px 15px;line-height: 30px;border-radius: 30px;font-size:14px; }
+
 @media (max-width: 900px) {
   body #wrapper #core { margin-left:30px; max-width:100%; }
   body #wrapper #navi { position: relative;top:0px;left:30px; padding-bottom: 60px }

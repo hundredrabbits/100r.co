@@ -68,14 +68,14 @@ function Page (id, table, database, parent) {
     `
   }
 
-  // TODO
-  // <c class="subscribe">
-  //   <p>Never miss an update</p>
-  //   <form action="https://tinyletter.com/hundredrabbits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/hundredrabbits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-  //     <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required="">
-  //     <input type="submit" value="Subscribe" name="subscribe" class="button">
-  //   </form>
-  // </c>
+  function _footer () {
+    return `
+    <p>Never miss an update</p>
+    <form action="https://tinyletter.com/hundredrabbits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/hundredrabbits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required="">
+      <input type="submit" value="Subscribe" name="subscribe" class="button">
+    </form>`
+  }
 
   this.toHtml = function () {
     return `
@@ -113,6 +113,9 @@ function Page (id, table, database, parent) {
     <div id='navi'>
       ${_navi(database)}
       ${_social()}
+    </div>
+    <div id='footer'>
+      ${_footer()}
     </div>
   </div>
 </body>
