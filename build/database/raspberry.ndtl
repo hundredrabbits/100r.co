@@ -2,7 +2,7 @@ RASPBERRY PI
   Introduction
     & The {*Raspberry Pi*} is a small single-board computer that is fairly cheap and easily accessible from anywhere. 
     & We currently use the Pi for a variety of projects on {(Pino)}, as it takes little power, and seems to be resistant to corrosion. Our {(Pi Computers(the Computer)} are currently used only as experimental development tools, but could readily be turned into a complete development platform, would our principal computers fail.
-    % blog/raspberry/logo.svg small
+    % content/raspberry/logo.svg small
   Setup
     & Download {Raspbian Lite(https://www.raspberrypi.org/downloads/raspbian/)}, and with {Etcher(https://etcher.io)} flash the SD card. Once Etcher has finished, re-insert it and type:
     # touch /Volumes/boot/ssh <comment># Enable SSH</comment>
@@ -38,7 +38,7 @@ THE MEDIA STATION
     & OSMC is a fast and beautiful operating system for the RPi board, it instantly gets media from our external drives, and streams audio to our {Radio(the radio)} via Airplay.
     & Setting up OSMC is extremly simple, one simply needs to burn a SD Card with the {latest Build(https://osmc.tv/download/)}, it installs itself upon boot and is usable in matters of seconds on the Raspberry Pi 3B+.
     & This rig can be operated solely by touch, and requires no keyboard.
-    % blog/raspberry/media.station.jpg
+    % content/raspberry/media.station.jpg
   Parts
     - Raspberry Pi {3B+(https://www.raspberrypi.org)}
     - Raspberry Pi {Touch 7"(https://www.raspberrypi.org/products/raspberry-pi-touch-display/)}, 800x480
@@ -47,11 +47,23 @@ THE MEDIA STATION
   LINK
     - {OSMC(http://osmc.tv)}
 
+THE GAME STATION
+  Introduction
+    & Our game station is a {Retropie(http://retropie.org.uk)} powered {(Raspberry Pi)}.
+    % content/raspberry/game.station.jpg
+  Parts
+    - Raspberry Pi {3B+(https://www.raspberrypi.org)}
+    - Raspberry Pi {Touch 7"(https://www.raspberrypi.org/products/raspberry-pi-touch-display/)}, 800x480
+    - SmartiPi Touch 7" Case
+    - Samsung EVO+ 16GB SD Card
+  LINK
+    - {Retropie(http://retropie.org.uk)}
+
 THE RADIO
   Introduction
     & Our {sailboat(Pino)}'s speakers are connected to a {*Pi Zero W*} with {Pimoroni's pHat Beat(https://github.com/pimoroni/phat-beat)}.
     & The hat sends {Airplay(https://www.apple.com/airplay/)} audio into two speaker-wire outputs, making a very powerful and cheap stereo. We share this device among our {(Media Station)} and phones.
-    % blog/raspberry/radio.jpg
+    % content/raspberry/radio.jpg
   Parts
     - {Raspberry Pi Zero W 1.1(https://www.raspberrypi.org)}
     - {Pimoroni's pHat Beat(https://shop.pimoroni.com/products/phat-beat)}
@@ -68,7 +80,7 @@ THE PIANO
   Introduction
     & A hackable toy piano to play {muzzak(https://twitter.com/neauoire/status/1029498719811424256)} on rainy days.
     & Features 6 synth & 1 drum instruments, 5 octaves, automated arpgeggios, volume controls and external keyboard support. Connect to a speaker and play, or connect a keyboard to have access to a few more octaves and shortcuts. Read the full guide on {Github(https://github.com/neauoire/Framboisedorf)}.
-    % blog/raspberry/piano.jpg
+    % content/raspberry/piano.jpg
   Instructions
     & Begin by setting up the {*Raspberry Pi*}, see the {Setup Guide(Raspberry Pi)}.
     & Connect the PianoHat and download {Pimoroni(http://shop.pimoroni.com)}'s tools, and {learn more about the PianoHat(https://learn.pimoroni.com/tutorial/piano-hat/getting-started-with-piano-hat)}.
@@ -91,7 +103,7 @@ THE PIANO
 THE COMPUTER
   Introduction
     & Rekka's {(Raspberry pi)} rig is a media platform and distractionless workstation. Its purpose is also to program other {(Raspberry Pi)} projects.
-    % blog/raspberry/computer.jpg
+    % content/raspberry/computer.jpg
   Parts
     - Raspberry Pi {3B+(https://www.raspberrypi.org)}
     - Raspberry Pi Touch 7" [{Backlight Controls(https://github.com/hundredrabbits/backlight-control)}]
