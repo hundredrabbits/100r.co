@@ -227,7 +227,7 @@ ORCA
     # Requested buffer size 32768, fragment size 8192
     # ALSA pcm 'default' set buffer size 32768, period size 8192 bytes
     & We can see, that the program opens some ports. In the next step will choose one of those to have ORCΛ send its MIDI output to.
-  Run ORCΛ and set the MIDI device
+    & <b>Run ORCΛ and set the MIDI device</b>
     & Open another terminal and navigate to the desktop subdirectory of your Orca folder and type
     # npm start
     & Next we need to choose our MIDI devices as described in the FAQ's by pressing ctrl+. in ORCΛ to open a browser console (you might need to choose the correct console tab at the top). Type terminal.io.listMidiDevices() in the console to obtain an output similar to (expand the output in your console if needed):
