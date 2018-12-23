@@ -15,11 +15,10 @@ body.splash #wrapper #intro p { text-align: center; text-align: center;line-heig
 body.splash #wrapper #intro p a { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; text-decoration: underline; }
 body.splash #wrapper #intro p a:hover { text-decoration: none; cursor: pointer; }
 body.splash #wrapper #social { position: fixed;top:30px;right:30px; }
-body.splash #wrapper form { position: fixed;bottom: 30px;right: 30px;background:white;border-radius: 30px;overflow: hidden;line-height: 26px }
+body.splash #wrapper form { position: fixed;top: 30px;right: 130px;background: white;border-radius: 30px;overflow: hidden;line-height: 26px}
 body.splash #wrapper form .email { font-size: 12px;display: inline-block;margin-left: 10px;color: black;line-height: 20px}
 body.splash #wrapper form .button { background: black;color: white;font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;font-size: 12px;line-height: 20px;display: inline-block;margin-right: 3px;padding: 0px 10px;border-radius: 30px;position: relative;top:-1px}
 body.splash #wrapper form .button:hover { background:#555; cursor: pointer; }
-body.splash #wrapper .pane { background:black; height:15px; width:350px; position: fixed; bottom: 0px; right:0px; }
 
 body #wrapper #logo { display: block;width: 100px;height: 100px;background-image: url(../media/interface/logo.svg);background-size:contain;position: absolute;top:5px }
 
