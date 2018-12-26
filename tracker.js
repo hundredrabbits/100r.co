@@ -59,8 +59,8 @@ function Tracker (route) {
     var coordinates = []
     // Last location
     coordinates.push(this.here())
-    // Guam
-    coordinates.push({ lat: 13.492058, lng: 144.740704 })
+    // Chichijima
+    coordinates.push({ lat: 27.079352, lng: 142.204142 })
     // Wakayama
     coordinates.push({ lat: 33.738601, lng: 135.278150 })
     // Osaka Bay
