@@ -54,6 +54,12 @@ function GoogleMap (payload) {
     element.className = 'ready'
   }
 
+  this.toggle = function () {
+    const wrapper = document.getElementById('wrapper')
+    wrapper.className = wrapper.className === 'view' ? '' : 'view'
+    document.getElementById('toggle').innerHTML = `<a onclick='map.toggle()'>${wrapper.className === 'view' ? 'Show Menu' : 'Show Map'}</a>`
+  }
+
   function addMarker (map, pos, icon = { path: google.maps.SymbolPath.CIRCLE, strokeColor: 'red', scale: 2, strokeWeight: 0, fillOpacity: 1, fillColor: 'white' }) {
     new google.maps.Marker({ position: pos, icon: icon, draggable: false, map: map })
   }

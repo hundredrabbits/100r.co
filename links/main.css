@@ -19,6 +19,10 @@ body.splash #wrapper form { position: fixed;top: 30px;right: 130px;background: w
 body.splash #wrapper form .email { font-size: 12px;display: inline-block;margin-left: 10px;color: black;line-height: 20px}
 body.splash #wrapper form .button { background: black;color: white;font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;font-size: 12px;line-height: 20px;display: inline-block;margin-right: 3px;padding: 0px 10px;border-radius: 30px;position: relative;top:-1px}
 body.splash #wrapper form .button:hover { background:#555; cursor: pointer; }
+body.splash #wrapper #social li#toggle { float:left; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;font-size:12px; margin-left:0px}
+body.splash #wrapper #social li#toggle a { width: 100px; cursor: pointer; }
+body.splash #wrapper.view #logo { display: none }
+body.splash #wrapper.view #intro { display: none }
 
 body #wrapper #logo { display: block;width: 100px;height: 100px;background-image: url(../media/interface/logo.svg);background-size:contain;position: absolute;top:5px }
 
@@ -47,8 +51,8 @@ body #wrapper #core code { background:white; font-family: 'input_mono_regular'; 
 body #wrapper #core code li { display: block; margin-bottom: 0px; font-size:12px; white-space: pre }
 body #wrapper #core input { display: inline-block; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;background:black;border:2px solid white;padding:0px 20px;line-height: 40px;border-radius: 30px;font-size:14px }
 
-body #wrapper #social {}
-body #wrapper #social li { width:25px; height:25px; display: block; float:left; margin-left:5px; }
+body #wrapper #social { width:calc(100vw - 60px) }
+body #wrapper #social li { width:25px; height:25px; display: block; float:right; margin-left:5px; }
 body #wrapper #social li a { display: block; width:25px; height:25px; background-size: contain; }
 body #wrapper #social li a:hover { opacity: 0.75 }
 body #wrapper #social li a.twitter { background-image: url(../media/interface/icon.twitter.png) }
