@@ -1,6 +1,6 @@
 
 String.prototype.toCapitalCase = function () { return this.charAt(0).toUpperCase() + this.slice(1).toLowerCase() }
-String.prototype.toUrl = function () { return this.replace(/ /g, '_').replace(/\W/g, '').trim().toLowerCase() }
+String.prototype.toUrl = function () { return this.trim().replace(/ /g, '_').replace(/\W/g, '').trim().toLowerCase() }
 
 function Page (id, table, database, parent) {
   const runic = require('./lib/runic')
