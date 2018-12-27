@@ -5,6 +5,8 @@ LEFT
     & The application is {*free*} (donations welcome) and {*Open Source*}, its original purpose was to help {Rekka(https://kokorobot.ca)} with the writing of the upcoming novel {Wiktopher(https://wiktopher.kokorobot.ca)}.
   Download
     & <iframe frameborder="0" src="https://itch.io/embed/173127?bg_color=000000&amp;fg_color=ffffff&amp;link_color=838383" width="552" height="167"></iframe>
+  Trailer
+    % youtube QloUoqqhXGE
   Tutorial
     & Launch the app. You'll see a <b>main window</b>, as well as a <b>sidebar</b> on the left. You'll be writing in the main window, the sidebar will list all of the <b>markers</b> and <b>separate files</b> that you create. 
     & The app opens with a <b>splash</b>, listing a guide as well as a list of shortcuts. At the bottom left of the main window, there are numbers followed by letters: 
@@ -76,6 +78,8 @@ DOTGRID
     & The application is {*free & Open Source*}, and available online to be used within your browser, on your Raspberry Pi, or on your mobile device. 
   Download
     & <iframe frameborder="0" src="https://itch.io/embed/190851?bg_color=000&amp;fg_color=fff&amp;link_color=838383" width="552" height="167"></iframe>
+  Trailer
+    % youtube Xt1zYHhpypk
   Tutorial
     & Upon opening the application, you are presented with a dotted grid, which can be made bigger, or smaller, by resizing the window. A list of tools, represented as icons, sits on the bottom of the window.
     & Clicking anywhere on the grid will add a white dot to the grid, and by adding additional dots to the grid, notice how the available tool icons become lighter, that means you have enough points to use them, their icon will darken again when you don't.
