@@ -52,7 +52,7 @@ body #wrapper #core code li { display: block; margin-bottom: 0px; font-size:12px
 body #wrapper #core input { display: inline-block; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;background:black;border:2px solid white;padding:0px 20px;line-height: 40px;border-radius: 30px;font-size:14px }
 
 body #wrapper #social { width:calc(100vw - 60px) }
-body #wrapper #social li { width:25px; height:25px; display: block; float:right; margin-left:5px; }
+body #wrapper #social li { width:25px; height:25px; display: block; float:left; margin-left:5px; }
 body #wrapper #social li a { display: block; width:25px; height:25px; background-size: contain; }
 body #wrapper #social li a:hover { opacity: 0.75 }
 body #wrapper #social li a.twitter { background-image: url(../media/interface/icon.twitter.png) }
