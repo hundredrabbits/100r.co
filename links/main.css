@@ -60,7 +60,7 @@ body #wrapper #social li a.patreon { background-image: url(../media/interface/ic
 body #wrapper #social li a.youtube { background-image: url(../media/interface/icon.youtube.png) }
 body #wrapper #social li a.github { background-image: url(../media/interface/icon.github.png) }
 
-body #wrapper #navi { position: absolute;top: 200px;left:30px;font-size:14px; border-top: 2px solid white;padding-top: 30px }
+body #wrapper #navi { position: absolute;top: 200px;left:30px;font-size:14px; border-top: 2px solid white;padding-top: 30px; width:240px }
 body #wrapper #navi ul { margin-bottom: 30px }
 body #wrapper #navi ul li { line-height: 20px; display: block; }
 body #wrapper #navi ul li a:hover { text-decoration: underline; }
