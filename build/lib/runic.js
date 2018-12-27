@@ -67,7 +67,7 @@ function runic (lines = [], templater = null, host = null) {
 
   function _capsule(parts)
   {
-    return `<div class='capsule'><img src='../media/content/videos/${parts[0].trim().toUrl()}.jpg'/><h1>${parts[1]}</h1><h2>${parts[2]}</h2></div>`
+    return `<div class='capsule'><a href='${parts[3]}' target='_blank'/><img src='../media/content/videos/${parts[0].trim().toUrl()}.jpg'/></a><h1><a href='${parts[3]}' target='_blank'/>${parts[1]}</a></h1><h2>${parts[2]}</h2></div>`
   }
 
   function table (content) {
