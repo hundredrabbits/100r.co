@@ -5,6 +5,7 @@ const route = indental(`
   VLUE : 1724
   TEXT : Pino moved to Majuro, to winter in the north pacific to wait for the weather to go further west to Japan!
   POSI
+  
     7.107737, 171.367520
     6.345580, 172.584075
     5.395882, 173.489010
