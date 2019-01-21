@@ -61,12 +61,11 @@ function runic (lines = [], templater = null, host = null) {
     if (service === 'bandcamp') { return `<iframe style="border: 0; width: 600px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=${id}/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/" seamless></iframe>` }
     if (service === 'youtube') { return `<iframe width="100%" height="380" src="https://www.youtube.com/embed/${id}?rel=0" style="max-width:700px" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>` }
     if (service === 'custom') { return `<iframe src='${id}' style='width:100%;height:350px;'></iframe>` }
-    if (service === 'capsule') { return _capsule(content.replace('capsule','').trim().split("|")) }
+    if (service === 'capsule') { return _capsule(content.replace('capsule', '').trim().split('|')) }
     return `<img src='../media/${service}' class='${id}'/>`
   }
 
-  function _capsule(parts)
-  {
+  function _capsule (parts) {
     return `<div class='capsule'><a href='${parts[3]}' target='_blank'/><img src='../media/content/videos/${parts[0].trim().toUrl()}.jpg'/></a><h1><a href='${parts[3]}' target='_blank'/>${parts[1]}</a></h1><h2>${parts[2]}</h2></div>`
   }
 
