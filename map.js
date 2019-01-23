@@ -45,6 +45,9 @@ function GoogleMap (payload) {
     for (const id in destinations) {
       addMarker(map, destinations[id])
     }
+    for (const id in futureVertices) {
+      addMarker(map, futureVertices[id])
+    }
 
     setTimeout(() => { this.show(element) }, 1000)
   }
