@@ -61,8 +61,8 @@ function Tracker (route) {
     coordinates.push(this.here())
     // Chichijima
     coordinates.push({ lat: 27.079352, lng: 142.204142 })
-    // Kagoshima
-    coordinates.push({ lat: 31.590753, lng: 130.576840 })
+    // Wakayama
+    coordinates.push({ lat: 33.534494, lng: 135.492981 })
     // Osaka Bay
     // coordinates.push({ lat: 34.336973, lng: 135.178785 })
     //
