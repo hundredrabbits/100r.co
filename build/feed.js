@@ -39,7 +39,6 @@ function Feed (id, table) {
     <guid isPermaLink='false'>IV${id}</guid>
     <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
     <description>
-      ${entry.description.to_rss()}
       ${`<p><a href='https://100r.co/blog.html'>Continue Reading</a></p>`.to_rss()}
     </description>
   </item>
