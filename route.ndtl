@@ -3,7 +3,9 @@ const route = indental(`
 2019-01-22
   NAME : Chichijima, Japan
   VLUE : 2100
-  POSI  
+  POSI
+  
+    7.208267, 171.148900
     7.133227, 171.232936
 
 2018-11-15
