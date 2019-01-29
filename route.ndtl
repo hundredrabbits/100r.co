@@ -4,7 +4,8 @@ const route = indental(`
   NAME : Chichijima, Japan
   VLUE : 2100
   POSI
-    
+  
+    10.912237, 164.406147
     10.403635, 166.438618
     9.853487, 168.033738      
     8.769682, 169.487667
