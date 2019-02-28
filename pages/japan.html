@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="author" content="Devine Lu Linvega, Rekka Bellum">
   <meta name='description' content='A digital studio aboard a sailboat.'/>
-  <meta name='keywords' content='raspberry pi, the media station, the game station, the radio, the piano, the computer, introduction, setup' />
+  <meta name='keywords' content='sailing in japan, ogasawara cruising guide, vegan in japan' />
   
-  <title>Hundred Rabbits — Raspberry pi</title>
+  <title>Hundred Rabbits — Japan</title>
 
   <link rel="alternate"  type="application/rss+xml" title="Feed" href="../links/rss.xml" />
   <link rel="stylesheet" type="text/css" href="../links/reset.css"/>
@@ -28,21 +28,64 @@
   <div id='wrapper'>
     <a id='logo' href='https://100r.co'></a>
     <div id='core'>
-      <h1>Raspberry pi</h1>
-<h3 id='introduction'><a href='#introduction'>Introduction</a></h3>
-<p class=''>The <b>Raspberry Pi</b> is a small single-board computer that is fairly cheap and easily accessible from anywhere.</p><p class=''>We currently use the Pi for a variety of projects on <a href='index.html#pino' target='_self' class='local' data-goto='Pino'>Pino</a>, as it takes little power, and seems to be resistant to corrosion. Our <a href='index.html#pi+computersthe+computer' target='_self' class='local' data-goto='Pi Computers(the Computer'>Pi Computers(the Computer</a> are currently used only as experimental development tools, but could readily be turned into a complete development platform, would our principal computers fail.</p>
-<img src='../media/content/raspberry/logo.svg' class='small'/>
-<h3 id='setup'><a href='#setup'>Setup</a></h3>
-<p class=''>Download <a href='https://www.raspberrypi.org/downloads/raspbian/' target='_blank' class='external' data-goto=''>Raspbian Lite</a>, and with <a href='https://etcher.io' target='_blank' class='external' data-goto=''>Etcher</a> flash the SD card. Once Etcher has finished, re-insert it and type:</p>
-<code class=''><li class=''>touch /Volumes/boot/ssh <comment># Enable SSH</comment></li><li class=''>touch /Volumes/boot/wpa_supplicant.conf <comment># Auto-connect to wifi</comment></li><li class=''>nano /Volumes/boot/wpa_supplicant.conf</li></code>
-<p class=''><b>Edit wpa_supplicant.conf</b></p>
-<code class=''><li class=''>country=CA</li><li class=''>ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev</li><li class=''>update_config=1</li><li class=''>network={</li><li class=''>  ssid="network_name"</li><li class=''>  psk="network_password"</li><li class=''>}</li></code>
-<p class=''><b>Connect to the Pi</b></p>
-<code class=''><li class=''>ping raspberrypi.local <comment># Find its IP address</comment></li><li class=''>ssh pi@192.168.1.73 <comment># Use password "<b>raspberry</b>"</comment></li><li class=''>sudo raspi-config <comment># <b>Interface/SSH</b> & <b>Advanced/Expand FS</b></comment></li><li class=''>sudo nano /etc/hostname <comment># Rename</comment></li><li class=''>sudo nano /etc/hosts <comment># Rename</comment></li><li class=''>passwd <comment># Change Password</comment></li><li class=''>sudo reboot</li></code>
-<p class=''><b>Update everything</b></p>
-<code class=''><li class=''>sudo apt-get update</li><li class=''>sudo apt-get upgrade</li><li class=''>sudo apt-get dist-upgrade</li></code>
-<p class=''><a href='index.html#usb' target='_self' class='local' data-goto='USB'><b>Gadget Mode</b></a></p>
-<code class=''><li class=''>dtoverlay=dwc2 <comment># Append in config.txt</comment></li><li class=''>modules-load=dwc2,g_ether <comment># Append in cmdline.txt, or after rootwait</comment></li></code>
+      <h1>Japan</h1>
+<h3 id='sailing_in_japan'><a href='sailing_in_japan.html'>Sailing in japan</a></h3>
+<ul><li><a href='sailing_in_japan.html#introduction'>Introduction</a></li>
+<li><a href='sailing_in_japan.html#useful_nautical_words'>Useful nautical words</a></li>
+<li><a href='sailing_in_japan.html#entry_procedures'>Entry procedures</a></li>
+<li><a href='sailing_in_japan.html#what_to_send'>What to send</a></li>
+<li><a href='sailing_in_japan.html#arrival_in_port'>Arrival in port</a></li>
+<li><a href='sailing_in_japan.html#staying_in_japan_for_a_while'>Staying in japan for a while</a></li>
+<li><a href='sailing_in_japan.html#sailing_in_japan'>Sailing in japan</a></li>
+<li><a href='sailing_in_japan.html#trash_and_recycling'>Trash and recycling</a></li>
+<li><a href='sailing_in_japan.html#grocery_stores'>Grocery stores</a></li>
+<li><a href='sailing_in_japan.html#restaurants'>Restaurants</a></li>
+<li><a href='sailing_in_japan.html#water'>Water</a></li>
+<li><a href='sailing_in_japan.html#money'>Money</a></li>
+<li><a href='sailing_in_japan.html#language'>Language</a></li>
+<li><a href='sailing_in_japan.html#internet'>Internet</a></li>
+<li><a href='sailing_in_japan.html#currents'>Currents</a></li>
+<li><a href='sailing_in_japan.html#tides'>Tides</a></li>
+<li><a href='sailing_in_japan.html#affordable_marinas'>Affordable marinas</a></li>
+<li><a href='sailing_in_japan.html#boatyards'>Boatyards</a></li>
+<li><a href='sailing_in_japan.html#travel_by_land'>Travel by land</a></li>
+<li><a href='sailing_in_japan.html#participate_in_a_sailing_rally'>Participate in a sailing rally</a></li>
+</ul>
+
+<h3 id='ogasawara_cruising_guide'><a href='ogasawara_cruising_guide.html'>Ogasawara cruising guide</a></h3>
+<ul><li><a href='ogasawara_cruising_guide.html#introduction'>Introduction</a></li>
+<li><a href='ogasawara_cruising_guide.html#sending_the_paperwork'>Sending the paperwork</a></li>
+<li><a href='ogasawara_cruising_guide.html#arriving_in_chichijima'>Arriving in chichijima</a></li>
+<li><a href='ogasawara_cruising_guide.html#paperwork'>Paperwork</a></li>
+<li><a href='ogasawara_cruising_guide.html#leaving_chichijima'>Leaving chichijima</a></li>
+<li><a href='ogasawara_cruising_guide.html#tides'>Tides</a></li>
+<li><a href='ogasawara_cruising_guide.html#map'>Map</a></li>
+<li><a href='ogasawara_cruising_guide.html#about_the_town'>About the town</a></li>
+<li><a href='ogasawara_cruising_guide.html#diesel'>Diesel</a></li>
+<li><a href='ogasawara_cruising_guide.html#water'>Water</a></li>
+<li><a href='ogasawara_cruising_guide.html#showers'>Showers</a></li>
+<li><a href='ogasawara_cruising_guide.html#toilets'>Toilets</a></li>
+<li><a href='ogasawara_cruising_guide.html#trash_and_recycling'>Trash and recycling</a></li>
+<li><a href='ogasawara_cruising_guide.html#groceries'>Groceries</a></li>
+<li><a href='ogasawara_cruising_guide.html#internet'>Internet</a></li>
+<li><a href='ogasawara_cruising_guide.html#money'>Money</a></li>
+<li><a href='ogasawara_cruising_guide.html#yacht_club'>Yacht club</a></li>
+<li><a href='ogasawara_cruising_guide.html#hardware_stores'>Hardware stores</a></li>
+<li><a href='ogasawara_cruising_guide.html#medicine'>Medicine</a></li>
+<li><a href='ogasawara_cruising_guide.html#laundry'>Laundry</a></li>
+<li><a href='ogasawara_cruising_guide.html#walking_trails'>Walking trails</a></li>
+<li><a href='ogasawara_cruising_guide.html#wildlife'>Wildlife</a></li>
+<li><a href='ogasawara_cruising_guide.html#native_products'>Native products</a></li>
+<li><a href='ogasawara_cruising_guide.html#restaurants'>Restaurants</a></li>
+</ul>
+
+<h3 id='vegan_in_japan'><a href='vegan_in_japan.html'>Vegan in japan</a></h3>
+<ul><li><a href='vegan_in_japan.html#introduction'>Introduction</a></li>
+<li><a href='vegan_in_japan.html#vocabulary'>Vocabulary</a></li>
+<li><a href='vegan_in_japan.html#phrases'>Phrases</a></li>
+<li><a href='vegan_in_japan.html#onigiri'>Onigiri</a></li>
+<li><a href='vegan_in_japan.html#japanese_vegan_ingredients'>Japanese vegan ingredients</a></li>
+</ul>
     </div>
     <div id='navi'>
       <ul><li><a href='home.html'>home</a></li>
