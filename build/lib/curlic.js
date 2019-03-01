@@ -27,9 +27,9 @@ function curlic (text = '', host) {
     const target = t.substr(1, t.length - 2).trim()
     const external = target.indexOf('//') > -1
     const name = s.replace(`(${target})`, '').trim()
-    const location = target.toLowerCase().replace(/ /g, '+').replace(/[^0-9a-z\+\:\-\.\/]/gi, '').trim()
+    const location = target.toLowerCase().replace(/ /g, '_').replace(/[^0-9a-z\+\:\-\.\/\_]/gi, '').trim()
 
-    return `<a href='${external ? target : 'index.html#' + location}' target='${external ? '_blank' : '_self'}' class='${external ? 'external' : 'local'}' data-goto='${external ? '' : target}'>${name || target}</a>`
+    return `<a href='${external ? target : location+'.html'}' target='${external ? '_blank' : '_self'}' class='${external ? 'external' : 'local'}' data-goto='${external ? '' : target}'>${name || target}</a>`
   }
 
   function parse (s) {
