@@ -12,9 +12,9 @@ const route = indental(`
     27.191115, 141.873270
     
 2019-01-22
-   NAME : Chichijima, JAPAN
-   VLUE : 2100
-   POSI
+  NAME : Chichijima, JAPAN
+  VLUE : 2100
+  POSI
     27.098667, 142.200178
     26.584765, 141.669937
     25.095397, 142.291635 
