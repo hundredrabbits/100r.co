@@ -1,13 +1,9 @@
 const route = indental(`
-
- 
-    
-
+  
 2019-03-08
   NAME : Omaesaki, Japan
   VLUE : 500
-  POSI
-  
+  POSI  
     35.010652, 138.494782
     34.006953, 138.478082
     31.218647, 138.882045
@@ -15,12 +11,10 @@ const route = indental(`
     28.102133, 140.014682
     27.191115, 141.873270
     
-    
- 2019-01-22
-   NAME : Chichijima, JAPAN
-   VLUE : 2100
-   POSI
-  
+2019-01-22
+  NAME : Chichijima, JAPAN
+  VLUE : 2100
+  POSI
     27.098667, 142.200178
     26.584765, 141.669937
     25.095397, 142.291635 
