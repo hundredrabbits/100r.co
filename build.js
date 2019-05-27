@@ -6,7 +6,7 @@ const Database = require('./build/database')
 const Manager = require('./build/manager')
 const Builder = require('./build/builder')
 
-const indexes = ['home', 'blog', 'knowledge', 'tools', 'games', 'raspberry', 'japan']
+const indexes = ['home', 'blog', 'knowledge', 'tools', 'games', 'books', 'raspberry', 'japan']
 const database = new Database(indexes)
 const manager = new Manager(database.storage)
 const builder = new Builder(manager.pages, manager.feeds)
