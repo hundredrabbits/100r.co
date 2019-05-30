@@ -42,6 +42,9 @@ function Page (id, table, database, parent) {
 
   function _template (acc, key) {
     if (key === 'SETTINGS') { return acc }
+    if(id === 'games' || id === 'tools'){
+      return `${acc}<a href='${parent ? '#' + key.toUrl() : key.toUrl() + '.html'}'><img src='../media/content/${id}/${key.toUrl()}/main.jpg'/></a>`
+    }
     return `${acc}<h3 id='${key.toUrl()}'><a href='${parent ? '#' + key.toUrl() : key.toUrl() + '.html'}'>${key.toCapitalCase()}</a></h3>\n${Array.isArray(table[key]) ? _main(table[key]) : _list(key, table[key])}\n`
   }
 

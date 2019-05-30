@@ -1,31 +1,31 @@
 MARKL
   What is Markl?
-    % content/games/markl.1.jpg
+    % content/games/markl/main.jpg
     & Markl is an upcoming game.
   Screenshots
-    % content/games/markl.2.jpg
-    % content/games/markl.3.jpg
+    % content/games/markl/markl.2.jpg
+    % content/games/markl/markl.3.jpg
   Links
     - {Microsite(https://markl.100r.co)}
 
 OQUONIE
   What is Oquonie?
-    % content/games/oquonie.1.jpg
+    % content/games/oquonie/main.jpg
     & Oquonie is an IGF nominated {*textless isometric puzzle game*}, released in February 2014 on iOS, Mac, Linux and PC. You must make your way through a seemingly endless succession of rooms; you will not be alone, your incarnations will have the help of bizaroid characters that speak an obscure language.
   Trailer
     % youtube mepnp69qI64
   Download  
     % itchio 23183
   Screenshots
-    % content/games/oquonie.2.jpg
-    % content/games/oquonie.3.jpg
+    % content/games/oquonie/oquonie.2.jpg
+    % content/games/oquonie/oquonie.3.jpg
   Links
     - {Microsite(https://oquonie.100r.co)}
     - {Itunes(https://itunes.apple.com/us/app/oquonie/id819777958?mt=8)}
 
 DONSOL
   What is Donsol?
-    % content/games/donsol.1.jpg
+    % content/games/donsol/main.jpg
     & Donsol is a {*dungeon crawler card game*} played with a standard 54 card deck. The game was released in april 2015 for Mac, Linux, PC and iOS.
     & Donsol is part of the {*{Ecosystem Theme(https://github.com/hundredrabbits/Themes)}*}, which means that you can apply a colour theme to any supported app at any time (Dotgrid, Donsol, Orca and Marabu).
   Trailer
@@ -33,15 +33,15 @@ DONSOL
   Download  
     % itchio 109936
   Screenshots
-    % content/games/donsol.2.jpg
-    % content/games/donsol.3.jpg
+    % content/games/donsol/donsol.2.jpg
+    % content/games/donsol/donsol.3.jpg
   Links
     - {Microsite(https://donsol.100r.co)}
     - {Itunes(https://itunes.apple.com/us/app/donsol/id976367718?mt=8)}
 
 PARADISE
   What is Paradise?
-    % content/games/paradise.1.jpg
+    % content/games/paradise/main.jpg
     & Paradise plays like a strange {*interactive fiction novel*}, in an ever-changing world where you are not an avatar but a force acting upon places, and objects, and puns, words - moving around and into your other selves, threading chaos. It was released on April 28th 2018, and is available on PC, Mac and Linux. 
     & Paradise is part of the {*{Ecosystem Theme(https://github.com/hundredrabbits/Themes)}*}, which means that you can apply a colour theme to any supported app at any time (Dotgrid, Donsol, Orca and Marabu).
   Trailer
@@ -51,7 +51,7 @@ PARADISE
 
 HIVERSAIRES
   What is Hiversaires?
-    % content/games/hiversaire.1.jpg
+    % content/games/hiversaires/main.jpg
     & Hiversaires is a {*point-and-click adventure game*}. Venture down entangled corridors, enter the dark world.  
     & The was first released on April 3rd 2013, and was re-released for desktop on February 27th 2018. It's available to play on PC, Mac and Linux.
   Trailer
@@ -59,16 +59,16 @@ HIVERSAIRES
   Download
     % itchio 225445
   Screenshots
-    % content/games/hiversaire.2.jpg
-    % content/games/hiversaire.3.jpg
+    % content/games/hiversaires/hiversaires.2.jpg
+    % content/games/hiversaires/hiversaires.3.jpg
 
 VERRECIEL
   What is Verreciel?
-    % content/games/verreciel.1.jpg
+    % content/games/verreciel/main.jpg
     & Verreciel is a {*space exploration game*} with controls reminiscent of modular synthetisers.
     & The game was released on September 4th 2017, and is available on PC, Mac and Linux.
   Download
     % itchio 173320
   Screenshots
-    % content/games/verreciel.2.jpg
+    % content/games/verreciel/verreciel.2.jpg
 

@@ -1,6 +1,6 @@
 LEFT
   A minimalist text editor
-    % content/app.left1.png
+    % content/tools/left/main.png
     & {Left(https://hundredrabbits.itch.io/Left)} is a distractionless writing tool with auto-complete, synonyms, writing statistics, markup navigation and a speed-reader.
     & The application is {*free*} (donations welcome) and {*Open Source*}, its original purpose was to help {Rekka(https://kokorobot.ca)} with the writing of the upcoming novel {Wiktopher(https://wiktopher.kokorobot.ca)}.
   Download
@@ -45,7 +45,7 @@ LEFT
     - Comment - Create a comment by pressing <b>⌘ /</b>.
     & You can leave insert mode by pressing the escape key.
   Visual
-    % content/app.left2.png
+    % content/tools/left/left.2.png
     & You can change the look and colour of Left. To do this, {download(https://hundredrabbits.itch.io/left)} themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Left. The colours will change instantly. 
     & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app (Dotgrid, Donsol, Pico and Marabu).
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
@@ -73,7 +73,7 @@ LEFT
 
 DOTGRID
   Introduction
-    % content/applications/dotgrid.second.jpg
+    % content/tools/dotgrid/main.jpg
     & Dotgrid is a distractionless vector tool with line styles, corner controls, colours, grid-based tools, PNG and SVG export. Dotgrid supports the full SVG specs, and includes additional effects such as mirroring and radial drawing.
     & The application is {*free & Open Source*}, and available online to be used within your browser, on your Raspberry Pi, or on your mobile device. 
   Download
@@ -85,17 +85,17 @@ DOTGRID
     & Clicking anywhere on the grid will add a white dot to the grid, and by adding additional dots to the grid, notice how the available tool icons become lighter, that means you have enough points to use them, their icon will darken again when you don't.
   Line(A)
     & Add two points on the grid. Selecting <b>Line</b>(the diagonal line icon) will link the two points together with a straight white line. 
-    % content/applications/dotgrid.line.jpg auto
+    % content/tools/dotgrid/dotgrid.line.jpg auto
   Arc(S) & Reverse-Arc(D)
     & Press backspace to clear your last segment, and draw another two sets of points, but this time, click on <b>Arc</b>. This, will connect your two points with a curve. 
     & If you undo your last move with <b>⌘ z</b>, connect your two points again by pressing <b>Arc Reverse</b>(the inverse curve icon). This creates an inverted curve.
-    % content/applications/dotgrid.arc.jpg auto
+    % content/tools/dotgrid/dotgrid.arc.jpg auto
   Bezier(F)
     & Place two dots on your grid, with a third between them but offset, then press <b>Bezier</b>(the S icon). A white dot will appear separate from the main line, this is a handle that you can use to create your curve. Move the handle (or third point) to change its shape. 
-    % content/applications/dotgrid.bezier.jpg auto
+    % content/tools/dotgrid/dotgrid.bezier.jpg auto
   Close(Z)
     & Create 3 points on the grid, press <b>Line</b>, then press <b>Close</b> (the flat oval icon), your shape will complete itself. If you don't close a shape, you won't be able to fill it, and it will create problems when using Line cap. 
-    % content/applications/dotgrid.close.jpg auto
+    % content/tools/dotgrid/dotgrid.close.jpg auto
   Line cap(Q)
     & Make a triangle on the grid using 3 points, select the <b>Line</b> to connect them, then, select <b>Linecap</b> (line with a diamond shape at the end). By default, you get a 'round' line cap, you can cycle through the different types by pressing the linecap icon again. You have 3 linecap styles to choose from:
     - <b>Round</b> A rounded end cap is added to the end of the line
@@ -115,10 +115,10 @@ DOTGRID
     & You can tell which sort of mirroring you've got, by seeing the changes in the icon on the menu. To remove the effect, click on the icon until it returns to its original state, with the lines not crossing.
   Fill(R)
     & Drawing a closed shape, and selecting <b>Fill</b> (icon resembling a twisted rectangle) will fill it with a single colour. Pressing on the icon again, will remove the fill. Know that if you have other closed shapes on your canvas, this function will fill them all. The shortcut to use it is:
-    % content/applications/dotgrid.fill.jpg auto
+    % content/tools/dotgrid/dotgrid.fill.jpg auto
   Color
     & You can change the colour of any shape, by clicking on the white circle on the lower right-hand side and entering a colour code(a hex, like FF0000). 
-    % content/applications/dotgrid.color.jpg auto
+    % content/tools/dotgrid/dotgrid.color.jpg auto
   Other Functions
     & <b>Move points</b> - You can move any point, any time, by selecting it with your cursor and moving it around. If you choose to move a point that is part of an existing shape, it will warp the shape.
     & <b>Grid on/off</b> - You can toggle the grid, on and off, to better view a design using the shortcut <b>H</b>.
@@ -131,7 +131,7 @@ DOTGRID
     & To create a circle, draw 5 points on the grid, with the 5th returning to the starting point, then press <b>Arc</b>. You will now have a circle. Select <b>Close</b> to close the shape. The roundness of your circle will depend on where you placed your points. You can always adjust, by selecting the points individually and moving them around. 
     & When making complex shapes, mind how you build your shapes and how the lines will connect, the order will affect your design. 
   Visual
-    % content/applications/dotgrid.main.jpg
+    % content/tools/dotgrid/dotgrid.second.jpg
     & You can change the look and colour of Dotgrid. To do this, {download(https://hundredrabbits.itch.io/dotgrid)} themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Dotgrid. The colours will change instantly. 
     & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app (Left, Donsol, Pico and Marabu).
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
@@ -173,7 +173,7 @@ DOTGRID
 
 ORCA
   Introduction
-    % content/applications/orca.main.jpg
+    % content/tools/orca/orca.main.jpg
     & <b>ORCA</b> is an open-source visual programming language, designed to create procedural sequencers on the fly, and control other applications.
     & ORCA is not a synthesizer, but a livecoding environment to write generative tools able to send MIDI, OSC or UDP data to DAWs (like Ableton, Renoise, VCV Rack, etc.), or an audio server such as SuperCollider. You can also use <b>{Pilot(https://github.com/hundredrabbits/Pilot)}</b>, a companion application to ORCA. 
   Download
@@ -191,7 +191,7 @@ ORCA
     - Go to the <b>{chatroom(https://talk.lurk.org/channel/orca)}</b>
     & If you're looking for a portable distribution, visit <b>{Orca-c(http://github.com/hundredrabbits/Orca-c)}</b>. If you're looking for the library for your <b>{Monome Norns(https://monome.org/norns/)}</b>, visit <b>{Orca Norns(https://github.com/itsyourbedtime/orca/)}</b>.
     & <b>{Watch a short video(https://twitter.com/neauoire/status/1129920308088066048)}</b> of Devine performing with ORCA at Algomech 2019.
-    % content/applications/orca.3.jpg
+    % content/tools/orca/orca.3.jpg
   Workshops
     & If you want to organize an <b>ORCΛ workshop</b> in your area, let us know and we'll be happy to share it, but please <b>do not</b> charge attendees for access to the workshop. 
     & Keep an eye out for {upcoming workshop dates(https://100r.co/pages/press.html#workshops)}
