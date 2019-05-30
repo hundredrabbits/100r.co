@@ -174,33 +174,33 @@ DOTGRID
 ORCA
   Introduction
     % content/tools/orca/orca.4.jpg
-    & <b>ORCA</b> is an open-source visual programming language, designed to create procedural sequencers on the fly, and control other applications.
-    & ORCA is not a synthesizer, but a livecoding environment to write generative tools able to send MIDI, OSC or UDP data to DAWs (like Ableton, Renoise, VCV Rack, etc.), or an audio server such as SuperCollider. You can also use <b>{Pilot(https://github.com/hundredrabbits/Pilot)}</b>, a companion application to ORCA. 
+    & {*ORCA*} is an open-source visual programming language, designed to create procedural sequencers on the fly, and control other applications.
+    & ORCA is not a synthesizer, but a livecoding environment to write generative tools able to send MIDI, OSC or UDP data to DAWs (like Ableton, Renoise, VCV Rack, etc.), or an audio server such as SuperCollider. You can also use {*Pilot(https://github.com/hundredrabbits/Pilot)*}, a companion application to ORCA. 
   Download
     & You can view the {sources(https://github.com/hundredrabbits/Orca)}, or {download builds(http://hundredrabbits.itch.io/Orca)} for OSX, Windows and Linux here: 
     & <iframe frameborder="0" src="https://itch.io/embed/225814?bg_color=000000&amp;fg_color=ffffff&amp;link_color=838383" width="552" height="167"></iframe>
   Tutorial
     & Each letter of the alphabet is an operation, lowercase letters operate on bang, uppercase letters operate each frame.
     & To learn more:
-    - Look at projects created with <b>#{ORCΛ(https://twitter.com/hashtag/ORCΛ)}</b>
-    - Watch the <b>{introduction video(https://www.youtube.com/watch?v=RaI_TuISSJE)}</b>
-    - Check out <b>{examples(https://github.com/hundredrabbits/Orca/tree/master/examples)}</b>
-    - Follow the <b>{tutorials(https://github.com/hundredrabbits/Orca/blob/master/TUTORIAL.md)}</b> 
+    - Look at projects created with #{ORCΛ(https://twitter.com/hashtag/ORCΛ)}
+    - Watch the {*introduction video(https://www.youtube.com/watch?v=RaI_TuISSJE)*}
+    - Check out {*examples(https://github.com/hundredrabbits/Orca/tree/master/examples)*}
+    - Follow the {*tutorials(https://github.com/hundredrabbits/Orca/blob/master/TUTORIAL.md)*} 
     & If you need some help:
-    - Visit the <b>{forum(https://llllllll.co/t/orca-live-coding-tool/17689)}</b>
-    - Go to the <b>{chatroom(https://talk.lurk.org/channel/orca)}</b>
-    & If you're looking for a portable distribution, visit <b>{Orca-c(http://github.com/hundredrabbits/Orca-c)}</b>. If you're looking for the library for your <b>{Monome Norns(https://monome.org/norns/)}</b>, visit <b>{Orca Norns(https://github.com/itsyourbedtime/orca/)}</b>.
-    & <b>{Watch a short video(https://twitter.com/neauoire/status/1129920308088066048)}</b> of Devine performing with ORCA at Algomech 2019.
+    - Visit the {*forum(https://llllllll.co/t/orca-live-coding-tool/17689)*}
+    - Go to the {*chatroom(https://talk.lurk.org/channel/orca)*}
+    & If you're looking for a portable distribution, visit <b>{Orca-c(http://github.com/hundredrabbits/Orca-c)}</b>. If you're looking for the library for your {*Monome Norns(https://monome.org/norns/)*}, visit {*Orca Norns(https://github.com/itsyourbedtime/orca/)*}.
+    & {*Watch a short video(https://twitter.com/neauoire/status/1129920308088066048)*} of Devine performing with ORCA at Algomech 2019.
     % content/tools/orca/orca.3.jpg
   Workshops
-    & If you want to organize an <b>ORCΛ workshop</b> in your area, let us know and we'll be happy to share it, but please <b>do not</b> charge attendees for access to the workshop. 
+    & If you want to organize an {*ORCΛ workshop*} in your area, let us know and we'll be happy to share it, but please <b>do not</b> charge attendees for access to the workshop. 
     & Keep an eye out for {upcoming workshop dates(https://100r.co/pages/press.html#workshops)}
     & Hundredrabbits is open to {hosting workshops(https://twitter.com/hundredrabbits/status/1130118973889163265)}, for travel opportunities contact us at 
     - hundredrabbits at gmail dot com
   Visual
     & You can change the look and colour of Orca. 
-    & To do this, {download(https://hundredrabbits.itch.io/orca)} themes. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Orca. The colours will change instantly. 
-    & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app (Left, Donsol, Pico and Marabu).
+    & To do this, {download(https://hundredrabbits.itch.io/orca)} themes. You can view the colour palettes of each theme in the preview, once you find something you like, {*drag the file*}(.svg file) onto Orca. The colours will change instantly. 
+    & These themes are part of the {*Ecosystem Theme*}, which means that you can apply a theme to any supported app (Left, Donsol, Pico and Marabu).
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
   Extras
     & This application supports the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}. See the {License(https://github.com/hundredrabbits/Orca/blob/master/LICENSE.md)} file for license rights and limitations (MIT). {Pull Requests(https://github.com/hundredrabbits/Orca)} are welcome!
