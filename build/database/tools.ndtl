@@ -4,7 +4,7 @@ LEFT
     & {Left(https://hundredrabbits.itch.io/Left)} is a distractionless writing tool with auto-complete, synonyms, writing statistics, markup navigation and a speed-reader.
     & The application is {*free*} (donations welcome) and {*Open Source*}, its original purpose was to help {Rekka(https://kokorobot.ca)} with the writing of the upcoming novel {Wiktopher(https://wiktopher.kokorobot.ca)}.
   Download
-    & <iframe frameborder="0" src="https://itch.io/embed/173127?bg_color=000000&amp;fg_color=ffffff&amp;link_color=838383" width="552" height="167"></iframe>
+    % itchio 173127
   Trailer
     % youtube QloUoqqhXGE
   Tutorial
@@ -77,7 +77,7 @@ DOTGRID
     & Dotgrid is a distractionless vector tool with line styles, corner controls, colours, grid-based tools, PNG and SVG export. Dotgrid supports the full SVG specs, and includes additional effects such as mirroring and radial drawing.
     & The application is {*free & Open Source*}, and available online to be used within your browser, on your Raspberry Pi, or on your mobile device. 
   Download
-    & <iframe frameborder="0" src="https://itch.io/embed/190851?bg_color=000&amp;fg_color=fff&amp;link_color=838383" width="552" height="167"></iframe>
+    % itchio 190851
   Trailer
     % youtube Xt1zYHhpypk
   Tutorial
@@ -178,7 +178,7 @@ ORCA
     & ORCA is not a synthesizer, but a livecoding environment to write generative tools able to send MIDI, OSC or UDP data to DAWs (like Ableton, Renoise, VCV Rack, etc.), or an audio server such as SuperCollider. You can also use {*Pilot(https://github.com/hundredrabbits/Pilot)*}, a companion application to ORCA. 
   Download
     & You can view the {sources(https://github.com/hundredrabbits/Orca)}, or {download builds(http://hundredrabbits.itch.io/Orca)} for OSX, Windows and Linux here: 
-    & <iframe frameborder="0" src="https://itch.io/embed/225814?bg_color=000000&amp;fg_color=ffffff&amp;link_color=838383" width="552" height="167"></iframe>
+    % itchio 225814
   Tutorial
     & Each letter of the alphabet is an operation, lowercase letters operate on bang, uppercase letters operate each frame.
     & To learn more:
