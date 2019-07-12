@@ -47,7 +47,8 @@ Sailing in Japan
     - Customs
     & The officials will ask you about your last and future ports, they will ask for precise dates. Because making a long list of planned ports is no longer necessary, you only need to give them a general list. 
     & They will give you a {*Closed port permit*}, that will give you blanket permission to visit all “closed ports” (which basically means everywhere in Japan that is not an open port, including anchorages) for as long as you are in Japan. 
-    & You will also get a {*Naiko Senpaku*} (domestic boat) registration that will waive the requirement for you to to port entry/exit Customs paperwork in open and closed ports (although you are still required to do port entry/exit Coast Guard paperwork for open ports, but actual requirements vary by port).
+    & You must request a {*Naiko Senpaku*} or {*naikosen*} (domestic boat) registration on arrival, insist on it. Customs are reluctant to give it, but do not let them leave without it. This paper changes the boat's domestic status. A naikosen will waive the requirement for you to do port entry/exit Customs paperwork in open and closed ports.
+    & You must cancel the Naikosen (returning the boat to “foreign” status) before leaving Japan. You can get tax-free fuel this way.
     - Immigration
     & they will ask you to step off the boat and likely take you into an office to do the paperwork. You will fill a card like they have on planes, and they will take a photo of you as well as a scan of your index fingers, again, this is the same sort of machine they have at airports. They'll ask you to fill many papers, all of these have english writing. Most travelers are allowed 3 months on a tourist visa, although your boat can stay in Japan indefinitely.
   Staying in Japan for a while
@@ -65,11 +66,15 @@ Sailing in Japan
   Sailing in Japan
     - Sailing at night?
     & Sailing in Japan is different than other places in the world, in the way that sailing by night is strongly discouraged, due to the presence of nets, floats, algae and fish farms. While sailing in the inland sea, a watch at the bow is necessary even in daytime, so this can give you an idea of what it may be like. A lot of fishermen don't have AIS, and not always on watch at night either so it's best to keep transit times short and during the daylight hours. If a longer passage is necessary, sailing offshore may help to avoid dangers.
-    - Anchoring
-    & There aren't many bays where one can anchor, they do exist, but they are few and far apart. Many japanese sailors never anchor, they only use them in times of emergency. Although some boats have reported that finding anchorages was simple with a good internet connection, and using charts and google maps to spot newly constructed structures (bridges) or fish farms. 
-    - Small harbours
+    - Fenderboards
     & If you plan to sail extensively through Japan, chances are you'll be mooring in many small fishing harbours and usually, this means you'll need to dock onto a concrete pier. The walls may, or may not have big rubber bits, and some will have gaps that make it difficult to protect your boat using only fenders. In all cases, having a fender board is useful, it will keep your fenders from going into the gaps of the dock (if any) and will protect them from the rough concrete pier. The big rubber bits that many ports have can help to protect your boat, but will leave marks.
-    & In many cases, you'll be able to dock onto a small pontoon. The places reserved for visitors will be marked by yellow and black stripes. If there is no more room, find any place you can and ask if it's okay to stay there, otherwise, it may be necessary to tie to another boat; although, again, it's best to ask because not all boats will appreciate you tying to their yacht.
+    - VHF
+    & Not many yachties use VHF in Japan, you may not get an answer if you try to contact others with it. Channel 16 is reserved for emergencies, like in the rest of the world. 
+  Emergency communication
+    - Police – Dial 110 (Toll-free)
+    - Fire – Dial 119 (Toll-free)
+    - Ambulance – Dial 119 (Toll-free)
+    - Marine Emergency – Dial 118 (Toll-free)
   Trash and Recycling
     & Trash and recycling correctly is very important in Japan. Being an island, and a place where lots of packaging is used they put much care into recycling and burning items, pilling it up is not an option. All refuse and recyclable products are washed, and separated. As a visitor, you should try to inform yourself as much as you can. 
     & All in all, there's burnable garbage:
@@ -116,6 +121,13 @@ Sailing in Japan
     & If you have allergies, the word is:
     - アレルギー (aregugii)
     & View {this guide(https://livejapan.com/en/article-a0001856/)} for more information on allergies and reading labels in Japan. If you've got serious allergies, it is best to print an {international allergy card(www.foodallergy.org)} to show restaurants or shop owners. The card can be made on the website in any language.
+  Agents
+    & Agents aren't necessary when cruising in Japan, but if you want one anyway, contact Kirk Patterson at {#kirk.silkpurse@yahoo.com#}. He has sailed extensively throughout Japan, and will be able to help you.
+  Electricity
+    & Voltage in Japan is 100V, American and Canadian boats will have no problem in marinas here.
+  LPG
+    & It is difficult to get foreign tanks filled in Japan, though some marinas can help you (Shima Yacht harbour in Mie prefecture does it). 
+    & Buying a Japanese tank is an option, otherwise, getting a hot-plate with that uses propane casettes is a good backup
   Water
     & Not all ports can supply water, especially small fishing ports, though it is always good to ask. 
     - Yotto ni wa, mizu arimasu ka?
@@ -147,13 +159,17 @@ Sailing in Japan
   Navigation
     & A good app for navigating in Japanese waters is {New Pec Smart(new pec smart)} on IOS. It is up to date on the location of fish and oyster farms as well as other navigational hazards. It can only be obtained from the Japanese iOS store (but creating another account for it isn't complicated). The downside to this app is that it is completely in Japanese (hard for those who can't read) but it's also very expensive, it requires a monthly payment of JPY 3,800 — ouch! Though it is a good app, may be worth it if used for a short time. 
     & Sailing directions {volume I(https://www.kp44.org/ftp/SailingDirections/158%20Eastern%20Japan%20Pilot/Pub158bk.pdf)} & {volume II(https://www.kp44.org/ftp/SailingDirections/159%20Western%20Japan%20Pilot/Pub159bk.pdf)} is useful. The last two are no longer published and are available online, but you can also purchase newer physical versions of these elsewhere online if you search for: Sailing Directions Japan 158 Volume I & Sailing Directions Japan 159 Volume II.
-    & Japan is a fishing nation, every bay and inlet is occupied by somekind of boat harbour, fish pen, algae or oyster farm. This means that you need to be especially careful when sailing near the coast, some nets can extend far from the shore. The nets are often marked with poles but are not always charted — at least not on Navionics (some of the more permanent fish havens are). For nets near and around Shima (mie prefecture) you can check {this website(https://www1.kaiho.mlit.go.jp/KAN4/noriami/index.html)}. Otherwise, {this website(https://www1.kaiho.mlit.go.jp/TUHO/vpage/visualpage_en.html)} lists a few navigational warnings for mariners, updated often.
+    & VHF Channel 16 is mainly a shipping communications channel and should only be used in an emergency.
+  Fishing nets
+    & Japan is a fishing nation, every bay and inlet is occupied by somekind of boat harbour, fish pen, algae or oyster farm. This means that you need to be especially careful when sailing near the coast, some nets can extend far from the shore. The nets are often marked with poles but are not always charted — at least, not on Navionics (some of the more permanent fish havens are). 
+    & Getting caught, and causing damage to a fishing net, can be a costly affair — avoid it. They will fine you very large sums. 
+    & For nets near and around Shima (mie prefecture) you can check {this website(https://www1.kaiho.mlit.go.jp/KAN4/noriami/index.html)}. Otherwise, {this website(https://www1.kaiho.mlit.go.jp/TUHO/vpage/visualpage_en.html)} lists a few navigational warnings for mariners, updated often.
   Heavy traffic
-    & There are many dangers when sailing in Japanese waters, one of them is the heavy traffic thundering up and down the coast. Sailing during the day is recommended here, but there are times when the distance is too great and that it isn't possible. In that case, having AIS is a definite advantage. 
+    & There are many dangers when sailing in Japanese waters, one of them is the heavy traffic thundering up and down the coast. Sailing during the day is recommended here, but there are times when the distance is too great and that it isn't possible. In that case, having {*AIS*} is a definite advantage. 
     & North of the Kii peninsula (east coast) there is a lot of traffic and you can find yourself sandwiched between many large boats, having AIS makes their intentions — as well as yours — clear. I highly recommend getting it to sail around in Japanese waters.
   Weather
     & The sea areas along the coast of Japan are subject to great changes in sea as well as weather conditions, and this constitutes a grave threat to navigation. Amongst these threats there is fog, gales & currents. It is good to inform yourself as much as you can before setting sail. This {document(media/content/japan.navigationsafety.pdf)} outlines the various things to consider when sailing in Japan, regarding weather and traffic.
-    & The best time to sail to Japan from the South Pacific is mid-March to late April, when the winter trades have lessened and before the onset of typhoon season — although there can be typhoons at any moment in the year in this area. In Winter and Spring, north to westerly winds predominate along this indented coastline. In the period between Winter and Spring, the winds blow extra hard — almost as if the Winter is blowing itself out — but as Spring evolves into early Summer, low pressure areas that start to pass through every three or four days bring periods of calm, rain, increasing warmth and easterly winds. (Thank you to {SY bosun bird(http://www.bosunbird.com)} for this description).
+    & The best time to sail to Japan from the South Pacific is {*mid-March to late April*}, when the winter trades have lessened and before the onset of typhoon season — although there can be typhoons at any moment in the year in this area. In Winter and Spring, north to westerly winds predominate along this indented coastline. In the period between Winter and Spring, the winds blow extra hard — almost as if the Winter is blowing itself out — but as Spring evolves into early Summer, low pressure areas that start to pass through every three or four days bring periods of calm, rain, increasing warmth and easterly winds. (Thank you to {SY bosun bird(http://www.bosunbird.com)} for this description).
     & We use saildocs to receive weather forecasts, from the {Japanese Meteorological Agency(http://www.jma.go.jp/en/seafcst/)}. 
     & A good local website for weather is {wamwam.co.jp(http://wamwam.co.jp/)}, although it requires a subscription and is entirely in Japanese. If you throw it into a translator it should be easy to read. The subcription costs JPY 30,000 per year and is very thorough, you can find a sample of what you'll get {here(http://www.wamwam.co.jp/appl/sample/yacht/localwind.html)}.
   Tides
@@ -164,6 +180,18 @@ Sailing in Japan
     - {Onze Marinet(http://onze.co.jp)}
     - {Sea Plaza(http://seaplaza.jp)}
     & These sites were recommended to me by local Japanese sailors. You can throw these websites in google translate, or get the help of a Japanese friend to order parts. 
+  Moorage options
+    - Marinas
+    & There are many great marinas in Japan, all equipped with modern facilities, but the ones near bigger cities (Osaka, Tokyo etc) charge more. You can find a list of marinas — as well as 'mini marinas'(run by local governmenets and fishing co-ops) on the website {UMI EKI(http://www.umi-eki.jp/en/)} (sea station).
+    - Anchoring
+    & There aren't many bays where one can anchor, they do exist, but they are few and far apart. Many japanese sailors never anchor, they only do in emergencies or when med-mooring. Although some cruising boats have reported that finding anchorages was simple with a good internet connection, and using charts and google maps to spot newly constructed structures (bridges) or fish farms. 
+    - Fishing harbours walls
+    & You can moor into most fishing harbours in Japan. All are relatively sheltered, within concrete breakwaters. Some ports will charge nothing, or next to little, even for an extended stay. 
+    & Fishing harbours require you to moor onto a concrete wall. If planning to moor in a place like this, it is best to arrive at high tide. When coming alongside at low tide, getting onto the pier may be difficult, not just this, the wall will be encrusted in barnacles and in big winds it may be difficult to moor without damaging your yacht (even with big fenders on).
+    & Using a sturdy fenderboard, with big fenders underneath, is necessary. You will have to adjust your lines with the tide, keep a close eye on the height of it to avoid bad surprises. (Sometimes the tide is so high the fenderboard or fenders pop up onto the dock.)
+    - Harbour pontoons
+    & In some ports, you'll be able to dock onto a small pontoon. The places reserved for visitors will be marked by yellow and black stripes. If there is no more room, find any place you can and ask if it's okay to stay there, otherwise, it may be necessary to tie to another boat; although, again, it's better to ask because not all boats will appreciate you tying to their yacht.
+    & These will usually cost more than tying to a wall, but have the advantage of rising and falling with the tide.
   Affordable marinas
     & There aren't many affordable marinas in Japan, many are expensive, and don't have cheaper monthly fees. In fact, many marinas start charging more the longer you stay (weird, i know). So where are good places to stay for cheap?
     - {Shima Yacht Harbour(http://www.vocshima.jp)} 34°20.148N; 136°41.123E
