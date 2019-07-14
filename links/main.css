@@ -52,6 +52,9 @@ body #wrapper #core ul.jump li { font-size:14px; margin-bottom: 0px }
 body #wrapper #core code { background:white; font-family: 'input_mono_regular'; display: block; color:black; line-height: 20px; padding:20px; }
 body #wrapper #core code li { display: block; margin-bottom: 0px; font-size:12px; white-space: pre }
 body #wrapper #core input { display: inline-block; font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;background:black;border:2px solid white;padding:0px 20px;line-height: 40px;border-radius: 30px;font-size:14px }
+body #wrapper #core div.quote { color:#999; padding-left: 30px; border-left:2px solid white; }
+body #wrapper #core p.text { margin-bottom:15px; color:white; }
+body #wrapper #core p.attrib { font-size:14px; color:#999; }
 
 body #wrapper #core div.capsule { height:120px;overflow: hidden ;border-radius: 3px;border:2px solid white; position: relative; }
 body #wrapper #core div.capsule img { height: 100%;border-radius: 0px; float:left; margin-right:30px; }
