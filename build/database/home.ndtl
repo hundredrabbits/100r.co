@@ -10,7 +10,7 @@ ABOUT US
   Our path
     & Since then, we have left Canada and have sailed down the American West Coast and over to Mexico. After that, we made the big jump across the pacific to French Polynesia, and crossed the wondrous south pacific islands over to New Zealand. We have since left the lower latitudes and sailed up to Fiji, the Marshall Islands and then over to Japan (where we are now). We planning on staying here for a little while, experiencing Japan by sea! We share our experience in the form of monthly videos, creating art, tools, books and games.
   Lifestyle experiment
-    & We learned many things while traveling, namely, the value of water, the effect of corrosion on hardware and the necessity to reduce our power consumption. This has led us to change how we work: 
+    & We learned many things while traveling, namely, the value of water, the effect of salt water corrosion on hardware and the necessity to reduce our power consumption. This has led us to change how we work: 
     & 1. We make our own tools. We decided to make our own apps, that consume less power/memory and that suit our exact needs (Left, Dotgrid, Orca etc).
     & 2. We size projects per location. If we are somewhere off-grid, with little internet, we will work on projects that are smaller. For example, we may choose to make a book instead of a game.
     & 3. We work on low-power, repairable hardware. We work on computers for a living, but running two power-hungry macbooks full-time on an off-grid system doesn't work. In response to this, we now use {raspberry Pi(raspberry)} computers for writing and for development. They are easy to repair, cheap (good for redundancy) and draw little power.
@@ -28,20 +28,20 @@ LIBRARY
     % content/sailboat.library.jpg
     & When the weather permits, we read a lot on passage. We first started "The Pino book club" during our transit from Mexico to the Marquesas. During nightwatches we'd read and discuss them the next morning over coffee. It was one of our favorite things to do. We also did this with podcasts. Here is a list of the books we've read during passages.  
   Canada to Mexico
-    - Guns, Germs & Steel: Jared M. Diamond
-    - Box wine sailors: Amy McCullough
-    - Le Ton Beau De Marot: Douglas Hofstadter
-    - Beyond Good & Evil: Friedrich Nietzche
-    - The Circle: Dave Eggers
-    - Pictures From The Water Trade: John David Morley
-    - Rationality From AI to zombies: Elizer Yudkowsky
+    - {Guns, Germs & Steel(https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393354326/ref=as_li_ss_tl?crid=S7WOWIBHHTT1&keywords=guns+germs+and+steel&qid=1563168113&s=gateway&sprefix=guns+germs+and,aps,319&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=fd5572c3908d7a1fd8958ccb4c008e6f&language=en_US)}, Jared M. Diamond
+    - {The Box Wine Sailors(https://www.amazon.com/gp/product/1613733488/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1613733488&linkCode=as2&tag=hundredrabbit-20&linkId=ab347d9ebee204d1b1c546bc1db2caef)}, Amy McCullough
+    - {Le Ton Beau De Marot(https://www.amazon.com/Ton-Beau-Marot-Praise-Language/dp/0465086454/ref=as_li_ss_tl?keywords=Le+Ton+Beau+De+Marot&qid=1563168192&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=5e62ef25bc85fb9638642661b741fe6a&language=en_US)}, Douglas Hofstadter
+    - {Beyond Good & Evil(https://www.amazon.com/Beyond-Good-Evil-Friedrich-Nietzsche/dp/1503250881/ref=as_li_ss_tl?crid=3CKK7X547X54J&keywords=beyond+good+and+evil+nietzsche&qid=1563168220&s=gateway&sprefix=beyond+good,aps,324&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=125b7f63d8b6ac1a83313c10aa8f4a6e&language=en_US)}, Friedrich Nietzche
+    - {The Circle(https://www.amazon.com/Circle-Dave-Eggers/dp/0345807294/ref=as_li_ss_tl?crid=B0JJARVXOP7B&keywords=the+circle+dave+eggars&qid=1563168256&s=gateway&sprefix=the+circle,aps,418&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=890a6bfacba4a6d45428dca8adb12554&language=en_US)}, Dave Eggers
+    - {Pictures From The Water Trade(https://www.amazon.com/Pictures-Water-Trade-Adventures-Westerner/dp/0871130173/ref=as_li_ss_tl?keywords=pictures+from+the+water+trade&qid=1563168285&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=c391659b96095637d4fd5646d1466d63&language=en_US)}, John David Morley
+    - {Rationality From AI to zombies(https://www.amazon.com/Rationality-AI-Zombies-Eliezer-Yudkowsky-ebook/dp/B00ULP6EW2/ref=as_li_ss_tl?crid=C1W7Z9OO33YX&keywords=rationality+from+ai+to+zombies&qid=1563168315&s=gateway&sprefix=rationali,aps,347&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=9884ffc6b1c4662f564a2ca618863c08&language=en_US)}, Elizer Yudkowsky
   Mexico to Marquesas
     & Passage length: 28 days
-    - A Universal History of Infamy: Jorge Luis Borges
-    - Alice's adventures in Wonderland: Lewis Caroll
-    - Collected Short Stories: Mark Twain
-    - Ecce Homo: Friedrich Nietzshe
-    - Flatland: Edwin Abbott
+    - {A Universal History of Infamy(https://www.amazon.com/Universal-History-Infamy-English-Spanish/dp/0525226702/ref=as_li_ss_tl?crid=3LFLD0JJR39MI&keywords=a+universal+history+of+infamy&qid=1563168360&s=gateway&sprefix=a+universal+history+of+in,aps,329&sr=8-2&linkCode=ll1&tag=hundredrabbit-20&linkId=f0f068d16d0737a8b0b4f7b3103cb5a2&language=en_US)}, Jorge Luis Borges
+    - {Alice's adventures in Wonderland(https://www.amazon.com/Alices-Adventures-Wonderland-Lewis-Carroll/dp/1503222683/ref=as_li_ss_tl?crid=1JAQSX9Z07IE3&keywords=alice's+adventures+in+wonderland&qid=1563168391&s=gateway&sprefix=alice's,aps,337&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=e877549563ced8bfa10a8dd348b8ea68&language=en_US)}, Lewis Caroll
+    - {Collected Short Stories(https://www.amazon.com/Collected-Short-Stories-Mark-Twain-ebook/dp/B004LRP6P2/ref=as_li_ss_tl?keywords=collected+short+stories+mark+twain&qid=1563168422&s=gateway&sr=8-2&linkCode=ll1&tag=hundredrabbit-20&linkId=047601435972312fa4a017cd7ef02dc3&language=en_US)}, Mark Twain
+    - {Ecce Homo(https://www.amazon.com/Ecce-Homo-Becomes-Revised-Classics/dp/0140445153/ref=as_li_ss_tl?keywords=ecce+homo&qid=1563168461&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=50fc2feac4b2117133f4aeeb28c7056c&language=en_US)}, Friedrich Nietzshe
+    - {Flatland(https://www.amazon.com/Flatland-Romance-Dimensions-Thrift-Editions/dp/048627263X/ref=as_li_ss_tl?keywords=flatland&qid=1563168485&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=104baf5e3cc30e9a90b27353c1b3cc24&language=en_US)}, Edwin Abbott
     - Fourteen: A Daughter’s Memoir: Leslie Nack
     - How Not To Die: Michael Greger
     - How To Be a Woman: Caitlin Moran
@@ -112,13 +112,13 @@ PINO
   A house with wings
     & Our sailboat is a Yamaha33, a 1982 masthead sloop fiberglass sailboat. 
     % content/sailboat.boat.jpg
-    - {*Name*} PINO
-    - {*Builder*} Yamaha
-    - {*Year*} 1982
-    - {*Length*} 33'(10 meters)
-    - {*Engine*} Type Single / diesel(13 HP)
-    - {*Hull*} Fiberglass
-    - {*Keel*} Fin
+    - {*Name*}: PINO
+    - {*Builder*}: Yamaha
+    - {*Year*}: 1982
+    - {*Length*}: 33'(10 meters)
+    - {*Engine*}: Yanmar / diesel(13 HP)
+    - {*Hull*}: Fiberglass
+    - {*Keel*}: Fin
     & Why Pino? Pino is the name of an android in the anime Ergo Proxy. 'Hundredrabbits' is inspired from an imaginary sailboat (also, frome Ergo proxy) named the 'centzon totochtin', or 'four hundred rabbits'.
     & For additional details on our equipment and boat, visit our <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>github</a>.
     % content/sailboat.blueprint.jpg
@@ -216,6 +216,7 @@ COOKING
 SUPPORT
   A studio on a sailboat
     & The idea of a nomadic design studio, we decided, was the best way to stay creative; seeing new people and places enriches our work. We created our two first games ({Hiversaires(#hiversaires)} and {Oquonie(#oquonie)}) while in Tokyo and Thailand, and love how those experiences impacted our projects. It is something we want to continue to do, and being in a studio that moves will help us accomplish that. 
+    & We also enjoy the challenges that come with living on a sailboat, the power limitations and reduced connectivity has re-shaped how we work — in a good way. 
     & Want to support our floating studio? 
     - Use our {tools(https://itch.io/c/248074/tools)}.
     - Play our {games(https://itch.io/c/264883/games)}.
