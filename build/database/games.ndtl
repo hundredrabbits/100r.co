@@ -29,7 +29,7 @@ OQUONIE
     & A big inspiration for this project was the short story "A town without streets" by Junji Ito, about a city of endless interconnecting houses and rooms, where privacy is non-existent. To preserve the little privacy they do have, the townspeople wear masks.
   Production
     & Oquonie was our first project collaboration. Back in 2013, we both had full-time jobs, working in studios in Tokyo. It was Devine's second time programming a full game — after {Hiversaires(hiversaires)} — and first time working with animated sprites. It was Rekka's first ever self-published game. We made progress on the game after work hours and on weekends, for a total duration of 6 months. 
-    & Oquonie was released on February 14th 2014 on iOS. We spent many more hours on the game after release, adding extra content and porting it to other platforms with the help of our collaborator and friend {Rez Mason(http://rezmason.net/projects.html)}. The game was nominated for an IGF award in 2015, for visual excellence.
+    & Oquonie was released on February 14th 2014 on iOS. We spent many more hours on the game after release, adding extra content and porting it to other platforms, all thanks to our collaborator and friend {Rez Mason(http://rezmason.net/projects.html)}. The game was nominated for an IGF award in 2015, for visual excellence.
     & In 2018, the game was removed from the iOS store, with our certificate expiring after many months at sea in areas of no, or little connectivity. Shortly after that event, we decided to step away from publishing our game with Apple, in an attempt to stop promoting a company that profits from devices that are expensive, unrepairable and wasteful. Instead, the game was published exclusively on the Itch.io store, a publishing platform that is in line with our values — know that we did not take this decision lightly. 
     & The game now runs on Linux, PC and Mac.
   Screenshots
@@ -48,6 +48,8 @@ DONSOL
     % youtube GNoZrr56GqA
   Download  
     % itchio 109936
+  Inspiration
+    & The art style is reminiscent of {Ledoliel(https://wiki.xxiivv.com/#ledoliel)}, a game by Devine about trying to figure out what topics your otherwordly guests might want to discuss, gift they might want to receive and, places they may like to be touched.
   Production 
     & Donsol, short for "Dungeon Solitaire" was designed by John Eternal, during {train jam(http://trainjam.com/)} in 2015, it was later made into an iOS game with Devine. It was released on April 2015 on the appstore.
     & The game was in turn ported to all desktop platforms. 
@@ -82,11 +84,10 @@ HIVERSAIRES
     & The gameplay of Hiversaires is reminiscent of games like Myst, while the art draws inspiration from the manga Blame by Tsutomu Nihei.
     & Like {Oquonie(oquonie)}, this game is about being lost in place that is alien, with no instructions, no dialog, and no words of any kind. 
   Production
-    & Hiversaires was created while we lived in Japan. This was Devine's first game for iOS, with a production time of only 2 months as to not gamble too much, since it was an experiment. It was also Devine's first commercial release, as all the previous games and prototypes were available for free. 
-    & Devine was in-between jobs at the time. The game was put together in xcode, with the visuals being 2d hand-drawn textures applied to a 3D space.  
-    & Hiversaires was released on April 3rd 2013 on iOs, it was later ported to Android. 
-    & The game was taken off the Android store, due to piracy, it was also taken down from the iOS store in 2016 because were too short-handed, unable to keep up with bug reports due to ever-changing devices. We were just getting into sailboat life at the time, we had little connectivity, and doing the sizable updates required to have a functionning xcode was impossible.
-    & On February 27th 2018, Hiversaires was re-released on all desktop platforms (on itch.io), with the help of our friend and collaborator {Rez Mason(http://rezmason.net/projects.html)}. We decided to not publish games on platform like iOS anymore, in an attempt to stop promoting a company that profits from devices that are expensive, unrepairable and wasteful. Instead, the game was published exclusively on the Itch.io store, a publishing platform that is in line with our values — know that we did not take this decision lightly. 
+    & Hiversaires was created while we lived in Japan. This was Devine's first game for iOS. It was an experiment, a gamble of sorts, it is why the production time was so short (2 months). It was Devine's first commercial release, as all the previous games and prototypes were available for free. 
+    & Devine was in-between jobs at the time, making it possible to work on this project full time. 
+    & Hiversaires was released on April 3rd 2013 on iOs, it was later ported to Android by {Sven Bergström(https://underscorediscovery.ca/)}. The game was later taken off the Android store because of piracy. Many users would ask for support for pirated versions of the game, resulting in much lost time and frustration. In the end, Devine thought it better to not host the game in an unhealthy ecosystem like the Android store. 
+    & On February 27th 2018, Hiversaires was re-released on all desktop platforms (on itch.io), ported by friend and collaborator {Rez Mason(http://rezmason.net/projects.html)}. We decided to not publish games on platform like iOS anymore, in an attempt to stop promoting a company that profits from devices that are expensive, unrepairable and wasteful. Instead, the game was published exclusively on the Itch.io store, a publishing platform that is in line with our values — know that we did not take this decision lightly. 
   Screenshots
     % content/games/hiversaires/hiversaires.2.jpg
     % content/games/hiversaires/hiversaires.3.jpg
