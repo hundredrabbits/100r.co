@@ -10,7 +10,7 @@ ABOUT US
   Our path
     & Since then, we have left Canada and have sailed down the American West Coast and over to Mexico. After that, we made the big jump across the pacific to French Polynesia, and crossed the wondrous south pacific islands over to New Zealand. We have since left the lower latitudes and sailed up to Fiji, the Marshall Islands and then over to Japan (where we are now). We planning on staying here for a little while, experiencing Japan by sea! We share our experience in the form of monthly videos, creating art, tools, books and games.
   Lifestyle experiment
-    & We learned many things while traveling, namely, the value of water, the effect of salt water corrosion on hardware and the necessity to reduce our power consumption. This has led us to change how we work: 
+    & We learned many things while traveling, namely, the necessity to reduce our power consumption and the value of simple and repairable hardware. This has led us to change how we work: 
     & 1. We make our own tools. We decided to make our own apps, that consume less power/memory and that suit our exact needs (Left, Dotgrid, Orca etc).
     & 2. We size projects per location. If we are somewhere off-grid, with little internet, we will work on projects that are smaller. For example, we may choose to make a book instead of a game.
     & 3. We work on low-power, repairable hardware. We work on computers for a living, but running two power-hungry macbooks full-time on an off-grid system doesn't work. In response to this, we now use {raspberry Pi(raspberry)} computers for writing and for development. They are easy to repair, cheap (good for redundancy) and draw little power.
@@ -28,76 +28,76 @@ LIBRARY
     % content/sailboat.library.jpg
     & When the weather permits, we read a lot on passage. We first started "The Pino book club" during our transit from Mexico to the Marquesas. During nightwatches we'd read and discuss them the next morning over coffee. It was one of our favorite things to do. We also did this with podcasts. Here is a list of the books we've read during passages.  
   Canada to Mexico
-    - {Guns, Germs & Steel(https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393354326/ref=as_li_ss_tl?crid=S7WOWIBHHTT1&keywords=guns+germs+and+steel&qid=1563168113&s=gateway&sprefix=guns+germs+and,aps,319&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=fd5572c3908d7a1fd8958ccb4c008e6f&language=en_US)}, Jared M. Diamond
-    - {The Box Wine Sailors(https://www.amazon.com/gp/product/1613733488/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1613733488&linkCode=as2&tag=hundredrabbit-20&linkId=ab347d9ebee204d1b1c546bc1db2caef)}, Amy McCullough
-    - {Le Ton Beau De Marot(https://www.amazon.com/Ton-Beau-Marot-Praise-Language/dp/0465086454/ref=as_li_ss_tl?keywords=Le+Ton+Beau+De+Marot&qid=1563168192&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=5e62ef25bc85fb9638642661b741fe6a&language=en_US)}, Douglas Hofstadter
-    - {Beyond Good & Evil(https://www.amazon.com/Beyond-Good-Evil-Friedrich-Nietzsche/dp/1503250881/ref=as_li_ss_tl?crid=3CKK7X547X54J&keywords=beyond+good+and+evil+nietzsche&qid=1563168220&s=gateway&sprefix=beyond+good,aps,324&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=125b7f63d8b6ac1a83313c10aa8f4a6e&language=en_US)}, Friedrich Nietzche
-    - {The Circle(https://www.amazon.com/Circle-Dave-Eggers/dp/0345807294/ref=as_li_ss_tl?crid=B0JJARVXOP7B&keywords=the+circle+dave+eggars&qid=1563168256&s=gateway&sprefix=the+circle,aps,418&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=890a6bfacba4a6d45428dca8adb12554&language=en_US)}, Dave Eggers
-    - {Pictures From The Water Trade(https://www.amazon.com/Pictures-Water-Trade-Adventures-Westerner/dp/0871130173/ref=as_li_ss_tl?keywords=pictures+from+the+water+trade&qid=1563168285&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=c391659b96095637d4fd5646d1466d63&language=en_US)}, John David Morley
-    - {Rationality From AI to zombies(https://www.amazon.com/Rationality-AI-Zombies-Eliezer-Yudkowsky-ebook/dp/B00ULP6EW2/ref=as_li_ss_tl?crid=C1W7Z9OO33YX&keywords=rationality+from+ai+to+zombies&qid=1563168315&s=gateway&sprefix=rationali,aps,347&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=9884ffc6b1c4662f564a2ca618863c08&language=en_US)}, Elizer Yudkowsky
+    - {Guns, Germs & Steel(https://amzn.to/2k13ztL)}, Jared M. Diamond
+    - {The Box Wine Sailors(https://amzn.to/2lxEJlX)}, Amy McCullough
+    - {Le Ton Beau De Marot(https://amzn.to/2lvgl4h)}, Douglas Hofstadter
+    - {Beyond Good & Evil(https://amzn.to/2lvgcxL)}, Friedrich Nietzche
+    - {The Circle(https://amzn.to/2lttM4H)}, Dave Eggers
+    - {Pictures From The Water Trade(https://amzn.to/2k1nhWe)}, John David Morley
+    - {Rationality From AI to zombies(https://amzn.to/2l9l6Ae)}, Elizer Yudkowsky
   Mexico to Marquesas
     & Passage length: 28 days
-    - {A Universal History of Infamy(https://www.amazon.com/Universal-History-Infamy-English-Spanish/dp/0525226702/ref=as_li_ss_tl?crid=3LFLD0JJR39MI&keywords=a+universal+history+of+infamy&qid=1563168360&s=gateway&sprefix=a+universal+history+of+in,aps,329&sr=8-2&linkCode=ll1&tag=hundredrabbit-20&linkId=f0f068d16d0737a8b0b4f7b3103cb5a2&language=en_US)}, Jorge Luis Borges
-    - {Alice's adventures in Wonderland(https://www.amazon.com/Alices-Adventures-Wonderland-Lewis-Carroll/dp/1503222683/ref=as_li_ss_tl?crid=1JAQSX9Z07IE3&keywords=alice's+adventures+in+wonderland&qid=1563168391&s=gateway&sprefix=alice's,aps,337&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=e877549563ced8bfa10a8dd348b8ea68&language=en_US)}, Lewis Caroll
-    - {Collected Short Stories(https://www.amazon.com/Collected-Short-Stories-Mark-Twain-ebook/dp/B004LRP6P2/ref=as_li_ss_tl?keywords=collected+short+stories+mark+twain&qid=1563168422&s=gateway&sr=8-2&linkCode=ll1&tag=hundredrabbit-20&linkId=047601435972312fa4a017cd7ef02dc3&language=en_US)}, Mark Twain
-    - {Ecce Homo(https://www.amazon.com/Ecce-Homo-Becomes-Revised-Classics/dp/0140445153/ref=as_li_ss_tl?keywords=ecce+homo&qid=1563168461&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=50fc2feac4b2117133f4aeeb28c7056c&language=en_US)}, Friedrich Nietzshe
-    - {Flatland(https://www.amazon.com/Flatland-Romance-Dimensions-Thrift-Editions/dp/048627263X/ref=as_li_ss_tl?keywords=flatland&qid=1563168485&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=104baf5e3cc30e9a90b27353c1b3cc24&language=en_US)}, Edwin Abbott
-    - {Fourteen: A Daughter’s Memoir(https://www.amazon.com/Fourteen-Daughters-Adventure-Sailing-Survival-ebook/dp/B015GD90MY/ref=as_li_ss_tl?crid=8BXKPH1RA9DN&keywords=fourteen+a+daughters+memoir&qid=1563178162&s=gateway&sprefix=fourteen+a+,aps,371&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=1b7c25c13aa3cf76bab50b3bb3216809&language=en_US)}, Leslie Nack
-    - {How Not To Die({How not to die(https://www.amazon.com/How-Not-Die-Discover-Scientifically/dp/1250066115/ref=as_li_ss_tl?crid=2BQYC5K89ZW1Z&keywords=how+not+to+die&qid=1563178240&s=gateway&sprefix=how+not+to+die,aps,330&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=836e3395ac12bd29f86038f01e8bc6f7&language=en_US)}, Michael Greger
-    - {How To Be a Woman(https://www.amazon.com/How-Be-Woman-Caitlin-Moran/dp/0062124293/ref=as_li_ss_tl?keywords=how+to+be+a+woman&qid=1563178297&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=9d1802ce15ea3d5831b21e390a2b1fd9&language=en_US)}, Caitlin Moran
-    - {I hope I shall arrive soon(https://www.amazon.com/Hope-Shall-Arrive-Soon/dp/0312908385/ref=as_li_ss_tl?crid=1EJ3WHVHX3CQ2&keywords=i+hope+i+shall+arrive+soon&qid=1563178327&s=gateway&sprefix=i+hope+i+shall+ar,aps,333&sr=8-2&linkCode=ll1&tag=hundredrabbit-20&linkId=9cb6a9650f8521a87b15753492521595&language=en_US)}, Philip K. Dick
+    - {A Universal History of Infamy(https://amzn.to/2lvOTDx)}, Jorge Luis Borges
+    - {Alice's adventures in Wonderland(https://amzn.to/2lva1d2)}, Lewis Caroll
+    - {Collected Short Stories(https://amzn.to/2ltsGpB)}, Mark Twain
+    - {Ecce Homo(https://amzn.to/2lvOAbR)}, Friedrich Nietzshe
+    - {Flatland(https://amzn.to/2lu8OCO)}, Edwin Abbott
+    - {Fourteen: A Daughter’s Memoir(https://amzn.to/2l9kYke)}, Michael Greger
+    - {How To Be a Woman(https://amzn.to/2lvdxEh)}, Caitlin Moran
+    - {I hope I shall arrive soon(https://amzn.to/2lv8HqA)}, Philip K. Dick
     - In Praise of Darkness: Jorge Luis Borges
-    - {Incognito(https://www.amazon.com/Incognito-Secret-Lives-David-Eagleman/dp/0307389928/ref=as_li_ss_tl?crid=1YM2YAAFLP0GU&keywords=incognito+the+secret+lives+of+the+brain&qid=1563178389&s=gateway&sprefix=incognito+,aps,351&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=e69c61a89cdeef0be8a371b129962f25&language=en_US)}, David Eagleman
-    - {Kokoro(https://www.amazon.com/Kokoro-Natsume-Soseki/dp/0895267152/ref=as_li_ss_tl?crid=3H1DJ9FRSJ59U&keywords=kokoro+natsume+soseki&qid=1563178429&s=gateway&sprefix=kokoro,aps,978&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=402186ed4afb66870914248e328c0e26&language=en_US)}, Natsume Soseki 
-    - {La conquete du pain(https://www.amazon.com/Conqu%C3%AAte-du-Pain-French/dp/0988668564/ref=as_li_ss_tl?keywords=la+conquete+du+pain&qid=1563178458&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=a3d6fc726a0c458eaaf7cac2857ceb55&language=en_US)}, Pyotr Kropotkin
-    - {Letter to My Father(https://www.amazon.com/Letter-my-Father-Franz-Kafka-ebook/dp/B005AOAO1Q/ref=as_li_ss_tl?crid=38VXES35KS8IJ&keywords=letter+to+my+father&qid=1563178488&s=gateway&sprefix=letter+to+my+father,aps,350&sr=8-2&linkCode=ll1&tag=hundredrabbit-20&linkId=527852ad023a008351abd52a766f89b6&language=en_US)}, Franz Kafka
-    - {North to the night(https://www.amazon.com/gp/product/076790446X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=076790446X&linkCode=as2&tag=hundredrabbit-20&linkId=d5dce32f4a2b2c205739dbc8235a68df)}, Alvah Simon
+    - {Incognito(https://amzn.to/2lpmKOh)}, David Eagleman
+    - {Kokoro(https://amzn.to/2jWANup)}, Natsume Soseki 
+    - {La conquete du pain(https://amzn.to/2lpmEWV)}, Pyotr Kropotkin
+    - {Letter to My Father(https://amzn.to/2ltqQoH)}, Franz Kafka
+    - {North to the night(https://amzn.to/2jYTP3a)}, Alvah Simon
     - À nos amis: Comité invisible
-    - {Predictably Irrational(https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248/ref=as_li_ss_tl?crid=1PQ6RQHDWY8VU&keywords=predictably+irrational&qid=1563178563&s=gateway&sprefix=predic,aps,332&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=11b445d6dec0b3886ed9304418359ecb&language=en_US)}, Dan Ariely
-    - {Self Sufficient Sailor(https://www.amazon.com/gp/product/0964603675/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0964603675&linkCode=as2&tag=hundredrabbit-20&linkId=8afbef1bf14988f979b15292b6c347be)}, Lin and Larry Pardey
-    - {Storm tactics(https://www.amazon.com/Storm-Tactics-Handbook-Heaving-Conditions/dp/1929214472/ref=as_li_ss_tl?keywords=storm+tactics+pardey&qid=1563178619&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=51b1833772f776b4425ec0cd47a29681&language=en_US)}, Lin & Larry Pardey
-    - {Stiff(https://www.amazon.com/Stiff-Curious-Lives-Human-Cadavers/dp/0393324826/ref=as_li_ss_tl?crid=XQF3WN691WVS&keywords=stiff+mary+roach&qid=1563178654&s=gateway&sprefix=stiff+ma,aps,478&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=703dc04047214df4d51319cc7f317a5a&language=en_US)}, Mary Roach
-    - {The Alchemist(https://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005/ref=as_li_ss_tl?keywords=the+alchemist&qid=1563178687&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=0dfc31be9f573437b5d0607b0b504ce5&language=en_US)}, Paulo Coelho
-    - {The Aleph & Other Stories(https://www.amazon.com/Aleph-Other-Stories-Penguin-Classics/dp/0142437883/ref=as_li_ss_tl?crid=2T17CE4WLLYSG&keywords=the+aleph+and+other+stories&qid=1563178713&s=gateway&sprefix=the+aleph+and+ot,aps,369&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=9f6ac0b6370bdad7862d9b2a3720dbf8&language=en_US)}, Jorge Luis Borges
-    - {The Art of War(https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772/ref=as_li_ss_tl?keywords=the+art+of+war&qid=1563178735&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=a1628be9033987eea05a9e26f9a489e8&language=en_US)}, Sun Tzu
-    - {The China Study(https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1941631568/ref=as_li_ss_tl?crid=2782BLOZW7LDK&keywords=the+china+study&qid=1563178765&s=gateway&sprefix=the+china+st,aps,379&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=d83d874bebb5261f7e51aa2fe54b2f88&language=en_US)}, Colin Campbell
-    - {The Man in the High Castle(https://www.amazon.com/Man-High-Castle-Philip-Dick/dp/0544916085/ref=as_li_ss_tl?crid=3SWNCOUWUYZZK&keywords=the+man+in+the+high+castle&qid=1563178839&s=gateway&sprefix=the+man+in+the+high,aps,358&sr=8-7&linkCode=ll1&tag=hundredrabbit-20&linkId=9eed87647dbb5f1b5cc2775f0df76088&language=en_US)}, Philip K. Dick
-    - {The Metamorphosis and Other Stories(https://www.amazon.com/Metamorphosis-Franz-Kafka/dp/1557427666/ref=as_li_ss_tl?crid=20WE18OSQXPH6&keywords=the+metamorphosis+by+franz+kafka&qid=1563178876&s=gateway&sprefix=the+metamo,aps,394&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=5bfd9d0e2d264d456b146e98dac5e867&language=en_US)}, Franz Kafka
-    - {Travels in Hyperreality(https://www.amazon.com/Travels-Hyperreality-Harvest-Book-Umberto/dp/0156913216/ref=as_li_ss_tl?crid=S2DY56QIHWM6&keywords=travels+in+hyperreality+umberto+eco&qid=1563178906&s=gateway&sprefix=travels+in+hyper,aps,343&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=e2ab6f24205dc4817ce2d3cc50501e6a&language=en_US)}, Umberto Eco
-    - {Walden and Civil Disobedience(https://www.amazon.com/gp/product/0451532163/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0451532163&linkCode=as2&tag=hundredrabbit-20&linkId=6abadbb330ac3ee06484a7987dd938ce)}, Henry David Thoreau
+    - {Predictably Irrational(https://amzn.to/2lu6Q5o)}, Dan Ariely
+    - {Self Sufficient Sailor(https://amzn.to/2ltqi27)}, Lin and Larry Pardey
+    - {Storm tactics(https://amzn.to/2lvLrZB)}, Lin & Larry Pardey
+    - {Stiff(https://amzn.to/2lvckNf)}, Mary Roach
+    - {The Alchemist(https://amzn.to/2llAdGN)}, Paulo Coelho
+    - {The Aleph & Other Stories(https://amzn.to/2l8PpHi)}, Jorge Luis Borges
+    - {The Art of War(https://amzn.to/2jWC5pd)}, Sun Tzu
+    - {The China Study(https://amzn.to/2lv68EY)}, Colin Campbell
+    - {The Man in the High Castle(https://amzn.to/2jWAKyH)}, Philip K. Dick
+    - {The Metamorphosis and Other Stories(https://amzn.to/2lvJAE7)}, Franz Kafka
+    - {Travels in Hyperreality(https://amzn.to/2lv4FhW)}, Umberto Eco
+    - {Walden and Civil Disobedience(https://amzn.to/2jWxdAt)}, Henry David Thoreau
   Fiji to Majuro
     & Passage length: 24 days
-    - Animal Liberation: Peter Singer
-    - Ishmael: Daniel Quinn
-    - Don't sleep, there are snakes: Daniel L. Everett
-    - Godforsaken sea: Derek Lundy
-    - On Trails: Robert Moor
-    - Seraffyn's Oriental Adventure: Lin Pardey
-    - Aesop's fables: Aesop
-    - The sixth extinction: Elizabeth Kolbert
-    - The Tao of Pooh: Benjamin Hoff
-    - The Futurological Congress: Stanislaw Lem
-    - On Food And Cooking: Harold McGee
+    - {Animal Liberation(https://amzn.to/2lnee2g)}, Peter Singer
+    - {Ishmael(https://amzn.to/2lv2Hhz)}, Daniel Quinn
+    - {Don't sleep, there are snakes(https://amzn.to/2lthsRZ)}, Daniel L. Everett
+    - {Godforsaken sea(https://amzn.to/2k1pykf)}, Derek Lundy
+    - {On Trails(https://amzn.to/2k0SqsV)}, Robert Moor
+    - {Seraffyn's Oriental Adventure(https://amzn.to/2lv4pzv)}, Lin Pardey
+    - {Aesop's fables(https://amzn.to/2ltXqqy)}, Aesop
+    - {The sixth extinction(https://amzn.to/2lxukGV)}, Elizabeth Kolbert
+    - {The Tao of Pooh(https://amzn.to/2lahhe7)}, Benjamin Hoff
+    - {The Futurological Congress(https://amzn.to/2lkKumD)}, Stanislaw Lem
+    - {On Food And Cooking(https://amzn.to/2Y2GY1V)}, Harold McGee
   Majuro to Ogasawara
     & Passage length: 21 days
-    - The Japanese Art Of Decluttering: Marie Kondo
-    - Aesop's fables: Aesop
-    - The Definitive H.P Lovecraft: 67 tales of horror: H. P. Lovecraft
+    - {The Japanese Art Of Decluttering(https://amzn.to/2lv46ok)}, Marie Kondo
+    - {Aesop's fables(https://amzn.to/2ltXqqy)}, Aesop
+    - {The Definitive H.P Lovecraft: 67 tales of horror(https://amzn.to/2lv3ora)}, H. P. Lovecraft
     & Favorite stories: "Cool Air", "Herbert West Reanimator", "The Evil Clergyman" & "The Music oF Erich Zann". Every evening after dinner, I'd make readings aloud of each story.
-    - The Te of Piglet: Benjamin Hoff
+    - {The Te of Piglet(https://amzn.to/2lvIhVJ)}, Benjamin Hoff
   Pino's permanent collection
     & Above are readings we've done at sea, not all were our favourites but here is a list of the books we keep on Pino.
-    - {Le Città Invisibili(https://www.amazon.com/Invisible-Cities-Italo-Calvino/dp/0156453800/ref=as_li_ss_tl?keywords=Le+Citt%C3%A0+Invisibili&qid=1563179349&s=gateway&sr=8-2&linkCode=ll1&tag=hundredrabbit-20&linkId=27610ecff9b853c72ce706aadc6407db&language=en_US)}, Italo Calvino
-    - {Walden and Civil Disobedience(https://www.amazon.com/gp/product/0451532163/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0451532163&linkCode=as2&tag=hundredrabbit-20&linkId=6abadbb330ac3ee06484a7987dd938ce)}, Henry David Thoreau
-    - {North to the night(https://www.amazon.com/gp/product/076790446X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=076790446X&linkCode=as2&tag=hundredrabbit-20&linkId=d5dce32f4a2b2c205739dbc8235a68df)}, Alvah Simon
-    - Akira collection: Katsuhiro Otomo
-    - {Flatland(https://www.amazon.com/Flatland-Romance-Dimensions-Thrift-Editions/dp/048627263X/ref=as_li_ss_tl?keywords=flatland&qid=1563168485&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=104baf5e3cc30e9a90b27353c1b3cc24&language=en_US)}, Edwin Abbott
-    - {On Food And Cooking(https://www.amazon.com/Food-Cooking-Science-Lore-Kitchen/dp/0684800012/ref=as_li_ss_tl?crid=3409MWEJJOBUL&keywords=on+food+and+cooking&qid=1563179177&s=gateway&sprefix=on+food+and+cooking,aps,335&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=b83099206c1408e4d476af7dfebfb1dd&language=en_US)}, Harold McGee
-    - {Le Matin Des Magiciens(https://www.amazon.com/Matin-Magiciens-French-Jacques-Bergier/dp/2070361292/ref=as_li_ss_tl?keywords=Louis+Pauwels&qid=1563179142&s=gateway&sr=8-8&linkCode=ll1&tag=hundredrabbit-20&linkId=f2bf4a733b5b9a149c9227a10484953e&language=en_US)}, L. Pauwels & J. Bergier
-    - {Blumroch L'admirable(https://www.amazon.com/Blumroch-Admirable-Folio-English-French/dp/2070370623/ref=as_li_ss_tl?keywords=Louis+Pauwels+blumroch&qid=1563179117&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=25fcacba75782b402b5b70be77eb60e0&language=en_US)}, Louis Pauwels
-    - {Cyberiada(https://www.amazon.com/Cyberiad-Fables-Cybernetic-Penguin-Classics/dp/0141394595/ref=as_li_ss_tl?crid=2KEVVVMZIQZVZ&keywords=cyberiad+lem&qid=1563179037&s=gateway&sprefix=cyberiad,aps,343&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=0925b63a9d9a655fa990696b870aae83&language=en_US)}, Stanislaw Lem
-    - {Ishmael(https://www.amazon.com/Ishmael-Novel-Daniel-Quinn/dp/0553375407/ref=as_li_ss_tl?crid=4VM9CM719MF6&keywords=ishmael+daniel+quinn&qid=1563179009&s=gateway&sprefix=ishmael,aps,393&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=584a660da82a5c29b36f2263261f42d5&language=en_US)}, Daniel Quinn
-    - {Duck, death and the tulip(https://www.amazon.com/Duck-Death-Tulip-Wolf-Erlbruch/dp/1877467146/ref=as_li_ss_tl?keywords=death+the+duck+and+the+tulip&qid=1563178961&s=gateway&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=81fc3d458edd0027b3c3d02dce8ef6fc&language=en_US)}, Wolf Erlbruch
+    - {Le Città Invisibili(https://amzn.to/2lxxsm9)}, Italo Calvino
+    - {Walden and Civil Disobedience(https://amzn.to/2jWxdAt)}, Henry David Thoreau
+    - {North to the night(https://amzn.to/2lu273E)}, Alvah Simon
+    - {Akira collection(https://amzn.to/2lkS6pd)}, Katsuhiro Otomo
+    - {Flatland(https://amzn.to/2lxwJBr)}, Edwin Abbott
+    - {On Food And Cooking(https://amzn.to/2Y2GY1V)}, Harold McGee
+    - {Le Matin Des Magiciens(https://amzn.to/2lu12sC)}, L. Pauwels & J. Bergier
+    - {Blumroch L'admirable(https://amzn.to/2lv0JOc)}, Louis Pauwels
+    - {Cyberiada(https://amzn.to/2lvGPCL)}, Stanislaw Lem
+    - {Ishmael(https://amzn.to/2lv2Hhz)}, Daniel Quinn
+    - {Duck, death and the tulip(https://amzn.to/2jYvhYe)}, Wolf Erlbruch
+    - {How not to die(https://amzn.to/2lv0gvq)}, Michael Greger
 
 MISSION
   Open Source
@@ -209,10 +209,10 @@ COOKING
     & We eat a plants-based diet for {health, ethical and environmental reasons(https://en.wikiversity.org/wiki/Should_we_go_vegan%3F)}. 
     & Appropriately planned plant-based diets, are healthful, nutritionally adequate, and may provide health benefits in the prevention and treatment of certain diseases. 
   Resources
-    - {How not to die(https://www.amazon.com/How-Not-Die-Discover-Scientifically/dp/1250066115/ref=as_li_ss_tl?crid=2BQYC5K89ZW1Z&keywords=how+not+to+die&qid=1563178240&s=gateway&sprefix=how+not+to+die,aps,330&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=836e3395ac12bd29f86038f01e8bc6f7&language=en_US)} by Michael Greger
-    - {On Food And Cooking(https://www.amazon.com/Food-Cooking-Science-Lore-Kitchen/dp/0684800012/ref=as_li_ss_tl?crid=3409MWEJJOBUL&keywords=on+food+and+cooking&qid=1563179177&s=gateway&sprefix=on+food+and+cooking,aps,335&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=b83099206c1408e4d476af7dfebfb1dd&language=en_US)}, Harold McGee
+    - {How not to die(https://amzn.to/2lv0gvq)} by Michael Greger
+    - {On Food And Cooking(https://amzn.to/2Y2GY1V)}, Harold McGee
     - {Should we go vegan?(https://en.wikiversity.org/wiki/Should_we_go_vegan%3F)}
-    - {The China Study(https://www.amazon.com/China-Study-Comprehensive-Nutrition-Implications/dp/1941631568/ref=as_li_ss_tl?crid=2782BLOZW7LDK&keywords=the+china+study&qid=1563178765&s=gateway&sprefix=the+china+st,aps,379&sr=8-1&linkCode=ll1&tag=hundredrabbit-20&linkId=d83d874bebb5261f7e51aa2fe54b2f88&language=en_US)} by Colin Campbell
+    - {The China Study(https://amzn.to/2lv68EY)} by Colin Campbell
 
 SUPPORT
   A studio on a sailboat
