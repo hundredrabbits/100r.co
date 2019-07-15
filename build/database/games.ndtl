@@ -1,7 +1,14 @@
 MARKL
   What is Markl?
     % content/games/markl/main.jpg
-    & Markl is an upcoming game.
+    & Mark is an upcoming game, still in development. To progress through the world, you move with a limited set of steps and direction. As a player, you must figure out how to get to where you need to go with these limitations, and to acquire new 'moves' from the Power Givers.
+    & The game is meant to teach players basic programming logic. 
+  Production
+    & Markl is our second game collaboration. We started production of this game in 2016, around the same time we created Hundredrabbits. We had illusions of productivity in those first few months, with learning how to sail and adapting to off-grid living we found work/life difficult to balance. We put hours into the project every week, but when we left Canada to sail south to Mexico we found less and less time to work on it. The reason was simple, this project required connectivity and power — two things we had little of. Markl was not suited for our current situation, and so we put it on the backburner, we instead chose to work on smaller projects like {Thousandrooms(thousandrooms)} and {Left(left)}.
+    & Markl also proved to be very challenging, from a programming perspective. Devine is a self-taught programmer, and is learning all the time. Markl was a monster we weren't ready for.
+    & By the time we arrived in the South Pacific Islands, we needed to pay more attention to the tools we were working with. Tools like Photoshop and Xcode weren't well suited for off-grid low-power living — these, at the time, we needed to complete Markl. We had our eyes set on New Zealand then, thinking that this would be the ideal place to work on such a project, but again, life got in the way. Pino required a lot of repairs. We spent many months in a windowless home, exposed to the elements, making it difficult to focus. During this time, Rekka turned to projects like {Wiktopher(https://www.wiktopher.kokorobot.ca)}, and Devine to {Dotgrid(dotgrid)}. We also made the decision to distance ourselves from the Apple environment, abandoning xcode, requiring us to re-build the game, yet again, for the better. 
+    & On this voyage across the Pacific, we prioritized our tools rather than our creations because our situation required it. We think this process was very important, even if it greatly delayed the production and release of this project. Devine also acquired the skills to complete the game, while working on projects like {Orca(Orca)}.
+    & Markl will be released, we hope, sometime in 2020. 
   Screenshots
     % content/games/markl/markl.2.jpg
     % content/games/markl/markl.3.jpg
@@ -11,11 +18,20 @@ MARKL
 OQUONIE
   What is Oquonie?
     % content/games/oquonie/main.jpg
-    & Oquonie is an IGF nominated {*textless isometric puzzle game*}, released in February 2014 on iOS, Mac, Linux and PC. You must make your way through a seemingly endless succession of rooms; you will not be alone, your incarnations will have the help of bizaroid characters that speak an obscure language.
+    & Oquonie is a {*textless isometric puzzle game*}. 
+    & You must make your way through a seemingly endless succession of rooms. You will not be alone. Your incarnations will have the help of bizaroid characters that speak an obscure language.
   Trailer
     % youtube mepnp69qI64
   Download  
     % itchio 23183
+  Inspiration
+    & We made Oquonie while living in Japan. The game is a reflection of our experience navigating a new country, with language as a recurent obstacle. Oquonie is about being lost in a foreign space. 
+    & A big inspiration for this project was the short story "A town without streets" by Junji Ito, about a city of endless interconnecting houses and rooms, where privacy is non-existent. To preserve the little privacy they do have, the townspeople wear masks.
+  Production
+    & Oquonie was our first project collaboration. Back in 2013, we both had full-time jobs, working in studios in Tokyo. It was Devine's second time programming a full game — after {Hiversaires(hiversaires)} — and first time working with animated sprites. It was Rekka's first ever self-published game. We made progress on the game after work hours and on weekends, for a total duration of 6 months. 
+    & Oquonie was released on February 14th 2014 on iOS. We spent many more hours on the game after release, adding extra content and porting it to other platforms with the help of our collaborator and friend {Rez Mason(http://rezmason.net/projects.html)}. The game was nominated for an IGF award in 2015, for visual excellence.
+    & In 2018, the game was removed from the iOS store, with our certificate expiring after many months at sea in areas of no, or little connectivity. Shortly after that event, we decided to step away from publishing our game with Apple, in an attempt to stop promoting a company that profits from devices that are expensive, unrepairable and wasteful. Instead, the game was published exclusively on the Itch.io store, a publishing platform that is in line with our values — know that we did not take this decision lightly. 
+    & The game now runs on Linux, PC and Mac.
   Screenshots
     % content/games/oquonie/oquonie.2.jpg
     % content/games/oquonie/oquonie.3.jpg
@@ -26,12 +42,17 @@ OQUONIE
 DONSOL
   What is Donsol?
     % content/games/donsol/main.jpg
-    & Donsol is a {*dungeon crawler card game*} played with a standard 54 card deck. The game was released in april 2015 for Mac, Linux, PC and iOS.
+    & Donsol is a {*dungeon crawler card game*} played with a standard 54 card deck. 
     & Donsol is part of the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}, which means that you can apply a colour theme to any supported app at any time (Dotgrid, Donsol, Orca and Marabu).
   Trailer
     % youtube GNoZrr56GqA
   Download  
     % itchio 109936
+  Production 
+    & Donsol, short for "Dungeon Solitaire" was designed by John Eternal, during {train jam(http://trainjam.com/)} in 2015, it was later made into an iOS game with Devine. It was released on April 2015 on the appstore.
+    & The game was in turn ported to all desktop platforms. 
+    & In 2018, the game was removed from the iOS store, with our certificate expiring after many months at sea in areas of no, or little connectivity. Shortly after that event, we decided to step away from publishing our game with Apple, in an attempt to stop promoting a company that profits from devices that are expensive, unrepairable and wasteful. Instead, the game was published exclusively on the Itch.io store, a publishing platform that is in line with our values — know that we did not take this decision lightly. 
+    & We have plans to print a physical deck of the game, keep an eye out for the announcement.
   Screenshots
     % content/games/donsol/donsol.2.jpg
     % content/games/donsol/donsol.3.jpg
@@ -53,11 +74,19 @@ HIVERSAIRES
   What is Hiversaires?
     % content/games/hiversaires/main.jpg
     & Hiversaires is a {*point-and-click adventure game*}. Venture down entangled corridors, enter the dark world.  
-    & The was first released on April 3rd 2013, and was re-released for desktop on February 27th 2018. It's available to play on PC, Mac and Linux.
   Trailer
     % youtube X8fxC0s8J_8
   Download
     % itchio 225445
+  Inspiration
+    & The gameplay of Hiversaires is reminiscent of games like Myst, while the art draws inspiration from the manga Blame by Tsutomu Nihei.
+    & Like {Oquonie(oquonie)}, this game is about being lost in place that is alien, with no instructions, no dialog, and no words of any kind. 
+  Production
+    & Hiversaires was created while we lived in Japan. This was Devine's first game for iOS, with a production time of only 2 months as to not gamble too much, since it was an experiment. It was also Devine's first commercial release, as all the previous games and prototypes were available for free. 
+    & Devine was in-between jobs at the time. The game was put together in xcode, with the visuals being 2d hand-drawn textures applied to a 3D space.  
+    & Hiversaires was released on April 3rd 2013 on iOs, it was later ported to Android. 
+    & The game was taken off the Android store, due to piracy, it was also taken down from the iOS store in 2016 because were too short-handed, unable to keep up with bug reports due to ever-changing devices. We were just getting into sailboat life at the time, we had little connectivity, and doing the sizable updates required to have a functionning xcode was impossible.
+    & On February 27th 2018, Hiversaires was re-released on all desktop platforms (on itch.io), with the help of our friend and collaborator {Rez Mason(http://rezmason.net/projects.html)}. We decided to not publish games on platform like iOS anymore, in an attempt to stop promoting a company that profits from devices that are expensive, unrepairable and wasteful. Instead, the game was published exclusively on the Itch.io store, a publishing platform that is in line with our values — know that we did not take this decision lightly. 
   Screenshots
     % content/games/hiversaires/hiversaires.2.jpg
     % content/games/hiversaires/hiversaires.3.jpg
