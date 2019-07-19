@@ -89,14 +89,12 @@ function Page (id, table, database, parent) {
   <meta name="author" content="Devine Lu Linvega, Rekka Bellum">
   <meta name='description' content='${_description()}'/>
   <meta name='keywords' content='${_keywords()}' />
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <title>Hundred Rabbits — ${this.id.toCapitalCase()}</title>
-
   <link rel="alternate"  type="application/rss+xml" title="Feed" href="../links/rss.xml" />
   <link rel="stylesheet" type="text/css" href="../links/reset.css"/>
   <link rel="stylesheet" type="text/css" href="../links/fonts.css"/>
   <link rel="stylesheet" type="text/css" href="../links/main.css"/>
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53987113-3"></script>
   <script>
@@ -105,7 +103,6 @@ function Page (id, table, database, parent) {
     gtag('js', new Date());
     gtag('config', 'UA-53987113-3');
   </script>
-
 </head>
 <body>
   <div id='wrapper'>
