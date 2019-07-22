@@ -1,4 +1,41 @@
 
+Tools ecosystem
+  SETTINGS
+    Location : Mie, Japan. 
+    Date : 2019-07-22
+  Our tools
+    % blog/ecosystem_2.jpg
+    & How did the Hundredrabbits ecosystem come into being? It's a long story, but here's a summary.
+  What is the Hundredrabbits tools ecosystem?
+    & It is the set of tools that we've made, and that we use on a daily basis to do art, music and writing.
+    - {ORCA(#orca)}, an experimental livecoding environment.  
+    - {Dotgrid(#dotgrid)}, a simple vector line tool   
+    - {Left(#left)}, a simple minimalist text editor.    
+    - Ronin, a graphic design terminal
+  A story of repeated failures.
+    & In 2016, we left Canada with our iPhones, MacBooks, Photoshops, Xcodes etc. We didn't know what to expect, many of the things that work on land — we learnt — do not apply to sailboat/off-grid living.
+    & As weeks and months passed, we experienced frequent failures with our devices and apps. In Mexico, My (Rekka) Macbook had logic board issues. We had few options for repair, and we couldn't afford to replace it. We carried a Chromebook aboard Pino, a laptop we bought to use as a media station. Since we were a laptop short, Devine decided to try and use the {Chromebook for OS development(https://www.youtube.com/watch?v=FAmGmuUEhww)}. During this transition, the first version of Ronin came into being. I didn't have Photoshop to work with, and for a while we wondered if we could fashion a replacement for it ourselves. Can't be that hard, we thought. As it turns out, it is quite tricky. While the early version of Ronin was functional, it could not serve as a replacement for Photoshop, not yet. 
+    % blog/ecosystem_5.jpg
+    & A charitable soul heard about our problems and sent me an old disused 17" Macbook. I could use in the meantime, while we worked at improving Ronin. This new setup worked for a while, but then the battery stopped holding its charge (had to be plugged in at all times) and our house batteries and solar couldn't keep up with it. I could only use it when the sun was highest in the sky, for short periods of time. It proved to be impractical.
+    & Devine couldn't run X code, because of the size of the updates (our limited bandwidth couldn't handle it). This software, along with Photoshop, were incredible power-suckers.
+    & While in Nuku Hiva, Devine often went to sit at an outdoor cafe, a place with bananas hanging from the ceiling, the air thick with flies and the floor covered in sleeping hounds. On a hot and sunny day at the cafe, sitting across the table was Herbert. 
+    % blog/ecosystem_6.jpg
+    & Herbert, sweat at his brow, glared at the screen of his laptop. Little did they know, that they shared a problem. Herbert was a developer/sailor too, agonizing, struggling to download X Code updates. The cafe had a slow connection, made worse when the tourists piled out of the cruise ship to Skype to their families. Both bonded over this struggle, which persisted throughout the South Pacific.
+    & This was one of many realizations...
+    & One night in Tahiti, we were sitting on deck, watching the Island of Moorea in the distance. We talked about expectations & reality, and began to make a list of things we wish we'd done differently. I wasn't working very much, due to my laptop's faulty battery, but this wasn't all bad... it allowed for more swimming, and to dive back into former interests, like writing. I began to write more during that time, using the Chromebook because it was low-power. The Chromebook only had Caret as a writing tool, and Devine wasn't having it. "That's no good, I'll make you a simple tool you can use to write with." The next day, Devine was hard at work making a minimalist writing tool for me. This is how {Left(#left)} came into being, out of necessity.
+    & This is what sparked this need to create our own everything, our situation required it, but also, we enjoyed these limitations. We began talking about our vision of the future, about what working on Pino could be like if we could lessen our dependence on software and hardware we couldn't fix ourselves. This opened up new possibilities for us.
+    & As we pushed further and further west with Pino, we accumulated both miles and problems. 
+    % blog/ecosystem_1.jpg
+    & Another downside we discovered, that re-enforced our desire to make our own everything, was that many tools and operating software need to call home eventually. It isn't uncommon for an iPhone to lock up, due to a prolonged period of no-internet. Many sailors we met also had that same problem. It's dangerous. Especially considering that many, like us, navigate using their phones. It's how we get our weather, and communicate with others (we can view messages and weather downloaded with the SAT phone via an app on our cellphones).
+    & We wanted more control.
+  The solution.
+    & We had to adapt, to change our workflow. One big decision, was to scale our projects to the amount of energy we had available on the boat. This translates to shorter work hours and smaller projects ({books(#thousandrooms)}, music etc).
+    & We also thought it necessary to make our own tools. Tools that work offline, that use little power and that are good at doing one thing (not bloated).
+    & Another important detail, is that we wanted them to be {*open-source*}, so that if something breaks, we can easily fix it. If someone else has an issue, they can also fix the tool themselves.
+    & In an ideal world, we'd also have devices of our own design which follow these same rules. We are thinking about this a lot, but this requires more resources and planning. This is an insight of what we have planned for the future!
+    % blog/ecosystem_4.jpg
+  What's next?
+    & Ronin, our graphic design terminal, is almost ready for release, we'll announce it here once it's out. In the meantime, enjoy this concept of these rabbit-like characters that Rekka designed to personify each tool! You'll be seeing a lot more of these guys around~
 
 Hello Fujisan
   SETTINGS
