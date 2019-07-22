@@ -37,7 +37,7 @@ function Page (id, table, database, parent) {
   }
 
   function _jump (table) {
-    return Object.keys(table).length >= 6 && parent ? `<ul class='jump'>${Object.keys(table).reduce((acc, key, val) => { return `${acc}<li><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n` }, '')}</ul>\n` : ''
+    return Object.keys(table).length >= 6 && parent ? `<ul class='jump'>${Object.keys(table).reduce((acc, key, val) => { return key !== 'SETTINGS' ? `${acc}<li><a href='#${key.toUrl()}'>${key.toCapitalCase()}</a></li>\n` : acc }, '')}</ul>\n` : ''
   }
 
   function _template (acc, key) {
