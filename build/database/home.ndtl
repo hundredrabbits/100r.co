@@ -10,12 +10,13 @@ ABOUT US
   Our path
     & Since then, we have left Canada and have sailed down the American West Coast and over to Mexico. After that, we made the big jump across the pacific to French Polynesia, and crossed the wondrous south pacific islands over to New Zealand. We have since left the lower latitudes and sailed up to Fiji, the Marshall Islands and then over to Japan (where we are now). We planning on staying here for a little while, experiencing Japan by sea! We share our experience in the form of monthly videos, creating art, tools, books and games.
   Lifestyle experiment
-    & We learned many things while traveling, namely, the necessity to reduce our power consumption and the value of simple and repairable hardware. This has led us to change how we work: 
-    & 1. We make our own tools. We decided to make our own apps, that consume less power/memory and that suit our exact needs (Left, Dotgrid, Orca etc).
-    & 2. We size projects per location. If we are somewhere off-grid, with little internet, we will work on projects that are smaller. For example, we may choose to make a book instead of a game.
-    & 3. We work on low-power, repairable hardware. We work on computers for a living, but running two power-hungry macbooks full-time on an off-grid system doesn't work. In response to this, we now use {raspberry Pi(raspberry)} computers for writing and for development. They are easy to repair, cheap (good for redundancy) and draw little power.
+    & We learned many things while traveling, namely, the necessity to reduce our power consumption and the value of simple and easy to repair hardware. This has led us to change how we work: 
+    & 1. We make our own tools. We decided to make our own apps, that consume less power/memory and that suit our exact needs ({Left(#left)}, {Dotgrid(#dotgrid)}, {Orca(#orca)} etc).
+    & 2. We size projects per location. If we are somewhere off-grid, with little internet, we will work on projects that are smaller. For example, we may choose to make a {book(#books)} instead of a game.
+    & 3. We work on low-power, easy to repair hardware. We work on computers for a living, but running two power-hungry macbooks full-time on an off-grid system doesn't work. In response to this, we now use {raspberry Pi(raspberry)} computers for writing and for development. They are easy to repair, cheap (good for redundancy) and draw little power.
   Goal
-    & Our {goal(mission)} is to keep moving, while continuing to work on {cool stuff(http://hundredrabbits.itch.io/)}. We document our travels as we go, our aim is to learn as much as we can about {(sailing)}, the world and {offgrid living(off the grid)}. We want to create of high-quality free content, and to make it available to those who could otherwise not afford it. 
+    & Our goal is to keep moving, while continuing to work on {cool stuff(http://hundredrabbits.itch.io/)}. We document our travels as we go, our aim is to learn as much as we can about {(sailing)}, the world and {offgrid living(off the grid)}. We want to create of high-quality free content, and to make it available to those who could otherwise not afford it. 
+    & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
   Follow us
     - Subscribe to our blog RSS Feed {here(http://100r.co/links/rss.xml)}.
     - Follow us on Twitter {hundredrabbits(http://twitter.com/hundredrabbits)}
@@ -107,6 +108,11 @@ MISSION
     & {Dotgrid(http://hundredrabbits.itch.io/Dotgrid)}, like {Left(http://hundredrabbits.itch.io/Left)}, was originally created to be used internally, but has now grown into something used by thousands of creators. The development of the application was done following the {Bazaar Model(http://wiki.xxiivv.com/the+bazaar+model)}, as opposed to the {Cathedral Model(http://wiki.xxiivv.com/the+cathedral+model)}, in which the source code is developed over the Internet in view of the public. It allowed for a {conversation(https://github.com/hundredrabbits/Dotgrid/pulls?q=is%3Aclosed)} to occur between us and other Dotgrid users, seeing how differently each person used the tool revealed new directions toward which we could grow the software, and in return, new ways for us to use it as well.
     & Through these exchanges, we've encountered amazing people who've made projects possible, which would not have existed otherwise, and these people have grown into friends and collaborators. 
     & Our intermitent internet connection makes for unpredictable release patterns, and spotty technical support, but allowing users to fix their issues while we are away, encouraged people to learn, and to help each other, find solutions, and submit revisions for everyone to enjoy. 
+  Energy usage
+    & We create lightweight tools in an attempt at reducing our broader environmental impact.
+    & The energy required to power tools like X code and Photoshop keeps growing, and the updates are large and incessant — Photoshop has stopped adding worthwhile content since CS6. Heavier software increase energy usage and shorten the lifetime of computers, since they require more powerful machines to use them. Greenhouse emissions in production are high. This worrying, because an estimated 130,000 computers ends up in the garbage annually. 
+    & All of our tools work offline and operate on low-power devices. We can keep creating content when off-grid, when our power and connectivity is limited. 
+    & We developed these tools out of necessity, because {our situation required it(#tools ecosystem)}. 
 
 PINO
   A house with wings
