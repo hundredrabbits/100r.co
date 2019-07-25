@@ -38,6 +38,7 @@ body #wrapper #core h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue"
 body #wrapper #core img { max-width: 100%; margin-bottom: 30px; border-radius: 2px; display: block; }
 body #wrapper #core img.auto { max-width: 50%;  }
 body #wrapper #core img.small { max-height: 150px  }
+body #wrapper #core img.medium { max-height: 300px  }
 body #wrapper #core p { line-height: 30px;font-size: 20px;max-width: 600px }
 body #wrapper #core p a { text-decoration: underline; }
 body #wrapper #core p a:hover { text-decoration: none; background:white; color:black; }

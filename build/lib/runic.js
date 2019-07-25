@@ -69,6 +69,10 @@ function runic (lines = [], templater = null, host = null) {
     return `<div class='capsule'><a href='${parts[3]}' target='_blank'/><img src='../media/content/videos/${parts[0].trim().toUrl()}.jpg'/></a><h1><a href='${parts[3]}' target='_blank'/>${parts[1]}</a></h1><h2>${parts[2]}</h2></div>`
   }
 
+    function _mascots (parts) {
+    return `<div class='mascots'><img src='../media/content/characters/${parts[0].trim().toUrl()}.png'/></div>`
+  }
+
   function table (content) {
     return `<td>${content.trim().replace(/ \| /g, '</td><td>')}</td>`
   }

@@ -1,10 +1,14 @@
 RONIN
   A design graphic tool
-    % content/tools/ronin/main.png
+    % content/tools/ronin/main.jpg
     & {Ronin(https://hundredrabbits.itch.io/ronin)} is an image processing tool.
     & The application interprets a dialect of {LISP(https://en.wikipedia.org/wiki/Lisp_(programming_language))} to automate simple graphical tasks, like resizing, cropping, coloring, and generating procedural imagery. You can look at these {example files(https://github.com/hundredrabbits/Ronin/tree/master/examples)} to better understand how this all works.
+    & The {first version of Ronin(https://youtu.be/xn5096EsYD4?t=57)} was produced in Ensenada, Mexico in 2016 after {Rekka's Macbook died(https://100r.co/pages/tools_ecosystem.html#a_story_of_repeated_failures)}. It was re-released later in 2019 in Japan.
   Sustainability
     & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
+  Ronin
+    % content/characters/ronin.idle.png medium
+    & Ronin, reimagined as a creature. 
   Download
     % itchio 194632
   Tutorial
@@ -17,10 +21,13 @@ RONIN
 LEFT
   A minimalist text editor
     % content/tools/left/main.jpg
-    & {Left(https://hundredrabbits.itch.io/Left)} is a distractionless writing tool with auto-complete, synonyms, writing statistics, markup navigation and a speed-reader.
-    & The application is {*free*} (donations welcome) and {*Open Source*}, its original purpose was to help {Rekka(https://kokorobot.ca)} with the writing of the upcoming novel {Wiktopher(https://wiktopher.kokorobot.ca)}.
+    & {Left(https://hundredrabbits.itch.io/Left)} is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents. It features an auto-complete, synonyms suggestions, writing statistics, markup-based navigation and a speed-reader.
+    & The application was initially created to help Rekka with the writing of the upcoming novel {Wiktopher(https://wiktopher.kokorobot.ca)}, and later made available as a free and open source software. It was produced during our stay in {French Polynesia(https://www.youtube.com/watch?v=n-vJEu_uL8Y&feature=youtu.be)} in 2017.
   Sustainability
     & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
+  Left
+    % content/characters/left.idle.png medium
+    & Left, reimagined as a creature. 
   Download
     % itchio 173127
   Trailer
@@ -92,10 +99,13 @@ LEFT
 DOTGRID
   Introduction
     % content/tools/dotgrid/main.jpg
-    & Dotgrid is a distractionless vector tool with line styles, corner controls, colours, grid-based tools, PNG and SVG export. Dotgrid supports the full SVG specs, and includes additional effects such as mirroring and radial drawing.
-    & The application is {*free & Open Source*}, and available online to be used within your browser, on your Raspberry Pi, or on your mobile device. 
+    & Dotgrid is a grid-based vector drawing software designed to create logos, icons and type. It supports layers, the full SVG specs and additional effects such as mirroring and radial drawing. Dotgrid exports to both PNG and SVG files.
+    & The application was initially created for internal use, and later made available as a free and open source software. It was developed while in Tonga and in New Zealand in 2017.
   Sustainability
     & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
+  Dotgrid
+    % content/characters/dotgrid.idle.png medium
+    & Dotgrid, reimagined as a creature. 
   Download
     % itchio 190851
   Trailer
@@ -194,10 +204,14 @@ DOTGRID
 ORCA
   Introduction
     % content/tools/orca/orca.4.jpg
-    & {*ORCA*} is an open-source visual programming language, designed to create procedural sequencers on the fly, and control other applications.
-    & ORCA is not a synthesizer, but a livecoding environment to write generative tools able to send MIDI, OSC or UDP data to DAWs (like Ableton, Renoise, VCV Rack, etc.), or an audio server such as SuperCollider. You can also use {*Pilot(https://github.com/hundredrabbits/Pilot)*}, a companion application to ORCA. 
+    & {Orca(https://hundredrabbits.itch.io/orca)} is an esoteric programming language, designed to create procedural sequencers in which each letter of the alphabet is an operation, where lowercase letters operate on bang, uppercase letters operate each frame.
+    & The application is not a synthesizer, but a flexible livecoding environment capable of sending MIDI, OSC & UDP to your audio interface, like Ableton, Renoise, VCV Rack or SuperCollider. You can also use {*Pilot(https://github.com/hundredrabbits/Pilot)*}, a companion application to ORCA. 
+    & Marabu, Orca's predecessor was created while in French Polynesia in 2017. Orca came into being in 2018-2019, its production spanning over 3 countries: Fiji, The Marshall Islands and Japan. 
   Sustainability
     & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
+  Orca
+    % content/characters/orca.idle.png medium
+    & Orca, reimagined as a creature. 
   Download
     & You can view the {sources(https://github.com/hundredrabbits/Orca)}, or {download builds(http://hundredrabbits.itch.io/Orca)} for OSX, Windows and Linux here: 
     % itchio 225814
