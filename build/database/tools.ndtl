@@ -5,7 +5,7 @@ RONIN
     & The application interprets a dialect of {LISP(https://en.wikipedia.org/wiki/Lisp_(programming_language))} to automate simple graphical tasks, like resizing, cropping, coloring, and generating procedural imagery. You can look at these {example files(https://github.com/hundredrabbits/Ronin/tree/master/examples)} to better understand how this all works.
     & The {first version of Ronin(https://youtu.be/xn5096EsYD4?t=57)} was produced in Ensenada, Mexico in 2016 after {Rekka's Macbook died(https://100r.co/pages/tools_ecosystem.html#a_story_of_repeated_failures)}. It was re-released later in 2019 in Japan.
   Sustainability
-    & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
+    & We create our own tools, built light to reduce our energy use, also to lessen our dependence on closed-source applications we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
   Ronin
     % content/characters/ronin.idle.png medium
     & Ronin, reimagined as a creature. 
@@ -16,8 +16,8 @@ RONIN
   Tutorial
     & Watch the video above or {follow the online workshop(https://github.com/hundredrabbits/Ronin/blob/master/WORKSHOP.md)}.
   Visual
-    & You can change the look and colour of Left. To do this, {download(https://hundredrabbits.itch.io/left)} themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Left. The colours will change instantly. 
-    & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app (Dotgrid, Donsol, Orca and Left).
+    & You can change the look and colour of Ronin. To do this, {download(https://hundredrabbits.itch.io/left)} themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Ronin. The colours will change instantly. 
+    & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app ({Dotgrid(#dotgrid)}, {Donsol(#donsol)}, {Orca(#orca)} and {Left(#left)}).
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
 
 LEFT
@@ -26,7 +26,7 @@ LEFT
     & {Left(https://hundredrabbits.itch.io/Left)} is distractionless plaintext editor designed to quickly navigate between segments of an essay, or multiple documents. It features an auto-complete, synonyms suggestions, writing statistics, markup-based navigation and a speed-reader.
     & The application was initially created to help Rekka with the writing of the upcoming novel {Wiktopher(https://wiktopher.kokorobot.ca)}, and later made available as a free and open source software. It was produced during our stay in {French Polynesia(https://www.youtube.com/watch?v=n-vJEu_uL8Y&feature=youtu.be)} in 2017.
   Sustainability
-    & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
+    & We create our own tools, built light to reduce our energy use, also to lessen our dependence on closed-source applications we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}.
   Left
     % content/characters/left.idle.png medium
     & Left, reimagined as a creature. 
@@ -104,7 +104,7 @@ DOTGRID
     & Dotgrid is a grid-based vector drawing software designed to create logos, icons and type. It supports layers, the full SVG specs and additional effects such as mirroring and radial drawing. Dotgrid exports to both PNG and SVG files.
     & The application was initially created for internal use, and later made available as a free and open source software. It was developed while in Tonga and in New Zealand in 2017.
   Sustainability
-    & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
+    & We create our own tools, built light to reduce our energy use, also to lessen our dependence on closed-source applications we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}.
   Dotgrid
     % content/characters/dotgrid.idle.png medium
     & Dotgrid, reimagined as a creature. 
@@ -165,7 +165,7 @@ DOTGRID
   Visual
     % content/tools/dotgrid/dotgrid.second.jpg
     & You can change the look and colour of Dotgrid. To do this, {download(https://hundredrabbits.itch.io/dotgrid)} themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Dotgrid. The colours will change instantly. 
-    & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app (Left, Donsol, Orca and Ronin).
+    & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app ({Left(#left)}, {Donsol(#dotgrid)}, {Orca(#orca)} and {Ronin(#ronin)}).
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
   Shortcut Quick List
     & Stroke types
@@ -210,7 +210,7 @@ ORCA
     & The application is not a synthesizer, but a flexible livecoding environment capable of sending MIDI, OSC & UDP to your audio interface, like Ableton, Renoise, VCV Rack or SuperCollider. You can also use {*Pilot(https://github.com/hundredrabbits/Pilot)*}, a companion application to ORCA. 
     & Marabu, Orca's predecessor was created while in French Polynesia in 2017. Orca came into being in 2018-2019, its production spanning over 3 countries: Fiji, The Marshall Islands and Japan. 
   Sustainability
-    & We create our own apps to reduce our energy use, also to lessen our dependence on softwares and apps we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}. 
+    & We create our own tools, built light to reduce our energy use, also to lessen our dependence on closed-source applications we can't repair ourselves. To read more about our design philosophy, read our {mission statement(#mission)}.
   Orca
     % content/characters/orca.idle.png medium
     & Orca, reimagined as a creature. 
@@ -238,7 +238,7 @@ ORCA
   Visual
     & You can change the look and colour of Orca. 
     & To do this, {download(https://hundredrabbits.itch.io/orca)} themes. You can view the colour palettes of each theme in the preview, once you find something you like, {*drag the file*}(.svg file) onto Orca. The colours will change instantly. 
-    & These themes are part of the {*Ecosystem Theme*}, which means that you can apply a theme to any supported app (Left, Donsol, Dotgrid and Ronin).
+    & These themes are part of the {*Ecosystem Theme*}, which means that you can apply a theme to any supported app ({Left(#left)}, {Donsol(#donsol)}, {Dotgrid(#dotgrid)} and {Ronin(#ronin)}).
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
   Extras
     & This application supports the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}. See the {License(https://github.com/hundredrabbits/Orca/blob/master/LICENSE.md)} file for license rights and limitations (MIT). {Pull Requests(https://github.com/hundredrabbits/Orca)} are welcome!
