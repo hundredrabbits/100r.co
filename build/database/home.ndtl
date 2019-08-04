@@ -5,11 +5,14 @@ ABOUT US
     & Rekka is an illustrator, writer, admirer of seabirds and purveyor of fungi. Devine is a programmer, artist and musician, a tireless creative, pasta monarch, and fervent believer in {open-source content(mission)}. Together, we created {*HundredRabbits*}, our studio on the water. 
   Why a boat?
     & In January 2016, we left the cold of Montreal and moved west to British Columbia, there, we purchased our sailboat <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>. Keep in mind, we were a pair of city kids with limited outdoor experience, and neither of us had ever stepped onto a sailboat before.
-    & So {why a sailboat(Buying a sailboat)}? In 2012 we moved to Japan, there, we worked on our first games {Hiversaires(https://hundredrabbits.itch.io/hiversaires)} and {Oquonie(http://oquonie.100r.co)} (the latter was completed in Thailand). 
+    & So {why a sailboat(Buying a sailboat)}? 
+    % content/profile.pino.2.jpg
+    & In 2012 we moved to Japan, there, we worked on our first games {Hiversaires(https://hundredrabbits.itch.io/hiversaires)} and {Oquonie(http://oquonie.100r.co)} (the latter was completed in Thailand). 
     & We love how those travel experiences impacted our projects. After we returned to Canada, we decided that traveling best fueled our work and so we looked at our options. Moving to a new country means selling all you have, we have done this countless times (and are tired of it). We had heard of people living on sailboats like SY <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>Lizzy Belle</a> (David Wellsford), SY <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Daphne</a> (Terese Carey) and SY <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Karl</a> (Nike Steiger), and became obssessed with the idea. Lack of experience aside, we thought that being in a mobile studio would help us accomplish our desire to travel while having a stable home.
   Our path
     & Since then, we have left Canada and have sailed down the American West Coast and over to Mexico. After that, we made the big jump across the pacific to French Polynesia, and crossed the wondrous south pacific islands over to New Zealand. We have since left the lower latitudes and sailed up to Fiji, the Marshall Islands and then over to Japan (where we are now). We planning on staying here for a little while, experiencing Japan by sea! We share our experience in the form of monthly videos, creating art, tools, books and games.
   Lifestyle experiment
+    % content/profile.pino.jpg
     & We learned many things while traveling, namely, the necessity to reduce our power consumption and the value of simple and easy to repair hardware. This has led us to change how we work: 
     & 1. We make our own tools. We decided to make our own apps, that consume less power/memory and that suit our exact needs ({Left(#left)}, {Dotgrid(#dotgrid)}, {Orca(#orca)} etc).
     & 2. We size projects per location. If we are somewhere off-grid, with little internet, we will work on projects that are smaller. For example, we may choose to make a {book(#books)} instead of a game.
@@ -232,7 +235,7 @@ SUPPORT
     - Sponsor us on {Patreon(https://patreon.com/100)}.
     - Watch our {Videos(https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A)}.
     - Make a donation with {Paypal(https://www.paypal.com/donate/?token=W0D--M64CSzX2IvNBojjYz2ODKn4RzRL4BY5VdzPSiI33nO9rJnfb0DZ3oqrSOlrgaryHW&country.x=CA&locale.x=CA)}.
-    % content/at.work.jpg
+    % content/sailboat.studio.1.jpg
     & All the money we get is re-invested back into the Hundredrabbits projects. With your support we can also pay for internet and for the inevitable — and incessant — upkeep of our devices (which often break at sea, and from continued use).
     & Thank you so much!<br/><b>Rekka & Devine</b>
 
