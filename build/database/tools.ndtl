@@ -19,6 +19,8 @@ RONIN
     & You can change the look and colour of Ronin. To do this, {download(https://hundredrabbits.itch.io/left)} themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Ronin. The colours will change instantly. 
     & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app ({Dotgrid(#dotgrid)}, {Donsol(#donsol)}, {Orca(#orca)} and {Left(#left)}).
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
 
 LEFT
   A minimalist text editor
@@ -97,6 +99,8 @@ LEFT
     - Decrease font using <b>⌘ -</b>
     - Increase font using <b>⌘ +</b>
     & This application supports the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}. See the {License(https://github.com/hundredrabbits/Left/blob/master/LICENSE.md)} file for license rights and limitations (MIT). {Pull Requests(https://github.com/hundredrabbits/Left)} are welcome!
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
 
 DOTGRID
   Introduction
@@ -202,6 +206,8 @@ DOTGRID
     - Export <b>⌘ e</b>
     - Render <b>⌘ r</b>
     & This application supports the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}. See the {License(https://github.com/hundredrabbits/Dotgrid/blob/master/LICENSE.md)} file for license rights and limitations (MIT). {Pull Requests(https://github.com/hundredrabbits/Dotgrid)} are welcome!
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
 
 ORCA
   Introduction
@@ -242,3 +248,5 @@ ORCA
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
   Extras
     & This application supports the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}. See the {License(https://github.com/hundredrabbits/Orca/blob/master/LICENSE.md)} file for license rights and limitations (MIT). {Pull Requests(https://github.com/hundredrabbits/Orca)} are welcome!
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>

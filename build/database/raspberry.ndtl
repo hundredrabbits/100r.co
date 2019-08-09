@@ -31,6 +31,9 @@ RASPBERRY PI
     & {*Gadget Mode(USB)*}
     # dtoverlay=dwc2 <comment># Append in config.txt</comment>
     # modules-load=dwc2,g_ether <comment># Append in cmdline.txt, or after rootwait</comment>
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
+
 
 THE AD BLOCKER
   Introduction
@@ -44,6 +47,9 @@ THE AD BLOCKER
     # crontab -e
     & Add the following line:
     # */30 * * * * python /home/pi/inky-hole/main.py
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
+
 
 THE MEDIA STATION
   Introduction
@@ -59,6 +65,9 @@ THE MEDIA STATION
     - Samsung EVO+ 16GB SD Card
   LINK
     - {OSMC(http://osmc.tv)}
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
+
 
 THE GAME STATION
   Introduction
@@ -71,6 +80,9 @@ THE GAME STATION
     - Samsung EVO+ 16GB SD Card
   LINK
     - {Retropie(http://retropie.org.uk)}
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
+
 
 THE RADIO
   Introduction
@@ -88,6 +100,9 @@ THE RADIO
   Installation
     & The full guide is {here(https://learn.pimoroni.com/tutorial/sandyj/streaming-airplay-to-your-pi)}.
     # curl -sS get.pimoroni.com/airdac | bash
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
+
 
 THE PIANO
   Introduction
@@ -112,6 +127,9 @@ THE PIANO
     - {Pimoroni's Guide(https://learn.pimoroni.com/tutorial/piano-hat/getting-started-with-piano-hat)}
     - {Framboisedorf(https://github.com/neauoire/Framboisedorf)}
     - {PianoHat(https://github.com/pimoroni/Piano-HAT)}
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
+
 
 THE COMPUTER
   Introduction
@@ -126,4 +144,7 @@ THE COMPUTER
     - Anker Fast Charge USB Cable
   Links
     - {Softwares(https://github.com/hundredrabbits/computer.local)}
+    & If you enjoy our content...
+    > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
+
 
