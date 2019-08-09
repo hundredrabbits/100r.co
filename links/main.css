@@ -56,6 +56,8 @@ body #wrapper #core input { display: inline-block; font-family: "alte_haas_grote
 body #wrapper #core div.quote { color:#999; padding-left: 30px; border-left:2px solid white; }
 body #wrapper #core p.text { margin-bottom:15px; color:white; }
 body #wrapper #core p.attrib { font-size:14px; color:#999; }
+body #wrapper #core a.patreon_button { background: #e85b46;font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;color: white;padding:10px 15px; line-height: 30px;border-radius: 30px;font-size:18px; }
+body #wrapper #core a.patreon_button:hover { background:#555; cursor: pointer; }
 
 body #wrapper #core div.capsule { height:120px;overflow: hidden ;border-radius: 3px;border:2px solid white; position: relative; }
 body #wrapper #core div.capsule img { height: 100%;border-radius: 0px; float:left; margin-right:30px; }
@@ -81,6 +83,7 @@ body #wrapper #footer p { margin-bottom: 30px; font-family: "alte_haas_grotesk_b
 body #wrapper #footer form { border:2px solid white;display: inline-block;padding:3px;border-radius: 30px;}
 body #wrapper #footer form input.email { background:transparent; padding-left:5px; margin-left:10px; }
 body #wrapper #footer form input.button { background: white;font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial;color: black;padding:0px 15px;line-height: 30px;border-radius: 30px;font-size:14px; }
+body #wrapper #footer form input.button:hover { background:#555; cursor: pointer; }
 
 @media (max-width: 900px) {
   body #wrapper #core { margin-left:30px; max-width:100%; }
