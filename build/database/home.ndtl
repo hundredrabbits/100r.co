@@ -2,24 +2,24 @@ ABOUT US
   The Rabbits
     & We are {Rekka(https://kokorobot.ca)} & {Devine(https://xxiivv.com)}, two unlikely sailors.
     % content/profile.about.jpg
-    & Rekka is an illustrator, writer, admirer of seabirds and purveyor of fungi. Devine is a programmer, artist and musician, a tireless creative, pasta monarch, and fervent believer in {open-source content(mission)}. Together, we created {*HundredRabbits*}, our studio on the water. 
+    & Rekka is an illustrator, writer, admirer of seabirds and plants. Devine is a programmer, artist, musician, a tireless creative, pasta monarch, and fervent believer in {open-source content(mission)}. Together we created {*HundredRabbits*}, our studio on the water. 
   Why a boat?
     & In January 2016, we left the cold of Montreal and moved west to British Columbia. There, we purchased our sailboat <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>. Keep in mind, we were a pair of city kids with limited outdoor experience, neither of us had ever stepped onto a sailboat before.
     & So {why a sailboat(Buying a sailboat)}? 
     % content/profile.pino.2.jpg
-    & In 2012 we moved to Japan, there, we worked on our first games {Hiversaires(https://hundredrabbits.itch.io/hiversaires)} and {Oquonie(http://oquonie.100r.co)} (the latter was completed in Thailand). 
-    & We love how those travel experiences impacted our projects. After we returned to Canada, we decided that traveling best fueled our work and so we looked at our options. Moving to a new country means selling all you have, we have done this countless times (and are tired of it). We had heard of people living on sailboats like SY <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>Lizzy Belle</a> (David Wellsford), SY <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Daphne</a> (Terese Carey) and SY <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Karl</a> (Nike Steiger), and became obssessed with the idea. Lack of experience aside, we thought that being in a mobile studio would help us accomplish our desire to travel while having a stable home.
+    & In 2012 we moved to Japan. There, we worked on our first games {Hiversaires(https://hundredrabbits.itch.io/hiversaires)} and {Oquonie(http://oquonie.100r.co)} (the latter was completed in Thailand). 
+    & We love how those travel experiences impacted our projects. After we returned to Canada, we decided that traveling best fueled our work and so we looked at our options. Moving to a new country means selling all you have, we have done this countless times (and are tired of it). We had heard of people living on sailboats, like SY <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>Lizzy Belle</a> (David Wellsford), SY <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Daphne</a> (Terese Carey) and SY <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Karl</a> (Nike Steiger), and became obssessed with the idea. Lack of experience aside, we thought that being in a mobile studio would help us accomplish our desire to travel while having a stable home.
   Our path
     & Since then, we have left Canada and have sailed down the American West Coast and over to Mexico. After that, we made the big jump across the pacific to French Polynesia, and crossed the wondrous south pacific islands of the Cooks, Niue and Tonga, and over to New Zealand. We have since left the lower latitudes and sailed up to Fiji, the Marshall Islands and then over to Japan (where we are now). We are planning on staying here for a while, experiencing {Japan by sea(#sailing in japan)}! We share our experience in the form of monthly videos, creating art, tools, books and games.
   Lifestyle experiment
     % content/profile.pino.jpg
-    & We learned many things while traveling, like the necessity to reduce our power usage and the value of simple and easy to repair hardware. This has led us to change how we work: 
-    & 1. We make our own tools. We decided to make our own applications that consume less power/memory and that suit our exact needs ({Left(#left)}, {Dotgrid(#dotgrid)}, {Orca(#orca)} etc).
-    & 2. We size projects per location. If we are somewhere off-grid with little internet, we work on smaller projects. For example, we may choose to make a {book(#books)} instead of a game.
-    & 3. We work on low-power, easy to repair hardware. We work on computers for a living, but running two power-hungry laptops full-time on an off-grid system doesn't work. In response to this, we now use {raspberry Pi(raspberry)} computers for writing and for development. They are easy to repair, cheap (good for redundancy) and draw little power.
+    & We learned many things while traveling, like the importance of reducing our power usage, and the value of simple and easy to repair hardware. This has led us to change how we work: 
+    & 1. We make our own tools, applications that consume less power/memory like {Left(#left)}, {Dotgrid(#dotgrid)} and {Orca(#orca)}.
+    & 2. We size projects per location. If we are somewhere off-grid with little internet we work on smaller projects. For example, we may choose to make a {book(#books)} instead of a game.
+    & 3. Less is better. We work on computers for a living, but running two power-hungry laptops full-time on an off-grid system doesn't work. In response to this, when away from cities, we use {raspberry Pi(raspberry)} computers for writing and for development. They are easy to repair, cheap (good for redundancy) and draw little power.
   Goal
     & Our goal is to keep moving, while continuing to work on {cool stuff(http://hundredrabbits.itch.io/)}. We document our travels as we go. Our aim is to learn as much as we can about {(sailing)} and on {being an off-grid digital nomad(off the grid)}. We want to create high-quality free content, and to make it available to those who could otherwise not afford it. 
-    & We create our own apps, which are lightweight and tailored to our needs. To read more about our design philosophy, read our {mission statement(#mission)}. 
+    & We create our own apps, which are lightweight and tailored to our needs. To read more about our design philosophy read our {mission statement(#mission)}. 
   Follow us
     - Subscribe to our blog RSS Feed {here(http://100r.co/links/rss.xml)}.
     - Follow us on Twitter {hundredrabbits(http://twitter.com/hundredrabbits)}
@@ -115,7 +115,7 @@ MISSION
     & Our intermitent internet connection makes for unpredictable release patterns, and spotty technical support, but allowing users to fix their issues while we are away, encouraged people to learn, and to help each other, find solutions, and submit revisions for everyone to enjoy. 
   Energy usage
     & We create lightweight tools in an attempt at reducing our broader environmental impact.
-    & The energy required to power tools like X code and Photoshop keeps growing, and the updates are large and incessant — Photoshop has stopped adding worthwhile content since CS6. Heavier software increase energy usage and shorten the lifetime of computers, since they require more powerful machines to use them. Greenhouse emissions in production are high. This worrying, because an estimated 130,000 computers ends up in the garbage annually. 
+    & The energy required to power tools like X code and Photoshop keeps growing, and the updates are large and incessant — Photoshop has stopped adding worthwhile content since CS6. Heavier software increase energy usage and shorten the lifetime of computers since they require more powerful machines to use them. Greenhouse gas emissions in production are high. This is worrying, because an estimated 130,000 computers ends up in the garbage annually. 
     & All of our tools work offline and operate on low-power devices. We can keep creating content when off-grid, when our power and connectivity is limited. 
     & We developed these tools out of necessity, because {our situation required it(#tools ecosystem)}. 
 
@@ -132,6 +132,7 @@ PINO
     - {*Keel*}: Fin
     & Why Pino? Pino is the name of an android in the anime Ergo Proxy. 'Hundredrabbits' is inspired from an imaginary sailboat (also, frome Ergo proxy) named the 'centzon totochtin', or 'four hundred rabbits'.
     & For additional details on our equipment and boat, visit our <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>github</a>.
+    - "A boat, for all its complexity, is in fact a version of simplicity, but of a satisfyingly complex kind." -Adam Nicolson 
     % content/sailboat.blueprint.jpg
 
 VIDEOS
@@ -201,27 +202,27 @@ COOKING
     % content/cooking.4.jpg
   Why is cooking important to us?
     @ "The doctor of the future will give no medicine, but will instruct his patient in the care of the human frame in diet and in the cause and prevention of diseases." | Thomas Edison, 1903
-    & Cooking is another creative outlet, not unlike drawing or writing. We find joy in it, as it's an activity that we can do together which we believe is essential for well-being. 
+    & Cooking is another creative outlet, not unlike drawing or writing. We find joy in it. It's an activity that we can do together which we believe is essential for well-being. 
   What do we eat?
     % content/cooking.2.jpg
-    & Our diet consists solely of local plants (legumes, fruits, grains, seeds, vegetables etc), meaning that our meals depends highly on our location, for example, in Nuku Hiva (Marquesas) we had no access to tomatoes, so instead, we used papaya to make {bruschetta(https://grimgrains.com/index.html#papaya+bruschetta+topping)}. We look at the adaption to, and adoption of, local produce, as an exercise in creativity. Most processed food will come thickly packaged, and so to limit our waste, we tend to avoid them. 
+    & Our diet consists solely of plants (legumes, fruits, grains, seeds, vegetables etc). The content of our meals depend on our location, for example, in Nuku Hiva (Marquesas) we had no access to tomatoes, so instead, we used papaya to make {bruschetta(https://grimgrains.com/index.html#papaya+bruschetta+topping)}. We look at the adaption and adoption of local produce as an exercise in creativity. Most processed food will come thickly packaged, and so to limit our waste we tend to avoid them. 
     & Below is a list of rules that we go by, when it comes to choosing what to eat:
     & 1. Eat varied foods. Biodiversity in the diet means less monoculture in the fields.
     & 2. Pay more. Spend more for foods grown or raised less intensively and with more care, eat less.
     & 3. Eat mostly plants. Especially leafy greens. Cook, and if you can, plant a garden.
     & 4. Avoid processed foods. Don’t eat anything your great-great-grandparents wouldn’t recognize as food. Avoid food products with unpronounceable ingredients, aim for less than five in number.
-
   Our galley
     % content/cooking.3.jpg
-    & Our galley is small, but has enough room for two people to cook. We have a 3 burner gimbled stove, equipped with a large oven. We go out shopping for fresh food almost everyday, since Pino has no refrigeration. In long passages, we rely on dehydrated foods and dried legumes.
-    & We have chosen durable(stainless steel, quality wood), multi-functional and simple (unibody, non-electric) {tools(https://grimgrains.com/#tools)}.
+    & Our galley is small, but has enough room for two people to cook. We have a 3 burner gimbled stove, equipped with a large oven. Since Pino has no refrigeration, we go out shopping for fresh food almost everyday. During long passages, we rely on dehydrated goods, root vegetables and dried legumes.
+    & We choose durable(stainless steel, quality wood), multi-functional and simple (unibody, non-electric) {tools(https://grimgrains.com/#tools)}.
+    & Our kitchen has few tools: 2 forks, 2 bowls, 2 plates, 2 spoons etc. 
   Grimgrains
     % content/cooking.jpg
-    & Grimgrains is our {cooking blog(http://grimgrains.com)}, it showcases our favourite creations, along with hand-drawn illustrations for each ingredient. 
-    & We started Grimgrains to teach ourselves how to cook. This blog, which now doubles as a travel diary, helps measure our progress, it's also a way to share what we've learned. 
+    & Grimgrains is our {cooking blog(http://grimgrains.com)}. It showcases our favourite creations, along with hand-drawn illustrations for each ingredient. 
+    & We started Grimgrains to teach ourselves how to cook. This blog — which now doubles as a travel diary — helps measure our progress. It's also a way to share what we've learned. 
   Why plants?
-    & We eat a plants-based diet for {health, ethical and environmental reasons(https://en.wikiversity.org/wiki/Should_we_go_vegan%3F)}. 
-    & Appropriately planned plant-based diets, are healthful, nutritionally adequate, and may provide health benefits in the prevention and treatment of certain diseases. 
+    & We eat a plant-based diet for {health, ethical and environmental reasons(https://en.wikiversity.org/wiki/Should_we_go_vegan%3F)}. 
+    & Appropriately planned plant-based diets are healthful, nutritionally adequate, and may provide health benefits in the prevention and treatment of certain diseases. 
   Resources
     - {How not to die(https://amzn.to/2lv0gvq)} by Michael Greger
     - {On Food And Cooking(https://amzn.to/2Y2GY1V)}, Harold McGee
@@ -230,12 +231,12 @@ COOKING
     & If you enjoy our content...
     > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
 
-
 SUPPORT
   A studio on a sailboat
-    & The idea of a nomadic design studio, we decided, was the best way to stay creative. Seeing new people and places enriches our work. We created our two first games ({Hiversaires(#hiversaires)} and {Oquonie(#oquonie)}) while in Tokyo and Thailand, and love how those experiences impacted our projects. It is something we want to continue to do, and being in a studio that moves will help us accomplish that. 
-    & We also enjoy the challenges that come with living on a sailboat, the power limitations and reduced connectivity has re-shaped how we work — in a good way. We now {create our own applications(#mission)}, an {open-source ecosystem(#tools)} of creative tools.
-    & Want to support us?
+    & The idea of a nomadic design studio, we decided, was the best way to stay creative. 
+    & We enjoy the challenges that come with living off-grid. The power limitations and reduced connectivity has re-shaped how we work — in a good way. We now {create our own applications(#mission)}, an {open-source ecosystem(#tools)} of creative tools. We document our experience in the form of {videos(#videos)}, and {blog posts(#blog)}. 
+    & All the donations we get are re-invested back into the Hundredrabbits projects. Much of our tools are free, we'd like to keep it that way. Your support helps make that possible. There are many ways you can do that...
+    & Want to help?
     > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a><br>
     & You can also:
     - Use our {tools(https://itch.io/c/248074/tools)}.
@@ -244,7 +245,6 @@ SUPPORT
     - Watch our {Videos(https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A)}.
     - Make a donation with {Paypal(https://www.paypal.com/donate/?token=W0D--M64CSzX2IvNBojjYz2ODKn4RzRL4BY5VdzPSiI33nO9rJnfb0DZ3oqrSOlrgaryHW&country.x=CA&locale.x=CA)}.
     % content/sailboat.studio.1.jpg
-    & All the money we get is re-invested back into the Hundredrabbits projects. With your support we can also pay for internet and for the inevitable — and incessant — upkeep of our devices (which often break at sea, and from continued use).
     & Thank you so much!<br/><b>Rekka & Devine</b>
 
 PRESS
