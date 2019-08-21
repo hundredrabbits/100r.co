@@ -21,12 +21,17 @@ function Feed (id, table) {
       console.warn('Missing Date for', id)
     }
 
-    const preview = Object.keys(entry)
+    let parts = []
+    for (const id in entry) {
+      if (id === 'SETTINGS') { continue }
+      parts = parts.concat(entry[id])
+    }
+    const description = runic(parts).toRss()
 
     return {
       title: id.toCapitalCase(),
       date: new Date(entry.SETTINGS.DATE).toUTCString(),
-      description: runic([entry[preview[1]][0], entry[preview[1]][1]])
+      description
     }
   }
 
@@ -39,7 +44,7 @@ function Feed (id, table) {
     <guid isPermaLink='false'>IV${id}</guid>
     <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
     <description>
-      ${`<p><a href='https://100r.co/blog.html'>Continue Reading</a></p>`.to_rss()}
+      ${entry.description}
     </description>
   </item>
 `
@@ -60,15 +65,15 @@ function Feed (id, table) {
   }
 }
 
-String.prototype.to_rss = function () {
+String.prototype.toRss = function () {
   return this.replace(/&(?!\w*;)/g, '&amp;').replace(/\</g, '&lt;').replace(/\>/g, '&gt;').replace(/\"/g, '&quot;').replace(/\'/g, '&apos;')
 }
 
-String.prototype.to_entities = function () {
+String.prototype.toEntities = function () {
   return this.replace(/[\u00A0-\u9999<>\&]/gim, function (i) { return `&#${i.charCodeAt(0)}` })
 }
 
-String.prototype.to_path = function () {
+String.prototype.toPath = function () {
   return this.toLowerCase().replace(/\+/g, '.').replace(/ /g, '.').replace(/[^0-9a-z\.\-\/]/gi, '').trim()
 }
 
