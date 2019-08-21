@@ -26,7 +26,7 @@ function Feed (id, table) {
       if (id === 'SETTINGS') { continue }
       parts = parts.concat(entry[id])
     }
-    const description = runic(parts).toRss()
+    const description = runic(parts).replaceAll('../media/blog/','https://100r.co/media/blog/').toRss()
 
     return {
       title: id.toCapitalCase(),
@@ -35,13 +35,13 @@ function Feed (id, table) {
     }
   }
 
-  function _item (entry) {
+  function _item (entry,id) {
     return `
   <item>
     <title>${entry.title}</title>
     <link>https://100r.co/blog.html</link>
     <pubDate>${entry.date}</pubDate>
-    <guid isPermaLink='false'>IV${id}</guid>
+    <guid isPermaLink='false'>${entry.title.toUrl()}</guid>
     <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
     <description>
       ${entry.description}
@@ -59,7 +59,7 @@ function Feed (id, table) {
   <link><![CDATA[https://100r.co/blog]]></link>
   <description>The Rabbits' Journal</description>
   <generator>Oscean - Riven</generator>
-  ${parse(table).reduce((acc, val) => { return `${acc}${_item(val)}` }, '')}
+  ${parse(table).reduce((acc, val, key) => { return `${acc}${_item(val,key)}` }, '')}
 </channel>
 </rss>`.trim()
   }
@@ -75,6 +75,10 @@ String.prototype.toEntities = function () {
 
 String.prototype.toPath = function () {
   return this.toLowerCase().replace(/\+/g, '.').replace(/ /g, '.').replace(/[^0-9a-z\.\-\/]/gi, '').trim()
+}
+
+String.prototype.replaceAll = function (search, replacement) { 
+  return `${this}`.split(search).join(replacement) 
 }
 
 module.exports = Feed
