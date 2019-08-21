@@ -61,7 +61,7 @@ function Feed (id, table) {
   <generator>Oscean - Riven</generator>
   ${parse(table).reduce((acc, val) => { return `${acc}${_item(val)}` }, '')}
 </channel>
-</rss>`.toEntities()
+</rss>`.trim()
   }
 }
 
