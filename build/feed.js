@@ -61,7 +61,7 @@ function Feed (id, table) {
   <generator>Oscean - Riven</generator>
   ${parse(table).reduce((acc, val) => { return `${acc}${_item(val)}` }, '')}
 </channel>
-</rss>`
+</rss>`.toEntities()
   }
 }
 
@@ -69,8 +69,8 @@ String.prototype.toRss = function () {
   return this.replace(/&(?!\w*;)/g, '&amp;').replace(/\</g, '&lt;').replace(/\>/g, '&gt;').replace(/\"/g, '&quot;').replace(/\'/g, '&apos;')
 }
 
-String.prototype.toEntities = function () {
-  return this.replace(/[\u00A0-\u9999<>\&]/gim, function (i) { return `&#${i.charCodeAt(0)}` })
+String.prototype.toEntities = function () { 
+  return this.replace(/[\u00A0-\u9999<>\&]/gim, function (i) { return `&#${i.charCodeAt(0)}` }) 
 }
 
 String.prototype.toPath = function () {
