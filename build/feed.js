@@ -26,7 +26,7 @@ function Feed (id, table) {
       if (id === 'SETTINGS') { continue }
       parts = parts.concat(entry[id])
     }
-    const description = runic(parts).replaceAll('../media/blog/', 'https://100r.co/media/blog/').toRss()
+    const description = runic(parts,curlic).replaceAll('../media/blog/', 'https://100r.co/media/blog/').toRss()
 
     return {
       title: id.toCapitalCase(),
