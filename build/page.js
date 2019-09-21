@@ -97,7 +97,6 @@ function Page (id, table, database, parent) {
   <link rel="stylesheet" type="text/css" href="../links/main.css"/>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53987113-3"></script>
-  <script src="https://assets.digitalclimatestrike.net/widget.js" async></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
