@@ -1,25 +1,50 @@
 ABOUT US
   The Rabbits
-    & We are {Rekka(https://kokorobot.ca)} & {Devine(https://xxiivv.com)}, two unlikely sailors.
     % content/profile.about.jpg
-    & Rekka is an illustrator, writer, admirer of seabirds and plants. Devine is a programmer, artist, musician, a tireless creative, pasta monarch, and fervent believer in {open-source content(mission)}. Together we created {*HundredRabbits*}, our studio on the water. 
+    & We are {Rekka(https://kokorobot.ca)} & {Devine(https://xxiivv.com)}, together we make games, books, open-source tools and toys, on the ocean. We live by Solar Punk values, living under sail and sun.
+    & We live aboard a small sailboat and have been sailing around the Pacific Ocean since 2016. When we started we knew nothing about sailing. We have since traveled from Vancouver to Mexico, to New Zealand, Japan, and almost every island inbetween.
   Why a boat?
-    & In January 2016, we left the cold of Montreal and moved west to British Columbia. There, we purchased our sailboat <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>. Keep in mind, we were a pair of city kids with limited outdoor experience, neither of us had ever stepped onto a sailboat before.
-    & So {why a sailboat(Buying a sailboat)}? 
     % content/profile.pino.2.jpg
     & In 2012 we moved to Japan. There, we worked on our first games {Hiversaires(https://hundredrabbits.itch.io/hiversaires)} and {Oquonie(http://oquonie.100r.co)} (the latter was completed in Thailand). 
-    & We love how those travel experiences impacted our projects. After we returned to Canada, we decided that traveling best fueled our work and so we looked at our options. Moving to a new country means selling all you have, we have done this countless times (and are tired of it). We had heard of people living on sailboats, like SY <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>Lizzy Belle</a> (David Wellsford), SY <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Daphne</a> (Terese Carey) and SY <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Karl</a> (Nike Steiger), and became obssessed with the idea. Lack of experience aside, we thought that being in a mobile studio would help us accomplish our desire to travel while having a stable home.
-  Our path
-    & Since then, we have left Canada and have sailed down the American West Coast and over to Mexico. After that, we made the big jump across the pacific to French Polynesia, and crossed the wondrous south pacific islands of the Cooks, Niue and Tonga, and over to New Zealand. We have since left the lower latitudes and sailed up to Fiji, the Marshall Islands and then over to Japan (where we are now). We are planning on staying here for a while, experiencing {Japan by sea(#sailing in japan)}! We share our experience in the form of monthly videos, creating art, tools, books and games.
+    & We love how those experiences impacted our projects. After we returned to Canada, we decided that living elsewhere best fueled our work and so we looked at our options. Moving to a new country means selling all you have, we have done this countless times, and are tired of it. We had heard of people living on sailboats, like <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>David Wellsford</a>, <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Teresa Carey</a> and <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Nike Steigher</a>, and became obssessed with the idea. Lack of experience aside, we thought that living in a small space, with a small footprint, wind and solar powered, was what we wanted for ourselves.
+    & In January 2016, we left the cold of Montreal and moved west to British Columbia. There, we purchased our sailboat <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a>. Keep in mind, we were a pair of city kids with limited outdoor experience, neither of us had ever stepped onto a sailboat before. That, did not deter us. We learned on the go, reading books and asking questions to our fellow sailors. 
   Lifestyle experiment
     % content/profile.pino.jpg
-    & We learned many things while traveling, like the importance of reducing our power usage, and the value of simple and easy to repair hardware. This has led us to change how we work: 
-    & 1. We make our own tools, applications that consume less power/memory like {Left(#left)}, {Dotgrid(#dotgrid)} and {Orca(#orca)}.
-    & 2. We size projects per location. If we are somewhere off-grid with little internet we work on smaller projects. For example, we may choose to make a {book(#books)} instead of a game.
-    & 3. Less is better. We work on computers for a living, but running two power-hungry laptops full-time on an off-grid system doesn't work. In response to this, when away from cities, we use {raspberry Pi(raspberry)} computers for writing and for development. They are easy to repair, cheap (good for redundancy) and draw little power.
+    & We learned many things while traveling, like the importance of reducing our power usage, and the value of simple and easy to repair hardware. This, has led us to change how we work: 
+    & We make our own tools.
+    - We make applications that consume less power/memory like {Left(#left)}, {Dotgrid(#dotgrid)} and {Orca(#orca)}. We — and other users — can make changes easily, since they are open-source. 
+    & Work according to the available resources. 
+    - If we are somewhere off-grid with little internet we work on smaller projects. For example, we may choose to make a {book(#books)} instead of a game. When there isn't enough power from the solar, say, on cloudy days, we do work off-computer, or use low-power devices like {raspberry Pi(raspberry)} computers.
+    & Learn to repair.
+    - Things break/fail on boats, all the time. We had to learn to repair everything ourselves, because in remote places we had to be self-sufficient. There is value in knowing how things work, not because you know how to fix them, but also because you can extend their life and minimize waste. 
+    & Work less.
+    - Owning less, wanting less, translates into spending less, which means we can work less too. 
+    & Nature is everything.
+    - This lifestyle reconciled us with nature, it made us stop experiencing the world through simulations. We saw things for ourselves, not through screens. It made us live in the moment. Spending time in nature, away from screens, gave us the mindspace to think and to see what we wanted for ourselves.
+    @ "A man misses something by not establishing a participative and living relationship with the non-human world of animals and plants, landscapes and stars and seasons. By failing to be, vicariously, the not-self, he fails to be completely himself." | Aldous Huxley
   Goal
-    & Our goal is to keep moving, while continuing to work on {cool stuff(http://hundredrabbits.itch.io/)}. We document our travels as we go. Our aim is to learn as much as we can about {(sailing)} and on {being an off-grid digital nomad(off the grid)}. We want to create high-quality free content, and to make it available to those who could otherwise not afford it. 
-    & We create our own apps, which are lightweight and tailored to our needs. To read more about our design philosophy read our {mission statement(#mission)}. 
+    & Like migratory birds, our goal is to keep moving, while continuing to work on {cool stuff(http://hundredrabbits.itch.io/)}. Our aim is to continue to create, while leaving but a tiny mark on the planet.
+    & To read more about our design philosophy, read our {mission statement(#mission)}. 
+  What is solar punk?
+    @ "We're Solarpunks because the only other options are denial or despair." | {Adam Flynn(https://hieroglyph.asu.edu/2014/09/Solarpunk-notes-toward-a-manifesto/)}
+    & Solarpunks are people who cherish both nature and progress, the individual and the community.
+    & They believe in a world that is green, colourful, and bright. It can be described as a literary genre, an aesthetic, or a movement. The key points are:
+    - A demand for technology and society to re-centre around sustainability, longevity, and balance with an emphasis on renewable energy.
+    - A focus on decentralisation, community activism, social justice and civic empowerment.
+    - A recognition that economic, social, and ecological injustices are all deeply inter-connected.
+    & We're destroying the world because we are, in a very literal and deliberate way, at war with it. People need more than to be made to feel stupid and guilty. They need more than a vision of doom. They need a vision of the world and of themselves that inspires them.
+    & Solarpunk is the opposite of cyberpunk's nihilism, offering “ingenuity, positive creation, independence, and community.”
+  What is open source software?
+    & Open source projects, products, or initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development.
+    & Open source software is software with source code that anyone can inspect, modify, and enhance.
+    & "Source code" is the part of software that most computer users don't ever see; it's the code computer programmers can manipulate to change how a piece of software—a "program" or "application"—works. Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly.
+    & "Open-source" also designates a broader set of values:
+    - Transparency. We all have access to the information and materials necessary for doing our best work.
+    - Collaboration. By initiating new projects together, we can solve problems that no one can solve alone.
+    - Meritocracy. Only by including diverse perspectives in our conversations can we be certain we've identified the best ideas.
+    - Release early & often. An iterative approach leads to better solutions faster
+    - Community. Shared values guide decision making, and community goals supersede individual interests and agendas.
+    & For more information, visit {this website(https://opensource.com/open-source-way)}.
   Follow us
     - Subscribe to our blog RSS Feed {here(http://100r.co/links/rss.xml)}.
     - Follow us on Twitter {hundredrabbits(http://twitter.com/hundredrabbits)}
