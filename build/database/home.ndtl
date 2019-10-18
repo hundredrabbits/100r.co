@@ -1,12 +1,12 @@
 ABOUT US
   The Rabbits
     % content/profile.about.jpg
-    & We are {Rekka(https://kokorobot.ca)} & {Devine(https://xxiivv.com)}, together we make games, books, open-source tools and toys, on the ocean. 
-    & We live under sail & sun aboard {Pino(#pino)}, and have been sailing around the Pacific Ocean since 2016. When we started we knew nothing about sailing. We have since traveled from Vancouver to Mexico, French Polynesia, New Zealand, Japan, and almost every island inbetween.
+    & We are {Rekka(https://kokorobot.ca)} & {Devine(https://xxiivv.com)}, we have been sailing around the Pacific Ocean since 2016. Devine makes esoteric software, and Rekka writes and makes illustrations.
+    & Together, we work at a small research studio aboard a {sailboat(#pino)}, called Hundred Rabbits, where we do experiments in resilience and self-reliance using low-tech solutions. The ways in which we spend our time vary wildly from day to day, but we focus on experimental research. Our interests include alternative ways to store power and minimum viable solutions for technological tooling.
   Why a boat?
     % content/profile.pino.2.jpg
     & In 2012, we moved to Japan. Rekka was working in an animation studio, and Devine, in a company that makes language learning tools. On weekends and evenings, we worked on our first two games: {Hiversaires(https://hundredrabbits.itch.io/hiversaires)} and {Oquonie(http://oquonie.100r.co)} (the latter was completed in Thailand). 
-    & We loved how those travel experiences impacted our projects. After we returned to Canada, we decided that living elsewhere best fueled our work and so we looked at our options. Moving to a new country meant selling all we had, we'd done this countless times already, but we thought it wasteful and were tired of it. We then heard of people living on sailboats. We watched videos by <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>David Wellsford</a>, <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Teresa Carey</a> and <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Nike Steiger</a>, and became obssessed with the idea. Lack of experience aside, we thought that living in a small space, with a small footprint, wind and solar powered, was what we wanted for ourselves.
+    & After we returned to Canada in 2014, we decided that we wanted to keep moving, and so we looked at our options. Moving to a new country meant selling all we had, we'd done this countless times already, but we thought it wasteful. We then heard of people living on sailboats. We watched videos by <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>David Wellsford</a>, <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Teresa Carey</a> and <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Nike Steiger</a>, and became obssessed with the idea. Lack of experience aside, we thought that traveling was a good catalyst for learning new languages, for developing an interest in foreign cultures and ultimately for building empathy, curiosity, and creativity, traits that we will need to foster, as a species, if we want to survive the years to come.
     & In January 2016, we left the cold of Montreal and moved west to British Columbia. There, we purchased <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a> — keep in mind, we were a pair of city kids with limited outdoor experience, neither of us had ever stepped onto a sailboat before. That, did not deter us. We learned on the go, reading books and asking questions to other sailors on the docks. 
     & Our curiosity then led us to make our first trip out to sea, which escalated into a circumnagivation of the Pacific Ocean. 
   What we learned
@@ -25,8 +25,13 @@ ABOUT US
     - We, humans, don't exist outside of natural forces, the agent that is nature cannot be vanquished. We are not the point and purpose of the planet. A reconciliation with nature is necessary for our survival. When we started sailing, dependent on the sun, tossed by waves and propelled by the wind, we lived by nature's rules. We stopped experiencing the world through simulations and saw things for ourselves, rather than through screens. Spending time in nature also gave us the mindspace to think and to see what we wanted for ourselves.
     @ "A man misses something by not establishing a participative and living relationship with the non-human world of animals and plants, landscapes and stars and seasons. By failing to be, vicariously, the not-self, he fails to be completely himself." | Aldous Huxley
   Goal
-    & Like migratory birds, our goal is to keep moving, while continuing to work on {cool stuff(http://hundredrabbits.itch.io/)}. We want to work towards building simple, enviromentally viable hardware, that is low-power, open-source and easy to repair.
-    & To read more about our design philosophy, read our {mission statement(#mission)}. 
+    & Our goal, is to:
+    - - See as much of the world as possible.
+    - - Learn as many languages as possible.
+    - - Facilitate the creation and acceleration of arts & sciences.
+    - - Minimize pain and suffering.
+    - - Create hardware & art that is environmentally sustainable.
+    & A nomadic life, we think is a way to inject some impermanence into our lives. To read more about our design philosophy, read our {mission statement(#mission)}. 
   We are Solar Punks
     @ "We're Solarpunks because the only other options are denial or despair." | {Adam Flynn(https://hieroglyph.asu.edu/2014/09/Solarpunk-notes-toward-a-manifesto/)}
     & We are people who cherish both nature and progress, the individual and the community.
@@ -298,6 +303,7 @@ PRESS
     - {A design studio on a sailboat(http://motherboard.vice.com/read/the-game-design-studio-on-a-boat)}, December 12, 2015, Motherboard.
     - {Can Devine create his own language? Or a new world?(https://killscreen.com/articles/devine-lu-linvega-nataniev-hiversaires/)}, July 18, 2013, Kill Screen.
   Interviews
+    - {I Have Been Living and Coding on a Sailboat Since 2016(https://dev.to/gitnation/devine-lu-linvega-i-have-been-living-and-coding-on-a-sailboat-since-2016-54id)}, GitNation, October 5th, 2019.
     - {Tools & techniques: Devine Lu Linvega (https://usesthis.com/interviews/devine.lu.linvega/)}, Uses This, August 8th, 2019.
     - {Tools & techniques: Rekka Bell(https://usesthis.com/interviews/rekka.bell/)}, Uses This, July 2, 2019.
     - {Developing Games and Tools from the Ocean(https://itch.io/blog/15488/developing-games-and-tools-from-the-ocean-an-interview-with-hundred-rabbits)}, Itch.
