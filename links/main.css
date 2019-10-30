@@ -87,7 +87,8 @@ body #wrapper #footer form input.button:hover { background:#555; cursor: pointer
 
 @media (max-width: 600px) {
   body.splash #wrapper form { display: none; }
-}
+  body.splash #wrapper li#toggle { display: none; }
+  body.splash #wrapper #intro h1 { display: none; }
 
 @media (max-width: 900px) {
   body #wrapper #core { margin-left:30px; max-width:100%; }
