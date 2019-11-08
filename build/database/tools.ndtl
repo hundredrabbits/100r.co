@@ -215,7 +215,7 @@ DOTGRID
     - Move down <b>down arrow key</b>
     - Move right <b>right arrow ley</b>
     - Move left <b>left arrow key</b>
-    - Remove point <b>backspace</b>
+    - Remove point <b>shift + backspace</b>
     - Remove segment <b>backspace</b>
     & Toggling between layers
     - Foreground <b>⌘ 1</b> 
@@ -224,9 +224,14 @@ DOTGRID
     & Other
     - Color picker <b>G</b>
     - Toggle grid on/off <b>H</b>
-    - Save <b>⌘ s</b>
-    - Export <b>⌘ e</b>
-    - Render <b>⌘ r</b>
+    - Save <b>⌘ S</b>
+    - Export Vector <b>⌘ E</b>
+    - Export Image <b>⌘ shift E</b>
+    - Revert <b>⌘ + W</b>
+    - New <b>⌘ N</b>
+    - Open <b>⌘ O</b>
+    - Undo <b>⌘ Z</b>
+    - Redo <b>⌘ shift Z</b>
     & This application supports the {Ecosystem Theme(https://github.com/hundredrabbits/Themes)}. See the {License(https://github.com/hundredrabbits/Dotgrid/blob/master/LICENSE.md)} file for license rights and limitations (MIT). {Pull Requests(https://github.com/hundredrabbits/Dotgrid)} are welcome!
     & If you enjoy our content...
     > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
