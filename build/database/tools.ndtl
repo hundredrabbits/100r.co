@@ -11,6 +11,17 @@ RONIN
     & Ronin, reimagined as a creature. 
   Download
     % itchio 194632
+  Web version 
+    & It is now possible to use Ronin in your browser, without the need to install it as an application. 
+    & The reason we did this, is because Apple plans to stop allowing the distribution of applications outside of the AppStore. Another reason is we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...
+    - Lightweight and simple.
+    - Always up-to-date.
+    - Usable across all platforms.
+    - Offline-first.
+    & Use {RONIN LIVE(https://hundredrabbits.github.io/Ronin/)}
+    & Because Ronin Live isn't available through a client, it is harder to receive donations. Your support means we can spend time improving these tools, and offering support when needed. You can help by: 
+    - Making a single donation via {Paypal(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7NZHUNK2WGNJ&source=url)}
+    - Monthly support with {Patreon(https://patreon.com/100)}.
   Trailer
     % youtube SgAWGh1s9zg
   Tutorial
@@ -114,6 +125,17 @@ DOTGRID
     & Dotgrid, reimagined as a creature. 
   Download
     % itchio 190851
+  Web version 
+    & It is now possible to use Dotgrid in your browser, without the need to install it as an application. 
+    & The reason we did this, is because Apple plans to stop allowing the distribution of applications outside of the AppStore. Another reason is we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...
+    - Lightweight and simple.
+    - Always up-to-date.
+    - Usable across all platforms.
+    - Offline-first.
+    & Use {DOTGRID LIVE(https://hundredrabbits.github.io/Dotgrid/)}
+    & Because Dotgrid Live isn't available through a client, it is harder to receive donations. Your support means we can spend time improving these tools, and offering support when needed. You can help by: 
+    - Making a single donation via {Paypal(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7NZHUNK2WGNJ&source=url)}
+    - Monthly support with {Patreon(https://patreon.com/100)}.
   Trailer
     % youtube Xt1zYHhpypk
   Tutorial
@@ -223,6 +245,17 @@ ORCA
   Download
     & You can view the {sources(https://github.com/hundredrabbits/Orca)}, or {download builds(http://hundredrabbits.itch.io/Orca)} for OSX, Windows and Linux here: 
     % itchio 225814
+  Web version 
+    & It is now possible to use Orca in your browser, without the need to install it as an application. 
+    & The reason we did this, is because Apple plans to stop allowing the distribution of applications outside of the AppStore. Another reason is we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...
+    - Lightweight and simple.
+    - Always up-to-date.
+    - Usable across all platforms.
+    - Offline-first.
+    & Use {ORCA LIVE(https://hundredrabbits.github.io/orca/)}
+    & Because Orca Live isn't available through a client, it is harder to receive donations. Your support means we can spend time improving these tools, and offering support when needed. You can help by: 
+    - Making a single donation via {Paypal(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7NZHUNK2WGNJ&source=url)}
+    - Monthly support with {Patreon(https://patreon.com/100)}.
   Tutorial
     & Each letter of the alphabet is an operation, lowercase letters operate on bang, uppercase letters operate each frame.
     & To learn more:
