@@ -140,13 +140,18 @@ MISSION
     & Open source software is software with source code that anyone can inspect, modify, and enhance.
     & "Source code" is the part of software that most computer users don't ever see; it's the code computer programmers can manipulate to change how a piece of software—a "program" or "application"—works. Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly.
     & "{Open-source(https://opensource.com/open-source-way)}" also designates a broader set of values:
-    - - TRANSPARENCY. We all have access to the information and materials necessary for doing our best work.
-    - - COLLABORATION. By initiating new projects together, we can solve problems that no one can solve alone.
-    - - MERITOCRACY. Only by including diverse perspectives in our conversations can we be certain we've identified the best ideas.
-    - - RELEASE EARLY AND OFTEN. An iterative approach leads to better solutions faster
-    - - COMMUNITY. Shared values guide decision making, and community goals supersede individual interests and agendas.
+    - TRANSPARENCY
+    & We all have access to the information and materials necessary for doing our best work.
+    - COLLABORATION
+    & By initiating new projects together, we can solve problems that no one can solve alone.
+    - MERITOCRACY
+    & Only by including diverse perspectives in our conversations can we be certain we've identified the best ideas.
+    - RELEASE EARLY AND OFTEN
+    & An iterative approach leads to better solutions faster
+    - COMMUNITY
+    & Shared values guide decision making, and community goals supersede individual interests and agendas.
   Energy usage
-    & We create lightweight tools in an attempt at reducing our broader environmental impact.
+    & We create light-weight tools in an attempt at reducing our broader environmental impact.
     & The energy required to power tools like X code and Photoshop keeps growing, and the updates are large and incessant — Photoshop has stopped adding worthwhile content since CS6. Heavier software increase energy usage and shorten the lifetime of computers since they require more powerful machines to use them. Greenhouse gas emissions in production are high. This is worrying, because an estimated 130,000 computers ends up in the garbage annually. 
     & All of our tools work offline and operate on low-power devices. We can keep creating content when off-grid, when our power and connectivity is limited. 
     & We developed these tools out of necessity, because {our situation required it(#tools ecosystem)}. 
