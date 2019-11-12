@@ -1,14 +1,16 @@
 ABOUT US
   The Rabbits
     % content/profile.about.jpg
-    & We are {Rekka(https://kokorobot.ca)} & {Devine(https://xxiivv.com)}, we have been sailing around the Pacific Ocean since 2016. Devine makes esoteric software, and Rekka writes and makes illustrations.
-    & Together, we work at a small research studio aboard a {sailboat(#pino)}, called Hundred Rabbits, where we do experiments in resilience and self-reliance using low-tech solutions. The ways in which we spend our time vary wildly from day to day, but we focus on experimental research. Our interests include alternative ways to store power and minimum viable solutions for technological tooling. Read more about our {design philosophy(#design philosophy)}
+    & {Rekka(https://kokorobot.ca)} is a cartoonist and writer & {Devine(https://xxiivv.com)} makes esoteric software. We have been sailing around the Pacific Ocean since 2016. We have sailed from Canada, down to Mexico, over to French Polynesia, Cook Islands, Tonga, New Zealand, Fiji, The Marshall Islands and all the way to Japan.
+    & Together we work at a small research studio aboard a {sailboat(#pino)} called Hundred Rabbits, where we do experiments in resilience and self-reliance using low-tech solutions. 
+    & The ways in which we spend our time vary wildly from day to day, but we focus on experimental research. Our interests include alternative ways to store power and minimum viable solutions for technological tooling. Read more about our {design philosophy(#design philosophy)}
   Why a boat?
     % content/profile.pino.2.jpg
     & In 2012, we moved to Japan. Rekka was working in an animation studio, and Devine, in a company that makes language learning tools. On weekends and evenings, we worked on our first two games: {Hiversaires(https://hundredrabbits.itch.io/hiversaires)} and {Oquonie(http://oquonie.100r.co)} (the latter was completed in Thailand). 
     & After we returned to Canada in 2014, we decided that we wanted to keep moving, and so we looked at our options. Moving to a new country meant selling all we had, we'd done this countless times already, but we thought it wasteful. We then heard of people living on sailboats. We watched videos by <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>David Wellsford</a>, <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Teresa Carey</a> and <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Nike Steiger</a>, and became obssessed with the idea. Lack of experience aside, we thought that traveling was a good catalyst for learning new languages, for developing an interest in foreign cultures and ultimately for building empathy, curiosity, and creativity, traits that we will need to foster, as a species, if we want to survive the years to come.
     & In January 2016, we left the cold of Montreal and moved west to British Columbia. There, we purchased <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a> — keep in mind, we were a pair of city kids with limited outdoor experience, neither of us had ever stepped onto a sailboat before. That, did not deter us. We learned on the go, reading books and asking questions to other sailors on the docks. 
     & Our curiosity then led us to make our first trip out to sea, which escalated into a circumnagivation of the Pacific Ocean. 
+    & Our experiences at sea has changed how we work, and how we think. To hear more about this, {listen to the talk(https://www.youtube.com/watch?v=BW32yUEymvU&feature=youtu.be)} we did at XOXO in 2019. 
   Goal
     % content/profile.pino.jpg
     & Our goal, is to:
@@ -127,21 +129,6 @@ MISSION
     & {Dotgrid(http://hundredrabbits.itch.io/Dotgrid)}, like {Left(http://hundredrabbits.itch.io/Left)}, was originally created to be used internally, but has now grown into something used by thousands of creators. The development of the application was done following the {Bazaar Model(http://wiki.xxiivv.com/the+bazaar+model)}, as opposed to the {Cathedral Model(http://wiki.xxiivv.com/the+cathedral+model)}, in which the source code is developed over the Internet in view of the public. It allowed for a {conversation(https://github.com/hundredrabbits/Dotgrid/pulls?q=is%3Aclosed)} to occur between us and other Dotgrid users, seeing how differently each person used the tool revealed new directions toward which we could grow the software, and in return, new ways for us to use it as well.
     & Through these exchanges, we've encountered amazing people who've made projects possible, which would not have existed otherwise, and these people have grown into friends and collaborators. 
     & Our intermitent internet connection makes for unpredictable release patterns, and spotty technical support, but allowing users to fix their issues while we are away, encouraged people to learn, and to help each other, find solutions, and submit revisions for everyone to enjoy. 
-  What is open source?
-    & {Open-source(https://opensource.com/)} projects, products, or initiatives embrace and celebrate principles of open exchange, collaborative participation, rapid prototyping, transparency, meritocracy, and community-oriented development.
-    & Open source software is software with source code that anyone can inspect, modify, and enhance.
-    & "Source code" is the part of software that most computer users don't ever see; it's the code computer programmers can manipulate to change how a piece of software—a "program" or "application"—works. Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly.
-    & "{Open-source(https://opensource.com/open-source-way)}" also designates a broader set of values:
-    - TRANSPARENCY
-    & We all have access to the information and materials necessary for doing our best work.
-    - COLLABORATION
-    & By initiating new projects together, we can solve problems that no one can solve alone.
-    - MERITOCRACY
-    & Only by including diverse perspectives in our conversations can we be certain we've identified the best ideas.
-    - RELEASE EARLY AND OFTEN
-    & An iterative approach leads to better solutions faster
-    - COMMUNITY
-    & Shared values guide decision making, and community goals supersede individual interests and agendas.
   Energy usage
     & We create light-weight tools in an attempt at reducing our broader environmental impact.
     & The energy required to power tools like X code and Photoshop keeps growing, and the updates are large and incessant — Photoshop has stopped adding worthwhile content since CS6. Heavier software increase energy usage and shorten the lifetime of computers since they require more powerful machines to use them. Greenhouse gas emissions in production are high. This is worrying, because an estimated 130,000 computers ends up in the garbage annually. 
