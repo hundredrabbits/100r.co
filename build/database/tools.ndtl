@@ -13,6 +13,7 @@ RONIN
   Download
     % itchio 194632
   Web version 
+    % content/tools/ronin/ronin.5.jpg
     & It is now possible to use Ronin in your browser, without the need to install it as an application. 
     & The reason we did this, is because Apple plans to stop allowing the distribution of applications outside of the AppStore. Another reason is we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...
     - Lightweight and simple.
@@ -28,6 +29,7 @@ RONIN
   Tutorial
     & Watch the video above or {follow the online workshop(https://github.com/hundredrabbits/Ronin/blob/master/WORKSHOP.md)}.
   Visual
+    % content/tools/ronin/ronin.4.jpg
     & You can change the look and colour of Ronin. To do this, {download(https://hundredrabbits.itch.io/left)} themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Ronin. The colours will change instantly. 
     & These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app ({Dotgrid(#dotgrid)}, {Donsol(#donsol)}, {Orca(#orca)} and {Left(#left)}). {Pull Requests(https://github.com/hundredrabbits/Ronin)} are welcome, but please read our {design philosophy(#design philosophy)} first.
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
@@ -129,6 +131,7 @@ DOTGRID
   Download
     % itchio 190851
   Web version 
+    % content/tools/dotgrid/dotgrid.2.jpg
     & It is now possible to use Dotgrid in your browser, without the need to install it as an application. 
     & The reason we did this, is because Apple plans to stop allowing the distribution of applications outside of the AppStore. Another reason is we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...
     - Lightweight and simple.
@@ -255,6 +258,7 @@ ORCA
     & You can view the {sources(https://github.com/hundredrabbits/Orca)}, or {download builds(http://hundredrabbits.itch.io/Orca)} for OSX, Windows and Linux here: 
     % itchio 225814
   Web version 
+    % content/tools/orca/orca.5.jpg
     & It is now possible to use Orca in your browser, without the need to install it as an application. 
     & The reason we did this, is because Apple plans to stop allowing the distribution of applications outside of the AppStore. Another reason is we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...
     - Lightweight and simple.

@@ -106,6 +106,7 @@ LIBRARY
 
 DESIGN PHILOSOPHY
   Our philosophy
+    % content/design.1.jpg
     & We build software following these rules: 
   Accessibility
     & We design our applications using the web technologies to be able to support as many devices as possible.
