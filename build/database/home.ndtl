@@ -1,3 +1,14 @@
+STORE
+  Store
+    & Sometimes, we have physical items for sale in limited quantities. Right now, we have these items:
+  Ecosystem Rabbits
+    % content/store/rabbit.stickers.jpg
+    & These stickers are:
+    - 4x6" vinyl
+    - Weather/UV resistant
+    - Scratchproof
+    & Each page is 10$USD each. Please include your address for shipping. 
+    > <a class='live_button' href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EPRAX8ZZET8EW&source=url' target='_blank'>Buy stickers</a> 
 
 ABOUT US
   The Rabbits
