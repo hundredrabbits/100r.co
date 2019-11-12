@@ -2,45 +2,22 @@ ABOUT US
   The Rabbits
     % content/profile.about.jpg
     & We are {Rekka(https://kokorobot.ca)} & {Devine(https://xxiivv.com)}, we have been sailing around the Pacific Ocean since 2016. Devine makes esoteric software, and Rekka writes and makes illustrations.
-    & Together, we work at a small research studio aboard a {sailboat(#pino)}, called Hundred Rabbits, where we do experiments in resilience and self-reliance using low-tech solutions. The ways in which we spend our time vary wildly from day to day, but we focus on experimental research. Our interests include alternative ways to store power and minimum viable solutions for technological tooling.
+    & Together, we work at a small research studio aboard a {sailboat(#pino)}, called Hundred Rabbits, where we do experiments in resilience and self-reliance using low-tech solutions. The ways in which we spend our time vary wildly from day to day, but we focus on experimental research. Our interests include alternative ways to store power and minimum viable solutions for technological tooling. Read more about our {design philosophy(#design philosophy)}
   Why a boat?
     % content/profile.pino.2.jpg
     & In 2012, we moved to Japan. Rekka was working in an animation studio, and Devine, in a company that makes language learning tools. On weekends and evenings, we worked on our first two games: {Hiversaires(https://hundredrabbits.itch.io/hiversaires)} and {Oquonie(http://oquonie.100r.co)} (the latter was completed in Thailand). 
     & After we returned to Canada in 2014, we decided that we wanted to keep moving, and so we looked at our options. Moving to a new country meant selling all we had, we'd done this countless times already, but we thought it wasteful. We then heard of people living on sailboats. We watched videos by <a href='https://www.youtube.com/watch?v=sF9TNM9R-iw'>David Wellsford</a>, <a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek'>Teresa Carey</a> and <a href='https://www.youtube.com/channel/UCkYfFeySHGN4DPrOc9So7PA'>Nike Steiger</a>, and became obssessed with the idea. Lack of experience aside, we thought that traveling was a good catalyst for learning new languages, for developing an interest in foreign cultures and ultimately for building empathy, curiosity, and creativity, traits that we will need to foster, as a species, if we want to survive the years to come.
     & In January 2016, we left the cold of Montreal and moved west to British Columbia. There, we purchased <a href='https://github.com/hundredrabbits/Pino/blob/master/README.md' target='_blank'>Pino</a> — keep in mind, we were a pair of city kids with limited outdoor experience, neither of us had ever stepped onto a sailboat before. That, did not deter us. We learned on the go, reading books and asking questions to other sailors on the docks. 
     & Our curiosity then led us to make our first trip out to sea, which escalated into a circumnagivation of the Pacific Ocean. 
-  What we learned
-    % content/profile.pino.jpg
-    & We learned many things in the last 4 years, on working and living off-grid:
-    & Open-source software is the way to go
-    - We made {Left(#left)}, {Ronin(#ronin)}, {Dotgrid(#dotgrid)} and {Orca(#orca)}, open-source tools that are suited for doing creative work on an off-grid system. At sea, we struggled with bloated battery-draining software, and with downloading the sizable updates necessary to keep them in working order. All this, on a bad internet connection. To keep functionning as a studio, we decided to make our own tools. To hell with closed-source subscription-based products that rely on a constant connection to function! 
-    & Work according to the available resources. 
-    - If we are somewhere off-grid with little internet we work on smaller projects. For example, we may choose to make a {book(#books)} instead of a game. When we don't have enough power from solar, either we don't work, or we use low-power devices like {raspberry Pi(raspberry)} computers. We also change our diet depending on where we are in the world. It's important to be adaptable, to not try and live like we did back at home. Doing that is costly to the environment, it's why it's better to choose local products that encourages the local economy. Not having exactly what we needed inspired creativity, it helped us learn about new materials and foods too. 
-    & Learn to repair.
-    - Things break/fail on boats all the time. We had to learn to repair everything ourselves, because in remote places we had to be self-sufficient. There is value in knowing how things work, not because you know how to fix them when/if they do break, but also because you can extend their life, save money and minimize waste in the process. 
-    & Work less.
-    - Owning and wanting less, translates into not spending as much, which in turn means we can work less too. 
-    @ "A man is wealthy in proportion to the things he can do without." | Epicurus
-    & Nature is everything.
-    - We, humans, don't exist outside of natural forces, the agent that is nature cannot be vanquished. We are not the point and purpose of the planet. A reconciliation with nature is necessary for our survival. When we started sailing, dependent on the sun, tossed by waves and propelled by the wind, we lived by nature's rules. We stopped experiencing the world through simulations and saw things for ourselves, rather than through screens. Spending time in nature also gave us the mindspace to think and to see what we wanted for ourselves.
-    @ "A man misses something by not establishing a participative and living relationship with the non-human world of animals and plants, landscapes and stars and seasons. By failing to be, vicariously, the not-self, he fails to be completely himself." | Aldous Huxley
   Goal
+    % content/profile.pino.jpg
     & Our goal, is to:
     - - See as much of the world as possible.
     - - Learn as many languages as possible.
     - - Facilitate the creation and acceleration of arts & sciences.
     - - Minimize pain and suffering.
     - - Create hardware & art that is environmentally sustainable.
-    & A nomadic life, we think is a way to inject some impermanence into our lives. To read more about our design philosophy, read our {mission statement(#mission)}. 
-  We are Solar Punks
-    @ "We're Solarpunks because the only other options are denial or despair." | {Adam Flynn(https://hieroglyph.asu.edu/2014/09/Solarpunk-notes-toward-a-manifesto/)}
-    & We are people who cherish both nature and progress, the individual and the community.
-    & We believe in a world that is green, colourful, and bright. It can be described as a literary genre, an aesthetic, or a movement. The key points are:
-    - - A demand for technology and society to re-centre around sustainability, longevity, and balance with an emphasis on renewable energy.
-    - - A focus on decentralisation, community activism, social justice and civic empowerment.
-    - - A recognition that economic, social, and ecological injustices are all deeply inter-connected.
-    & We, humans, are destroying the world because we are, in a very literal and deliberate way, at war with it. We need more than to be made to feel stupid and guilty. We need more than a vision of doom. We need a vision of the world and of ourselves that inspires us.
-    & Solarpunk is the opposite of cyberpunk's nihilism, offering “ingenuity, positive creation, independence, and community.”
+    & A nomadic life, we think is a way to inject some impermanence into our lives. For more information about our goals, read our {mission statement(#mission)}
   
   Follow us
     - Subscribe to our blog RSS Feed {here(http://100r.co/links/rss.xml)}.
@@ -126,6 +103,20 @@ LIBRARY
     - {How not to die(https://amzn.to/2lv0gvq)}, Michael Greger
   Affiliates
     & Amazon recognizes us for purchasing any of these books through these links.  
+
+DESIGN PHILOSOPHY
+  Our philosophy
+    & We build software following these rules: 
+  Accessibility
+    & We design our applications using the web technologies to be able to support as many devices as possible.
+  No DRM
+    & We design our tools for the future and will never release them behind any form of DRM(Digital rights management).
+  Lean
+    & We build simple tools running without dependencies designed to tackle specific tasks.
+  Freedom
+    & We release free and open-source programs so that they can be studied, inspected and repaired by anyone.
+  Linux
+    & We build for Linux first
 
 MISSION
   Open Source
