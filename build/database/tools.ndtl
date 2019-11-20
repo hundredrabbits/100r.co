@@ -21,9 +21,11 @@ RONIN
     - Usable across all platforms.
     - Offline-first.
     > <a class='live_button' href='https://hundredrabbits.github.io/Ronin' target='_blank'>Use Ronin Live</a>
-    & Because Ronin Live isn't available through a client, it is harder to receive donations. Donations mean we can spend time improving these tools, and offering support when needed. 
-    - Donate with {Paypal(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7NZHUNK2WGNJ&source=url)}
-    - Donate monthly with {Patreon(https://patreon.com/100)}.
+  Donations
+    & Because {*Ronin Live*} isn't available through a client, it is harder to receive donations. Donations mean we can spend time improving this tool, and offering support when needed. 
+    & Make a donation with...
+    - {Patreon(https://patreon.com/100)}
+    - {LiberaPay(https://liberapay.com/hundredrabbits/donate)}
   Trailer
     % youtube SgAWGh1s9zg
   Tutorial
@@ -35,6 +37,7 @@ RONIN
     & You can also {create(https://github.com/hundredrabbits/Themes#collection)} your own themes.
     & If you enjoy our content...
     > <a class='patreon_button' href='https://patreon.com/100'>Support Us On Patreon</a>
+  
 
 LEFT
   A minimalist text editor
@@ -49,6 +52,11 @@ LEFT
     & Left, reimagined as a creature. 
   Download
     % itchio 173127
+  Donations
+    & Donations mean we can spend time improving Left, and offering support when needed. 
+    & Make a donation with...
+    - {Patreon(https://patreon.com/100)}
+    - {LiberaPay(https://liberapay.com/hundredrabbits/donate)}
   Trailer
     % youtube QloUoqqhXGE
   Tutorial
@@ -139,9 +147,11 @@ DOTGRID
     - Usable across all platforms.
     - Offline-first.
     > <a class='live_button' href='https://hundredrabbits.github.io/Dotgrid' target='_blank'>Use Dotgrid Live</a>
-    & Because Dotgrid Live isn't available through a client, it is harder to receive donations. Donations mean we can spend time improving these tools, and offering support when needed. 
-    - Donate with {Paypal(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7NZHUNK2WGNJ&source=url)}
-    - Donate monthly with {Patreon(https://patreon.com/100)}.
+  Donations
+    & Because {*Dotgrid Live*} isn't available through a client, it is harder to receive donations. Donations mean we can spend time improving this tool, and offering support when needed. 
+    & Make a donation with...
+    - {Patreon(https://patreon.com/100)}
+    - {LiberaPay(https://liberapay.com/hundredrabbits/donate)}
   Trailer
     % youtube Xt1zYHhpypk
   Tutorial
@@ -266,9 +276,11 @@ ORCA
     - Usable across all platforms.
     - Offline-first.
     > <a class='live_button' href='https://hundredrabbits.github.io/Orca' target='_blank'>Use Orca Live</a>
-    & Because Orca Live isn't available through a client, it is harder to receive donations. Donations mean we can spend time improving these tools, and offering support when needed. 
-    - Donate with {Paypal(https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=B7NZHUNK2WGNJ&source=url)}
-    - Donate monthly with {Patreon(https://patreon.com/100)}.
+  Donations
+    & Because {*Orca Live*} isn't available through a client, it is harder to receive donations. Donations mean we can spend time improving this tool, and offering support when needed. 
+    & Make a donation with...
+    - {Patreon(https://patreon.com/100)}
+    - {LiberaPay(https://liberapay.com/hundredrabbits/donate)}
   Tutorial
     & Each letter of the alphabet is an operation, lowercase letters operate on bang, uppercase letters operate each frame.
     & To learn more:
