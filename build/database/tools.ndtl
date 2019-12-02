@@ -9,7 +9,7 @@ RONIN
     & Read more about our {design philosophy(#design philosophy)}
   Ronin
     % content/characters/ronin.idle.png medium
-    & Ronin, reimagined as a creature. 
+    & & Meet {*Robit*}, the mascot for Ronin. Robit is there to talk about updates relating to Ronin.
   Download
     % itchio 194632
   Web version 
@@ -49,7 +49,7 @@ LEFT
     & Read more about our {design philosophy(#design philosophy)}
   Left
     % content/characters/left.idle.png medium
-    & Left, reimagined as a creature. 
+    & & Meet {*Lefbit*}, the mascot for Left. Lefbit is there to talk about updates relating to Left.
   Download
     % itchio 173127
   Donations
@@ -135,7 +135,7 @@ DOTGRID
     & Read more about our {design philosophy(#design philosophy)}
   Dotgrid
     % content/characters/dotgrid.idle.png medium
-    & Dotgrid, reimagined as a creature. 
+    & & Meet {*Dotbit*}, the mascot for Dotgrid. Dotbit is there to talk about updates relating to Dotgrid.
   Download
     % itchio 190851
   Web version 
@@ -263,7 +263,7 @@ ORCA
     & Read more about our {design philosophy(#design philosophy)}
   Orca
     % content/characters/orca.idle.png medium
-    & Orca, reimagined as a creature. 
+    & Meet {*Orbit*}, the mascot for Orca. Orbit is there to talk about updates relating to Orca.
   Download
     & You can view the {sources(https://github.com/hundredrabbits/Orca)}, or {download builds(http://hundredrabbits.itch.io/Orca)} for OSX, Windows and Linux here: 
     % itchio 225814
@@ -295,7 +295,9 @@ ORCA
     & {*Watch a short video(https://twitter.com/neauoire/status/1129920308088066048)*} of Devine performing with ORCA at Algomech 2019.
     % content/tools/orca/orca.3.jpg
   Workshops
-    & If you want to organize an {*ORCΛ workshop*} in your area, let us know and we'll be happy to share it, but please <b>do not</b> charge attendees for access to the workshop. 
+    % content/tools/orca/orca.6.jpg
+    & (Workshop in Kobe, Japan. 30.11.19. Photo by {Kousei Ikeda(https://twitter.com/ikekou/status/1200746359776776193)} )
+    & If you want to organize an {*ORCΛ workshop*} in your area, let us know and we'll be happy to share it.
     & Keep an eye out for {upcoming workshop dates(https://100r.co/pages/press.html#workshops)}
     & Hundredrabbits is open to {hosting workshops(https://twitter.com/hundredrabbits/status/1130118973889163265)}, for travel opportunities contact us at 
     - hundredrabbits at gmail dot com
