@@ -29,7 +29,7 @@ function curlic (text = '', host) {
     const name = s.replace(`(${target})`, '').trim()
     const location = target.toLowerCase().replace(/ /g, '_').replace(/[^0-9a-z\+\:\-\.\/\_]/gi, '').trim()
 
-    return `<a href='${external ? target : location + '.html'}' target='${external ? '_blank' : '_self'}' class='${external ? 'external' : 'local'}' data-goto='${external ? '' : target}'>${name || target}</a>`
+    return `<a href='${external ? target : location + '.html'}' target='${external ? '_blank' : '_self'}' class='${external ? 'external' : 'local'}'>${name || target}</a>`
   }
 
   function parse (s) {

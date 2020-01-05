@@ -38,7 +38,7 @@ function runic (lines = [], templater = null, host = null) {
       const htm = templater ? templater(txt) : txt
       return `${acc}${r.tag ? `<${r.tag} class='${r.class ? r.class : ''}'>${htm}</${r.tag}>` : `${htm}`}`
     }, '')
-    return wr ? `${acc}<${wr} class='${wrClass || ''}'>${html}</${wr}>\n` : `${acc}${html}\n`
+    return wr ? `${acc}<${wr} class='${wrClass || ''}'>${html}</${wr}>` : `${acc}${html}`
   }
 
   // Templates
@@ -57,12 +57,12 @@ function runic (lines = [], templater = null, host = null) {
   function media (content) {
     const service = content.split(' ')[0]
     const id = content.split(' ')[1]
-    if (service === 'itchio') { return `<iframe frameborder="0" src="https://itch.io/embed/${id}?bg_color=000000&amp;fg_color=ffffff&amp;link_color=838383" width="600" height="167"></iframe>` }
-    if (service === 'bandcamp') { return `<iframe style="border: 0; width: 600px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=${id}/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/" seamless></iframe>` }
-    if (service === 'youtube') { return `<iframe width="100%" height="380" src="https://www.youtube.com/embed/${id}?rel=0" style="max-width:700px" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>` }
+    if (service === 'itchio') { return `<iframe frameborder='0' src='https://itch.io/embed/${id}?bg_color=000000&amp;fg_color=ffffff&amp;link_color=838383' width='600' height='167'></iframe>` }
+    if (service === 'bandcamp') { return `<iframe style='border: 0; width: 600px; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=${id}/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/' seamless></iframe>` }
+    if (service === 'youtube') { return `<iframe width='100%' height='380' src='https://www.youtube.com/embed/${id}?rel=0' style='max-width:700px' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>` }
     if (service === 'custom') { return `<iframe src='${id}' style='width:100%;height:350px;'></iframe>` }
     if (service === 'capsule') { return _capsule(content.replace('capsule', '').trim().split('|')) }
-    return `<img src='../media/${service}' class='${id}'/>`
+    return `<img src='../media/${service}'${id ? ` class='${id}'` : ''}/>`
   }
 
   function _capsule (parts) {
