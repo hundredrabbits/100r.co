@@ -28,7 +28,7 @@ body main > p b { font-weight: bold }
 body main > p i { line-height: 28px; font-size:18px; }
 body main > code { font-family: 'input_mono_regular'; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
 body main > code comment { color:#777; }
-
+body main > p.quote { padding: 30px;font-size: 20px;font-style: italic; max-width: 400px }
 body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 body main > ul.jump li::marker { color:#777; }
