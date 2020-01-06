@@ -40,18 +40,6 @@ body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-b
 body footer form *:first-child { padding-left:15px; }
 body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer; }
 
-
-/*
-
-@media (max-width: 600px) {
-  body.splash #wrapper form { display: none; }
-  body.splash #wrapper li#toggle { display: none; }
-  body.splash #wrapper #intro h1 { display: none; }
-
 @media (max-width: 900px) {
-  body #wrapper #core { margin-left:30px; max-width:100%; }
-  body #wrapper #navi { position: relative;top:0px;left:30px; padding-bottom: 60px }
-  body #wrapper ul.jump { columns: 2 !important }
+  body main > ul.jump { columns: 1 !important }
 }
-
-*/
