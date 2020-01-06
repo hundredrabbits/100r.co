@@ -19,6 +19,7 @@ body main img.medium {max-width: 300px;}
 body main > * { max-width: 600px; margin-bottom: 30px }
 body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize;  border-bottom:1.5px solid black; padding-bottom:30px; }
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
+body main > img { width:100%; max-width: 600px }
 body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
 body main > ul li {}
 body main > ul li a { text-transform: capitalize; text-decoration: underline; }
@@ -48,5 +49,6 @@ body footer form *:first-child { padding-left:15px; }
 body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer; }
 
 @media (max-width: 900px) {
+  body { padding: 30px; }
   body main > ul.jump { columns: 1 !important }
 }
