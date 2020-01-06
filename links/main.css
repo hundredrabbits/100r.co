@@ -1,5 +1,37 @@
-html { background:white; }
-body { background:#fff; color:#fff; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; }
+
+*           { margin:0;padding:0;border:0;outline:0;text-decoration:none;font-weight:inherit;font-style:inherit;color:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;list-style:none;border-collapse:separate;border-spacing:0; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+*:focus         { outline: none}
+::selection       { background: #eee; opacity:1.0; color:#000; padding:10px; /* Safari */ }
+
+@font-face { font-family: 'alte_haas_grotesk_regular'; src: url('../media/fonts/alte_haas_grotesk_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'alte_haas_grotesk_bold'; src: url('../media/fonts/alte_haas_grotesk_bold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'input_mono_regular'; src: url('../media/fonts/input_mono_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'input_mono_medium'; src: url('../media/fonts/input_mono_medium.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+html { background:black; }
+body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px; }
+
+body header a#logo { margin-top: -15px;display: block;margin-left: -25px;width: 100px; margin-bottom:15px; }
+body header a#logo img { width:100%; }
+
+body main > * { max-width: 600px; margin-bottom: 30px }
+body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize;  border-bottom:1.5px solid black; padding-bottom:30px; }
+body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
+body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
+body main > ul li {}
+body main > ul li a { text-transform: capitalize; text-decoration: underline; }
+body main > ul li:hover a { text-decoration: none; }
+body main > p { line-height: 28px; font-size:18px; }
+body main > p a { text-decoration: underline; }
+body main > p b { font-weight: bold }
+body main > p i { line-height: 28px; font-size:18px; }
+
+body main > ul.jump { columns:2; line-height: 20px}
+body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
+body main > ul.jump li::marker { color:#777; }
+body main > ul.jump li:hover { background:black; color:white; }
+
+/*
 
 body #world { opacity: 0; transition: opacity 2000ms; height:100vh; }
 body #world.ready { opacity: 1 }
@@ -97,3 +129,5 @@ body #wrapper #footer form input.button:hover { background:#555; cursor: pointer
   body #wrapper #navi { position: relative;top:0px;left:30px; padding-bottom: 60px }
   body #wrapper ul.jump { columns: 2 !important }
 }
+
+*/

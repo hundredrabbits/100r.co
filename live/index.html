@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Devine Lu Linvega, Rekka Bellum">
+  <meta name='description' content='The Nataniev Library(Static).'/>
+  <meta name='keywords' content='Solarpunk, Devine Lu Linvega, sailing in japan, Rekka Bellum, vegan, sailing, sailors, navigation, yamaha sailboat' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hundred Rabbits — Map</title>
+
+  <link rel="alternate"  type="application/rss+xml" title="Feed" href="../links/rss.xml" />
+  <link rel="stylesheet" type="text/css" href="links/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="links/fonts.css"/>
+  <link rel="stylesheet" type="text/css" href="links/main.css"/>
+  <script>const module = { exports: null }</script>
+  <script src="build/lib/indental.js" type="text/javascript"></script>
+  <script src="route.ndtl" type="text/javascript"></script>
+  <script src="tracker.js"></script>
+  <script src="map.js"></script>
+</head>
+<body class='splash'>
+  <div id='wrapper'>
+    <div id="world"></div>
+    <a id="logo" href="pages/blog.html"></a>
+    <div id="intro">
+      <h1>Hundred Rabbits</h1>
+      <p>We are <a href="pages/about_us.html">digital nomads</a>, living aboard a <a href='pages/pino.html'>sailboat</a>. Since February 2016, we have sailed <a id="distance" href='pages/blog.html'>0km</a> through 11 countries, making <a href='pages/tools.html'>open-source tools</a>, <a href='pages/games.html'>games</a>, <a href='pages/cooking.html'>recipes</a>, and <a href='pages/videos.html'>videos</a>.</p>
+    </div>
+    <ul id='social'>
+      <li><a href='https://twitter.com/hundredrabbits' class='twitter' target='_blank'></a></li>
+      <li><a href='https://github.com/hundredrabbits' class='github' target='_blank'></a></li>
+      <li><a href='https://patreon.com/100' class='patreon' target='_blank'></a></li>
+      <li id='toggle'><a onclick='map.toggle()'>Show Map</a></li>
+    </ul>
+    <form action="https://tinyletter.com/hundredrabbits" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/hundredrabbits', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <input type="email" value="" name="EMAIL" class="email" placeholder="email@address.com" required="">
+      <input type="submit" value="Subscribe" name="subscribe" class="button">
+    </form>
+  </div>
+  <script type="text/javascript">
+    const tracker = new Tracker(route)
+    tracker.start()
+
+    const element = document.getElementById('distance')
+
+    if(element){
+      element.innerHTML = tracker.payload.distance  
+    }
+
+    const map = new GoogleMap(tracker.payload)
+    
+    function initMap(){ 
+      setTimeout(() => { map.install() },500) 
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJGUAbOEvgg7cu_C0IIPVlvM0YXZk8we4&callback=initMap" async defer></script>
+</body>
+</html>
