@@ -17,6 +17,7 @@ body header a#logo img { width:100%; }
 body main > * { max-width: 600px; margin-bottom: 30px }
 body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize;  border-bottom:1.5px solid black; padding-bottom:30px; }
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
+body main > img { width:100%; max-width: 600px }
 body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
 body main > ul li {}
 body main > ul li a { text-transform: capitalize; text-decoration: underline; }
