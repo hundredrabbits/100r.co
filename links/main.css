@@ -20,11 +20,14 @@ body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvet
 body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
 body main > ul li {}
 body main > ul li a { text-transform: capitalize; text-decoration: underline; }
+body main > ul li b { font-weight: bold }
 body main > ul li:hover a { text-decoration: none; }
 body main > p { line-height: 28px; font-size:18px; }
 body main > p a { text-decoration: underline; }
 body main > p b { font-weight: bold }
 body main > p i { line-height: 28px; font-size:18px; }
+body main > code { font-family: 'input_mono_regular'; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
+body main > code comment { color:#777; }
 
 body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
@@ -36,6 +39,7 @@ body footer p { font-weight: bold }
 body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block; }
 body footer form *:first-child { padding-left:15px; }
 body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer; }
+
 
 /*
 
