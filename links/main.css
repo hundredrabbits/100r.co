@@ -14,6 +14,8 @@ body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "H
 body header a#logo { margin-top: -15px;display: block;margin-left: -25px;width: 100px; margin-bottom:15px; }
 body header a#logo img { width:100%; }
 
+body main img.capsule { width: 200px; }
+body main img.medium {max-width: 300px;}
 body main > * { max-width: 600px; margin-bottom: 30px }
 body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize;  border-bottom:1.5px solid black; padding-bottom:30px; }
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
@@ -33,6 +35,11 @@ body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 body main > ul.jump li::marker { color:#777; }
 body main > ul.jump li:hover { background:black; color:white; }
+body main a.button {background-color: #4ba091;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main a.button:hover {background-color: #727272;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main a.patreon_button {background-color: #e75942;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main a.patreon_button:hover {background-color: #727272;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+
 
 body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 120px; max-width: 600px }
 body footer p { font-weight: bold }
