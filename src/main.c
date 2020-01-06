@@ -104,15 +104,7 @@ void build_page(Page *page) {
   fclose(myfile);
 }
 
-int main(void) {
-  #include "categories.c"
-
-  int categories_len = sizeof categories / sizeof categories[0];
-
-  printf("Found categories: %d\n", categories_len);
-
-  // Home
-
+void build_home(Category **categories, int categories_len) {
   FILE *myfile = fopen("../site/home.html", "w");
 
   fprintf(myfile, html_head, "home", "home");
@@ -128,7 +120,8 @@ int main(void) {
       Page *page = category->pages[j];
       char page_index[STR_BUF_LEN];
       to_lowercase(page->name, page_index, STR_BUF_LEN);
-      fprintf(myfile, "<li><a href='%s.html'>%s</a></li>", page_index, page->name);
+      fprintf(myfile, "<li><a href='%s.html'>%s</a></li>", page_index,
+              page->name);
     }
     fputs("</ul>", myfile);
   }
@@ -139,8 +132,16 @@ int main(void) {
   fputs(html_footer, myfile);
 
   fclose(myfile);
+}
 
-  // Pages
+int main(void) {
+  #include "categories.c"
+
+  int categories_len = sizeof categories / sizeof categories[0];
+
+  printf("Found categories: %d\n", categories_len);
+
+  build_home(categories, categories_len);
 
   for (int i = 0; i < categories_len; ++i) {
     Category *category = categories[i];
