@@ -120,8 +120,7 @@ void build_home(Category **categories, int categories_len) {
       Page *page = category->pages[j];
       char page_index[STR_BUF_LEN];
       to_lowercase(page->name, page_index, STR_BUF_LEN);
-      fprintf(myfile, "<li><a href='%s.html'>%s</a></li>", page_index,
-              page->name);
+      fprintf(myfile, "<li><a href='%s.html'>%s</a></li>", page_index,page->name);
     }
     fputs("</ul>", myfile);
   }
