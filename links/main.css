@@ -35,10 +35,9 @@ body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 body main > ul.jump li::marker { color:#777; }
 body main > ul.jump li:hover { background:black; color:white; }
-body main a.button { background-color: #4ba091;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-body main a.button:hover {background-color: #727272;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-body main a.patreon_button {background-color: #e75942;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-body main a.patreon_button:hover {background-color: #727272;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main a.button { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; background-color: #000000;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main a.button:hover {background-color: #727272 !important;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main a.button.patreon { background-color: #e75942; }
 body main ul.gallery { background:none; }
 body main ul.gallery li { clear: both; display: block; border-bottom: 2px solid black; height: 170px; margin-top: -2px; }
 body main ul.gallery li:last-child { border-bottom: 0px; }
