@@ -120,11 +120,78 @@ add_page(&home, &store);
 
 Page library = create_page("library");
 add_part(&library, "pino book club", "<img src='../media/content/sailboat.library.jpg'/><p>When the weather permits, we read a lot on passage. We first started 'The Pino book club' during our transit from Mexico to the Marquesas. During nightwatches we'd read and discuss them the next morning over coffee. It was one of our favorite things to do. We also did this with podcasts. Here is a list of the books we've read during passages.</p>");
-add_part(&library, "canada to mexico", "<ul class='bullet'><li><a href='https://amzn.to/2k13ztL' target='_blank' class='external'>Guns, Germs & Steel</a>, Jared M. Diamond</li><li><a href='https://amzn.to/2lxEJlX' target='_blank' class='external'>The Box Wine Sailors</a>, Amy McCullough</li><li><a href='https://amzn.to/2lvgl4h' target='_blank' class='external'>Le Ton Beau De Marot</a>, Douglas Hofstadter</li><li><a href='https://amzn.to/2lvgcxL' target='_blank' class='external'>Beyond Good & Evil</a>, Friedrich Nietzche</li><li><a href='https://amzn.to/2lttM4H' target='_blank' class='external'>The Circle</a>, Dave Eggers</li><li><a href='https://amzn.to/2k1nhWe' target='_blank' class='external'>Pictures From The Water Trade</a>, John David Morley</li><li><a href='https://amzn.to/2l9l6Ae' target='_blank' class='external'>Rationality From AI to zombies</a>, Elizer Yudkowsky</li></ul>");
-add_part(&library, "mexico to marquesas", "<p>Passage length: 28 days</p><ul class='bullet'><li><a href='https://amzn.to/2lvOTDx' target='_blank' class='external'>A Universal History of Infamy</a>, Jorge Luis Borges</li><li><a href='https://amzn.to/2lva1d2' target='_blank' class='external'>Alice's adventures in Wonderland</a>, Lewis Caroll</li><li><a href='https://amzn.to/2ltsGpB' target='_blank' class='external'>Collected Short Stories</a>, Mark Twain</li><li><a href='https://amzn.to/2lvOAbR' target='_blank' class='external'>Ecce Homo</a>, Friedrich Nietzshe</li><li><a href='https://amzn.to/2lu8OCO' target='_blank' class='external'>Flatland</a>, Edwin Abbott</li><li><a href='https://amzn.to/2l9kYke' target='_blank' class='external'>Fourteen: A Daughter’s Memoir</a>, Michael Greger</li><li><a href='https://amzn.to/2lvdxEh' target='_blank' class='external'>How To Be a Woman</a>, Caitlin Moran</li><li><a href='https://amzn.to/2lv8HqA' target='_blank' class='external'>I hope I shall arrive soon</a>, Philip K. Dick</li><li>In Praise of Darkness: Jorge Luis Borges</li><li><a href='https://amzn.to/2lpmKOh' target='_blank' class='external'>Incognito</a>, David Eagleman</li><li><a href='https://amzn.to/2jWANup' target='_blank' class='external'>Kokoro</a>, Natsume Soseki</li><li><a href='https://amzn.to/2lpmEWV' target='_blank' class='external'>La conquete du pain</a>, Pyotr Kropotkin</li><li><a href='https://amzn.to/2ltqQoH' target='_blank' class='external'>Letter to My Father</a>, Franz Kafka</li><li><a href='https://amzn.to/2jYTP3a' target='_blank' class='external'>North to the night</a>, Alvah Simon</li><li>À nos amis: Comité invisible</li><li><a href='https://amzn.to/2lu6Q5o' target='_blank' class='external'>Predictably Irrational</a>, Dan Ariely</li><li><a href='https://amzn.to/2ltqi27' target='_blank' class='external'>Self Sufficient Sailor</a>, Lin and Larry Pardey</li><li><a href='https://amzn.to/2lvLrZB' target='_blank' class='external'>Storm tactics</a>, Lin & Larry Pardey</li><li><a href='https://amzn.to/2lvckNf' target='_blank' class='external'>Stiff</a>, Mary Roach</li><li><a href='https://amzn.to/2llAdGN' target='_blank' class='external'>The Alchemist</a>, Paulo Coelho</li><li><a href='https://amzn.to/2l8PpHi' target='_blank' class='external'>The Aleph & Other Stories</a>, Jorge Luis Borges</li><li><a href='https://amzn.to/2jWC5pd' target='_blank' class='external'>The Art of War</a>, Sun Tzu</li><li><a href='https://amzn.to/2lv68EY' target='_blank' class='external'>The China Study</a>, Colin Campbell</li><li><a href='https://amzn.to/2jWAKyH' target='_blank' class='external'>The Man in the High Castle</a>, Philip K. Dick</li><li><a href='https://amzn.to/2lvJAE7' target='_blank' class='external'>The Metamorphosis and Other Stories</a>, Franz Kafka</li><li><a href='https://amzn.to/2lv4FhW' target='_blank' class='external'>Travels in Hyperreality</a>, Umberto Eco</li><li><a href='https://amzn.to/2jWxdAt' target='_blank' class='external'>Walden and Civil Disobedience</a>, Henry David Thoreau</li></ul>");
-add_part(&library, "fiji to majuro", "<p>Passage length: 24 days</p><ul class='bullet'><li><a href='https://amzn.to/2lnee2g' target='_blank' class='external'>Animal Liberation</a>, Peter Singer</li><li><a href='https://amzn.to/2lv2Hhz' target='_blank' class='external'>Ishmael</a>, Daniel Quinn</li><li><a href='https://amzn.to/2lthsRZ' target='_blank' class='external'>Don't sleep, there are snakes</a>, Daniel L. Everett</li><li><a href='https://amzn.to/2k1pykf' target='_blank' class='external'>Godforsaken sea</a>, Derek Lundy</li><li><a href='https://amzn.to/2k0SqsV' target='_blank' class='external'>On Trails</a>, Robert Moor</li><li><a href='https://amzn.to/2lv4pzv' target='_blank' class='external'>Seraffyn's Oriental Adventure</a>, Lin Pardey</li><li><a href='https://amzn.to/2ltXqqy' target='_blank' class='external'>Aesop's fables</a>, Aesop</li><li><a href='https://amzn.to/2lxukGV' target='_blank' class='external'>The sixth extinction</a>, Elizabeth Kolbert</li><li><a href='https://amzn.to/2lahhe7' target='_blank' class='external'>The Tao of Pooh</a>, Benjamin Hoff</li><li><a href='https://amzn.to/2lkKumD' target='_blank' class='external'>The Futurological Congress</a>, Stanislaw Lem</li><li><a href='https://amzn.to/2Y2GY1V' target='_blank' class='external'>On Food And Cooking</a>, Harold McGee</li></ul>");
-add_part(&library, "majuro to ogasawara", "<p>Passage length: 21 days</p><ul class='bullet'><li><a href='https://amzn.to/2lv46ok' target='_blank' class='external'>The Japanese Art Of Decluttering</a>, Marie Kondo</li><li><a href='https://amzn.to/2ltXqqy' target='_blank' class='external'>Aesop's fables</a>, Aesop</li><li><a href='https://amzn.to/2lv3ora' target='_blank' class='external'>The Definitive H.P Lovecraft: 67 tales of horror</a>, H. P. Lovecraft</li></ul><p>Favorite stories: 'Cool Air', 'Herbert West Reanimator', 'The Evil Clergyman' & 'The Music oF Erich Zann'. Every evening after dinner, I'd make readings aloud of each story.</p><ul class='bullet'><li><a href='https://amzn.to/2lvIhVJ' target='_blank' class='external'>The Te of Piglet</a>, Benjamin Hoff</li></ul>");
-add_part(&library, "pino's permanent collection", "<p>Above are readings we've done at sea, not all were our favourites but here is a list of the books we keep on Pino.</p><ul class='bullet'><li><a href='https://amzn.to/2lxxsm9' target='_blank' class='external'>Le Città Invisibili</a>, Italo Calvino</li><li><a href='https://amzn.to/2jWxdAt' target='_blank' class='external'>Walden and Civil Disobedience</a>, Henry David Thoreau</li><li><a href='https://amzn.to/2lu273E' target='_blank' class='external'>North to the night</a>, Alvah Simon</li><li><a href='https://amzn.to/2lkS6pd' target='_blank' class='external'>Akira collection</a>, Katsuhiro Otomo</li><li><a href='https://amzn.to/2lxwJBr' target='_blank' class='external'>Flatland</a>, Edwin Abbott</li><li><a href='https://amzn.to/2Y2GY1V' target='_blank' class='external'>On Food And Cooking</a>, Harold McGee</li><li><a href='https://amzn.to/2lu12sC' target='_blank' class='external'>Le Matin Des Magiciens</a>, L. Pauwels & J. Bergier</li><li><a href='https://amzn.to/2lv0JOc' target='_blank' class='external'>Blumroch L'admirable</a>, Louis Pauwels</li><li><a href='https://amzn.to/2lvGPCL' target='_blank' class='external'>Cyberiada</a>, Stanislaw Lem</li><li><a href='https://amzn.to/2lv2Hhz' target='_blank' class='external'>Ishmael</a>, Daniel Quinn</li><li><a href='https://amzn.to/2jYvhYe' target='_blank' class='external'>Duck, death and the tulip</a>, Wolf Erlbruch</li><li><a href='https://amzn.to/2lv0gvq' target='_blank' class='external'>How not to die</a>, Michael Greger</li></ul>");
+add_part(&library, "canada to mexico", "<ul class='bullet'>"
+	"<li>Guns, Germs & Steel, Jared M. Diamond</li>"
+	"<li>The Box Wine Sailors, Amy McCullough</li>"
+	"<li>Le Ton Beau De Marot, Douglas Hofstadter</li>"
+	"<li>Beyond Good & Evil, Friedrich Nietzche</li>"
+	"<li>The Circle, Dave Eggers</li>"
+	"<li>Pictures From The Water Trade, John David Morley</li>"
+	"<li>Rationality From AI to zombies, Elizer Yudkowsky</li></ul>");
+add_part(&library, "mexico to marquesas", "<p>Passage length: 28 days</p>"
+	"<ul class='bullet'>"
+	"<li>A Universal History of Infamy, Jorge Luis Borges</li>"
+	"<li>Alice's adventures in Wonderland, Lewis Caroll</li>"
+	"<li>Collected Short Stories, Mark Twain</li>"
+	"<li>Ecce Homo, Friedrich Nietzshe</li>"
+	"<li>Flatland, Edwin Abbott</li>"
+	"<li>Fourteen: A Daughter’s Memoir, Leslie Johansen Nack</li>"
+	"<li>How not to die, Michael Greger </li>"
+	"<li>How To Be a Woman, Caitlin Moran</li>"
+	"<li>I hope I shall arrive soon, Philip K. Dick</li>"
+	"<li>In Praise of Darkness: Jorge Luis Borges</li>"
+	"<li>Incognito, David Eagleman</li>"
+	"<li>Kokoro, Natsume Soseki</li>"
+	"<li>La conquete du pain, Pyotr Kropotkin</li>"
+	"<li>Letter to My Father, Franz Kafka</li>"
+	"<li>North to the night, Alvah Simon</li>"
+	"<li>À nos amis: Comité invisible</li>"
+	"<li>Predictably Irrational, Dan Ariely</li>"
+	"<li>Self Sufficient Sailor, Lin and Larry Pardey</li>"
+	"<li>Storm tactics, Lin & Larry Pardey</li>"
+	"<li>Stiff, Mary Roach</li>"
+	"<li>The Alchemist, Paulo Coelho</li>"
+	"<li>The Aleph & Other Stories, Jorge Luis Borges</li>"
+	"<li>The Art of War, Sun Tzu</li>"
+	"<li>The China Study, Colin Campbell</li>"
+	"<li>The Man in the High Castle, Philip K. Dick</li>"
+	"<li>The Metamorphosis and Other Stories, Franz Kafka</li>"
+	"<li>Travels in Hyperreality, Umberto Eco</li>"
+	"<li>Walden and Civil Disobedience, Henry David Thoreau</li></ul>");
+add_part(&library, "fiji to majuro", "<p>Passage length: 24 days</p>"
+	"<ul class='bullet'>"
+	"<li>Animal Liberation, Peter Singer</li>"
+	"<li>Ishmael, Daniel Quinn</li>"
+	"<li>Don't sleep, there are snakes</a>, Daniel L. Everett</li>"
+	"<li>Godforsaken sea, Derek Lundy</li>"
+	"<li>On Trails, Robert Moor</li>"
+	"<li>Seraffyn's Oriental Adventure, Lin Pardey</li>"
+	"<li>Aesop's fables, Aesop</li>"
+	"<li>The sixth extinction, Elizabeth Kolbert</li>"
+	"<li>The Tao of Pooh, Benjamin Hoff</li>"
+	"<li>On Food And Cooking, Harold McGee</li></ul>");
+add_part(&library, "majuro to ogasawara", "<p>Passage length: 21 days</p>"
+	"<ul class='bullet'>"
+	"<li>The Japanese Art Of Decluttering</a>, Marie Kondo</li>"
+	"<li>Aesop's fables</a>, Aesop</li>"
+	"<li>The Definitive H.P Lovecraft: 67 tales of horror, H. P. Lovecraft</li></ul>"
+	"<p>Favorite stories: 'Cool Air', 'Herbert West Reanimator', 'The Evil Clergyman' & 'The Music oF Erich Zann'. Every evening after dinner, I'd make readings aloud of each story.</p>"
+	"<ul class='bullet'>"
+	"<li>The Te of Piglet</a>, Benjamin Hoff</li></ul>");
+add_part(&library, "pino's permanent collection", "<p>Above are readings we've done at sea, not all were our favourites but here is a list of the books we keep on Pino.</p>"
+"<ul class='bullet'>"
+"<li>Le Città Invisibili, Italo Calvino</li>"
+"<li>Walden and Civil Disobedience, Henry David Thoreau</li>"
+"<li>North to the night</a>, Alvah Simon</li>"
+"<li>Akira collection, Katsuhiro Otomo</li>"
+"<li>Flatland, Edwin Abbott</li>"
+"<li>>On Food And Cooking, Harold McGee</li>"
+"<li>Le Matin Des Magiciens, L. Pauwels & J. Bergier</li>"
+"<li>Blumroch L'admirable</a>, Louis Pauwels</li>"
+"<li>Cyberiada</a>, Stanislaw Lem</li>"
+"<li>Ishmael</a>, Daniel Quinn</li>"
+"<li>Duck, death and the tulip</a>, Wolf Erlbruch</li>"
+"<li>How not to die</a>, Michael Greger</li></ul>");
 add_part(&library, "affiliates", "<p>Amazon recognizes us for purchasing any of these books through these links.</p>");
 add_page(&home, &library);
 
