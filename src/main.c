@@ -76,7 +76,7 @@ void build_page(Page *page) {
   fputs("<main class='page'>", myfile);
   fprintf(myfile, "<h1>%s</h1>", page->name);
 
-  if (page->parts_len > 5) {
+  if (page->parts_len > 4) {
     fputs("<ul class='jump'>", myfile);
     for (int i = 0; i < page->parts_len; ++i) {
       char *part_name = page->parts_names[i];

@@ -10,14 +10,13 @@
 
 html { background:black; }
 body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px; }
-
+body hr { border:0; clear:both; }
 body header a#logo { margin-top: -15px;display: block;margin-left: -25px;width: 100px; margin-bottom:15px; }
 body header a#logo img { width:100%; }
-
-body main img.capsule { width: 200px; }
+body main img.capsule { width: 150px; }
 body main img.medium {max-width: 300px;}
 body main > * { max-width: 600px; margin-bottom: 30px }
-body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize;  border-bottom:1.5px solid black; padding-bottom:30px; }
+body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px; }
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
 body main > img { width:100%; max-width: 600px }
 body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
@@ -36,11 +35,17 @@ body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 body main > ul.jump li::marker { color:#777; }
 body main > ul.jump li:hover { background:black; color:white; }
-body main a.button {background-color: #4ba091;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main a.button { background-color: #4ba091;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
 body main a.button:hover {background-color: #727272;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
 body main a.patreon_button {background-color: #e75942;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
 body main a.patreon_button:hover {background-color: #727272;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-
+body main ul.gallery { background:none; }
+body main ul.gallery li { clear: both; display: block; border-bottom: 2px solid black; height: 170px; margin-top: -2px; }
+body main ul.gallery li:last-child { border-bottom: 0px; }
+body main ul.gallery li a { display: block; padding: 10px; }
+body main ul.gallery li img { width:150px; float:left; display: block ; margin-right: 15px;}
+body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size: 30px;text-transform: capitalize; line-height: 40px;max-width: 75%; margin-bottom: 10px; }
+body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; }
 
 body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 120px; max-width: 600px }
 body footer p { font-weight: bold }
