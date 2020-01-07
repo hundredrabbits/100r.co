@@ -192,7 +192,6 @@ add_part(&library, "pino's permanent collection", "<p>Above are readings we've d
 "<li>Ishmael</a>, Daniel Quinn</li>"
 "<li>Duck, death and the tulip</a>, Wolf Erlbruch</li>"
 "<li>How not to die</a>, Michael Greger</li></ul>");
-add_part(&library, "affiliates", "<p>Amazon recognizes us for purchasing any of these books through these links.</p>");
 add_page(&home, &library);
 
 Page press = create_page("press");
