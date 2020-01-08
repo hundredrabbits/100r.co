@@ -179,34 +179,88 @@ add_part(&library, "majuro to ogasawara", "<p>Passage length: 21 days</p>"
 	"<ul class='bullet'>"
 	"<li>The Te of Piglet</a>, Benjamin Hoff</li></ul>");
 add_part(&library, "pino's permanent collection", "<p>Above are readings we've done at sea, not all were our favourites but here is a list of the books we keep on Pino.</p>"
-"<ul class='bullet'>"
-"<li>Le Città Invisibili, Italo Calvino</li>"
-"<li>Walden and Civil Disobedience, Henry David Thoreau</li>"
-"<li>North to the night</a>, Alvah Simon</li>"
-"<li>Akira collection, Katsuhiro Otomo</li>"
-"<li>Flatland, Edwin Abbott</li>"
-"<li>>On Food And Cooking, Harold McGee</li>"
-"<li>Le Matin Des Magiciens, L. Pauwels & J. Bergier</li>"
-"<li>Blumroch L'admirable</a>, Louis Pauwels</li>"
-"<li>Cyberiada</a>, Stanislaw Lem</li>"
-"<li>Ishmael</a>, Daniel Quinn</li>"
-"<li>Duck, death and the tulip</a>, Wolf Erlbruch</li>"
-"<li>How not to die</a>, Michael Greger</li></ul>");
+	"<ul class='bullet'>"
+	"<li>Le Città Invisibili, Italo Calvino</li>"
+	"<li>Walden and Civil Disobedience, Henry David Thoreau</li>"
+	"<li>North to the night</a>, Alvah Simon</li>"
+	"<li>Akira collection, Katsuhiro Otomo</li>"
+	"<li>Flatland, Edwin Abbott</li>"
+	"<li>>On Food And Cooking, Harold McGee</li>"
+	"<li>Le Matin Des Magiciens, L. Pauwels & J. Bergier</li>"
+	"<li>Blumroch L'admirable</a>, Louis Pauwels</li>"
+	"<li>Cyberiada</a>, Stanislaw Lem</li>"
+	"<li>Ishmael</a>, Daniel Quinn</li>"
+	"<li>Duck, death and the tulip</a>, Wolf Erlbruch</li>"
+	"<li>How not to die</a>, Michael Greger</li></ul>");
 add_page(&home, &library);
 
 Page press = create_page("press");
-add_part(&press, "performances", "<ul class='bullet'><li><a href='https://reactday.berlin/' target='_blank' class='external'>React Day Berlin Afterparty</a>, Berlin, Germany, December 6th 2019.</li><li><a href='https://algomech.com/2019/events/orca/' target='_blank' class='external'>Algomech Festival</a>, Sheffield, UK, May 18th 2019.</li><li><a href='https://amazeberlin2019.sched.com/2019-04-11/overview' target='_blank' class='external'>Orca livecoding performance</a> by Johannes Knop, A MAZE, Berlin, 2019.</li></ul>");
-add_part(&press, "workshops", "<ul class='bullet'><li><a href='https://youtu.be/WIzI_PSBw6o' target='_blank' class='external'>Orca Workshop Foulab</a>, Montreal, Canada, October 25th 2019.</li><li><a href='https://algomech.com/2019/events/orca/' target='_blank' class='external'>Algomech Festival: Orca workshop</a>, Sheffield, UK, May 19th 2019.</li><li><a href='https://twitter.com/moxus' target='_blank' class='external'>Moxus</a> Orca workshop, <a href='https://twitter.com/KasaiSpace' target='_blank' class='external'>Kasai Space</a>, Tokyo, Japan, May 25th 2019.</li><li><a href='https://t.co/HQeuJvqO9J' target='_blank' class='external'>V.A.R workshop series</a> by <a href='https://www.meetup.com/fr-FR/creative-code-lyon/' target='_blank' class='external'>Creative code Lyon</a>, <a href='https://twitter.com/HallesFaubourg' target='_blank' class='external'>Les halles du Faubourg</a>, Lyon, France, June 14th 2019.</li></ul>");
-add_part(&press, "talks", "<ul class='bullet'><li><a href='https://youtu.be/BW32yUEymvU' target='_blank' class='external'>Independent artists who live and work online</a>, XOXO festival, Portland OR, 2019.</li><li><a href='https://youtu.be/WY5QwPBOsZY' target='_blank' class='external'>Digital Nomads</a>, Play by Play, New Zealand, 2018.</li><li><a href='https://www.youtube.com/watch?v=w5bbJcimCcs' target='_blank' class='external'>The frameworks for mystics</a>, A MAZE, Berlin, 2015.</li></ul>");
-add_part(&press, "features", "<ul class='bullet'><li><a href='https://www.geekzone.fr/2019/05/31/hundred-rabbits-rekka-devine/' target='_blank' class='external'>Le code qui venait de l'eau</a>, May 31, 2019, Geekzone.</li><li><a href='https://www.raspberrypi.org/blog/pino-smart-sailing-boat/' target='_blank' class='external'>Raspberry Pi aboard a smart sailboat</a>, April 4, 2018, Raspberri Pi blog.</li><li><a href='http://www.vice.com/read/the-nomads-of-game-development' target='_blank' class='external'>The Nomads of Game Development</a>, August 23, 2016, VICE.</li><li><a href='http://www.metronews.ca/features/vancouver/vancouvering/2016/08/12/boat-life-lures-new-generation-of-vancouver-romantics.html' target='_blank' class='external'>Life aboard a boat lures new generation of romantics</a>, Metro news.</li><li><a href='http://dailyhive.com/vancouver/two-canadian-game-developers-set-sail-around-the-world' target='_blank' class='external'>Two Canadian game developers set sail around the world</a>, July 12, 2016, Dailyhive.</li><li><a href='https://killscreen.com/articles/making-games-on-a-boat-to-get-back-that-feeling-of-being-l' target='_blank' class='external'>Making games on a sailboat</a>, April 19, 2016, Kill Screen.</li><li><a href='http://motherboard.vice.com/read/the-game-design-studio-on-a-boat' target='_blank' class='external'>A design studio on a sailboat</a>, December 12, 2015, Motherboard.</li><li><a href='https://killscreen.com/articles/devine-lu-linvega-nataniev-hiversaires/' target='_blank' class='external'>Can Devine create his own language? Or a new world?</a>, July 18, 2013, Kill Screen.</li></ul>");
-add_part(&press, "interviews", "<ul class='bullet'><li><a href='https://dev.to/gitnation/devine-lu-linvega-i-have-been-living-and-coding-on-a-sailboat-since-2016-54id' target='_blank' class='external'>I Have Been Living and Coding on a Sailboat Since 2016</a>, GitNation, October 5th, 2019.</li><li><a href='https://usesthis.com/interviews/devine.lu.linvega/' target='_blank' class='external'>Tools & techniques: Devine Lu Linvega</a>, Uses This, August 8th, 2019.</li><li><a href='https://usesthis.com/interviews/rekka.bell/' target='_blank' class='external'>Tools & techniques: Rekka Bell</a>, Uses This, July 2, 2019.</li><li><a href='https://itch.io/blog/15488/developing-games-and-tools-from-the-ocean-an-interview-with-hundred-rabbits' target='_blank' class='external'>Developing Games and Tools from the Ocean</a>, Itch.</li><li><a href='https://monochromatic.co/writing/interview-with-devine' target='_blank' class='external'>On Lifestyle</a>, Monochromatic.</li><li><a href='https://interfacelovers.com/interviews/devine-lu-linvega' target='_blank' class='external'>On Design</a>, Interface Lovers.</li></ul>");
-add_part(&press, "video", "<ul class='bullet'><li><a href='http://store.steampowered.com/app/494680' target='_blank' class='external'>Branching paths</a>(Steam), Independent.</li><li><a href='https://www.youtube.com/watch?v=Im8ZAuUlmYA' target='_blank' class='external'>In Our House</a>, Patreon.</li><li><a href='https://www.youtube.com/watch?v=8-Fztyz0oTU' target='_blank' class='external'>These coders live and work at sea</a>, Vocativ.</li></ul>");
-add_part(&press, "appearances", "<ul class='bullet'><li><a href='http://nykra.com' target='_blank' class='external'>NYKRA</a>, Endesga.</li><li><a href='http://tototemple.com' target='_blank' class='external'>Toto Temple Deluxe</a>, Juicy Beast.</li></ul>");
-add_part(&press, "print", "<ul class='bullet'><li><a href='https://www.latitude38.com/issues/may-2019/' target='_blank' class='external'>Digital Nomads</a>, May 1st 2019, p.107, Latitude 38 magazine.</li><li><a href='http://100r.co/media/content/press/press.pbo.JPG' target='_blank' class='external'>The Vlog Addict</a>, Practical Boat Owner magazine.</li><li><b>Rekka Bellum & Devine Lu Linvega: Deriveurs professionels</b>, n°292, March 1st 2014, p.69, Canard PC magazine.</li><li><a href='http://www.cookislandsnews.com/national/local/item/65279-digital-nomads-cross-the-pacific' target='_blank' class='external'>Cook Island News</a>, The Cook Island Newspaper.</li></ul>");
-add_part(&press, "podcasts", "<ul class='bullet'><li><a href='http://declandineen.com/checkpoints/kf54xkfyccgstbsbarnpb2nss3tcrw-ej3a7-9sadh-jxes2-crl62-58nhd-zex9e-r2pz9-7xztw-zk9db-wnxa7-j9mba-xr5xx-je849-nmgan-y75cn-rwapt-m97yr-nyhb6-mr2gx' target='_blank' class='external'>Episode #112: Devine Lu Linvega</a>, Checkpoints podcast.</li></ul>");
-add_part(&press, "oquonie", "<ul class='bullet'><li><a href='https://killscreen.com/articles/oquonie-maze-worth-entering/' target='_blank' class='external'>A maze worth entering</a>, Kill Screen.</li><li><a href='https://www.gamasutra.com/view/news/237028/Road_to_the_IGF_Devine_Lu_Linvega_and_Rekka_Bells_Oquonie.php' target='_blank' class='external'>Road to the IGF</a>, Gamasutra.</li><li><a href='http://indiegamemag.com/oquonie-review/' target='_blank' class='external'>A paradox</a>, Indiegame mag.</li><li><a href='https://www.cnet.com/news/oquonie-down-the-rabbit-hole/' target='_blank' class='external'>Oquonie: Down the rabbit hole</a>, Cnet.</li></ul>");
-add_part(&press, "donsol", "<ul class='bullet'><li><a href='https://www.rockpapershotgun.com/game/donsol/' target='_blank' class='external'>A deck of cards into a dungeon crawl</a>, RockPaperShotgun</li><li><a href='https://killscreen.com/articles/donsol/' target='_blank' class='external'>The latest place you can explore dungeons? A deck of cards</a>, Kill Screen.</li></ul>");
-add_part(&press, "hiversaires", "<ul class='bullet'><li><a href='https://www.theverge.com/2013/4/22/4252204/hiversaires-a-wordless-adventure-through-an-alien-world' target='_blank' class='external'>A worldless adventure through an alien world</a>, The Verge</li><li><a href='https://killscreen.com/articles/starship-damrey-hiversaires/' target='_blank' class='external'>Hiversaires rekindles the power of ignorance</a>, Kill Screen.</li></ul>");
+add_part(&press, "performances", 
+	"<ul class='bullet'>"
+	"<li><a href='https://reactday.berlin/' target='_blank' class='external'>React Day Berlin Afterparty</a>, Berlin, Germany, December 6th 2019.</li>"
+	"<li><a href='https://algomech.com/2019/events/orca/' target='_blank' class='external'>Algomech Festival</a>, Sheffield, UK, May 18th 2019.</li>"
+	"<li><a href='https://amazeberlin2019.sched.com/2019-04-11/overview' target='_blank' class='external'>Orca livecoding performance</a> by Johannes Knop, A MAZE, Berlin, 2019.</li></ul>");
+add_part(&press, "workshops", 
+	"<ul class='bullet'>"
+	"<li><a href='https://youtu.be/WIzI_PSBw6o' target='_blank' class='external'>Orca Workshop Foulab</a>, Montreal, Canada, October 25th 2019.</li>"
+	"<li><a href='https://algomech.com/2019/events/orca/' target='_blank' class='external'>Algomech Festival: Orca workshop</a>, Sheffield, UK, May 19th 2019.</li>"
+	"<li><a href='https://twitter.com/moxus' target='_blank' class='external'>Moxus</a> Orca workshop, <a href='https://twitter.com/KasaiSpace' target='_blank' class='external'>Kasai Space</a>, Tokyo, Japan, May 25th 2019.</li>"
+	"<li><a href='https://t.co/HQeuJvqO9J' target='_blank' class='external'>V.A.R workshop series</a> by <a href='https://www.meetup.com/fr-FR/creative-code-lyon/' target='_blank' class='external'>Creative code Lyon</a>, <a href='https://twitter.com/HallesFaubourg' target='_blank' class='external'>Les halles du Faubourg</a>, Lyon, France, June 14th 2019.</li></ul>");
+add_part(&press, "talks", 
+	"<ul class='bullet'>"
+	"<li><a href='https://youtu.be/BW32yUEymvU' target='_blank' class='external'>Independent artists who live and work online</a>, XOXO festival, Portland OR, 2019.</li>"
+	"<li><a href='https://youtu.be/WY5QwPBOsZY' target='_blank' class='external'>Digital Nomads</a>, Play by Play, New Zealand, 2018.</li>"
+	"<li><a href='https://www.youtube.com/watch?v=w5bbJcimCcs' target='_blank' class='external'>The frameworks for mystics</a>, A MAZE, Berlin, 2015.</li></ul>");
+add_part(&press, "features", 
+	"<ul class='bullet'>"
+	"<li><a href='https://www.geekzone.fr/2019/05/31/hundred-rabbits-rekka-devine/' target='_blank' class='external'>Le code qui venait de l'eau</a>, May 31, 2019, Geekzone.</li>"
+	"<li><a href='https://www.raspberrypi.org/blog/pino-smart-sailing-boat/' target='_blank' class='external'>Raspberry Pi aboard a smart sailboat</a>, April 4, 2018, Raspberri Pi blog.</li>"
+	"<li><a href='http://www.vice.com/read/the-nomads-of-game-development' target='_blank' class='external'>The Nomads of Game Development</a>, August 23, 2016, VICE.</li>"
+	"<li><a href='http://www.metronews.ca/features/vancouver/vancouvering/2016/08/12/boat-life-lures-new-generation-of-vancouver-romantics.html' target='_blank' class='external'>Life aboard a boat lures new generation of romantics</a>, Metro news.</li>"
+	"<li><a href='http://dailyhive.com/vancouver/two-canadian-game-developers-set-sail-around-the-world' target='_blank' class='external'>Two Canadian game developers set sail around the world</a>, July 12, 2016, Dailyhive.</li>"
+	"<li><a href='https://killscreen.com/articles/making-games-on-a-boat-to-get-back-that-feeling-of-being-l' target='_blank' class='external'>Making games on a sailboat</a>, April 19, 2016, Kill Screen.</li>"
+	"<li><a href='http://motherboard.vice.com/read/the-game-design-studio-on-a-boat' target='_blank' class='external'>A design studio on a sailboat</a>, December 12, 2015, Motherboard.</li>"
+	"<li><a href='https://killscreen.com/articles/devine-lu-linvega-nataniev-hiversaires/' target='_blank' class='external'>Can Devine create his own language? Or a new world?</a>, July 18, 2013, Kill Screen.</li></ul>");
+add_part(&press, "interviews", 
+	"<ul class='bullet'>"
+	"<li><a href='https://dev.to/gitnation/devine-lu-linvega-i-have-been-living-and-coding-on-a-sailboat-since-2016-54id' target='_blank' class='external'>I Have Been Living and Coding on a Sailboat Since 2016</a>, GitNation, October 5th, 2019.</li>"
+	"<li><a href='https://usesthis.com/interviews/devine.lu.linvega/' target='_blank' class='external'>Tools & techniques: Devine Lu Linvega</a>, Uses This, August 8th, 2019.</li>"
+	"<li><a href='https://usesthis.com/interviews/rekka.bell/' target='_blank' class='external'>Tools & techniques: Rekka Bell</a>, Uses This, July 2, 2019.</li>"
+	"<li><a href='https://itch.io/blog/15488/developing-games-and-tools-from-the-ocean-an-interview-with-hundred-rabbits' target='_blank' class='external'>Developing Games and Tools from the Ocean</a>, Itch.</li>"
+	"<li><a href='https://monochromatic.co/writing/interview-with-devine' target='_blank' class='external'>On Lifestyle</a>, Monochromatic.</li>"
+	"<li><a href='https://interfacelovers.com/interviews/devine-lu-linvega' target='_blank' class='external'>On Design</a>, Interface Lovers.</li></ul>");
+add_part(&press, "video", 
+	"<ul class='bullet'>"
+	"<li><a href='http://store.steampowered.com/app/494680' target='_blank' class='external'>Branching paths</a>(Steam), Independent.</li>"
+	"<li><a href='https://www.youtube.com/watch?v=Im8ZAuUlmYA' target='_blank' class='external'>In Our House</a>, Patreon.</li>"
+	"<li><a href='https://www.youtube.com/watch?v=8-Fztyz0oTU' target='_blank' class='external'>These coders live and work at sea</a>, Vocativ.</li></ul>");
+add_part(&press, "appearances", 
+	"<ul class='bullet'>"
+	"<li><a href='http://nykra.com' target='_blank' class='external'>NYKRA</a>, Endesga.</li>"
+	"<li><a href='http://tototemple.com' target='_blank' class='external'>Toto Temple Deluxe</a>, Juicy Beast.</li></ul>");
+add_part(&press, "print", 
+	"<ul class='bullet'>"
+	"<li><a href='https://www.latitude38.com/issues/may-2019/' target='_blank' class='external'>Digital Nomads</a>, May 1st 2019, p.107, Latitude 38 magazine.</li>"
+	"<li><a href='http://100r.co/media/content/press/press.pbo.JPG' target='_blank' class='external'>The Vlog Addict</a>, Practical Boat Owner magazine.</li>"
+	"<li><b>Rekka Bellum & Devine Lu Linvega: Deriveurs professionels</b>, n°292, March 1st 2014, p.69, Canard PC magazine.</li>"
+	"<li><a href='http://www.cookislandsnews.com/national/local/item/65279-digital-nomads-cross-the-pacific' target='_blank' class='external'>Cook Island News</a>, The Cook Island Newspaper.</li></ul>");
+add_part(&press, "podcasts", 
+	"<ul class='bullet'>"
+	"<li><a href='http://declandineen.com/checkpoints/kf54xkfyccgstbsbarnpb2nss3tcrw-ej3a7-9sadh-jxes2-crl62-58nhd-zex9e-r2pz9-7xztw-zk9db-wnxa7-j9mba-xr5xx-je849-nmgan-y75cn-rwapt-m97yr-nyhb6-mr2gx' target='_blank' class='external'>Episode #112: Devine Lu Linvega</a>, Checkpoints podcast.</li></ul>");
+add_part(&press, "oquonie", 
+	"<ul class='bullet'>"
+	"<li><a href='https://killscreen.com/articles/oquonie-maze-worth-entering/' target='_blank' class='external'>A maze worth entering</a>, Kill Screen.</li>"
+	"<li><a href='https://www.gamasutra.com/view/news/237028/Road_to_the_IGF_Devine_Lu_Linvega_and_Rekka_Bells_Oquonie.php' target='_blank' class='external'>Road to the IGF</a>, Gamasutra.</li>"
+	"<li><a href='http://indiegamemag.com/oquonie-review/' target='_blank' class='external'>A paradox</a>, Indiegame mag.</li>"
+	"<li><a href='https://www.cnet.com/news/oquonie-down-the-rabbit-hole/' target='_blank' class='external'>Oquonie: Down the rabbit hole</a>, Cnet.</li></ul>");
+add_part(&press, "donsol", 
+	"<ul class='bullet'>"
+	"<li><a href='https://www.rockpapershotgun.com/game/donsol/' target='_blank' class='external'>A deck of cards into a dungeon crawl</a>, RockPaperShotgun</li>"
+	"<li><a href='https://killscreen.com/articles/donsol/' target='_blank' class='external'>The latest place you can explore dungeons? A deck of cards</a>, Kill Screen.</li></ul>");
+add_part(&press, "hiversaires", 
+	"<ul class='bullet'>"
+	"<li><a href='https://www.theverge.com/2013/4/22/4252204/hiversaires-a-wordless-adventure-through-an-alien-world' target='_blank' class='external'>A worldless adventure through an alien world</a>, The Verge</li>"
+	"<li><a href='https://killscreen.com/articles/starship-damrey-hiversaires/' target='_blank' class='external'>Hiversaires rekindles the power of ignorance</a>, Kill Screen.</li></ul>");
 add_page(&home, &press);
 
 //Mie, Japan.
