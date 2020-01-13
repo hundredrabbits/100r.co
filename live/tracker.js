@@ -6,6 +6,7 @@ function Tracker (route) {
   this.start = function () {
     console.info('Starting Tracker')
     this.update()
+    document.getElementById('details').innerHTML = `${this}`
   }
 
   this.update = function () {
@@ -59,14 +60,14 @@ function Tracker (route) {
     var coordinates = []
     // Last location
     coordinates.push(this.here())
-    // Chichijima
-    // coordinates.push({ lat: 27.079352, lng: 142.204142 })
-    // Wakayama
-    // coordinates.push({ lat: 33.534494, lng: 135.492981 })
-    // Osaka Bay
-    // coordinates.push({ lat: 34.336973, lng: 135.178785 })
-    //
     return coordinates
+  }
+
+  this.toString = () => {
+    const dates = Object.keys(route)
+    const lastUpdate = dates[0]
+    const lastPosition = route[lastUpdate]
+    return `<a href='../index.html'>Location: ${lastPosition.NAME}<br />Sailed: ${this.payload.distance}<br />${lastUpdate}</a>`
   }
 
   function convert (pos) {

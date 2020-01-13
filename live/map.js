@@ -48,40 +48,6 @@ function GoogleMap (payload) {
     for (const id in futureVertices) {
       addMarker(map, futureVertices[id])
     }
-
-    setTimeout(() => { this.show(element) }, 1000)
-  }
-
-  this.show = function (element) {
-    console.info('Showing Map')
-    element.className = 'ready'
-
-    if (window.location.hash === '#map') {
-      this.hideMenu()
-    } else {
-      this.showMenu()
-    }
-  }
-
-  this.toggle = function () {
-    const wrapper = document.getElementById('wrapper')
-    if (wrapper.className === 'view') {
-      this.showMenu()
-    } else {
-      this.hideMenu()
-    }
-  }
-
-  this.showMenu = function () {
-    console.log('Showing Menu')
-    document.getElementById('wrapper').className = ''
-    document.getElementById('toggle').innerHTML = `<a onclick='map.toggle()'>Hide Menu</a>`
-  }
-
-  this.hideMenu = function () {
-    console.log('Hidding Menu')
-    document.getElementById('wrapper').className = 'view'
-    document.getElementById('toggle').innerHTML = `<a onclick='map.toggle()'>Show Menu</a>`
   }
 
   function addMarker (map, pos, icon = { path: google.maps.SymbolPath.CIRCLE, strokeColor: 'red', scale: 2, strokeWeight: 0, fillOpacity: 1, fillColor: 'white' }) {
