@@ -167,7 +167,7 @@ void build_rss(Category *blog){
     fprintf(f, "  <guid isPermaLink='false'>%s</guid>\n", filename);
     fprintf(f, "  <pubDate>%s 00:00:00 GMT</pubDate>\n", page->date);
     fputs("  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>\n", f);
-    fputs("  </description>\n", f);
+    fputs("  <description>\n", f);
     fprintf(f, "<![CDATA[%s]]>\n", page->parts_descriptions[0]);    
     fputs("  </description>\n", f);
     fputs("</item>\n", f);
