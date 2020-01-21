@@ -18,6 +18,7 @@ body main img.medium {max-width: 300px;}
 body main > * { max-width: 600px; margin-bottom: 30px }
 body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px; }
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
+body main > h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; }
 body main > img { width:100%; max-width: 600px }
 body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
 body main > ul li {}
