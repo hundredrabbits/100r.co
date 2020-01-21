@@ -168,7 +168,7 @@ void build_rss(Category *blog){
     fprintf(f, "  <pubDate>%s 00:00:00 GMT</pubDate>\n", page->date);
     fputs("  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>\n", f);
     fputs("  <description>\n", f);
-    fprintf(f, "<![CDATA[%s]]>\n", page->parts_descriptions[0]);    
+    fprintf(f, "<![CDATA[%s<p><a href='%s'>Continue Reading</a></p>]]>\n", page->parts_descriptions[0], filepath);
     fputs("  </description>\n", f);
     fputs("</item>\n", f);
   }
