@@ -27,6 +27,8 @@ void to_lowercase(char *str, char *target, size_t tsize) {
 
 typedef struct {
   char *name;
+  char *date;
+  char *location;
   int parts_len;
   char *parts_names[32];
   char *parts_descriptions[32];
@@ -48,6 +50,8 @@ Category create_category(char *name) {
 Page create_page(char *name) {
   Page a;
   a.name = name;
+  a.date = NULL;
+  a.location = NULL;
   a.parts_len = 0;
   return a;
 }
@@ -63,28 +67,36 @@ void add_page(Category *category, Page *page) {
   category->pages_len++;
 }
 
+void set_date(Page *page, char *date){
+  page->date = date;
+}
+
+void set_location(Page *page, char *location){
+  page->location = location;
+}
+
 void build_page(Page *page) {
   char filename[STR_BUF_LEN];
   to_lowercase(page->name, filename, STR_BUF_LEN);
   char filepath[STR_BUF_LEN];
   snprintf(filepath, STR_BUF_LEN, "../site/%s.html", filename);
-  FILE *myfile = fopen(filepath, "w");
+  FILE *f = fopen(filepath, "w");
 
-  fprintf(myfile, html_head, page->name, "page");
-  fputs(html_header, myfile);
+  fprintf(f, html_head, page->name, "page");
+  fputs(html_header, f);
 
-  fputs("<main class='page'>", myfile);
-  fprintf(myfile, "<h1>%s</h1>", page->name);
+  fputs("<main class='page'>", f);
+  fprintf(f, "<h1>%s</h1>", page->name);
 
   if (page->parts_len > 4) {
-    fputs("<ul class='jump'>", myfile);
+    fputs("<ul class='jump'>", f);
     for (int i = 0; i < page->parts_len; ++i) {
       char *part_name = page->parts_names[i];
       char part_index[STR_BUF_LEN];
       to_lowercase(part_name, part_index, STR_BUF_LEN);
-      fprintf(myfile, "<li><a href='#%s'>%s</a></li>", part_index, part_name);
+      fprintf(f, "<li><a href='#%s'>%s</a></li>", part_index, part_name);
     }
-    fputs("</ul>", myfile);
+    fputs("</ul>", f);
   }
 
   for (int i = 0; i < page->parts_len; ++i) {
@@ -92,45 +104,77 @@ void build_page(Page *page) {
     char *part_description = page->parts_descriptions[i];
     char part_index[STR_BUF_LEN];
     to_lowercase(part_name, part_index, STR_BUF_LEN);
-    fprintf(myfile, "<h2 id='%s'>%s</h2>", part_index, part_name);
-    fputs(part_description, myfile);
+    fprintf(f, "<h2 id='%s'>%s</h2>", part_index, part_name);
+    fputs(part_description, f);
   }
 
-  fputs("<hr/>", myfile);
-  fputs("</main>", myfile);
+  fputs("<hr/>", f);
+  fputs("</main>", f);
 
-  fputs(html_footer, myfile);
+  fputs(html_footer, f);
 
-  fclose(myfile);
+  fclose(f);
 }
 
 void build_home(Category **categories, int categories_len) {
-  FILE *myfile = fopen("../site/home.html", "w");
+  FILE *f = fopen("../site/home.html", "w");
 
-  fprintf(myfile, html_head, "home", "home");
-  fputs(html_header, myfile);
+  fprintf(f, html_head, "home", "home");
+  fputs(html_header, f);
 
-  fputs("<main class='home'>", myfile);
+  fputs("<main class='home'>", f);
 
   for (int i = 0; i < categories_len; ++i) {
     Category *category = categories[i];
-    fprintf(myfile, "<h2>%s</h2>", category->name);
-    fputs("<ul>", myfile);
+    fprintf(f, "<h2>%s</h2>", category->name);
+    fputs("<ul>", f);
     for (int j = 0; j < category->pages_len; ++j) {
       Page *page = category->pages[j];
       char page_index[STR_BUF_LEN];
       to_lowercase(page->name, page_index, STR_BUF_LEN);
-      fprintf(myfile, "<li><a href='%s.html'>%s</a></li>", page_index,page->name);
+      fprintf(f, "<li><a href='%s.html'>%s</a></li>", page_index,page->name);
     }
-    fputs("</ul>", myfile);
+    fputs("</ul>", f);
   }
 
-  fputs("<hr/>", myfile);
-  fputs("</main>", myfile);
+  fputs("<hr/>", f);
+  fputs("</main>", f);
 
-  fputs(html_footer, myfile);
+  fputs(html_footer, f);
 
-  fclose(myfile);
+  fclose(f);
+}
+
+void build_rss(Category *blog){
+  FILE *f = fopen("../links/rss.xml", "w");
+
+  fputs("<?xml version='1.0' encoding='UTF-8' ?><rss version='2.0' xmlns:dc='http://purl.org/dc/elements/1.1/'>", f);
+  fputs("<channel>", f);
+  fputs("<title>Hundred Rabbits — Journal</title>", f);
+  fputs("<link><![CDATA[https://100r.co/blog]]></link>", f);
+  fputs("<description>The Rabbits' Journal</description>\n", f);
+
+  for (int i = 0; i < blog->pages_len; ++i) {
+    Page *page = blog->pages[i];
+    if(!page->date){ printf("Missing date for %s\n", page->name); continue; }
+    char filename[STR_BUF_LEN];
+    to_lowercase(page->name, filename, STR_BUF_LEN);
+    char filepath[STR_BUF_LEN];
+    snprintf(filepath, STR_BUF_LEN, "https://100r.co/site/%s.html", filename);
+    fputs("<item>\n", f);
+    fprintf(f, "  <title>%s</title>\n", page->name);
+    fprintf(f, "  <link>%s</link>\n", filepath);
+    fprintf(f, "  <guid isPermaLink='false'>%s</guid>\n", filename);
+    fprintf(f, "  <pubDate>%s 00:00:00 GMT</pubDate>\n", page->date);
+    fputs("  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>\n", f);
+    fputs("  </description>\n", f);
+    fprintf(f, "<![CDATA[%s]]>\n", page->parts_descriptions[0]);    
+    fputs("  </description>\n", f);
+    fputs("</item>\n", f);
+  }
+  fputs("</channel>", f);
+  fputs("</rss>", f);
+  fclose(f);
 }
 
 int main(void) {
@@ -149,6 +193,8 @@ int main(void) {
       build_page(page);
     }
   }
+
+  build_rss(&blog);
 
   return (0);
 }
