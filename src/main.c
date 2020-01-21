@@ -153,7 +153,6 @@ void build_rss(Category *blog){
   fputs("<title>Hundred Rabbits</title>\n", f);
   fputs("<link><![CDATA[https://100r.co/blog]]></link>\n", f);
   fputs("<description>Rekka and Devine Travel Diary</description>\n", f);
-  fputs("<atom:link href='http://100r.co/links/rss.xml' rel='self' type='application/rss+xml' />\n", f);
 
   for (int i = 0; i < blog->pages_len; ++i) {
     Page *page = blog->pages[i];
