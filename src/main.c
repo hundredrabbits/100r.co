@@ -149,10 +149,11 @@ void build_rss(Category *blog){
   FILE *f = fopen("../links/rss.xml", "w");
 
   fputs("<?xml version='1.0' encoding='UTF-8' ?><rss version='2.0' xmlns:dc='http://purl.org/dc/elements/1.1/'>", f);
-  fputs("<channel>", f);
-  fputs("<title>Hundred Rabbits — Journal</title>", f);
-  fputs("<link><![CDATA[https://100r.co/blog]]></link>", f);
-  fputs("<description>The Rabbits' Journal</description>\n", f);
+  fputs("<channel>\n", f);
+  fputs("<title>Hundred Rabbits</title>\n", f);
+  fputs("<link><![CDATA[https://100r.co/blog]]></link>\n", f);
+  fputs("<description>Rekka and Devine Travel Diary</description>\n", f);
+  fputs("<atom:link href='http://100r.co/links/rss.xml' rel='self' type='application/rss+xml' />\n", f);
 
   for (int i = 0; i < blog->pages_len; ++i) {
     Page *page = blog->pages[i];
