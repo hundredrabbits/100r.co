@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#define PARTS_BUFFER 36
+#define PAGES_BUFFER 36
 #define STR_BUF_LEN 64
 
 char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Hundred Rabbits is a digital studio aboard a sailboat.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@hundredrabbits'><meta name='twitter:title' content='Hundred Rabbits'><meta name='twitter:description' content='Hundredrabbits create open source low-power hardware, tools and toys aboard a sailboat.'><meta name='twitter:creator' content='@hundredrabbits'><meta name='twitter:image' content='https://100r.co/media/services/icon.jpg'><meta property='og:title' content='Hundred Rabbits'><meta property='og:type' content='article'><meta property='og:url' content='https://100r.co/'><meta property='og:image' content='https://100r.co/media/services/icon.jpg'><meta property='og:description' content='Hundredrabbits create open source low-power hardware, tools and toys aboard a sailboat named Pino'><meta property='og:site_name' content='Hundred Rabbits'><link rel='alternate' type='application/rss+xml' title='Hundred Rabbits Journal' href='http://100r.co/links/rss.xml' /><title>Hundred Rabbits — %s</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body class='%s'>";
@@ -30,14 +32,14 @@ typedef struct {
   char *date;
   char *location;
   int parts_len;
-  char *parts_names[32];
-  char *parts_descriptions[32];
+  char *parts_names[PARTS_BUFFER];
+  char *parts_descriptions[PARTS_BUFFER];
 } Page;
 
 typedef struct {
   char *name;
   int pages_len;
-  Page *pages[32];
+  Page *pages[PAGES_BUFFER];
 } Category;
 
 Category create_category(char *name) {
@@ -57,12 +59,20 @@ Page create_page(char *name) {
 }
 
 void add_part(Page *page, char *name, char *description) {
+  if(page->parts_len >= PARTS_BUFFER){ 
+    printf("Reached PARTS_BUFFER\n");
+    return;
+  }
   page->parts_names[page->parts_len] = name;
   page->parts_descriptions[page->parts_len] = description;
   page->parts_len++;
 }
 
 void add_page(Category *category, Page *page) {
+  if(category->pages_len >= PAGES_BUFFER){ 
+    printf("Reached PAGES_BUFFER\n");
+    return;
+  }
   category->pages[category->pages_len] = page;
   category->pages_len++;
 }
