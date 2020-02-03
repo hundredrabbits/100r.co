@@ -637,14 +637,13 @@ add_page(&tools, &orca);
 
 Page nasu = create_page("nasu");
 add_part(&nasu, "introduction", "<img src='../media/content/tools/nasu/nasu.1.jpg'/><p><a href='https://hundredrabbits.itch.io/nasu' target='_blank' class='external'>Nasu</a> is a spritesheet and nametable editor created to help us design and assemble the assets of our famicon games. It can import and export both .chr spritesheets and .asm nametables.</p>");
+add_part(&nasu, "nasu", "<img src='../media/content/characters/nasu.idle.png' class='medium'/><p>Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates relating to Nasu.</p>");
 add_part(&nasu, "Sprite Editor", "<p>The viewport is divided into 3 regions, the <b>sprite editor</b>, the <b>tile selector</b> and the <b>nametable editor</b>. The <b>Sprite Editor</b> allows you to see 16 tiles at once, and paint sprites in 4 colors. You can navigate the sprite editor with the w, a, s & d keys.</p>");
 add_part(&nasu, "Tile Editor", "<p>The <b>Tile Editor</b> shows you 512 sprites, or 256 sprites per page. To toggle between the two pages in memory, use the tab key, and to move the selected tile, use the arrow keys.</p>");
 add_part(&nasu, "Nametable Editor", "<p>The <b>Nametable Editor</b> shows you the full 32x30 available nametable. Select a sprite in the Tile Editor and click on the nametable editor to paint it.</p>");
-add_part(&nasu, "nasu", "<img src='../media/content/characters/nasu.idle.png' class='medium'/><p>Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates relating to Nasu.</p>");
 add_part(&nasu, "download", MODITCHIO("560470"));
+add_part(&nasu, "community", "<p>If you don't wish to download the build(60mb), we recommend that you instead download the <a href='https://github.com/hundredrabbits/Nasu/archive/master.zip' target='_blank'>source files</a>(100kb) and use the application directly into your web browser. If you have access to a reliable internet connection, you can <a href='https://hundredrabbits.github.io/Nasu/' target='_blank'>use Nasu in your browser</a>. If you find a bug or would like to suggest an improvement, open an <a href='https://github.com/hundredrabbits/nasu/issues' target='_blank'>issue</a>.</p>");
 add_page(&tools, &nasu);
-
-// https://hundredrabbits.github.io/Nasu/
 
 Category games = create_category("games");
 Page markl = create_page("markl");
