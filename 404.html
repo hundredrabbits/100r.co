@@ -31,7 +31,7 @@ permalink: /404.html
     }
 
     function toFilename(str){
-      return `${str}`.replace('#','').replace(/[\W_]+/g,"_").toLowerCase().trim()
+      return `${str}`.replace('#','').replace('.html','').replace(/[\W_]+/g,"_").toLowerCase().trim()
     }
   </script>
 </body>
