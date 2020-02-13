@@ -13,7 +13,7 @@ permalink: /404.html
   <script>
     'use strict'
 
-    const parts = window.location.pathname.split("/")
+    const parts = window.location.pathname.replace('/pages/','/site/').split("/")
     const target = parts.slice(-1)
     const filename = toFilename(target[0])
     const filepath = `https://100r.co/site/${filename}.html`
