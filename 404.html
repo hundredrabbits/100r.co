@@ -16,6 +16,7 @@ permalink: /404.html
     const parts = window.location.pathname.replace('/pages/','/site/').split("/")
     const target = parts.slice(-1)
     const filename = toFilename(target[0])
+    console.log(`Looking for ${filename}..`)
     const filepath = `https://100r.co/site/${filename}.html`
 
     if(UrlExists(filepath)){
