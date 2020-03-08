@@ -190,7 +190,7 @@ add_part(&library, "majuro to ogasawara", "<p>Passage length: 21 days</p>"
 	"<p>Favorite stories: 'Cool Air', 'Herbert West Reanimator', 'The Evil Clergyman' & 'The Music oF Erich Zann'. Every evening after dinner, I'd make readings aloud of each story.</p>"
 	"<ul>"
 	"<li>The Te of Piglet</a>, Benjamin Hoff</li></ul>");
-add_part(&library, "pino's permanent collection", "<p>Above are readings we've done at sea, not all were our favourites but here is a list of the books we keep on Pino.</p>"
+add_part(&library, "pino's permanent collection", "<img src='../media/content/sailboat.library2.jpeg'/><p>Above are readings we've done at sea, not all were our favourites but here is a list of the books we keep on Pino.</p>"
 	"<ul>"
 	"<li>Dracula, Bram Stoker</li>"
 	"<li>Le Città Invisibili, Italo Calvino</li>"
