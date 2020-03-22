@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "helpers.c"
+
 #define PARTS_BUFFER 36
 #define PAGES_BUFFER 36
 #define STR_BUF_LEN 64
@@ -11,21 +13,6 @@ char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><m
 char *html_header = "<header><a id='logo' href='home.html'><img src='../media/interface/logo.svg' alt='Hundred Rabbits'></a></header>";
 
 char *html_footer = "<footer><p>Never miss an update</p><form action='https://tinyletter.com/hundredrabbits' method='post' target='popupwindow' onsubmit='window.open(\'https://tinyletter.com/hundredrabbits\', \'popupwindow\', \'scrollbars=yes,width=800,height=600\');return true'><input type='email' value='' name='EMAIL' class='email' placeholder='email@address.com' required=''><input type='submit' value='Subscribe' name='subscribe' class='button'></form></footer></body></html>";
-
-void to_lowercase(char *str, char *target, size_t tsize) {
-  for (size_t i = 0; i < tsize; i++) {
-    target[i] = str[i];
-    if (target[i] == '\0') {
-      break;
-    }
-    if (target[i] == ' ') {
-      target[i] = '_';
-    } else {
-      target[i] = tolower(target[i]);
-    }
-  }
-  target[tsize - 1] = '\0';
-}
 
 typedef struct {
   char *name;
@@ -60,7 +47,11 @@ Page create_page(char *name) {
 
 void add_part(Page *page, char *name, char *description) {
   if(page->parts_len >= PARTS_BUFFER){ 
-    printf("Reached PARTS_BUFFER\n");
+    printf("ERROR: Reached limit: PARTS_BUFFER\n");
+    return;
+  }
+  if(!is_alphanum(name)){
+    printf("ERROR: \"%s\" is not alphanumeric.\n", name);
     return;
   }
   page->parts_names[page->parts_len] = name;
@@ -70,7 +61,7 @@ void add_part(Page *page, char *name, char *description) {
 
 void add_page(Category *category, Page *page) {
   if(category->pages_len >= PAGES_BUFFER){ 
-    printf("Reached PAGES_BUFFER\n");
+    printf("ERROR: Reached limit: PAGES_BUFFER\n");
     return;
   }
   category->pages[category->pages_len] = page;
