@@ -682,16 +682,33 @@ add_page(&knowledge, &used_goods);
 
 Page resources = create_page("resources");
 add_part(&resources, "manuals", "<ul><li>Self Sufficient Sailor, Lin and Larry Pardey</li><li>World Cruising Routes, Jimmy Cornel</li><li>Thoughts, tips and tactics for Singlehanded sailing, Andrew Evans</li><li>The Glenans manual of sailing, Peter Davidson</li><li>How to Sail Around the World, Hal Roth</li><li>Seaworthy Offshore Sailboat, John Vigor</li><li>The Complete Anchoring Handbook, Poiraud Achim Ginsberg-Klemmt</li><li>The Marlinspike Sailor, Hervey Garrett Smith</li></ul>");
-add_part(&resources, "travel literature", "<ul><li>An Island to Oneself, Tom Neale</li><li>North to the night, Alvah Simon</li><li>The Curve of Time, Wylie Blanchet</li><li>Walden and Civil Disobedience, Henry David Thoreau</li><li>The Box Wine Sailors, Amy McCullough</li><li>On Trails, Robert Moor</li></ul>");
-add_part(&resources, "documentaries", "<ul>"
-	"<li><a href='https://vimeo.com/94842405' target='_blank' class='external'>Life on a little wooden boat</a></li>"
-	"<li><a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek' target='_blank' class='external'>Minimalism in a tiny home at sea</a></li>"
-	"<li><a href='https://www.youtube.com/watch?v=VERYUyO93_Y' target='_blank' class='external'>Untie the lines</a></li>"
-	"<li><a href='https://youtu.be/NbPgP6wIF44' target='_blank' class='external'>The dinghy cruising companion</a></li>"
-	"<li><a href='https://www.imdb.com/title/tt0460766/' target='_blank' class='external'>Deep Water</a></li>"
+add_part(&resources, "travel literature", "<ul>"
+	"<li>An Island to Oneself, Tom Neale</li><li>North to the night, Alvah Simon</li>"
+	"<li>The Curve of Time, Wylie Blanchet</li><li>Walden and Civil Disobedience, Henry David Thoreau</li>"
+	"<li>The Box Wine Sailors, Amy McCullough</li><li>On Trails, Robert Moor</li>"
 	"</ul>");
-add_part(&resources, "inspiration", "<img src='../media/content/resources/moitessier.jpg'/><ul><li><a href='https://solar.lowtechmagazine.com/' target='_blank' class='external'>Low tech magazine</a></li><li><a href='https://microship.com/winnebiko-ii/' target='_blank' class='external'>Steven K. Robert</a></li><li><a href='http://northwaygames.com/' target='_blank' class='external'>Northway Games</a></li><li><a href='https://amzn.to/2Y6rcDi' target='_blank' class='external'>The Care and Feeding of the Sailing Crew</a>, Lin Pardey</li><li><a href='https://www.voilieranthea.com/l_b_vers_le_nord.html' target='_blank' class='external'>From Vladivostok to Otaru</a>, SV Anthea</li><li><a href='https://seashepherd.org/' target='_blank' class='external'>Sea Shepherd</a></li></ul>");
-add_part(&resources, "ideology", "<ul><li><a href='http://worrydream.com/ClimateChange/#funding' target='_blank' class='external'>What can a technologist do about climate change?</a></li><li><a href='https://hieroglyph.asu.edu/2014/09/Solarpunk-notes-toward-a-manifesto/' target='_blank' class='external'>Solar Punk: Notes toward a manifesto</a></li><li><a href='https://www.designlife-cycle.com/' target='_blank' class='external'>Design life cycle</a></li><li><a href='https://www.ifixit.com/Right-to-Repair/Intro' target='_blank' class='external'>The Right to Repair</a></li><li><a href='https://solar.lowtechmagazine.com/about.html' target='_blank' class='external'>Low tech magazine</a></li></ul>");
+add_part(&resources, "documentaries", "<ul>"
+  "<li><a href='https://vimeo.com/94842405' target='_blank' class='external'>Life on a little wooden boat</a></li>"
+  "<li><a href='https://www.youtube.com/watch?v=CkaH_UUH0Ek' target='_blank' class='external'>Minimalism in a tiny home at sea</a></li>"
+  "<li><a href='https://www.youtube.com/watch?v=VERYUyO93_Y' target='_blank' class='external'>Untie the lines</a></li>"
+  "<li><a href='https://youtu.be/NbPgP6wIF44' target='_blank' class='external'>The dinghy cruising companion</a></li>"
+  "<li><a href='https://www.imdb.com/title/tt0460766/' target='_blank' class='external'>Deep Water</a></li>"
+  "</ul>");
+add_part(&resources, "inspiration", "<img src='../media/content/resources/moitessier.jpg'/><ul>"
+  "<li><a href='https://solar.lowtechmagazine.com/' target='_blank' class='external'>Low tech magazine</a></li>"
+  "<li><a href='https://microship.com/winnebiko-ii/' target='_blank' class='external'>Steven K. Robert</a></li>"
+  "<li><a href='http://northwaygames.com/' target='_blank' class='external'>Northway Games</a></li>"
+  "<li><a href='https://amzn.to/2Y6rcDi' target='_blank' class='external'>The Care and Feeding of the Sailing Crew</a>, Lin Pardey</li>"
+  "<li><a href='https://www.voilieranthea.com/l_b_vers_le_nord.html' target='_blank' class='external'>From Vladivostok to Otaru</a>, SV Anthea</li>"
+  "<li><a href='https://seashepherd.org/' target='_blank' class='external'>Sea Shepherd</a></li>"
+  "</ul>");
+add_part(&resources, "ideology", "<ul>"
+  "<li><a href='http://worrydream.com/ClimateChange/#funding' target='_blank' class='external'>What can a technologist do about climate change?</a></li>"
+  "<li><a href='https://hieroglyph.asu.edu/2014/09/Solarpunk-notes-toward-a-manifesto/' target='_blank' class='external'>Solar Punk: Notes toward a manifesto</a></li>"
+  "<li><a href='https://www.designlife-cycle.com/' target='_blank' class='external'>Design life cycle</a></li>"
+  "<li><a href='https://www.ifixit.com/Right-to-Repair/Intro' target='_blank' class='external'>The Right to Repair</a></li>"
+  "<li><a href='https://solar.lowtechmagazine.com/about.html' target='_blank' class='external'>Low tech magazine</a></li>"
+  "</ul>");
 add_page(&knowledge, &resources);
 
 Category tools = create_category("tools");
