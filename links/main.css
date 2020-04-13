@@ -53,10 +53,10 @@ body main a.button { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", He
 body main a.button:hover {background-color: #727272 !important;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
 body main a.button.patreon { background-color: #e75942; }
 body main ul.gallery { background:none; }
-body main ul.gallery li { clear: both; display: block; border-bottom: 2px solid black; height: 210px; margin-top: -2px; }
+body main ul.gallery li { clear: both; display: block; border-bottom: 2px solid black; height: 260px; margin-top: -2px; }
 body main ul.gallery li:last-child { border-bottom: 0px; }
 body main ul.gallery li a { display: block; padding: 10px; }
-body main ul.gallery li img { width:200px; float:left; display: block ; margin-right: 15px;}
+body main ul.gallery li img { width:250px; float:left; display: block ; margin-right: 15px;}
 body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size: 30px;text-transform: capitalize; line-height: 40px;max-width: 75%; margin-bottom: 10px; }
 body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; }
 
