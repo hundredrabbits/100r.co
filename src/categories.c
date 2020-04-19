@@ -702,7 +702,7 @@ add_part(&used_goods, "thrift stores", "<p>Back when we lived on land we moved a
 add_page(&knowledge, &used_goods);
 
 Page resources = create_page("resources");
-add_part(&resources, "manuals", "<ul><li>Self Sufficient Sailor, Lin and Larry Pardey</li><li>World Cruising Routes, Jimmy Cornel</li><li>Thoughts, tips and tactics for Singlehanded sailing, Andrew Evans</li><li>The Glenans manual of sailing, Peter Davidson</li><li>How to Sail Around the World, Hal Roth</li><li>Seaworthy Offshore Sailboat, John Vigor</li><li>The Complete Anchoring Handbook, Poiraud Achim Ginsberg-Klemmt</li><li>The Marlinspike Sailor, Hervey Garrett Smith</li></ul>");
+add_part(&resources, "manuals", "<ul><li>Self Sufficient Sailor, Lin and Larry Pardey</li><li>World Cruising Routes, Jimmy Cornell</li><li>Thoughts, tips and tactics for Singlehanded sailing, Andrew Evans</li><li>The Glenans manual of sailing, Peter Davidson</li><li>How to Sail Around the World, Hal Roth</li><li>Seaworthy Offshore Sailboat, John Vigor</li><li>The Complete Anchoring Handbook, Poiraud Achim Ginsberg-Klemmt</li><li>The Marlinspike Sailor, Hervey Garrett Smith</li></ul>");
 add_part(&resources, "travel literature", "<ul>"
 	"<li>An Island to Oneself, Tom Neale</li><li>North to the night, Alvah Simon</li>"
 	"<li>The Curve of Time, Wylie Blanchet</li><li>Walden and Civil Disobedience, Henry David Thoreau</li>"
@@ -716,6 +716,7 @@ add_part(&resources, "documentaries", "<ul>"
   "<li><a href='https://www.imdb.com/title/tt0460766/' target='_blank' class='external'>Deep Water</a></li>"
   "</ul>");
 add_part(&resources, "inspiration", "<img src='../media/content/resources/moitessier.jpg'/><ul>"
+  "<li>Future boy Conan</li>"
   "<li><a href='https://solar.lowtechmagazine.com/' target='_blank' class='external'>Low tech magazine</a></li>"
   "<li><a href='https://microship.com/winnebiko-ii/' target='_blank' class='external'>Steven K. Robert</a></li>"
   "<li><a href='http://northwaygames.com/' target='_blank' class='external'>Northway Games</a></li>"
