@@ -241,6 +241,10 @@ add_part(&press, "features",
 	"<li><a href='http://motherboard.vice.com/read/the-game-design-studio-on-a-boat' target='_blank' class='external'>A design studio on a sailboat</a>, December 12, 2015, Motherboard.</li>"
 	"<li><a href='https://killscreen.com/articles/devine-lu-linvega-nataniev-hiversaires/' target='_blank' class='external'>Can Devine create his own language? Or a new world?</a>, July 18, 2013, Kill Screen.</li>"
 	"</ul>");
+add_part(&press, "articles", 
+	"<ul>"
+	"<li><a href='https://www.noonsite.com/report/insights-living-off-grid/' target='_blank'>Living off-grid</a>, Noonsite, April 23, 2020.</li>"
+	"</ul>");
 add_part(&press, "interviews", 
 	"<ul>"
 	"<li><a href='https://dev.to/gitnation/devine-lu-linvega-i-have-been-living-and-coding-on-a-sailboat-since-2016-54id' target='_blank' class='external'>I Have Been Living and Coding on a Sailboat Since 2016</a>, GitNation, October 5th, 2019.</li>"
