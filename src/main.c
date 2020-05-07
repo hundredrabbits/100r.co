@@ -1,5 +1,6 @@
 #include <ctype.h>
 #include <stdio.h>
+#include <stdbool.h>
 #include <string.h>
 
 #include "helpers.c"
@@ -76,6 +77,37 @@ void set_location(Page *page, char *location){
   page->location = location;
 }
 
+void fputs_include(FILE *f, char *filename){
+  char filepath[STR_BUF_LEN];
+  int result = snprintf(filepath, sizeof filepath, "inc/%s.htm", filename);
+
+  if(!file_exists(filepath)){
+    return;
+  }
+
+  printf("Including %s\n", filepath);
+
+  if (result < 0 || (size_t)result > sizeof filepath) {
+    printf("Invalid filepath: %s\n", filepath);
+    return;
+  }
+
+  char buffer[4096];
+  FILE *fp = fopen(filepath, "r");
+  if(fp == NULL){ return; }
+
+  for (;;) {
+    size_t sz = fread(buffer, 1, sizeof(buffer), fp);
+    if (sz) {
+      fwrite(buffer, 1, sz, f);
+    } else if (feof(fp) || ferror(fp)) {
+      break;
+    }
+  }   
+
+  fclose(fp);
+}
+
 void build_page(Page *page) {
   char filename[STR_BUF_LEN];
   to_lowercase(page->name, filename, STR_BUF_LEN);
@@ -108,6 +140,8 @@ void build_page(Page *page) {
     fprintf(f, "<h2 id='%s'>%s</h2>", part_index, part_name);
     fputs(part_description, f);
   }
+
+  fputs_include(f, page->name);
 
   fputs("<hr/>", f);
   fputs("</main>", f);

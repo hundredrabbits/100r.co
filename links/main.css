@@ -46,7 +46,7 @@ body main > table.col b { font-weight: bold }
 
 body main > table tr th { text-align: left; font-weight: bold }
 body main > table tr td { border-right:1.5px solid black; }
-body main > table tr > * { padding:0px 30px; }
+body main > table tr > * { padding:0px 15px; }
 body main > table tr td:last-child { border-right: 0px }
 body main > table tr > *:first-child { padding-left: 0px }
 body main a.button { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; background-color: #000000;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}

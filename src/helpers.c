@@ -27,3 +27,12 @@ int is_alphanum(char *str) {
   }
   return 1;
 }
+
+bool file_exists(char *filename) {
+  FILE *file = fopen(filename, "r");
+  if (file != NULL) {
+    fclose(file);
+    return true;
+  }
+  return false;
+}
