@@ -752,7 +752,7 @@ Category tools = create_category("tools");
 
 Page orca = create_page("orca");
 add_part(&orca, "introduction", "<img src='../media/content/tools/orca/main.jpg'/><p>Orca is an " LINKNAME("https://en.wikipedia.org/wiki/Esoteric_programming_language", "esoteric programming language") ", designed to create procedural sequencers in which each letter of the alphabet is an operation, where lowercase letters operate on bang, uppercase letters operate each frame.</p><p>The application is not a synthesiser, but a flexible livecoding environment capable of sending MIDI, OSC & UDP to your audio interface, like Ableton, Renoise, VCV Rack or SuperCollider. ");
-add_part(&orca, "orbit", "<img src='../media/content/characters/orca.idle.png' class='medium'/><p>Meet <b>Orbit</b>, the mascot for Orca. Orbit is there to talk about updates relating to Orca.</p>");
+add_part(&orca, "Distributions", "<p>The major distributions are the " LINKNAME("https://git.sr.ht/~rabbits/orca", "terminal version") ", the " LINKNAME("https://hundredrabbits.github.io/Orca", "web version") ", the " LINKNAME("https://hundredrabbits.itch.io/orca", "desktop version") ", and the " LINKNAME("https://llllllll.co/t/orca/22492", "norns version") ", each version implement their own variance of the IO operators.</p>");
 add_part(&orca, "download", MODITCHIO("225814"));
 add_page(&tools, &orca);
 
