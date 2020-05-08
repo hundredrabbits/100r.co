@@ -719,7 +719,6 @@ add_part(&resources, "documentaries", "<ul>"
   "<li><a href='https://www.imdb.com/title/tt0460766/' target='_blank' class='external'>Deep Water</a></li>"
   "</ul>");
 add_part(&resources, "inspiration", "<img src='../media/content/resources/moitessier.jpg'/><ul>"
-  "<li>Future boy Conan</li>"
   "<li><a href='https://solar.lowtechmagazine.com/' target='_blank' class='external'>Low tech magazine</a></li>"
   "<li><a href='https://microship.com/winnebiko-ii/' target='_blank' class='external'>Steven K. Robert</a></li>"
   "<li><a href='http://northwaygames.com/' target='_blank' class='external'>Northway Games</a></li>"
