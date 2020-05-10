@@ -660,7 +660,31 @@ add_part(&buying_a_sailboat, "going offshore", "<p>If you want to go offshore, t
 add_page(&knowledge, &buying_a_sailboat);
 
 Page liveaboard = create_page("liveaboard");
-add_part(&liveaboard, "kitchen tools", "<img src='../media/content/knowledge/tools.jpg'/><p>Choose <a href='https://grimgrains.com/site/tools.html' target='_blank' class='external'>quality tools</a> that <b>don't require electricity</b>, that have few components(like unibody knives) and made of materials that will last – or that can be composted. Ideal materials include glass, wood, cast iron and stainless steel. For cooking, we have:</p><ul><li>1x Large mortar and pestle(marble)</li><li>1x Spatula(bamboo)</li><li>2x Cast-iron pans(small and medium)</li><li>1x Vegetable cleaver(stainless, unibody)</li><li>1x Serrated knife(stainless, unibody)</li><li>1x Julienne slicer(stainless)</li><li>1x Baking tray</li><li>1x Non-stick pan(small)</li><li>1x Manual coffee grinder(ceramic)</li><li>3x Cooking pots(small, medium & large)</li><li>4x Measuring cups(stainless)</li><li>1x Large bowl for bread making(stainless)</li><li>1x Pressure cooker(non-electric)</li><li>1x Rolling pin(unibody, wood)</li><li>1x Claw-shaped can opener</li><li>1x Potato masher</li></ul>");
+add_part(&liveaboard, "kitchen tools", "<img src='../media/content/knowledge/tools.jpg'/><p>Choose <a href='https://grimgrains.com/site/tools.html' target='_blank' class='external'>quality tools</a> that <b>don't require electricity</b>, that have few components(like unibody knives) and made of materials that will last – or that can be composted. Ideal materials include glass, wood, cast iron and stainless steel. For cooking, we have:</p>"
+	"<ul style='columns:2'>"
+	"<li>Bamboo Spatula</li>"
+	"<li>Cast-iron pan</li>"
+	"<li>Cast-iron pot</li>"
+	"<li>Stainless pot</li>"
+	"<li>Large marble mortar and pestle</li>"
+	"<li>Stainless unibody vegetable cleaver</li>"
+	"<li>Stainless unibody serrated knife</li>"
+	"<li>Stainless julienne slicer</li>"
+	"<li>Stainless Measuring cups</li>"
+	"<li>Large stainless bread making bowl</li>"
+	"<li>Stainless Pressure cooker(non-electric)</li>"
+	"<li>Unibody wodden rolling pin</li>"
+	"<li>Potato masher</li>"
+	"</ul>");
+add_part(&liveaboard, "essential tools", "<img src='../media/content/knowledge/essentials.jpg'/>"
+	"<ul style='columns:2'>"
+	"<li>Stitching awl</li>"
+	"<li>Tawashi scrubber</li>"
+	"<li>Large shears</li>"
+	"<li>Basic rigging knife</li>"
+	"<li>Claw-shaped can opener</li>"
+	"<li>Ceramic coffee grinder</li>"
+	"</ul>");
 add_part(&liveaboard, "essential products", "<p>When it comes to cleaning, polishing or abrading, you don't need a crazy arsenal of products. Below is a list of recommendations for household cleaning, or maintenance aboard a boat.</p>"
 	"<table class='col' border='1'>"
 "<tr><td><b>All purpose cleaner</b></td><td>Mix of 500 ml hydrogen peroxide(3%) with 2.5 ml(40 drops) of lavender and lemon essential oils, and 0.6 ml(10 drops) of peppermint essential oil. Leave on surface for several minutes before wiping clean. Store in a dark-coloured bottle.</td></tr>"
