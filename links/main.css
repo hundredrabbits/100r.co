@@ -3,74 +3,76 @@
 *:focus         { outline: none}
 ::selection       { background: #eee; opacity:1.0; color:#000; padding:10px; /* Safari */ }
 
-@font-face { font-family: 'alte_haas_grotesk_regular'; src: url('../media/fonts/alte_haas_grotesk_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'alte_haas_grotesk_bold'; src: url('../media/fonts/alte_haas_grotesk_bold.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'input_mono_regular'; src: url('../media/fonts/input_mono_regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'input_mono_medium'; src: url('../media/fonts/input_mono_medium.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'alte_haas_grotesk_regular'; src: url('../media/fonts/alte_haas_grotesk_regular.ttf') format('truetype'); font-weight: normal; font-style: normal}
+@font-face { font-family: 'alte_haas_grotesk_bold'; src: url('../media/fonts/alte_haas_grotesk_bold.ttf') format('truetype'); font-weight: normal; font-style: normal}
+@font-face { font-family: 'input_mono_regular'; src: url('../media/fonts/input_mono_regular.ttf') format('truetype'); font-weight: normal; font-style: normal}
+@font-face { font-family: 'input_mono_medium'; src: url('../media/fonts/input_mono_medium.ttf') format('truetype'); font-weight: normal; font-style: normal}
 
-html { background:black; }
-body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px; }
-body hr { border:0; clear:both; }
-body header a#logo { margin-top: -15px;display: block;margin-left: -25px;width: 100px; margin-bottom:15px; }
-body header a#logo img { width:100%; }
-body main img.capsule { width: 150px; }
+html { background:black}
+body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px}
+body hr { border:0; clear:both}
+body header a#logo { margin-top: -15px;display: block;margin-left: -25px;width: 100px; margin-bottom:15px}
+body header a#logo img { width:100%}
+body main img.capsule { width: 150px}
 body main img.medium {max-width: 300px;}
 body main > * { max-width: 600px; margin-bottom: 30px }
-body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px; }
-body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize; }
-body main > h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; }
+body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size:45px; text-transform: capitalize; padding-bottom:30px}
+body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize}
+body main > h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
 body main > img { width:100%; max-width: 600px }
 body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
 body main > ul li {}
-body main > ul li a { text-transform: capitalize; text-decoration: underline; }
+body main > ul li a { text-transform: capitalize; text-decoration: underline}
 body main > ul li b { font-weight: bold }
-body main > ul li:hover a { text-decoration: none; }
-body main > p { line-height: 28px; font-size:18px; }
-body main > p a { text-decoration: underline; }
+body main > ul li:hover a { text-decoration: none}
+body main > p { line-height: 28px; font-size:18px}
+body main > p a { text-decoration: underline}
 body main > p b { font-weight: bold }
-body main > p i { line-height: 28px; font-size:18px; font-style: italic; }
+body main > p i { line-height: 28px; font-size:18px; font-style: italic}
+body main > q { font-size: 20px; max-width: 500px; display: block; margin-left:30px; }
+body main > q a { text-decoration: underline }
 body main > code { font-family: 'input_mono_regular'; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
-body main > code comment { color:#777; }
+body main > code comment { color:#777}
 body main > p.quote { padding: 30px;font-size: 20px;font-style: italic; max-width: 400px }
 body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
-body main > ul.jump li::marker { color:#777; }
-body main > ul.jump li:hover { background:black; color:white; }
+body main > ul.jump li::marker { color:#777}
+body main > ul.jump li:hover { background:black; color:white}
 
-body main > table.col tr th { text-align: left; }
-body main > table.col tr td { border-right:1.5px solid black; }
-body main > table.col tr > * { padding:5px 20px; }
+body main > table.col tr th { text-align: left}
+body main > table.col tr td { border-right:1.5px solid black}
+body main > table.col tr > * { padding:5px 20px}
 body main > table.col tr td:last-child { border-right: 0px }
 body main > table.col tr > *:first-child { padding-left: 0px }
 body main > table.col b { font-weight: bold }
 
 body main > table tr th { text-align: left; font-weight: bold }
-body main > table tr td { border-right:1.5px solid black; }
-body main > table tr > * { padding:0px 15px; }
+body main > table tr td { border-right:1.5px solid black}
+body main > table tr > * { padding:0px 15px}
 body main > table tr td:last-child { border-right: 0px }
 body main > table tr > *:first-child { padding-left: 0px }
 body main a.button { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; background-color: #000000;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
 body main a.button:hover {background-color: #727272 !important;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-body main a.button.patreon { background-color: #e75942; }
-body main ul.gallery { background:none; }
-body main ul.gallery li { clear: both; display: block; border-bottom: 2px solid black; height: 260px; margin-top: -2px; }
-body main ul.gallery li:last-child { border-bottom: 0px; }
-body main ul.gallery li a { display: block; padding: 10px; }
+body main a.button.patreon { background-color: #e75942}
+body main ul.gallery { background:none}
+body main ul.gallery li { clear: both; display: block; border-bottom: 2px solid black; height: 260px; margin-top: -2px}
+body main ul.gallery li:last-child { border-bottom: 0px}
+body main ul.gallery li a { display: block; padding: 10px}
 body main ul.gallery li img { width:250px; float:left; display: block ; margin-right: 15px;}
-body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size: 30px;text-transform: capitalize; line-height: 40px;max-width: 75%; margin-bottom: 10px; }
-body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize; }
+body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size: 30px;text-transform: capitalize; line-height: 40px;max-width: 75%; margin-bottom: 10px}
+body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
 
 body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 120px; max-width: 600px }
 body footer p { font-weight: bold }
-body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block; }
-body footer form *:first-child { padding-left:15px; }
-body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer; }
+body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block}
+body footer form *:first-child { padding-left:15px}
+body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer}
 
 .col2 { columns: 2 }
 .bullet { padding-left: 30px; border-left: 1.5px solid black }
 
 @media (max-width: 900px) {
-  body { padding: 30px; }
+  body { padding: 30px}
   body main > ul.jump { columns: 1 !important }
   .col2 { columns: 1 }
   .col3 { columns: 1 }
