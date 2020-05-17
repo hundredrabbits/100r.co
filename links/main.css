@@ -5,8 +5,6 @@
 
 @font-face { font-family: 'alte_haas_grotesk_regular'; src: url('../media/fonts/alte_haas_grotesk_regular.ttf') format('truetype'); font-weight: normal; font-style: normal}
 @font-face { font-family: 'alte_haas_grotesk_bold'; src: url('../media/fonts/alte_haas_grotesk_bold.ttf') format('truetype'); font-weight: normal; font-style: normal}
-@font-face { font-family: 'input_mono_regular'; src: url('../media/fonts/input_mono_regular.ttf') format('truetype'); font-weight: normal; font-style: normal}
-@font-face { font-family: 'input_mono_medium'; src: url('../media/fonts/input_mono_medium.ttf') format('truetype'); font-weight: normal; font-style: normal}
 
 html { background:black}
 body { background:#fff; color:#000; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; overflow-x: hidden; margin-top:5px; padding:45px 90px}
@@ -20,7 +18,7 @@ body main > h1 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Hel
 body main > h2 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:30px; text-transform: capitalize}
 body main > h3 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
 body main > img { width:100%; max-width: 600px }
-body main > ul { font-family: 'input_mono_regular'; font-size:12px; line-height: 20px }
+body main > ul { font-family: monospace; font-size:12px; line-height: 20px }
 body main > ul li {}
 body main > ul li a { text-transform: capitalize; text-decoration: underline}
 body main > ul li b { font-weight: bold }
@@ -31,7 +29,8 @@ body main > p b { font-weight: bold }
 body main > p i { line-height: 28px; font-size:18px; font-style: italic}
 body main > q { font-size: 20px; max-width: 500px; display: block; margin-left:30px; }
 body main > q a { text-decoration: underline }
-body main > code { font-family: 'input_mono_regular'; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
+body main > pre { font-family: monospace; background: black; color:white; padding:15px; }
+body main > code { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
 body main > code comment { color:#777}
 body main > p.quote { padding: 30px;font-size: 20px;font-style: italic; max-width: 400px }
 body main > ul.jump { columns:2; line-height: 20px}
