@@ -27,11 +27,9 @@ add_page(&home, &mission);
 
 Page philosophy = create_page("philosophy");
 add_part(&philosophy, "our philosophy", "<img src='../media/content/design.1.jpg'/><p>We build software following these rules:</p>");
-add_part(&philosophy, "accessibility", "<p>We design our applications to work on a wide range of platforms, from web technologies to portable terminal versions, built from <a href='https://en.wikipedia.org/wiki/C99' class='external' target='_blank'>C99 and assembly</a>.</p>");
-add_part(&philosophy, "no drm", "<p>We design our tools for the future and will never release them behind any form of <a href='https://en.wikipedia.org/wiki/Digital_rights_management' class='external' target='_blank'>Digital Rights Management</a>.</p>");
-add_part(&philosophy, "lean", "<p>We build simple tools with the few dependencies and design them to tackle <a href='https://brandur.org/small-sharp-tools' class='external' target='_blank'>specific tasks</a>.</p>");
-add_part(&philosophy, "freedom", "<p>We release free and open-source programs so that they can be studied, inspected and repaired by anyone, <a href='mission.html'>anywhere</a>.</p>");
-add_part(&philosophy, "linux", "<p>We build for <b>Linux-first</b>.</p>");
+add_part(&philosophy, "offline first", "<p>We build and design our software to work offline first. They will never need online resources to function properly, they will always be bundled with enough documentation to be repaired without our help. Our software will never be released behind any form of " LINKNAME("https://en.wikipedia.org/wiki/Digital_rights_management", "Digital Rights Management") ".</p>");
+add_part(&philosophy, "past proofing", "<p>We build simple tools to tackle " LINKNAME("https://brandur.org/small-sharp-tools", "specific tasks") ". We release builds and documentation to support a wide range of platforms, from native applications to terminal tools. We target 20 years old hardware as to encourage recyclism and discourage the consumption of fashionable electronics.</p>");
+add_part(&philosophy, "freedom", "<p>We release free and open-source programs so that they can be studied, inspected and repaired by anyone, <a href='mission.html'>anywhere</a>. We build for " LINKNAME("https://en.wikipedia.org/wiki/Linux", "GNU/Linux") " first.</p>");
 add_page(&home, &philosophy);
 
 Page pino = create_page("pino");
