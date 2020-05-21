@@ -758,6 +758,8 @@ add_part(&resources, "ideology", "<ul>"
   "<li><a href='https://www.designlife-cycle.com/' target='_blank' class='external'>Design life cycle</a></li>"
   "<li><a href='https://www.ifixit.com/Right-to-Repair/Intro' target='_blank' class='external'>The Right to Repair</a></li>"
   "<li><a href='https://solar.lowtechmagazine.com/about.html' target='_blank' class='external'>Low tech magazine</a></li>"
+  "<li>" LINKNAME("https://github.com/hsoft/collapseos", "Collapse OS") "</li>"
+  ""
   "</ul>");
 add_part(&resources, "ecofiction", "<ul>"
   "<li><a href='https://en.wikipedia.org/wiki/Future_Boy_Conan' target='_blank' class='external'>Miyazaki's Future Boy Conan</a></li>"
