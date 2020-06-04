@@ -111,8 +111,8 @@ void fputs_include(FILE *f, char *filename){
 void build_page(Page *page) {
   char filename[STR_BUF_LEN];
   to_lowercase(page->name, filename, STR_BUF_LEN);
-  char filepath[STR_BUF_LEN];
-  snprintf(filepath, STR_BUF_LEN, "../site/%s.html", filename);
+  char filepath[STR_BUF_LEN + 64];
+  snprintf(filepath, STR_BUF_LEN + 64, "../site/%s.html", filename);
   FILE *f = fopen(filepath, "w");
 
   fprintf(f, html_head, page->name, "page");
@@ -194,8 +194,8 @@ void build_rss(Category *blog){
     if(!page->date){ printf("Missing date for %s\n", page->name); continue; }
     char filename[STR_BUF_LEN];
     to_lowercase(page->name, filename, STR_BUF_LEN);
-    char filepath[STR_BUF_LEN];
-    snprintf(filepath, STR_BUF_LEN, "https://100r.co/site/%s.html", filename);
+    char filepath[STR_BUF_LEN + 64];
+    snprintf(filepath, STR_BUF_LEN + 64, "https://100r.co/site/%s.html", filename);
     fputs("<item>\n", f);
     fprintf(f, "  <title>%s</title>\n", page->name);
     fprintf(f, "  <link>%s</link>\n", filepath);
