@@ -1,13 +1,11 @@
 const route = indental(`
 
-
 2020-06-08
-  NAME : BC Canada
+  NAME : Vancouver Island, Canada
   VLUE : 4156
   POSI  
     34.671688, 138.948798
     
-
 2020-05-29
   NAME : Shimoda, Japan
   VLUE : 128
