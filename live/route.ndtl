@@ -4,7 +4,7 @@ const route = indental(`
   NAME : Vancouver Island, Canada
   VLUE : 4156
   POSI
-    
+    35.734575, 148.285095
     35.140413, 145.060753
     34.762368, 142.284180
     34.671688, 138.948798
