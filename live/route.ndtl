@@ -1,10 +1,18 @@
 const route = indental(`
 
-2020-06-08
-  NAME : Vancouver Island, Canada
-  VLUE : 4156
+
+2020-06-17
+  NAME : Dutch Harbor Alaska
+  VLUE : 1708
   POSI
     37.802992, 159.006913
+
+
+2020-06-08
+  NAME : Vancouver Island, Canada
+  VLUE : 1000
+  POSI
+    
     37.701380, 158.576760
     37.680318, 158.338510
     37.061852, 155.430412
