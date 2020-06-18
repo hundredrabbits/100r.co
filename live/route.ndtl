@@ -5,6 +5,7 @@ const route = indental(`
   NAME : Dutch Harbor Alaska
   VLUE : 1708
   POSI
+    37.629455, 161.849167
     37.637468, 161.004380
     37.802992, 159.006913
 
