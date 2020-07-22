@@ -5,7 +5,6 @@ const route = indental(`
   NAME : Victoria BC
   VLUE : 3111
   POSI
-  
     47.533828, -138.408222
     47.369925, -139.496337
     47.146030, -141.540915
