@@ -12,7 +12,7 @@
 
 Category home = create_category("home");
 Page about_us = create_page("about us");
-add_part(&about_us, "the rabbits", "<img src='../media/content/about/us.jpg'/><p>" LINKNAME("https://kokorobot.ca", "Rekka") " is a cartoonist and writer, " LINKNAME("https://xxiivv.com", "Devine") " is a programmer and musician, together we create interactive design software as we sail around the world. Since 2016, we have sailed from Canada, down to Mexico, over to French Polynesia, Cook Islands, Tonga, New Zealand, Fiji, The Marshall Islands and all the way to Japan.</p><p>We operate a small research studio called <b>Hundred Rabbits</b>, aboard a " SENDNAME("pino", "sailboat") ", where we do experiments in resilience and self-reliance using low-tech solutions.</p><p>The ways in which we spend our time vary wildly from day to day, but we focus on alternative ways to store power and minimum viable solutions for technological tooling. Read more about our " SEND("philosophy") ".</p>");
+add_part(&about_us, "the rabbits", "<img src='../media/content/about/us.jpg'/><p>" LINKNAME("https://kokorobot.ca", "Rekka") " is a cartoonist and writer, " LINKNAME("https://xxiivv.com", "Devine") " is a programmer and musician, together we create interactive design software as we sail around the world. Since 2016, we have sailed from Canada, down to Mexico, over to French Polynesia, Cook Islands, Tonga, New Zealand, Fiji, The Marshall Islands, all the way to Japan and then back again to Canada.</p><p>We operate a small research studio called <b>Hundred Rabbits</b>, aboard a " SENDNAME("pino", "sailboat") ", where we do experiments in resilience and self-reliance using low-tech solutions.</p><p>The ways in which we spend our time vary wildly from day to day, but we focus on alternative ways to store power and minimum viable solutions for technological tooling. Read more about our " SEND("philosophy") ".</p>");
 add_part(&about_us, "goal", "<ul><li>- See as much of the world as possible.</li><li>- Learn as many languages as possible.</li><li>- Facilitate the creation and acceleration of arts & sciences.</li><li>- Develop environmentally sustainable products and practices.</li><li>- Minimize pain and suffering.</li></ul><p>The nomadic life, is a way to embrace impermanence, as we explore systems resilience. For more information about our goals, read our " SENDNAME("mission", "mission statement") ".</p>");
 add_part(&about_us, "setup", "<img src='../media/content/about/sewing.jpg'/><p>Both of our workstations are running the " LINKNAME("https://elementary.io/", "Elementary") " distribution of GNU Linux. We do our <a href='https://www.blender.org/' target='_blank'>video editing with Blender</a>, the credit illustrations with <a href='https://krita.org' target='_blank'>Krita</a>, the music with the <a href='https://wiki.xxiivv.com/site/studio.html' target='_blank'>Polivoks synthesiser</a>, and we record the voice & ambient tracks with the <a href='https://www.sony.com/electronics/support/digital-voice-recorders-pcm-series/pcm-a10' target='_blank'>Sony PCM-A10</a>.</p>");
 add_part(&about_us, "contribute", "<p>You can find the source files to all of our projects over on our <a href='https://git.sr.ht/~rabbits' target='_blank'>SourceHut</a> page. Pull requests are welcome. This website is built with C99 and the sources are available <a href='https://github.com/hundredrabbits/100r.co/tree/master/src' target='_blank'>here</a>, if you find a typo, a broken link or have a code specific question, feel free to open an <a href='https://github.com/hundredrabbits/100r.co/issues/new' target='_blank'>issue</a>.</p>");
@@ -251,6 +251,13 @@ add_part(&press, "hiversaires",
 add_page(&home, &press);
 
 Category blog = create_category("blog");
+
+//North Pacific
+//2020-00-00
+Page north_pacific_logbook = create_page("North Pacific Logbook");
+set_date(&north_pacific_logbook, "Fri, 31 Jul 2020");
+set_location(&north_pacific_logbook, "Victoria, Canada");
+add_page(&blog, &north_pacific_logbook);
 
 //Mie, Japan.
 //2020-02-28

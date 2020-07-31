@@ -77,8 +77,11 @@ void set_location(Page *page, char *location){
   page->location = location;
 }
 
-void fputs_include(FILE *f, char *filename){
+void fputs_include(FILE *f, char *str){
   char filepath[STR_BUF_LEN];
+  char filename[STR_BUF_LEN];
+  to_filename(str, filename);
+  
   int result = snprintf(filepath, sizeof filepath, "inc/%s.htm", filename);
 
   if(!file_exists(filepath)){
