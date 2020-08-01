@@ -37,6 +37,9 @@ body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 body main > ul.jump li::marker { color:#777}
 body main > ul.jump li:hover { background:black; color:white}
+body main > table i { font-style: italic}
+body main > table b { font-weight: bold}
+body main > table a { text-decoration: underline;}
 
 body main > table.col tr th { text-align: left}
 body main > table.col tr td { border-right:1.5px solid black}
