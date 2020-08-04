@@ -257,6 +257,7 @@ Category blog = create_category("blog");
 Page north_pacific_logbook = create_page("North Pacific Logbook");
 set_date(&north_pacific_logbook, "Fri, 31 Jul 2020");
 set_location(&north_pacific_logbook, "Victoria, Canada");
+add_part(&north_pacific_logbook, "transcript", "<p>The passage from <b>Japan</b> (Shimoda) to <b>Canada</b> (Victoria) took <b>51 days</b>, and it was the hardest thing we've ever done. We decided to keep a logbook, to better remember it and so it can help others who wish to make this trip.</p>");
 add_page(&blog, &north_pacific_logbook);
 
 //Mie, Japan.
