@@ -709,6 +709,7 @@ add_part(&resources, "inspiration", "<img src='../media/content/resources/moites
   "<li><a href='https://amzn.to/2Y6rcDi' target='_blank' class='external'>The Care and Feeding of the Sailing Crew</a>, Lin Pardey</li>"
   "<li><a href='https://www.voilieranthea.com/l_b_vers_le_nord.html' target='_blank' class='external'>From Vladivostok to Otaru</a>, SV Anthea</li>"
   "<li><a href='https://www.yachtmollymawk.com/' target='_blank' class='external'>Mollymawk</a></li>"
+  "<li><a href='https://www.yrvind.com/' target='_blank' class='external'>Sustainability: simple habits, simple boat</a></li>"
   "</ul>");
 add_part(&resources, "ideology", "<ul>"
   "<li><a href='https://criticalengineering.org/ target='_blank'>Critical engineering manifesto</li>"
