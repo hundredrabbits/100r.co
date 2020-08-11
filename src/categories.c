@@ -705,6 +705,7 @@ add_part(&resources, "documentaries", "<ul>"
   "</ul>");
 add_part(&resources, "inspiration", "<img src='../media/content/resources/moitessier.jpg'/><ul>"
   "<li><a href='https://microship.com/winnebiko-ii/' target='_blank' class='external'>Steven K. Robert</a></li>"
+  "<li><a href='https://www.yrvind.com/exlex/' target='_blank' class='external'>Sven Yrvind</a></li>"
   "<li><a href='http://northwaygames.com/' target='_blank' class='external'>Northway Games</a></li>"
   "<li><a href='https://amzn.to/2Y6rcDi' target='_blank' class='external'>The Care and Feeding of the Sailing Crew</a>, Lin Pardey</li>"
   "<li><a href='https://www.voilieranthea.com/l_b_vers_le_nord.html' target='_blank' class='external'>From Vladivostok to Otaru</a>, SV Anthea</li>"
