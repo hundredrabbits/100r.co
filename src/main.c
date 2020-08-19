@@ -189,7 +189,7 @@ void build_rss(Category *blog){
   fputs("<?xml version='1.0' encoding='UTF-8' ?><rss version='2.0' xmlns:dc='http://purl.org/dc/elements/1.1/'>", f);
   fputs("<channel>\n", f);
   fputs("<title>Hundred Rabbits</title>\n", f);
-  fputs("<link><![CDATA[https://100r.co/blog]]></link>\n", f);
+  fputs("<link><![CDATA[https://100r.co/]]></link>\n", f);
   fputs("<description>Rekka and Devine Travel Diary</description>\n", f);
 
   for (int i = 0; i < blog->pages_len; ++i) {
