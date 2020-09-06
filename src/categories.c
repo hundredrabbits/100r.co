@@ -688,6 +688,7 @@ add_part(&sailing, "eliminating electricity", "<p>Our aim is to have as few item
 add_part(&sailing, "seasickness", "<p>Here's a few of our tricks against seasickness.</p><ul><li>Don't drink alcohol or coffee the day before leaving.</li><li>Eat before you're hungry.</li><li>Rest before you're tired.</li><li>Don't let yourself get cold.</li><li>If everything else fails, take the helm.</li></ul>");
 add_part(&sailing, "offshore sailing", "<p>Here's a few quick tips for offshore sailing.</p><ul><li>Anything on deck is sacrificial.</li><li>In heavy winds, heave-to, don't run.</li><li>When tired, heave-to, don't push too hard.</li><li>Learn how to self-steer without external devices.</li><li>Buy a good set of oil skins.</li><li>In the cold, wear wool, not synthetics.</li><li>Store main anchor below decks.</li><li>Secure all floorboards and doors.</li></ul>");
 add_part(&sailing, "Boat repair", "<p>Here's a few quick tips for boat repair and upkeep.</p><ul><li>Stop leaky chainplates with butyl tape.</li><li>Coat structural plywood with fibreglass and resin to prevent rot.</li><li>More to come soon...</li></ul>");
+add_part(&sailing, "Knots", "<p>Knots to learn to tie behind your back: the square knot, the sheet bend, the round turn, the half hitch, the rolling hitch and the bowline.</p>");
 add_page(&knowledge, &sailing);
 
 Page resources = create_page("resources");
