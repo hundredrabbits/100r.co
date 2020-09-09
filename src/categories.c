@@ -184,6 +184,7 @@ add_part(&press, "talks",
 	"</ul>");
 add_part(&press, "features", 
 	"<ul>"
+	"<li><a href='https://www.youtube.com/playlist?list=PLyamh3E2NsY_o3inZviSy-CmzHahiMPBa' target='_blank'>Everest Pipkin presents Left</a>, September 9th, 2020, Clinic for Open Source Arts.</li>"
 	"<li><a href='https://www.ssense.com/en-us/editorial/culture/spell-it-out-with-text-art' target='_blank' class='>external'>Spell It Out With Text Art</a>, August 11, 2020, SSense.</li>"
 	"<li><a href='https://www.geekzone.fr/2019/05/31/hundred-rabbits-rekka-devine/' target='_blank' class='external'>Le code qui venait de l'eau</a>, May 31, 2019, Geekzone.</li>"
 	"<li><a href='https://www.raspberrypi.org/blog/pino-smart-sailing-boat/' target='_blank' class='external'>Raspberry Pi aboard a smart sailboat</a>, April 4, 2018, Raspberry Pi blog.</li>"
