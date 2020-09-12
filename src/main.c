@@ -130,8 +130,7 @@ void
 build_page(Page* page)
 {
 	char filename[STR_BUF_LEN];
-	scpy(page->name, filename);
-	slca(filename);
+	to_filename(page->name, filename);
 	char filepath[STR_BUF_LEN + 64];
 	snprintf(filepath, STR_BUF_LEN + 64, "../site/%s.html", filename);
 	FILE* f = fopen(filepath, "w");
@@ -147,8 +146,7 @@ build_page(Page* page)
 		for(int i = 0; i < page->parts_len; ++i) {
 			char* part_name = page->parts_names[i];
 			char part_index[STR_BUF_LEN];
-			scpy(part_name, part_index);
-			slca(part_index);
+			to_filename(part_name, part_index);
 			fprintf(f, "<li><a href='#%s'>%s</a></li>", part_index, part_name);
 		}
 		fputs("</ul>", f);
@@ -158,8 +156,7 @@ build_page(Page* page)
 		char* part_name = page->parts_names[i];
 		char* part_description = page->parts_descriptions[i];
 		char part_index[STR_BUF_LEN];
-		scpy(part_name, part_index);
-		slca(part_index);
+		to_filename(part_name, part_index);
 		fprintf(f, "<h2 id='%s'>%s</h2>", part_index, part_name);
 		fputs(part_description, f);
 	}
@@ -191,8 +188,7 @@ build_home(Category** categories, int categories_len)
 		for(int j = 0; j < category->pages_len; ++j) {
 			Page* page = category->pages[j];
 			char page_index[STR_BUF_LEN];
-			scpy(page->name, page_index);
-			slca(page_index);
+			to_filename(page->name, page_index);
 			fprintf(f, "<li><a href='%s.html'>%s</a></li>", page_index, page->name);
 		}
 		fputs("</ul>", f);
@@ -224,8 +220,7 @@ build_rss(Category* blog)
 			continue;
 		}
 		char filename[STR_BUF_LEN];
-		scpy(page->name, filename);
-		slca(filename);
+		to_filename(page->name, filename);
 		char filepath[STR_BUF_LEN + 64];
 		snprintf(filepath, STR_BUF_LEN + 64, "https://100r.co/site/%s.html", filename);
 		fputs("<item>\n", f);
