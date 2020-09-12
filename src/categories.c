@@ -223,6 +223,7 @@ add_part(&press, "appearances",
 	"</ul>");
 add_part(&press, "print", 
 	"<ul>"
+	"<li><a href='https://wired.jp/magazine/vol_38/' target='_blank'</a>, September 12th, 2020, Wired JP, vol.38., p.34-36</li>"
 	"<li><b>Orca, procedural sequencer</b>, n°230, January 2020, p.90, Linux pro magazine.</li>"
 	"<li><a href='https://www.latitude38.com/issues/may-2019/' target='_blank' class='external'>Digital Nomads</a>, May 1st 2019, p.107, Latitude 38 magazine.</li>"
 	"<li><a href='http://100r.co/media/content/press/press.pbo.JPG' target='_blank' class='external'>The Vlog Addict</a>, Practical Boat Owner magazine.</li>"
