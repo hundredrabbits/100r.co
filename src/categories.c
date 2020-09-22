@@ -745,6 +745,11 @@ add_part(&resources, "ideology", "<ul>"
 add_part(&resources, "ecofiction", "<ul>"
   "<li><a href='https://en.wikipedia.org/wiki/Future_Boy_Conan' target='_blank' class='external'>Miyazaki's Future Boy Conan</a></li>"
   "</ul>");
+add_part(&resources, "Ship artisans", "<ul>"
+  "<li><a href='http://www.davey.co.uk/' target='_blank' class='external'>Davey & Company London Ltd</a></li>"
+  "<li><a href='http://www.shipmatestove.com/' target='_blank' class='external'>The ShipMate Stove Company Inc.</a></li>"
+  "<li><a href='https://www.tonygrove.com' target='_blank'>Shipwright Tony Grove</a></li>"
+  "</ul>");
 add_page(&knowledge, &resources);
 
 Category tools = create_category("tools");
