@@ -202,6 +202,7 @@ add_part(&press, "articles",
 	"</ul>");
 add_part(&press, "interviews", 
 	"<ul>"
+	"<li><a href='https://www.ladn.eu/mondes-creatifs/voilier-autosuffisant-derniere-generation-de-jeunes-a-pouvoir-le-faire/' target='_blank'>Tout plaquer pour vivre sur un voilier</a>, L'ADN, September 25th, 2020.</li>"
 	"<li><a href='https://checkpointgaming.net/features/2020/05/making-games-at-sea-hundred-rabbits-and-how-they-build-games-by-boat/' target='_blank'>Making games at sea</a>, Checkpoints Gaming, May 3rd, 2020.</li>"
 	"<li><a href='https://dev.to/gitnation/devine-lu-linvega-i-have-been-living-and-coding-on-a-sailboat-since-2016-54id' target='_blank' class='external'>I Have Been Living and Coding on a Sailboat Since 2016</a>, GitNation, October 5th, 2019.</li>"
 	"<li><a href='https://usesthis.com/interviews/devine.lu.linvega/' target='_blank' class='external'>Tools & techniques: Devine Lu Linvega</a>, Uses This, August 8th, 2019.</li>"
