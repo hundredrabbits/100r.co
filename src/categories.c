@@ -863,6 +863,21 @@ add_part(&donsol, "introduction", "<img src='../media/content/games/donsol/main.
 add_part(&donsol, "download", MODITCHIO("109936"));
 add_part(&donsol, "production", "<p>Donsol, short for <b>Dungeon Solitaire</b> was designed by John Eternal, during " LINKNAME("http://trainjam.com/", "train jam") " in 2015, it was later made into an iOS game with Devine. It was released on April 2015 on the appstore. The game was in turn ported to all desktop platforms.</p><p>In 2018, we removed the game from the iOS store, in a conscious attempt to distance ourselves from Apple ecosystem. After looking at the trajectory of the development tools, namely the bloated development environment, we did not believe that it was possible for us to continue working on our games, while at sea with little connectivity for the Apple mobile platform.</p><p>We also could not reconcilliate pushing for environmentally conscious action, while supporting a company that fights against the <a href='https://www.ifixit.com/Right-to-Repair/Intro' target='_blank' class='external'>Right to Repair</a>, and create <a href='https://www.vice.com/en_us/article/neaz3d/airpods-are-a-tragedy' target='_blank' class='external'>wasteful products</a>. Instead, the game was published exclusively on the <a href='https://hundredrabbits.itch.io/oquonie' target='_blank' class='external'>Itch.io store</a>, a publishing platform in line with our values.</p>");
 add_part(&donsol, "famicom release", "<p>Why <a href='https://www.patreon.com/posts/round-up-of-2019-32923541' target='_blank'>Assembly</a>? Because we want to produce lasting versions of our games, to use simpler tools, to make more resilient software with fewer dependencies, and support older hardware as to give a second life to old electronics.</p>");
+add_part(&donsol, "how to play", "<p>A <b>standard deck of 54 cards</b>, jokers included, is a dungeon. Shuffle the deck and draw 4 cards, display them before you, this is a room. A room ends when all the cards are folded.</p>"
+"<p><b>♥︎ Heart Potions</b></p>"
+"<p>A <b>potion</b> gives you health points equal to its value, up to a maximum of 21 health points.</p>"
+"<p>Drinking multiple potions in a row will make you sick and result in no extra healing, only the first potion's value will be gained in HP. Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.</p>"
+"<p><b>♦ Diamond Shields</b></p>"
+"<p>A <b>shield</b> absorbs the damage difference between the shield value and that of the attacked monster's value.</p>"
+"<p>Shields can only defend against monsters in descending value and if you use a shield on a monster with higher or equal value to the previous, it will break. Broken shields leave you unarmored, and taking full damage. Folding shield card will always replace a previously equipped shield. Shields are equal to their value and face cards (J,Q,K,A) each are equal to 11.</p>"
+"<p><b>♣♠ Club/Spades Monsters</b></p>"
+"<p>Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.</p>"
+"<p>You may <b>escape a room</b>. When escaping, the remaining cards are put back at the end of the deck. A player is allowed to escape a room:</p>"
+"<ul class='bullet'>"
+    "<li><b>Easy Mode:</b> When all monsters in the room have been dealt with, or when the player has not escaped the previous room.</li>"
+    "<li><b>Normal Mode:</b> Only when the player has not escaped the previous room.</li>"
+    "<li><b>Hard Mode:</b> Only when all monsters in the room have been dealt with.</li>"
+"</ul>");
 add_part(&donsol, "screenshots", "<img src='../media/content/games/donsol/1.jpg'/>");
 add_page(&games, &donsol);
 
