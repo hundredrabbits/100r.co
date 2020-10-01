@@ -9,8 +9,12 @@ permalink: /404.html
   <link rel='alternate' type='application/rss+xml' title='Hundred Rabbits Journal' href='http://100r.co/links/rss.xml' />
   <title>100R(error)</title>
 </head>
+  
+<!--body of the page starts from here-->
+  
 <body>
   <p style='max-width: 500px'>Hi there, the page you are looking for does not exist, please <a href='https://github.com/hundredrabbits/100r.co/issues/new' target='_blank'>report the broken link</a>, or continue to the <a href='site/home.html'>home page</a>.</p>
+ <!--javascript code begins from here-->
   <script>
     'use strict'
 
@@ -20,20 +24,26 @@ permalink: /404.html
     console.log(`Looking for ${filename}..`)
     const filepath = `https://100r.co/site/${filename}.html`
 
-    if(UrlExists(filepath)){
+    if(UrlExists(filepath))
+    {
       window.location.replace(filepath)
     }
 
-    function UrlExists(url) {
+    function UrlExists(url) 
+    {
       const http = new XMLHttpRequest()
       http.open('HEAD', url, false)
       http.send()
       return http.status!=404
     }
 
-    function toFilename(str){
+    function toFilename(str)
+    {
       return `${str}`.replace('#','').replace('.html','').replace(/[\W_]+/g,"_").toLowerCase().trim()
     }
   </script>
+ <!--javascript ends here-->
 </body>
+ <!--body ends here-->
+  
 </html>
