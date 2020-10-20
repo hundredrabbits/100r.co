@@ -3,7 +3,12 @@
 
 <title>Hundred Rabbits</title>
 <link><![CDATA[https://100r.co/]]></link>
-<description>Rekka and Devine Travel Diary</description>
+<description>Rekka and Devine travel updates</description>
+ <image>
+<url>https://100r.co/media/services/rss.jpg</url>
+<title>Hundredrabbits</title>
+<link>https://100r.co</link>
+</image>
 <item>
   <title>Working offgrid efficiently</title>
   <link>https://100r.co/site/working_offgrid_efficiently.html</link>
