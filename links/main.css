@@ -80,4 +80,17 @@ body footer form *:last-child { background:#000;font-weight: bold;color:white;pa
   body main > ul.jump { columns: 1 !important }
   .col2 { columns: 1 }
   .col3 { columns: 1 }
+  }
+
+@media (prefers-color-scheme: dark){
+  body {background: #111; color: white}
+  body footer { border-top: solid white}
+  body footer form {border-color: white}
+  body footer form *:first-child {color:#111; margin-left: 10px}
+  body footer form *:last-child { background:#111; color:white}
+  body footer form:hover *:last-child { background:#111; color:grey}
+  body main ul.gallery li { border-bottom: 2px solid white}
+  body header a#logo img { filter: invert(1)}
+  body main > pre { background: white; color:#111}
+  body main > code { background:white; color:#111}
 }
