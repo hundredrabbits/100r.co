@@ -93,4 +93,8 @@ body footer form *:last-child { background:#000;font-weight: bold;color:white;pa
   body header a#logo img { filter: invert(1)}
   body main > pre { background: white; color:#111}
   body main > code { background:white; color:#111}
+  body main a.button { background-color: white;border: none;color: black;}
+  body main a.button:hover {background-color: #2E2E2E !important;border: none;color: white}
+
+
 }
