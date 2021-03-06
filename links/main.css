@@ -51,13 +51,16 @@ body main > table.col b { font-weight: bold }
 
 body main > table.logbook tr td { padding-bottom: 15px }
 
+body main table.drpdown {padding-bottom: 15px; font-size: 18px}
+body main table.drpdown td {padding-bottom: 15px; color: black;}
+
 body main > table tr th { text-align: left; font-weight: bold }
 body main > table tr td { border-right:1.5px solid black}
 body main > table tr > * { padding:0px 15px}
 body main > table tr td:last-child { border-right: 0px }
-body main a.button { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; background-color: #000000;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-body main a.button:hover {background-color: #727272 !important;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-body main a.button.patreon { background-color: #e75942}
+body main .button { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; background-color: #e75942;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main .button:hover {background-color: #727272 !important;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+body main .button.patreon { background-color: #e75942}
 body main ul.gallery { background:none}
 body main ul.gallery li { clear: both; display: block; border-bottom: 2px solid black; height: 260px; margin-top: -2px}
 body main ul.gallery li:last-child { border-bottom: 0px}
@@ -65,6 +68,7 @@ body main ul.gallery li a { display: block; padding: 10px}
 body main ul.gallery li img { width:250px; float:left; display: block ; margin-right: 15px;}
 body main ul.gallery li h3 { font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial; font-size: 30px;text-transform: capitalize; line-height: 40px;max-width: 75%; margin-bottom: 10px}
 body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica Neue", Helvetica, Arial; font-size:20px; text-transform: capitalize}
+body select { color: black; margin-bottom: 20px }
 
 body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 120px; max-width: 600px }
 body footer p { font-weight: bold }
@@ -93,7 +97,7 @@ body footer form *:last-child { background:#000;font-weight: bold;color:white;pa
   body header a#logo img { filter: invert(1)}
   body main > pre { background: white; color:#111}
   body main > code { background:white; color:#111}
-  body main a.button { background-color: white;border: none;color: black;}
+  body main a.button { background-color: #e75942;border: none;color: black;}
   body main a.button:hover {background-color: #2E2E2E !important;border: none;color: white}
 
 
