@@ -71,8 +71,8 @@ body main ul.gallery li h4 { font-family: "alte_haas_grotesk_bold", "Helvetica N
 body select { color: black; margin-bottom: 20px }
 
 body footer { border-top: 1.5px solid black;padding-top: 30px;margin-bottom: 120px; max-width: 600px }
-body footer p { font-weight: bold }
-body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block}
+body footer p { padding-bottom: 5px }
+body footer form { margin-top: 5px; border: 1.5px solid black; display: inline-block; margin-bottom: 10px;}
 body footer form *:first-child { padding-left:15px}
 body footer form *:last-child { background:#000;font-weight: bold;color:white;padding: 10px; cursor: pointer}
 
