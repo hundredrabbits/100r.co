@@ -9,4 +9,4 @@ This repository is the sources for the Hundred Rabbits website. The website is w
 ## Extras
 
 - Pull Requests are welcome.
-- See LICENSE.mit.md and LICENSE.by-nc-sa-4.0.md for license rights and limitations for both the source code(MIT) and the assets and text(BY-NC-SA-4.0).
+- The source code of this website is licensed under **MIT** (see [license](LICENSE.mit.md) and the assets and text **BY-NC-SA-4.0** (see [license](LICENSE.by-nc-sa-4.0.md)).
