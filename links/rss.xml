@@ -10,6 +10,36 @@
 <link>https://100r.co</link>
 </image>
 <item>
+  <title>Summary of changes for March</title>
+  <link>https://100r.co/site/log.html#mar2021</link>
+  <guid isPermaLink='false'>log.html#feb2021</guid>
+  <pubDate>Thu, 01 Mar 2021 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of March. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+<ul>
+    <li><b><a href='https://wiki.xxiivv.com/site/uxn.html'>Uxn</a></b>, lots of progress on Uxn, started documenting the <a href='https://wiki.xxiivv.com/site/uxambly.html' target='_blank'>assembly syntax</a>, built a <a href='https://wiki.xxiivv.com/site/uxnemu.html' target='_blank'>Uxn emulator</a> with a handful of devices, from date/time support, to graphics, mouse, and soon audio and midi support. Rekka designed some additional <a href='https://merveilles.town/@neauoire/105874063074976605' target='_blank'>mascots</a> for the project.</li>
+    <li><b><a href='https://wiki.xxiivv.com/site/noodle.html' target='_blank'>Noodle</a></b>, implemented <a href='https://www.youtube.com/watch?v=39ixX7Ixvnw' target='_blank'>Noodle into Uxn</a>, with presentation modes, save/load and various patterns to create 1-bit graphics.</li>
+    <li><b><a href='https://100r.co/site/busy_doing_nothing.html' target='_blank'>Busy Doing Nothing</a></b>, fixed type and formatting errors, and removed the fixed font. It is now easier to read on phones.</li> 
+    <li><b><a href='https://grimgrains.com' target='_blank'>Grimgrains</a></b>, added a <a href='https://grimgrains.com/site/sourdough_spelt_flatbread.html' target="_blank">Sourdough spelt flatbread</a> recipe.</li>
+    <li><b><a href='https://kokorobot.ca/site/wunderrabbits.html' target='_blank'>Wunderland rabbits</a></b>, released a small photo project involving traveling, and rabbits.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>This month, the rabbits have been busy making new holes in Pino, cutting metal, and building a support platform for their new <a href='https://twitter.com/hundredrabbits/status/1372001452898488321' target='_blank'>tiny woodstove</a>. When the installation is complete, we have plans to write a blog post about the process.</p>
+
+<p>If you're seeing this update on the 100r.co website, you'll notice that all logs are now in the <a href='log.html'>same file</a>. It is easier for us to manage, and we think, more pleasant for you to read.</p>
+
+<h3>Pino book club</h2>
+<p>We're reading <b>The Complete Rigger’s Apprentice</b> by Brion Toss and <b>Thinking Forth</b> by Leo Brody.</p>
+
+<p><b>Pino's location:</b> 48° 42.230'N, 123° 36.900'W</p>
+<p><a href='https://100r.co/site/log.html#mar2021'>Continue Reading</a></p>]]>
+  </description>
+</item>
+<item>
   <title>Summary of changes for February</title>
   <link>https://100r.co/site/log.html#feb2021</link>
   <guid isPermaLink='false'>summary_of_changes_2021_feb</guid>
