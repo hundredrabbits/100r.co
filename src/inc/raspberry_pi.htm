@@ -1,0 +1,71 @@
+
+<ul class='jump'>
+    <li><a href='#introduction'>introduction</a></li>
+    <li><a href='#setup'>setup</a></li>
+    <li><a href='#installation'>installation</a></li>
+    <li><a href='#pi_hole'>pi hole</a></li>
+    <li><a href='#osmc'>osmc</a></li>
+    <li><a href='#retropie'>retropie</a></li>
+    <li><a href='#radio_pi'>radio pi</a></li>
+    <li><a href='#pi_computer'>pi computer</a></li>
+</ul>
+<h2 id='introduction'>introduction</h2>
+<p>The <b>Raspberry Pi</b> is a small single-board computer that is fairly cheap and easily accessible from anywhere.</p>
+<p>We currently use the Pi for a variety of projects on <a href='pino.html' target='_self' class='local'>Pino</a>, as it takes little power, and seems to be resistant to corrosion. Our Pi Computers are currently used only as experimental development tools, but could readily be turned into a complete development platform, would our principal computers fail.</p><img src='../media/content/raspberry/logo.svg' style='width:130px' />
+<h2 id='setup'>setup</h2>
+<p>Download <a href='https://www.raspberrypi.org/downloads/raspbian/' target='_blank' class='external'>Raspbian Lite</a>, and with <a href='https://etcher.io' target='_blank' class='external'>Etcher</a> flash the SD card. Once Etcher has finished, re-insert it and type:</p><code><li>touch /Volumes/boot/ssh <comment># Enable SSH</comment></li><li>touch /Volumes/boot/wpa_supplicant.conf <comment># Auto-connect to wifi</comment></li><li>nano /Volumes/boot/wpa_supplicant.conf</li></code>
+<p><b>Edit wpa_supplicant.conf</b></p><code><li>country=CA</li><li>ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev</li><li>update_config=1</li><li>network=&#123;</li><li>  ssid='network_name'</li><li>  psk='network_password'</li><li>&#125;</li></code>
+<p>If you are using a Raspberry Pi Zero and would like to controll it via USB, or <b>Gadget Mode</b>.</p><code><li>dtoverlay=dwc2 <comment># Append in config.txt</comment></li><li>modules-load=dwc2,g_ether <comment># Append in cmdline.txt, or after rootwait</comment></li></code>
+<h2 id='installation'>installation</h2>
+<p><b>Connect to the Pi</b></p><code><li>ping raspberrypi.local <comment># Find its IP address</comment></li><li>ssh pi@192.168.1.73 <comment># Use password '<b>raspberry</b>'</comment></li><li>sudo raspi-config <comment># <b>Interface/SSH</b> & <b>Advanced/Expand FS</b></comment></li><li>sudo nano /etc/hostname <comment># Rename</comment></li><li>sudo nano /etc/hosts <comment># Rename</comment></li><li>passwd <comment># Change Password</comment></li><li>sudo reboot</li></code>
+<p><b>Update everything</b></p><code><li>sudo apt-get update</li><li>sudo apt-get upgrade</li><li>sudo apt-get dist-upgrade</li></code>
+<h2 id='pi_hole'>pi hole</h2>
+<p>To have an ad-free internet experience, we use the <a href='https://pi-hole.net/' target='_blank' class='external'>Pi Hole</a> with an <a href='https://github.com/pimoroni/inky-phat/issues' target='_blank' class='external'>Inky Phat</a> by <a href='https://shop.pimoroni.com' target='_blank' class='external'>Pimoroni</a>. InkPhat displays the number of blocked requests, and filtered traffic.</p><img src='../media/content/raspberry/inky.hole.jpg' loading='lazy' />
+<p>Setup <a href='https://learn.adafruit.com/pi-hole-ad-blocker-with-pi-zero-w/install-pi-hole' target='_blank' class='external'>Pi-Hole</a>, <a href='https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-inky-phat' target='_blank' class='external'>InkyPhat</a> and clone <a href='https://github.com/neauoire/inky-hole' target='_blank' class='external'>this repo</a> on your <a href='https://www.raspberrypi.org/products/' target='_blank' class='external'>Raspberry Pi Zero W</a>.</p>
+<p><b>Automatic reload</b></p>
+<p>To have it reload automatically every 30 seconds, edit <b>crontab</b>.</p><code><li>crontab -e</li></code>
+<p>Add the following line:</p><code><li>*/30 * * * * python /home/pi/inky-hole/main.py</li></code>
+<h2 id='osmc'>osmc</h2>
+<p>Our media station is a <a href='http://osmc.tv' target='_blank' class='external'>OSMC</a> powered <a href='raspberry_pi.html' target='_self' class='local'>Raspberry Pi</a>. OSMC is a fast and beautiful operating system for the RPi board, it instantly gets media from our external drives, and streams audio to our <a href='raspberry_pi.html#radio_pi' target='_self'>Radio</a> via Airplay.</p>
+<p>Setting up OSMC is extremly simple, one simply needs to burn a SD Card with the <a href='https://osmc.tv/download/' target='_blank' class='external'>latest Build</a>, it installs itself upon boot and is usable in matters of seconds on the Raspberry Pi 3B+.</p>
+<p>This rig can be operated solely by touch, and requires no keyboard.</p><img src='../media/content/raspberry/media.station.jpg' />
+<ul>
+    <li>Raspberry Pi <a href='https://www.raspberrypi.org' target='_blank' class='external'>3B+</a></li>
+    <li>Raspberry Pi <a href='https://www.raspberrypi.org/products/raspberry-pi-touch-display/' target='_blank' class='external'>Touch 7'</a>, 800x480</li>
+    <li>SmartiPi Touch 7' Case</li>
+    <li>Samsung EVO+ 16GB SD Card</li>
+</ul>
+<h2 id='retropie'>retropie</h2>
+<p>Our game station is a <a href='http://retropie.org.uk' target='_blank' class='external'>Retropie</a> powered <a href='raspberry_pi.html' target='_self' class='local'>Raspberry Pi</a>.</p><img src='../media/content/raspberry/game.station.jpg' />
+<ul>
+    <li>Raspberry Pi <a href='https://www.raspberrypi.org' target='_blank' class='external'>3B+</a></li>
+    <li>Raspberry Pi <a href='https://www.raspberrypi.org/products/raspberry-pi-touch-display/' target='_blank' class='external'>Touch 7'</a>, 800x480</li>
+    <li>SmartiPi Touch 7' Case</li>
+    <li>Samsung EVO+ 16GB SD Card</li>
+</ul>
+<h2 id='radio_pi'>radio pi</h2>
+<p>Our <a href='pino.html' target='_self' class='local'>sailboat</a>'s speakers are connected to a <b>Pi Zero W</b> with <a href='https://github.com/pimoroni/phat-beat' target='_blank' class='external'>Pimoroni's pHat Beat</a>.</p>
+<p>The hat sends <a href='https://www.apple.com/airplay/' target='_blank' class='external'>Airplay</a> audio into two speaker-wire outputs, making a very powerful and cheap stereo. We share this device among our various workstations and phones.</p><img src='../media/content/raspberry/radio.jpg' loading='lazy' />
+<ul>
+    <li><a href='https://www.raspberrypi.org' target='_blank' class='external'>Raspberry Pi Zero W 1.1</a></li>
+    <li><a href='https://shop.pimoroni.com/products/phat-beat' target='_blank' class='external'>Pimoroni's pHat Beat</a></li>
+    <li><a href='https://shop.pimoroni.com/products/pogo-a-go-go-solderless-gpio-pogo-pins' target='_blank' class='external'>Pimoroni's Pogo Pins</a></li>
+    <li>8GB SD Card</li>
+    <li>4x Brass Spacers</li>
+    <li>4x Screws</li>
+    <li>4x Bolts</li>
+</ul>
+<p>The full guide is <a href='https://learn.pimoroni.com/tutorial/sandyj/streaming-airplay-to-your-pi' target='_blank' class='external'>here</a>.</p><code><li>curl -sS get.pimoroni.com/airdac | bash</li></code>
+<h2 id='pi_computer'>pi computer</h2>
+<p>Rekka's <a href='raspberry_pi.html' target='_self' class='local'>Raspberry pi</a> rig is a media platform and distractionless workstation. Its purpose is also to program other <a href='raspberry_pi.html' target='_self' class='local'>Raspberry Pi</a> projects.</p><img src='../media/content/raspberry/computer.jpg' loading='lazy' />
+<ul>
+    <li>Raspberry Pi <a href='https://www.raspberrypi.org' target='_blank' class='external'>3B+</a></li>
+    <li>Raspberry Pi Touch 7'</li>
+    <li>Pimoroni's <a href='https://shop.pimoroni.com/products/blinkt' target='_blank' class='external'>Blinkt</a> [<a href='https://github.com/hundredrabbits/blinkt-control' target='_blank' class='external'>Blinkt Controls</a>]</li>
+    <li>SmartiPi Touch 7' Case</li>
+    <li>Samsung EVO+ 64GB SD Card</li>
+    <li>Anker Fast Charge USB Cable</li>
+</ul>
+<ul>
+    <li><a href='https://wiki.xxiivv.com/#raspberry' target='_blank' class='external'>Get started</a></li>
+</ul>
