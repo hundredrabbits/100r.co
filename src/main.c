@@ -17,6 +17,8 @@ WITH REGARD TO THIS SOFTWARE.
 
 #define NAME "100R"
 #define DOMAIN "https://100r.co/"
+#define LICENSE "https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md"
+#define SOURCE "https://github.com/hundredrabbits/100r.co/edit/master"
 
 struct dirent *dir;
 
@@ -70,7 +72,7 @@ fpedited(FILE *f, char *path)
 	stat(path, &attr);
 	fputs("<span style='float:right'>", f);
 	fprintf(f, "Edited on %s ", ctime(&attr.st_mtime));
-	fprintf(f, "<a href='https://github.com/hundredrabbits/100r.co/edit/master/src/%s'>[edit]</a><br/>", path);
+	fprintf(f, "<a href='" SOURCE "/src/%s'>[edit]</a><br/>", path);
 	fputs("</span>", f);
 }
 
@@ -143,8 +145,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	fprintf(f,
 		"<meta charset='utf-8'>"
 		"<meta name='description' content='%s'/>"
-		"<meta name='thumbnail' content='" DOMAIN
-		"media/services/thumbnail.jpg' />"
+		"<meta name='thumbnail' content='" DOMAIN "media/services/thumbnail.jpg' />"
 		"<meta name='viewport' content='width=device-width,initial-scale=1'>"
 		"<link rel='alternate' type='application/rss+xml' title='RSS Feed' "
 		"href='../links/rss.xml' />"
@@ -176,7 +177,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);
 	fputs("<b>Hundredrabbits</b> © 2021 — ", f);
-	fputs("<a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a>", f);
+	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
 	fputs("</footer>", f);
 
 	fputs("</body></html>", f);
