@@ -2,65 +2,81 @@
 *:focus         { outline: none}
 ::selection       { background: #eee; opacity:1.0; color:#000; padding:10px; /* Safari */ }
 
-header { margin-bottom: 15px }
+body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif; padding:0; margin:0; }
 
-body { background:#fff; color:#000; overflow-x: hidden; margin-top:5px; padding:45px 90px; font-family: sans-serif }
-body main > img { width:100%; max-width: 600px }
-body main > * { max-width: 600px; margin-bottom: 30px }
-body main > h1 { font-size:45px; text-transform: capitalize; display: none}
-body main > h2 { font-size:30px; text-transform: capitalize}
-body main > h3 { font-size:20px; text-transform: capitalize}
-body main > p { line-height: 25px; font-size:16px}
-body main > ul { line-height: 25px;}
-body main > ul.nobull li {list-style-type: none}
-body a {color: black;}
+header { padding: 45px; border-bottom: 1px solid #222; }
+header a img { background:pink; }
+
+main { padding: 45px; float:left; width:700px; }
+nav { padding:45px; float:left; }
+nav ul { margin-left:0px; padding-left:0px; }
+
+main > img { width:100%; max-width: 700px }
+main > * { max-width: 600px; margin-bottom: 30px }
+main > h1 { font-size:45px; text-transform: capitalize; display: none}
+main > h2 { font-size:30px; text-transform: capitalize}
+main > h3 { font-size:20px; text-transform: capitalize}
+main > p { line-height: 25px; font-size:16px}
+main > ul { line-height: 25px;}
+
+main > ul.jump { columns:2; line-height: 20px}
+main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
+main img.medium {max-width: 300px;}
+
+main > q { font-size: 20px;max-width: 500px; display: block; margin-left:30px; }
+main > pre { font-family: monospace; background: black; color:white; padding:15px; }
+main > code { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
+main > code comment { color:#777}
+
+main ul.gallery { background:none}
+main ul.gallery li { clear: both; display: block; height: 260px; margin-top: -2px}
+main ul.gallery li:last-child { border-bottom: 0px}
+main ul.gallery li a { display: block; padding: 10px}
+main ul.gallery li img { width:250px; float:left; display: block ; margin-right: 15px;}
+
+main .button.patreon { background-color: #e75942}
+main .button {background-color: #e75942;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+main .button:hover {background-color: #727272 !important;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+
+body select { color: black; margin-bottom: 20px }
+main table.drpdown {padding-bottom: 15px; font-size: 18px}
+main table.drpdown td {padding-bottom: 15px; color: black;}
+
+main > table.col tr th { text-align: left}
+main > table.col tr td { border-right:1.5px solid black}
+main > table.col tr > * { padding:5px 20px}
+main > table.col tr td:last-child { border-right: 0px }
+main > table.col tr > *:first-child { padding-left: 0px }
+main > table.col b { font-weight: bold }
+
+main > table.logbook tr td { padding-bottom: 15px;padding-top: 15px; }
+main > table img { max-width: 100%; display: block; margin:20px 0;}
+main > table tr th { text-align: left; font-weight: bold }
+main > table tr > * { padding:5px 15px; vertical-align: top;}
+
+footer { line-height: 30px; clear:both; padding:45px; }
+footer hr { margin-bottom: 15px }
+
+/* Modular */
+
+a { color: black }
+
+a:visited { color:#aaa; } 
+
+ul { margin:0px 0px 30px 0px; }
 
 .col2 { columns: 2 }
 .capital { text-transform: capitalize }
+ul.nobull li {list-style-type: none}
 
-body main > ul.jump { columns:2; line-height: 20px}
-body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
-body main img.medium {max-width: 300px;}
-
-body main > q { font-size: 20px;max-width: 500px; display: block; margin-left:30px; }
-body main > pre { font-family: monospace; background: black; color:white; padding:15px; }
-body main > code { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
-body main > code comment { color:#777}
-
-body main ul.gallery { background:none}
-body main ul.gallery li { clear: both; display: block; height: 260px; margin-top: -2px}
-body main ul.gallery li:last-child { border-bottom: 0px}
-body main ul.gallery li a { display: block; padding: 10px}
-body main ul.gallery li img { width:250px; float:left; display: block ; margin-right: 15px;}
-
-body main .button.patreon { background-color: #e75942}
-body main .button {background-color: #e75942;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-body main .button:hover {background-color: #727272 !important;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
-
-body select { color: black; margin-bottom: 20px }
-body main table.drpdown {padding-bottom: 15px; font-size: 18px}
-body main table.drpdown td {padding-bottom: 15px; color: black;}
-
-body main > table.col tr th { text-align: left}
-body main > table.col tr td { border-right:1.5px solid black}
-body main > table.col tr > * { padding:5px 20px}
-body main > table.col tr td:last-child { border-right: 0px }
-body main > table.col tr > *:first-child { padding-left: 0px }
-body main > table.col b { font-weight: bold }
-
-body main > table.logbook tr td { padding-bottom: 15px;padding-top: 15px; }
-body main > table img { max-width: 100%; display: block; margin:20px 0;}
-body main > table tr th { text-align: left; font-weight: bold }
-body main > table tr > * { padding:5px 15px; vertical-align: top;}
-
-footer { line-height: 30px }
-footer hr { margin-bottom: 15px }
+/* Theme */
 
 @media (prefers-color-scheme: dark){
   body {background: #111; color: white}
   body header a img { filter: invert(1)}
   body a {color: white;}
-  body main > pre { background: white; color:#111}
-  body main > code { background:white; color:#111}
+  body a:visited {color: #ccc;}
+  main > pre { background: white; color:#111}
+  main > code { background:white; color:#111}
   body select { color: black; background-color: white;}
 }
