@@ -62,7 +62,8 @@ int template(FILE *f, Lexicon *l, char *s) {
     return portal(f, l, s + 1);
   if (findf(l, s) < 0)
     return error("Missing link", s);
-  fprintf(f, "<a href='%s.html'>%s</a>", scsw(stlc(s), ' ', '_'), s);
+  fprintf(f, "<a href='%s.html'>", scsw(stlc(s), ' ', '_'));
+  fprintf(f, "%s</a>", scsw(stlc(s), '_', ' '));
   return 1;
 }
 
