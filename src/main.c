@@ -23,7 +23,7 @@ WITH REGARD TO THIS SOFTWARE.
 struct dirent *dir;
 
 typedef struct Lexicon {
-	int len;
+	int len, refs[512];
 	char files[512][64];
 } Lexicon;
 
@@ -44,7 +44,7 @@ char *ccat(char *dst, char c) { int len = slen(dst); dst[len] = c; dst[len + 1] 
 
 /* clang-format on */
 
-int inject(FILE *f, Lexicon *l, char *filepath);
+int fpinject(FILE *f, Lexicon *l, char *filepath);
 
 int
 error(char *msg, char *val)
@@ -77,33 +77,40 @@ fpedited(FILE *f, char *path)
 }
 
 int
-portal(FILE *f, Lexicon *l, char *s, int head)
+fpportal(FILE *f, Lexicon *l, char *s, int head)
 {
+	int target;
 	char srcpath[64], filename[64];
-	if(findf(l, s) < 0)
+	target = findf(l, s);
+	if(target < 0)
 		return error("Missing portal", s);
 	srcpath[0] = 0;
 	filename[0] = 0;
 	scat(scat(scat(srcpath, "inc/"), scpy(s, filename, 64)), ".htm");
 	if(head)
 		fprintf(f, "<h2 id='%s'><a href='%s.html'>%s</a></h2>", filename, filename, s);
-	inject(f, l, srcpath);
-	return 1;
-}
-
-int template(FILE *f, Lexicon *l, char *s)
-{
-	if(s[0] == '/')
-		return portal(f, l, s + 1, 1);
-	if(findf(l, s) < 0)
-		return error("Missing link", s);
-	fprintf(f, "<a href='%s.html' class='local'>", scsw(stlc(s), ' ', '_'));
-	fprintf(f, "%s</a>", scsw(stlc(s), '_', ' '));
+	fpinject(f, l, srcpath);
+	l->refs[target]++;
 	return 1;
 }
 
 int
-inject(FILE *f, Lexicon *l, char *filepath)
+fptemplate(FILE *f, Lexicon *l, char *s)
+{
+	int target;
+	if(s[0] == '/')
+		return fpportal(f, l, s + 1, 1);
+	target = findf(l, s);
+	if(target < 0)
+		return error("Missing link", s);
+	fprintf(f, "<a href='%s.html' class='local'>", scsw(stlc(s), ' ', '_'));
+	fprintf(f, "%s</a>", scsw(stlc(s), '_', ' '));
+	l->refs[target]++;
+	return 1;
+}
+
+int
+fpinject(FILE *f, Lexicon *l, char *filepath)
 {
 	FILE *inc;
 	char c, s[1024];
@@ -115,7 +122,7 @@ inject(FILE *f, Lexicon *l, char *filepath)
 	while((c = fgetc(inc)) != EOF) {
 		if(c == '}') {
 			t = 0;
-			if(!template(f, l, s))
+			if(!fptemplate(f, l, s))
 				return 0;
 			continue;
 		}
@@ -126,9 +133,9 @@ inject(FILE *f, Lexicon *l, char *filepath)
 		}
 		if(slen(s) > 1023)
 			return error("Templating error", filepath);
-		if(t) {
+		if(t)
 			ccat(s, c);
-		} else
+		else
 			fprintf(f, "%c", c);
 	}
 	fclose(inc);
@@ -140,6 +147,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 {
 	if(!f)
 		return f;
+	/* begin */
 	fputs("<!DOCTYPE html><html lang='en'>", f);
 	fputs("<head>", f);
 	fprintf(f,
@@ -157,31 +165,30 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		name);
 	fputs("</head>", f);
 	fputs("<body>", f);
-
+	/* header */
 	fputs("<header>", f);
 	fputs("<a href='home.html'><img src='../media/interface/logo.svg' alt='" NAME "' height='50'></a>", f);
 	fputs("</header>", f);
-
+	/* nav */
 	fputs("<nav>", f);
-	if(!portal(f, l, "meta.nav", 0))
+	if(!fpportal(f, l, "meta.nav", 0))
 		printf(">>> Building failed: %s\n", name);
 	fputs("</nav>", f);
-
+	/* main */
 	fputs("<main>\n\n", f);
 	fputs("<!-- Generated file, do not edit -->\n\n", f);
 	fprintf(f, "<h1>%s</h1>", name);
-	if(!inject(f, l, srcpath))
+	if(!fpinject(f, l, srcpath))
 		printf(">>> Building failed: %s\n", name);
 	fputs("\n\n</main>", f);
-
+	/* footer */
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);
 	fputs("<b>Hundredrabbits</b> © 2021 — ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
 	fputs("</footer>", f);
-
+	/* end */
 	fputs("</body></html>", f);
-
 	return f;
 }
 
@@ -213,11 +220,22 @@ int
 index(Lexicon *l, DIR *d)
 {
 	while((dir = readdir(d)))
-		if(ssin(dir->d_name, ".htm") > 0)
+		if(ssin(dir->d_name, ".htm") > 0) {
+			l->refs[l->len] = 0;
 			scpy(dir->d_name, l->files[l->len++], 64);
+		}
 	closedir(d);
 	printf("Indexed %d terms\n", l->len);
 	return 1;
+}
+
+void
+inspect(Lexicon *l)
+{
+	int i;
+	for(i = 0; i < l->len; ++i)
+		if(!l->refs[i])
+			error("Orphaned", l->files[i]);
 }
 
 int
@@ -228,7 +246,10 @@ main(void)
 	lex.len = 0;
 	if(!(d = opendir("inc")))
 		return error("Open", "Missing inc/ folder. ");
-	index(&lex, d);
-	generate(&lex);
+	if(!index(&lex, d))
+		return error("Indexing", "Failed");
+	if(!generate(&lex))
+		return error("Generating", "Failed");
+	inspect(&lex);
 	return 0;
 }
