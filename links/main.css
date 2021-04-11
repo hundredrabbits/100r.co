@@ -9,7 +9,7 @@ header a img { background:pink; }
 
 main { padding: 45px; float:left; width:700px; }
 nav { padding:45px; float:left; }
-nav ul { margin-left:0px; padding-left:0px; }
+nav ul { margin-left:0px; padding-left:0px; line-height: 22px}
 
 main > img { width:100%; max-width: 700px }
 main > * { max-width: 600px; margin-bottom: 30px }
