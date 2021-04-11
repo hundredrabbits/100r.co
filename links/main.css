@@ -3,7 +3,7 @@
 */*:focus         { outline: none}
 ::selection       { background: #eee; opacity:1.0; color:#000; padding:10px; /* Safari */ }
 
-body { background:#fff; color:#000; overflow-x: hidden; margin-top:5px; padding:45px 90px}
+body { background:#fff; color:#000; overflow-x: hidden; margin-top:5px; padding:45px 90px; font-family: sans-serif }
 body main > img { width:100%; max-width: 800px }
 body main > * { max-width: 800px; margin-bottom: 30px }
 body main > h1 { font-size:45px; text-transform: capitalize}
@@ -20,7 +20,7 @@ body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 body main img.medium {max-width: 300px;}
 
-body main > q { font-size: 20px; max-width: 500px; display: block; margin-left:30px; }
+body main > q { font-size: 20px;max-width: 500px; display: block; margin-left:30px; }
 body main > pre { font-family: monospace; background: black; color:white; padding:15px; }
 body main > code { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
 body main > code comment { color:#777}
