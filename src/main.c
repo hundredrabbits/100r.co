@@ -1,5 +1,8 @@
 #include <dirent.h>
 #include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <time.h>
 
 #define NAME "100R"
 #define DOMAIN "https://100r.co/"
@@ -43,6 +46,19 @@ int findf(Lexicon *l, char *f) {
     if (scmp(l->files[i], filename))
       return i;
   return -1;
+}
+
+void fpedited(FILE *f, char *path) {
+  struct stat attr;
+  stat(path, &attr);
+  fputs("<span style='float:right'>", f);
+  fprintf(f, "Edited on %s ", ctime(&attr.st_mtime));
+  fprintf(f,
+          "<a "
+          "href='https://github.com/hundredrabbits/100r.co/edit/master/src/"
+          "%s'>[edit]</a><br/>",
+          path);
+  fputs("</span>", f);
 }
 
 int portal(FILE *f, Lexicon *l, char *s) {
@@ -128,7 +144,8 @@ FILE *build(FILE *f, Lexicon *l, char *name, char *srcpath) {
     printf(">>> Building failed: %s\n", name);
   fputs("\n\n</main>", f);
   fputs("<footer><hr />", f);
-  fputs("Hundredrabbits © 2021 — <a "
+  fpedited(f, srcpath);
+  fputs("<b>Hundredrabbits</b> © 2021 — <a "
         "href='https://github.com/hundredrabbits/100r.co/blob/master/"
         "LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a>",
         f);

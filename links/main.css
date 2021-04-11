@@ -2,18 +2,21 @@
 *:focus         { outline: none}
 ::selection       { background: #eee; opacity:1.0; color:#000; padding:10px; /* Safari */ }
 
+header { margin-bottom: 15px }
+
 body { background:#fff; color:#000; overflow-x: hidden; margin-top:5px; padding:45px 90px; font-family: sans-serif }
-body main > img { width:100%; max-width: 600px }
+body main > img { width:100%; max-width: 800px }
 body main > * { max-width: 600px; margin-bottom: 30px }
 body main > h1 { font-size:45px; text-transform: capitalize; display: none}
 body main > h2 { font-size:30px; text-transform: capitalize}
 body main > h3 { font-size:20px; text-transform: capitalize}
 body main > p { line-height: 25px; font-size:16px}
-body main > ul {font-size:14px; line-height: 25px;}
+body main > ul { line-height: 25px;}
 body main > ul.nobull li {list-style-type: none}
 body a {color: black;}
 
 .col2 { columns: 2 }
+.capital { text-transform: capitalize }
 
 body main > ul.jump { columns:2; line-height: 20px}
 body main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
@@ -49,6 +52,9 @@ body main > table.logbook tr td { padding-bottom: 15px;padding-top: 15px; }
 body main > table img { max-width: 100%; display: block; margin:20px 0;}
 body main > table tr th { text-align: left; font-weight: bold }
 body main > table tr > * { padding:5px 15px; vertical-align: top;}
+
+footer { line-height: 30px }
+footer hr { margin-bottom: 15px }
 
 @media (prefers-color-scheme: dark){
   body {background: #111; color: white}
