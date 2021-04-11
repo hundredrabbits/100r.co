@@ -5,7 +5,7 @@
 header { margin-bottom: 15px }
 
 body { background:#fff; color:#000; overflow-x: hidden; margin-top:5px; padding:45px 90px; font-family: sans-serif }
-body main > img { width:100%; max-width: 800px }
+body main > img { width:100%; max-width: 600px }
 body main > * { max-width: 600px; margin-bottom: 30px }
 body main > h1 { font-size:45px; text-transform: capitalize; display: none}
 body main > h2 { font-size:30px; text-transform: capitalize}
