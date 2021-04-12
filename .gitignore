@@ -1,1 +1,5 @@
-.DS_Store
+.DS*
+*jpg~
+*png~
+*gif~
+.kra
