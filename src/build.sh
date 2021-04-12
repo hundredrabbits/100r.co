@@ -5,6 +5,8 @@ clang-format -i main.c
 
 # Cleanup
 rm -f ./main
+rm -rf ../site
+mkdir ../site
 
 # Linux(debug)
 cc -std=c89 -DDEBUG -Wall -Wno-unknown-pragmas -Wpedantic -Wshadow -Wuninitialized -Wextra -Werror=implicit-int -Werror=incompatible-pointer-types -Werror=int-conversion -Wvla -g -Og -fsanitize=address -fsanitize=undefined main.c -o main

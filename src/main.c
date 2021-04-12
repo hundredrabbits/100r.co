@@ -88,7 +88,7 @@ fpportal(FILE *f, Lexicon *l, char *s, int head)
 	filename[0] = 0;
 	scat(scat(scat(srcpath, "inc/"), scpy(s, filename, 64)), ".htm");
 	if(head)
-		fprintf(f, "<h2 id='%s'><a href='%s.html'>%s</a></h2>", filename, filename, s);
+		fprintf(f, "<h2 id='%s'><a href='%s.html'>%s</a></h2>", scsw(filename, ' ', '_'), filename, s);
 	fpinject(f, l, srcpath);
 	l->refs[target]++;
 	return 1;
@@ -219,6 +219,8 @@ generate(Lexicon *l)
 int
 index(Lexicon *l, DIR *d)
 {
+	int i;
+	FILE *f;
 	while((dir = readdir(d)))
 		if(ssin(dir->d_name, ".htm") > 0) {
 			l->refs[l->len] = 0;
@@ -226,6 +228,18 @@ index(Lexicon *l, DIR *d)
 		}
 	closedir(d);
 	printf("Indexed %d terms\n", l->len);
+	l->refs[l->len] = 0;
+	scpy("index.htm", l->files[l->len++], 64);
+	f = fopen("inc/index.htm", "w");
+	fputs("<ul class='col2 capital'>", f);
+	for(i = 0; i < l->len; ++i) {
+		char filepath[64], filename[64];
+		scpy(l->files[i], filepath, 64);
+		scpy(l->files[i], filename, ssin(l->files[i], ".htm") + 1);
+		fprintf(f, "<li><a href='%sl'>%s</a></li>", filepath, scsw(filename, '_', ' '));
+	}
+	fputs("</ul>", f);
+	fclose(f);
 	return 1;
 }
 
