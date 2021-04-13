@@ -87,12 +87,11 @@ ul.nobull li {list-style-type: none}
 /* Mobile */
 
 @media (max-width: 1100px) {
-	nav { width: 100%; }
-	nav > section { float: left; }
-  nav > section { margin: 0 10px 10px 0; }
-  nav > section { width: calc(25% - 10px); }
+  nav { width: 100%; }
+	nav > section { float: left; margin: 0 10px 10px 0; }
 }
 @media (max-width: 1100px) and (min-width: 651px) {
+  nav > section { width: calc(25% - 10px); }
   nav > section:nth-child(4n + 1) { clear: left; }
 }
 
