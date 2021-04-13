@@ -7,9 +7,11 @@ body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif;
 header { padding: 45px; border-bottom: 1px solid #222; }
 header a img {}
 
-nav { padding:45px; float:left; }
+nav { padding: 45px; float: left; }
 nav details summary { margin-bottom: 30px }
-nav ul { margin-left:0px; padding-left:0px; line-height: 22px}
+nav section { line-height: 22px; margin-bottom: 40px;}
+nav section h2 { margin: 20px 0 20px 0; }
+nav section ul { margin: 0px; padding: 0px; }
 
 main { padding: 45px; float:left; max-width:700px; }
 main > img { width:100%; max-width: 700px }
