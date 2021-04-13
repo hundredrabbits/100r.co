@@ -87,7 +87,13 @@ ul.nobull li {list-style-type: none}
 /* Mobile */
 
 @media screen and (max-width: 1100px) {
-	nav { width: 100%; float:none; vertical-align: top; }
-	nav ul { float: left; margin-right:30px; width: calc(33% - 90px) }
-	nav h2 { display: none }
+	nav { width: 100%; }
+  nav::after { content: ""; display: block; clear: both; }
+	nav h2 { margin: 0 0 15px 0; }
+	nav > section { float: left; margin: 0 30px 30px 0; }
+  nav > section { width: calc(33% - 30px); }
+}
+
+@media screen and (max-width: 600px) {
+  nav > section { width: 33%; }
 }
