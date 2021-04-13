@@ -86,14 +86,26 @@ ul.nobull li {list-style-type: none}
 
 /* Mobile */
 
-@media screen and (max-width: 1100px) {
+@media (max-width: 1100px) {
 	nav { width: 100%; }
-  nav::after { content: ""; display: block; clear: both; }
-	nav h2 { margin: 0 0 15px 0; }
-	nav > section { float: left; margin: 0 30px 30px 0; }
-  nav > section { width: calc(33% - 30px); }
+	nav > section { float: left; }
+  nav > section { margin: 0 10px 10px 0; }
+  nav > section { width: calc(25% - 10px); }
+}
+@media (max-width: 1100px) and (min-width: 651px) {
+  nav > section:nth-child(4n + 1) { clear: left; }
 }
 
-@media screen and (max-width: 600px) {
-  nav > section { width: 33%; }
+@media (max-width: 650px) and (min-width: 501px) {
+  nav > section { width: calc(33% - 10px); }
+  nav > section:nth-child(3n + 1) { clear: left; }
+}
+
+@media (max-width: 500px) and (min-width: 351px) {
+  nav > section { width: calc(50% - 10px); }
+  nav > section:nth-child(2n + 1) { clear: left; }
+}
+
+@media (max-width: 350px) {
+  nav > section { width: 100%; }
 }
