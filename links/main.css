@@ -9,9 +9,9 @@ header a img {}
 
 nav { padding: 45px; float: left; }
 nav details summary { margin-bottom: 30px }
-nav section { line-height: 22px; margin-bottom: 40px;}
-nav section h2 { margin: 20px 0 20px 0; }
-nav section ul { margin: 0px; padding: 0px; }
+nav .site-nav section { line-height: 22px; margin-bottom: 40px;}
+nav .site-nav section h2 { margin: 20px 0 20px 0; }
+nav .site-nav section ul { margin: 0px; padding: 0px; }
 
 main { padding: 45px; float:left; max-width:700px; }
 main > img { width:100%; max-width: 700px }
@@ -88,23 +88,23 @@ ul.nobull li {list-style-type: none}
 
 @media (max-width: 1100px) {
   nav { width: 100%; }
-	nav > section { float: left; margin: 0 10px 10px 0; }
+	nav .site-nav section { float: left; margin: 0 10px 10px 0; }
 }
 @media (max-width: 1100px) and (min-width: 651px) {
-  nav > section { width: calc(25% - 10px); }
-  nav > section:nth-child(4n + 1) { clear: left; }
+  nav .site-nav section { width: calc(25% - 10px); }
+  nav .site-nav section:nth-child(4n + 1) { clear: left; }
 }
 
 @media (max-width: 650px) and (min-width: 501px) {
-  nav > section { width: calc(33% - 10px); }
-  nav > section:nth-child(3n + 1) { clear: left; }
+  nav .site-nav section { width: calc(33% - 10px); }
+  nav .site-nav section:nth-child(3n + 1) { clear: left; }
 }
 
 @media (max-width: 500px) and (min-width: 351px) {
-  nav > section { width: calc(50% - 10px); }
-  nav > section:nth-child(2n + 1) { clear: left; }
+  nav .site-nav section { width: calc(50% - 10px); }
+  nav .site-nav section:nth-child(2n + 1) { clear: left; }
 }
 
 @media (max-width: 350px) {
-  nav > section { width: 100%; }
+  nav .site-nav section { width: 100%; }
 }
