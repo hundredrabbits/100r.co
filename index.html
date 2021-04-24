@@ -27,5 +27,16 @@
 </head> 
 <body>
   <noscript>Continue to <a href='site/home.html'>site</a>.</noscript>
+  <script>
+    'use strict'
+    
+    const filename = toFilename(window.location.hash || 'home')
+
+    window.location.replace(`./site/${filename}.html`)
+
+    function toFilename(str) {
+      return `${str}`.replace('#','').replace(/[\W_]+/g,"_").toLowerCase().trim()
+    }
+  </script>
 </body>
 </html>
