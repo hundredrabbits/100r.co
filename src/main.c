@@ -1,7 +1,9 @@
-#include <dirent.h>
+#define _GNU_SOURCE
+
 #include <stdio.h>
+#include <stdlib.h>
+#include <sys/dir.h>
 #include <sys/stat.h>
-#include <sys/types.h>
 #include <time.h>
 
 /* 
@@ -142,6 +144,26 @@ fpinject(FILE *f, Lexicon *l, char *filepath)
 	return 1;
 }
 
+int
+fpindex(FILE *f)
+{
+	struct dirent **d;
+	int n, i = 0;
+	n = scandir("inc", &d, NULL, alphasort);
+	if(n < 0)
+		return error("scandir", "failed");
+	fputs("<ul class='col2 capital'>", f);
+	while(i < n) {
+		char filepath[64], filename[64];
+		if(d[i]->d_name[0] != '.')
+			fprintf(f, "<li><a href='%sl'>%s</a></li>", scpy(d[i]->d_name, filepath, 64), scsw(scpy(d[i]->d_name, filename, ssin(d[i]->d_name, ".htm") + 1), '_', ' '));
+		free(d[i++]);
+	}
+	fputs("</ul>", f);
+	free(d);
+	return 1;
+}
+
 FILE *
 build(FILE *f, Lexicon *l, char *name, char *srcpath)
 {
@@ -219,7 +241,6 @@ generate(Lexicon *l)
 int
 index(Lexicon *l, DIR *d)
 {
-	int i;
 	FILE *f;
 	while((dir = readdir(d)))
 		if(ssin(dir->d_name, ".htm") > 0) {
@@ -231,14 +252,7 @@ index(Lexicon *l, DIR *d)
 	l->refs[l->len] = 0;
 	scpy("index.htm", l->files[l->len++], 64);
 	f = fopen("inc/index.htm", "w");
-	fputs("<ul class='col2 capital'>", f);
-	for(i = 0; i < l->len; ++i) {
-		char filepath[64], filename[64];
-		scpy(l->files[i], filepath, 64);
-		scpy(l->files[i], filename, ssin(l->files[i], ".htm") + 1);
-		fprintf(f, "<li><a href='%sl'>%s</a></li>", filepath, scsw(filename, '_', ' '));
-	}
-	fputs("</ul>", f);
+	fpindex(f);
 	fclose(f);
 	return 1;
 }
