@@ -68,7 +68,7 @@ a:visited { color:#aaa; }
 
 ul { margin:0px 0px 30px 0px; }
 
-.col2 { columns: 2 }
+/*.col2 { columns: 2 } */
 .capital { text-transform: capitalize }
 ul.nobull li {list-style-type: none}
 

@@ -17,8 +17,8 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
 WITH REGARD TO THIS SOFTWARE.
 */
 
-#define NAME "100R"
-#define DOMAIN "https://100r.co/"
+#define NAME "SUDOGAMI"
+#define DOMAIN "https://sudogami.com"
 #define LICENSE "https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md"
 #define SOURCE "https://github.com/hundredrabbits/100r.co/edit/master"
 
@@ -181,7 +181,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		"href='../links/rss.xml' />"
 		"<link rel='stylesheet' type='text/css' href='../links/main.css'>"
 		"<link rel='shortcut icon' type='image/png' "
-		"href='../media/services/icon.png'>"
+		"href='../media/favico.png'>"
 		"<title>" NAME " &mdash; %s</title>",
 		"TODO",
 		name);
@@ -189,7 +189,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	fputs("<body>", f);
 	/* header */
 	fputs("<header>", f);
-	fputs("<a href='home.html'><img src='../media/interface/logo.svg' alt='" NAME "' height='50'></a>", f);
+	fputs("<a href='home.html'><img src='../media/favico.svg' alt='" NAME "' height='120'></a>", f);
 	fputs("</header>", f);
 	/* nav */
 	fputs("<nav>", f);
@@ -206,7 +206,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	/* footer */
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);
-	fputs("<b>Hundredrabbits</b> © 2021 — ", f);
+	fputs("<b>SUDOGAMI</b> © 2021 — Powered by Hundred Rabbits | LICENSE:  ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
 	fputs("</footer>", f);
 	/* end */
