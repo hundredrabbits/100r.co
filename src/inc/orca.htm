@@ -1,13 +1,63 @@
+
+<ul class='jump'>
+<li><a href='#introduction'>Introduction</a></li>
+<li><a href='#orbit'>Orbit</a></li>
+<li><a href='#story'>Story</a></li>
+<li><a href='#distributions'>Distributions</a></li>
+<li><a href='#operators'>Operators</a></li>
+<li><a href='#midi'>Midi</a></li>
+<li><a href='#udp'>UDP</a></li>
+<li><a href='#osc'>OSC</a></li>
+<li><a href='#mode'>Project mode</a></li>
+<li><a href='#defaultports'>Default ports</a></li>
+<li><a href='#commands'>Commands</a></li>
+<li><a href='#terminal'>Terminal version</a></li>
+<li><a href='#license'>License</a></li>
+<li><a href='#pullrequest'>Make a pull request</a></li>
+</ul>
+
 <h2 id='introduction'>introduction</h2>
 <img src='../media/content/tools/orca/main.jpg' loading='lazy' />
 <p>Orca is an <a href='https://en.wikipedia.org/wiki/Esoteric_programming_language' class='external' target='_blank'>esoteric programming language</a>, designed to create procedural sequencers in which each letter of the alphabet is an operation, where lowercase letters operate on bang, uppercase letters operate each frame.</p>
-<p>The application is not a synthesiser, but a flexible livecoding environment capable of sending MIDI, OSC & UDP to your audio interface, like Ableton, Renoise, VCV Rack or SuperCollider.
+
+<p>The application is not a synthesiser, but a flexible livecoding environment capable of sending MIDI, OSC & UDP to your audio interface, like Ableton, Renoise, VCV Rack or SuperCollider.</p>
+
+<img src='../media/content/characters/orca.idle.png' class='medium' />
+
+<p>Meet <b>Orbit</b>, the mascot for Orca. Orbit is there to talk about updates relating to Orca.</p>
+
+<h2 id='story'>story</h2>
+<p>We create our own tools, built light to reduce our energy use, also to lessen our dependence on closed-source applications we can't repair ourselves.</p>
+
+<p>The reason we did this, is because we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...</p>
+<ul>
+    <li>Lightweight and simple.</li>
+    <li>Always up-to-date.</li>
+    <li>Usable across all platforms.</li>
+    <li>Offline-first.</li>
+</ul>
+
+<p>In 2016, whilst sailing, we experienced frequent failures with both our software and hardware (see {tools ecosystem}), due to our small {energy} storage and our lack of connectivity. The solution was to create our own tools so that we could repair them ourselves. The first version was an Electron App. Our focus was on replacing the software we were using to do creative work, like Photoshop, Xcode and Ableton.</p> 
+
+<p>Building our own tools and using them {off the grid} made us realize how bloated, and power-hungry software can be. Our new focus was to find ways to further reduce energy use.</p>
+
+<p>In 2019, we stopped using Electron. To ensure that users could continue to use our software across all platforms without using Electron, we opted to make web versions (that work offline). The web versions were temporary stand-ins, while we researched ways to build resilient software. Our research led us to create versions written in ANSI C using <a href='https://wiki.libsdl.org/' target='_blank'>SDL</a>, but again we found problems with it. In 2021, with longtermism in mind, we decided that the solution was to make our own portable 8-bit VM {Uxn}.</p>
+
+<p>This is where we are now. Uxn solves our cross-platform issues, works without dependencies and is very, very light. It took us a long while to get here, we hope that one day the Uxn versions of our software replace the desktop and web versions [16.05.21].</p>
+
+<p>Read more about our design {philosophy}.</p>
 
 <h2 id='distributions'>Distributions</h2>
-<p>The major distributions are the <a href='https://git.sr.ht/~rabbits/orca' class='external' target='_blank'>terminal version</a>, the <a href='https://hundredrabbits.github.io/Orca' class='external' target='_blank'>web version</a>, the <a href='https://hundredrabbits.itch.io/orca' class='external' target='_blank'>desktop version</a>, and the <a href='https://llllllll.co/t/orca/22492' class='external' target='_blank'>norns version</a>, each version implement their own variance of the IO operators.</p>
+
+<p>The major distributions are the <a href='https://git.sr.ht/~rabbits/orca' class='external' target='_blank'>terminal version</a> (written in C99), the <a href='https://hundredrabbits.github.io/Orca' class='external' target='_blank'>web version</a>, the <a href='https://hundredrabbits.itch.io/orca' class='external' target='_blank'>desktop version</a>, and the <a href='https://llllllll.co/t/orca/22492' class='external' target='_blank'>norns version</a>, each version implement their own variance of the IO operators.</p>
+
+<p>There is also <a href='https://git.sr.ht/~rabbits/orca-toy' target='_blank'>Orca Toy</a> (written in ANSI C), a minimalist implementation of the basic operators created for educational purposes.</p>
+
+<p>The Desktop and Web version were the first, most stable and user-friendly versions of Orca. As stated in the section above, we are currently working on a light version for {Uxn} that will work on all platforms [16.05.21].</p>
 
 <h2 id='download'>download</h2><iframe frameborder='0' src='https://itch.io/embed/225814?link_color=000000' width='600' height='167'></iframe>
-<h2>Operators</h2>
+
+<h2><a id='operators'>Operators</a></h2>
 
 <p>To display the list of operators inside of Orca, use <code>CmdOrCtrl+G</code>.</p>
 <ul>
@@ -41,7 +91,7 @@
     <li><code>#</code> <b>comment</b>: Halts a line.</li>
 </ul>
 
-<h3>IO</h3>
+<h2>IO</h2>
 
 <ul>
     <li><code>:</code> <b>midi</b>(channel octave note velocity length): Sends a MIDI note.</li>
@@ -53,7 +103,7 @@
     <li><code>$</code> <b>self</b>: Sends <a href="#Commands">ORCA command</a>.</li>
 </ul>
 
-<h2>MIDI</h2>
+<h2><a id='midi'>MIDI</a></h2>
 
 <p>The <a href="https://en.wikipedia.org/wiki/MIDI" rel="nofollow">MIDI</a> operator <code>:</code> takes up to 5 inputs('channel, 'octave, 'note, velocity, length).</p>
 <p>For example, <code>:25C</code>, is a <b>C note, on the 5th octave, through the 3rd MIDI channel</b>, <code>:04c</code>, is a <b>C# note, on the 4th octave, through the 1st MIDI channel</b>. Velocity is an optional value from <code>0</code>(0/127) to <code>g</code>(127/127). Note length is the number of frames during which a note remains active.</p>
@@ -75,10 +125,10 @@
 <p>The syntax is <code>pg:channel;msb;lsb;program</code>. Channel is 0-15, msb/lsb/program are 0-127, but program will automatically be translated to 1-128 by the MIDI driver. <code>program</code> typically correspondes to a "patch" selection on a synth. Note that <code>msb</code> may also be identified as "bank" and <code>lsb</code> as "sub" in some applications (like Ableton Live).</p>
 <p><code>msb</code> and <code>lsb</code> can be left blank if you only want to send a simple program change. For example, <code>pg:0;;;63</code> will set the synth to patch number 64 (without changing the bank)</p>
 
-<h2>UDP</h2>
+<h2><a id='udp'>UDP</a></h2>
 <p>The <a href="https://nodejs.org/api/dgram.html#dgram_socket_send_msg_offset_length_port_address_callback" rel="nofollow">UDP</a> operator <code>;</code> locks each consecutive eastwardly ports. For example, <code>;hello</code>, will send the string "hello", on bang, to the port <code>49160</code> on <code>localhost</code>. In commander, use <code>udp:7777</code> to select the <b>custom UDP port 7777</b>, and <code>ip:127.0.0.12</code> to change the target IP. UDP is not available in the browser version of Orca.</p>
 
-<h2>OSC</h2>
+<h2><a id='osc'>OSC</a></h2>
 <p>The <a href="https://github.com/MylesBorins/node-osc">OSC</a> operator <code>=</code> locks each consecutive eastwardly ports. The first character is used for the path, the following characters are sent as integers using the <a href="https://github.com/hundredrabbits/Orca#base36-table">base36 Table</a>. In commander, use <code>osc:7777</code> to select the <b>custom OSC port 7777</b>, and <code>ip:127.0.0.12</code> to change the target IP. OSC is not available in the browser version of Orca.</p>
 <p>For example, <code>=1abc</code> will send <code>10</code>, <code>11</code> and <code>12</code> to <code>/1</code>, via the port <code>49162</code> on <code>localhost</code>; <code>=a123</code> will send <code>1</code>, <code>2</code> and <code>3</code>, to the path <code>/a</code>.</p>
 
@@ -87,10 +137,10 @@
 
 <img src='../media/content/tools/orca/workshop.jpg' />
 
-<h3>Project Mode</h3>
+<h3><a id='mode'>Project Mode</a></h3>
 <p>You can <b>quickly inject orca files</b> into the currently active file, by using the command-line prompt allowing you to navigate across multiple files like you would a project. Press <code>CmdOrCtrl+L</code> to load multiple orca files, then press <code>CmdOrCtrl+B</code> and type the name of a loaded <code>.orca</code> file to inject it.</p>
 
-<h3>Default Ports</h3>
+<h3><a id='defaultports'>Default Ports</a></h3>
 <table>
     <tr>
         <th>UDP Input</th>
@@ -106,7 +156,7 @@
     </tr>
 </table>
 
-<h3>Commands</h3>
+<h3><a id='commands'>Commands</a></h3>
 <p>All commands have a shorthand equivalent to their first two characters, for example, <code>write</code> can also be called using <code>wr</code>. You can see the full list of commands <a href="https://github.com/hundredrabbits/Orca/blob/master/desktop/sources/scripts/commander.js">here</a>.</p>
 <ul>
     <li><code>play</code> Plays program.</li>
@@ -125,11 +175,8 @@
     <li><code>time</code> Prints the time, in minutes seconds, since <code>0f</code>.</li>
 </ul>
 
-<img src='../media/content/characters/orca.idle.png' class='medium' />
 
-<p>Meet <b>Orbit</b>, the mascot for Orca. Orbit is there to talk about updates relating to Orca.</p>
-
-<h2>Terminal Version</h2>
+<h2><a id='terminal'>Terminal Version</a></h2>
 
 <img src='../media/content/tools/orca/terminal.jpg' />
 
@@ -141,3 +188,6 @@
 
     <p>It is now possible to use Orca in your browser, without the need to install it as an application.</p>
     <p>We decided to build a browser compatible version in response to Apple moving toward <a href='https://www.cultofmac.com/618378/apple-will-soon-require-all-macos-apps-to-be-notarized/' target='_blank' class='external'>requiring all applications to be notarized</a>, you can learn more about how this issue will impact small developers <a href='http://www.nathalielawhead.com/candybox/the-future-of-my-games-on-apple-post-catalina-and-what-this-means-for-art-games-in-general' target='_blank' class='external'>here</a>. While we no longer support the OSX platform, our <a href='https://hundredrabbits.github.io/Orca' target='_blank' class='external'>web version</a> will allow Orca users still using Apple products to run Orca in their browser.</p><a class='button' href='https://hundredrabbits.github.io/Orca' target='_blank'>Use Orca Live</a>
+
+{license}
+{pull request}
