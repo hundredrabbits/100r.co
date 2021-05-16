@@ -117,24 +117,17 @@
 
 <p>Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates relating to Nasu.</p>
 
-<h2 id='story'><a href='story.html'>story</a></h2>
-<p>We create our own tools, built light to reduce our energy use, also to lessen our dependence on closed-source applications we can't repair ourselves.</p>
+<h2 id='story'><a href='story.html'>story</a></h2><p>Back in 2016, we experienced frequent failures with both software & hardware, largely due to our small <a href='energy.html' class='local'>energy</a> storage and lack of reliable connectivity. The solution was to create tools that would be better suited to our needs. The objective was to replace the bloated, closed-source or subscription software that we were using to do creative work, such as Photoshop, Xcode and Ableton. We were somewhat familiar with web technologies, so we decided to build our programs on this new framework called Electron.</p>
 
-<p>The reason we did this, is because we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...</p>
-<ul>
-    <li>Lightweight and simple.</li>
-    <li>Always up-to-date.</li>
-    <li>Usable across all platforms.</li>
-    <li>Offline-first.</li>
-</ul>
+<p>While solving some of our issues, Electron was rapidly increasing in size and soon joined the rest of the software that we wanted to do away with. Our focus shifted toward reducing our energy use, and to ensure reliability by removing all dependencies.</p>
 
-<p>In 2016, whilst sailing, we experienced frequent failures with both our software and hardware (see <a href='tools_ecosystem.html' class='local'>tools ecosystem</a>), due to our small <a href='energy.html' class='local'>energy</a> storage and our lack of connectivity. The solution was to create our own tools. The first versions were Electron App. Our focus was to replace all the closed-source software we were using to do creative work, like Photoshop, Xcode and Ableton.</p> 
+<p>To transition toward our new goals, we developed offline web versions as temporary stand-ins while we researching ways to build more resilient software. We eventually ported our tools to C, but while we had achieved ideal energy usage, portability was still an issue, so we kept looking. We learnt 6502 Assembly, seeing players run our NES game on all these different platforms gave us a new idea.</p>
 
-<p>Building our own tools and using them <a href='off_the_grid.html' class='local'>off the grid</a> made us realize how bloated, and power-hungry software can be. Our new focus was to optimize our new tools to further reduce energy use, and to ensure reliability by removing all dependencies.</p>
+<p>And so, in 2021 we took our biggest leap yet toward longtermism and designed a small virtual machine with a focus on implementability; meaning that moving forward, our software will live on a virtual machine. In other words, the code will stop having to be ported, but instead to make something available on a new platform would our needs or devices change, the emulator remains the only piece of code to be ported, which is explicitly designed to be easily implemented.</p>
 
-<p>In 2019, we stopped using Electron. To ensure that users could continue to use our software across all platforms, we developed web versions (that could also work offline). The web versions were always meant as temporary stand-ins while we researched ways to build more resilient, cross-platform software—no easy task. We experimented with versions written in ANSI C using <a href='https://wiki.libsdl.org/' target='_blank'>SDL</a>, but again we found problems with this. The rabbits soldiered on. In 2020 we started learning Assembly(see <a href='donsol.html' class='local'>donsol</a>), and in 2021 we took a big step toward longtermism in software with <a href='uxn.html' class='local'>uxn</a>, a portable 8-bit virtual machine.</p>
+<p>This is where we are now. Uxn may solve our cross-platform issues, while being extremely light. It took us a long while to get here, we hope that one day the Uxn versions of our software replace the desktop and web versions [16.05.21].</p>
 
-<p>This is where we are now. Uxn solves our cross-platform issues, works without dependencies and is very, very light. It took us a long while to get here, we hope that one day the Uxn versions of our software replace the desktop and web versions [16.05.21].</p>
+<q>Go slow, and fix things.</q>
 
 <h2><a id='distributions'>Distributions</a></h2>
 
@@ -152,5 +145,5 @@
 <h2 id='pull_request'><a href='pull_request.html'>pull request</a></h2>
 <p>See the <a href='https://github.com/hundredrabbits/' target='_blank'>Github</a> and <a href='https://git.sr.ht/~rabbits/' target='_blank'>Sourcehut</a> repositories. Pull Requests are welcome, but please read our design <a href='philosophy.html' class='local'>philosophy</a> first. </p>
 
-</main><footer><hr /><span style='float:right'>Edited on Sun May 16 11:26:16 2021
+</main><footer><hr /><span style='float:right'>Edited on Sun May 16 12:48:51 2021
  <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/nasu.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2021 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
