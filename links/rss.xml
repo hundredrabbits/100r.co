@@ -11,6 +11,41 @@
 </image>
 
 <item>
+  <title>Summary of changes for May</title>
+  <link>https://100r.co/site/log.html#may2021</link>
+  <guid isPermaLink='false'>log.html#apr2021</guid>
+  <pubDate>Tue, 08 Jun 2021 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of May. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+<ul>
+    <li><b><a href='https://t.co/FE3f7zKC2R?amp=1'>Noodle</a></b>, released <a href='https://git.sr.ht/~rabbits/noodle' target='_blank'>Uxn version</a>. <a href='https://twitter.com/hundredrabbits/status/1396941515994198020?s=20' target='_blank'>Improved UX</a> to resize the canvas and fixed <a href='https://twitter.com/hundredrabbits/status/1395795883015303168?s=20' target='_blank'>stylus picking</a> for Nintendo DS version.</li>
+    <li><b><a href='https://git.sr.ht/~rabbits/nasu/tree/master/item/nasu.usm' target='_blank'>Nasu</a></b>, completed <a href='https://twitter.com/hundredrabbits/status/1395126409798901760?s=20' target='_blank'>port to Uxn</a>.</li>
+    <li><b><a href='https://100r.co/site/uxn.html'>Uxn</a></b>, runs on <a href='https://twitter.com/hundredrabbits/status/1394417389656174592?s=20' target='_blank'>9front</a> and <a href='https://twitter.com/hundredrabbits/status/1392192734899761152?s=20' target='_blank'>Raspberry pi</a>.</li>
+    <li><b><a href='https://grimgrains.com/site/buckwheat_dumplings.html' target='_blank'>GrimGrains</b>, added <a href='https://grimgrains.com/site/buckwheat_dumplings.html' target='_blank'>Buckwheat Dumpling</a> recipe.</li>
+    <li><b><a href='https://kokorobot.ca/site/wunderrabbits.html' target='_blank'>Wunderland Rabbits</b>, added two new travel pics: <a href='https://kokorobot.ca/media/content/project/wunderland/wunderland.5.full.jpg' target='_blank'>Rhodo Ravine and <a href='https://kokorobot.ca/media/content/project/wunderland/wunderland.6.full.jpg' target='_blank'>Patricia Bay</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>There has been a lot of activity on Uxn this month! It's exciting to see it work on a variety of devices, like the <a href='https://twitter.com/hundredrabbits/status/1396474870070792195?s=20'>PS vita</a> and the <a href='https://twitter.com/hundredrabbits/status/1395463655882313728?s=20' target='_blank'>Nintendo DS</a>. We love the idea that most people already have the all hardware necessary to run our software, rotting somewhere at the back of a drawer.</p>
+
+<p>We hosted a small cooking jam on Merveilles, feel free to peruse <a href='https://merveilles.town/web/timelines/tag/thegalley' target='_blank'>The Galley</a> tag to see the recipes.</p>
+
+<p>In Pino related news, we are moving north. First stop, the boatyard. We'll be doing a bunch of changes to the studio this week, like removing and replacing old thru-hulls and installing a dry toilet.</p>
+
+<h3>Pino book club</h2>
+
+<p>We're reading <b>Farenheit 451</b> by Ray Bradbury.</p>
+
+<p><b>Pino's location:</b> 48° 40.768'N, 123° 24.802'W</p>
+
+<p><a href='https://100r.co/site/log.html#may2021'>Continue Reading</a></p>]]>
+  </description>
+</item>
+
+<item>
   <title>Summary of changes for April</title>
   <link>https://100r.co/site/log.html#apr2021</link>
   <guid isPermaLink='false'>log.html#apr2021</guid>
