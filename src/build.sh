@@ -20,13 +20,6 @@ cc -std=c99 -DDEBUG -Wall -Wno-unknown-pragmas -Wpedantic -Wshadow -Wuninitializ
 # Plan9
 # pcc main.c -o main
 
-# Valgrind
-# gcc -std=c89 -DDEBUG -Wall -Wpedantic -Wshadow -Wuninitialized -Wextra -Werror=implicit-int -Werror=incompatible-pointer-types -Werror=int-conversion -Wvla -g -Og main.c -o main
-# valgrind ./main
-
-# Build Size
-# echo "$(du -b ./main | cut -f1) bytes written"
-
 # Run
 ./main
 
