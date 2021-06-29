@@ -22,28 +22,28 @@
 <h2><a id='shortcuts'>Shortcuts</a></h2>
 
 <ul class='col2'>
-	<li>arrows - move selection</li>
-	<li>enter - insert tile</li>
-	<li>backspace - delete tile</li>
-	<li>left-click - add pixel, select tile</li>
-	<li>right-click - remove pixel, clone tile</li>
-	<li>1 2 3 - select color</li>
-	<li>q w - select tool</li>
-	<li>ctrl+n - clear</li>
-	<li>ctrl+r - rename</li>
-	<li>ctrl+o - load</li>
-	<li>ctrl+s - save</li>
+	<li><b>arrows</b> move selection</li>
+	<li><b>enter</b> insert tile</li>
+	<li><b>backspace</b> delete tile</li>
+	<li><b>left-click</b> add pixel, select tile</li>
+	<li><b>right-click</b> remove pixel, clone tile</li>
+	<li><b>1 2 3</b> select color</li>
+	<li><b>q w</b> select tool</li>
+	<li><b>ctrl+n</b> clear</li>
+	<li><b>ctrl+r</b> rename</li>
+	<li><b>ctrl+o</b> load</li>
+	<li><b>ctrl+s</b> save</li>
 </ul>
 
 <h2><a id='launching'>Launching Nasu</a></h2>
 
-<p>Nasu is distributed as a rom for the {Uxn} system. In the terminal navigate to the folder in which you want your project files to be saved, then enter the following to launch Nasu rom:</p>
+<p>Nasu is distributed as a rom for the {Uxn} system. To launch it, navigate to the folder in which you want your project files to be saved using the terminal, then enter the following to launch the Nasu rom:</p>
 
 <code>~/roms/nasu.rom</code>
 
 <h2><a id='renaming'>Re-naming a file</a></h2>
 
-<p>The default filename reads <b>untitled.chr</b>. To change it, click on the text. It will flash white, click on the text field and erase the existing filename. Enter the new filename with the .chr extension. Always include the extension when re-naming a file.</p>
+<p>The default filename reads <b>untitled.chr</b>. To change it, click on the text. The text field will flash white, click on it and erase the existing filename. Enter the new filename with the .chr extension. Always include the extension when re-naming a file.</p>
 
 <p>Read more about the <a href='https://wiki.xxiivv.com/site/chr_format.html' target='_blank'>chr file format</a>.</p>
 
@@ -51,11 +51,9 @@
 
 <img src='../media/content/tools/nasu/save.png' class='detail' />
 
-<p>Click on the white star located on the lower right of the canvas.</p>
+<p>To save a file, click on the white star located on the bottom right of the window.</p>
 
-<p>The star has two states: Grey means the file was saved. White means that the file was changed and that the change has not yet saved</li> 
-
-<p>The state change makes it easy to know if you still have unsaved changes.</p>
+<p>The star has two states: Grey means the file was saved. White means that the file was changed, and that the change has not yet been saved</li> 
 
 <hr />
 
@@ -63,7 +61,7 @@
 
 <img src='../media/content/tools/nasu/load.png' class='detail' />
 
-<p>To import an file, erase the current filename and write the name of the .chr file you wish to import, and click enter. To import the file click on the checkered square next to the star (save) icon. The checkered square will import your file.</p>
+<p>To import an file, erase the current filename and write the name of the .chr file you wish to import, and click enter. To import the file click on the checkered square on the bottom right of the window.</p>
 
 <p>If switching between projects, close Nasu and navigate to the correct project folder in the terminal prior to launching it again.</p>
 
@@ -73,9 +71,9 @@
 
 <img src='../media/content/tools/nasu/blank.png' class='detail' />
 
-<p>To load a blank file, click on the empty square next to the checkered square icon.</p>
+<p>To load a blank file, click on the empty square icon on the bottom right of the window.</p>
 
-<p>Be sure to re-name your file.</p>
+<p>Make sure to re-name your file.</p>
 
 <hr />
 
@@ -83,9 +81,11 @@
 
 <img src='../media/content/tools/nasu/blendview.png' class='detail' />
 
-<p>In the Blend View there are 4 rows, and 4 columns, which correspond to all of the color possibilities in a project.</p>
+<p>In the blend view there are 4 rows and 4 columns, which display all of the possible color permutations in a project, and allows you to switch through them with ease.</p>
 
-<p>If you have a tile with pixel information selected, the blend view will display all the color possibilities. Clicking on one will alter the tiles on your canvas. Each row has 4 options for colors that you can choose from. Selecting the space on the first column of the first row will change your tile to tone on tone, if you select the second space on that row it changes the color arrangement.</p>
+<p>If you have a tile with pixel information selected, the blend view will display that title in different colors. Clicking on one will alter all the tiles on your canvas.</p>
+
+<p>Blend view is useful when you need a tile to display in more than one color in a single project. Note the number under the 4 rows once you've found a suitable blending mode.</p>
 
 <hr />
 
@@ -93,11 +93,11 @@
 
 <img src='../media/content/tools/nasu/preview.png' class='detail' />
 
-<p>The second top menu may appear cryptic, and will only be useful when creating spritesheets.</p>
+<p>Pre-view is useful when creating spritesheets.</p>
 
-<p>Typically, when preparing files for a project all of the tiles for a given sprite will need to be lined up from left to right. For someone assembling a character than spans multiple titles for a game, it is easier to locate the position of each piece if they follow each other. The issue with having many tiles lined that way, is that if they form a sprite that spans many tiles, it is difficult to make sense of it. The pre-view permits you to view the whole sprite by selecting the number of tiles it is meant to fill.</p>
+<p>On a spitesheet all tiles that make up a sprite will need to be lined up from left to right. For someone assembling a character that spans multiple titles, it is easier to locate the position of each piece if they follow each other. The issue with having many tiles lined that way, is that if they form a sprite that spans many tiles, it is difficult to make sense of it. By selecting the number of tiles it is meant to fill the pre-view will combine tiles to make a sprite.</p>
 
-<p>Say your sprite is 16x16 pixels, or 2x2 tiles, on the canvas the 4 tiles will follow each other horizontally. To visualize them as a full sprite, select the starting tile for that sprite with the select(arrow) tool. Pieces appear in the pre-view, if you navigate to that window and select 2x2 tiles, the asset will appear as it ought to look when assembled. The number below indicates the tile size, 2x2 or 22 for our example project</p>
+<p>Say your sprite is 16x16(or 2x2 tiles). On the canvas the 4 tiles follow each other horizontally. To visualize them as a full sprite, select the starting tile for that sprite (upper left) with the select tool. Tiles will appear in the pre-view. Navigate to the pre-view menu and select 2x2 tiles. The number below indicates the tile size, 2x2 or 22 for our example.</p>
 
 <hr />
 
@@ -105,9 +105,9 @@
 
 <img src='../media/content/tools/nasu/colorview.png' class='detail' />
 
-<p>Color view is located on the top bar, third menu. This view permits you to change colors. There are 3 opaque sliders on a checkered background, moving the sliders will change the colors in Nasu.</p>
+<p>Color view is located on the top. This view permits you to change colors. There are 3 opaque sliders on a checkered background, moving the sliders will change the colors in Nasu.</p>
 
-<p>The number underneath the sliders is the color code for the project. When making a game, write down this number so you can replicate the color scheme of the project.</p>
+<p>The number underneath the sliders is the color code for the project. When making a game, write down this number so you can replicate the color palette of the project.</p>
 
 <hr />
 
@@ -115,9 +115,9 @@
 
 <img src='../media/content/tools/nasu/zoomview.png' class='detail' />
 
-<p>When selecting a tile with pixel information it, you'll notice that an enlargened version of it appears on the fourth menu on the top bar. This is an isolated view of your tile that you can use to make quick changes (you can draw it in, and it will change the version on the canvas).</p>
+<p>When selecting a tile with pixel information it, an enlargened version of it appears in the zoom view. This is an isolated view of your tile that you can use to make quick changes. It is possible to draw it in directly, and it will alter the version on the canvas.</p>
 
-<p>The up and down arrows permit you to offset the tile, say if you need to preview an asset that needs to tile perfectly with another. It's also useful if you want to move a shape up and down by a few pixels without having to re-draw it.</p>
+<p>The up and down arrows will offset the tile to preview an asset that needs to tile perfectly with itself. It's also useful to move a shape up and down by a few pixels without having to re-draw it.</p>
 
 <hr />
 
@@ -125,9 +125,11 @@
 
 <img src='../media/content/tools/nasu/dataview.png' class='detail' />
 
-<p>The data view menu is located on the upper right corner of the window, if your canvas is empty it will read 4 rows of 8 zeros, with a row of 4 zeros underneath. Data view, as its name suggests, is a way to rapidly view the code for each asset.</p>
+<p>The data view menu is located on the top right corner of the window, if your canvas is empty it will read 4 rows of 8 zeros with a row of 4 zeros underneath. Data view, as its name suggests, is a way to rapidly preview the code for each tile.</p>
 
-<p>The numbers in row of 4 numbers change as you click around in the empty canvas, marking the position of your cursor. This is useful to identify and locate where sprites start and end in a .chr file. If you click on the first upper right tile, the number will read oooo. Moving from left to right this number will increase until it starts to use letters. This is because {Uxn} uses base-16, a way to identify byte(8 bits form one byte) values without having to look at 1's and 0's. It's similar to the number system we use everyday to count with (decimal), in the way that it combines a set of digits to create large numbers (1 paired with a 0 is 10). Like hexadecimal (colors), the language in Uxn uses a set of 16 unique digits. Base-16 uses the standard 0-9 numbers, like the decimal system, but it also incorporates letters: A, B, C, D, E, and F.</p>
+<p>The numbers in the row of 4 numbers changes when clicking in the empty canvas, marking the position of the cursor. This is useful to see where sprites start and end in a .chr file.</p>
+
+<p>If you click on the first upper right tile, the number will read <b>oooo</b>. Moving from left to right, this number will increase until it starts to use letters. This is because {Uxn} uses base-16, a way to identify byte values without having to look at 1's and 0's. It's similar to the number system we use everyday to count with (decimal), in the way that it combines a set of digits to create large numbers (1 paired with a 0 is 10). Like hexadecimal, the language in Uxn uses a set of 16 unique digits. Base-16 uses the standard 0-9 numbers, like the decimal system, but it also incorporates letters: A, B, C, D, E, and F.</p>
 
 <p>The table below shows the letters and numbers used in base-16, and their corresponding collection of 1's and 0's in binary:</p>
 
@@ -138,9 +140,9 @@
   <tr><td>3</td><td>0011</td><td>7</td><td>0111</td><td>B</td><td>1011</td><td>F</td><td>1111</td></tr>
 </table>
 
-<p>It isn't crucial to understand this to use Nasu, it is written here in the interest of sharing what things work and what every number or letter represents.</p>
+<p>It isn't crucial to understand the innerworkings of the data view to use Nasu, it is written here in the interest of sharing how things work and what every number or letter represents.</p>
 
-<p>When drawing pixels in the canvas, numbers and letters will appear in the upper 4 rows of 0's. If you save your file, and open the .chr file in a text editor, the numbers and letters will match the ones in your data view. Making sense of a .chr document is tricky, but the data view can help locate specific tiles.</p>
+<p>Opening a .chr file with pixel information in a text editor will reveal that the numbers and letters match the ones in your data view. Making sense of a .chr document is tricky, but the data view can help locate and organize specific tiles.</p>
 
 <p>If you fill the canvas with a drawing, the information in the data view will change with letters and numbers. This is your drawing in numbers and letters. Copying this sequence of numbers and letters in a new .chr file would result in the same pixel arrangement.</p>
 
@@ -150,7 +152,7 @@
 
 <img src='../media/content/tools/nasu/colortool.png' class='detail' />
 
-<p>At the bottom left, there are 3 colored circles. You can only ever use 4 colors(including background) in a project. Change color by selecting a circle. Unselecting all circles will default to black, which by default is the background color. Black assigned as background color doubles as an eraser. Right-click on a pixel in your canvas to 'erase' it.</p>
+<p>At the bottom left, there are 3 colored circles. You can only ever use 4 colors(including background) in a project. Select a circle to change color. Unselecting all circles will pick black, which by default is the background color. Black assigned as a background color doubles as an eraser. Right-click on a pixel in your canvas to 'erase' it, or to blend it with the background color of your project.</p>
 
 <hr />
 
@@ -170,7 +172,7 @@
 
 <p>The 'select' tool is the arrow, located next to the color tool.</p>
 
-<p>The select tool is used to move between tiles, it's also useful to copy tiles from one place on the canvas to another. To do this, select the tile you wish to duplicate, move elsewhere and right-click. The tile will appear on the new spot as a duplicate. This is a useful tool when building spritesheets.</p>
+<p>The select tool is used to move between tiles, it's also useful to copy tiles from one place on the canvas to another. To do this, select the tile you wish to duplicate, move elsewhere on the canvas and right-click. The tile will appear on the new spot as a duplicate. This is a useful tool when building spritesheets, or to re-use part of a sprite to draw another pose.</p>
 
 <hr />
 
@@ -178,8 +180,8 @@
 
 <img src='../media/content/tools/nasu/zoomtool.png' class='detail' />
 
-<p>For a more detailed view of your drawing, select the 'magnifying glass' tool located on the right of the select tool.</p>
+<p>For a more detailed view of a drawing, select the zoom tool (magnifying glass).</p>
 
-<p>This view shows outlines of each 8x8 tile, with each pixel appearing as a dot. This tool is useful to make detailed corrrections to a tile. Click on the magnifying glass again to return to the normal view.</p>
+<p>This view shows outlines of each 8x8 tile, with each drawn pixel appearing as a dot. This tool is useful to make detailed corrrections to a tile. Click on the magnifying glass again to return to the normal view.</p>
 
 <hr />
