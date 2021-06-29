@@ -22,6 +22,8 @@ main > h3 { font-size:20px; text-transform: capitalize}
 main > p { line-height: 25px; font-size:16px}
 main > ul { line-height: 25px;}
 
+main hr { border:0px; clear:both; }
+
 main > ul.jump { columns:2; line-height: 20px}
 main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 main img.medium {max-width: 300px;}
@@ -51,6 +53,8 @@ main > table.col tr > * { padding:5px 20px}
 main > table.col tr td:last-child { border-right: 0px }
 main > table.col tr > *:first-child { padding-left: 0px }
 main > table.col b { font-weight: bold }
+
+main img.detail { max-width: 64px; float: left;border: 1px solid #777;padding: 20px;margin: 0px 20px 20px 0px;border-radius: 3px; }
 
 main > table.logbook tr td { padding-bottom: 15px;padding-top: 15px; }
 main > table img { max-width: 100%; display: block; margin:20px 0;}
