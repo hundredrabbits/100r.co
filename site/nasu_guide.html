@@ -99,8 +99,8 @@
 <img src='../media/content/tools/nasu/nasuwindow.png' title='Nasu example file, featuring nasubit' load='lazy'/>
 
 <ul class='jump'>
-    <li><a href='#shortcuts'>Shortcuts</a></li>
-    <li><a href='#launching'>Launching Nasu</a></li>
+    <li><a href='#setup'>Setup</a></li>
+    <li><a href='#controls'>Controls</a></li>
     <li><a href='#renaming'>Renaming a file</a></li>
     <li><a href='#saving'>Saving a file</a></li>
     <li><a href='#import'>Importing a file</a></li>
@@ -116,154 +116,137 @@
     <li><a href='#zoomtool'>Zoom tool</a></li>
 </ul>
 
-<h2><a id='shortcuts'>Shortcuts</a></h2>
+<h2><a id='setup'>Getting Started</a></h2>
+
+<p>Nasu is distributed as a rom for the <a href='uxn.html' class='local'>uxn</a> system, you must have an emulator available for your machine, for more details, see the <a href='uxn_guide.html' class='local'>uxn guide</a>. To begin, navigate to the folder in which you want your project files to be saved, and enter the following to launch the <a href='https://hundredrabbits.itch.io/nasu'>nasu.rom</a>:</p>
+
+<code>./path/to/uxnemu ~/roms/nasu.rom</code>
+
+<h3><a id='controls'>Controls</a></h3>
 
 <ul class='col2'>
-	<li><b>arrows</b> move selection</li>
-	<li><b>enter</b> insert tile</li>
-	<li><b>backspace</b> delete tile</li>
-	<li><b>left-click</b> add pixel, select tile</li>
-	<li><b>right-click</b> remove pixel, clone tile</li>
-	<li><b>1 2 3</b> select color</li>
-	<li><b>q w</b> select tool</li>
-	<li><b>ctrl+n</b> clear</li>
-	<li><b>ctrl+r</b> rename</li>
-	<li><b>ctrl+o</b> load</li>
-	<li><b>ctrl+s</b> save</li>
+  <li><code class='button'>arrows</code> move selection</li>
+  <li><code class='button'>enter</code> insert tile</li>
+  <li><code class='button'>backspace</code> delete tile</li>
+  <li><code class='button'>left-click</code> add pixel, select tile</li>
+  <li><code class='button'>right-click</code> remove pixel, clone tile</li>
+  <li><code class='button'>1 2 3 4</code> select color</li>
+  <li><code class='button'>q w</code> select tool</li>
+  <li><code class='button'>ctrl+n</code> clear</li>
+  <li><code class='button'>ctrl+r</code> rename</li>
+  <li><code class='button'>ctrl+o</code> load</li>
+  <li><code class='button'>ctrl+s</code> save</li>
 </ul>
 
-<h2><a id='launching'>Launching Nasu</a></h2>
+<h3><a id='renaming'>Re-naming a file</a></h3>
 
-<p>Nasu is distributed as a rom for the <a href='uxn.html' class='local'>uxn</a> system. To launch it, navigate to the folder in which you want your project files to be saved using the terminal, then enter the following to launch the Nasu rom:</p>
+<p>The default filename reads <b>untitled.chr</b>. To change it, click on the text. The text field will blink, allowing you to type a new file name. Nasu can import and export the <a href='https://wiki.xxiivv.com/site/chr_format.html' target='_blank'>chr file format</a>, typically used in the development of Famicom games.</p>
 
-<code>~/roms/nasu.rom</code>
-
-<h2><a id='renaming'>Re-naming a file</a></h2>
-
-<p>The default filename reads <b>untitled.chr</b>. To change it, click on the text. The text field will flash white, click on it and erase the existing filename. Enter the new filename with the .chr extension. Always include the extension when re-naming a file.</p>
-
-<p>Read more about the <a href='https://wiki.xxiivv.com/site/chr_format.html' target='_blank'>chr file format</a>.</p>
-
-<h2><a id='saving'>Saving a file</a></h2>
+<h3><a id='saving'>Saving file</a></h3>
 
 <img src='../media/content/tools/nasu/save.png' class='detail' />
 
 <p>To save a file, click on the white star located on the bottom right of the window.</p>
-
-<p>The star has two states: Grey means the file was saved. White means that the file was changed, and that the change has not yet been saved</li> 
+<p>The star has two states: The default state indicates that the file was saved, the other indicates that the file has unsaved changes.</li> 
 
 <hr />
 
-<h2><a id='import'>Importing a file</a></h2>
+<h3><a id='import'>Loading file</a></h3>
 
 <img src='../media/content/tools/nasu/load.png' class='detail' />
 
-<p>To import an file, erase the current filename and write the name of the .chr file you wish to import, and click enter. To import the file click on the checkered square on the bottom right of the window.</p>
-
-<p>If switching between projects, close Nasu and navigate to the correct project folder in the terminal prior to launching it again.</p>
+<p>To load an file, replace the active filename and write the name of the .chr file you wish to import, and click enter. To import the file click on the checkered square on the bottom right of the window.</p>
+<p>If switching between projects, you can have multiple instances of the Uxn emulator open at various locations.</p>
 
 <hr />
 
-<h2><a id='new'>New file</a></h2>
+<h3><a id='new'>New file</a></h3>
 
 <img src='../media/content/tools/nasu/blank.png' class='detail' />
 
 <p>To load a blank file, click on the empty square icon on the bottom right of the window.</p>
-
-<p>Make sure to re-name your file.</p>
+<p>All changes will be lost, make sure to re-name your file.</p>
 
 <hr />
 
-<h2><a id='blendview'>Blend view</a></h2>
+<h2>Interface</h2>
+<h3><a id='blendview'>Blend view</a></h3>
 
 <img src='../media/content/tools/nasu/blendview.png' class='detail' />
 
-<p>In the blend view there are 4 rows and 4 columns, which display all of the possible color permutations in a project, and allows you to switch through them with ease.</p>
-
+<p>In the blend view there are 4 rows of 4 columns displaying the possible color permutations of the selected tile, allowing you to switch between them easily.</p>
 <p>If you have a tile with pixel information selected, the blend view will display that title in different colors. Clicking on one will alter all the tiles on your canvas.</p>
-
-<p>Blend view is useful when you need a tile to display in more than one color in a single project. Note the number under the 4 rows once you've found a suitable blending mode.</p>
+<p>Blend view is useful when you need a tile to display in more than one color in a single project. Take note of the number under the 4 rows once you've found a suitable blending mode.</p>
 
 <hr />
 
-<h2><a id='preview'>Pre-view</a></h2>
+<h3><a id='preview'>Pre view</a></h3>
 
 <img src='../media/content/tools/nasu/preview.png' class='detail' />
 
-<p>Pre-view is useful when creating spritesheets.</p>
+<p>Pre view is useful for assembling assets made of multiple sprites.</p>
 
 <p>On a spitesheet all tiles that make up a sprite will need to be lined up from left to right. For someone assembling a character that spans multiple titles, it is easier to locate the position of each piece if they follow each other. The issue with having many tiles lined that way, is that if they form a sprite that spans many tiles, it is difficult to make sense of it. By selecting the number of tiles it is meant to fill the pre-view will combine tiles to make a sprite.</p>
-
 <p>Say your sprite is 16x16(or 2x2 tiles). On the canvas the 4 tiles follow each other horizontally. To visualize them as a full sprite, select the starting tile for that sprite (upper left) with the select tool. Tiles will appear in the pre-view. Navigate to the pre-view menu and select 2x2 tiles. The number below indicates the tile size, 2x2 or 22 for our example.</p>
 
 <hr />
 
-<h2><a id='colorview'>Color view</a></h2>
+<h3><a id='colorview'>Color view</a></h3>
 
 <img src='../media/content/tools/nasu/colorview.png' class='detail' />
 
-<p>Color view is located on the top. This view permits you to change colors. There are 3 opaque sliders on a checkered background, moving the sliders will change the colors in Nasu.</p>
-
-<p>The number underneath the sliders is the color code for the project. When making a game, write down this number so you can replicate the color palette of the project.</p>
+<p>This color view permits you to change colors. There are 3 opaque sliders on a checkered background, moving the sliders will change the colors in Nasu.</p>
+<p>The number underneath the sliders is the current RGB color code. When making a game, write down this number so you can replicate the color palette in the project.</p>
 
 <hr />
 
-<h2><a id='zoomview'>Zoom view</a></h2>
+<h3><a id='zoomview'>Zoom view</a></h3>
 
 <img src='../media/content/tools/nasu/zoomview.png' class='detail' />
 
 <p>When selecting a tile with pixel information it, an enlargened version of it appears in the zoom view. This is an isolated view of your tile that you can use to make quick changes. It is possible to draw it in directly, and it will alter the version on the canvas.</p>
-
 <p>The up and down arrows will offset the tile to preview an asset that needs to tile perfectly with itself. It's also useful to move a shape up and down by a few pixels without having to re-draw it.</p>
 
 <hr />
 
-<h2><a id='dataview'>Data view</a></h2>
+<h3><a id='dataview'>Data view</a></h3>
 
 <img src='../media/content/tools/nasu/dataview.png' class='detail' />
 
-<p>The data view menu is located on the top right corner of the window, if your canvas is empty it will read 4 rows of 8 zeros with a row of 4 zeros underneath. Data view, as its name suggests, is a way to rapidly preview the code for each tile.</p>
-
-<p>The numbers in the row of 4 numbers changes when clicking in the empty canvas, marking the position of the cursor. This is useful to see where sprites start and end in a .chr file.</p>
-
-<p>If you click on the first upper right tile, the number will read <b>oooo</b>. Moving from left to right, this number will increase until it starts to use letters. This is because <a href='uxn.html' class='local'>uxn</a> uses base-16, a way to identify byte values without having to look at 1's and 0's. It's similar to the number system we use everyday to count with (decimal), in the way that it combines a set of digits to create large numbers (1 paired with a 0 is 10). Like hexadecimal, the language in Uxn uses a set of 16 unique digits. Base-16 uses the standard 0-9 numbers, like the decimal system, but it also incorporates letters: A, B, C, D, E, and F.</p>
-
-<p>The table below shows the letters and numbers used in base-16, and their corresponding collection of 1's and 0's in binary:</p>
+<p>The data view is located at the top right corner of the window, if the selected tile is empty it will read 4 rows of 8 zeros with a row of 4 zeros underneath. Data view, as its name suggests, is a way to rapidly preview the data making up each tile.</p>
+<p>The numbers at the bottom of the view indicates the position of the cursor on the spritesheet. This is useful to see where sprites start and end in a .chr file.</p>
+<p>Uxn uses a base16 counting system, it is a way to compact a series of 8 bits without having to look at 1's and 0's. It is similar to the number system we use everyday to count with (the decimal system) in that it uses the standard 0-9 numbers, but it also incorporates letters: A, B, C, D, E, and F - to indicate values above 9.</p>
 
 <table border='1'>
-  <tr><td>0</td><td>0000</td><td>4</td><td>0100</td><td>8</td><td>1000</td><td>C</td><td>1100</td></tr>
-  <tr><td>1</td><td>0001</td><td>5</td><td>0101</td><td>9</td><td>1001</td><td>D</td><td>1101</td></tr>
-  <tr><td>2</td><td>0010</td><td>6</td><td>0110</td><td>A</td><td>1010</td><td>E</td><td>1110</td></tr>
-  <tr><td>3</td><td>0011</td><td>7</td><td>0111</td><td>B</td><td>1011</td><td>F</td><td>1111</td></tr>
+  <tr><td>0</td><td>0</td><td>0000</td><td>4</td><td>4</td><td>0100</td><td>8</td><td>8</td><td>1000</td><td>12</td><td>C</td><td>1100</td></tr>
+  <tr><td>1</td><td>1</td><td>0001</td><td>5</td><td>5</td><td>0101</td><td>9</td><td>9</td><td>1001</td><td>13</td><td>D</td><td>1101</td></tr>
+  <tr><td>2</td><td>2</td><td>0010</td><td>6</td><td>6</td><td>0110</td><td>10</td><td>A</td><td>1010</td><td>14</td><td>E</td><td>1110</td></tr>
+  <tr><td>3</td><td>3</td><td>0011</td><td>7</td><td>7</td><td>0111</td><td>11</td><td>B</td><td>1011</td><td>15</td><td>F</td><td>1111</td></tr>
 </table>
 
-<p>It isn't crucial to understand the innerworkings of the data view to use Nasu, it is written here in the interest of sharing how things work and what every number or letter represents.</p>
-
-<p>Opening a .chr file with pixel information in a text editor will reveal that the numbers and letters match the ones in your data view. Making sense of a .chr document is tricky, but the data view can help locate and organize specific tiles.</p>
-
-<p>If you fill the canvas with a drawing, the information in the data view will change with letters and numbers. This is your drawing in numbers and letters. Copying this sequence of numbers and letters in a new .chr file would result in the same pixel arrangement.</p>
+<p>The table above shows the letters and numbers used in base-10, base-16, and their corresponding series in binary. It isn't crucial to understand the innerworkings of the data view to use Nasu, it is written here in the interest of sharing how things work and what every number or letter represents.</p>
+<p>If you fill the canvas with a drawing, the information in the data view will change with letters and numbers. This is your drawing, only now represented in numbers and letters, which in turn represent the pixels in binary. </p>
 
 <hr />
 
-<h2><a id='colortool'>Color tool</a></h2>
+<h3><a id='colortool'>Color tool</a></h3>
 
 <img src='../media/content/tools/nasu/colortool.png' class='detail' />
 
-<p>At the bottom left, there are 3 colored circles. You can only ever use 4 colors(including background) in a project. Select a circle to change color. Unselecting all circles will pick black, which by default is the background color. Black assigned as a background color doubles as an eraser. Right-click on a pixel in your canvas to 'erase' it, or to blend it with the background color of your project.</p>
+<p>At the bottom left, there are 3 colored circles. You can only ever use 4 colors(including background) in a project. Select a circle to change the brush color. Pressing the number key 1 will unselecting all circles and pick black, which by default is the background color. Black assigned as a background color doubles as an eraser. Right-click on a pixel in your canvas to 'erase' it, or to blend it with the background color of your project.</p>
 
 <hr />
 
-<h2><a id='penciltool'>Pencil tool</a></h2>
+<h3><a id='penciltool'>Pencil tool</a></h3>
 
 <img src='../media/content/tools/nasu/penciltool.png' class='detail' />
 
 <p>The pencil tool is next to the select tool, used to draw pixels on the canvas.</p>
-
-<p>No further explanation is needed, we think :).</p>
+<p>No further explanation is needed :)</p>
 
 <hr />
 
-<h2><a id='selecttool'>Select tool</a></h2>
+<h3><a id='selecttool'>Select tool</a></h3>
 
 <img src='../media/content/tools/nasu/selecttool.png' class='detail' />
 
@@ -273,16 +256,16 @@
 
 <hr />
 
-<h2><a id='zoomtool'>Zoom tool</a></h2>
+<h3><a id='zoomtool'>Zoom tool</a></h3>
 
 <img src='../media/content/tools/nasu/zoomtool.png' class='detail' />
 
-<p>For a more detailed view of a drawing, select the zoom tool (magnifying glass).</p>
+<p>For a more detailed view of a drawing, select the magnifying glass.</p>
 
 <p>This view shows outlines of each 8x8 tile, with each drawn pixel appearing as a dot. This tool is useful to make detailed corrrections to a tile. Click on the magnifying glass again to return to the normal view.</p>
 
 <hr />
 
 
-</main><footer><hr /><span style='float:right'>Edited on Tue Jun 29 16:16:58 2021
+</main><footer><hr /><span style='float:right'>Edited on Tue Jun 29 18:53:15 2021
  <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/nasu_guide.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2021 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

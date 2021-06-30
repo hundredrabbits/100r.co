@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # Lint
-clang-format -i main.c
+if command -v clang-format &> /dev/null
+then
+	clang-format -i main.c
+fi
 
 # Cleanup
 rm -f ./main
