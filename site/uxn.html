@@ -103,11 +103,11 @@
 
 <p>We've already started porting some of our tools like <a href='nasu.html' class='local'>nasu</a>, <a href='left.html' class='local'>left</a> and <a href='https://git.sr.ht/~rabbits/noodle/'>Noodle</a> to uxn-compatible ROMs. Each one is written in a <a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>special flavor of assembly</a> designed specifically for the Uxn computer. To learn more, see the <a href='https://wiki.xxiivv.com/site/uxn.html' target='_blank'>technical documentation</a>.</p>
 
-<h2 id='uxn_guide'><a href='uxn_guide.html'>uxn guide</a></h2><p><a href='uxn.html' class='local'>uxn</a> is a portable virtual machine, meaning that it is a computer designed especially to be ported to different consoles and devices. The same Uxn program can be used on a NintendoDS, on a desktop computer, in a browser, or on tiny electronics - without doing any changes to the program itself.</p>
+<h2 id='uxn_guide'><a href='uxn_guide.html'>uxn guide</a></h2><p><a href='uxn.html' class='local'>uxn</a> is a portable virtual machine, meaning that it is a computer designed especially to be ported to different consoles and devices. The same Uxn program can be used on a <a href='https://github.com/asiekierka/uxnds'>NintendoDS</a>, on a desktop computer, in a <a href='https://aduros.com/webuxn/' target='_blank'>browser</a>, or on tiny electronics(<a href='https://git.sr.ht/~alderwick/pico-uxn-sharpdisplay'>pico pi</a>/<a href='https://github.com/max22-/uxn-esp32'>esp32</a>) - without doing any changes to the program itself.</p>
 
 <h2>Get Started</h2>
 
-<p>This guide will focus on getting you started using Uxn on a desktop computer, but if you quickly want to try Uxn, you can load a rom directly in your browser by using the <a href='https://aduros.com/webuxn/' target='_blank'>web version</a> of Uxn.</p>
+<p>This guide will focus on getting you started with the Uxn <a href='https://git.sr.ht/~rabbits/uxn'>emulator for desktop computers</a>, but if you quickly want to try Uxn, you can load a rom directly in your browser by using the <a href='https://aduros.com/webuxn/' target='_blank'>web version</a> of Uxn.</p>
 
 <p>The desktop emulator is built with <a href='https://www.libsdl.org/' target='_blank'>SDL2</a>, download SDL2 for your operating system. For example, if you are using Ubuntu, use the following commands to install SDL2: </p>
 
@@ -115,7 +115,7 @@
 sudo apt install libsdl2-dev
 </pre>
 
-<p>The next step is for you to download the </p>
+<p>The next step is for you to download the uxn emulator:</p>
 
 <pre>
 git clone https://git.sr.ht/~rabbits/uxn
@@ -123,6 +123,13 @@ cd uxn
 ./build.sh
 </pre>
 
+<h3>Controls</h3>
+
+<ul>
+  <li><code class='button'>F1</code> toggle zoom</li>
+  <li><code class='button'>F2</code> toggle debugger</li>
+  <li><code class='button'>F3</code> take screenshot</li>
+</ul>
 
 
 <h3>Why create a smol virtual computer?</h3>
