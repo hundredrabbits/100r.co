@@ -23,7 +23,7 @@
     <li><b><a href='https://100r.co/site/nasu.html'>Nasu</a></b>, released a <a href='https://100r.co/site/nasu_guide.html'>nasu guide</a>, and updated the look of the <a href='https://100r.co/media/content/tools/nasu/nasu.turnip.png' target='_blank'>icon</a>. We have also discontinued the old javascript version.</li>
     <li><b><a href='https://100r.co/site/uxn.html'>Uxn</a></b>, released an <a href='https://100r.co/site/uxn_guide.html'>uxn guide</a>.</li>
     <li><b><a href='https://100r.co/site/orca.html'>Orca</a></b>, working on the <a href='https://twitter.com/hundredrabbits/status/1409923644076085249' target='_blank'>Uxn port</a>.</li>
-    <li><b><a href='https://100r.co/site/orca.html'>Nijuniju</a></b>, started work on <a href='https://merveilles.town/@rek/106427430345464918' target='_blank'>sprites</a>. Implemented <a href='https://merveilles.town/@neauoire/106501211625815384' target='_blank'>hover states</a>.</li>
+    <li><b><a href='https://100r.co/site/nijuniju.html'>Nijuniju</a></b>, started work on <a href='https://merveilles.town/@rek/106427430345464918' target='_blank'>sprites</a>. Implemented <a href='https://merveilles.town/@neauoire/106501211625815384' target='_blank'>hover states</a>.</li>
     <li><b><a href='https://git.sr.ht/~rabbits/noodle'>Noodle</a></b>, made Noodle responsive for small screens and added highlight to save state</li>
 </ul>
 
@@ -31,7 +31,7 @@
 
 <p>Pino and crew spent the first half of the month in the boatyard. We splashed back into the water on the 14th and moved to North Saanich to have access to a workshop with the goal of completing our <a href='https://100r.co/site/dry_toilet.html'>dry toilet</a>. We are documentating the entire <a href='https://100r.co/site/dry_toilet_installation.html'>installation</a>, with plans to update the page when we begin to use it. We are ALMOST done with this project.</p>
 
-<p>We started working on Nijuniju, a hiragana/katakana review application. We used this project to test our the latest iteration of {Nasu} so we could finalize the <a href='https://100r.co/site/nasu_guide.html'>documentation</a>.</p>
+<p>We started working on Nijuniju, a hiragana/katakana review application. We used this project to test our the latest iteration of Nasu so we could finalize the <a href='https://100r.co/site/nasu_guide.html'>documentation</a>.</p>
 
 <p>On June 26 2021, Devine met up with the London SF reading group to <a href='https://twitter.com/hundredrabbits/status/1407718927656919053' target='_blank'>talk about solarpunk</a>, see their <a href='https://wiki.xxiivv.com/site/solarpunk.html' target='_blank'>notes</a>. On July 10th UTC 20:00, Devine will also perform with  <a href='https://100r.co/site/orca.html'>Orca</a> for <a href='https://flashcrash.net/' target='_blank'>flash crash</a>.</p>
 
