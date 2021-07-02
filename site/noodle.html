@@ -100,17 +100,43 @@
 <h1>noodle</h1>
 <h2>A drawing program</h2>
 
-<img src='../media/content/tools/noodle/main.jpg' loading='lazy' />
+<img src='../media/content/tools/noodle/main.png' loading='lazy' />
 
 <p><a href='https://git.sr.ht/~rabbits/noodle' target='_blank'>Noodle</a> is currently used in the creation of various monochromatic illustration projects such as the <a href='https://wiki.xxiivv.com/site/neauismetica.html' target='_blank'>Neauismetica</a>, it shares a lot of the functionalities of the spritesheet editor <a href='nasu.html' class='local'>nasu</a>.</p>
 
-<p>Noodle is written in the Uxntal programming language and is compiled with the <a href='uxn.html' class='local'>uxn</a> assembler, it features a handful of patterns, a pixel-perfect cleanup brush, zoom functionalities and can export and import bit maps. We will write a detailed guide for this tool very soon.</p>
+<p>Noodle is written in the Uxntal programming language and is compiled with the <a href='uxn.html' class='local'>uxn</a> assembler, it features a handful of patterns, a pixel-perfect clean up brush, zoom functionalities and can export and import bit maps. We will write a detailed guide for this tool very soon.</p>
 
 <img src='../media/content/tools/noodle/01.jpg' title='Noodle running on the Uxn emulator on the Nintendo DS. Photo by Patrick Moberg
 ' loading='lazy' />
 
 <p>Try running Noodle on the <a href='https://github.com/asiekierka/uxnds/releases'>Uxn Emulator</a> on Nintendo DS.
 </p>
+
+<ul class='jump'>
+    <li><a href='#setup'>Getting started</a></li>
+    <li><a href='#controls'>Controls</a></li>
+    <li><a href='#renaming'>Renaming a file</a></li>
+    <li><a href='#invert'>Invert images</a></li>
+    <li><a href='#saving'>Saving a file</a></li>
+    <li><a href='#import'>Importing a file</a></li>
+    <li><a href='#new'>New file</a></li>
+    <li><a href='#focus'>Focus view</a></li>
+    <li><a href='#resize'>Resize canvas</a></li>
+    <li><a href='#pattern'>Pattern menu</a></li>
+    <li><a href='#pen'>Pen tool</a></li>
+    <li><a href='#brush'>Brush tool</a></li>
+    <li><a href='#linetool'>Line tool</a></li>
+    <li><a href='#magictool'>Magic tool</a></li>
+    <li><a href='#rectangletool'>Recntangle tool</a></li>
+    <li><a href='#zoomtool'>Zoom tool</a></li>
+    <li><a href='#license'>License</a></li>
+</ul>
+
+<h2><a id='setup'>Getting Started</a></h2>
+
+<p>Noodle is distributed as a rom for the <a href='uxn.html' class='local'>uxn</a> system, you must have an emulator available for your machine, for more details, see the <a href='uxn_guide.html' class='local'>uxn guide</a>. To begin, navigate to the folder in which you want your project files to be saved, and enter the following to launch the <a href='https://git.sr.ht/~rabbits/noodle'>noodle.rom</a>:</p>
+
+<code>./path/to/uxnemu ~/roms/noodle.rom</code>
 
 <h3><a id='controls'>Controls</a></h3>
 
@@ -127,6 +153,126 @@
   <li><code class='shortcut'>ctrl+s</code> save</li>
 </ul>
 
+<h3><a id='renaming'>Re-naming a file</a></h3>
 
-</main><footer><hr /><span style='float:right'>Edited on Thu Jul  1 11:26:16 2021
+<p>The default filename reads <b>untitled.bit</b>. To change it, click on the text. The text field will blink, allowing you to type a new file name.</p>
+
+<h3><a id='invert'>Invert images</a></h3>
+
+<p>To invert the image, press tab.</p>
+
+<h3><a id='saving'>Saving file</a></h3>
+
+<img src='../media/content/tools/noodle/save.png' class='detail' />
+
+<p>To save a file, click on the black star located on the bottom right of the window.</p>
+<p>The star has two states: The black state indicates that the file was saved, the red state indicates that the file has unsaved changes.</li> 
+
+<hr />
+
+<h3><a id='import'>Loading file</a></h3>
+
+<img src='../media/content/tools/noodle/load.png' class='detail' />
+
+<p>To load an file, replace the active filename and write the name of the .chr file you wish to import, and click enter. To import the file click on the checkered square on the bottom right of the window.</p>
+<p>If switching between projects, you can have multiple instances of the Uxn emulator open at various locations. Holding the alt key while clicking on the load-icon, will load the file as a 1bpp spritesheet.</p>
+
+<hr />
+
+<h3><a id='new'>New file</a></h3>
+
+<img src='../media/content/tools/noodle/blank.png' class='detail' />
+
+<p>To load a blank file, click on the empty square icon on the bottom right of the window.</p>
+<p>All changes will be lost, make sure to re-name your file.</p>
+
+<hr />
+
+<h3><a id='focus'>Focus view</a></h3>
+
+<p>Click on the teal band around the window to switch to focus view. This will make the menu disappear. Click again to bring the menu back.</p>
+
+<h3><a id='resize'>Resize canvas</a></h3>
+
+<p>To resize the canvas, pull on the black corner on the bottom right of the window. Adjusting the canvas size changes the number on top, next to the pattern menu.</p>
+
+<p>Only resize the canvas at the start of a project.</p>
+
+<h3><a id='patterns'>Pattern menu</a></h3>
+
+<img src='../media/content/tools/noodle/brushstyle.png' class='detail' />
+
+<p>A set of 8 patterns to draw with.</p>
+
+<p>The default pattern is black. Select the brush, or rectangle tool first, and then a pattern. It is possible to erase with patterns by right-clicking.</p>
+
+<hr />
+
+<h3><a id='renaming'>Pen</a></h3>
+
+<img src='../media/content/tools/noodle/pen.png' class='detail' />
+
+<p>A tool to draw thin single-pixel drawings on the canvas.</p>
+
+<p>This tool can only ever be 1 pixel. Right-click to erase using the pen tool.</p>
+
+<hr />
+
+<h3><a id='brushtool'>Brush tool</a></h3>
+
+<img src='../media/content/tools/noodle/brush.png' class='detail' />
+
+<p>A tool to draw brush-like strokes on the canvas.</p>
+
+<p>To draw using a pattern, select a style from the pattern menu.</p>
+
+<hr />
+
+<h3><a id='linetool'>Line tool</a></h3>
+
+<img src='../media/content/tools/noodle/linetool.png' class='detail' />
+
+<p>A tool to draw straight lines on the canvas.</p>
+
+<p>Lines will always be 1 pixel wide. Right-click to erase using the line tool.</p>
+
+<hr />
+
+<h3><a id='magictool'>Magic tool</a></h3>
+
+<img src='../media/content/tools/noodle/magictool.png' class='detail' />
+
+<p>A tool to clean up lines.</p>
+
+<p>This tool is useful to remove excess pixels when drawing sharp edges with the pen tool.</p>
+
+<hr />
+
+<h3><a id='rectangletool'>Rectangle tool</a></h3>
+
+<img src='../media/content/tools/noodle/rectangletool.png' class='detail' />
+
+<p>A tool to draw rectangles on a canvas.</p>
+
+<p>To draw using a pattern, select a style from the right menu.</p>
+
+<hr />
+
+<h3><a id='zoomtool'>Zoom tool</a></h3>
+
+<img src='../media/content/tools/noodle/zoomtool.png' class='detail' />
+
+<p>For a more detailed view of a drawing, select the magnifying glass, or press on the spacebar. The magnifying glass has a little circle next to it when zoomed in.</p>
+
+<p>Use the arrows to move while zoomed in, and press the spacebar to return to the normal view.</p>
+
+<hr />
+
+<h2 id='license'><a href='license.html'>license</a></h2>
+
+<p>The license applies to all the documented projects, the projects themselves and their assets. The source code of this website and our apps are under the <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.mit.md' target='_blank'>MIT License</a>, but the assets and text content of this website and of our apps are under the <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA4.0 License</a>. We are happy to pass knowledge, and that others can learn from our projects, improve on them, or make them into something else that is useful, but please, do not try to sell our projects <b>as is</b> under a different name. Doing so is very lazy, and disrespectful to us.</p><p>DO NOT resell or mint our work.</p>
+
+<p>You can find our more recent projects on <a href='https://git.sr.ht/~rabbits/' target='_blank'>Sourcehut</a>.</p>
+
+</main><footer><hr /><span style='float:right'>Edited on Fri Jul  2 10:40:38 2021
  <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/noodle.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2021 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
