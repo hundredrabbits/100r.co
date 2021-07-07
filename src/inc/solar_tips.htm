@@ -1,23 +1,32 @@
 <p>Tips or tricks we learned along the way.</p>
 
-<h3>Solar installation</h3>
+<h3>Parallel wiring</h3>
 
 <p>On a 12V system solar panels ought to be connected in parallel so the voltage stays the same. With panels in parallel, the amperage of each panel is added up, and the performance of one panel is not dependent on the performance of another. This is important on a boat because at one point or another, one of the panels will have shade from the mast, radar post, boom etc. Wiring panels in parallel requires a thicker wire gauge to accomodate higher passing current.</p>
 
-<p>When it comes to sizing wires, the smaller the number, the bigger the cable (counter-intuitive, we know). Important to note that UL cables (AWG) are larger than SAE (US versus European standards).</p>
+<p>To wire multiple panels in parallel you'll need <b>MC4 branch connectors</b>, or T connectors.</p>
+
+<p>In short, things to remember:</p>
+
+<ul>
+	<li>Voltage stays the same</li>
+	<li>Amps are added up</li>
+	<li>Can perform if one panel is partially shaded</li>
+	<li>Thicker wiring</li>
+	<li>Requires extra gear like branch connectors</li>
+</ul>
+
+<h3>Wire sizing</h3>
+
+<p>When it comes to sizing wires, the smaller the number, the bigger the cable (counter-intuitive, we know).</p>
+
+<p>Important to note that UL cables (AWG, American Wire Gauge) are larger than SAE (US versus European standards). Some wires will display wire thickness in mm or inches, to find out their AWG or SWG(Standard Wire Gauge) equivalent view <a href='https://www.engnetglobal.com/tips/wiregaugechart/' target='_blank'>this table</a>.</p>
 
 <h3>Example</h3>
 
 <ul>
-	<li>1x100W panel</li>
-	<li>5Amps</li>
-	<li>Distance to controller is 15 ft</li>
-</ul>
-
-<p>A system like this will require a wire gauge of AWG 16.</p>
-
-<ul>
 	<li>2x100W panel</li>
+	<li>at 17.40V</li>
 	<li>10Amps</li>
 	<li>Distance to controller is 15 ft</li>
 </ul>
@@ -28,18 +37,44 @@
 
 <p>With two panels, you add up the amps of each and requires a heavier wire gauge. It is possible to use smaller gauge wire from the panel to the branch connector (because it is still 5 amps each at that point), but you may have to use a thicker wire gauge from the connector to the controller if the combined amperage is too high and if the distance is too great.</p>
 
-<p>To calculate the wiring gauge for your system, we reccommend <a href='http://circuitwizard.bluesea.com/' target='_blank'>Circuit Wizard</a> by Blue Sea.</p>
+<p>To calculate the wiring gauge for your system, we recommend <a href='http://circuitwizard.bluesea.com/' target='_blank'>Circuit Wizard</a> by Blue Sea.</p>
 
 <p>In all, distance and amperage matters.</p>
 
-<p>To size a charge controller, add up the amperage from your current solar panels. Panels with combined amperage of 10 amps would require a 10-amp or 15-amp controller.</p>
+<h3>Solar controller</h3>
+
+<p>To size a solar controller, add up the amperage from your current solar panels. Panels with combined amperage of 10 amps would require a 10-amp or 15-amp controller.</p>
+
+<p>If you want to charge more than one battery bank, consider one with a dual charging function. Another option is to add an auxiliary charger to charge the other bank.</p>
+
+<h3>Fuses</h3>
 
 <p>If the controller doesn't go through a breaker panel, add a fuse between the solar panel and the controller, and between the controller and the battery (as close to the battery as possible). Fuses are sacrificial and protect your electrical components from damages caused by overcurrent. Breakers and fuses accomplish the same purpose, and can be used interchangeably.</p>
 
-<p>To calculate the fuse size needed between the charge controller and battery bank match the amperage rating on the charge controller. For example, if you have a 15Amp charge controller use a using an 25Amp fuse.</p>
+<p>To calculate the fuse size needed between the charge controller and battery bank match the amperage rating on the charge controller. For example, if you have a 15Amp charge controller use a 25Amp fuse.</p>
 
-<p>To calculate the fuse size from the panel to the charge controller, add up the amperage of each panel and then add a 25% industry rule to figure out the fuse size. For example, if you had 2x100W panels that each produces about 5 Amps, you would use this equation:</p>
+<p>To calculate the fuse size from the panel to the charge controller, add up the amperage of each panel and then add a 25% industry rule to figure out the fuse size.</p>
 
-<p>(4 * 5 * 1.25) = 28.75 Amps</p>
+<p>For example, if you had 2x100W panels that each produces about 5 Amps, you would use this equation:</p>
+
+<p><b>(2x5x1.25) = 12.5 Amps</b></p>
 
 <p>In the above example you would need a 12.5 Amp fuse, and we'd recommend a 15 Amp fuse (next biggest number).</p>
+
+<h3>Connecting panels with dissimilar voltage</h3>
+
+<p>Connecting two panels with different voltages, you will get voltage to lower voltage. If one panel is 17.40V and the other 18V, when connected in parallel the voltage will drop to 17.40V.</p>
+
+<h3>Formula to calculate the current in amps</h3>
+
+<p>If you have a panel that is 190W at 17.40V, the solar controller will regulate it down to 12V, but the amperage between the controller and the battery will increase as a result. To know how much it will increase to size your wiring properly, you need to know how many amps will pass through it. To calcutate it use the formula below:</p>
+
+<p>The current I in amps (A) is equal to the power P in watts (W), divided by the voltage V in volts (V):</p>
+
+<p><b>I(A) = P(W) / V(V)</b></p>
+
+<p>For the example panel above the formula would be:</p>
+
+<p><b>190W / 17.40V = 15.83 Amps</b></p> 
+
+<p>The wiring gauge between the controller and battery would need to accomodate 16 amps.</p>
