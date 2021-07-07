@@ -101,9 +101,47 @@
 
 <h3>Solar installation</h3>
 
-<p>When installation solar panels, on a 12V system you want them to be connected in parallel so the voltage stays the same, and so the amperage of each panel is added up. Two panels connected in parallel will connect to a 3-way T-type mc4 connector. This connector brings the sets of positive and negative wires and combines them into one, so they can be connected to the solar controller.</p>
+<p>On a 12V system solar panels ought to be connected in parallel so the voltage stays the same. With panels in parallel, the amperage of each panel is added up, and the performance of one panel is not dependent on the performance of another. This is important on a boat because at one point or another, one of the panels will have shade from the mast, radar post, boom etc. Wiring panels in parallel requires a thicker wire gauge to accomodate higher passing current.</p>
 
-<p>If the controller doesn't go through a breaker panel, adding a fuse between the solar panel and the controller, and between the controller and the battery is necessary. Fuses are sacrificial and protect your electrical components from damages caused by overcurrent.</p>
+<p>When it comes to sizing wires, the smaller the number, the bigger the cable (counter-intuitive, we know). Important to note that UL cables (AWG) are larger than SAE (US versus European standards).</p>
 
-</main><footer><hr /><span style='float:right'>Edited on Tue Jul  6 17:47:03 2021
+<h3>Example</h3>
+
+<ul>
+	<li>1x100W panel</li>
+	<li>5Amps</li>
+	<li>Distance to controller is 15 ft</li>
+</ul>
+
+<p>A system like this will require a wire gauge of AWG 16.</p>
+
+<ul>
+	<li>2x100W panel</li>
+	<li>10Amps</li>
+	<li>Distance to controller is 15 ft</li>
+</ul>
+
+<p>A system like this will require a wire gauge of AWG 12.</p>
+
+<p>Adding panels to a systems is easy with branch connectors, this is how you connect them in parallel. A 3-way branch connector accepts 2 wires, and combines them into one, so a connector with two positives become one positive, and the same applies to the negatives side and these two wires will connect to the solar controller.</p>
+
+<p>With two panels, you add up the amps of each and requires a heavier wire gauge. It is possible to use smaller gauge wire from the panel to the branch connector (because it is still 5 amps each at that point), but you may have to use a thicker wire gauge from the connector to the controller if the combined amperage is too high and if the distance is too great.</p>
+
+<p>To calculate the wiring gauge for your system, we reccommend <a href='http://circuitwizard.bluesea.com/' target='_blank'>Circuit Wizard</a> by Blue Sea.</p>
+
+<p>In all, distance and amperage matters.</p>
+
+<p>To size a charge controller, add up the amperage from your current solar panels. Panels with combined amperage of 10 amps would require a 10-amp or 15-amp controller.</p>
+
+<p>If the controller doesn't go through a breaker panel, add a fuse between the solar panel and the controller, and between the controller and the battery (as close to the battery as possible). Fuses are sacrificial and protect your electrical components from damages caused by overcurrent. Breakers and fuses accomplish the same purpose, and can be used interchangeably.</p>
+
+<p>To calculate the fuse size needed between the charge controller and battery bank match the amperage rating on the charge controller. For example, if you have a 15Amp charge controller use a using an 25Amp fuse.</p>
+
+<p>To calculate the fuse size from the panel to the charge controller, add up the amperage of each panel and then add a 25% industry rule to figure out the fuse size. For example, if you had 2x100W panels that each produces about 5 Amps, you would use this equation:</p>
+
+<p>(4 * 5 * 1.25) = 28.75 Amps</p>
+
+<p>In the above example you would need a 12.5 Amp fuse, and we'd recommend a 15 Amp fuse (next biggest number).</p>
+
+</main><footer><hr /><span style='float:right'>Edited on Wed Jul  7 11:04:43 2021
  <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/solar_tips.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2021 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
