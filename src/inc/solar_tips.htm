@@ -38,6 +38,8 @@
 
 <p>To wire multiple panels in parallel you'll need <b>MC4 branch connectors</b>, or T connectors.</p>
 
+<p>Adding panels to a systems is easy with branch connectors, this is how you connect them in parallel. A 3-way branch connector accepts 2 wires, and combines them into one, so a connector with two positives become one positive, and the same applies to the negatives side. These two wires will in turn connect to the solar controller.</p>
+
 <p>In short, things to remember:</p>
 
 <ul>
@@ -52,22 +54,18 @@
 
 <p>When it comes to sizing wires, the smaller the number, the bigger the cable (counter-intuitive, we know).</p>
 
-<p>Important to note that UL cables(AWG, American Wire Gauge) are larger than SAE(European standards). Some wires will display wire thickness in mm or inches, to find out their AWG equivalent view <a href='https://www.engnetglobal.com/tips/wiregaugechart/' target='_blank'>this table</a>.</p>
+<p>Important to note that UL cables(AWG, American Wire Gauge) are larger than SAE(European standards). Some wires will display wire thickness in mm or inches, to find out their AWG equivalent view <a href='https://en.wikipedia.org/wiki/American_wire_gauge#Tables_of_AWG_wire_sizes' target='_blank'>this table</a>.</p>
 
 <h3>Example</h3>
 
 <ul>
 	<li>2x100W panel</li>
 	<li>at 17.40V</li>
-	<li>10Amps</li>
+	<li>5 Amps each</li>
 	<li>Distance to controller is 15 ft</li>
 </ul>
 
-<p>A system like this will require a wire gauge of AWG 12.</p>
-
-<p>Adding panels to a systems is easy with branch connectors, this is how you connect them in parallel. A 3-way branch connector accepts 2 wires, and combines them into one, so a connector with two positives become one positive, and the same applies to the negatives side. These two wires will in turn connect to the solar controller.</p>
-
-<p>With two panels, you add up the amps of each and requires a heavier wire gauge. It is possible to use smaller gauge wire from the panel to the branch connector (because it is still 5 amps each at that point), but you may have to use a thicker wire gauge from the connector to the controller if the combined amperage is too high and if the distance is too great.</p>
+<p>In the sample above, we've got two 100W panels with each running to the branch connector at 17.40V, each outputting 5 Amps. Passing the branch connector the wires are connected in parallel, and it is necessary to add up the amps at 10 amps, while the voltage remains the same at 17.40V. A system like this will require a bigger wire gauge from the branch connector to the controller, to account for the large current of 10 amps. A system with more panels will require very thick wiring.</p>
 
 <p>To calculate the wiring gauge for your system, we recommend <a href='http://circuitwizard.bluesea.com/' target='_blank'>Circuit Wizard</a> by Blue Sea.</p>
 
