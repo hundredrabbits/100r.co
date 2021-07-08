@@ -164,11 +164,21 @@
 	<li>Distance to controller is 15 ft</li>
 </ul>
 
-<p>In the sample above, we've got two 100W panels with each running to the branch connector at 17.40V, each outputting 5 Amps. Passing the branch connector the wires are connected in parallel, and it is necessary to add up the amps at 10 amps, while the voltage remains the same at 17.40V. A system like this will require a bigger wire gauge from the branch connector to the controller, to account for the large current of 10 amps. A system with more panels will require very thick wiring.</p>
+<p>In the sample above, we've got two 100W panels with each running to the branch connector at 17.40V, each outputting 5 Amps. Passing the branch connector the wires are now connected in parallel, and we have to add up the amps. We now have 10 amps, while the voltage remains the same at 17.40V. The solar charge controller than takes the 17.40V and regulates it down to 12V (most boats run on 12V systems) and will be charging the batteries at 15.83 amps (see below to see how i got that number).</p>
+
+<p>To calculate how the solar controller will regulate the system from a higher voltage—like 17.40V from our example—to 12V, use the formula below...</p>
+
+<p>The current I in amps (A) is equal to the power P in watts (W), divided by the voltage V in volts (V):</p>
+
+<p><b>I(A) = P(W) / V(V)</b></p>
+
+<p><b>190W / 17.40V = 15.83 Amps</b></p> 
+
+<p>Now that we know how much voltage and amps run at each part of our system we can start sizing the wires, and we can choose a solar controller.</p>
 
 <p>To calculate the wiring gauge for your system, we recommend <a href='http://circuitwizard.bluesea.com/' target='_blank'>Circuit Wizard</a> by Blue Sea.</p>
 
-<p>In all, distance and amperage matters.</p>
+<p>The size of the wiring depends on the distance between each section too.</p>
 
 <h3>Solar controller</h3>
 
@@ -194,21 +204,7 @@
 
 <p>Connecting two panels with different voltages, you will get voltage to lower voltage. If one panel is 17.40V and the other 18V, when connected in parallel the voltage will drop to 17.40V.</p>
 
-<h3>Formula to calculate the current in amps</h3>
-
-<p>If you have a panel that is 190W at 17.40V, the solar controller will regulate it down to 12V, but the amperage between the controller and the battery will increase as a result. To know how much it will increase to size your wiring properly, you need to know how many amps will pass through it. To calculate it use the formula below:</p>
-
-<p>The current I in amps (A) is equal to the power P in watts (W), divided by the voltage V in volts (V):</p>
-
-<p><b>I(A) = P(W) / V(V)</b></p>
-
-<p>For the example panel above the formula would be:</p>
-
-<p><b>190W / 17.40V = 15.83 Amps</b></p> 
-
-<p>The wiring gauge between the controller and battery would need to accomodate 16 amps.</p>
 
 
-
-</main><footer><hr /><span style='float:right'>Edited on Thu Jul  8 11:02:05 2021
+</main><footer><hr /><span style='float:right'>Edited on Thu Jul  8 11:17:26 2021
  <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/solar_tips.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2021 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
