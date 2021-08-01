@@ -17,14 +17,14 @@
   <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
   <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
   <description>
-<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of June. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of July. We'll also be reporting in our on position in the world, and on our future plans.</p>
 <h2>Summary Of Changes</h2>
 <ul>
     <li><b><a href='https://100r.co/site/nasu.html' target='blank'>Nasu</a></b>, implemented the <a href='https://twitter.com/hundredrabbits/status/1418608908273295364' target='_blank'>export of .theme files</a>, and <a href='https://wiki.xxiivv.com/site/theme.html' target='_blank'>theme support</a>.</li>
     <li><b><a href='https://100r.co/site/left.html' target='blank'>Left</a></b>, worked on <a href='https://t.co/FOqVPdZiSO' target='_blank'>Uxn-native version</a>, and implemented <a href='https://wiki.xxiivv.com/site/theme.html' target='_blank'>theme support</a>.</li>
     <li><b><a href='https://100r.co/site/niju.html' target='blank'>Niju</a></b>, progressed on <a href='https://twitter.com/hundredrabbits/status/1419370785794256896' target='_blank'>animations</a> and started <a href='https://merveilles.town/web/statuses/106642679616263419' target='_blank'>implementing controls</a>.</li>
-    <li><a href='https://grimgrains.com/'>Grimgrains</a>, added a new recipe: <a href='https://grimgrains.com/site/stovetop_blackberry_cake.html'>Stovetop Blackberry Cake</a>.</li>
-    <li>{Wiktopher}, added a new chapter: <a href='https://wiktopher.ca/site/chapter_15.html'>Lupin's Logbook</a>.</li>
+    <li><b><a href='https://grimgrains.com/'>Grimgrains</a></b>, added a new recipe: <a href='https://grimgrains.com/site/stovetop_blackberry_cake.html'>Stovetop Blackberry Cake</a>.</li>
+    <li><b><a href='https://100r.co/site/wiktopher.html' target='blank'>Wiktopher</a></b>, added a new chapter: <a href='https://wiktopher.ca/site/chapter_15.html'>Lupin's Logbook</a>.</li>
     <li><b><a href='https://100r.co/site/uxn.html' target='blank'>Uxn</a></b>, created a <a href='https://wiki.xxiivv.com/site/ufx_format.html' target='_blank'>proportional font format</a> for Uxn, and improved documention for <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>Varvara</a>.</li>
     <li><b><a href='https://100r.co/site/orca.html' target='blank'>Orca</a></b>, implemented <a href='https://wiki.xxiivv.com/site/theme.html' target='_blank'>theme support</a></li>
     <li><b><a href='https://100r.co/site/noodle.html' target='blank'>Noodle</a></b>, published <a href='https://100r.co/site/noodle.html' target='_blank'>tutorial</a>, and implemented <a href='https://wiki.xxiivv.com/site/theme.html' target='_blank'>theme support</a>
