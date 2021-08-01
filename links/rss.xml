@@ -11,6 +11,41 @@
 </image>
 
 <item>
+  <title>Summary of changes for July</title>
+  <link>https://100r.co/site/log.html#july2021</link>
+  <guid isPermaLink='false'>log.html#july2021</guid>
+  <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of June. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+<ul>
+    <li><b>{Nasu}</b>, implemented the <a href='https://twitter.com/hundredrabbits/status/1418608908273295364' target='_blank'>export of .theme files</a>, and <a href='https://wiki.xxiivv.com/site/theme.html' target='_blank'>theme support</a>.</li>
+    <li><b>{Left}</b>, worked on <a href='https://t.co/FOqVPdZiSO' target='_blank'>Uxn-native version</a>, and implemented <a href='https://wiki.xxiivv.com/site/theme.html' target='_blank'>theme support</a>.</li>
+    <li><b>{Niju}</b>, progressed on <a href='https://twitter.com/hundredrabbits/status/1419370785794256896' target='_blank'>animations</a> and started <a href='https://merveilles.town/web/statuses/106642679616263419' target='_blank'>implementing controls</a>.</li>
+    <li><a href='https://grimgrains.com/'>Grimgrains</a>, added a new recipe: <a href='https://grimgrains.com/site/stovetop_blackberry_cake.html'>Stovetop Blackberry Cake</a>.</li>
+    <li>{Wiktopher}, added a new chapter: <a href='https://wiktopher.ca/site/chapter_15.html'>Lupin's Logbook</a>.</li>
+    <li><b>{Uxn}</b>, created a <a href='https://wiki.xxiivv.com/site/ufx_format.html' target='_blank'>proportional font format</a> for Uxn, and improved documention for <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>Varvara</a>.</li>
+    <li><b>{Orca}</b>, implemented <a href='https://wiki.xxiivv.com/site/theme.html' target='_blank'>theme support</a></li>
+    <li><b>{Noodle}</b>, published <a href='https://100r.co/site/noodle.html' target='_blank'>tutorial</a>, and implemented <a href='https://wiki.xxiivv.com/site/theme.html' target='_blank'>theme support</a>
+</ul>
+
+<h3>News</h3>
+
+<p>This month, Calcifer is being re-built. While we wait for that, we're working on more projects aboard. We added {insulation} to the v-berth, an attempt to keep Pino warm this winter. We created a new portal called {boat projects} on our wiki that covers most of the major construction projects we've done to the boat.</p>
+<p>Our friends at Compudanzas have started writing an <a href='https://compudanzas.net/uxn_tutorial.html' target='_blank'>Introduction to Uxn Programming tutorial</a>. We recommend it to anyone interested in programming for the Uxn Computer. No prior understanding of stack-machines, or Assembly, required! The first covers <a href='https://compudanzas.net/uxn_tutorial_day_1.html' target='_blank'>basics</a>, and the latest chapter focuses on learning to <a href='https://compudanzas.net/uxn_tutorial_day_2.html' target='_blank'>draw pixels on the screen</a>.</p>
+<p>If you missed Devine's performance at <a href='https://flashcrash.net/' target='_blank'>Flash Crash</a>, you can watch it <a href='https://youtu.be/N_00rAa8o24' target='_blank'>here</a>.</p>
+
+<h3>Pino book club</h2>
+
+<p>We're reading <b>Mingming & the Art of Minimal Ocean Sailing</b> by Roger Taylor and <b>The Swarm</b> by Frank Schatzing.</p>
+
+<p><b>Pino's location:</b> 48° 40.768'N, 123° 24.802'W</p>
+<p><a href='https://100r.co/site/log.html#july2021'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Dry Toilet Installation</title>
   <link>https://100r.co/site/dry_toilet_installation.html</link>
   <guid isPermaLink='false'>dry_toilet_installation.html</guid>
