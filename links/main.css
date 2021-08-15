@@ -14,12 +14,12 @@ nav .site-nav section h2 { margin: 20px 0 20px 0; }
 nav .site-nav section ul { margin: 0px; padding: 0px; }
 
 main { padding: 45px; float:left; max-width:700px; }
-main > img { width:100%; max-width: 700px }
+main img { width:100%; max-width: 700px }
 main > * { max-width: 600px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
 main > h2 { font-size:30px; text-transform: capitalize}
 main > h3 { font-size:20px; text-transform: capitalize}
-main > p { line-height: 25px; font-size:16px}
+main p { line-height: 25px; font-size:16px}
 main > ul { line-height: 25px;}
 
 main hr { border:0px; clear:both; }
@@ -38,6 +38,11 @@ main ul.gallery li { clear: both; display: block; height: 260px; margin-top: -2p
 main ul.gallery li:last-child { border-bottom: 0px}
 main ul.gallery li a { display: block; padding: 10px}
 main ul.gallery li img { width:250px; float:left; display: block ; margin-right: 15px;}
+
+main .project { border-left:2px solid black; padding-left:30px; max-width: 555px;}
+main .project > * { margin-bottom: 30px }
+main .project p { padding:0px; margin-top: 0px; margin-bottom: 30px; }
+main .project img { display: block; max-width: 100%; }
 
 main .button.patreon { background-color: #e75942}
 main .button { background-color: #e75942;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
@@ -82,11 +87,12 @@ ul.nobull li {list-style-type: none}
 @media (prefers-color-scheme: dark) {
   body {background: #000; color: white}
   body header a img { filter: invert(1)}
-  body a {color: white;}
+  body a { color: white;}
   body a:visited {color: #ccc;}
   main > pre { background: white; color:#000}
   main > code { background:white; color:#000}
   body select { color: black; background-color: white;}
+  main .project { border-left:2px solid white }
 }
 
 /* Mobile */
