@@ -167,7 +167,7 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
   <li><code class='shortcut'>f3</code> screenshot</li>
 </ul>
 
-<h3><a id='renaming'>Re-naming a file</a></h3>
+<h3><a id='renaming'>Renaming a file</a></h3>
 
 <p>The default filename reads <b>untitled.chr</b>. To change it, click on the text. The text field will blink, allowing you to type a new file name. Nasu can import and export the <a href='https://wiki.xxiivv.com/site/chr_format.html' target='_blank'>chr file format</a>, typically used in the development of Famicom games.</p>
 
@@ -176,7 +176,7 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
 <img src='../media/content/tools/nasu/save.png' class='detail' />
 
 <p>To save a file, click on the white star located on the bottom right of the window.</p>
-<p>The star has two states: The default state indicates that the file was saved, the other indicates that the file has unsaved changes.</li> 
+<p>The star has two states: The default state indicates that the file was saved, the other indicates that the file has unsaved changes.</li>
 
 <hr />
 
@@ -184,8 +184,8 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
 
 <img src='../media/content/tools/nasu/load.png' class='detail' />
 
-<p>To load an file, replace the active filename and write the name of the .chr file you wish to import, and click enter. To import the file click on the checkered square on the bottom right of the window.</p>
-<p>If switching between projects, you can have multiple instances of the Uxn emulator open at various locations. Holding the alt key while clicking on the load-icon, will load the file as a 1bpp spritesheet.</p>
+<p>To load a file, replace the active filename and write the name of the .chr file you wish to import, and click enter. To import the file click on the checkered square on the bottom right of the window.</p>
+<p>If switching between projects, you can have multiple instances of the Uxn emulator open at various locations. Holding the alt key while clicking on the load-icon, will load the file as a 1bpp sprite sheet.</p>
 
 <hr />
 
@@ -215,7 +215,7 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
 
 <p>Pre view is useful for assembling assets made of multiple sprites.</p>
 
-<p>On a spitesheet all tiles that make up a sprite will need to be lined up from left to right. For someone assembling a character that spans multiple titles, it is easier to locate the position of each piece if they follow each other. The issue with having many tiles lined that way, is that if they form a sprite that spans many tiles, it is difficult to make sense of it. By selecting the number of tiles it is meant to fill the pre-view will combine tiles to make a sprite.</p>
+<p>On a spritesheet all tiles that make up a sprite will need to be lined up from left to right. For someone assembling a character that spans multiple titles, it is easier to locate the position of each piece if they follow each other. The issue with having many tiles lined that way, is that if they form a sprite that spans many tiles, it is difficult to make sense of it. By selecting the number of tiles it is meant to fill the pre-view will combine tiles to make a sprite.</p>
 <p>Say your sprite is 16x16(or 2x2 tiles). On the canvas the 4 tiles follow each other horizontally. To visualize them as a full sprite, select the starting tile for that sprite (upper left) with the select tool. Tiles will appear in the pre-view. Navigate to the pre-view menu and select 2x2 tiles. The number below indicates the tile size, 2x2 or 22 for our example.</p>
 
 <hr />
@@ -233,7 +233,7 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
 
 <img src='../media/content/tools/nasu/zoomview.png' class='detail' />
 
-<p>When selecting a tile with pixel information, an enlargened version appears in the zoom view. This is an isolated view of your tile that you can use to make quick changes. It is possible to draw while in zoom view, it will alter the version on the canvas.</p>
+<p>When selecting a tile with pixel information, an enlarged version appears in the zoom view. This is an isolated view of your tile that you can use to make quick changes. It is possible to draw while in zoom view, it will alter the version on the canvas.</p>
 <p>The up and down arrows will offset the tile to preview an asset that needs to tile perfectly with itself. It's also useful to move a shape up and down by a few pixels without having to re-draw it.</p>
 
 <hr />
@@ -243,7 +243,7 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
 <img src='../media/content/tools/nasu/dataview.png' class='detail' style='max-width: 128px'/>
 
 <p>The data view is located at the top right corner of the window, if the selected tile is empty it will read 4 rows of 8 zeros with a row of 4 zeros underneath. Data view, as its name suggests, is a way to rapidly preview the data making up each tile.</p>
-<p>The numbers at the bottom of the view indicates the position of the cursor on the spritesheet. This is useful to see where sprites start and end in a .chr file.</p>
+<p>The numbers at the bottom of the view indicate the position of the cursor on the spritesheet. This is useful to see where sprites start and end in a .chr file.</p>
 <p>Uxn uses a base16 counting system, it is a way to compact a series of 8 bits without having to look at 1's and 0's. It is similar to the number system we use everyday to count with (the decimal system) in that it uses the standard 0-9 numbers, but it also incorporates letters: A, B, C, D, E, and F - to indicate values above 9.</p>
 
 <table border='1'>
@@ -255,7 +255,7 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
 
 <img src='../media/content/characters/nasu.pose.png' class='medium' title='Nasubit posing' style="float:left;" />
 
-<p>The table above shows the letters and numbers used in base-10, base-16, and their corresponding series in binary. It isn't crucial to understand the innerworkings of the data view to use Nasu, it is written here in the interest of sharing how things work and what every number or letter represents.</p>
+<p>The table above shows the letters and numbers used in base-10, base-16, and their corresponding series in binary. It isn't crucial to understand the inner workings of the data view to use Nasu, it is written here in the interest of sharing how things work and what every number or letter represents.</p>
 <p>If you fill the canvas with a drawing, the information in the data view will change with letters and numbers. This is your drawing, only now represented in numbers and letters, which in turn represent the pixels in binary. </p>
 
 <hr />
@@ -264,7 +264,7 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
 
 <img src='../media/content/tools/nasu/colortool.png' class='detail' />
 
-<p>At the bottom left, there are 3 colored circles. You can only ever use 4 colors(including background) in a project. Select a circle to change the brush color. Pressing the number key 1 will unselecting all circles and pick black, which by default is the background color. Black assigned as a background color doubles as an eraser. Right-click on a pixel in your canvas to 'erase' it, or to blend it with the background color of your project.</p>
+<p>At the bottom left, there are 3 colored circles. You can only ever use 4 colors(including background) in a project. Select a circle to change the brush color. Pressing the number key 1 will unselect all circles and pick black, which by default is the background color. Black assigned as a background color doubles as an eraser. Right-click on a pixel in your canvas to 'erase' it, or to blend it with the background color of your project.</p>
 
 <hr />
 
@@ -300,6 +300,8 @@ Meet <b>Nasubit</b>, the mascot for Nasu. Nasubit is there to talk about updates
 <hr />
 
 <img src='../media/content/tools/nasu/nasu.turnip.png' title='Hello, I am the baby form of Nasubit' alt='De-evolved Nasubit' style='width: 200px;margin: 0px auto; margin-bottom: 0px;display: block;margin-bottom: 30px;'/>
+
+
 
 <h2 id='license'><a href='license.html'>license</a></h2>
 
