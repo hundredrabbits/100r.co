@@ -3,15 +3,21 @@
 
 <img src='../media/content/tools/noodle/main.png' loading='lazy' />
 
+<img src='../media/content/tools/noodle/noobit.png' class='medium' title='Hello, I am Noobit' alt='Noobit, mascot of Noodle' style="float:left;" />
+
 <p><a href='https://git.sr.ht/~rabbits/noodle' target='_blank'>Noodle</a> is currently used in the creation of various monochromatic illustration projects such as the <a href='https://wiki.xxiivv.com/site/neauismetica.html' target='_blank'>Neauismetica</a>, it shares a lot of the functionalities of the sprite sheet editor {Nasu}.</p>
 
-<p>Noodle is written in the Uxntal programming language and is compiled with the {Uxn} assembler, it features a handful of patterns, a pixel-perfect clean up brush, zoom functionalities and can export and import bit maps. We will write a detailed guide for this tool very soon.</p>
+<p>Noodle is written in the Uxntal programming language and is compiled with the {Uxn} assembler, it features a handful of patterns, a pixel-perfect clean up brush, zoom functionalities and can export and import bit maps.</p>
 
 <img src='../media/content/tools/noodle/01.jpg' title='Noodle running on the Uxn emulator on the Nintendo DS. Photo by Patrick Moberg
 ' loading='lazy' />
 
 <p>Try running Noodle on the <a href='https://github.com/asiekierka/uxnds/releases'>Uxn Emulator</a> on Nintendo DS.
 </p>
+
+<h2>Download</h2>
+
+<iframe frameborder='0' src='https://itch.io/embed/594232?bg_color=111111&amp;fg_color=ffffff&amp;link_color=ffffff&amp;border_color=ffffff' width='600' height='167'></iframe>
 
 <ul class='jump'>
     <li><a href='#setup'>Getting started</a></li>
@@ -30,12 +36,13 @@
     <li><a href='#magictool'>Magic tool</a></li>
     <li><a href='#rectangletool'>Recntangle tool</a></li>
     <li><a href='#zoomtool'>Zoom tool</a></li>
+    <li><a href='#animation'>Animation tools</a></li>
     <li><a href='#license'>License</a></li>
 </ul>
 
 <h2><a id='setup'>Getting Started</a></h2>
 
-<p>Noodle is distributed as a rom for the {Uxn} system, you must have an emulator available for your machine, for more details, see the {Uxn Guide}. To begin, navigate to the folder in which you want your project files to be saved, and enter the following to launch the <a href='https://git.sr.ht/~rabbits/noodle'>noodle.rom</a>:</p>
+<p>Noodle is distributed as a rom for the {Uxn} system, you must have an emulator available for your machine, for more details, see the {Uxn Guide}. To begin, navigate to the folder in which you want your project files to be saved, and enter the following to launch the <a href='https://hundredrabbits.itch.io/noodle'>noodle.rom</a>:</p>
 
 <code>./path/to/uxnemu ~/roms/noodle.rom</code>
 
@@ -88,6 +95,8 @@
 <p>All changes will be lost, make sure to re-name your file.</p>
 
 <hr />
+
+<img src='../media/content/tools/noodle/noodle.turnip.png' title='Hello, I am the baby form of Noobit' alt='De-evolved Noobit' style='width: 200px;margin: 0px auto; margin-bottom: 0px;display: block;margin-bottom: 30px;'/>
 
 <h3><a id='focus'>Focus view</a></h3>
 
@@ -166,6 +175,26 @@
 <p>For a more detailed view of a drawing, select the magnifying glass, or press on the spacebar. The magnifying glass has a little circle next to it when zoomed in.</p>
 
 <p>Use the arrows to move while zoomed in, and press the spacebar to return to the normal view.</p>
+
+<hr />
+
+<h3><a id='animation'>Animation tools</a></h3>
+
+<img src='../media/content/tools/noodle/frames.png' class='detail' />
+
+<p>To create small animations there are basic tools to use. To add frames, click on the number on the right. This number counts up the number of frames in a project. The size of the canvas limits the number of frames, and Noodle restricts the allowable amount automatically. For more frames, resize the canvas to a smaller size.</p>
+
+<p>The number on the left is your animation frames. On 0, draw the first frame, the another one the second, third etc. Clicking on the number, or pressing <b>enter</b>, will cycle through your frames.</p>
+
+<p>To clear the animation, you must clear all layers individually.</p>
+
+<img src='../media/content/tools/noodle/onionskin.png' class='detail' />
+
+<p>The onion skin tool bears the appearance of an eye, when clicked open, it permits you to view a previous frame.</p>
+
+<p><b>Exporting animations</b>. You can export animations in Noodle to be used in other Uxn projects. Once your animation is complete, save the animation with the size of the canvas plus the number of frames as the name. The size of the canvas is written on the upper right of the screen, next to the pattern tools.</p>
+
+<p>A project filename example would be: <b>2413x3.bit</b>, which means the canvas size is 24x13 and that the animation has 3 frames. This number is in hexadecimal, which means that depending on the size of the canvas you may get letters. You don't have to do this, but if the animation is passed on to someone else, they will know how to size the frames.</p>
 
 <hr />
 
