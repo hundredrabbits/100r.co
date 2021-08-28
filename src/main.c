@@ -22,8 +22,6 @@ WITH REGARD TO THIS SOFTWARE.
 #define LICENSE "https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md"
 #define SOURCE "https://github.com/hundredrabbits/100r.co/edit/master"
 
-struct dirent *dir;
-
 typedef struct Lexicon {
 	int len, refs[512];
 	char files[512][64];
@@ -242,15 +240,16 @@ int
 index(Lexicon *l, DIR *d)
 {
 	FILE *f;
+	struct dirent *dir;
 	while((dir = readdir(d)))
 		if(ssin(dir->d_name, ".htm") > 0) {
 			l->refs[l->len] = 0;
-			scpy(dir->d_name, l->files[l->len++], 64);
+			scpy(dir->d_name, l->files[l->len++], 128);
 		}
 	closedir(d);
 	printf("Indexed %d terms\n", l->len);
 	l->refs[l->len] = 0;
-	scpy("index.htm", l->files[l->len++], 64);
+	scpy("index.htm", l->files[l->len++], 128);
 	f = fopen("inc/index.htm", "w");
 	fpindex(f);
 	fclose(f);
