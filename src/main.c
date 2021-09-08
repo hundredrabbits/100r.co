@@ -179,7 +179,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		"href='../links/rss.xml' />"
 		"<link rel='stylesheet' type='text/css' href='../links/main.css'>"
 		"<link rel='shortcut icon' type='image/png' "
-		"href='../media/services/icon.png'>"
+		"href='../media/services/shortcut.png'>"
 		"<title>" NAME " &mdash; %s</title>",
 		"TODO",
 		name);
