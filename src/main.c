@@ -172,7 +172,6 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	fputs("<head>", f);
 	fprintf(f,
 		"<meta charset='utf-8'>"
-		"<meta name='description' content='%s'/>"
 		"<meta name='thumbnail' content='" DOMAIN "media/services/thumbnail.jpg' />"
 		"<meta name='viewport' content='width=device-width,initial-scale=1'>"
 		"<link rel='alternate' type='application/rss+xml' title='RSS Feed' "
@@ -181,7 +180,6 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		"<link rel='shortcut icon' type='image/png' "
 		"href='../media/services/shortcut.png'>"
 		"<title>" NAME " &mdash; %s</title>",
-		"TODO",
 		name);
 	fputs("</head>", f);
 	fputs("<body>", f);
