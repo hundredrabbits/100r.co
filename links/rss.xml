@@ -11,6 +11,45 @@
 </image>
 
 <item>
+  <title>Summary of changes for September</title>
+  <link>https://100r.co/site/log.html#sep2021</link>
+  <guid isPermaLink='false'>log.html#sep2021</guid>
+  <pubDate>Sun, 03 Oct 2021 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of September. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+
+<ul>
+    <li><b><a href="https://100r.co/site/orca.html' target='_blank'>Orca</a></b>, added way for instances of Orca to <a href='https://twitter.com/hundredrabbits/status/1437152929606033408?s=20' target='_blank'>talk to each other</a>.</li>
+    <li><b><a href='https://git.sr.ht/~rabbits/uxn/tree/main/item/projects/software/calc.tal' target="_blank">Calc</a></b>, wrote <a href='hhttps://twitter.com/hundredrabbits/status/1440841581641097223?s=20' target='_blank'>a little graphical calculator</a> to help with learning binary and hexadecimal.</li>
+    <li><b><a href='git.sr.ht/~rabbits/dexe/' target="_blank">Dexe</a></b>, added <a href='https://twitter.com/hundredrabbits/status/1441833098828681220?s=20' target='_blank'>option</a> to copy the textual value of a selection.</li>
+    <li><b><a href="https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, updated <a href='https://twitter.com/hundredrabbits/status/1442188840110678016?s=20' target="_blank">UxnDS emulator</a>.</li>
+    <li><b><a href="https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, added <a href='https://wiktopher.ca/site/chapter_16.html' target='_blank'>Chapter 16: The Big Dark</a>.</li>
+    <li><b><a href="https://100r.co/' target='_blank'>100R</a></b>, added new pages: <a href='https://100r.co/site/western_canada.html' target='_blank'>Western Canada</a>, <a href='https://100r.co/site/alcohol_stove.html' target='_blank'>alcohol stove</a>, <a href='https://100r.co/site/decorations.html' target='_blank'>decorations</a> and <a href='https://100r.co/site/shore_power_cord_repair.html' target='_blank'>shore power cord repair</a>. The site also has a <a href='https://100r.co/site/home.html'>new splash</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>It is an early announcement, but end of June 2022 we will be giving a keynote presentation, alongside Khyam Allami, at <a href='https://nime2022.org/' target="_blank">NIME</a>(New Interfaces for Musical Expression).</p>
+
+<p>Rekka wrote an article on <a href='https://www.noonsite.com/report/insights-how-to-save-energy-when-cooking-onboard/' target="_blank">Saving Energy When Cooking Aboard</a> for <a href='https://www.noonsite.com' target="_blank">Noonsite</a>.</p>
+
+<p>Check out Eli's guide on <a href='https://eli.li/2021/09/27/how-to-install-uxn-on-macos' target="_blank">installing Uxn on OS X</a>, and Keijiro's version of <a href='https://twitter.com/hundredrabbits/status/1440092877950914563?s=20' target="_blank">Flappy Bird</a> in <a href='https://wiki.xxiivv.com/site/uxntal.html' target="_blank">UxnTal</a>.</p>
+
+<p>Our friends at Compudanzas have released <a href='https://compudanzas.net/uxn_tutorial_day_6.html' target='_blank'>part 6</a> of their <a href='https://compudanzas.net/uxn_tutorial.html' target='_blank'>Introduction to Uxn Programming tutorial</a>. This new chapter basically shows you how to build Pong!</p>
+
+<h3>Pino book club</h2>
+
+<p>We started reading <b>The Stories of Ray Bradbury</b> by Ray Bradbury. Favorite shorts so far include <b>There Will Come Soft Rains</b>, <b>The Coffin</b> and <b>There Was an Old Woman</b>.</p>
+
+<p><b>Pino's location:</b> 48° 42.230'N, 123° 36.900'W</p>
+
+<p><a href='https://100r.co/site/log.html#sep2021'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Repairing our shore power cord</title>
   <link>https://100r.co/site/shore_power_cord_repair.html</link>
   <guid isPermaLink='false'>shore_power_cord_repair.html</guid>
