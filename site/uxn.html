@@ -99,13 +99,27 @@
 
 <!-- Generated file, do not edit -->
 
-<h1>uxn</h1><img src='../media/content/uxn/main.jpg' title='uxn mascot' loading='lazy' />
+<h1>uxn</h1><img src='../media/content/projects/uxn_04.jpg' title='uxn mascot' loading='lazy' />
 
-<p>Uxn is a portable 8-bit <a href='https://fabiensanglard.net/another_world_polygons/' target='_blank'>virtual computer</a> capable of running the handful of tools we use, on our various low-power and classic hardware. It can be used as a playground to learn basic computation skills.</p>
+<p>The Uxn ecosystem is a personal computing playground, created to host small tools and games, programmable in its own unique assembly language.</p>
+
+<p>It was designed with an implementation-first mindset with a focus on creating portable graphical applications, the distribution of Uxn projects is akin to sharing game roms for any classic console emulator.</p>
 
 <iframe width="600" height="315" src="https://www.youtube.com/embed/yebl-91CVaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>We've already ported <a href='orca.html' class='local'>orca</a>, <a href='nasu.html' class='local'>nasu</a>, <a href='left.html' class='local'>left</a> and <a href='https://git.sr.ht/~rabbits/noodle/'>noodle</a> to uxn-compatible ROMs. Each one is written in a <a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>special flavor of assembly</a> designed specifically for the Uxn computer. To learn more, see the <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>technical documentation</a>.</p>
+
+<h3>Design</h3>
+
+<p>Because Uxn was explicitly created to exist as software hosted on <a href='https://wiki.xxiivv.com/site/permacomputing.html' target='_blank'>pre-existing hardware</a>, the design was advised primarily by relative software complexity, not by how fast it could be made. Features were weighted against the relative difficulty they would add for programers implementing their own emulators.</p>
+
+<p>Stack-machines, and <a href='https://wiki.xxiivv.com/site/reverse_polish.html' target='_blank'>postfix arithmetic</a>, are ideal candidates for this scale of personal computing. Not only does it make for extremly basic compilers, the resulting succinct programs translates well to <a href='https://wiki.xxiivv.com/site/paper_computing.html' target='_blank'>pen & paper computing</a>.</p>
+
+<p>With only 64kb of memory, it will never be capable of running Chrome, TensorFlow or a blockchain. It sucks at doing most modern computing, but it’s also sort of the point. It's more about finding what new things could be made in such a small system.</p>
+
+<q>What's the benefit of Uxn over C, when just about everything has a C compiler?</q>
+
+<p>While terminal utilities can be made portable, cross-platform graphical development is different. Even building projects for platforms with C compilers, such as Linux and <a href='https://wiki.xxiivv.com/site/plan9.html' target='_blank'>Plan 9</a>, will require a near total rewrites, whereas porting the thin layer that is the <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>uxn emulator</a> will allow that same rom file to be used on both systems.</p>
 
 <h2 id='uxn_guide'><a href='uxn_guide.html'>uxn guide</a></h2><p><a href='uxn.html' class='local'>uxn</a> is a portable virtual machine, meaning that its programs are designed especially to be working on different consoles and devices. The same Uxn program can be used on a <a href='https://github.com/asiekierka/uxnds'>NintendoDS</a>, on a desktop computer, in a <a href='https://aduros.com/webuxn/' target='_blank'>browser</a>, on <a href='https://github.com/max22-/uxn-esp32'>tiny electronics</a>, and <a href='https://git.sr.ht/~rabbits/uxn-playdate'>modern electronics</a> without having to do any changes to the code.</p>
 
@@ -139,7 +153,7 @@ cd uxn
 
 <h3>Why create a smol virtual computer?</h3>
 
-<img src='../media/content/uxn/left.jpg' title='The Left text editor on Uxn' loading='lazy' />
+<img src='../media/content/projects/uxn_05.jpg' title='The Left text editor on Uxn' loading='lazy' />
 
 <p>We want to produce lasting versions of our tools and games, and by using simpler systems(the UxnVM is <a href='https://git.sr.ht/~rabbits/uxn/tree/master/item/src/uxn.c' target='_blank'>about 200 lines of C</a>) we can build more resilient software due to their lack of dependencies, and support older hardware when possible. The Uxn emulator is extremely simple, and can be ported to an unsupported system <a href='https://merveilles.town/web/statuses/106785824688368264'>quickly</a>. Try Uxn on <a href='https://github.com/asiekierka/uxnds'>NintendoDS</a>, <a href='https://git.badd10de.dev/uxngba'>Gameboy Advance</a>, <a href='https://merveilles.town/@alderwick/106222101764116637' target='_blank'>Rasperry Pi Pico</a> or on <a href='https://git.sr.ht/~rabbits/uxn/'>desktop</a>.</p>
 
@@ -165,10 +179,10 @@ cd uxn
 
 <p>Uxn is currently under development, we use #uxn on irc.esper.net to coordinate development [07-05-21].</p>
 
-<img src='../media/content/uxn/01.jpg' title='Noodle, image is Tima from the movie Metropolis' loading='lazy' />
+<img src='../media/content/projects/uxn_01.jpg' title='Noodle, image is Tima from the movie Metropolis' loading='lazy' />
 
-<img src='../media/content/uxn/02.jpg' title='Nasu, image Zero Two from DARLING in the FRANXX' loading='lazy' />
+<img src='../media/content/projects/uxn_02.jpg' title='Nasu, image Zero Two from DARLING in the FRANXX' loading='lazy' />
 
 
-</main><footer><hr /><span style='float:right'>Edited on Wed Aug 25 19:05:57 2021
+</main><footer><hr /><span style='float:right'>Edited on Mon Oct 18 12:34:38 2021
  <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/uxn.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2021 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

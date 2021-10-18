@@ -100,68 +100,40 @@
 <!-- Generated file, do not edit -->
 
 <h1>ronin</h1>
-<ul class='jump'>
-    <li><a href='#introduction'>introduction</a></li>
-    <li><a href='#sustainability'>sustainability</a></li>
-    <li><a href='#web_version'>web version</a></li>
-    <li><a href='#download'>download</a></li>
-    <li><a href='#trailer'>trailer</a></li>
-    <li><a href='#visual'>visual</a></li>
-    <li><a href='#robit'>robit</a></li>
-</ul>
-<h2 id='introduction'>introduction</h2>
+<h2>An image processing tool</h2>
 
-<img src='../media/content/tools/ronin/main.jpg' loading='lazy' />
+<img src='../media/content/projects/ronin_01.jpg' loading='lazy' />
+
+<img src='../media/content/characters/ronin.idle.png' style='float:left;' class='medium' />
 
 <p><a href='https://hundredrabbits.itch.io/ronin' target='_blank' class='external'>Ronin</a> is an image processing tool.</p>
+
 <p>The application interprets a <a href='https://wiki.xxiivv.com/site/lain.html' class='external' target='_blank'>dialect of LISP</a> to automate simple graphical tasks, like resizing, cropping, coloring, and generating procedural imagery. You can look at these <a href='https://github.com/hundredrabbits/Ronin/tree/master/examples' class='external' target='_blank'>example files</a> to better understand how this all works.</p>
 
-<p>The <a href='https://youtu.be/xn5096EsYD4?t=57' target='_blank' class='external'>first version of Ronin</a> was produced in Ensenada, Mexico in 2016 after >Rekka's Macbook died (see <a href='tools_ecosystem.html' class='local'>tools ecosystem</a> for the story) and photoshop became unusable. The first version was designed to work on our Chromebook, it was later re-released upon our arrival in Japan, in 2019.</p>
+<h2>Download</h2>
 
-<p>We presently use Ronin for every single graphical task that comes our way, if you struggle at accomplishing a particular action with it, get in touch and we'll help you.</p>
+<iframe frameborder='0' src='https://itch.io/embed/194632?link_color=000000' width='600' height='167'></iframe>
 
-<h2 id='sustainability'>sustainability</h2>
-
-<p>We create these tools to reduce our energy use, also to lessen our dependence on closed-source applications we cannot repair ourselves. Ronin works in the browser. It is bundled as a single <b>55kb</b> file, runs <b>offline</b> and has <b>no dependencies</b>.</p>
-
-<p>The reason we did this, is because we want to ensure that users — us included — have access to these tools no matter what. We want our ecosystem of tools to be...</p>
-
-<ul>
-    <li>Lightweight and simple.</li>
-    <li>Always up-to-date.</li>
-    <li>Usable across all platforms.</li>
-    <li>Offline-first.</li>
+<ul class='jump'>
+     <li><a href='#distributions'>distributions</a></li>
+    <li><a href='#helpers'>helpers</a></li>
+    <li><a href='#importexport'>import/export</a></li>
+    <li><a href='#library'>library</a></li>
+    <li><a href='#license'>license</a></li>
+    <li><a href='#pull_request'>pull request</a></li>
 </ul>
 
-<p>Read more about our <a href='philosophy.html' target='_self' class='local'>design philosophy</a></p>
+<h2 id='distributions'>Distributions</h2>
 
-<h2 id='web_version'>web version</h2>
+<img src='../media/content/projects/ronin_02.jpg' loading='lazy' />
 
-<img src='../media/content/tools/ronin/ronin.5.jpg' loading='lazy' />
+<p>The <a href='https://youtu.be/xn5096EsYD4?t=57' target='_blank' class='external'>first version of Ronin</a> was produced in Ensenada, Mexico in 2016 after Rekka's Macbook died (see <a href='tools_ecosystem.html' class='local'>tools ecosystem</a>) and photoshop became unusable. The <a href='https://hundredrabbits.itch.io/ronin' target='_blank'>first version</a> was designed to work on our Chromebook.</p>
 
-<p>If you don't wish to download the <a href='https://hundredrabbits.itch.io/ronin' target='_blank'>build</a>(55kb), and if you have access to a reliable internet connection, you can use Ronin in your browser. If you wish to keep Ronin, just save the webpage on your computer and you will be able to launch Ronin when offline from this file.</p><a class='button' href='https://hundredrabbits.github.io/Ronin/' target='_blank'>Use Ronin Live</a>
+<p>In 2019, we released Ronin for the <a href='https://hundredrabbits.github.io/Ronin/' target='_blank'>browser</a>.</p>
 
-<h2 id='download'>download</h2><iframe frameborder='0' src='https://itch.io/embed/194632?link_color=000000' width='600' height='167'></iframe>
+<p>Eventually, we'd like to make an <a href='uxn.html' class='local'>uxn</a> port. For the time being, the <a href='https://hundredrabbits.itch.io/ronin' target='_blank'>electron version</a> is the main version.</p>
 
-<h2 id='trailer'>trailer</h2><iframe width='100%' height='380' src='https://www.youtube.com/embed/SgAWGh1s9zg?rel=0' style='max-width:700px' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
-
-<h2 id='visual'>visual</h2>
-
-<img src='../media/content/tools/ronin/ronin.4.jpg' loading='lazy' />
-
-<p>You can change the look and colour of Ronin. To do this, <a href='https://hundredrabbits.itch.io/left' target='_blank' class='external'>download</a> themes from our itch.io page. You can view the colour palettes of each theme in the preview, once you find something you like, <b>drag the file</b> (.svg file) onto Ronin. The colours will change instantly.</p>
-
-<p>These themes are part of the <b>Ecosystem Theme</b>, which means that you can apply a theme to any supported app (<a href='dotgrid.html' class='local'>dotgrid</a>, <a href='donsol.html' class='local'>donsol</a>, <a href='orca.html' class='local'>orca</a> and <a href='left.html' class='local'>left</a>. <a href='https://github.com/hundredrabbits/Ronin' target='_blank' class='external'>Pull Requests</a> are welcome, but please read our <a href='philosophy.html' target='_self' class='local'>design philosophy</a> first.</p>
-
-<p>You can also <a href='https://github.com/hundredrabbits/Themes#collection' target='_blank' class='external'>create</a> your own themes.</p>
-
-<h2 id='robit'>robit</h2>
-
-<img src='../media/content/characters/ronin.idle.png' class='medium' />
-
-<p>Meet <b>Robit</b>, the mascot for Ronin. Robit is there to talk about updates relating to Ronin.</p>
-
-<h2>Helpers</h2>
+<h2 id='helpers'>Helpers</h2>
 
 <p>Ronin helpers are keywords that facilitates adding coordinates from the canvas into your script. The currently supported helpers are $rect, $pos, $line, $circle & $arc. Holding right-click while using a $helper will run the script as the mouse is injecting coordinates into the script. Paste the following script, and trace a shape in the canvas:</p>
 
@@ -184,7 +156,7 @@
 $poly "red")
 </pre>
 
-<h2>Import/Export</h2>
+<h2 id='importexport'>Import/Export</h2>
 
 <p>To save an image in memory, open an image file with Ronin, or drag an image file on the window. You will then be able to import it by using the file image's name. If the image file is `preview.png`, you can import it as follow:</p>
 
@@ -198,7 +170,7 @@ $poly "red")
 (export)
 </pre>
 
-<h2>Library</h2>
+<h2 id='library'>Library</h2>
 
 <pre>
 - (open name ~scale) Imports a graphic file with format.
@@ -300,6 +272,14 @@ $poly "red")
 - (benchmark fn) Logs time taken to execute a function.
 </pre>
 
+<h2 id='license'><a href='license.html'>license</a></h2>
 
-</main><footer><hr /><span style='float:right'>Edited on Fri Apr 16 11:29:08 2021
+<p>The license applies to all the documented projects, the projects themselves and their assets. The source code of this website and our apps are under the <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE' target='_blank'>MIT License</a>, but the assets and text content of this website and of our apps are under the <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA4.0 License</a>. We are happy to pass knowledge, and that others can learn from our projects, improve on them, or make them into something else that is useful, but please, do not try to sell our projects <b>as is</b> under a different name. Doing so is very lazy, and disrespectful to us.</p><p>DO NOT resell or mint our work.</p>
+
+<p>You can find our more recent projects on <a href='https://git.sr.ht/~rabbits/' target='_blank'>Sourcehut</a>.</p>
+
+<h2 id='pull_request'><a href='pull_request.html'>pull request</a></h2>
+<p>See the <a href='https://github.com/hundredrabbits/' target='_blank'>Github</a> and <a href='https://git.sr.ht/~rabbits/' target='_blank'>Sourcehut</a> repositories. Pull Requests are welcome, but please read our design <a href='philosophy.html' class='local'>philosophy</a> first. </p>
+
+</main><footer><hr /><span style='float:right'>Edited on Sun Oct 17 20:30:45 2021
  <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/ronin.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2021 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
