@@ -120,24 +120,53 @@
 
 <h2 id='setup'>setup</h2>
 
-<p>Download <a href='https://www.raspberrypi.org/downloads/raspbian/' target='_blank' class='external'>Raspbian Lite</a>, and with <a href='https://etcher.io' target='_blank' class='external'>Etcher</a> flash the SD card. Once Etcher has finished, re-insert it and type:</p><code><li>touch /Volumes/boot/ssh <comment># Enable SSH</comment></li><li>touch /Volumes/boot/wpa_supplicant.conf <comment># Auto-connect to wifi</comment></li><li>nano /Volumes/boot/wpa_supplicant.conf</li></code>
+<p>Download <a href='https://www.raspberrypi.org/downloads/raspbian/' target='_blank' class='external'>Raspbian Lite</a>, and with <a href='https://etcher.io' target='_blank' class='external'>Etcher</a> flash the SD card. Once Etcher has finished, re-insert it and type:</p>
+
+<pre>
+touch /Volumes/boot/ssh <comment># Enable SSH</comment>
+touch /Volumes/boot/wpa_supplicant.conf <comment># Auto-connect to wifi</comment>
+nano /Volumes/boot/wpa_supplicant.conf
+</pre>
 
 <p><b>Edit wpa_supplicant.conf</b></p>
-<code><li>country=CA</li><li>ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev</li><li>update_config=1</li><li>network=&#123;</li><li>  ssid='network_name'</li><li>  psk='network_password'</li><li>&#125;</li></code>
+
+<pre>
+country=CA
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network=
+ssid='network_name'
+psk='network_password'
+</pre>
 
 <p>If you are using a Raspberry Pi Zero and would like to controll it via USB, or <b>Gadget Mode</b>.</p>
 
-<code><li>dtoverlay=dwc2 <comment># Append in config.txt</comment></li><li>modules-load=dwc2,g_ether <comment># Append in cmdline.txt, or after rootwait</comment></li></code>
+<pre>
+dtoverlay=dwc2 <comment># Append in config.txt</comment>
+modules-load=dwc2,g_ether <comment># Append in cmdline.txt, or after rootwait</comment>
+</pre>
 
 <h2 id='installation'>installation</h2>
 
 <p><b>Connect to the Pi</b></p>
 
-<code><li>ping raspberrypi.local <comment># Find its IP address</comment></li><li>ssh pi@192.168.1.73 <comment># Use password '<b>raspberry</b>'</comment></li><li>sudo raspi-config <comment># <b>Interface/SSH</b> & <b>Advanced/Expand FS</b></comment></li><li>sudo nano /etc/hostname <comment># Rename</comment></li><li>sudo nano /etc/hosts <comment># Rename</comment></li><li>passwd <comment># Change Password</comment></li><li>sudo reboot</li></code>
+<pre>
+ping raspberrypi.local <comment># Find its IP address</comment>
+ssh pi@192.168.1.73 <comment># Use password '<b>raspberry</b>'</comment>
+sudo raspi-config <comment># <b>Interface/SSH</b> & <b>Advanced/Expand FS</b></comment>
+sudo nano /etc/hostname <comment># Rename</comment>
+sudo nano /etc/hosts <comment># Rename</comment>
+passwd <comment># Change Password</comment>
+sudo reboot
+</pre>
 
 <p><b>Update everything</b></p>
 
-<code><li>sudo apt-get update</li><li>sudo apt-get upgrade</li><li>sudo apt-get dist-upgrade</li></code>
+<pre>
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+</pre>
 
 <h2 id='pi_hole'>pi hole</h2>
 
@@ -149,10 +178,17 @@
 
 <p><b>Automatic reload</b></p>
 
-<p>To have it reload automatically every 30 seconds, edit <b>crontab</b>.</p><code><li>crontab -e</li></code>
+<p>To have it reload automatically every 30 seconds, edit <b>crontab</b>.</p>
+
+<pre>
+crontab -e
+</pre>
+
 <p>Add the following line:</p>
 
-<code><li>*/30 * * * * python /home/pi/inky-hole/main.py</li></code>
+<pre>
+*/30 * * * * python /home/pi/inky-hole/main.py
+</pre>
 
 <h2 id='osmc'>osmc</h2>
 
@@ -204,7 +240,9 @@
 
 <p>The full guide is <a href='https://learn.pimoroni.com/tutorial/sandyj/streaming-airplay-to-your-pi' target='_blank' class='external'>here</a>.</p>
 
-<code><li>curl -sS get.pimoroni.com/airdac | bash</li></code>
+<pre>
+curl -sS get.pimoroni.com/airdac | bash<
+</pre>
 
 <h2 id='pi_computer'>pi computer</h2>
 
@@ -226,5 +264,5 @@
 </ul>
 
 
-</main><footer><hr /><span style='float:right'>Edited on Mon Oct 18 11:58:21 2021
+</main><footer><hr /><span style='float:right'>Edited on Tue Oct 19 16:15:40 2021
  <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/raspberry_pi.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2021 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
