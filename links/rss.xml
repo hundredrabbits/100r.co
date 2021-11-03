@@ -11,6 +11,44 @@
 </image>
 
 <item>
+  <title>Summary of changes for October</title>
+  <link>https://100r.co/site/log.html#oct2021</link>
+  <guid isPermaLink='false'>log.html#oct2021</guid>
+  <pubDate>Wed, 03 Nov 2021 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of October. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+
+<ul>
+    <li><b><a href='https://100r.co/site/donsol.html' >donsol</a></b>, ported our Famicom(6502) code to Varvara(<a href='https://100r.co/site/uxn.html' >uxn</a>).</li>
+    <li><b><a href='https://100r.co/site/uxn.html' >uxn</a></b>, wrote a <a href='https://wiki.xxiivv.com/site/uxntal_reference.html' target='_blank'>reference guide</a> and created a list of <a href='https://github.com/hundredrabbits/awesome-uxn' target='_blank'>community projects</a>.</li>
+    <li><b><a href='https://100r.co/site/noodle.html' >noodle</a></b>, added guides for the line and rectangle tool and <a href='https://100r.co/site/noodle.html#controls'>updated shortcuts</a> in the documentation.</li>
+    <li><b><a href='https://100r.co/site/grimgrains.html' >grimgrains</a></b>, optimized images and published a <a href='https://grimgrains.com/site/chunky_apple_jam.html' target='_blank'>Chunky Apple Jam<a> recipe.</li>
+    <li><b>100r</b>, optimized images (see Rek's <a href='https://kokorobot.ca/site/leanimages.html'>notes</a>). Added new pages: <a href='https://100r.co/site/boom_tent.html' >boom tent</a>, <a href='https://100r.co/site/grinder.html' >grinder</a> and <a href='https://100r.co/site/small_space.html' >small space</a>.</li>
+    <li><b><a href='left.html' >left</a></b>, optimized code.</li>
+    <li><b><a href='nasu.html' >nasu</a></b>, fixed crashing bug with large selections.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>This month, we found a used <a href='https://100r.co/site/grinder.html'>grain mill</a> for Pino! Flour doesn't keep as well as whole grains, so we decided to start milling flour (wheat berries, soy beans or chickpeas) only as we need it. We only released a <a href='https://grimgrains.com/site/lactofermentation.html'>Guide to Lacto-fermenting vegetables</a> on <a href='grimgrains.html' >grimgrains</a>.</p>
+
+<p>Donsol is now available as an <a href='https://100r.co/site/uxn.html' >uxn</a> rom on <a href='https://hundredrabbits.itch.io/donsol' target='_blank'>itchio</a>.</p>
+
+<p>See Devine's <a href='https://merveilles.town/web/statuses/107033448028097574' target='_blank'>daily drawings series</a> for October.</p>
+
+<h3>Pino book club</h2>
+
+<p>We're continuing our readings of <b>The Stories of Ray Bradbury</b> by Ray Bradbury. Favorite shorts this month include <b>The Long Rain</b>, <b>The City</b> and <b>Kaleidoscope</b>.</p>
+
+<p><b>Pino's location:</b> 48° 42.230'N, 123° 36.900'W</p>
+
+<p><a href='https://100r.co/site/log.html#oct2021'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for September</title>
   <link>https://100r.co/site/log.html#sep2021</link>
   <guid isPermaLink='false'>log.html#sep2021</guid>
