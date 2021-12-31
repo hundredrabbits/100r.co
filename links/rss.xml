@@ -22,7 +22,7 @@
 
 <ul>
     <li><b><a href='https://grimgrains.com'>Grimgrains</a></b>, published a <a href='https://grimgrains.com/site/soy_flour_tofu.html' target='_blank'>tofu from soy flour</a> recipe, and reduced the amount of ingredients appearing on the main page so it loads faster.</li>
-    <li><b><a href='https://100r.co/site/left.html' target'_blank'></b>, created <a href='https://100r.co/site/left.html#graphic'>inline image support</a>, and implemented a <a href='https://twitter.com/hundredrabbits/status/1466832328462790656?s=20' target='_blank'>search feature</a>(Birdsite) inspired by the Canon Cat(1987)'s LEAP™ key.</li>
+    <li><b><a href='https://100r.co/site/left.html' target'_blank'>Left</a></b>, created <a href='https://100r.co/site/left.html#graphic'>inline image support</a>, and implemented a <a href='https://twitter.com/hundredrabbits/status/1466832328462790656?s=20' target='_blank'>search feature</a>(Birdsite) inspired by the Canon Cat(1987)'s LEAP™ key.</li>
     <li><b><a href='https://git.sr.ht/~rabbits/catclock' target='_blank'>Cat Clock</a></b>, released our very own <a href='https://wiki.xxiivv.com/site/catclock.html' target='_blank'>cat clock</a>.</li>
     <li><b><a href='https://git.sr.ht/~rabbits/turye' target='_blank'>Turye</a></b>, released a <a href='https://wiki.xxiivv.com/site/turye.html' target='_blank'>font editor</a>.</li>
     <li><b><a href='https://wiki.xxiivv.com/site/tga_format.html' target='_blank'>TGA parser</a></b>, released a tool to make it easier to bring images into the {uxn} ecosystem.</li>
