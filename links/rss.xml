@@ -11,6 +11,43 @@
 </image>
 
 <item>
+  <title>Summary of changes for December</title>
+  <link>https://100r.co/site/log.html#dec2021</link>
+  <guid isPermaLink='false'>log.html#dec2021</guid>
+  <pubDate>Fri, 31 Dec 2021 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of December. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+
+<ul>
+    <li><b><a href='https://grimgrains.com'>Grimgrains</a></b>, published a <a href='https://grimgrains.com/site/soy_flour_tofu.html' target='_blank'>tofu from soy flour</a> recipe, and reduced the amount of ingredients appearing on the main page so it loads faster.</li>
+    <li><b><a href='https://100r.co/site/left.html' target'_blank'></b>, created <a href='https://100r.co/site/left.html#graphic'>inline image support</a>, and implemented a <a href='https://twitter.com/hundredrabbits/status/1466832328462790656?s=20' target='_blank'>search feature</a>(Birdsite) inspired by the Canon Cat(1987)'s LEAP™ key.</li>
+    <li><b><a href='https://git.sr.ht/~rabbits/catclock' target='_blank'>Cat Clock</a></b>, released our very own <a href='https://wiki.xxiivv.com/site/catclock.html' target='_blank'>cat clock</a>.</li>
+    <li><b><a href='https://git.sr.ht/~rabbits/turye' target='_blank'>Turye</a></b>, released a <a href='https://wiki.xxiivv.com/site/turye.html' target='_blank'>font editor</a>.</li>
+    <li><b><a href='https://wiki.xxiivv.com/site/tga_format.html' target='_blank'>TGA parser</a></b>, released a tool to make it easier to bring images into the {uxn} ecosystem.</li>
+    <li><b><a href='https://kokorobot.ca/site/wunderrabbits.html' target='_blank'>Wunderland Rabbits</a></b>, released a <a href='https://kokorobot.ca/media/content/project/wunderland/wunderland.7.full.jpg' target='_blank'>new image</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>It is snowing, and we are cocooning. Our little <a href='https://100r.co/site/woodstove.html' target'_blank'> is working hard. This month, we finally decided to release a <a href='https://www.lulu.com/en/us/shop/rekka-bellum-and-devine-lu-linvega/busy-doing-nothing/paperback/product-rqgmdj.html?page=1&pageSize=4' target='_blank'>paperback version</a> of <a href='https://100r.co/site/busy_doing_nothing.html' target='_blank'>Busy Doing Nothing</a>.</p>
+
+<p>In our last update log, we mentioned that we were trying to grow Lion's Mane mushroom, and we are happy to report that it was a success! It <a href='https://100r.co/media/content/cooking/fungi2.jpg'>grew beautifully</a>. Rek was so excited about the mushroom that they decided to <a href='https://kokorobot.ca/site/vanislandmushroom.html' target='_blank'>draw some</a> this month, this series focuses on varieties that grow on Vancouver Island.</p>
+
+<p>In other news, we had an interview with the founder of <a href='https://sourcehut.org/' target='_blank'>Sourcehut</a>, read it <a href='https://sourcehut.org/blog/2021-12-08-100-rabbits-interview/' target='_blank'>here</a>. Also, our good friend Alderwick make us a very cool <a href='https://www.youtube.com/watch?v=i83FTGk24JM' target='_blank'>gift</a>(YouTube).</p>
+
+<h3>Pino book club</h2>
+
+<p>We're reading <b><a href='https://fantomeszine.com/' target='_blank'>Fantômes: Issue 1</a></b>, with work by 18 talented artists, put together by Lizbeth. It is a eerie, and gorgeous zine, we strongly recommend the Mike Wolf version.</p>
+
+<p><b>Pino's location:</b> 48° 42.230'N, 123° 36.900'W</p>
+
+<p><a href='https://100r.co/site/log.html#dec2021'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for November</title>
   <link>https://100r.co/site/log.html#nov2021</link>
   <guid isPermaLink='false'>log.html#nov2021</guid>
