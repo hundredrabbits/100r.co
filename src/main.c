@@ -7,7 +7,7 @@
 #include <time.h>
 
 /* 
-Copyright (c) 2021 Devine Lu Linvega
+Copyright (c) 2022 Devine Lu Linvega
 
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -202,7 +202,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	/* footer */
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);
-	fputs("<b>Hundredrabbits</b> © 2021 — ", f);
+	fputs("<b>Hundredrabbits</b> © 2022 — ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
 	fputs("</footer>", f);
 	/* end */
