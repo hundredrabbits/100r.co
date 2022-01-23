@@ -1,35 +1,130 @@
-<p>{Uxn} is a portable virtual machine, meaning that its programs are designed especially to be working on different consoles and devices. The same Uxn program can be used on a <a href='https://github.com/asiekierka/uxnds'>NintendoDS</a>, on a desktop computer, in a <a href='https://aduros.com/webuxn/' target='_blank'>browser</a>, on <a href='https://github.com/max22-/uxn-esp32'>tiny electronics</a>, and <a href='https://git.sr.ht/~rabbits/uxn-playdate'>modern electronics</a> without having to do any changes to the code.</p>
+<p>{Uxn} is a portable virtual machine, meaning that its programs are designed especially to be working on different consoles and devices.</p>
 
-<h2>Tutorials</h2>
+<p>The same Uxn program can be used on a <a href='https://github.com/asiekierka/uxnds'>NintendoDS</a>, on a desktop computer, in a <a href='https://aduros.com/webuxn/' target='_blank'>browser</a>, on <a href='https://github.com/max22-/uxn-esp32'>tiny electronics</a>, and <a href='https://git.sr.ht/~rabbits/uxn-playdate'>modern electronics</a> without having to do any changes to the code.</p>
 
-<p>See the <a href='https://wiki.xxiivv.com/site/uxntal_cheatsheet.html' target='_blank'>cheatsheet</a>.</p>
+<h3>How to run Uxn</h3>
 
-<p>For tutorials, extra documentation, for a list of existing/future ports, and other uxn-related content see this <a href='https://github.com/hundredrabbits/awesome-uxn' target='_blank'>list</a>.</p>
-<h2>Get Started</h2>
+<ul class='jump'>
+    <li><a href='#downloadbinaries'>Download emulator for your OS</a></li>
+    <li><a href='#build'>Build Uxn</a></li>
+    <li><a href='#start'>Getting started</a></li>
+    <li><a href='#controls'>Emulator controls</a></li>
+    <li><a href='#help'>Need a hand?</a></li>
+</ul>
 
 <p>This guide will focus on getting you started with the Uxn <a href='https://git.sr.ht/~rabbits/uxn'>emulator for desktop computers</a>, but if you quickly want to try Uxn, you can load a rom directly in your browser by using the <a href='https://metasyn.github.io/learn-uxn' target='_blank'>web version</a> of Uxn.</p>
 
-<p>The desktop emulator is built with <a href='https://www.libsdl.org/' target='_blank'>SDL2</a>, download SDL2 for your operating system. </p>
+<p>To run locally, you'll need an emulator for your OS(Linux, OS X, Plan 9 or Windows available). Then, you'll be able to load ROMs into your emulator to play games, write, make music, or draw (see <a href='https://github.com/hundredrabbits/awesome-uxn#applications' target='_blank'>list of available applications</a>).</p>
+
+<p>There's also a sampler pack of ROMs available as a <a href='https://rabbits.srht.site/uxn/uxn-rompack.tar.gz' title='_blank'>tarball</a> or a <a href='https://rabbits.srht.site/uxn/uxn-rompack.zip' target='_blank'>zipfile</a>.</p>
+
+<h3><a id='downloadbinaries'>Download emulator for your OS</a></h3>
+
+<p>Uxn emulators are available for 64-bit x86 computers running Linux, Windows and OS X:
+
+<p>Latest builds:</p>
+<ul>
+<li><a href='https://rabbits.srht.site/uxn/uxn-linux-amd64.tar.gz' target='_blank'>uxn-linux-amd64.tar.gz [29.2 kB] Linux</a></li>
+<li><a href='https://github.com/randrew/uxn32/releases/download/1.1/Uxn32.exe' target='_blank'>Uxn32.exe [57.3 kB] Windows</a></li>
+<li><a href='https://rabbits.srht.site/uxn/uxn-macos.tar.gz' target='_blank'>uxn-macos.tar.gz [464.2 kB] OS X</a></li>
+</ul>
+
+<h3><a id='build'>Build Uxn</a></h3>
+
+<p>The desktop emulator is built with <a href='https://www.libsdl.org/' target='_blank'>SDL2</a>. For Uxn to work, it is necessary to download SDL2 for your operating system. Here is the process for Linux, OS X, Plan 9 and Windows. These are all terminal commands:</p>
+
+<p><b>Linux/OS X</b></p>
 
 <pre>
-sudo pacman -Sy sdl2 # Arch
-sudo apt install libsdl2-dev # Ubuntu
+sudo pacman -Sy sdl2             # Arch
+sudo apt install libsdl2-dev     # Ubuntu
+sudo xbps-install SDL2-devel     # Void Linux
+brew install sdl2                # OS X
 </pre>
 
-<p>The next step is for you to download the uxn emulator:</p>
+<p>Build the assembler and emulator by running the build.sh script. The assembler(uxnasm) and emulator(uxnemu) are created in the ./bin folder.</p>
 
 <pre>
+./build.sh 
+  --debug # Add debug flags to compiler
+  --format # Format source code
+</pre>
+
+<p>If you wish to build the emulator without graphics mode:</p>
+
+<pre>
+cc src/devices/datetime.c src/devices/system.c src/devices/file.c src/uxn.c -DNDEBUG -Os -g0 -s src/uxncli.c -o bin/uxncli
+</pre>
+
+<p><b>Plan 9</b></p>
+
+<p>To build the Uxn emulator on <a href='http://9front.org/' target='_blank'>9front</a>, via <a href='https://git.sr.ht/~ft/npe' target='_blank'>npe</a>:</p>
+
+<pre>
+  mk
+</pre>
+
+<p>If the build fails on 9front because of missing headers or functions, try again after rm -r /sys/include/npe.
+#</p>
+
+<p><b>Windows</b></p>
+
+<p>Uxn can be built on Windows with <a href='https://www.msys2.org/' target='_blank'>MSYS2</a>. Install by downloading from their website or with Chocolatey with choco install msys2. In the MSYS shell, type:</p>
+
+<pre>
+pacman -S git mingw-w64-x86_64-gcc mingw64/mingw-w64-x86_64-SDL2
+export PATH="$&#123;PATH&#125;:/mingw64/bin"
 git clone https://git.sr.ht/~rabbits/uxn
 cd uxn
 ./build.sh
 </pre>
 
-<h3>Controls</h3>
+<p>If you'd like to work with the Console device in uxnemu.exe, run ./build.sh --console instead: this will bring up an extra window for console I/O unless you run uxnemu.exe in Command Prompt or PowerShell.</p>
+
+<h3><a id='start'>Getting Started</a></h3>
+
+<p>To launch a .rom in the emulator, point the emulator to the target rom file:</p>
+
+<pre>
+  bin/uxnemu bin/piano.rom
+</pre>
+
+<p>You can also use the emulator without graphics by using uxncli. You can find additional roms <a href='https://sr.ht/~rabbits/uxn/sources' target='_blank'>here</a>, you can find prebuilt rom files <a href='https://itch.io/c/248074/uxn-roms' target='_blank'>here</a>.</p>
+
+<p>The following command will create an Uxn-compatible rom from an uxntal file. Point the assembler to a .tal file, followed by and the rom name:</p>
+
+<pre>
+  bin/uxnasm projects/examples/demos/life.tal bin/life.rom
+</pre>
+
+<h3><a id='controls'>Emulator Controls</a></h3>
 
 <ul>
   <li><code class='shortcut'>F1</code> toggle zoom</li>
   <li><code class='shortcut'>F2</code> toggle debugger</li>
   <li><code class='shortcut'>F3</code> take screenshot</li>
+  <li><code class='shortcut'>F4</code> load launcher.rom</li>
 </ul>
 
+<h2>Buttons</h2>
 
+<ul>
+  <li>L-CTRL A</li>
+  <li>L-ALT B</li>
+  <li>L-SHIFT SEL</li>
+  <li>HOME START</li>
+</ul>
+
+<h3><a id='help'>Need a hand?</a></h3>
+
+<p>The following resources are a good place to start:</p>
+
+<ul>
+  <li><a href='https://github.com/hundredrabbits/awesome-uxn' target='_blank'>AwesomeUXN list</a></li>
+  <li><a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal(XXIIVV)</a></li>
+  <li><a href='https://wiki.xxiivv.com/site/uxntal_cheatsheet.html' target='_blank'>Uxntal cheatsheet(XXIIVV)</a></li>
+  <li><a href='https://wiki.xxiivv.com/site/uxntal_reference.html' target='_blank'>Uxntal reference(XXIIVV)</a></li>
+  <li><a href='https://compudanzas.net/uxn_tutorial.html'>Uxn tutorial(Compudanzas)</a></li>
+</ul>
+
+<p>You can also find us in <a href='ircs://irc.esper.net:6697/#uxn' target='_blank'>#uxn on irc.esper.net</a>.</p>
