@@ -139,19 +139,6 @@
 
 <p>To run locally, you'll need an emulator for your OS(Linux, OS X, Plan 9 or Windows available). Then, you'll be able to load ROMs into your emulator to play games, write, make music, or draw (see <a href='https://github.com/hundredrabbits/awesome-uxn#applications' target='_blank'>list of available applications</a>).</p>
 
-<p>There's also a sampler pack of ROMs available as a <a href='https://rabbits.srht.site/uxn/uxn-rompack.tar.gz' title='_blank'>tarball</a> or a <a href='https://rabbits.srht.site/uxn/uxn-rompack.zip' target='_blank'>zipfile</a>.</p>
-
-<h3><a id='downloadbinaries'>Download emulator for your OS</a></h3>
-
-<p>Uxn emulators are available for 64-bit x86 computers running Linux, Windows and OS X:
-
-<p>Latest builds:</p>
-<ul>
-<li><a href='https://rabbits.srht.site/uxn/uxn-linux-amd64.tar.gz' target='_blank'>uxn-linux-amd64.tar.gz [29.2 kB] Linux</a></li>
-<li><a href='https://github.com/randrew/uxn32/releases/download/1.1/Uxn32.exe' target='_blank'>Uxn32.exe [57.3 kB] Windows</a></li>
-<li><a href='https://rabbits.srht.site/uxn/uxn-macos.tar.gz' target='_blank'>uxn-macos.tar.gz [464.2 kB] OS X</a></li>
-</ul>
-
 <h3><a id='build'>Build Uxn</a></h3>
 
 <p>The desktop emulator is built with <a href='https://www.libsdl.org/' target='_blank'>SDL2</a>. For Uxn to work, it is necessary to download SDL2 for your operating system. Here is the process for Linux, OS X, Plan 9 and Windows. These are all terminal commands:</p>
@@ -204,13 +191,40 @@ cd uxn
 
 <p>If you'd like to work with the Console device in uxnemu.exe, run ./build.sh --console instead: this will bring up an extra window for console I/O unless you run uxnemu.exe in Command Prompt or PowerShell.</p>
 
+<h3><a id='downloadbinaries'>Download emulator for your OS</a></h3>
+
+<p>Uxn emulators are available for 64-bit x86 computers running Linux, Windows and OS X.</p>
+
+<p>Latest builds:</p>
+<ul>
+<li><a href='https://rabbits.srht.site/uxn/uxn-linux-amd64.tar.gz' target='_blank'>uxn-linux-amd64.tar.gz [29.2 kB] Linux</a></li>
+<li><a href='https://github.com/randrew/uxn32/releases/download/1.1/Uxn32.exe' target='_blank'>Uxn32.exe [57.3 kB] Windows</a></li>
+<li><a href='https://rabbits.srht.site/uxn/uxn-macos.tar.gz' target='_blank'>uxn-macos.tar.gz [464.2 kB] OS X</a></li>
+</ul>
+
+<p>Double-click on <b>uxnemu</b> to launch the emulator. (Elementary OS not: uxnemu might not be clickable, navigate to folder where you placed uxnemu and in the terminal window and launch uxnemu from there:</p>
+
+<pre>
+  ./uxnemu 
+</pre>
+
+<p>Upon loading the launcher, you will get the window below. If you choose a package with ROMs, they will display in this list and it will be possible to open them from here.</p>
+
+<img src='../media/content/projects/uxnlauncher.png' loading='lazy' />
+
 <h3><a id='start'>Getting Started</a></h3>
 
-<p>To launch a .rom in the emulator, point the emulator to the target rom file:</p>
+<p>Now that you have an emulator, it's possible to launch a .rom.</p>
+
+There are two ways to do this, you can launch it from the terminal, or you can drag the .rom file onto the emulator. To launch it, point the emulator to the target rom file:</p>
 
 <pre>
   bin/uxnemu bin/piano.rom
 </pre>
+
+<p>Looking for ROMs? See the <a href='https://github.com/hundredrabbits/awesome-uxn#applications' target='_blank'>list of available applications</a>).</p>
+
+<p>There's also a sampler pack of ROMs available as a <a href='https://rabbits.srht.site/uxn/uxn-rompack.tar.gz' title='_blank'>tarball</a> or a <a href='https://rabbits.srht.site/uxn/uxn-rompack.zip' target='_blank'>zipfile</a>.</p>
 
 <p>You can also use the emulator without graphics by using uxncli. You can find additional roms <a href='https://sr.ht/~rabbits/uxn/sources' target='_blank'>here</a>, you can find prebuilt rom files <a href='https://itch.io/c/248074/uxn-roms' target='_blank'>here</a>.</p>
 
