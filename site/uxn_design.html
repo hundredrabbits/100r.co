@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/thumbnail.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; story</title></head><body><header><a href='home.html'><img src='../media/interface/logo.svg' alt='100R' height='50'></a></header><nav><details open>
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/thumbnail.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; uxn design</title></head><body><header><a href='home.html'><img src='../media/interface/logo.svg' alt='100R' height='50'></a></header><nav><details open>
     <summary>Menu</summary>
     <section class="site-nav">
         <section>
@@ -99,7 +99,29 @@
 
 <!-- Generated file, do not edit -->
 
-<h1>story</h1><p>Back in 2016 when first operating on a sailboat, we experienced frequent failures with both software & hardware, largely due to our small <a href='energy.html' class='local'>energy</a> storage and lack of reliable connectivity. The solution was to create tools that would be better suited to our needs. The objective was to replace the bloated, closed-source or subscription software that we were using to do creative work, such as Photoshop, Xcode and Ableton. We were somewhat familiar with web technologies, so we decided to build our programs on this new framework called Electron.</p>
+<h1>uxn design</h1><p>Because Uxn was explicitly created to exist as software hosted on <a href='https://wiki.xxiivv.com/site/permacomputing.html' target='_blank'>pre-existing hardware</a>, the design was advised primarily by relative software complexity, not by how fast it could be made to run. Features were weighted against the relative difficulty they would add for programmers implementing their own emulators.</p>
+
+<p>Stack-machines, and <a href='https://wiki.xxiivv.com/site/reverse_polish.html' target='_blank'>postfix arithmetic</a>, are ideal candidates for this scale of personal computing. Not only does it make for extremely basic compilers, the resulting programs are succinct and translate well to <a href='https://wiki.xxiivv.com/site/paper_computing.html' target='_blank'>pen & paper computing</a>.</p>
+
+<p>With only 64kb of memory, it will never run Chrome, TensorFlow or a blockchain. It sucks at doing most modern computing, but it’s also sort of the point, it's more about finding what new things could be made in such a small system.</p>
+
+<q>What's the benefit of Uxn over C, when just about everything has a C compiler?</q>
+
+<p>While terminal utilities can be made portable, cross-platform graphical development is different. Even building projects for platforms with C compilers, such as Linux and <a href='https://wiki.xxiivv.com/site/plan9.html' target='_blank'>Plan 9</a>, will require a near total rewrite, whereas porting the thin layer that is the <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>uxn emulator</a> will allow that same rom file to be used on both systems.</p>
+
+<h3>Why create a smol virtual computer?</h3>
+
+<img src='../media/content/projects/uxn_05.jpg' title='The Left text editor on Uxn' loading='lazy' />
+
+<p>We want to produce lasting versions of our tools and games, and by using simpler systems(the UxnVM is <a href='https://git.sr.ht/~rabbits/uxn/tree/main/item/src/uxn.c' target='_blank'>about 200 lines of C</a>) we can build more resilient software due to their lack of dependencies, and support older hardware when possible. The Uxn emulator is extremely simple, and can be ported to an unsupported system <a href='https://merveilles.town/web/statuses/106785824688368264'>quickly</a>. Try Uxn on <a href='https://github.com/asiekierka/uxnds'>NintendoDS</a>, <a href='https://git.badd10de.dev/uxngba'>Gameboy Advance</a>, <a href='https://merveilles.town/@alderwick/106222101764116637' target='_blank'>Rasperry Pi Pico</a> or on <a href='https://git.sr.ht/~rabbits/uxn/'>desktop</a>.</p>
+
+<p>As it stands today, modern software is built with extreme short-sightedness, designed to be run on disposable electronics and near impossible to maintain, so we decided to not participate in this race to the bottom. Our aim is to create a machine that focuses on answering the handful of tasks we need, which is centered around building playful audio/visual experiences.</p>
+
+<iframe width="600" height="315" src="https://www.youtube.com/embed/na0u5xc-wHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>To borrow the words of Viznut Heikkilä on <a href='http://viznut.fi/texts-en/permacomputing.html' target='_blank'>permacomputing</a>, we're interested in cultural and ecological permanence. "That is, how to give computers a meaningful and sustainable place in a human civilization that has a meaningful and sustainable place in the planetary biosphere".</p>
+
+<h2 id='story'><a href='story.html'>story</a></h2><p>Back in 2016 when first operating on a sailboat, we experienced frequent failures with both software & hardware, largely due to our small <a href='energy.html' class='local'>energy</a> storage and lack of reliable connectivity. The solution was to create tools that would be better suited to our needs. The objective was to replace the bloated, closed-source or subscription software that we were using to do creative work, such as Photoshop, Xcode and Ableton. We were somewhat familiar with web technologies, so we decided to build our programs on this new framework called Electron.</p>
 
 <p>While solving some of our issues, Electron was rapidly increasing in size and soon joined the rest of the software that we wanted to do away with. Our focus shifted toward reducing our energy use, and to ensure reliability by removing all dependencies.</p>
 
@@ -111,5 +133,8 @@
 
 <q>Go slow, and fix things.</q>
 
-</main><footer><hr /><span style='float:right'>Edited on Sun Aug 15 08:03:01 2021
- <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/story.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2022 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_1Y8PwD5XDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</main><footer><hr /><span style='float:right'>Edited on Mon Jan 24 13:59:51 2022
+ <a href='https://github.com/hundredrabbits/100r.co/edit/master/src/inc/uxn_design.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2022 — <a href='https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

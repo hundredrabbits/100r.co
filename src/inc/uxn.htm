@@ -1,42 +1,37 @@
 <img src='../media/content/projects/uxn_04.jpg' title='uxn mascot' loading='lazy' />
 
-<p>The Uxn ecosystem is a personal computing playground, created to host small tools and games, programmable in its own unique assembly language.</p>
+<p>The Uxn ecosystem is a <b>personal computing playground</b>, created to host small tools and games, programmable in its own unique <a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>assembly language</a>.</p> 
 
-<p>It was designed with an implementation-first mindset with a focus on creating portable graphical applications, the distribution of Uxn projects is akin to sharing game roms for any classic console emulator.</p>
+<p>It was designed with an implementation-first mindset with a focus on creating portable graphical applications, the distribution of Uxn projects is akin to sharing game roms for any classic console emulator. To learn more, read about the {uxn design}, or see the <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>technical documentation</a>.</p>
 
-<iframe width="600" height="315" src="https://www.youtube.com/embed/yebl-91CVaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3 id='desktop'>Desktop Versions</h3>
 
-<p>We've already ported {Orca}, {Nasu}, {Left} and <a href='https://git.sr.ht/~rabbits/noodle/'>noodle</a> to uxn-compatible ROMs. Each one is written in a <a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>special flavor of assembly</a> designed specifically for the Uxn computer. To learn more, see the <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>technical documentation</a>.</p>
+<img src='../media/content/projects/uxn_linux.jpg' loading='lazy' />
 
-<h3>Design</h3>
+<p>To run uxn programs on a desktop computer, you'll need an emulator for your operating system. Below are links to download the latest versions of the Uxn emulators for major systems, bundled with a few roms. Alternatively, you can download the emulators on their own for <a href='https://rabbits.srht.site/uxn/uxn-lin64.tar.gz'>Linux</a>, 
+<a href='https://rabbits.srht.site/uxn/uxn-win64.tar.gz'>Windows</a> and 
+<a href='https://rabbits.srht.site/uxn/uxn-mac64.tar.gz'>MacOS</a>.</p>
 
-<p>Because Uxn was explicitly created to exist as software hosted on <a href='https://wiki.xxiivv.com/site/permacomputing.html' target='_blank'>pre-existing hardware</a>, the design was advised primarily by relative software complexity, not by how fast it could be made to run. Features were weighted against the relative difficulty they would add for programmers implementing their own emulators.</p>
+<a class='patreon button' href='https://rabbits.srht.site/uxn/uxn-essentials-lin64.tar.gz'>Linux</a>
+<a class='patreon button' href='https://rabbits.srht.site/uxn/uxn-essentials-win64.tar.gz'>Windows</a>
+<a class='patreon button' href='https://rabbits.srht.site/uxn/uxn-essentials-mac64.tar.gz'>MacOS</a>
 
-<p>Stack-machines, and <a href='https://wiki.xxiivv.com/site/reverse_polish.html' target='_blank'>postfix arithmetic</a>, are ideal candidates for this scale of personal computing. Not only does it make for extremely basic compilers, the resulting programs are succinct and translate well to <a href='https://wiki.xxiivv.com/site/paper_computing.html' target='_blank'>pen & paper computing</a>.</p>
+<p>The emulator comes bundled with a handful of tools, games and toys:</p>
 
-<p>With only 64kb of memory, it will never run Chrome, TensorFlow or a blockchain. It sucks at doing most modern computing, but it’s also sort of the point, it's more about finding what new things could be made in such a small system.</p>
-
-<q>What's the benefit of Uxn over C, when just about everything has a C compiler?</q>
-
-<p>While terminal utilities can be made portable, cross-platform graphical development is different. Even building projects for platforms with C compilers, such as Linux and <a href='https://wiki.xxiivv.com/site/plan9.html' target='_blank'>Plan 9</a>, will require a near total rewrite, whereas porting the thin layer that is the <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>uxn emulator</a> will allow that same rom file to be used on both systems.</p>
+<ul style='columns:2'>
+  <li>calc, graphical calculator</li>
+  <li>{donsol}, card game</li>
+  <li>{left}, writing tool</li>
+  <li>{nasu}, sprite editor</li>
+  <li>{noodle}, sketch tool</li>
+  <li>{orca}, livecoding tool</li> 
+  <li><a href='https://wiki.xxiivv.com/site/turye.html' target='_blank'>turye</a>, font editor</li>
+  <li><a href='https://wiki.xxiivv.com/site/catclock.html' target='_blank'>catclock</a>, desktop clock</li>
+  <li><a href='https://wiki.xxiivv.com/site/dexe.html' target='_blank'>dexe</a>, hex editor</li>
+  <li>A Piano, piano toy</li>
+</ul>
 
 {/uxn guide}
-
-<h3>Why create a smol virtual computer?</h3>
-
-<img src='../media/content/projects/uxn_05.jpg' title='The Left text editor on Uxn' loading='lazy' />
-
-<p>We want to produce lasting versions of our tools and games, and by using simpler systems(the UxnVM is <a href='https://git.sr.ht/~rabbits/uxn/tree/main/item/src/uxn.c' target='_blank'>about 200 lines of C</a>) we can build more resilient software due to their lack of dependencies, and support older hardware when possible. The Uxn emulator is extremely simple, and can be ported to an unsupported system <a href='https://merveilles.town/web/statuses/106785824688368264'>quickly</a>. Try Uxn on <a href='https://github.com/asiekierka/uxnds'>NintendoDS</a>, <a href='https://git.badd10de.dev/uxngba'>Gameboy Advance</a>, <a href='https://merveilles.town/@alderwick/106222101764116637' target='_blank'>Rasperry Pi Pico</a> or on <a href='https://git.sr.ht/~rabbits/uxn/'>desktop</a>.</p>
-
-<p>As it stands today, modern software is built with extreme short-sightedness, designed to be run on disposable electronics and near impossible to maintain, so we decided to not participate in this race to the bottom. Our aim is to create a machine that focuses on answering the handful of tasks we need, which is centered around building playful audio/visual experiences.</p>
-
-<iframe width="600" height="315" src="https://www.youtube.com/embed/na0u5xc-wHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p>To borrow the words of Viznut Heikkilä on <a href='http://viznut.fi/texts-en/permacomputing.html' target='_blank'>permacomputing</a>, we're interested in cultural and ecological permanence. "That is, how to give computers a meaningful and sustainable place in a human civilization that has a meaningful and sustainable place in the planetary biosphere".</p>
-
-{/story}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_1Y8PwD5XDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>Uxn is currently under development, we use #uxn on irc.esper.net to coordinate development [07-05-21].</p>
 
