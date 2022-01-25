@@ -6,7 +6,7 @@
 #include <sys/stat.h>
 #include <time.h>
 
-/* 
+/*
 Copyright (c) 2022 Devine Lu Linvega
 
 Permission to use, copy, modify, and distribute this software for any
@@ -19,8 +19,8 @@ WITH REGARD TO THIS SOFTWARE.
 
 #define NAME "100R"
 #define DOMAIN "https://100r.co/"
-#define LICENSE "https://github.com/hundredrabbits/100r.co/blob/master/LICENSE.by-nc-sa-4.0.md"
-#define SOURCE "https://github.com/hundredrabbits/100r.co/edit/master"
+#define LICENSE "https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md"
+#define SOURCE "https://github.com/hundredrabbits/100r.co/edit/main"
 
 typedef struct Lexicon {
 	int len, refs[512];
