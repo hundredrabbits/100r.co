@@ -1,46 +1,40 @@
 
 <ul class='jump'>
-<li><a href='#introduction'>Introduction</a></li>
 <li><a href='#orbit'>Orbit</a></li>
-<li><a href='#story'>Story</a></li>
-<li><a href='#distributions'>Distributions</a></li>
+<li><a href='#versions'>Versions</a></li>
 <li><a href='#operators'>Operators</a></li>
-<li><a href='#midi'>Midi</a></li>
-<li><a href='#udp'>UDP</a></li>
-<li><a href='#osc'>OSC</a></li>
-<li><a href='#mode'>Project mode</a></li>
-<li><a href='#defaultports'>Default ports</a></li>
-<li><a href='#commands'>Commands</a></li>
-<li><a href='#terminal'>Terminal version</a></li>
+<li><a href='#basics'>Basics</a></li>
+<li><a href='#projectors'>Projectors</a></li>
+<li><a href='#variables'>Variables</a></li>
+<li><a href='#base36'>Base 36 Table</a></li>
+<li><a href='#golf'>Golf</a></li>
 <li><a href='#license'>License</a></li>
 <li><a href='#pullrequest'>Make a pull request</a></li>
 </ul>
 
-<h2 id='introduction'>introduction</h2>
 <img src='../media/content/projects/orca_01.jpg' loading='lazy' />
 <img src='../media/content/characters/orca.idle.png' style='float:left;' class='medium' />
 
-<p>Orca is an <a href='https://en.wikipedia.org/wiki/Esoteric_programming_language' class='external' target='_blank'>esoteric programming language</a>, designed to create procedural sequencers in which each letter of the alphabet is an operation, where lowercase letters operate on bang, uppercase letters operate each frame.</p>
+<p>Orca is a two-dimensional esoteric programming language in which every letter of the alphabet is an operator, where lowercase letters operate on bang, uppercase letters operate each frame.</p>
 
 <p>The application is not a synthesiser, but a flexible livecoding environment capable of sending MIDI, OSC & UDP to your audio interface, like Ableton, Renoise, VCV Rack or SuperCollider.</p>
 
-{/story}
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hQXa6TkSeH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h2 id='distributions'>Distributions</h2>
+<h2 id='versions'>Versions</h2>
 
-<p>The major distributions are the <a href='https://git.sr.ht/~rabbits/orca' class='external' target='_blank'>terminal version</a> (written in C99), the <a href='https://hundredrabbits.github.io/Orca' class='external' target='_blank'>web version</a>, the <a href='https://hundredrabbits.itch.io/orca' class='external' target='_blank'>desktop version</a>, and the <a href='https://llllllll.co/t/orca/22492' class='external' target='_blank'>norns version</a>, each version implement their own variance of the IO operators.</p>
+<ul>
+    <li><a href='https://hundredrabbits.itch.io/orca' target='_blank'>desktop version</a></li>
+    <li><a href='https://git.sr.ht/~rabbits/orca-toy' target='_blank'>uxn version</a></li>
+    <li><a href='https://git.sr.ht/~rabbits/orca' target='_blank'>terminal version</a></li>
+    <li><a href='https://hundredrabbits.github.io/Orca' target='_blank'>browser version</a></li>
+    <li><a href='https://llllllll.co/t/orca/22492' target='_blank'>norns version</a></li>
+</ul>
 
-<p>There is also <a href='https://git.sr.ht/~rabbits/orca-toy' target='_blank'>Orca Toy</a> (written in ANSI C), a minimalist implementation of the basic operators created for educational purposes.</p>
+<h2 id='operators'>Operators</h2>
 
-<p>The Desktop and Web version were the first, most stable and user-friendly versions of Orca. As stated in the section above, we are currently working on a light version for {Uxn} that will work on all platforms [16.05.21].</p>
+<p>The base operators are present in every version of Orca, no matter the platform:</p>
 
-<h2 id='download'>download</h2><iframe frameborder='0' src='https://itch.io/embed/225814?link_color=000000' width='600' height='167'></iframe>
-
-<h2><a id='operators'>Operators</a></h2>
-
-<p>To display the list of operators inside of Orca, use <code>CmdOrCtrl+G</code>.</p>
 <ul>
     <li><code>A</code> <b>add</b>(<em>a</em> b): Outputs sum of inputs.</li>
     <li><code>B</code> <b>subtract</b>(<em>a</em> b): Outputs difference of inputs.</li>
@@ -48,128 +42,275 @@
     <li><code>D</code> <b>delay</b>(<em>rate</em> mod): Bangs on modulo of frame.</li>
     <li><code>E</code> <b>east</b>: Moves eastward, or bangs.</li>
     <li><code>F</code> <b>if</b>(<em>a</em> b): Bangs if inputs are equal.</li>
-    <li><code>G</code> <b>generator</b>(<em>x</em> <em>y</em> <em>len</em>): Writes operands with offset.</li>
+    <li><code>G</code> <b>generator</b>(<em>x</em> y len): Writes operands with offset.</li>
     <li><code>H</code> <b>halt</b>: Halts southward operand.</li>
     <li><code>I</code> <b>increment</b>(<em>step</em> mod): Increments southward operand.</li>
     <li><code>J</code> <b>jumper</b>(<em>val</em>): Outputs northward operand.</li>
     <li><code>K</code> <b>konkat</b>(<em>len</em>): Reads multiple variables.</li>
-    <li><code>L</code> <b>less</b>(<em>a</em> <em>b</em>): Outputs smallest of inputs.</li>
+    <li><code>L</code> <b>lesser</b>(<em>a</em> b): Outputs smallest of inputs.</li>
     <li><code>M</code> <b>multiply</b>(<em>a</em> b): Outputs product of inputs.</li>
     <li><code>N</code> <b>north</b>: Moves Northward, or bangs.</li>
-    <li><code>O</code> <b>read</b>(<em>x</em> <em>y</em> read): Reads operand with offset.</li>
-    <li><code>P</code> <b>push</b>(<em>len</em> <em>key</em> val): Writes eastward operand.</li>
-    <li><code>Q</code> <b>query</b>(<em>x</em> <em>y</em> <em>len</em>): Reads operands with offset.</li>
+    <li><code>O</code> <b>read</b>(<em>x y</em> read): Reads operand with offset.</li>
+    <li><code>P</code> <b>push</b>(<em>len</em> key val): Writes eastward operand.</li>
+    <li><code>Q</code> <b>query</b>(<em>x y</em> len): Reads operands with offset.</li>
     <li><code>R</code> <b>random</b>(<em>min</em> max): Outputs random value.</li>
     <li><code>S</code> <b>south</b>: Moves southward, or bangs.</li>
-    <li><code>T</code> <b>track</b>(<em>key</em> <em>len</em> val): Reads eastward operand.</li>
+    <li><code>T</code> <b>track</b>(<em>key len</em> val): Reads eastward operand.</li>
     <li><code>U</code> <b>uclid</b>(<em>step</em> max): Bangs on Euclidean rhythm.</li>
     <li><code>V</code> <b>variable</b>(<em>write</em> read): Reads and writes variable.</li>
     <li><code>W</code> <b>west</b>: Moves westward, or bangs.</li>
-    <li><code>X</code> <b>write</b>(<em>x</em> <em>y</em> val): Writes operand with offset.</li>
+    <li><code>X</code> <b>write</b>(<em>x y</em> val): Writes operand with offset.</li>
     <li><code>Y</code> <b>jymper</b>(<em>val</em>): Outputs westward operand.</li>
     <li><code>Z</code> <b>lerp</b>(<em>rate</em> target): Transitions operand to input.</li>
     <li><code>*</code> <b>bang</b>: Bangs neighboring operands.</li>
     <li><code>#</code> <b>comment</b>: Halts a line.</li>
 </ul>
 
-<h2>IO</h2>
+<p>The special operators make use of a platform's devices, here are the suggested special operators:</p>
 
 <ul>
-    <li><code>:</code> <b>midi</b>(channel octave note velocity length): Sends a MIDI note.</li>
-    <li><code>%</code> <b>mono</b>(channel octave note velocity length): Sends monophonic MIDI note.</li>
-    <li><code>!</code> <b>cc</b>(channel knob value): Sends MIDI control change.</li>
-    <li><code>?</code> <b>pb</b>(channel value): Sends MIDI pitch bench.</li>
-    <li><code>;</code> <b>udp</b>: Sends UDP message.</li>
-    <li><code>=</code> <b>osc</b>(<em>path</em>): Sends OSC message.</li>
-    <li><code>$</code> <b>self</b>: Sends <a href="#Commands">ORCA command</a>.</li>
+    <li><code>$</code> <b>self</b>(cmd): Send a command to Orca.</li>
+    <li><code>:</code> <b>midi</b>(ch oct note velocity*): Send a midi note.</li>
+    <li><code>!</code> <b>midi cc</b>(ch knob val): Send a midi control change.</li>
+    <li><code>;</code> <b>pitch</b>(<em>oct note</em>): Send pitch byte out.</li>
+    <li><code>/</code> <b>byte</b>(high low): Send a raw byte.</li>
+    <li><code>=</code> <b>play</b>(<em>ch oct note</em> velocity*): Play note with built-in synth.</li>
 </ul>
 
-<h2><a id='midi'>MIDI</a></h2>
+<h2>An introduction to basic operations</h2>
 
-<p>The <a href="https://en.wikipedia.org/wiki/MIDI" rel="nofollow">MIDI</a> operator <code>:</code> takes up to 5 inputs('channel, 'octave, 'note, velocity, length).</p>
-<p>For example, <code>:25C</code>, is a <b>C note, on the 5th octave, through the 3rd MIDI channel</b>, <code>:04c</code>, is a <b>C# note, on the 4th octave, through the 1st MIDI channel</b>. Velocity is an optional value from <code>0</code>(0/127) to <code>g</code>(127/127). Note length is the number of frames during which a note remains active.</p>
+<h3 id='basics'>Basics</h3>
 
-<h2>MIDI MONO</h2>
-<p>The <a href="https://en.wikipedia.org/wiki/Monophony" rel="nofollow">MONO</a> operator <code>%</code> takes up to 5 inputs('channel, 'octave, 'note, velocity, length).</p>
-<p>This operator is very similar to the default Midi operator, but <b>each new note will stop the previously playing note</b>, would its length overlap with the new one. Making certain that only a single note is ever played at once, this is ideal for monophonic analog synthetisers that might struggle to dealing with chords and note overlaps.</p>
+<p>This section will teach the basics of playing a note and a sequence of notes.</p>
 
-<h2>MIDI CC</h2>
-<p>The <a href="https://www.sweetwater.com/insync/continuous-controller/" rel="nofollow">MIDI CC</a> operator <code>!</code> takes 3 inputs('channel, 'knob, 'value).</p>
-<p>It sends a value <b>between 0-127</b>, where the value is calculated as a ratio of 36, over a maximum of 127. For example, <code>!008</code>, is sending <b>28</b>, or <code>(8/36)*127</code> through the first channel, to the control mapped with <code>id0</code>. You can press <b>enter</b>, with the <code>!</code> operator selected, to assign it to a controller. By default, the operator sends to <code>CC64</code> <a href="https://nickfever.com/Music/midi-cc-list" rel="nofollow">and up</a>, the offset can be changed with the <a href="#commands">command</a> <code>cc:0</code>, to set the offset to 0.</p>
+<p><b>Send a midi note:</b></p>
 
-<h2>MIDI PITCHBEND</h2>
-<p>The <a href="https://www.sweetwater.com/insync/pitch-bend/" rel="nofollow">MIDI PB</a> operator <code>?</code> takes 3 inputs('channel, 'lsb, 'msb).</p>
-<p>It sends two different values <b>between 0-127</b>, where the value is calculated as a ratio of 36, over a maximum of 127. For example, <code>?008</code>, is sending an MSB of <b>28</b>, or <code>(8/36)*127</code> and an LSB of 0 through the first midi channel.</p>
-
-<h2>MIDI PROGRAM CHANGE</h2>
-<p>This is a command (see below) rather than an operator and it combines the <a href="https://www.sweetwater.com/sweetcare/articles/6-what-msb-lsb-refer-for-changing-banks-andprograms/" rel="nofollow">MIDI program change and bank select functions</a>.</p>
-<p>The syntax is <code>pg:channel;msb;lsb;program</code>. Channel is 0-15, msb/lsb/program are 0-127, but program will automatically be translated to 1-128 by the MIDI driver. <code>program</code> typically correspondes to a "patch" selection on a synth. Note that <code>msb</code> may also be identified as "bank" and <code>lsb</code> as "sub" in some applications (like Ableton Live).</p>
-<p><code>msb</code> and <code>lsb</code> can be left blank if you only want to send a simple program change. For example, <code>pg:0;;;63</code> will set the synth to patch number 64 (without changing the bank)</p>
-
-<h2><a id='udp'>UDP</a></h2>
-<p>The <a href="https://nodejs.org/api/dgram.html#dgram_socket_send_msg_offset_length_port_address_callback" rel="nofollow">UDP</a> operator <code>;</code> locks each consecutive eastwardly ports. For example, <code>;hello</code>, will send the string "hello", on bang, to the port <code>49160</code> on <code>localhost</code>. In commander, use <code>udp:7777</code> to select the <b>custom UDP port 7777</b>, and <code>ip:127.0.0.12</code> to change the target IP. UDP is not available in the browser version of Orca.</p>
-
-<h2><a id='osc'>OSC</a></h2>
-<p>The <a href="https://github.com/MylesBorins/node-osc">OSC</a> operator <code>=</code> locks each consecutive eastwardly ports. The first character is used for the path, the following characters are sent as integers using the <a href="https://github.com/hundredrabbits/Orca#base36-table">base36 Table</a>. In commander, use <code>osc:7777</code> to select the <b>custom OSC port 7777</b>, and <code>ip:127.0.0.12</code> to change the target IP. OSC is not available in the browser version of Orca.</p>
-<p>For example, <code>=1abc</code> will send <code>10</code>, <code>11</code> and <code>12</code> to <code>/1</code>, via the port <code>49162</code> on <code>localhost</code>; <code>=a123</code> will send <code>1</code>, <code>2</code> and <code>3</code>, to the path <code>/a</code>.</p>
-
-<h2>Advanced Controls</h2>
-<p>Some of Orca's features can be <b>controlled externally</b> via UDP though port <code>49160</code>, or via its own command-line interface. To activate the command-line prompt, press <code>CmdOrCtrl+K</code>. The prompt can also be used to inject patterns or change settings.</p>
-
-<img src='../media/content/projects/orca_02.jpg' />
-
-<h3><a id='mode'>Project Mode</a></h3>
-<p>You can <b>quickly inject orca files</b> into the currently active file, by using the command-line prompt allowing you to navigate across multiple files like you would a project. Press <code>CmdOrCtrl+L</code> to load multiple orca files, then press <code>CmdOrCtrl+B</code> and type the name of a loaded <code>.orca</code> file to inject it.</p>
-
-<h3><a id='defaultports'>Default Ports</a></h3>
-<table>
-    <tr>
-        <th>UDP Input</th>
-        <th>OSC Input</th>
-        <th>UDP Output</th>
-        <th>OSC Output</th>
-    </tr>
-    <tr>
-        <td>49160</td>
-        <td>None</td>
-        <td>49161</td>
-        <td>49162</td>
-    </tr>
-</table>
-
-<h3><a id='commands'>Commands</a></h3>
-<p>All commands have a shorthand equivalent to their first two characters, for example, <code>write</code> can also be called using <code>wr</code>. You can see the full list of commands <a href="https://github.com/hundredrabbits/Orca/blob/main/desktop/sources/scripts/commander.js">here</a>.</p>
 <ul>
-    <li><code>play</code> Plays program.</li>
-    <li><code>stop</code> Stops program.</li>
-    <li><code>run</code> Runs current frame.</li>
-    <li><code>bpm:140</code> Sets bpm speed to <code>140</code>.</li>
-    <li><code>apm:160</code> Animates bpm speed to <code>160</code>.</li>
-    <li><code>frame:0</code> Sets the frame value to <code>0</code>.</li>
-    <li><code>skip:2</code> Adds <code>2</code>, to the current frame value.</li>
-    <li><code>rewind:2</code> Removes <code>2</code>, to the current frame value.</li>
-    <li><code>color:f00;0f0;00f</code> Colorizes the interface.</li>
-    <li><code>find:aV</code> Sends cursor to string <code>aV</code>.</li>
-    <li><code>select:3;4;5;6</code> Move cursor to position <code>3,4</code>, and select size <code>5:6</code>(optional).</li>
-    <li><code>inject:pattern;12;34</code> Inject the local file <code>pattern.orca</code>, at <code>12,34</code>(optional).</li>
-    <li><code>write:H;12;34</code> Writes glyph <code>H</code>, at <code>12,34</code>(optional).</li>
-    <li><code>time</code> Prints the time, in minutes seconds, since <code>0f</code>.</li>
+    <li>D8, will send a bang, every 8th frame.</li>
+    <li>:03C, will send the C note, on the 3rd octave, to send C#, use the lowercase c3.</li>
 </ul>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AGi9kK7WL40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<pre>
+D8...
+.:03C
+</pre>
 
-<h2><a id='terminal'>Terminal Version</a></h2>
+<p><b>Play a random note:</b></p>
 
-<img src='../media/content/projects/orca_03.jpg' />
+<p>aRG, will output a random value between A & G, the rightside uppercase letter indicates an uppercase output.</p>
 
-<p>The livecoding environment for the C implementation runs in a terminal. It's designed to be power efficient. It can handle large files, even if your terminal is small, it is the perfect candidate for your <a href='raspberry_pi.html'>Raspberry Pi</a>.</a>
+<pre>
+D8.aRG.
+.:03D..
+</pre>
 
-    <h2>Web Version</h2>
+<p><b>Make a melody</b></p>
 
-    <img src='../media/content/projects/orca_04.jpg' />
+<p>04TCAFE, will create a track of 4 notes, and output its first value.</p>
 
-    <p>It is now possible to use Orca in your browser, without the need to install it as an application.</p>
-    <p>We decided to build a browser compatible version in response to Apple moving toward <a href='https://www.cultofmac.com/618378/apple-will-soon-require-all-macos-apps-to-be-notarized/' target='_blank' class='external'>requiring all applications to be notarized</a>, you can learn more about how this issue will impact small developers <a href='http://www.nathalielawhead.com/candybox/the-future-of-my-games-on-apple-post-catalina-and-what-this-means-for-art-games-in-general' target='_blank' class='external'>here</a>. While we no longer support the OSX platform, our <a href='https://hundredrabbits.github.io/Orca' target='_blank' class='external'>web version</a> will allow Orca users still using Apple products to run Orca in their browser.</p><a class='button' href='https://hundredrabbits.github.io/Orca' target='_blank'>Use Orca Live</a>
+<pre>
+D814TCAFE
+.:03A....
+</pre>
+
+<p><b>Play the melody</b></p>
+
+<p>8C4, will count from 0 to 3, at 1/8th speed.</p>
+
+<pre>
+.8C4.....
+D804TCAFE
+.:03C....
+</pre>
+
+<p><b>Logic</b></p>
+
+<p>This section will teach the basics of automating logic decisions and changing the values of operators dynamically.</p>
+
+<p><b>Play every second note.</b></p>
+
+<p>2I6, will increment to 6 at a rate of 2.</p>
+
+<pre>
+.2I6.......
+D646TCAFEDG
+.:03D......
+</pre>
+
+<p><b>Play a note with an offset</b></p>
+
+<p>1AC, will add 1 to C, to output D. To get D#, use the lowercase d, like 1Ac.</p>
+
+<pre>
+D8.1AC.
+.:03D..
+</pre>
+
+<p><b>Play a sequence back and forth</b></p>
+
+<p>The combination of the output of C6 into B3 will bounce a value between 0 and 3 over 6 frames.</p>
+
+<pre>
+4C6......
+.4B3.....
+D414TCAFE
+.:03A....
+</pre>
+
+<p><b>Play a note at a specific interval</b></p>
+
+<ul>
+    <li>.I4, will increment to 4, at a rate of 1.</li>
+    <li>.F2, will bang only if leftside input is equal to 2.</li>
+</ul>
+
+<pre>
+I4.....
+3F2.1AC
+..:03D.
+</pre>
+
+<h3 id='projectors'>Projectors</h3>
+
+<p>This section will teach the basics of creating new operators procedurally.</p>
+
+<p><b>Halt a moving operator</b></p>
+
+<ul>
+    <li>E, will travel further eastward, every frame.</li>
+    <li>H, will stop a E from moving.</li>
+</ul>
+
+<prev>
+..H
+E..
+</prev>
+
+<p><b>Read an operator at position</b></p>
+
+<p>22O, will get the operator E at the offset 2,2.</p>
+
+<pre>
+22O...
+..E..H
+.....E
+</pre>
+/
+<p><b>Write an operator at position</b></p>
+
+<p>22X, will output the operator E at the offset 2,2.</p>
+
+<pre>
+22XE.
+.....
+.....
+....E
+</pre>
+
+<p><b>Animate a projector</b></p>
+
+<p>B8, will bounce between 0 and 8.</p>
+
+<pre>
+C...........
+.B4.........
+.1XE........
+........:03C
+........:03D
+........:03E
+........:03F
+........:03G
+</pre>
+
+<h3 id='variables'>Variables</h3>
+
+<p>This section will teach the basics of storing accessing and combining that stored data.</p>
+
+<p><b>Write a variable</b></p>
+
+<p>aV5, will store 5 in the variable a.</p>
+
+<pre>
+aV5
+</pre>
+<p><b>Read a variable</b></p>
+
+<p>Va, will output the value of the variable a. Notice how variables always have to be written above where they are read.</p>
+
+.<pre>....Va
+.......
+aV5..Va
+.....5.
+.......
+aV6..Va
+.....6.
+</pre>
+
+<p><b>Read 3 variables</b></p>
+
+<p>3Kion, will output the values of i, o & n, side-by-side.</p>
+
+<pre>
+iV0.oV3.nVC
+...........
+3Kion......
+.:03C......
+</pre>
+
+<p><b>Carry a value horizontally and vertically</b></p>
+
+<ul>
+    <li>Y, will output the west input, eastward.</li>
+    <li>J, will output the north input, southward.</li>
+</ul>
+
+<pre>
+3..
+J..
+3Y3
+</pre>
+
+<p><b>Carry a bang</b></p>
+
+<p>This method will allow you to bring bangs into tight spots.</p>
+
+<pre>
+D43Ka...
+.Y.:03C.
+</pre>
+
+<p>We hope the abive tutorial was enlightening, if you have questions or suggestions, please visit the <a href='https://llllllll.co/t/orca-live-coding-tool/17689' target='_blank'>forum</a>, or the <a href='https://talk.lurk.org/channel/orca' target='_blank'>chatroom</a>.
+
+<h3 id='base36'>Base 36 table</h3>
+
+<p>Orca operates on a base of 36 increments. Operators using numeric values will typically also operate on letters and convert them into values as per the following table. For instance Do will bang every 24th frame.</p>
+
+<pre>
+0   1   2   3   4   5   6   7   8   9   A   B
+0   1   2   3   4   5   6   7   8   9   10  11
+C   D   E   F   G   H   I   J   K   L   M   N
+12  13  14  15  16  17  18  19  20  21  22  23
+O   P   Q   R   S   T   U   V   W   X   Y   Z
+24  25  26  27  28  29  30  31  32  33  34  35
+</pre>
+
+<h3 id='golf'>Golf</h3>
+
+<p>Here are a few interesting snippets to achieve various arithmetic operations.</p>
+
+<pre>
+1X..    Modulo
+6I4.    Will output the modulo of 6 % 4.    
+
+cA1.    Uppercase
+.dAZ    Will output uppercase C.
+
+H...    Lowercase
+CM1.    Will output lowercase C.
+
+.L0.    Not Null
+..F0    Will bang if L free input is not null.
+</pre>
 
 <img src='../media/content/projects/orca.turnip.png' title='Hello, I am the baby form of Orcabit' alt='De-evolved Orcabit' style='width: 200px;margin: 0px auto; margin-bottom: 0px;display: block;margin-bottom: 30px;'/>
 {/license}

@@ -101,25 +101,27 @@
 
 <h1>left</h1>
 <ul class='jump'>
-    <li><a href='#introduction'>introduction</a></li>
-    <li><a href='#lefbit'>lefbit</a></li>
-    <li><a href='#download'>download</a></li>
-    <li><a href='#tutorial'>tutorial</a></li>
-    <li><a href='#rename'>rename</a></li>
-    <li><a href='#snarf'>snarf</a></li>
-    <li><a href='#graphic'>graphics</a></li>
-    <li><a href='#counter'>counter</a></li>
-    <li><a href='#saving'>saving</a></li>
-    <li><a href='#linebreak'>line break</a></li>
+    <li><a href='#lefbit'>Lefbit</a></li>
+    <li><a href='#download'>Download</a></li>
+    <li><a href='#tutorial'>Tutorial</a></li>
+    <li><a href='#rename'>Rename</a></li>
+    <li><a href='#snarf'>Snarf</a></li>
+    <li><a href='#leap'>Leaping through the text</a></li>
+    <li><a href='#word'>Finding a word</a></li>
+    <li><a href='#directory'>Director</a></li>
+    <li><a href='#graphic'>Graphics</a></li>
+    <li><a href='#counter'>Counter</a></li>
+    <li><a href='#saving'>Saving</a></li>
+    <li><a href='#linebreak'>Line break</a></li>
 </ul>
 
 <img src='../media/content/projects/left_01.png' title='uxn version' loading='lazy' />
 
-<h2 id='introduction'>introduction</h2>
-
 <img src='../media/content/characters/left.idle.png' loading='lazy' class='medium' style="float:left;" />
 
-<p>Left is a minimal text editor, written in <a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal</a>. This version is updated regularly.</p>
+<p>Left is graphical plain-text editor written in <a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal</a>. Left doesn't do much, but packs many useful features in a tiny 13kb rom.</p>
+
+<p>It supports Uxntal syntax highlight, proportional text, inline images and the snarf buffer. The alt key is used as a LEAP key to navigate the body of the text. This version is updated regularly.</p>
 
 <p>To view the documentation for the former version of Left, see <a href='left_electron.html' class='local'>left electron</a>.</p>
 
@@ -148,23 +150,18 @@
 <h3><a id='controls'>Controls</a></h3>
 
 <ul class='col2'>
-  <li><code class='shortcut'>mouse1</code> select</li>
-  <li><code class='shortcut'>mouse2</code> find</li>
   <li><code class='shortcut'>alt+mouse2</code> find from top</li>
   <li><code class='shortcut'>ctrl+mouse2</code> cut and find</li>
   <li><code class='shortcut'>backspace/delete</code> erase</li>
   <li><code class='shortcut'>escape</code> deselect</li>
   <li><code class='shortcut'>arrow</code>move</li>
-  <li><code class='shortcut'>ctrl+arrow</code> jump</li>
-  <li><code class='shortcut'>alt+arrow</code> hop</li>
+  <li><code class='shortcut'>ctrl+up</code> next label</li>
+  <li><code class='shortcut'>ctrl+down</code> prev label</li>
+  <li><code class='shortcut'>ctrl+left</code> end of line</li>
+  <li><code class='shortcut'>ctrl+right</code> start of line</li>
+  <li><code class='shortcut'>alt+left</code> next word</li>
+  <li><code class='shortcut'>alt+right</code> prev word</li>
   <li><code class='shortcut'>shift+arrow</code> scale selection</li>
-  <li><code class='shortcut'>ctrl+h</code> toggle syntax highlight</li>
-  <li><code class='shortcut'>crtl+n</code> new</li>
-  <li><code class='shortcut'>ctrl+s</code> save</li>
-  <li><code class='shortcut'>ctrl+r</code> rename</li>
-  <li><code class='shortcut'>ctrl+o</code> open</li>
-  <li><code class='shortcut'>ctrl+v</code> paste</li>
-  <li><code class='shortcut'>ctrl+x</code> cut</li>
   <li><code class='shortcut'>ctrl+a</code> select all</li>
 </ul>
 
@@ -183,6 +180,44 @@
 <code>cat > .snarf</code>
 
 <p>Paste your text, press enter and exit with <b>ctrl+c</b>. Then, select the text, copy it and paste it in your Left file.</p>
+
+<hr />
+
+<h3><a id='leap'>Leap</a></h3>
+
+<p>The <b>alt key</b> is used as a <a href='https://www.youtube.com/watch?v=o_TlE_U_X3c' target='_blank'>LEAP key</a>(YouTube) to navigate the body of the text.</p>
+
+<hr />
+
+
+<h3><a id='word'>Finding a word</a></h3>
+
+<p>Finding a word is done by holding down the <b>alt key</b>, and typing characters, and releasing <b>alt</b> to jump. Alternatively, you can select a word with <b>mouse2</b>, and jump to the next instance with <b>mouse3</b>, you can change the direction of the jump with <b>alt+tab</b>.</p>
+
+<ul>
+  <li><code class='shortcut'>mouse1</code> select character</li>
+  <li><code class='shortcut'>mouse2</code> select word</li>
+  <li><code class='shortcut'>mouse3</code> find</li>
+</ul>
+
+<hr />
+
+<h3><a id='directory'>Directory</a></h3>
+
+<p>A listing of the files in the active directory can be seen by the sequence <b>ctrl+r del</b>, a file from that listing can be opened by the sequence <b>mouse2 ctrl+g</b>.</p>
+
+<ul class='col2'>
+  <li><code class='shortcut'>ctrl+n</code> new</li>
+  <li><code class='shortcut'>ctrl+s</code> save</li>
+  <li><code class='shortcut'>ctrl+o</code> open</li>
+  <li><code class='shortcut'>ctrl+g</code> open selection</li>
+  <li><code class='shortcut'>ctrl+r</code> rename</li>
+  <li><code class='shortcut'>ctrl+c</code> copy</li>
+  <li><code class='shortcut'>ctrl+v</code> paste</li>
+  <li><code class='shortcut'>ctrl+x</code> cut</li>
+  <li><code class='shortcut'>ctrl+h</code> toggle syntax</li>
+  <li><code class='shortcut'>ctrl+f</code> toggle font</li>
+</ul>
 
 <hr />
 
@@ -236,5 +271,5 @@
 
 
 
-</main><footer><hr /><span style='float:right'>Edited on Fri Dec 31 09:49:26 2021
+</main><footer><hr /><span style='float:right'>Edited on Sat Jan 29 10:46:00 2022
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/left.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2022 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
