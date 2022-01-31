@@ -11,6 +11,44 @@
 </image>
 
 <item>
+  <title>Summary of changes for January</title>
+  <link>https://100r.co/site/log.html#jan2022</link>
+  <guid isPermaLink='false'>log.html#jan2022</guid>
+  <pubDate>Mon, 31 Dec 2022 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of January. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+
+<ul>
+    <li><b><a href='https://100r.co/site/left.html' target='_blank'>Left</a></b>, re-wrote documentation, redesigned the UX for save-as/open-as.</li>
+    <li><b><a href='https://100r.co/site/orca.html' target='_blank'>Orca</a></b>, re-wrote documentation, and added the operators manual on launch.</li>
+    <li><b><a href='https://100r.co/site/thousand_rooms.html' target='_blank'>Thousand Rooms</a></b>, released <a href='https://hundredrabbits.itch.io/thousand-rooms/devlog/339627/epub-version-plus-3-new-languages' target='_blank'>3 new languages</a>: Polish, Hungarian and Serbian. Now offering book as an ePUB.</li>
+    <li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, re-wrote entire documentation, and started a <a href='https://wiki.xxiivv.com/site/uxn_devlog.html' target='_blank'>project devlog</a>.</li>
+    <li><b><a href='https://100r.co/site/nasu.html' target='_blank'>Nasu</a></b>, improved zoom tool, it is now possible <a href='https://merveilles.town/@neauoire/107697043487251948' target='_blank'>to move between tiles</a>(Masto) while zoomed.</li>
+    <li><b><a href='https://hundredrabbits.itch.io/yufo' target='_blank'>Yufo</a></b>, released a small game for the <a href='https://itch.io/jam/virtual-pet-jam' target='_blank'>Virtual Pet Jam</a>.</li>
+    <li><b><a href='https://100r.co/' target='_blank'>100r</a></b>, added new page: <a href='https://100r.co/site/cooking.html#cast_iron_cookware' target='_blank'>cast-iron cookware</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>On January 28th Uxn turned 1 year old! We'd like to thank everyone who has contributed code, ideas, time and laughs to help this project grow into what it is now. It was a wonderful year for smol ordinators. See an image that Rekka made for <a href='../media/content/stream/2022_01uxn_bday.jpg' target='_blank'>uxn's birthday</a>.</p>
+
+<p>We finally released versions of the Uxn emulator for <a href='https://100r.co/site/uxn.html' target='_blank'>all major systems</a>(Linux, OS X and Windows), with the option of a version bundled with a few starter roms. We simplified <a href='https://100r.co/site/uxn_guide.html' target='_blank'>the guide</a> too, to make it easier to install and use.</p>
+
+<p>Our lion's mane mushroom grew another full head, we harvested it and made some <a href='../media/content/stream/2022_01lionmane_tempura.jpg' target='_blank'>mushroom pakoras</a>.</p>
+
+<p>In other news, Devine was interviewed on <a href='https://anonradio.net/' target='_blank'>Anonradio</a>, listen to it <a href='https://archives.anonradio.net/202201181600_gef.mp3' target='_blank'>here</a>. Also, <a href='https://compudanzas.net/'>Compudanzas</a> released an <a href='https://compudanzas.net/introduction_to_uxn_programming_book.html'>Introduction to Uxn Programming</a> book, with a foreword by Devine.</p>
+
+<h3>Pino book club</h2>
+
+<p>We're reading <b>The Complete Cosmicomics</b> by Italo Calvino, and <b>The Dawn of Everything: A New History of Humanity</b> by David Graeber.</p>
+
+<p><a href='https://100r.co/site/log.html#jan2022'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for December</title>
   <link>https://100r.co/site/log.html#dec2021</link>
   <guid isPermaLink='false'>log.html#dec2021</guid>
