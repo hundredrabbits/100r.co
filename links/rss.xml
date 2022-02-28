@@ -11,6 +11,47 @@
 </image>
 
 <item>
+  <title>Summary of changes for February</title>
+  <link>https://100r.co/site/log.html#feb2022</link>
+  <guid isPermaLink='false'>log.html#feb2022</guid>
+  <pubDate>Mon, 28 Feb 2022 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of February. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+
+<ul>
+    <li><b><a href='https://wiki.xxiivv.com/site/adelie.html' target='_blank'>Adelie</a></b>, released a program to create slideshows.</li>
+    <li><b><a href='https://grimgrains.com' target='_blank'>GrimGrains</a></b>, added a new recipe: <a href='https://grimgrains.com/site/bean_chili.html' target='_blank'>Bean chili</a>.</li>
+    <li><b><a href='https://100r.co/site/thousand_rooms.html' target='_blank'>Thousand Rooms</a></b>, released <a href='https://hundredrabbits.itch.io/thousand-rooms/devlog/352502/catalan-version' target='_blank'>Catalan version</a>, a translation by Dani Sevilla.</li>
+    <li><b><a href='<a href='https://100r.co' target='_blank'>100r.co</a></b>, added a new project: <a href='https://100r.co/site/gravity_water_filter.html' target='_blank'>Garvity water filter</a>.</li>
+    <li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, released a new <a href='https://github.com/randrew/uxn32/releases' target='_blank'>uxn32</a> with complete step debugging tools, added <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>new art</a> for the Varvara docs.</a>.</li>
+    <li><b><a href='https://100r.co/site/orca.html' target='_blank'>Orca</a></b>, implemented <a href='https://www.youtube.com/watch?v=oXmKJ_tYg34&feature=youtu.be' target='_blank'>injections</a>(YouTube), and <a href='https://www.youtube.com/watch?v=xIBTzswUmzY' target='_blank'>J and Y wiring</a>(YouTube).</li>
+    <li><b>Toys</b>, released <a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a> versions of <a href='https://merveilles.town/@neauoire/107868108987441439' target='_blank'>Minesweeper</a>(Mastodon), and <a href='https://wiki.xxiivv.com/site/wireworld.html' target='_blank'>Wireworld</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>This month it was announced that we joined <a href='https://libreplanet.org/2022/program/' target='_blank'>LibrePlanet 2022</a> as <a href='https://www.fsf.org/news/artist-collective-hundred-rabbits-to-keynote-libreplanet-living-liberation' target='_blank'>keynote speakers</a>. The annual technology and social justice conference will be held virtually on March 19 and 20, 2022, with the theme Living Liberation. Our talk is named Software Doldrums.</p>
+
+<p>Rekka is putting the finishing touches to <a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a>, and Devine designed a game that the people of Irideri could be playing. The result was a dice game combining the capture mechanism of Go and the randomness of the Domino. Learn to play <a href='https://wiki.xxiivv.com/site/hako.html' target='_blank'>Hako</a>. Each player has a Sonozai, a set of 4 dice on a rope. Merveillans have been making their own sets:</p>
+<ul>
+    <li><a href='https://merveilles.town/@nff/107854983461917482' target='_blank'>recycled construction wood set</a></li>
+    <li><a href='https://merveilles.town/@cassvs/107873045589387586' target='_blank'>3d-printed bracelet set</a></li>
+    <li><a href='https://merveilles.town/@FredBednarski/107817076522474670' target='_blank'>3d-printable concept</li>
+</ul>
+
+<p><a href='https://nchrs.xyz/site/home.html' target='_blank'>Rostiger</a> has been making illustrated notes for Uxn, and they are <a href='https://nchrs.xyz/site/uxn_notes.html' target='_blank'>fabulous</a>.</p>
+
+<h3>Pino book club</h3>
+
+<p>We're reading <b>Underland</b> by Robert Macfarlane.</p>
+
+<p><a href='https://100r.co/site/log.html#jan2022'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for January</title>
   <link>https://100r.co/site/log.html#jan2022</link>
   <guid isPermaLink='false'>log.html#jan2022</guid>
