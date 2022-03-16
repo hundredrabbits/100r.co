@@ -82,6 +82,7 @@ ul { margin:0px 0px 30px 0px; }
 
 .col2 { columns: 2 }
 .capital { text-transform: capitalize }
+.notice { padding:20px; border:2px solid white;  }
 ul.nobull li {list-style-type: none}
 
 /* Theme */
