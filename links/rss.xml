@@ -11,6 +11,43 @@
 </image>
 
 <item>
+  <title>Summary of changes for March</title>
+  <link>https://100r.co/site/log.html#mar2022</link>
+  <guid isPermaLink='false'>log.html#mar2022</guid>
+  <pubDate>Thu, 31 Mar 2022 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of March. We'll also be reporting in our on position in the world, and on our future plans.</p>
+<h2>Summary Of Changes</h2>
+<ul>
+    <li><b>100r</b>, released a guide to diesel <a href='https://100r.co/site/engine_care.html' target='_blank'>Engine Care</a>.</li>
+    <li><b><a href='https://kokorobot.ca/site/wunderrabbits.html' target='_blank'>Wunderland Rabbits</a></b>, released a <a href='https://kokorobot.ca/media/content/project/wunderland/wunderland.8.full.png' target='_blank'>new rabbit image</a>.</li>
+    <li><b>Toys</b>, finished re-creating the <a href='https://merveilles.town/@neauoire/108036742103495267' target='_blank'>classic bouncing ball</a> for the Amiga for Uxn.</li>
+    <li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, released <a href='https://git.sr.ht/~rabbits/uxn11' target='_blank'>a 23kb implementation of the Varvara emulator</a> in plain X11(without SDL2), started a <a href='https://lists.sr.ht/~rabbits/uxn' target='_blank'>mailing list & newsletter</a> to document changes, events and exciting projects, released a <a href='https://wiki.xxiivv.com/site/varvara_devlog.html' target='_blank'>second devlog</a>, and wrote a little single-file uxntal assembler called <a href='https://wiki.xxiivv.com/site/drifblim.html' target='_blank'>Drifblim</a>.</li>
+    <li><b><a href='https://100r.co/site/noodle.html' target='_blank'>Noodle</a></b>, re-worked entire tool, added <a href='https://merveilles.town/@neauoire/107900953148955327' target='_blank'>native TGA import</a>, implemented <a href='https://merveilles.town/@neauoire/107900062095605176' target='_blank'>file size loading specified in the pathname</a>, added the possiblity to <a href='https://merveilles.town/@neauoire/107888596799755319' target='_blank'>drag the canvas to resize it</a>, and implemented a <a href='https://merveilles.town/@neauoire/107878818327914910' target='_blank'>floating tool pane</a> etc.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>A major update to our wiki is that we've put together a page with our stance on various political aspects. Because of the decentralized nature of some of our work, and because of the overlap of libertarians and right-wing preppers and our documenting survivalism at sea, there were things that just had to be spelled out quite clearly. See <a href='https://100r.co/site/philosophy.html' target='_blank'>philosophy</a>. We've appended a notice to our <a href='https://100r.co/site/off_the_grid.html' target='_blank'>off the grid</a> page too, since it gets shared the most.</p>
+
+<p>A lot of our time this month was decided to preparing for our keynote talk for <a href='https://libreplanet.org/2022/program/' target='_blank'>LibrePlanet 2022</a> called Software Doldrums. If you missed it the talk was recorded, watch it <a href='https://media.libreplanet.org/u/libreplanet/m/software-doldrums/' target='_blank'>here</a>. Rekka illustrated all of the slides for the presentation, gathered <a href='https://kokorobot.ca/site/fsftalk.html' target='_blank'>here</a>. These images are now scattered on our wiki. Devine built the <a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a> slideshow program <a href='https://wiki.xxiivv.com/site/adelie.html' target='_blank'>Adelie</a> for that presentation, we plan to use it again for all future talks.</p>
+
+<p>The day prior, Devine gave a <a href='https://youtu.be/h1eC8czDAkk' target='_blank'>short performance</a> for <a href='https://ten.algorave.com/' target='_blank'>Algorave's 10-year anniversary</a>, alongside over 140+ artists. The event was 24 hours, with everyone playing a 10-minute set.</p>
+
+<p>Uxn was featured on The Verge, in an article entitled <a href='https://www.theverge.com/22935074/hundred-rabbits-uxn-roms-preservation' target='_blank'>These artists are making tiny ROMs that will probably outlive us all</a>. And Devine was <a href='https://medium.com/behind-the-screens-challenge/behind-the-screens-aliceffekt-3394fa66e625' target='_blank'>interviewed</a> for <a href='https://medium.com/behind-the-screens-challenge' target='_blank'>Behind the Screens</a>.</p>
+
+<p>In other news, we finally made some <a href='https://100r.co/site/store.html#stickers' target='_blank'>Uxn sticker sheets</a>!</p>
+
+<h3>Pino book club</h3>
+
+<p>We're reading <b>We Have Always Lives at the Castle</b> by Shirley Jackson.</p>
+
+<p><a href='https://100r.co/site/log.html#mar2022'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for February</title>
   <link>https://100r.co/site/log.html#feb2022</link>
   <guid isPermaLink='false'>log.html#feb2022</guid>
