@@ -11,6 +11,42 @@
 </image>
 
 <item>
+  <title>Summary of changes for April</title>
+  <link>https://100r.co/site/log.html#apr2022</link>
+  <guid isPermaLink='false'>log.html#apr2022</guid>
+  <pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of April. We'll also be reporting in our on position in the world, and on our future plans.</p>
+
+<h2>Summary Of Changes</h2>
+
+<ul>
+    <li><b><a href='https://wiki.xxiivv.com/site/bicycle.html' target='_blank'>Bicycle</a></b>, released an Uxntal playground. See <a href='https://kokorobot.ca/media/content/project/uxn/11.full.jpg' target='_blank'>Varvara riding a Sinclair bike</a>.</li>
+    <li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, wrote a <a href='https://git.sr.ht/~rabbits/uxn11' target='_blank'>plain implementation</a> of Varvara, as well as an <a href='https://git.sr.ht/~rabbits/uxn5' target='_blank'>HTML5 implementation</a>.</li>
+    <li><b><a href='https://wiki.xxiivv.com/site/turquoise.html' target='_blank'>Torkoise</a></b>, released a little line-plotting virtual machine.</li>
+    <li><b>100r.co</b>, added <a href='https://100r.co/site/liveaboard.html#sewing' target='_blank'>sewing</a>, <a href='https://100r.co/site/shimoda.html' target='_blank'>Shimoda</a>, and <a href='https://100r.co/site/mini_dodger.html' target='_blank'>mini dodger</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>The month of April was a time of boat projects. We built a <a href='https://100r.co/site/mini_dodger.html' target='_blank'>mini dodger</a> to cover the companionway, and installed a large <a href='https://100r.co/media/content/boat_projects/spindle_01.jpg' target='_blank'>spindle</a> for floating rope on Pino's stern (marine stores give those spindles away for free, usually). In these waters, it is often necessary to stern tie to shore when anchoring and the spindle will make it easier to uncoil the line.</p>
+
+<p>We also took some time off to visit some ancient trees in <a href='https://100r.co/site/cathedral_grove.html' target='_blank'>Cathedral Grove</a> on Vancouver Island.</p>
+
+<p>Devine found some slide rules and wrote a guide on <a href='https://wiki.xxiivv.com/site/slide_rule.html' target='_blank'>how to use them</a>.</p>
+
+<p>If you want to play <a href='https://kokorobot.ca/site/catpot.html' target='_blank'>Catpot</a>, the little Hypercard game we made for <a href='https://itch.io/jam/merveilles-hyperjam/entries' target='_blank'>Merveilles Hyperjam 2020</a>, you can play it with this <a href='https://hypercardsimulator.com' target='_blank'>Hypercard Simulator</a> (thank you Dan).</p>
+
+<h3>Pino book club</h3>
+
+<p>We're reading <b>The Stranger</b> by Albert Camus.</p>
+
+<p><a href='https://100r.co/site/log.html#apr2022'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for March</title>
   <link>https://100r.co/site/log.html#mar2022</link>
   <guid isPermaLink='false'>log.html#mar2022</guid>
