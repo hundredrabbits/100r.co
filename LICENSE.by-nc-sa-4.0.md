@@ -17,12 +17,7 @@ Under the following terms:
 
     ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-    No additional restrictions — You may not apply legal terms or technological measures
-
-    The license prohibits application of effective technological measures, defined with reference to Article 11 of the WIPO Copyright Treaty.
-
-    More info.
-    that legally restrict others from doing anything the license permits.
+    No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
     
 # License
 
