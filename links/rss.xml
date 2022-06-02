@@ -22,7 +22,7 @@
 <h2>Summary Of Changes</h2>
 <ul>
     <li><b><a href='https://wiki.xxiivv.com/site/logic.html' target='_blank'>Combinatory Logic</a></b>, wrote a guide to combinatory logic, using talking birds.</li>
-    <li><b><a href='https:/100r.co/site/uxn.html' target='_blank'Uxn</a></b>, released a <a href='https://git.sr.ht/~rabbits/unxlin' target='_blank'>linter</a>, and optimized uxnasm.</li>
+    <li><b><a href='https:/100r.co/site/uxn.html' target='_blank'Uxn</a></b>, released a <a href='https://git.sr.ht/~rabbits/uxnlin' target='_blank'>linter</a>, and optimized uxnasm.</li>
     <li><b><a href='https://wiki.xxiivv.com/site/dexe.html' target='_blank'>Dexe</a></b>, released an updated version.</li>
     <li><b>100r.co</b>, added {batteries}, and {regulator}.</li>
 </ul>
