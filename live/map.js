@@ -30,7 +30,7 @@ function GoogleMap (payload) {
     const futureVertices = payload.futureVertices
 
     // Load
-    const map = new google.maps.Map(element, { center: here, zoom: 4, disableDefaultUI: true })
+    const map = new google.maps.Map(element, { center: here, zoom: 7, disableDefaultUI: true })
     map.set('styles', this.style)
 
     // Add Path
