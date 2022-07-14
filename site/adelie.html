@@ -180,17 +180,23 @@ MODE 0a
 HEAD Picture name
 </pre>
 
+<h2>Testing the project</h2>
+
+<p>To run the slideshow, in a terminal window navigate to the project folder and type:</p>
+
+<pre>uxnemu bin/adelie.rom yourfilename.txt</pre>
+
 <h2>Hexadecimals</h2>
 
 <p>Adelie uses hexadecimals. In hexadecimals, the numbers 0-9 are the same but the numbers 10-15 become the letters A-F (11[b],12[c],13[d].14[e],15[f]). So if the desired text position of an image in decimals is <b>12,11</b> the hexadecimal equivalent would be <b>c,b</b>.</p>
 
 <p>The decimal numbers 16-25 represent the hexadecimal numbers 10-19 (16[10],17[11],18[12]..). From 26-31, the numbers become adjoined by letters. For example, 26-31 become 26[1a], 27[1b],31[1f] etc.</p>
 
-<p>View a <a href='hexadecimal_table.html' class='local'>hexadecimal table</a>, for help with conversion.</p>
+<p>View this <a href='hexadecimal_table.html' class='local'>hexadecimal table</a> for help with conversion.</p>
 
 <h2>Size</h2>
 
-<p>The default ratio for the project is 768x448(30,1c). Specifying a size in the project text file (at the top of the text file before the slides), will load the slideshow at that resolution. When deciding on a slide size, it is necessary to use multiples of 10.</p>
+<p>The default ratio for any project is 768x448(30,1c). Specifying a size in the project text file (at the top of the text file before the slides), will load the slideshow at that resolution. When deciding on a slide size, it is necessary to use multiples of 10.</p>
 
 <p><b>Example:</b></p>
 
@@ -209,7 +215,7 @@ Converted to hexadecimals 45 turns into 0x2d.
 Converted to hexadecimals 30 turns into 0x1e.
 </pre>
 
-<p>In the project file the text would be written as follows, with lowercase letters only and omitting the two first characters <b>0x</b>:</p>
+<p>In the project file the text would be written as follows, with lowercase letters only and omitting the two first characters(0x):</p>
 
 <pre>
 SIZE 2d,1e
@@ -278,7 +284,7 @@ HEAD We began using`technology as little`as possible.
 
 <p>Adelie requires that images be saved in the .tga format. When exporting images to .tga, uncheck the <b>RLE for compression</b> box (if it option comes up), and change <b>Bottom left</b> in the Origin drop-down menu to <b>Top left</b>.</p>
 
-<p>By default, images will be centred on the canvas(00,00) and can be re-positioned using <b>GOTO</b> following by a hexadecimal position.</p>
+<p>By default, images will be centred on the canvas(00,00) and can be re-positioned using <b>GOTO</b> followed by a hexadecimal position.</p>
 
 <img src='../media/content/projects/adelie_04.jpg' loading='lazy' />
 
@@ -305,9 +311,9 @@ TEXT Weed out sources of waste.
 
 <h2>Links</h2>
 
-<p>It is possible to make part of a slide clickable by using the <b>LINK</b> command. With this command, it becomes possible to make small games in Adelie.</p>
+<p>The <b>LINK</b> command makes an area on the canvas clickable. With <b>LINK</b>, it becomes possible to make small games in Adelie.</p>
 
-<p><b>LINK</b> expects a size. In the above example the two penguin faces act as two separate links, and the size of the clickable region is determined by the size of the art. To link to a specific slide, enter that slide's name after the size. Press <b>shift</b> to see the clickable region and slide name, press <b>shift</b> again to make it disappear.</p>
+<p><b>LINK</b> expects a size. In the above example the two penguin faces act as two separate links, and the size of the clickable region is yours to determine (in the above example it covers the penguin's head). To link to a specific slide, enter that slide's name after the size. Press <b>shift</b> to see the clickable region and slide name, press <b>shift</b> again to make it disappear.</p>
 
 <p>Like with the <b>HEAD</b>,<b>TEXT</b> or <b>PICT</b> commands, a <b>GOTO</b> is required to position the clickable region over the desired portion of the canvas.</p>
 
@@ -338,12 +344,6 @@ STOP
 <h2>Rect</h2>
 
 <p>To draw a rectangle on the canvas, use the command <b>RECT</b> along with a position.</p>
-
-<h2>Testing the project</h2>
-
-<p>To run the slideshow, in a terminal window navigate to the project folder and type:</p>
-
-<pre>uxnemu bin/adelie.rom yourfilename.txt</pre>
 
 <img src='../media/content/projects/adelie_02.jpg' loading='lazy' />
 
@@ -391,5 +391,5 @@ TEXT Name: Pino`Make: Yamaha`Length: 10m`Made: 1982`Origin: Shizuoka, Japan
 
 
 
-</main><footer><hr /><span style='float:right'>Edited on Wed Jul 13 17:46:18 2022
+</main><footer><hr /><span style='float:right'>Edited on Wed Jul 13 17:53:23 2022
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/adelie.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2022 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
