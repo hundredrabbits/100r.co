@@ -1,4 +1,3 @@
-
 <h2>A slideshow program</h2>
 <img src='../media/content/projects/adelie_01.jpg' loading='lazy' />
 
@@ -6,52 +5,50 @@
 
 <p>Adelie is a plain-text presentation tool and format. It is used to create slideshows with {uxn}. It features a handful of commands to quickly place text and images on slides, it can be operated with a keyboard, mouse or a game controller.</p>
 
-<p>The program features two Uxf fonts to choose from, and TGA image support. All sizes are in hexadecimal numbers.</p>
+<p>The program features two font sizes to choose from, and <a href='http://wiki.xxiivv.com/site/tga_format.html' target='_blank'>TGA image</a> support. All sizes are in hexadecimal numbers.</p>
 
 <h2><a id='setup'>Getting Started</a></h2>
 
-<p>You must have the {Uxn} assembler and emulator to use Adelie.</p>
+<p>Begin by downloading <a href='https://rabbits.srht.site/adelie/adelie.rom' target='_blank'>adelie.rom</a>(25kb). If you wish to assemble the rom yourself, see the <a href='https://git.sr.ht/~rabbits/adelie' target='_blank'>project repository</a>. You must have an {Uxn} emulator to use Adelie. To run the slideshow, in a terminal window navigate to the project folder and type:</p>
 
-<pre>uxnasm src/main.tal bin/adelie.rom && uxnemu bin/adelie.rom</pre>
-
-<p>If do not wish to assemble it yourself, you can download <a href='https://rabbits.srht.site/adelie/adelie.rom' target='_blank'>adelie.rom</a>.</p>
-
-<p>See the <a href='https://git.sr.ht/~rabbits/adelie' target='_blank'>project repository</a>.</p>
+<pre>uxnemu bin/adelie.rom slides.txt</pre>
 
 <h2>Commands</h2>
 
 <p>Sideshow files contain one command, or comment, per line.</p>
 
 <dl class='col2 shortcut-list' aria-labelledby='controls'>
-  <div><dt><kbd class='shortcut'><kbd>size</kbd></dt><dd>set slide size</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>name</kbd></dt><dd>set slide name</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>goto</kbd></dt><dd>move to absolute position</dd></div>
-  <div><dt><kbd class='shortcut'>mode</kbd></dt><dd>set text color</dd></div>
-  <div><dt><kbd class='shortcut'>fill</kbd></dt><dd>fill background</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>pict</kbd></dt><dd>draw picture</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>head</kbd><dd>draw header</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>text</kbd></dt><dd>draw text</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>link</kbd></dt><dd>make link region</dd></div>
+  <div><dt><kbd class='shortcut'>SIZE</kbd></dt><dd>set slide size</dd></div>
+  <div><dt><kbd class='shortcut'>NAME</kbd></dt><dd>set slide name</dd></div>
+  <div><dt><kbd class='shortcut'>GOTO</kbd></dt><dd>move to absolute position</dd></div>
+  <div><dt><kbd class='shortcut'>LINK</kbd></dt><dd>make link region</dd></div>
+  <div><dt><kbd class='shortcut'>STOP</kbd></dt><dd>ignore slide controls</dd></div>
+  <div><dt><kbd class='shortcut'>WAIT</kbd></dt><dd>automate slide control</dd></div>
+
+  <div><dt><kbd class='shortcut'>MODE</kbd></dt><dd>set text color</dd></div>
+  <div><dt><kbd class='shortcut'>PICT</kbd></dt><dd>draw picture</dd></div>
+  <div><dt><kbd class='shortcut'>HEAD</kbd><dd>draw header</dd></div>
+  <div><dt><kbd class='shortcut'>TEXT</kbd></dt><dd>draw text</dd></div>
+  <div><dt><kbd class='shortcut'>FILL</kbd></dt><dd>fill background</dd></div>
+  <div><dt><kbd class='shortcut'>RECT</kbd></dt><dd>fill rectangle</dd></div>
 </dl>
 
 <h2>Controls</h2>
 
 <dl class='col2 shortcut-list' aria-labelledby='controls'>
-  <div><dt><kbd class='shortcut'><kbd>mouse1</kbd></dt><dd>next slide</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>mouse2</kbd></dt><dd>draw marker</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>mouse3</kbd></dt><dd>prev slide</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>arrow</kbd> + <kbd>→</kbd></dt><dd>previous slide</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>arrow</kbd> + <kbd>←</kbd></dt><dd>next slide</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>alt</kbd></dt><dd>previous slide</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>ctrl</kbd></dt><dd>next slide</dd></div>
-  <div><dt><kbd class='shortcut'><kbd>shift</kbd></dt><dd>toggle link view</dd></div>
+  <div><dt><kbd class='shortcut'>mouse1</kbd></dt><dd>next slide</dd></div>
+  <div><dt><kbd class='shortcut'>mouse2</kbd></dt><dd>draw marker</dd></div>
+  <div><dt><kbd class='shortcut'>mouse3</kbd></dt><dd>prev slide</dd></div>
+  <div><dt><kbd class='shortcut'>→</kbd></dt><dd>previous slide</dd></div>
+  <div><dt><kbd class='shortcut'>←</kbd></dt><dd>next slide</dd></div>
+  <div><dt><kbd class='shortcut'>alt</kbd></dt><dd>previous slide</dd></div>
+  <div><dt><kbd class='shortcut'>ctrl</kbd></dt><dd>next slide</dd></div>
+  <div><dt><kbd class='shortcut'>shift</kbd></dt><dd>toggle link view</dd></div>
 </dl>
 
 <h2>Making a slideshow</h2>
 
-<p>Create a .txt file, for example <b>myproject.txt</b>.</p>
-
-<p>The project text file consists of a series of blocks of text, one 'block' per slide.</p>
+<p>The project text file consists of a plain text, for example <b>myproject.txt</b>, file where each line begins with a command written as 4 uppercased characters.</p>
 
 <p>Below is an example of an all-text slide (<b>HEAD</b>):</p>
 
@@ -77,25 +74,11 @@ MODE 0a
 HEAD Picture name
 </pre>
 
-<h2>Testing the project</h2>
-
-<p>To run the slideshow, in a terminal window navigate to the project folder and type:</p>
-
-<pre>uxnemu bin/adelie.rom yourfilename.txt</pre>
-
-<h2>Hexadecimals</h2>
-
-<p>Adelie uses hexadecimals. In hexadecimals, the numbers 0-9 are the same but the numbers 10-15 become the letters A-F (11[b],12[c],13[d].14[e],15[f]). So if the desired text position of an image in decimals is <b>12,11</b> the hexadecimal equivalent would be <b>c,b</b>.</p>
-
-<p>The decimal numbers 16-25 represent the hexadecimal numbers 10-19 (16[10],17[11],18[12]..). From 26-31, the numbers become adjoined by letters. For example, 26-31 become 26[1a], 27[1b],31[1f] etc.</p>
-
-<p>View this {hexadecimal table} for help with conversion.</p>
-
 <h2>Size</h2>
 
-<p>The default ratio for any project is 768x448(30,1c). Specifying a size in the project text file (at the top of the text file before the slides), will load the slideshow at that resolution. When deciding on a slide size, it is necessary to use multiples of 10.</p>
+<p>Adelie uses hexadecimal numbers, in which the numbers from 10 to 15 are represented as the letters a to f. So if the desired text position of an image in decimals is <b>12,11</b> the hexadecimal equivalent would be <b>0c,0b</b>. View this {hexadecimal table} for help with conversion.</p>
 
-<p><b>Example:</b></p>
+<p>The default ratio for any project is 768x448(30,1c). Specifying a size in the project text file (at the top of the text file before the slides), will load the slideshow at that resolution. When deciding on a slide size, it is necessary to use multiples of 16.</p>
 
 <pre>
 SIZE 30,1c ( 768 x 448 )
@@ -103,19 +86,10 @@ SIZE 30,1c ( 768 x 448 )
 
 <p>If, for example, the desired size is 720x480, it is necessary to make a calculation to get the correct size for Adelie. <b>720</b> and <b>480</b> must each be divided by 16, and then converted to hexadecimals.</p>
 
-<p><b>Example:</b></p>
-
 <pre>
-720/16=45
-Converted to hexadecimals 45 turns into 0x2d.
-480/16=30
-Converted to hexadecimals 30 turns into 0x1e.
-</pre>
-
-<p>In the project file the text would be written as follows, with lowercase letters only and omitting the two first characters(0x):</p>
-
-<pre>
-SIZE 2d,1e
+720/16=45 decimal, or <b>0x2d</b> hexadecimal.
+480/16=30 decimal, or <b>0x1e</b> hexadecimal.
+Result: SIZE 2d,1e
 </pre>
 
 <h2>Goto</h2>
