@@ -23,6 +23,18 @@ main > h4 { font-size:35px; text-transform: capitalize}
 main p { line-height: 25px; font-size:16px; margin-top: 0px; }
 main > ul { line-height: 25px;}
 
+svg.sprite { width:20px; height:20px; margin-bottom:0px }
+.empty { background:#efefef; }
+.bg0 { background:white; color:black; }
+.bg1 { background:black; color:white; }
+.bg2 { background:#72dec2; color:black; }
+.bg3 { background:#ff0000; color:black; }
+.fg0 { fill:white; }
+.fg1 { fill:black; }
+.fg2 { fill:#72dec2; }
+.fg3 { fill:#ff0000; }
+code.button { background: #000; color: white; font-size: smaller; display: inline-block; padding: 0px 6px; font-weight: bold; border-radius: 2px; line-height: 22px }
+
 main hr { border:1px; clear:both; }
 
 main > ul.jump { columns:2; line-height: 20px}
