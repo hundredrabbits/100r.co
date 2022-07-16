@@ -7,13 +7,32 @@
 
 <p>The program features two font sizes to choose from, and <a href='http://wiki.xxiivv.com/site/tga_format.html' target='_blank'>TGA image</a> support. All sizes are in hexadecimal numbers.</p>
 
+<ul class='jump'>
+    <li><a href='#setup'>Getting started</a></li>
+    <li><a href='#commands'>Commands</a></li>
+    <li><a href='#controls'>Controls</a></li>
+    <li><a href='#slideshow'>Making a slideshow</a></li>
+    <li><a href='#size'>Size</a></li>
+    <li><a href='#goto'>Goto</a></li>
+    <li><a href='#mode'>Mode</a></li>
+    <li><a href='#fill'>Fill</a></li>
+    <li><a href='#pict'>Pict</a></li>
+    <li><a href='#head'>Head and Text</a></li>
+    <li><a href='#links'>Links</a></li>
+    <li><a href='#stop'>Stop</a></li>
+    <li><a href='#wait'>Wait</a></li>
+    <li><a href='#rect'>Rect</a></li>
+    <li><a href='#example'>Example project</a></li>
+    <li><a href='#story'>Story</a></li>
+</ul>
+
 <h2><a id='setup'>Getting Started</a></h2>
 
 <p>Begin by downloading <a href='https://rabbits.srht.site/adelie/adelie.rom' target='_blank'>adelie.rom</a>(25kb). If you wish to assemble the rom yourself, see the <a href='https://git.sr.ht/~rabbits/adelie' target='_blank'>project repository</a>. You must have an {Uxn} emulator to use Adelie. To run the slideshow, in a terminal window navigate to the project folder and type:</p>
 
 <pre>uxnemu bin/adelie.rom slides.txt</pre>
 
-<h2>Commands</h2>
+<h2><a id='commands'>Commands</a></h2>
 
 <p>Sideshow files contain one command, or comment, per line.</p>
 
@@ -33,7 +52,7 @@
   <div><dt><kbd class='shortcut'>RECT</kbd></dt><dd>fill rectangle</dd></div>
 </dl>
 
-<h2>Controls</h2>
+<h2><a id='controls'>Controls</a></h2>
 
 <dl class='col2 shortcut-list' aria-labelledby='controls'>
   <div><dt><kbd class='shortcut'>mouse1</kbd></dt><dd>next slide</dd></div>
@@ -46,7 +65,7 @@
   <div><dt><kbd class='shortcut'>shift</kbd></dt><dd>toggle link view</dd></div>
 </dl>
 
-<h2>Making a slideshow</h2>
+<h2><a id='slideshow'>Making a slideshow</a></h2>
 
 <p>The project text file consists of a plain text, for example <b>myproject.txt</b>, file where each line begins with a command written as 4 uppercased characters.</p>
 
@@ -74,7 +93,7 @@ MODE 0a
 HEAD Picture name
 </pre>
 
-<h2>Size</h2>
+<h2><a id='size'>Size</a></h2>
 
 <p>Adelie uses hexadecimal numbers, in which the numbers from 10 to 15 are represented as the letters a to f. So if the desired text position of an image in decimals is <b>12,11</b> the hexadecimal equivalent would be <b>0c,0b</b>. View this {hexadecimal table} for help with conversion.</p>
 
@@ -92,7 +111,7 @@ SIZE 30,1c ( 768 x 448 )
 Result: SIZE 2d,1e
 </pre>
 
-<h2>Goto</h2>
+<h2><a id='goto'>Goto</a></h2>
 
 <p>The command <b>GOTO</b> is used to position both text and images in a slideshow. To make it easier to place images on the canvas, middle-clicking on a slide will display the position of the cursor, marked on screen by a cross hair and a set of coordinates. Press <b>shift</b> to remove the markers from view.</p>
 
@@ -105,7 +124,7 @@ GOTO 24,04
 HEAD We began using`technology as little`as possible.
 </pre>
 
-<h2>Mode</h2>
+<h2><a id='mode'>Mode</a></h2>
 
 <p>The <b>MODE</b> command refers to the 'blending modes' in {uxn}. The colors are determined by the color theme applied to the project.</p>
 
@@ -143,13 +162,13 @@ HEAD We began using`technology as little`as possible.
 	</tr>
 </table>
 
-<h2>Fill</h2>
+<h2><a id='fill'>Fill</a></h2>
 
 <p>The command <b>FILL</b> will insert a solid background to the slide. For color information, see blending modes(above table).</p>
 
 <p>If an image takes up the entire canvas, a fill is not needed, but if the image is repositioned on the canvas the previous slide will be visible underneath. Adding a fill will keep that from happening.</li>
 
-<h2>Pict</h2>
+<h2><a id='pict'>Pict</a></h2>
 
 <p>The command <b>PICT</b> is used to add images in the slideshow.</p>
 
@@ -159,7 +178,7 @@ HEAD We began using`technology as little`as possible.
 
 <img src='../media/content/projects/adelie_04.jpg' loading='lazy' />
 
-<h2>Head and text</h2>
+<h2><a id='head'>Head and text</a></h2>
 
 <p>Headers are labelled as <b>HEAD</b>, and sub-text as <b>TEXT</b>. Header text is larger, while sub-text is smaller.</p>
 
@@ -180,7 +199,7 @@ TEXT Weed out sources of waste.
 
 <img src='../media/content/projects/adelie_06.jpg' loading='lazy' />
 
-<h2>Links</h2>
+<h2><a id='links'>Links</a></h2>
 
 <p>The <b>LINK</b> command makes an area on the canvas clickable. With <b>LINK</b>, it becomes possible to make small games in Adelie.</p>
 
@@ -212,13 +231,23 @@ LINK 1c,10 Hidden Slide
 STOP
 </pre>
 
-<h2>Rect</h2>
+<h2><a id='stop'>Stop</a></h2>
+
+<p>The <b>STOP</b> command ignores all slide controls.</p>
+
+<p>If making a slide with clickable links, using a <b>STOP</b> disables slide controls so that the user cannot go forward without selecting a link. It's also used to stop a slideshow with some automated slides (with the <b>WAIT</b> command).</p>
+
+<h2><a id='wait'>Wait</a></h2>
+
+<p>The <b>WAIT</b> command acts as a timer to automate transitions between slides.</p>
+
+<h2><a id='rect'>Rect</a></h2>
 
 <p>To draw a rectangle on the canvas, use the command <b>RECT</b> along with a position.</p>
 
 <img src='../media/content/projects/adelie_02.jpg' loading='lazy' />
 
-<h2>Example file</h3>
+<h2><a id='example'>Example file</a></h2>
 
 <p>Here is an example of a 4 slide project:</p>
 
@@ -250,7 +279,7 @@ GOTO 08,12
 TEXT Name: Pino`Make: Yamaha`Length: 10m`Made: 1982`Origin: Shizuoka, Japan
 </pre>
 
-<h2>Story</h2>
+<h2><a id='story'>Story</a></h2>
 
 <p>We produced Adelie for our <a href='https://media.libreplanet.org/u/libreplanet/m/software-doldrums/' target='_blank' class='external'>Libre Planet Keynote talk</a> in March 2022. We used it again for our <a href='https://nime2022.org/' target='_blank' class='external'>Nime 2022 Keynote talk</a>.</p>
 
