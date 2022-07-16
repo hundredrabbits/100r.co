@@ -340,7 +340,29 @@ STOP
 
 <h2><a id='wait'>Wait</a></h2>
 
-<p>The <b>WAIT</b> command acts as a timer to automate transitions between slides.</p>
+<p>The <b>WAIT</b> command acts as a timer to automate transitions between slides, for creating little animation sequences etc..</p>
+
+<p>Example:</p>
+
+<pre>
+NAME Drawing Keywords
+FILL 03
+GOTO 2c,08
+MODE 0c
+PICT etc/adelie1.tga
+GOTO 04,0d
+HEAD Drawing Keywords
+WAIT 40
+
+NAME Drawing: Mode
+GOTO 06,15
+TEXT MODE
+MOVE 09,00
+TEXT mode
+MOVE 09,00
+TEXT set blending mode
+WAIT 08
+</pre>
 
 <h2><a id='rect'>Rect</a></h2>
 
@@ -380,6 +402,41 @@ GOTO 08,12
 TEXT Name: Pino`Make: Yamaha`Length: 10m`Made: 1982`Origin: Shizuoka, Japan
 </pre>
 
+<p>Adelie is capable of more complex projects, it's possible to make animated slide transitions using the <b>WAIT</b>, <b>STOP</b>, <b>PATT</b>(undocumented). See this <a href='https://merveilles.town/@neauoire/108647241571480372' target='_blank'>example project(Mastodon)</a>.</p>
+
+<p>Source:</p>
+
+<pre>
+NAME --
+PATT 81 00 00 00 00 00 00 81
+FILL 0f
+WAIT 08
+NAME --
+PATT c3 81 00 00 00 00 81 c3
+FILL 0f
+WAIT 08
+NAME --
+PATT e7 c3 81 00 00 81 c3 e7
+FILL 0f
+WAIT 08
+NAME --
+PATT ff e7 c3 81 81 c3 e7 ff
+FILL 0f
+WAIT 08
+NAME --
+PATT ff ff e7 c3 c3 e7 ff ff
+FILL 0f
+WAIT 08
+NAME --
+PATT ff ff ff e7 e7 ff ff ff
+FILL 0f
+WAIT 08
+NAME --
+PATT ff ff ff ff ff ff ff ff
+FILL 0f
+WAIT 08
+</pre>
+
 <h2><a id='story'>Story</a></h2>
 
 <p>We produced Adelie for our <a href='https://media.libreplanet.org/u/libreplanet/m/software-doldrums/' target='_blank' class='external'>Libre Planet Keynote talk</a> in March 2022. We used it again for our <a href='https://nime2022.org/' target='_blank' class='external'>Nime 2022 Keynote talk</a>.</p>
@@ -392,5 +449,5 @@ TEXT Name: Pino`Make: Yamaha`Length: 10m`Made: 1982`Origin: Shizuoka, Japan
 
 
 
-</main><footer><hr /><span style='float:right'>Edited on Sat Jul 16 10:33:55 2022
+</main><footer><hr /><span style='float:right'>Edited on Sat Jul 16 10:48:22 2022
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/adelie.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2022 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
