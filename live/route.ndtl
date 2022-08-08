@@ -2,8 +2,9 @@ const route = indental(`
 
 2022-06-02
   NAME : Desolation Sound
-  VLUE : 366
+  VLUE : 442
   POSI
+    50.12563, -124.70811
     50.14991, -124.95496
     50.16736, -124.95775
     50.18240, -124.97788
