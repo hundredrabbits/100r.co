@@ -14,7 +14,7 @@ nav .site-nav section h2 { margin: 20px 0 20px 0; }
 nav .site-nav section ul { margin: 0px; padding: 0px; }
 
 main { padding: 45px; float:left; max-width:700px; }
-main img { width:100%; max-width: 700px }
+main img { width:100%; max-width: 700px; margin-bottom: 15px;}
 main > * { max-width: 600px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
 main > h2 { font-size:30px; text-transform: capitalize}
@@ -57,7 +57,7 @@ main .project > * { margin-bottom: 30px }
 main .project p { padding:0px; margin-top: 0px; margin-bottom: 30px; }
 main .project img { display: block; max-width: 100%; }
 
-main .button { background-color: #000;border: 2px solid white;color: white;padding: 13px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;border-radius: 200px;font-weight: bold; margin-right: 15px}
+main .button { background-color: #000;border: 2px solid white;color: white;padding: 13px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;border-radius: 200px;font-weight: bold; margin-right: 15px; margin-bottom: 15px;}
 main .button:hover { background-color: #333 !important; color: white; }
 main .button small { color:black }
 main .button.patreon { border-color: #e75942}
