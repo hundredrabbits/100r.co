@@ -11,6 +11,44 @@
 </image>
 
 <item>
+  <title>Summary of changes for August</title>
+  <link>https://100r.co/site/log.html#aug2022</link>
+  <guid isPermaLink='false'>log.html#aug2022</guid>
+  <pubDate>Wed, 31 August 2022 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of August. We'll also be reporting in our on position in the world, and on our future plans.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>
+    <li><b<a href='https://100r.co/site/left.html' target='_blank'>Left</a></b>, added a navigation bar to navigate larger codebases.</li>
+    <li><b><a href='https://wiki.xxiivv.com/site/potato.html' target='_blank'>potato</a></b>, implemented file system APIs so new files can be renamed, copied and deleted.</li>
+    <li><b><a href='https://100r.co/site/noodle.html' target='_blank'>Noodle</a></b>, added various optimizations, improved TGA support.</li>
+    <li><b><a href='https://wiki.xxiivv.com/site/drifblim.html' target='_blank'>Drifblim</a></b>, completed rewrite. The assembler is now used to build all of our projects, with no more dependence on the C toolchain to make roms.</li>
+    <li><b><a href='https://git.sr.ht/~rabbits/uxnlin' target='_blank'>Uxnlin</a></b>, added a lot of recipes, making it better at finding possible code optimizations.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>Pino is back in the land of faster internet, and our boat's belly has been re-filled with food. We returned to the Gulf Islands, and are busy eating as many wild blackberries as we can stomach ('tis the season).</p>
+
+<p>Our last anchorage in Desolation Sound was <a href='https://100r.co/site/tenedos_bay.html' target='_blank'>Tenedos Bay</a>, a really lovely place with an amazing (vertical) hike, and clear, clear waters. We also wrote a post on {sturt bay} on Texada Island, a place we stopped on the way up earlier this year, and again when we traveled back south.</p>
+
+<p>As mentioned brieftly in our last post, Devine has been working on an OS called Potato. Rekka drew a <a href='https://wiki.xxiivv.com/media/generic/potato.png' target='_blank'>mascot</a>, and another illustration featuring <a href='https://wiki.xxiivv.com/media/generic/varvara.potato.png' target='_blank'>Varvara and Potato together</a>. Potato is for the Varvara computer, designed to fill the gaps where a host device might not have an underlying file system, like handheld consoles (many people use <a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a> on Nintendo DS).</p>
+
+<p>Rekka has been drawing a lot, their winter will consist of scanning and processing a sketchbook-full of art. We are still proofreading <a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a>. A recent stop in Sidney permitted us to print the entire book on paper to make it easier (and more pleasant) to make corrections. The result is 70 (double-sided) pages of text. As of today, we have gone over and marked in red the first chapter (out of 12). Editing books is never easy or fast, but we'll get there.</p>
+
+<p>We know a couple of people have made <a href='https://wiki.xxiivv.com/site/hako.html' target='_blank'>hako</a> dice sets, so we feel bad for "patching" a physical game, but the face organization of the die has changed somewhat, now, the opposing sides are always of equal value. If any of you are looking for a simple 2-player boardgame to play, try <a href='http://wiki.xxiivv.com/site/phutball.html' target='_blank'>Conway's Phutball</a>. Devine transcribed the rules on their wiki.</p>
+
+<h3>Pino book club</h3>
+
+<p>We're reading <b>Mathematical Puzzles & Diversions</b> by Martin Gardner.</p>
+
+<p><a href='https://100r.co/site/log.html#aug2022'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for July</title>
   <link>https://100r.co/site/log.html#july2022</link>
   <guid isPermaLink='false'>log.html#july2022</guid>
