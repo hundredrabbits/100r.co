@@ -11,6 +11,43 @@
 </image>
 
 <item>
+  <title>Summary of changes for September</title>
+  <link>https://100r.co/site/log.html#sep2022</link>
+  <guid isPermaLink='false'>log.html#sep2022</guid>
+  <pubDate>Mon, 03 September 2022 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of September. We'll also be reporting in our on position in the world, and on our future plans.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>
+    <li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, updated <a href='
+https://git.sr.ht/~rabbits/uxn-playdate' target='_blank'>Playdate implementation</a> to the latest core, started <a href='https://git.sr.ht/~rabbits/uxn-arduboy' target='_blank'>emulator</a> for Arduino.</li>
+    <li><b><a href='https://100r.co/site/left.html' target='_blank'>Left</a></b>, added lots of little improvements for various reported drawing bugs.</li>
+    <li><b><a href='http://wiki.xxiivv.com/site/bouc.html' target='_blank'>Bouc</a></b>, wrote a document reader.</li>
+    <li><b><a href='https://100r.co/site/orca.html' target='_blank'>Orca</a></b>, added <a href='https://llllllll.co/t/orca-livecoding-tool/17689/1801' target='_blank'>monochromatic mode</a>.</li>
+    <li><b><a href='http://wiki.xxiivv.com/site/cccc.html' target='_blank'>CCCC</a></b>, added monochromatic mode.</li>
+    <li><b><a href='http://wiki.xxiivv.com/site/catclock.html' target='_blank'>Catclock</a></b>, added <a href='https://old.reddit.com/r/PlaydateConsole/comments/xsxyq4/a_little_cat_clock_for_the_playdate/' target='_blank'>monochromatic mode</a>(Reddit).</li>
+    <li><b>100r.co</b>, added <a href='https://100r.co/site/lifelines.html' target='_blank'>lifelines</a> in <a href='https://100r.co/site/boat_projects.html' target='_blank'>boat projects</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>The days are getting shorter, and so is the time that we can spend on the computer, due to our batteries depleting earlier a bit each day. So, Devine spends evenings proof-reading the <a href='https://100r.co/site/wiktopher.html' target='_blank'>wiktopher</a> manuscript, reading and messing around with the Playdate, and Rekka continues ink work on an <a href='https://merveilles.town/@rek/109031721721868768' target='_blank'>upcoming project</a>(Mastodon, no project page yet).</p>
+
+<p>While cleaning up the boat, Devine found two small black notebooks. We started paging through them, to see if we should keep them. The notebooks were full of sketches, interspersed with shopping lists, and incomplete logs from earlier sailing trips we'd done. We found logs detailing our very first attempt at sailing offshore, our sail down the US West Coast and Mexico, and our passage from Tonga to New Zealand. We read the logs, and decided to transcribe and publish them online. Read the <a href='https://100r.co/site/lost_logbook.html' target='_blank'>lost logbook</a>.</p>
+
+<p>Devine wrote a little <a href='https://git.sr.ht/~rabbits/arduino-cookbook/tree/main/item/adafruit-playground/teatime.ino' target='_blanl'>timer program</a> for the Adafruit Playground. </p>
+
+<h3>Pino book club</h3>
+
+<p>We're reading <b>Hitchhiker's Guide to the Galaxy</b> by Douglas Adams.</p>
+
+<p><a href='https://100r.co/site/log.html#sep2022'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for August</title>
   <link>https://100r.co/site/log.html#aug2022</link>
   <guid isPermaLink='false'>log.html#aug2022</guid>
