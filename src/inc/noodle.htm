@@ -27,7 +27,7 @@
     <li><a href='#saving'>Saving a file</a></li>
     <li><a href='#import'>Importing a file</a></li>
     <li><a href='#new'>New file</a></li>
-    <li><a href='#focus'>Focus view</a></li>
+    <li><a href='#tga'>Opening a TGA</a></li>
     <li><a href='#resize'>Resize canvas</a></li>
     <li><a href='#erase'>Erase</a></li>
     <li><a href='#pattern'>Pattern menu</a></li>
@@ -37,7 +37,6 @@
     <li><a href='#magictool'>Magic tool</a></li>
     <li><a href='#rectangletool'>Rectangle tool</a></li>
     <li><a href='#zoomtool'>Zoom tool</a></li>
-    <li><a href='#animation'>Animation tools</a></li>
     <li><a href='#license'>License</a></li>
 </ul>
 
@@ -83,21 +82,21 @@
 
 <img src='../media/content/projects/noodle_03.png' class='detail' />
 
-<p>To save a file: <kbd>ctrl</kbd> + <kbd>s</kbd></kbd>.</p>
+<p>To save a file: <kbd class='shortcut'>ctrl + s</kbd>.</p>
 <p>The little diamond in the top left corner of the canvas denotes the save state. The diamond has two states: The black state indicates that the file was saved, the red state indicates that the file has unsaved changes.</li>
 
 <hr />
 
 <h3><a id='import'>Loading file</a></h3>
 
-<p>To load an file, replace the active filename and write the name of the .chr file you wish to import, and click enter. To import the file: <kbd>ctrl</kbd> + <kbd>o</kbd></kbd>.</p>
+<p>To load an file, replace the active filename and write the name of the .chr file you wish to import, and click enter. To import the file: <kbd class='shortcut'>ctrl + o</kbd>.</p>
 <p>If switching between projects, you can have multiple instances of the Uxn emulator open at various locations. Holding the alt key while clicking on the load-icon, will load the file as a 1bpp sprite sheet.</p>
 
 <hr />
 
 <h3><a id='new'>New file</a></h3>
 
-<p>To load a blank file: <kbd>ctrl</kbd> + <kbd>o</kbd></kbd>.</p>
+<p>To load a blank file: <kbd class='shortcut'>ctrl + n</kbd>.</p>
 
 <p>All changes will be lost, make sure to re-name your file.</p>
 
@@ -105,15 +104,17 @@
 
 <img src='../media/content/projects/noodle.turnip.png' title='Hello, I am the baby form of Noobit' alt='De-evolved Noobit' style='width: 200px;margin: 0px auto; margin-bottom: 0px;display: block;margin-bottom: 30px;'/>
 
-<h3><a id='focus'>Focus view</a></h3>
+<h3><a id='tga'>Opening a TGA</a></h3>
 
-<p>Click on the teal band around the window to switch to focus view. This will make the menu disappear. Click again to bring the menu back.</p>
+<p>It is possible to open a <b>TGA</b> file with Noodle. When exporting a TGA from another program, make sure to uncheck RLE compression, and to select 'top left' as origin.</p>
 
 <h3><a id='resize'>Resize canvas</a></h3>
 
 <p>To resize the canvas, pull on the black corner on the bottom right of the window. Adjusting the canvas size changes the number on top, next to the pattern menu. It's also possible to resize it by clicking <kbd class='shortcut'><kbd>alt</kbd> + <kbd>arrows</kbd></kbd>.</p>
 
 <p>Only resize the canvas at the start of a project, otherwise it will mess up your drawing.</p>
+
+<img src='../media/content/characters/noodle.pose.png' class='medium' style="float:left;" />
 
 <h3><a id='erase'>Erase</a></h3>
 
@@ -191,30 +192,6 @@
 
 <p>Use the arrows to move around the canvas while zoomed in, and press the <kbd class='shortcut'>spacebar</kbd>, or <kbd class='shortcut'>shift</kbd> key to return to the normal view. If you toggle zoom again after having moved with the arrows, Noodle will remember this new position and zoom in on that exact point on the canvas. If you want to zoom in on another far-away part of the canvas, select the zoom tool and click on the area you wish to modify.</p>
 
-<hr />
-
-<h3><a id='animation'>Animation tools</a></h3>
-
-<img src='../media/content/projects/noodle_12.png' class='detail' />
-
-<p>To create small animations there are basic tools to use. To add frames, click on the number on the right. This number counts up the number of frames in a project. The size of the canvas limits the number of frames, and Noodle restricts the allowable amount automatically. For more frames, resize the canvas to a smaller size.</p>
-
-<p>The number on the left is your animation frames. On 0, draw the first frame, the another one the second, third etc. Clicking on the number, or pressing <kbd class='shortcut'>enter</kbd>, will cycle through your frames.</p>
-
-<p>To clear the animation, you must clear all layers individually.</p>
-
-<img src='../media/content/projects/noodle_13.png' class='detail' />
-
-<p>The onion skin tool bears the appearance of an eye, when clicked open, it permits you to view a previous frame.</p>
-
-<p><b>Exporting animations</b>. You can export animations in Noodle to be used in other Uxn projects. Once your animation is complete, save the animation with the size of the canvas plus the number of frames as the name. The size of the canvas is written on the upper right of the screen, next to the pattern tools.</p>
-
-<img src='../media/content/characters/noodle.pose.png' class='medium' style="float:left;" />
-<p>A project filename example would be: <b>2413x3.icn</b></p>
-
-<p>Which means the canvas size is 24x13 and that the animation has 3 frames.</p>
-
-<p>This number is in hexadecimal, which means that depending on the size of the canvas you may get letters. You don't have to do this, but if the animation is passed on to someone else, they will know how to size the frames.</p>
 
 <hr />
 
