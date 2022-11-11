@@ -74,6 +74,9 @@ main > table.col tr td:last-child { border-right: 0px }
 main > table.col tr > *:first-child { padding-left: 0px }
 main > table.col b { font-weight: bold }
 
+main .progress {padding: 2px; width: 100%;max-width: 100%; border: 1px solid grey;height: 20px;}
+main .progress .progress__bar { height: 100%; width: 35%; background-color: white}
+
 main img.detail { max-width: 64px; float: left;border: 1px solid #777;padding: 20px;margin: 0px 20px 20px 0px;border-radius: 3px; }
 main .shortcut { background: #fff; display: inline-block; padding: 2px 5px; margin: 0px; color: black; font-size: 12px; line-height: 16px; border-radius: 2px; }
 main .shortcut-list dt, main .shortcut-list dd { display: inline; line-height: 25px; margin-left: 0; margin-right: 10px; }
