@@ -75,7 +75,7 @@ main > table.col tr > *:first-child { padding-left: 0px }
 main > table.col b { font-weight: bold }
 
 main .progress {padding: 2px; width: 100%;max-width: 100%; border: 1px solid grey}
-main .progress > div { height: 100%; width: 35%; background-color: black}
+main .progress > div { height: 100%; width: 41%; background-color: black}
 main .progress > div > span { color: white;padding: 0px 2px}
 
 main img.detail { max-width: 64px; float: left;border: 1px solid #777;padding: 20px;margin: 0px 20px 20px 0px;border-radius: 3px; }
