@@ -79,7 +79,7 @@ main .progress > div { height: 100%; width: 42%; background-color: black}
 main .progress > div > span { color: white;padding: 0px 2px}
 
 main img.detail { max-width: 64px; float: left;border: 1px solid #777;padding: 20px;margin: 0px 20px 20px 0px;border-radius: 3px; }
-main .shortcut { background: #fff; display: inline-block; padding: 2px 5px; margin: 0px; color: black; font-size: 12px; line-height: 16px; border-radius: 2px; }
+main .shortcut, main kbd { background: #fff; display: inline-block; padding: 2px 5px; margin: 0px; color: black; font-size: 12px; line-height: 16px; border-radius: 2px; font-weight: bold }
 main .shortcut-list dt, main .shortcut-list dd { display: inline; line-height: 25px; margin-left: 0; margin-right: 10px; }
 
 main > table.logbook tr td { padding-bottom: 15px;padding-top: 15px; }
