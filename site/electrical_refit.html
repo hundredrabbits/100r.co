@@ -148,7 +148,7 @@
 
 <p>We have very few high-power DC systems on Pino, so most of the wiring is 16 AWG(main cabin lights, fans, lpg etc) , with a few systems using 12 AWG (radar, VHF etc). We used a mixture of <b>ancor</b> and <b>vertex</b> marine-grade wire designed for dry, wet and oily environments(both meet UL 1426, ABYC and US Coast Guard Charter boat (CFR Title 46) standards).</p>
 
-<p><b>Color-coded cables</b>. The ABYC recommends some standard primary wire and cable color codes for boat wiring installation. The insulation color of the cable shows the purpose of that wire used in the boat wiring. See the table below for a list of the cable color codes for DC voltage systems:</p>
+<h2 id='abyc_wire_color_codes'><a href='abyc_wire_color_codes.html'>abyc wire color codes</a></h2><p><b>Color-coded cables</b>. The ABYC recommends some standard primary wire and cable color codes for boat wiring installation. The insulation color of the cable shows the purpose of that wire used in the boat wiring. See the table below for a list of the cable color codes for DC voltage systems:</p>
 
 <table class='col' border='1'>
     <tr>
@@ -223,15 +223,15 @@
     </tr>
 </table>
 
-<p><b>On labelling wires</b>. When trying to make sense of all the wiring behind the walls we were very confused, because nothing was labelled or easily identifiable. Color-coding wires will make it easy to identify a wire in any part of the boat, although it means getting many spools of different-colored wires($$). We have chosen to instead rely on labelling all wires at various points. We like to label wires on a narrow piece of paper and to enclose it in gorilla tape around the wire, so it follows the wire and doesn't stick out. Enclosing the wire in tape will ensure the name doesn't get rubbed out, and that the paper doesn't fall prey to rot (using a see-through heat shrink is another possible option).</p>
+<p><b>On color-coding wires</b>. Trying to make sense of wiring on a new-to-you vessel when nothing is labelled or easily identifiable is painful experience. Color-coding wires will make it easy to identify a wire in any part of the boat.</p>
+
+<p>Surveyors won't lose their heads if the colors are wrong (although sticking to black and red for pos and neg is crucial), but it is at least good to label the wires at various points. We like to label wires on a narrow piece of paper and to enclose it in gorilla tape around the wire, so it follows the wire and doesn't stick out. Enclosing the wire in tape will ensure the name doesn't get rubbed out, and that the paper doesn't fall prey to rot (using a see-through heat shrink is another possible option).</p>
 
 <p>A wire that doesn't have the right color won't cause any electrical problems, the only downside is if the vessel is sold, a lack of color-coding may cause confusion that might lead to problems, say, using a red wire for a grounding wire instead of green.</p>
 
-<p><b>Making good connections</b></p>
+<h2 id='marine_wire_termination'><a href='marine_wire_termination.html'>marine wire termination</a></h2><img src='../media/content/boat_projects/wiring_04.jpg' alt='a photo two wires tinned together' loading='lazy' />
 
-<img src='../media/content/boat_projects/wiring_04.jpg' alt='a photo two wires tinned together' loading='lazy' />
-
-<p>The above is an atrocity we found in Pino's ceiling. This is how a previous owner spliced some of the cabin lights together. This splice was tinned, covered in loose heat-shrink sleeve and bound by electrical tape, everything about this connection is bad.</p>
+<p>The above is an atrocity we found in Pino's ceiling while re-doing the wiring. This is how a previous owner spliced some of the cabin lights together. This splice was tinned, covered in loose heat-shrink sleeve and bound by electrical tape, everything about this connection is bad.</p>
 
 <q>The major difference between a thing that might go wrong and a thing that cannot possibly go wrong is that when a thing that cannot possibly go wrong goes wrong it usually turns out to be impossible to get at and repair. <br>— Douglas Adams</q>
 
@@ -256,7 +256,7 @@
 <li>Use a good quality crimper that can double crimp</li>
 </ul>
 
-<p>Do your hands a favor, get/borrow good tools. Pino has a shitty wire stripper that destroys all it touches, including our fingers. Peter lent us his Ancor crimp tool (apparently, it is the lesser of the two he owns, but it is still very good).</p>
+<p>Do your hands a favor, get/borrow good tools. Pino has a shitty wire stripper that destroys all it touches, including our fingers. A friend lent us his Ancor crimp tool.</p>
 
 <img src='../media/content/boat_projects/wiring_10.jpg' alt='two photos, one has a hand flipping off a pair of crappy hardware store grade wire strippers, the other is holding an ancor crimp tool' loading='lazy' />
 
@@ -266,7 +266,7 @@
 <b>Yellow</b> - 12-10 AWG<br>
 <b>Blue</b> - 16-14 AWG</p>
 
-<p><b>Using butt connectors to splice wires?</b> We've been splicing wires together with butt connectors for a while now, but we've recently learned that it is bad practice.</p>
+<p><b>Using butt connectors to splice wires?</b> We've been splicing wires together with butt connectors for a while now, but we've recently learned that it is bad practice. We do it anyway, because sometimes it is not possible to use a terminal block, but we figured it was a good idea to mention it here. We did it when connecting our manual switch for the bilge pump (more on that below).</p>
 
 <q>Splicing circuits should be avoided. If splicing is necessary, it should employ a proper terminal block, and not butt connectors. Every splice in a circuit creates additional resistance, and the potential for the connection to come apart.<br>— David H. Pascoe, Marine Surveyor</q>
 
@@ -289,6 +289,26 @@
 <p>All of the mast wires are connected to a gang terminal, nestled under a plate near where the mast exits the cabin top. While counting connections, we found an extra one and discovered that it was a wire for a light inside the cabin, sitting just aft of the mast. We don't use this light much, but we will wire it in anyway because it is silly to leave it like this. It is the only cabin light with a red cap for the light bulb(for night sailing).</p>
 
 <p>The wires for the steaming light (now an LED) and the anchor light (still a halogen) will be led back to the near panel, both will share the same power (same breaker switch), although each will have their own on/off switch, because we don't want both to come on at once. The red cabin light (LED) will have its own wire which will share a spot on a gang terminal with the other cabin lights.</p>
+
+<p><b>Running Lights</b></p>
+
+<img src='../media/content/boat_projects/aft_light_01.jpg' alt='a light with a makeshift wooden cover and ss base' loading='lazy' />
+
+<p>While replacing the light inside the aft running light holder for an LED, we dropped the cover in the water and it sank. We grabbed some hard wood, made two screw holes, added silicone where the wood would meet the top of the holder, and overtop of the screws to prevent water ingress.</p>
+
+<img src='../media/content/boat_projects/aft_light_02.jpg' alt='the interior of the light with a non waterproof led light holder' loading='lazy' />
+
+<p>We removed the cover to replace the wiring, and found the light was full of water. The water found a way in, but had no way of draining out. It was finally time to retire this light, it had a good 40-year run.</p>
+
+<p>We weren't sure what to replace it with. Light holders are expensive, and will eventually suffer the same problem. We decided to use a potted light. The light is completely enclosed, and is good for indoor/outdoor use.</p>
+
+<img src='../media/content/boat_projects/aft_light_03.jpg' alt='a Scotty fishing rod holder with a potted light wedged into one of the holes' loading='lazy' />
+
+<p>As a holder, we used an old Scotty fishing rod holder we had, it belonged to one of Pino's former owners (we don't fish, we're vegan heh). We kept it because we thought we could use it for something else, but is has been hanging on the stern rail for years. We found that the potted light fit the hole perfectly!</p>
+
+<img src='../media/content/boat_projects/aft_light_04.jpg' alt='the makeshift aft light hanging on the stern rail' loading='lazy' />
+
+<p>The light is very bright, and will be visible from the back, but we are not certain that this meets Transport Canada regulations. The light may not be as visible from the side. We'll test it at night at an anchorage and see if whether or not it is visible, if it isn't, we'll make some modifications.</p>
 
 <p><b>DC Breaker Panels</b></p>
 
@@ -326,9 +346,21 @@
 
 <img src='../media/content/boat_projects/wiring_13.jpg' alt='a photo rekka adding another switch to a breaker panel' loading='lazy' />
 
-<p>Many of the switches on our old panels powered nothing. Over the years we've removed DC systems, like the macerator(we have a <a href='dry_toilet.html' class='local'>dry toilet</a> now), and <a href='refrigeration.html' class='local'>refrigeration</a>. And now, we've combined some systems on the same breakers (see above list for examples of such combinations).</p>
+<p>Many of the switches on our old panels power nothing. Over the years we've removed DC systems, like the macerator(we have a <a href='dry_toilet.html' class='local'>dry toilet</a> now), and <a href='refrigeration.html' class='local'>refrigeration</a>. And now, we've combined some systems on the same breakers (see above list for examples of such combinations).</p>
 
 <p>The new Blue Sea breaker panel is wider and shorter than our former panels, we will have to make a new wood panel to support it.</p>
+
+<p><b>Bilge pump</b></p>
+
+<p>Our bilge pump is a Orca Auto 82L automatic model. We bought it in Japan after our former setup failed(water puppy pump, plus a float switch). The float switch failed first, we replaced it, then the pump failed.</p>
+
+<p>The unit is sold with a fuse housing that isn't waterproof (we didn't realized that at the time). Our fuse runs under the floor, as most bilge pump wiring tends to do, and when we opened it to check it we found that the fuse was completely corroded. It sucks that these pumps are sold with shitty connections that will inevitably fail.</p>
+
+<p>We cut the old fuse housing, and bought a truly waterproof housing to replace it.</p>
+
+<img src='../media/content/boat_projects/waterproof_fuse_box.jpg' alt='a yellow waterproof inline fuse box' loading='lazy' />
+
+<p>To make matters worse, the wires for the manual side were crimped together with a very non-marine butt connector. Again, we cut off the butt connected, added a heat-shrink ring terminal to both ends, and led them to a small 2x2 gang terminal(with a jumper between both). Another wire will be led back to the breaker panel.</p>
 
 <p><b>Battery Monitor</b></p>
 
@@ -350,5 +382,5 @@ Electrical System Use and Maintenance</a>, David H. Pascoe, Marine surveyor.</p>
 
 
 
-</main><footer><hr /><span style='float:right'>Edited on Fri Dec  9 12:20:46 2022
+</main><footer><hr /><span style='float:right'>Edited on Tue Dec 13 11:49:31 2022
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/electrical_refit.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2022 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
