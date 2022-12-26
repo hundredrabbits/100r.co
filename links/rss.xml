@@ -14,7 +14,7 @@
   <title>Summary of changes for November</title>
   <link>https://100r.co/site/log.html#nov2022</link>
   <guid isPermaLink='false'>log.html#nov2022</guid>
-  <pubDate>Wed, 30 October 2022 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 30 Oct 2022 00:00:00 GMT</pubDate>
   <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
   <description>
 <![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of November. We'll also be reporting in our on position in the world, and on our future plans.</p>
@@ -564,26 +564,6 @@ https://git.sr.ht/~rabbits/uxn-playdate' target='_blank'>Playdate implementation
 </item>
 
 <item>
-  <title>Repairing our shore power cord</title>
-  <link>https://100r.co/site/shore_power_cord_repair.html</link>
-  <guid isPermaLink='false'>shore_power_cord_repair.html</guid>
-  <pubDate>Wed, 29 Sep 2021 00:00:00 GMT</pubDate>
-  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
-  <description>
-<![CDATA[
-<img src='../media/content/boat_projects/powercord_01.jpg' width='600' loading='lazy'>
-
-<p>On a rainy summer day, we pulled into Silva bay on Gabriola Island and found a place at a dock to wait out a spell of bad weather. The power receptacle appeared fine, but once we were ready to leave we found the male connection of our shore power cord had melted. Two out of three prongs were stuck in the receptacle. We've never had issues with our cord before, and for now we assume that the marina shore connection was faulty. Either way, we had to repair the power cord.</p>
-
-<p>We always prefer to repair than to replace, so when we returned to a place with a marine store, we got ourselves replacements connections, both male and female, to replace the two damaged ends.</p>
-
-<p>We thought we'd document the process of fixing a shower power cord. Although, this is only specific to Marinco marine fittings.</p>
-
-<p><a href='https://100r.co/site/shore_power_cord_repair.html'>Continue Reading</a></p>]]>
-</description>
-</item>
-
-<item>
   <title>Summary of changes for August</title>
   <link>https://100r.co/site/log.html#aug2021</link>
   <guid isPermaLink='false'>log.html#aug2021</guid>
@@ -785,7 +765,7 @@ https://git.sr.ht/~rabbits/uxn-playdate' target='_blank'>Playdate implementation
   <title>Summary of changes for March</title>
   <link>https://100r.co/site/log.html#mar2021</link>
   <guid isPermaLink='false'>log.html#feb2021</guid>
-  <pubDate>Thu, 01 Mar 2021 00:00:00 GMT</pubDate>
+  <pubDate>Mon, 01 Mar 2021 00:00:00 GMT</pubDate>
   <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
   <description>
 <![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of March. We'll also be reporting in our on position in the world, and on our future plans.</p>
