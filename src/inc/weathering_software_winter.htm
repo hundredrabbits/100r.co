@@ -75,7 +75,9 @@
 
 <img src="../media/content/blog/wsw_15.jpg" loading="lazy"/>
 
-<p>A realization that I had working on something like this was that customizing your hardware, and your software, makes you care. If you buy something off the shelf, like an iPhone, which you can't change, you're less likely to care for it, and it's going to end up in a drawer. Back then you could go to Radio Shack and get parts for your computer, it was possible customize it (for example, the <a href='https://en.wikipedia.org/wiki/Altair_8800' target='_blank'>Altair</a>), and then you could know it in its entirety. Devices that were customized, or built from near-scratch, are still loved, but as for your old iPhone6, you don't know where it is, and even if you did it's probably unusable. Devices like the iPhone6 can't be repaired, they are designed to fail in ways that are inscrutable.</p>
+<p>A realization that I had working on something like this was that customizing your hardware, and your software, makes you care.</p>
+
+<p>If you buy something off the shelf, like an iPhone, which you can't change, you're less likely to care for it, and it's going to end up in a drawer. Back then you could go to Radio Shack and get parts for your computer, it was possible to customize it (for example, the <a href='https://en.wikipedia.org/wiki/Altair_8800' target='_blank'>Altair</a>), and then you could know it in its entirety. Devices that were customized, or built from near-scratch, are still loved, but as for your old iPhone6, you don't know where it is, and even if you did it's probably unusable. Devices like the iPhone6 can't be repaired, they are designed to fail in ways that are inscrutable.</p>
 
 <img src="../media/content/blog/wsw_16.jpg" loading="lazy"/>
 
@@ -89,22 +91,27 @@
 
 <img src="../media/content/blog/wsw_17.jpg" loading="lazy"/>
 
-<p>When we began looking at what VMs there were, we looked into the past, and that brought us to <a href='https://en.wikipedia.org/wiki/Smalltalk' target='_blank'>Smalltalk</a>. I read this book called What the <a href='https://en.wikipedia.org/wiki/What_the_Dormouse_Said' target='_blank'>Do
-rmouse Said</a>, and it talked about the history of Stanford, and how people had this utopian idea of what computers could be. This is way before I even became interested in computers, learning what their vision was then made me optimistic about what could be done.</p>
+<p>When we began looking at what VMs there were, we looked into the past, and that brought us to <a href='https://en.wikipedia.org/wiki/Smalltalk' target='_blank'>Smalltalk</a>. I read this book called What the <a href='https://en.wikipedia.org/wiki/What_the_Dormouse_Said' target='_blank'>Dormouse Said</a>, and it talked about the history of Stanford, and how people had this utopian idea of what computers could be. This is way before I even became interested in computers, learning what their vision was then made me optimistic about what could be done.</p>
 
-<p>That was when I was first exposed to the idea of a virtual machine, or byte code. As I mentioned before, looking information up online without the vocabulary you need to find things is really difficult. There was no way I could go around learning about personal computing without spending some time learning Smalltalk.</p>
+<p>That was when I was first exposed to the idea of a virtual machine, or byte code. As I mentioned before, looking up information online without the vocabulary you need to find things is really difficult. There was no way I could go around learning about personal computing without spending some time learning Smalltalk.</p>
 
 <img src="../media/content/blog/wsw_18.jpg" loading="lazy"/>
 
-<p>Obviously, the moment that you start going that down that route, you will have people telling you that you really have to try <a href='https://en.wikipedia.org/wiki/Lisp_machine' target='_blank'>Lisp machines</a>. I spent time learning about Symbolics and LVP. I learned about a sort of system where the whole thing could be inspected, a system that was trying to do computing in a very personal way. Nowadays, it's akin to the browser where you can go on a website that you like, and right click to inspect it. It is less and less the case now, but for a while you could inspect, see how it was put together. This was empowering, emblematic of the era.</p>
+<p>Obviously, the moment that you start going that down that route, you will have people telling you that you really have to try <a href='https://en.wikipedia.org/wiki/Lisp_machine' target='_blank'>Lisp machines</a>. I spent time learning about Symbolics and LVP. I learned about a sort of system where the whole thing could be inspected, a system that was trying to do computing in a very personal way.</p>
+
+<p>Nowadays, it's akin to the browser, where you can go on a website that you like, and right click to inspect. It is less and less the case now, but for a while you could inspect websites to see how it was put together. This was empowering, emblematic of the era.</p>
 
 <img src="../media/content/blog/wsw_19.jpg" loading="lazy"/>
 
-<p>This doesn't work on a VM at all, but it's relevant because <b>Niklaus Wirth</b>, who wrote <a href='https://en.wikipedia.org/wiki/Oberon_(operating_system)' target='_blank'>Oberon</a>, wrote an entire operating system that came with a book. The Oberon book is really nice, especially if you come into it with a clear mind, without prior knowledge or expectation of what programming is. The book explains how to build an operating system from scratch. It uses a language like <a href='https://en.wikipedia.org/wiki/Pascal_(programming_language)' target='_blank'>Pascal</a>, which is very easy to read, more beautiful than other <a href='https://en.wikipedia.org/wiki/ALGOL' target='_blank'>ALGOL languages</a>. One of the first things that it teaches you to do  is how to draw pictures, which I thought was kind of interesting as someone who's very visually-inclined.</p>
+<p>This doesn't work on a VM at all, but it's relevant because <b>Niklaus Wirth</b>, who wrote <a href='https://en.wikipedia.org/wiki/Oberon_(operating_system)' target='_blank'>Oberon</a>, wrote an entire operating system that came with a book.</p>
+
+<p>The Oberon book is really nice, especially if you come into it with a clear mind, without prior knowledge or expectation of what programming is. The book explains how to build an operating system from scratch. It uses a language like <a href='https://en.wikipedia.org/wiki/Pascal_(programming_language)' target='_blank'>Pascal</a>, which is very easy to read, more beautiful than other <a href='https://en.wikipedia.org/wiki/ALGOL' target='_blank'>ALGOL languages</a>. One of the first things that it teaches you to do is how to draw pictures, which I thought was kind of interesting as someone who's very visually-inclined.</p>
 
 <img src="../media/content/blog/wsw_20.jpg" loading="lazy"/>
 
-<p>In the book Niklaus Wirth mentions the <a href='https://en.wikipedia.org/wiki/P-code_machine' target='_blank'>P-machine</a>. I was beginning to form an idea of what virtual machines were, and he just briefly mentions it, "oh! By the way, I wrote this Pascal compiler targeting a virtual machine." I was like, "a language can target a virtual machine?! What?" And the reason why it was so easy for him to port the compiler between platforms, is that the opcodes running it were extremely simple, and very few in numbers. I thought then, <b>this</b> is a way to do data preservation that is appealing to me.</p>
+<p>In the book Niklaus Wirth mentions the <a href='https://en.wikipedia.org/wiki/P-code_machine' target='_blank'>P-machine</a>. I was beginning to form an idea of what virtual machines were, and he just briefly mentions it, "oh! By the way, I wrote this Pascal compiler targeting a virtual machine." I was like, "a language can target a virtual machine?! What?" And the reason why it was so easy for him to port the compiler between platforms, is that the opcodes running it were extremely simple, and very few in number.</p>
+
+<p>I thought then, <b>this</b> is a way to do data preservation that is appealing to me.</p>
 
 <img src="../media/content/blog/wsw_21.jpg" loading="lazy"/>
 
@@ -174,11 +181,15 @@ rmouse Said</a>, and it talked about the history of Stanford, and how people had
 
 <img src="../media/content/blog/wsw_34.jpg" loading="lazy"/>
 
-<p>Looking back at that same era with <a href='https://en.wikipedia.org/wiki/Bell_Labs' target='_blank'>Bell Labs</a>, this was a time when people would build paper computers to teach kids to understand what a program counter was, how things moved around in the program, and how to navigate byte code. No one can take a paper computer away from you. As long as you have paper and pen you can still solve problems, albeit slowly, and more painfully, but this is a form of computing that can be easily ported.</p>
+<p>Looking back at that same era with <a href='https://en.wikipedia.org/wiki/Bell_Labs' target='_blank'>Bell Labs</a>, this was a time when people would build paper computers to teach kids to understand what a program counter was, how things moved around in the program, and how to navigate byte code.</p>
+
+<p>No one can take a paper computer away from you. As long as you have paper and pen you can still solve problems, albeit slowly, and more painfully, but this is a form of computing that can be easily ported.</p>
 
 <img src="../media/content/blog/wsw_35.jpg" loading="lazy"/>
 
-<p>When I was looking at the BBC's Domesday book, I noticed that Alan Kay(Small Talk) also had a project that was in line with what I was trying to do. He thought, "Smalltalk is a vm, how much of a small VM can possibly run smalltalk-72." He wrote a paper called <a href='https://dl.acm.org/doi/10.1145/2814228.2814250' target='_blank'>The Cuneiform Tablets of 2015</a>, he had all these words to talk about computers that went viral. He said things like, "Lisp was the Maxwell equation of programming." As a minimalist geek I was glad to hear this, it's what I wanted, but then looking into Lisp, I thought that a language that creates garbage by design wasn't really what I was looking for. This was a bit more like it, but it was a register machine, and I didn't see how that mapped to Smalltalk.</p>
+<p>When I was looking at the BBC's Domesday book, I noticed that Alan Kay(Small Talk) also had a project that was in line with what I was trying to do. He thought, "Smalltalk is a vm, how much of a small VM can possibly run smalltalk-72."</p>
+
+<p>He wrote a paper called <a href='https://dl.acm.org/doi/10.1145/2814228.2814250' target='_blank'>The Cuneiform Tablets of 2015</a>, he had all these words to talk about computers that went viral. He said things like, "Lisp was the Maxwell equation of programming." As a minimalist geek I was glad to hear this, it's what I wanted, but then looking into Lisp, I thought that a language that creates garbage by design wasn't really what I was looking for. This was a bit more like it, but it was a register machine, and I didn't see how that mapped to Smalltalk.</p>
 
 <img src="../media/content/blog/wsw_36.jpg" loading="lazy"/>
 
@@ -194,11 +205,15 @@ rmouse Said</a>, and it talked about the history of Stanford, and how people had
 
 <img src="../media/content/blog/wsw_38.jpg" loading="lazy"/>
 
-<p><a href='http://wiki.xxiivv.com/site/fractran.html' target='_blank'>FRACTRAN</a> was another OISC system. It has one operation: multiply. Its primitives were not bytes, or shorts, but fractions. It used prime encoding, which was one of the most beautiful mathematical concept that I knew of. For a while I thought I had found my bedrock, I was going to use fractions to make computers. The only issue... is that it maps poorly to silicone.</p>
+<p><a href='http://wiki.xxiivv.com/site/fractran.html' target='_blank'>FRACTRAN</a> was another OISC system. It has one operation: multiply. Its primitives were not bytes, or shorts, but fractions. It used prime encoding, which was one of the most beautiful mathematical concept that I knew of.</p>
+
+<p>For a while I thought I had found my bedrock, I was going to use fractions to make computers. The only issue... is that it maps poorly to silicone.</p>
 
 <img src="../media/content/blog/wsw_39.jpg" loading="lazy"/>
 
-<p><a href='http://wiki.xxiivv.com/site/logic.html' target='_blank'>SKI calculus</a> was beautiful, it has this mathematical elegance to it. I went down that rabbit hole, and I barely emerged back alive. I recommend everyone to take a Lisp detour, and then learn SKI, to read Smullyan, and to read about others like him who don't care about making products, but really want to explore software in a way that is very creative and artistic. I almost made this my bedrock, except that at the VM layer garbage collection was a bad idea.</p>
+<p><a href='http://wiki.xxiivv.com/site/logic.html' target='_blank'>SKI calculus</a> was beautiful, it has this mathematical elegance to it. I went down that rabbit hole, and I barely emerged back alive.</p>
+
+<p>I recommend everyone to take a Lisp detour, and then learn SKI, to read Smullyan, and to read about others like him who don't care about making products, but really want to explore software in a way that is very creative and artistic. I almost made this my bedrock, except that at the VM layer garbage collection was a bad idea.</p>
 
 <img src="../media/content/blog/wsw_41.jpg" loading="lazy"/>
 
@@ -210,27 +225,37 @@ rmouse Said</a>, and it talked about the history of Stanford, and how people had
 
 <img src="../media/content/blog/wsw_40.jpg" loading="lazy"/>
 
-<p>Someone wrote an FPGA system called <a href='https://excamera.com/files/j1.pdf' target='_blank'>J1</a>, a <a href='https://en.wikipedia.org/wiki/Forth_(programming_language)' target='_blank'>Forth system</a>. It had very few opcodes, but had one of the most beautiful mapping of byte code I had ever seen. The Stack Machine primitives were implemented so you could combine them with each other, with weird combinations of bit toggles on a byte you could have really interesting esoteric stack manipulators. I was smitten.</p>
+<p>Someone wrote an FPGA system called <a href='https://excamera.com/files/j1.pdf' target='_blank'>J1</a>, a <a href='https://en.wikipedia.org/wiki/Forth_(programming_language)' target='_blank'>Forth system</a>. It had very few opcodes, but had one of the most beautiful mapping of byte code I had ever seen. The Stack Machine primitives were implemented so you could combine them with each other, with weird combinations of bit toggles on a byte you could have really interesting esoteric stack manipulators.</p>
+
+<p>I was smitten.</p>
 
 <p>It's a 16-bit Forth system, the biggest literal you can have in one of those words would be like 35k fixed. The arithmetic was really beautiful, but the whole system's maximum program that it could run was four kilobytes.</p>
 
 <img src="../media/content/blog/wsw_42.jpg" loading="lazy"/>
 
-<p>What I had in mind was slightly <b>more</b> than four kilobytes, but not much more. If I could have a full addressable, 64 would be really nice, I didn't want the complexity of the 6502.</p> 
+<p>What I had in mind was slightly <b>more</b> than four kilobytes, but not much more. If I could have a full addressable, 64 would be really nice. I didn't want the complexity of the 6502.</p> 
 
 <img src="../media/content/blog/wsw_43.jpg" loading="lazy"/>
 
-<p>The <a href='http://wiki.xxiivv.com/site/chip8.html' target='_blank'>CHIP-8</a> is an interesting system that has a rich, vibrant community of people who build things for it during game jams. The spec is quite simple, it fits on maybe two pages of paper, side by side. It feels like the paper computer in ways that I like, but it was not designed to be a general purpose driving vm. It is meant to be building things in the scale of Pong. The keyboard is like a hex keyboard with just numbers on it. My plan was to build something that could build itself in it, so I'd need a keyboard, a cursor-a weird keyboard for me would not cut it.</p>
+<p>The <a href='http://wiki.xxiivv.com/site/chip8.html' target='_blank'>CHIP-8</a> is an interesting system that has a rich, vibrant community of people who build things for it during game jams.</p>
+
+<p>The spec is quite simple, it fits on maybe two pages of paper, side by side. It feels like the paper computer in ways that I like, but it was not designed to be a general purpose driving vm. It is meant to be building things in the scale of Pong. The keyboard is like a hex keyboard with just numbers on it. My plan was to build something that could build itself in it, so I'd need a keyboard, a cursor-a weird keyboard for me would not cut it.</p>
 
 <img src="../media/content/blog/wsw_44.jpg" loading="lazy"/>
 
 <p><a href='https://wiki.c2.com/?MachineForth' target='_blank'>Machine Forth</a> was something I stumbled upon after. Chuck Moore wrote Forth, and then he thought it too complicated. I thought, "what do you mean it's complicated? There's like no syntax, no nothing. It's space-divided language. Implementing a Forth system is really fast." Chuck More, being himself, thought that he could do without all this 'cruft'. He reduced even further to Machine Forth which has 32, or 24 opcodes.</p>
 
-<p>I kept seeing Forth over and over again, and couldn't really grasp, or see the beauty in it for a while. If you've just come from Lisp, you have whiplash when you fall into Forth. It has similar beauty. Lisp would be prefix, Forth would be <a href='http://wiki.xxiivv.com/site/notation.html' target='_blank'>postfix</a>. Following that mindset you think you could be anyone, or you could do anything, and you chose to be Algol, why? Going back and forth between Forth and Lisp, I couldn't make up my mind, but I kept seeing people who would fall in love with Forth, but were really bad at selling it. With Lisp it's really hard to find any Lisp code that you can actually copy/paste in a project because everyone's using weird macros, and libraries, and nothing is portable. Forth had a different problem, everyone I'd talk to would say Forth was the best, and thatI should really use it, but then I'd ask them questions like, "how do I calculate the distance between two points?" I walked away from that interaction thinking, well, it seems like a lot of people like Forth, but don't write it. It was hard to find any code at all. I know Forth is not portable, but it was hard to find just actual use-case of Forth that wasn't someone trying to learn Forth by implementing Forth and then moving on back to Rust.</p> 
+<p>I kept seeing Forth over and over again, and couldn't really grasp, or see the beauty in it for a while. If you've just come from Lisp, you have whiplash when you fall into Forth. It has similar beauty. Lisp would be prefix, Forth would be <a href='http://wiki.xxiivv.com/site/notation.html' target='_blank'>postfix</a>. Following that mindset you think you could be anyone, or you could do anything, and you chose to be Algol, why?</p>
+
+<p>Going back and forth between Forth and Lisp, I couldn't make up my mind, but I kept seeing people who would fall in love with Forth, but were really bad at selling it. With Lisp it's really hard to find any Lisp code that you can actually copy/paste in a project because everyone's using weird macros, and libraries, and nothing is portable.</p>
+
+<p>Forth had a different problem, everyone I'd talk to would say Forth was the best, and that I should really use it, but then I'd ask them questions like, "how do I calculate the distance between two points?" I walked away from that interaction thinking, well, it seems like a lot of people like Forth, but don't write it. It was hard to find any code at all. I know Forth is not portable, but it was hard to find just actual use-case of Forth that wasn't someone trying to learn Forth by implementing Forth and then moving on back to Rust.</p> 
 
 <img src="../media/content/blog/wsw_46.jpg" loading="lazy"/>
 
-<p>The way Forth works is really simple, you put stuff on a stack, it hits a token, pulls the item from the stack, etc. It doesn't have precedence rules. It seemed like a really good bedrock for the things I wanted to do.</p>
+<p>The way Forth works is really simple, you put stuff on a stack, it hits a token, pulls the item from the stack, etc. It doesn't have precedence rules.</p> 
+
+<p>It seemed like a really good bedrock for the things I wanted to do.</p>
 
 <img src="../media/content/blog/wsw_47.jpg" loading="lazy"/>
 
@@ -242,7 +267,11 @@ rmouse Said</a>, and it talked about the history of Stanford, and how people had
 
 <p>In the end, I ended up with this napkin definition of a system that I kind of liked. My goal throughout this whole process was to make a system that could fit on a t-shirt. I might lose my computer, especially on a sailboat, but I don't want to keep preserving all the documentation.</p>
 
-<p>When I started sailing I was doing a bit of Ruby, when came time to gather all the Ruby documentation that I would need to be self-sufficient, the amount was overwhelming. Being at sea for 50 days straight we don't have access to StackOverflow, our questions remain unanswered, now imagine if the site was gone forever tomorrow. At sea, without internet, if I wanted to look up how to fill a polygon, I couldn't do it, but if I had printed it? There are languages that make this more accessible, and others that make it really hard. Not having a background in C, I found it really difficult to go off sailing without my C documentation, but it is very extensive, and very clunky. My thinking is that I'm probably going to lose the book at some point in the future, but if my future self had that t-shirt they'd probably be okay. I tried to reduce everything that I could do to fit onto a t-shirt, that's as much as I afforded in bandwidth.</p>
+<p>When I started sailing I was doing a bit of Ruby, when came time to gather all the Ruby documentation that I would need to be self-sufficient, the amount was overwhelming.</p>
+
+<p>Being at sea for 50 days straight we don't have access to StackOverflow, our questions remain unanswered, now imagine if the site was gone forever tomorrow. At sea, without internet, if I wanted to look up how to fill a polygon, I couldn't do it, but if I had printed it? There are languages that make this more accessible, and others that make it really hard. Not having a background in C, I found it really difficult to go off sailing without my C documentation, but it is very extensive, and very clunky.</p>
+
+<p>My thinking is that I'm probably going to lose the book at some point in the future, but if my future self had that t-shirt they'd probably be okay. I tried to reduce everything that I could do to fit onto a t-shirt, that's as much as I afforded in bandwidth.</p>
 
 <img src="../media/content/blog/wsw_49.jpg" loading="lazy"/>
 
@@ -256,34 +285,48 @@ rmouse Said</a>, and it talked about the history of Stanford, and how people had
 
 <img src="../media/content/blog/wsw_51.jpg" loading="lazy"/>
 
-<p>The first thing I tried to do was to make an assembler in that language. It was easy. The language is so simple that the assembler itself is also going to be simple. I generated a X86 application of the VM that could run its own assembler in that language. The assembler is <a href='https://git.sr.ht/~rabbits/drifblim/' target='_blank'>3000 bytes</a>.</p> 
+<p>The first thing I tried to do was to make an assembler in that language. It was easy. The language is so simple that the assembler itself is also going to be simple. I generated a X86 application of the VM that could run its own assembler in that language.</p>
+
+<p>The assembler is <a href='https://git.sr.ht/~rabbits/drifblim/' target='_blank'>3000 bytes</a>.</p> 
 
 <img src="../media/content/blog/wsw_52.jpg" loading="lazy"/>
 
-<p>It's nothing like a computer, but it will run bytecode. I felt like I had reduced the problems that I was solving with computers down to 32 things, and these 32 things I could probably implement in Fractran and Subleq, other more minimal computing systems. It taught me about how the little functions you would use in JavaScript to convert a string into an end, you write it in Assembly, and it dispels the magic. Sometimes people say they love magic, but in truth they don't. I don't like magic at all, especially not when things start to break.</p>
+<p>It's nothing like a computer, but it will run bytecode. I felt like I had reduced the problems that I was solving with computers down to 32 things, and these 32 things I could probably implement in Fractran and Subleq, other more minimal computing systems.</p>
+
+<p>It taught me about how the little functions you would use in JavaScript to convert a string into an end, you write it in Assembly, and it dispels the magic. Sometimes people say they love magic, but in truth they don't. I don't like magic at all, especially not when things start to break.</p>
  
 <p>Douglas Adams said that, "The major difference between a thing that might go wrong and a thing that cannot possibly go wrong is that when a thing that cannot possibly go wrong goes wrong it usually turns out to be impossible to get at and repair." This is the situation I was in with programming. I wanted to understand the whole thing, and to have it be inspectable.</p>
 
 <img src="../media/content/blog/wsw_53.jpg" loading="lazy"/>
 
-<p>From there I started to build dawing routines, etc. I started to make implementations of Basic, of games, or of other emulators. I have been writing in {Uxn} for two years.</p>
+<p>From there I started to build dawing routines, etc. I started to make implementations of Basic, of games, or of other emulators.</p>
+
+<p>I have been writing in {Uxn} for two years.</p>
 
 <img src="../media/content/blog/wsw_54.jpg" loading="lazy"/>
 
 <p>In his <a href='https://guide.handmade-seattle.com/c/2022/behind-crafting-interpreters/' target='_blank'>sit-down with Abner Coimbre</a> for the Handmade Seattle 2022 opening, <a href='https://journal.stuffwithstuff.com/' target='_blank'>Robert Nystrom</a> was encouraging everyone to make their own programming language and their own system. Many of the conference attendees share this view, but in other circles it is generally frowned upon. The first time I mentioned it to anyone I was laughed out the room. I liked to draw, and people were thinking, "what do you even know about computers?"</p> 
 
-<p>I would love to see everyone's programming language, to meet someone new and to ask them: "show me how many opcodes you have." It is telling about a person's mind.</p>
+<p>I would love to see everyone's programming language, to meet someone new and to ask them: "show me how many opcodes you have."</p>
+
+<p>It is telling about a person's mind.</p>
 
 <img src="../media/content/blog/wsw_55.jpg" loading="lazy"/>
 
-<p>We built this little system that is tailored to host the games we make. It'll be alien to anyone else, and that's okay, we are not trying to sell you on this idea, what we want is for everyone to try and make their own personal computer instead of piggybacking on someone else's idea that's cluttered with artifacts. I don't think we've even begun to scratch the surface of what can be done with this. A lot of people will try to tell you that we've tried everything with 8-bit, but by the time the NES was out, most of the game genres that we have today didn't exist. There are immense amounts of space left to explore, but now everyone has moved on, to VR, AR or other.</p>
+<p>We built this little system that is tailored to host the games we make. It'll be alien to anyone else, and that's okay, we are not trying to sell you on this idea, what we want is for everyone to try and make their own personal computer instead of piggybacking on someone else's idea that's cluttered with artifacts. I don't think we've even begun to scratch the surface of what can be done with this.</p>
+
+<p>A lot of people will try to tell you that we've tried everything with 8-bit, but by the time the NES was out, most of the game genres that we have today didn't exist. There are immense amounts of space left to explore, but now everyone has moved on, to VR, AR or other.</p>
 
 <img src="../media/content/blog/wsw_56.jpg" loading="lazy"/>
 
-<p>I made this entire talk in black and white, and I could have done a system in black and white too, but I made it in <a href='https://en.wikipedia.org/wiki/Four_color_theorem' target='_blank'>four colors</a>. Imagine how much power you have with four colors. One-bit can be a totally evocative, things don't have to be visually busy all the time. I think this maximalism of 'I need all these features' and 'I need to be doing this and that,' is exhausting. Learning to live without float points is actually kind of nice. There is beauty in really simple systems, trying to always scale things to fit everyone's usage is foolish.</p>
+<p>I made this entire talk in black and white, and I could have done a system in black and white too, but I made it in <a href='https://en.wikipedia.org/wiki/Four_color_theorem' target='_blank'>four colors</a>. Imagine how much power you have with four colors.</p>
+
+<p>One-bit can be a totally evocative, things don't have to be visually busy all the time. I think this maximalism of 'I need all these features' and 'I need to be doing this and that,' is exhausting. Learning to live without float points is actually kind of nice. There is beauty in really simple systems, trying to always scale things to fit everyone's usage is foolish.</p>
 
 <img src="../media/content/blog/wsw_57.jpg" loading="lazy"/>
 
-<p>As a closing remark, I want to say that I don't think that my attempt is the best solution to data preservation, I'm not even sure if I'm gonna be able to use that system in five years, but at least it's one attempt at trying to preserve things. <a href='https://permacomputing.net/' target='_blank'>Permacomputing</a> is inspired from permaculture, its goal is to build resilience. The resilience of permaculture comes from trying different ideas, and seeing what sticks. If we all jump on the same language, and the same ecosystem, it makes it really fragile when one individual can just buy the whole thing, then you're left with a system that was never truly yours.</p>
+<p>As a closing remark, I want to say that I don't think that my attempt is the best solution to data preservation, I'm not even sure if I'm gonna be able to use that system in five years, but at least it's one attempt at trying to preserve things.</p>
+
+<p><a href='https://permacomputing.net/' target='_blank'>Permacomputing</a> is inspired from permaculture, its goal is to build resilience. The resilience of permaculture comes from trying different ideas, and seeing what sticks. If we all jump on the same language, and the same ecosystem, it makes it really fragile when one individual can just buy the whole thing, then you're left with a system that was never truly yours.</p>
 
 <p>Thank you for reading.</p>
