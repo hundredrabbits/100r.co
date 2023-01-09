@@ -137,6 +137,8 @@
 
 <img src='../media/content/inventory/solar_05.jpg' alt='connecting panels in parallel' loading='lazy' />
 
+<p>Note that the above diagram is for our boat, and sized to our system. Panels with more wattage will require additional fuses. See below to determine whether or not your system needs other fuses.</p>
+
 <p>On a 12V system solar panels ought to be connected in parallel so the voltage stays the same. With panels in parallel, the amperage of each panel is added up, and the performance of one panel is not dependent on the performance of another. This is important on a boat because at one point or another, one of the panels will have shade from the mast, radar post, boom etc. Multiple panels connected in parallel offer the best performance. Wiring panels in parallel requires a thicker wire gauge to accommodate higher passing current.</p>
 
 <p>To wire multiple panels in parallel you'll need <b>MC4 branch connectors</b>, or T connectors.</p>
@@ -162,13 +164,13 @@
 <h3>Example</h3>
 
 <ul>
-    <li>2x100W panel</li>
+    <li>1x100W + 1x90W panel</li>
     <li>at 17.40V</li>
     <li>5 Amps each</li>
     <li>Distance to controller is 15 ft</li>
 </ul>
 
-<p>In the sample above, we've got two 100W panels with each running to the branch connector at 17.40V, each outputting 5 Amps. Passing the branch connector the wires are now connected in parallel, and we have to add up the amps. We now have 10 amps, while the voltage remains the same at 17.40V. The solar charge controller then takes the 17.40V and regulates it down to 12V (most boats run on 12V systems) and will be charging the batteries at 15.83 amps (see below to see how i got that number).</p>
+<p>In the sample above, we've got one 100W panel and one 90W panel, with each running to the branch connector at 17.40V, each outputting ~5 Amps (100W closer to 6). Passing the branch connector the wires are now connected in parallel, and we have to add up the amps. We now have 11 amps, while the voltage remains the same at 17.40V. The solar charge controller then takes the 17.40V and regulates it down to 12V (most boats run on 12V systems) and will be charging the batteries at 10.91 amps (see below to see how i got that number).</p>
 
 <p>To calculate how the solar controller will regulate the system from a higher voltage—like 17.40V from our example—to 12V, use the formula below...</p>
 
@@ -176,7 +178,7 @@
 
 <p><b>I(A) = P(W) / V(V)</b></p>
 
-<p><b>190W / 17.40V = 15.83 Amps</b></p>
+<p><b>190W / 17.40V = 10.91 Amps</b></p>
 
 <p>Now that we know how much voltage and amps run at each part of our system we can start sizing the wires, and we can choose a solar controller.</p>
 
@@ -184,15 +186,39 @@
 
 <p>The size of the wiring depends on the distance between each section too.</p>
 
-<h3>Solar controller</h3>
+<h3>PWM solar controller</h3>
 
-<p>To size a solar controller, add up the amperage from your current solar panels. Panels with combined amperage of 10 amps would require a 10-amp or 15-amp controller.</p>
+<p>Solar panel voltages are generally higher than battery voltages (our batteries are 12V, our panels are 17.40V), which is good if the battery needs a lot of recharging, but it's not ideal if it is approaching full charge. A PWM solar charge controller monitors the battery voltage and decides how much current it can safely feed into it.</p>
+
+<p>PWM stands for <b>Pulse Width Modulation</b>, which basically describes how it operates. Direct current from the solar panels is cut up into pulses at a certain voltage. The charger detects the voltage of the battery connected to it, and calculates the correct charging voltage to apply, which determines the charging current. The spaces between the voltage pulses are adjusted electronically. The average voltage depends on the time between the pulses. PWM charge controllers actually waste any surplus voltage from the solar panel and aren't as efficient as MPPT controllers.</p>
+
+<h3>MPPT solar controller</h3>
+
+<p>The most efficient type of solar charge controller are MPPT (Maximum Power Point Tracking) at 97%.</p>
+
+<h3>Sizing a solar controller</h3>
+
+<p>To size a solar controller, add up the amperage from your current solar panels. Panels with combined amperage of 10 amps would require a  15-amp controller.</p>
 
 <p>If you want to charge more than one battery bank (if one is isolated), consider one with a dual charging function. Another option is to add an auxiliary charger to charge the other bank.</p>
 
-<h3>Fuses</h3>
+<h3>Does my system require a fuse between the panel and MC4 connector?</h3>
 
-<p>If the controller doesn't go through a breaker panel, add a fuse between the solar panel and the controller, and between the controller and the battery (as close to the battery as possible). Fuses are sacrificial and protect your electrical components from damages caused by overcurrent. Breakers and fuses accomplish the same purpose, and can be used interchangeably.</p>
+<p>If the controller doesn't go through a breaker panel, add a fuse between the solar panel and the controller (see below if it is something you need to add), and between the controller and the battery (as close to the battery as possible). Fuses are sacrificial and protect your electricals from damages caused by overcurrent. Breakers and fuses accomplish the same purpose, and can be used interchangeably.</p>
+
+<p>Here is how to determine whether or not you need fuses between the panel and the MC4 connectors for your solar installation:</p>
+
+<p>Our solar arrray has a <b>total short circuit current</b> of 11.45A, and the <b>maximum series fuse rating</b> stickers is 20A per panel. This information is usually listed in specs of the solar panels.</p>
+
+<p>If the short circuit current of the entire array is <b>greater than</b> the maximum series fuse rating sticker, fuses <b>must</b> be placed on each wire between the panels and the MC4 connectors. A fuse ought to be installed on the positive connection from the solar controller to the battery (nearest to the battery as is possible).</p>
+
+<p>If the short circuit current of the entire array is <b>less than</b> the maximum series fuse rating sticker, fuses are <b>not required</b> between the panels and the MC4 connectors. A fuse ought to be installed on the positive connection from the solar controller to the battery (nearest to the battery as is possible). This applies to us.</p>
+
+<p>It is necessary to fuse an array at the point where the panels or series strings get combined to prevent potential fires or overheating due to a faulty panel.</p>
+
+<p>Read more about <a href='https://www.explorist.life/how-to-fuse-a-solar-panel-array-and-why-you-may-not-need-to/' target='_blank'>fusing solar arrays</a>, especially if you have a lot of solar.</p>
+
+<h3>Fuse between battery and solar controller</h3>
 
 <p>To calculate the fuse size needed between the charge controller and battery bank match the amperage rating on the charge controller. For example, if you have a 15Amp charge controller use a 15Amp fuse.</p>
 
@@ -204,6 +230,10 @@
 
 <p>In the above example you would need a 12.5 Amp fuse, and we'd recommend a 15 Amp fuse (next biggest number).</p>
 
+<h3>On and off switch?</h3>
+
+<p>The system ought to have a solar disconnect option, wired after the MC4 connectors (if any) and the solar controller.</p>
+
 <h3>Connecting panels with dissimilar voltage</h3>
 
 <p>Connecting two panels with different voltages, you will get voltage to lower voltage. If one panel is 17.40V and the other 18V, when connected in parallel the voltage will drop to 17.40V.</p>
@@ -213,5 +243,5 @@
 
 
 
-</main><footer><hr /><span style='float:right'>Edited on Wed Jan  4 16:14:04 2023
+</main><footer><hr /><span style='float:right'>Edited on Mon Jan  9 12:44:05 2023
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/solar_tips.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2022 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
