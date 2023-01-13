@@ -58,6 +58,8 @@
 
 <p>Important to note that UL cables(AWG, American Wire Gauge) are larger than SAE(European standards). Some wires will display wire thickness in mm or inches, to find out their AWG equivalent view <a href='https://en.wikipedia.org/wiki/American_wire_gauge#Tables_of_AWG_wire_sizes' target='_blank'>this table</a>.</p>
 
+<p><b>Example:</b> For Pino, we calculated the round-trip distance the wires would take, which was less than 6mv(20ft) with 3% voltage drop. Given that the max power that will ever run through the wires is 10.91 amps, we bought some 10 AWG wire.</p>
+
 <h3>Example</h3>
 
 <ul>
@@ -87,11 +89,15 @@
 
 <p>Solar panel voltages are generally higher than battery voltages (our batteries are 12V, our panels are 17.40V), which is good if the battery needs a lot of recharging, but it's not ideal if it is approaching full charge. A PWM solar charge controller monitors the battery voltage and decides how much current it can safely feed into it.</p>
 
-<p>PWM stands for <b>Pulse Width Modulation</b>, which basically describes how it operates. Direct current from the solar panels is cut up into pulses at a certain voltage. The charger detects the voltage of the battery connected to it, and calculates the correct charging voltage to apply, which determines the charging current. The spaces between the voltage pulses are adjusted electronically. The average voltage depends on the time between the pulses. PWM charge controllers actually waste any surplus voltage from the solar panel and aren't as efficient as MPPT controllers.</p>
+<p>PWM stands for <b>Pulse Width Modulation</b>, which basically describes how it operates. Direct current from the solar panels is cut up into pulses at a certain voltage. The charger detects the voltage of the battery connected to it, and calculates the correct charging voltage to apply, which determines the charging current. The spaces between the voltage pulses are adjusted electronically. The average voltage depends on the time between the pulses.</p>
+
+<p>PWM charge controllers actually waste any surplus voltage from the solar panel, and aren't as efficient as MPPT controllers. But depending on the size of your solar array, a PWM may be entirely fine (this is what we have).</p>
 
 <h3>MPPT solar controller</h3>
 
-<p>The most efficient type of solar charge controller are MPPT (Maximum Power Point Tracking) at 97%.</p>
+<p>The most efficient type of solar charge controller are MPPT (Maximum Power Point Tracking) at 97%. A MPPT controller is much less efficient in low-power applications, and ought to be used with larger arrays.</p>
+
+<p>For more details, see <a href='https://marinehowto.com/mppt-vs-pwm-solar-controllers/' target='_blank'>Marine How-to's mppt vs pwm guide.</a>
 
 <h3>Sizing a solar controller</h3>
 
@@ -101,7 +107,7 @@
 
 <h3>Does my system require a fuse between the panel and MC4 connector?</h3>
 
-<p>If the controller doesn't go through a breaker panel, add a fuse between the solar panel and the controller (see below if it is something you need to add), and between the controller and the battery (as close to the battery as possible). Fuses are sacrificial and protect your electricals from damages caused by overcurrent. Breakers and fuses accomplish the same purpose, and can be used interchangeably.</p>
+<p>In some cases, you may need to add a fuse between the solar panel and the solar controller (see below if it is something you need to add), and between the controller and the battery (as close to the battery as possible). Fuses are sacrificial, and protect your electricals from damages caused by overcurrent.</p>
 
 <p>Here is how to determine whether or not you need fuses between the panel and the MC4 connectors for your solar installation:</p>
 
