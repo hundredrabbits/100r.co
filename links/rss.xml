@@ -11,6 +11,45 @@
 </image>
 
 <item>
+  <title>Summary of changes for February 2023</title>
+  <link>https://100r.co/site/log.html#feb2023</link>
+  <guid isPermaLink='false'>log.html#feb2023</guid>
+  <pubDate>Tue, 28 Feb 2023 09:30:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of February. We'll also be reporting in our on position in the world, and on our future plans.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>    
+    <li><b><a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, added back corrected chapters 1-7 to <a href='https://wiktopher.ca/' target='_blank'>online</a>.</li>
+    <li><b><a href='https://100r.co/site/left.html' target='_blank'>Left</a></b>, made a ton of improvements including a new directory navigation, better navbar labels and performance.</li>
+    <li><b><a href='https://100r.co/site/orca.html' target='_blank'>Orca</a></b>, fixed an issue where copy/paste/drag would move characters off-screen.</li>
+    <li><b><a href='https://git.sr.ht/~rabbits/catclock' target='_blank'>Catclock</a></b>, ported to new opcodes and improved monochromatic mode.</li>
+    <li><b><a href='https://git.sr.ht/~rabbits/beetbug' target='_blank'>Beetbug</a></b>, added an interactive mode that interprets uxntal on the fly.</li>
+    <li><b><a href='https://kokorobot.ca/site/hakum.html' target='_blank'>Hakum</a></b>, added a comic sequence named <a href='https://kokorobot.ca/site/tracking.html' target='_blank'>Tracking</a>.</li>
+    <li><b>100r.co</b>, added updates to <a href='http://100r.co/site/dc_electrical_refit.html#batteryconnections'>battery connections</a>.</li>
+    <li><b><a href='https://100r.co/site/grimgrains.html' target='_blank'>Grimgrains</a></b>, added some notes on <a href='http://grimgrains.com/site/lactofermentation.html#temp' target='_blank'>Temperature for lacto-fermentation</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>On February 14th, we celebrated our 7th year living aboard our beloved Pino. It's also around this time 10 years ago that we were still living in Odaiba(Japan), and beginning our work on what would be our first game collaboration: <a href='https://100r.co/site/oquonie.html' target='_blank'>oquonie</a>.</p>
+
+<p>The <a href='https://100r.co/site/uxn.html' target='_blank'>uxn</a> port of Oquonie has advanced in incredible leaps this month. Rek has finished re-doing all of the assets. Devine is now working on the music, and finalizing some of the levels. We are testing the game as we go, and hope to release it sometime next month. Oquonie will be playable on a number of platforms, including the <a href='https://merveilles.town/@neauoire/109887931570318719' target='_blank'>Nintendo DS</a>(Mastodon), as well as the <a href='../media/content/stream/2023_oquonie.jpg' target='_blank'>Playdate</a>. See a small <a href='https://merveilles.town/@neauoire/109904081987266827' target='_blank'>preview</a>(Mastodon).</p>
+
+<p>Early next month we are traveling to Galiano Island in the Salish Sea for <a href='https://activepassive.ca/index.html' target='_blank'>BioSonic</a>(by ActivePassive). We'll be part of an event series exploring the intersections of music, art and biodiversity. We'll give a talk on March 10th, and Devine will perform with <a href='https://100r.co/site/orca.html' target='_blank'>Orca</a> on the 11th at the Galiano South Hall.</p>
+
+<p>Watch <a href='https://youtu.be/p5mBG1hlDQU' target='_blank'>Devine's set</a> for <a href='https://lovebyte.party/' target='_blank'>Lovebyte 2023</a>.</p>
+
+<h3>Pino book club</h3>
+
+<p>We're reading <b>Courrier Sud</b> by Antoine de Saint-Exupéry.</p>
+
+<p><a href='https://100r.co/site/log.html#feb2023'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for January 2023</title>
   <link>https://100r.co/site/log.html#jan2023</link>
   <guid isPermaLink='false'>log.html#jan2023</guid>
