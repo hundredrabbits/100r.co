@@ -11,6 +11,44 @@
 </image>
 
 <item>
+  <title>Summary of changes for March 2023</title>
+  <link>https://100r.co/site/log.html#mar2023</link>
+  <guid isPermaLink='false'>log.html#mar2023</guid>
+  <pubDate>Fri, 31 Feb 2023 09:30:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of March. We'll also be reporting in our on position in the world, and on our future plans.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>
+    <li><b>{Donsol}</b>, added 100r logo to splash screen on the rom.</li>
+    <li><b>100r.co</b>, added a new page: {diy carbonation system}. Updated {saving fuel}, {engine rebuild} and {sprouting}.</li>
+    <li><b>{grimgrains}</b>, added two new recipes: <a href='http://grimgrains.com/site/beet_sauce_pasta.html'>Beet Sauce Pasta</a>, and <a href='http://grimgrains.com/site/mac_and_faux_cheese.html'>Mac and Faux Cheese</a>.</li>
+  <li><b>{Left}</b>, added all sorts of fun new things like <a href='https://www.youtube.com/watch?v=VqHjfjddQ4U' target='_blank'>routine definition highlight</a> and <a href='https://wiki.xxiivv.com/site/gly_format.html' target='_blank'>graphics support</a>.</li>
+    <li><b><a href='https://kokorobot.ca/site/hakum.html' target='_blank'>Hakum</a></b>, new comics named <a href='https://kokorobot.ca/site/whodidwhat.html' target='_blank'>Who Did What</a> and <a href='https://kokorobot.ca/site/disengaging.html' target='_blank'>Disengaging</a>.</li>
+  <li><b>{Orca}</b>, added <a href='https://llllllll.co/t/orca-livecoding-tool/17689/1838' target='_blank'>$bpm command</a> to the uxn version.</li>
+  <li>The <a href='http://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal documentation</a> got a bit of a revamp based on the feedback from the community, so thanks everyone!</li>
+  <li>Devine has been spending time in the <a href='https://wiki.xxiivv.com/site/interaction_nets.html' target='_blank'>deep-end of the pool</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>We spent the first half of March on Galiano Island in the Salish Sea for <a href='https://activepassive.ca/index.html' target='_blank'>BioSonic</a>(by ActivePassive), an event series exploring the intersections of music, art and biodiversity. On March 10th we gave a talk titled <b>What Are Computers For?</b>, see <a href='https://kokorobot.ca/site/biosonic.html' target='_blank'>the art</a> from the talk. The next day, Devine and <a href='https://www.anjusingh.com/about/' target='_blank'>Anju Singh</a> performed together using {Orca}, with Reylinn on visuals. A video of the perfomance and of the talk will be released soon, in the meantime, see photos of the <a href='../media/content/events/talkbiosonic1.jpg' target='_blank'>talk</a> and of the <a href='../media/content/events/showbiosonic2.jpg' target='_blank'>show</a>, taken by photographer <a href='https://www.daynaszyndrowski.com/' target='_blank'>Dayna Szyndrowski</a>.</p>
+
+<p>We are still working on re-releasing {Oquonie}. We spent the month of March playing the game, finding bugs, and fixing them. Oquonie will be playable next month.</p>
+
+<p>This month we've been experimenting with solar cooking, to try to save on cooking fuel this summer. We are currently making tests, gathering data, and hope to share this with you all end of April. In the meantime, enjoy this <a href='https://www.youtube.com/playlist?list=PLrFxn8U2oUqjVHkMxpondbAI6eywqXXlP' target='_blank'>amazing music</a> by Xsodect, made using {Orca}.</p>
+
+<h3>Pino book club</h3>
+
+<p>We're reading <b> Structure and Interpretation of Computer Programs (SICP)</b> by Harold Abelson, Gerald Jay and Julie Sussman.</p>
+
+<p><a href='https://100r.co/site/log.html#mar2023'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+
+<item>
   <title>Summary of changes for February 2023</title>
   <link>https://100r.co/site/log.html#feb2023</link>
   <guid isPermaLink='false'>log.html#feb2023</guid>
