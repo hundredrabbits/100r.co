@@ -21,23 +21,23 @@
 
 <h2>Summary Of Changes</h2>
 <ul>
-    <li><b>{Donsol}</b>, added 100r logo to splash screen on the rom.</li>
-    <li><b>100r.co</b>, added a new page: {diy carbonation system}. Updated {saving fuel}, {engine rebuild} and {sprouting}.</li>
-    <li><b>{grimgrains}</b>, added two new recipes: <a href='http://grimgrains.com/site/beet_sauce_pasta.html'>Beet Sauce Pasta</a>, and <a href='http://grimgrains.com/site/mac_and_faux_cheese.html'>Mac and Faux Cheese</a>.</li>
-  <li><b>{Left}</b>, added all sorts of fun new things like <a href='https://www.youtube.com/watch?v=VqHjfjddQ4U' target='_blank'>routine definition highlight</a> and <a href='https://wiki.xxiivv.com/site/gly_format.html' target='_blank'>graphics support</a>.</li>
+    <li><b><a href='https://100r.co/site/donsol.html' target='_blank'>Donsol</a></b>, added 100r logo to splash screen on the rom.</li>
+    <li><b>100r.co</b>, added a new page: <a href='https://100r.co/site/diy_carbonation_system.html' target='_blank'>diy carbonation system</a>. Updated <a href='https://100r.co/site/saving_fuel.html' target='_blank'>Saving fuel</a>, <a href='https://100r.co/site/engine_rebuild.html' target='_blank'>Engine rebuild</a> and <a href='https://100r.co/site/sprouting.html' target='_blank'>sprouting</a>.</li>
+    <li><b><a href='https://grimgrains.com' target='_blank'>Grimgrains</a></b>, added two new recipes: <a href='http://grimgrains.com/site/beet_sauce_pasta.html'>Beet Sauce Pasta</a>, and <a href='http://grimgrains.com/site/mac_and_faux_cheese.html'>Mac and Faux Cheese</a>.</li>
+  <li><b><a href='https://100r.co/site/left.html' target='_blank'>Left</a></b>, added all sorts of fun new things like <a href='https://www.youtube.com/watch?v=VqHjfjddQ4U' target='_blank'>routine definition highlight</a> and <a href='https://wiki.xxiivv.com/site/gly_format.html' target='_blank'>graphics support</a>.</li>
     <li><b><a href='https://kokorobot.ca/site/hakum.html' target='_blank'>Hakum</a></b>, new comics named <a href='https://kokorobot.ca/site/whodidwhat.html' target='_blank'>Who Did What</a> and <a href='https://kokorobot.ca/site/disengaging.html' target='_blank'>Disengaging</a>.</li>
-  <li><b>{Orca}</b>, added <a href='https://llllllll.co/t/orca-livecoding-tool/17689/1838' target='_blank'>$bpm command</a> to the uxn version.</li>
-  <li>The <a href='http://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal documentation</a> got a bit of a revamp based on the feedback from the community, so thanks everyone!</li>
-  <li>Devine has been spending time in the <a href='https://wiki.xxiivv.com/site/interaction_nets.html' target='_blank'>deep-end of the pool</a>.</li>
+  <li><b><a href='https://100r.co/site/orca.html' target='_blank'>Orca</a></b>, added <a href='https://llllllll.co/t/orca-livecoding-tool/17689/1838' target='_blank'>$bpm command</a> to the uxn version.</li>
+  <li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, revamped <a href='http://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal documentation</a> based on the feedback from the community (thanks everyone).</li>
+  <li><b>Interaction Nets</b>, spent time in the <a href='https://wiki.xxiivv.com/site/interaction_nets.html' target='_blank'>deep-end of the pool</a>.</li>
 </ul>
 
 <h3>News</h3>
 
-<p>We spent the first half of March on Galiano Island in the Salish Sea for <a href='https://activepassive.ca/index.html' target='_blank'>BioSonic</a>(by ActivePassive), an event series exploring the intersections of music, art and biodiversity. On March 10th we gave a talk titled <b>What Are Computers For?</b>, see <a href='https://kokorobot.ca/site/biosonic.html' target='_blank'>the art</a> from the talk. The next day, Devine and <a href='https://www.anjusingh.com/about/' target='_blank'>Anju Singh</a> performed together using {Orca}, with Reylinn on visuals. A video of the perfomance and of the talk will be released soon, in the meantime, see photos of the <a href='../media/content/events/talkbiosonic1.jpg' target='_blank'>talk</a> and of the <a href='../media/content/events/showbiosonic2.jpg' target='_blank'>show</a>, taken by photographer <a href='https://www.daynaszyndrowski.com/' target='_blank'>Dayna Szyndrowski</a>.</p>
+<p>We spent the first half of March on Galiano Island in the Salish Sea for <a href='https://activepassive.ca/index.html' target='_blank'>BioSonic</a>(by ActivePassive), an event series exploring the intersections of music, art and biodiversity. On March 10th we gave a talk titled <b>What Are Computers For?</b>, see <a href='https://kokorobot.ca/site/biosonic.html' target='_blank'>the art</a> from the talk. The next day, Devine and <a href='https://www.anjusingh.com/about/' target='_blank'>Anju Singh</a> performed together using <a href='https://100r.co/site/orca.html' target='_blank'>Orca</a>, with Reylinn on visuals. A video of the perfomance and of the talk will be released soon, in the meantime, see photos of the <a href='../media/content/events/talkbiosonic1.jpg' target='_blank'>talk</a> and of the <a href='../media/content/events/showbiosonic2.jpg' target='_blank'>show</a>, taken by photographer <a href='https://www.daynaszyndrowski.com/' target='_blank'>Dayna Szyndrowski</a>.</p>
 
-<p>We are still working on re-releasing {Oquonie}. We spent the month of March playing the game, finding bugs, and fixing them. Oquonie will be playable next month.</p>
+<p>We are still working on re-releasing <a href='https://100r.co/site/oquonie.html' target='_blank'>Oquonie</a>. We spent the month of March playing the game, finding bugs, and fixing them. Oquonie will be playable next month.</p>
 
-<p>This month we've been experimenting with solar cooking, to try to save on cooking fuel this summer. We are currently making tests, gathering data, and hope to share this with you all end of April. In the meantime, enjoy this <a href='https://www.youtube.com/playlist?list=PLrFxn8U2oUqjVHkMxpondbAI6eywqXXlP' target='_blank'>amazing music</a> by Xsodect, made using {Orca}.</p>
+<p>This month we've been experimenting with solar cooking, to try to save on cooking fuel this summer. We are currently making tests, gathering data, and hope to share this with you all end of April. In the meantime, enjoy this <a href='https://www.youtube.com/playlist?list=PLrFxn8U2oUqjVHkMxpondbAI6eywqXXlP' target='_blank'>amazing music</a> by Xsodect, made using <a href='https://100r.co/site/orca.html' target='_blank'>Orca</a>.</p>
 
 <h3>Pino book club</h3>
 
