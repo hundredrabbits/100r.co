@@ -1,0 +1,64 @@
+<img src='../media/content/boat_projects/charging_electronics01.jpg' alt='a macbook air charging via a car charger outlet' loading='lazy'>
+
+<p><b>23.04.16<br>Victoria, BC, Canada</b>.</p>
+
+<p>From 2016 to 2023, when at anchor we'd charge smaller electronics with USB ports, and larger ones(laptops) through a small 500W inverter connected to the batteries. This is simple, and fine, but an inverter is an extra layer that we hoped to one day to away with. Today's that day!</p>
+
+<h3>USB-C</h3>
+<p>In 2019 someone donated a Pinebook for us to use. It is a fragile and rather cheap machine, but it doesn't use up a ton of power, and it is possible to charge it via USB-C.</p>
+
+<div class='notice'>Note that many laptops with USB-C ports do not offer charging of their batteries over USB-C. In general, thin, low-power laptops support USB-C charging whether or not they an additional charging port. USB-C is always okay for charging a battery when the system is off or idle, but it may not be possible to charge the battery and to power the system at the same time.</div>
+
+<h3>Car charger outlet</h3>
+<p>Then, in 2021, a friend moved out of his boat and into a van and gave us his old Macbook Air 2013. The Macbook Air cannot be charged via USB-C, but it can be paired with a 12V DC car charger.</p>
+
+<p>Car chargers have been around for a long time, from back when people used them to light cigarettes. The use of cigarette lighter receptacles to supply 12 volt DC power is a good example of backward compatibility to a de facto standard.</p>
+
+<img src='../media/content/boat_projects/charging_electronics04.jpg' alt='a car charger outlet by Blue Sea' loading='lazy'>
+
+<p>We bought a Blue Sea car charger outlet, and then started looking for a car charger adapter. These things are very rare(most post 2014 low-power laptops charge via USB-C now).</p>
+
+<p>We found a 45W adapter for sale on ebay for 40$CAD(it even has a slot for USB). It will convert the battery voltage to the proper input voltage for the laptop directly (DC-DC).</p>
+
+<img src='../media/content/boat_projects/charging_electronics03.jpg' alt='a car charger adapter for a macbook air 2013' loading='lazy'>
+
+<p><b>Adapter specifications:</b></p>
+
+<ul>
+	<li>Output: 14.84V 3.05A</li>
+	<li>USB Port: 5.0V 2.1A</li>
+</ul>
+
+<p>The sockets apply battery voltage to the center contact and ground to the cylinder. 12V devices can be powered by a plug that makes electrical contact with those two points(12V power plugs typically have spring-loaded contacts). Because the contact isn't fixed, it can lose it from time to time, and it is why people nowadays prefer to use inverters or USB-C.</p>
+
+<p>While aware of the shortcomings of this type of outlet, we are going to give it a try. It is the only way to charge an older laptop without using an inverter. </p>
+
+<div class='notice'>Note that we haven't fully tested the car charger yet, we'll report back after October 2023 after a summer of full-time use.</div>
+
+<img src='../media/content/boat_projects/charging_electronics06.jpg' alt='car charger for macbook air 2013' loading='lazy'>
+
+<h3>Installation</h3>
+
+<p>Installing a USB port or a car charger outlet is the same, and it is fairly straightforward. The hardest part is choosing where to make a hole in the wall, a choice that is never easy to make because we'd all prefer our walls to remain unharmed. Using a drill and a hole saw matching the size of the outlet (28.58 mm (1 1⁄8 in) diameter hole), we do the deed and drill out a hunk of flesh(wood).</p>
+
+<p>If installing a charging port outside, it is necessary to apply some sealant around the rim of outlet to keep wetness out. Be aware that they will likely corrode overtime... such is the nature of electronics at sea. Keeping ports inside is a safer option.</p>
+
+<p>Both a USB and car charger outlet stick out quite a bit from the back, so depending on where you plan to put it, it is best to make sure that it can be protected. We repurposed an old 120V outlet cover for this purpose. The only issue with re-using this type of box is that they often rely on the outlet to be fixed onto a wall, they have 4 holes on the inside and none on the outside. We drilled holes in the box from the top so that we could insert long bolts to secure it to the inside of the wall. Depending on the box type, this may be difficult (ours was very thick-walled).</p>
+
+<img src='../media/content/boat_projects/charging_electronics05.jpg' alt='electric set up for usb and car charger outlet' loading='lazy'>
+
+<p>From the outlets, pos and neg wires lead back onto a gang terminal, which in turn, leads back to the breaker panel. We wired both accessories (usb and car charger) on the same 15A breaker.</p>
+
+<img src='../media/content/boat_projects/charging_electronics02.jpg' alt='car charger outlet connection to wiring' loading='lazy'>
+
+<p>Because both outlets will draw a max of ~7.16 Amps (if all ports are in use, including the USB port on the car charger outlet) at a distance of 1.20m(4 ft), we used 2 conduit 16AWG tinned wiring. We'll likely never charger a laptop at the same time as a USB device on the car charger port, and so the draw will only ever be as high as 5.16 Amps. See <a href='https://www.westmarine.com/west-advisor/Marine-Wire-Size-And-Ampacity.html' target='boat_projects'>how to size wiring</a> for a project.</p> 
+
+<p>To connect the wiring to the back of the socket, we used 2 quick-connect female spade terminals. Because we didn't have any heat-shrink spade terminals on hand, we crimped on two regular spade terminals and covered them with a heat shrink sleeve as near to the edge as possible.</p>
+
+<h3>Fuse protection</h3>
+
+<p>Finally, a necessary add-on is fuse protection.</p>
+
+<p>We installed <b>ATC fuse holders</b> on each positive wire. Since the USB outlet draws less we used a 3 Amp ATC fuse, and a 4 amp ATC fuse for the car charger outlet.</p>
+
+<p>The fuse boxed were connected using butt connectors. Depending on the fuse box wiring(may be thicker than 16AWG), you may want to use a butt connector that accepts a different wire size on each end. We usually don't bother doing this because we don't like to carry a variety of connectors, and so we fold back the wire onto itself to get the desired thickness.</p>
