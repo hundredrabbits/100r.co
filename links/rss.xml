@@ -11,6 +11,42 @@
 </image>
 
 <item>
+  <title>Summary of changes for May 2023</title>
+  <link>https://100r.co/site/log.html#may2023</link>
+  <guid isPermaLink='false'>log.html#may2023</guid>
+  <pubDate>Thu, 01 May 2023 09:30:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of May. We'll also be reporting in our on position in the world, and on our future plans.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>
+  <li><b>100r.co</b>, updated {jib_cars} (<a href='../site/jib_cars.html#may2023'>2023.05.08</a>), and added new recommendations on the {offshore checklist}(new entries labelled with dates).</li>
+  <li><b>{Donsol}</b>, <a href='https://asie.pl/' target='_blank'>Asie</a> made some <a href='https://merveilles.town/@neauoire/110305853534721465' target='_blank'>3DS and NDS roms</a>(Mastodon).</li>
+  <li><b>{Wiktopher}</b>, added the revised and corrected version of <a href='http://wiktopher.ca/site/chapter_08.html' target='_blank'>Chapter 8</a>, and <a href='http://wiktopher.ca/site/chapter_09.html' target='_blank'>Chapter 9</a>, back online.</li>
+  <li><b><a href='https://git.sr.ht/~rabbits/uxnbal' target='_blank'>Uxnbal</a></b>, wrote a type-checker, it's still very experimental, but it can infer most imbalancing stack-effects.</li>
+  <li><b><a href='https://git.sr.ht/~rabbits/bicycle' target='_blank'>Bicycle</a></b>, created a little interactive evaluator designed to be a teaching aid.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>Pino is off the dock, and spending time at anchor. The weather has been excellent, and with days of full comes sun solar cooking! We baked some <a href='../media/content/cooking/solar_baguette.jpg' target='_blank'>bread</a>, and roasted some <a href='../media/content/cooking/coffee_solar_01.jpg' target='_blank'>green coffee beans</a> in the sun. We are enjoying some quiet days before we haul the boat out of the water at the start of June.</p>
+
+<p>Devine's talk proposal to <a href='https://thestrangeloop.com/2023/sessions.html' target='_blank'>Strange Loop 2023</a> has been accepted, so parts of the summer will be collecting our notes and writing slides for the presentation in September.</p>
+
+<p>The recording for the show Devine(Alicef) did with <a href='https://www.anjusingh.com/about/' target='_blank'>Anju Singh</a> and <a href='https://www.instagram.com/apex_twink_/' target='_blank'>Reylinn</a>(visuals) last march for Biosonic on Galiano Island is online, watch it <a href='https://youtu.be/ZH9WlqCD61s' target='_blank'>here</a>.</p>
+
+<p>We had a small impromptu logo jam event on Merveilles this month. Members of the community re-interpreted the logo, with illustrations, photo collages, and even food. See <a href='https://garden.bouncepaw.com/hypha/merveilles_logo' target='_blank'>all of the entries</a> so far. Nf just completed <a href='https://github.com/nf/fourtette' target='_blank'>Fourtette</a>, a block game. Devine provided guidance, Rek made the title screen art, and <a href='http://plastic-idolatry.com/erik/' target='_blank'>d6</a> provided music.</p>
+
+<h3>Pino book & movie club</h3>
+
+<p>We went to the theater for the first time in a long time, to see <b>Suzume(2023)</b>. We have also finished reading Saint-Exupery's <b>Courrier Sud</b>.</p>
+
+<p><a href='https://100r.co/site/log.html#may2023' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for April 2023</title>
   <link>https://100r.co/site/log.html#apr2023</link>
   <guid isPermaLink='false'>log.html#apr2023</guid>
