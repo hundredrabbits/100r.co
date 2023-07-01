@@ -11,6 +11,43 @@
 </image>
 
 <item>
+  <title>Summary of changes for July 2023</title>
+  <link>https://100r.co/site/log.html#jul2023</link>
+  <guid isPermaLink='false'>log.html#jul2023</guid>
+  <pubDate>Sat, 01 Jul 2023 06:30:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of June. We'll also be reporting in our on position in the world, and on our future plans.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>
+  <li><b>100r.co</b>, added <a href='https://100r.co/src/site/propeller_maintenance.html' target='_blank'>propeller maintenance</a>, <a href='https://100r.co/src/site/maple_bay.html' target='_blank'>Maple Bay</a>, <a href='https://100r.co/src/site/telegraph_cove.html' target='_blank'>Telegraph Cove</a>, <a href='https://100r.co/src/site/smuggler_cove.html' target='_blank'>Smuggler Cove</a> and <a href='https://100r.co/src/site/princess_louisa_inlet.html' target='_blank'>Princess Louisa Inlet</a>.</li>
+  <li><b><a href='https://100r.co/src/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, added back the revised/corrected version of <a href='http://wiktopher.ca/site/chapter_10.html' target='_blank'>Chapter 10</a>, back online, and Chapter 11 has been corrected but is not yet live.</li>
+  <li><b><a href='https://git.sr.ht/~rabbits/uxnfor' target='_blank'>UxnFor</a></b>, created an uxntal <a href='https://git.sr.ht/~rabbits/uxnfor'>code formatter</a>.</li>
+  <li><b><a href='https://wiki.xxiivv.com/site/bicycle.html' target='_blank'>Bicycle</a></b>, added lots of <a href='https://git.sr.ht/~rabbits/bicycle'>little improvements</a>.</li>
+  <li><b><a href='https://100r.co/src/site/adelie.html' target='_blank'>Adelie</a></b>, added speaker's notes and a pen mode.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>Pino spent the first few days of the month on land, having its bottom re-painted, and its various bits serviced and checked. We took our propeller apart for the first time.</p>
+
+<p>We've added a few write-ups of our travels so far (see above entry with links under 100r.co), but the most significant one is our 46nmi sail up to <a href='https://100r.co/src/site/princess_louisa_inlet.html' target='_blank'>Princess Louisa Inlet</a>, a long fjord on British Columbia's Sunshine Coast, with an incredible gem at the end. It is an amazing, and unique place. We're glad we finally got to go. As we write this, we are in Roscoe Bay on West Redonda Island, tethering off a phone hoisted up the mast (it works quite well).</p>
+
+<p>This summer we are <a href='https://100r.co/src/site/power.html' target='_blank'>power</a> stable. We had issues last year because of parisitic draws due to old wiring (see <a href='https://100r.co/src/site/dc_electrical_refit.html' target='_blank'>DC electrical refit</a>), but now everything is working as it should. We're charging our computers without an inverter, and that too is working out quite well so far (see <a href='https://100r.co/src/site/charging_electronics.html' target='_blank'>charging electronics</a>).</p>
+
+<p>Together, Hikari and Lynn made chibicc-uxn, a c compiler for Uxn, and with it also released a <a href='https://github.com/hikari-no-yume/oneko-uxn' target='_blank'>port</a> of the classic software <a href='https://social.noyu.me/@hikari/statuses/01H46X10WKDGC55ZZ3S4R5KA6X' target='_blank'>Neko</a>(xneko, oneko sakura).</p>
+
+<h3>Pino book & movie club</h3>
+
+<p>We are reading Arkady and Boris Strugatsky's <b>Roadside Picnic</b>. We've been re-watching Kaamelott for the hundredth time.</p>
+
+
+<p><a href='https://100r.co/site/log.html#may2023' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for May 2023</title>
   <link>https://100r.co/site/log.html#may2023</link>
   <guid isPermaLink='false'>log.html#may2023</guid>
