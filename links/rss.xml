@@ -25,7 +25,7 @@
   <li><b><a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, added back the revised/corrected version of <a href='http://wiktopher.ca/site/chapter_10.html' target='_blank'>Chapter 10</a>, back online, and Chapter 11 has been corrected but is not yet live.</li>
   <li><b><a href='https://git.sr.ht/~rabbits/uxnfor' target='_blank'>UxnFor</a></b>, created an uxntal <a href='https://git.sr.ht/~rabbits/uxnfor'>code formatter</a>.</li>
   <li><b><a href='https://wiki.xxiivv.com/site/bicycle.html' target='_blank'>Bicycle</a></b>, added lots of <a href='https://git.sr.ht/~rabbits/bicycle'>little improvements</a>.</li>
-  <li><b><a href='https://100r.co/site/adelie.html' target='_blank'>Adelie</a></b>, added speaker's notes and a pen mode.</li>
+  <li><b><a href='https://100r.co/site/adelie.html' target='_blank'>Adelie</a></b>, added <a href='https://100r.co/site/adelie.html#speaker'>speaker's notes</a> and a pen mode.</li>
 </ul>
 
 <h3>News</h3>
@@ -36,11 +36,11 @@
 
 <p>This summer we are <a href='https://100r.co/site/power.html' target='_blank'>power</a> stable. We had issues last year because of parisitic draws due to old wiring (see <a href='https://100r.co/site/dc_electrical_refit.html' target='_blank'>DC electrical refit</a>), but now everything is working as it should. We're charging our computers without an inverter, and that too is working out quite well so far (see <a href='https://100r.co/site/charging_electronics.html' target='_blank'>charging electronics</a>).</p>
 
-<p>Together, Hikari and Lynn made <a href='' target='_blank'>chibicc-uxn</a>, a c compiler for Uxn, and with it also released a <a href='https://github.com/hikari-no-yume/oneko-uxn' target='_blank'>port</a> of the classic software <a href='https://social.noyu.me/@hikari/statuses/01H46X10WKDGC55ZZ3S4R5KA6X' target='_blank'>Neko</a>(xneko, oneko sakura).</p>
+<p>Together, Hikari and Lynn made <a href='https://github.com/lynn/chibicc' target='_blank'>chibicc-uxn</a>, a c compiler for Uxn, and with it also released a <a href='https://github.com/hikari-no-yume/oneko-uxn' target='_blank'>port</a> of the classic software <a href='https://social.noyu.me/@hikari/statuses/01H46X10WKDGC55ZZ3S4R5KA6X' target='_blank'>Neko</a>(xneko, oneko sakura).</p>
 
 <h3>Pino book & movie club</h3>
 
-<p>We are reading Arkady and Boris Strugatsky's <b>Roadside Picnic</b>. We've been re-watching Kaamelott for the hundredth time.</p>
+<p>We are reading Arkady and Boris Strugatsky's <b>Roadside Picnic</b>. We've been re-watching Kaamelott(the series, book 1 though 6) for the hundredth time.</p>
 
 
 <p><a href='https://100r.co/site/log.html#may2023' target='_blank'>Continue Reading</a></p>]]>

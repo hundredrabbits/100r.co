@@ -122,6 +122,8 @@
     <li><a href='#pict'>Pict</a></li>
     <li><a href='#head'>Head and Text</a></li>
     <li><a href='#links'>Links</a></li>
+    <li><a href='#speaker'>Speaker view</a></li>
+    <li><a href='#speakernotes'>Speaker Notes</a></li>
     <li><a href='#stop'>Stop</a></li>
     <li><a href='#wait'>Wait</a></li>
     <li><a href='#rect'>Rect</a></li>
@@ -334,6 +336,54 @@ LINK 1c,10 Hidden Slide
 STOP
 </pre>
 
+<h2><a id='speaker'>Speaker View</a></h2>
+
+<p>If doing a presentation, pressing <b>SHIFT</b> reveals a timer in the upper left corner, ideal if the presentation has a time limit, and makes visible information about the current and following slide.</p>
+
+<p>In this mode, it is also possible to draw on the slide itself, to add notes, or silly drawings.</p>
+
+<img src='../media/content/projects/adelie_07.jpg' loading='lazy' />
+
+<p>If <b>SHIFT</b> is pressed again, all notes will be erased.</p>
+
+<h2><a id='speakernotes'>Speaker Notes</a></h2>
+
+<p>When making a presentation we like to keep notes for each slide, as a reminder on what to say.</p>
+
+<img src='../media/content/projects/adelie_08.jpg' loading='lazy' />
+
+<p>The notes are visible in the terminal, and change from slide to slide.</p>
+
+<p>Notes ought to be inserted in the same file as the slides, after every slide (following all of the image, text, and position information). We like to add indentations to make the text easier to read.</p>
+
+<p>Example:</p>
+
+<pre>
+NAME [rek] Rek, Dev and Pino
+FILL 03
+GOTO auto
+PICT media/rekdev.tga
+
+  Im Rek, & this is Devine, and together we form the Hundred Rabbits artist collective.
+  Since 2016, we have lived aboard a 10-meter long sailboat, named Pino,
+  We make art, games, books, as well as tools for drawing, writing, composing music.
+    Including this slideshow program.
+
+NAME [rek] boat vivarium
+FILL 03
+GOTO 17,03
+PICT media/pino.tga
+GOTO 0a,12
+MODE 05
+HEAD Boat vivarium
+GOTO 0a,18
+TEXT At sea, a boat is an island.
+
+  With our boat, we have circumnavigated the Pacific Ocean.
+    We started in Western Canada, sailed to Mexico,
+    then across all the South Pacific Islands to NZ,
+</pre>
+
 <h2><a id='stop'>Stop</a></h2>
 
 <p>The <b>STOP</b> command ignores all slide controls.</p>
@@ -453,5 +503,5 @@ WAIT 08
 
 
 
-</main><footer><hr /><span style='float:right'>Edited on Sat Jul 16 13:41:03 2022
+</main><footer><hr /><span style='float:right'>Edited on Sun Jul  2 15:20:42 2023
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/adelie.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2022 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
