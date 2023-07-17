@@ -172,7 +172,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	fputs("<head>", f);
 	fprintf(f,
 		"<meta charset='utf-8'>"
-		"<meta name='thumbnail' content='" DOMAIN "media/services/thumbnail.jpg' />"
+		"<meta name='thumbnail' content='" DOMAIN "media/services/rss.jpg' />"
 		"<meta name='viewport' content='width=device-width,initial-scale=1'>"
 		"<link rel='alternate' type='application/rss+xml' title='RSS Feed' "
 		"href='../links/rss.xml' />"
