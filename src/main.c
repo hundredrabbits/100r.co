@@ -7,7 +7,7 @@
 #include <time.h>
 
 /*
-Copyright (c) 2022 Devine Lu Linvega
+Copyright (c) 2022-2023 Devine Lu Linvega
 
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -86,7 +86,7 @@ fpportal(FILE *f, Lexicon *l, char *s, int head)
 		return error("Missing portal", s);
 	srcpath[0] = 0;
 	filename[0] = 0;
-	scat(scat(scat(srcpath, "inc/"), scpy(s, filename, 64)), ".htm");
+	scat(scat(scat(srcpath, "src/inc/"), scpy(s, filename, 64)), ".htm");
 	if(head)
 		fprintf(f, "<h2 id='%s'><a href='%s.html'>%s</a></h2>", scsw(filename, ' ', '_'), filename, s);
 	fpinject(f, l, srcpath);
@@ -147,7 +147,7 @@ fpindex(FILE *f)
 {
 	struct dirent **d;
 	int n, i = 0;
-	n = scandir("inc", &d, NULL, alphasort);
+	n = scandir("src/inc", &d, NULL, alphasort);
 	if(n < 0)
 		return error("scandir", "failed");
 	fputs("<ul class='col2 capital'>", f);
@@ -202,11 +202,11 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	/* footer */
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);
-	fputs("<b>Hundredrabbits</b> © 2022 — ", f);
+	fputs("<b>Hundredrabbits</b> © 2023 — ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
 	fputs("</footer>", f);
 	/* end */
-	fputs("</body></html>", f);
+	fputs("</body></html>\n", f);
 	return f;
 }
 
@@ -221,11 +221,11 @@ generate(Lexicon *l)
 		filename[0] = 0;
 		/* src */
 		scpy(l->files[i], filename, ssin(l->files[i], ".htm") + 1);
-		scat(srcpath, "inc/");
+		scat(srcpath, "src/inc/");
 		scat(srcpath, filename);
 		scat(srcpath, ".htm");
 		/* dst */
-		scat(dstpath, "../site/");
+		scat(dstpath, "site/");
 		scat(dstpath, filename);
 		scat(dstpath, ".html");
 		fclose(build(fopen(dstpath, "w"), l, scsw(filename, '_', ' '), srcpath));
@@ -248,7 +248,7 @@ index(Lexicon *l, DIR *d)
 	printf("Indexed %d terms\n", l->len);
 	l->refs[l->len] = 0;
 	scpy("index.htm", l->files[l->len++], 128);
-	f = fopen("inc/index.htm", "w");
+	f = fopen("src/inc/index.htm", "w");
 	fpindex(f);
 	fclose(f);
 	return 1;
@@ -269,8 +269,8 @@ main(void)
 	Lexicon lex;
 	DIR *d;
 	lex.len = 0;
-	if(!(d = opendir("inc")))
-		return error("Open", "Missing inc/ folder. ");
+	if(!(d = opendir("src/inc")))
+		return error("Open", "Missing src/inc/ folder. ");
 	if(!index(&lex, d))
 		return error("Indexing", "Failed");
 	if(!generate(&lex))
