@@ -33,9 +33,9 @@ function GoogleMap (payload) {
     const map = new google.maps.Map(element, { center: here, zoom: 7, disableDefaultUI: true })
     map.set('styles', this.style)
 
-    // Add Path
-    const path = new google.maps.Polyline({ path: vertices, geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0, strokeWeight: 2 })
-    path.setMap(map)
+    // // Add Path
+    // const path = new google.maps.Polyline({ path: vertices, geodesic: true, strokeColor: '#FF0000', strokeOpacity: 1.0, strokeWeight: 2 })
+    // path.setMap(map)
 
     // Future
     const futurePath = new google.maps.Polyline({ path: futureVertices, geodesic: true, strokeColor: '#FF0000', strokeOpacity: 0.0, icons: [{ icon: { path: 'M 0,-1 0,1', strokeOpacity: 1, scale: 2 }, offset: '0', repeat: '10px' }] })
@@ -50,7 +50,7 @@ function GoogleMap (payload) {
     }
   }
 
-  function addMarker (map, pos, icon = { path: google.maps.SymbolPath.CIRCLE, strokeColor: 'red', scale: 2, strokeWeight: 0, fillOpacity: 1, fillColor: 'white' }) {
+  function addMarker (map, pos, icon = { path: google.maps.SymbolPath.CIRCLE, strokeColor: 'red', scale: 2, strokeWeight: 0, fillOpacity: 0, fillColor: 'white' }) {
     new google.maps.Marker({ position: pos, icon: icon, draggable: false, map: map })
   }
 }
