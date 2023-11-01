@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' ?><rss version='2.0' xmlns:dc='http://purl.org/dc/elements/1.1/'><channel>
 
-
 <title>Hundred Rabbits</title>
 <link>https://100r.co</link>
 <description>Rek and Devine project updates</description>
@@ -14,7 +13,7 @@
   <title>Summary of changes for October 2023</title>
   <link>https://100r.co/site/log.html#oct2023</link>
   <guid isPermaLink='false'>log.html#oct2023</guid>
-  <pubDate>Thu, 01 nov 2023 06:30:00 GMT</pubDate>
+  <pubDate>Wed, 01 nov 2023 06:30:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of October. We'll also be reporting in our on position in the world, and on our future plans.</p>
@@ -49,7 +48,7 @@
   <title>Summary of changes for September 2023</title>
   <link>https://100r.co/site/log.html#sep2023</link>
   <guid isPermaLink='false'>log.html#sep2023</guid>
-  <pubDate>Sat, 02 Sep 2023 06:30:00 GMT</pubDate>
+  <pubDate>Mon, 02 Oct 2023 06:30:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of September. We'll also be reporting in our on position in the world, and on our future plans.</p>
@@ -120,7 +119,7 @@
   <title>Summary of changes for July 2023</title>
   <link>https://100r.co/site/log.html#jul2023</link>
   <guid isPermaLink='false'>log.html#jul2023</guid>
-  <pubDate>Tue, 01 Aug 2023 06:30:00 GMT</pubDate>
+  <pubDate>Sat, 01 jul 2023 06:30:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of July. We'll also be reporting in our on position in the world, and on our future plans.</p>
@@ -155,7 +154,7 @@
   <title>Summary of changes for June 2023</title>
   <link>https://100r.co/site/log.html#jun2023</link>
   <guid isPermaLink='false'>log.html#jun2023</guid>
-  <pubDate>Sat, 01 Jun 2023 06:30:00 GMT</pubDate>
+  <pubDate>Thu, 01 Jun 2023 06:30:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of June. We'll also be reporting in our on position in the world, and on our future plans.</p>
@@ -192,16 +191,16 @@
   <title>Summary of changes for May 2023</title>
   <link>https://100r.co/site/log.html#may2023</link>
   <guid isPermaLink='false'>log.html#may2023</guid>
-  <pubDate>Thu, 01 May 2023 09:30:00 GMT</pubDate>
+  <pubDate>Mon, 01 May 2023 09:30:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of May. We'll also be reporting in our on position in the world, and on our future plans.</p>
 
 <h2>Summary Of Changes</h2>
 <ul>
-  <li><b>100r.co</b>, updated {jib_cars} (<a href='../site/jib_cars.html#may2023'>2023.05.08</a>), and added new recommendations on the {offshore checklist}(new entries labelled with dates).</li>
-  <li><b>{Donsol}</b>, <a href='https://asie.pl/' target='_blank'>Asie</a> made some <a href='https://merveilles.town/@neauoire/110305853534721465' target='_blank'>3DS and NDS roms</a>(Mastodon).</li>
-  <li><b>{Wiktopher}</b>, added the revised and corrected version of <a href='http://wiktopher.ca/site/chapter_08.html' target='_blank'>Chapter 8</a>, and <a href='http://wiktopher.ca/site/chapter_09.html' target='_blank'>Chapter 9</a>, back online.</li>
+  <li><b>100r.co</b>, updated <a href='https://100r.co/site/jib_cars.html#may2023' target='_blank'>jib cars</a>, and added new recommendations on the {offshore checklist}(new entries labelled with dates).</li>
+  <li><b><a href='https://100r.co/site/donsol.html' target='_blank'>Donsol</a></b>, <a href='https://asie.pl/' target='_blank'>Asie</a> made some <a href='https://merveilles.town/@neauoire/110305853534721465' target='_blank'>3DS and NDS roms</a>(Mastodon).</li>
+  <li><b><a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, added the revised and corrected version of <a href='http://wiktopher.ca/site/chapter_08.html' target='_blank'>Chapter 8</a>, and <a href='http://wiktopher.ca/site/chapter_09.html' target='_blank'>Chapter 9</a>, back online.</li>
   <li><b><a href='https://git.sr.ht/~rabbits/uxnbal' target='_blank'>Uxnbal</a></b>, wrote a type-checker, it's still very experimental, but it can infer most imbalancing stack-effects.</li>
   <li><b><a href='https://git.sr.ht/~rabbits/bicycle' target='_blank'>Bicycle</a></b>, created a little interactive evaluator designed to be a teaching aid.</li>
 </ul>
@@ -228,7 +227,7 @@
   <title>Summary of changes for April 2023</title>
   <link>https://100r.co/site/log.html#apr2023</link>
   <guid isPermaLink='false'>log.html#apr2023</guid>
-  <pubDate>Mon, 01 May 2023 09:30:00 GMT</pubDate>
+  <pubDate>Sat, 01 April 2023 09:30:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
 <![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of April. We'll also be reporting in our on position in the world, and on our future plans.</p>
@@ -1423,3 +1422,4 @@ https://git.sr.ht/~rabbits/uxn-playdate' target='_blank'>Playdate implementation
   </description>
 </item>
 </channel></rss>
+<atom:link href="http://100r.co/rss.xml" rel="self" type="application/rss+xml" />
