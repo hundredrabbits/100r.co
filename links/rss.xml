@@ -11,6 +11,41 @@
 </image>
 
 <item>
+  <title>Summary of changes for October 2023</title>
+  <link>https://100r.co/site/log.html#oct2023</link>
+  <guid isPermaLink='false'>log.html#oct2023</guid>
+  <pubDate>Thu, 02 oct 2023 06:30:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone! This is the list of all the changes we've done to our projects and apps during the month of October. We'll also be reporting in our on position in the world, and on our future plans.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>
+  <li><b><a href="https://100r.co/site/thousand_rooms.html">Thousand Rooms</a></b>, added a Brazilian Portuguese version.</li>
+  <li><b><a href='https://kokorobot.ca/site/wunderland_rabbits.html' target='_blank'>Wunderland Rabbits</a></b>, traveled to a <a href='https://kokorobot.ca/media/content/project/wunderland/wunderland.11.full.jpg' target='_blank'>botanical garden</a>, and went to <a href='https://kokorobot.ca/media/content/project/wunderland/wunderland.10.full.jpg' target='_blank'>pick apples</a>.</li>
+  <li><b><a href="https://git.sr.ht/~rabbits/uxn5/" target="_blank">Uxn5</a></b>, <a href="https://alexw.nyc" target="_blank">Alex W.</a> is writing a <a href="https://git.sr.ht/~rabbits/uxn5/" target="_blank">Vanilla JS</a> implementation, in which you can <a href="https://merveilles.town/@neauoire/111303032307412150" target="_blank">drag roms into the window</a>(Mastodon) to play them. <a href="http://plastic-idolatry.com/erik/" target="_blank">Eiríkr</a> wrote an guide on how to use  <a href="http://wiki.xxiivv.com/site/uxntal_signed" target="_blank">signed numbers</a>.</li>
+  <li><b><a href="https://kokorobot.ca/site/hakum.html" target="_blank">Hakum</a></b>, added <a href="https://kokorobot.ca/site/night_terror.html" target="_blank">3 pages</a>.</li>
+  <li><b>100r.co</b>, added 3 travel maps in <a href="https://100r.co/site/western_canada.html" target="_blank">Western Canada</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>This month <a href='https://merveilles.town/@ritualdust/111191488456801990' target='_blank'>we got tattooed</a>(Mastodon) by the very talented <a href='https://ritualdust.com/' target='_blank'>Lizbeth</a>. Check out her <a href='https://merveilles.town/@ritualdust/111191488456801990' target='_blank'>tattoo art</a>.</p>
+
+<p>Devine's <a href='https://thestrangeloop.com' target='_blank'>Strange Loop 2023</a> talk was released online, watch it <a href='https://www.youtube.com/watch?v=T3u7bGgVspM&feature=youtu.be' target='_blank'>here</a>(YouTube). We also released the talk as a text version, {Computing and sustainability}, for those who prefer to read. We talked with the members of <a href="https://frugarilla.fr/" target="_blank">Frugarilla</a> on their <a href='https://soundcloud.com/numeriques-essentiels/episode-9' target='_blank'>latest podcast</a>(French), in which we finally admit that our whole thing is a sneaky way of getting programmers interested in food preservation.</p>
+
+<p>Every year we carve <a href="https://100r.co/site/halloween_pumpkins.html" target="_blank">halloween pumpkins</a>, this year we made a <a href="https://100r.co/site/media/content/inventory/pumpkin_uxn_01.jpg" target="_blank">Uxn pumpkin</a>!</p>
+
+<p>See <a href="https://100r.co/site/oquonie.html" target="_blank">Oquonie</a> running on a <a href="https://merveilles.town/@consumtariat/111194557961333890" target="_blank">linux handheld</a>(Mastodon).</p>
+
+<h3>Pino book club</h3>
+
+<p>We are reading Selma Lagerlöf's <b>The Wonderful Adventures of Nils</b>.</p>
+<p><a href='https://100r.co/site/log.html#oct2023' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for September 2023</title>
   <link>https://100r.co/site/log.html#sep2023</link>
   <guid isPermaLink='false'>log.html#sep2023</guid>
