@@ -72,7 +72,7 @@ fpedited(FILE *f, char *path)
 	stat(path, &attr);
 	fputs("<span style='float:right'>", f);
 	fprintf(f, "Edited on %s ", ctime(&attr.st_mtime));
-	fprintf(f, "<a href='" SOURCE "/src/%s'>[edit]</a><br/>", path);
+	fprintf(f, "<a href='" SOURCE "/%s'>[edit]</a><br/>", path);
 	fputs("</span>", f);
 }
 
