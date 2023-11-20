@@ -98,13 +98,14 @@ int
 fptemplate(FILE *f, Lexicon *l, char *s)
 {
 	int target;
+	char raw[64];
 	if(s[0] == '/')
 		return fpportal(f, l, s + 1, 1);
 	target = findf(l, s);
 	if(target < 0)
 		return error("Missing link", s);
-	fprintf(f, "<a href='%s.html' class='local'>", scsw(stlc(s), ' ', '_'));
-	fprintf(f, "%s</a>", scsw(stlc(s), '_', ' '));
+	scpy(s, raw, 64);
+	fprintf(f, "<a href='%s.html' class='local'>%s</a>", scsw(stlc(s), ' ', '_'), raw);
 	l->refs[target]++;
 	return 1;
 }
