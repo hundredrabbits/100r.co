@@ -59,10 +59,10 @@ main .project p { padding:0px; margin-top: 0px; margin-bottom: 30px; }
 main .project img { display: block; max-width: 100%; }
 
 main .button { background-color: #000;border: 2px solid white;color: white;padding: 13px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;border-radius: 200px;font-weight: bold; margin-right: 15px; margin-bottom: 30px;}
-main .button:hover { background-color: #333 !important; color: white; }
+main .button:hover { background-color: #333 !important; color: white; cursor:pointer;  }
 main .button small { color:black }
 main .button.patreon { border-color: #e75942}
-main .button.patreon:hover { background: #e75942 !important}
+main .button.patreon:hover { background: #e75942 !important; cursor:pointer;}
 
 body select { color: black; margin-bottom: 20px }
 main table.drpdown { padding-bottom: 15px; font-size: 18px}
