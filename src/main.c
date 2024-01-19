@@ -203,7 +203,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	/* footer */
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);
-	fputs("<b>Hundredrabbits</b> © 2023 — ", f);
+	fputs("<b>Hundredrabbits</b> © 2024 — ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
 	fputs("</footer>", f);
 	/* end */
