@@ -10,6 +10,41 @@
 </image>
 
 <item>
+  <title>Summary of changes for January 2024</title>
+  <link>https://100r.co/site/log.html#jan2024</link>
+  <guid isPermaLink='false'>log.html#jan2024</guid>
+  <pubDate>Thu, 01 feb 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of January.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>
+  <li><b><a href="https://100r.co">100r.co</a></b>, added <a href="https://100r.co/site/galley_refit.html" target="_blank">galley refit</a>, updated <a href="https://100r.co/site/lifelines.html#dec2023">lifelines</a>, <a href="making_seamed_box_cushions.html#trapezoid">seamed box cushions</a>, and <a href="https://100r.co/site/moisture_prevention_underliner.html">moisture prevention underliner</a>.</li>
+  <li><b><a href="http://wiki.xxiivv.com/site/permacomputing.html" target="_blank">Permacomputing</a></b>, revamped the page.</li>
+  <li><b><a href="https://git.sr.ht/~rabbits/uxn-games/tree/main/item/flap/flap.tal">Flappy Bird</a></b>, released an {Uxn} version of the Flappy Bird game.</li>
+  <li><a href="https://100r.co/site/grimgrains.html" target="_blank">Grimgrains</a>, released a new basic recipe: <a href="https://grimgrains.com/site/whole_wheat_pancakes.html" target="_blank">Whole Wheat Pancakes</a>.</li>
+  <li><b><a href="https://soundcloud.com/neauoire" target="_blank">Aliceffekt</a></b>, Devine wrote some new music. </li>
+</ul>
+
+<p>On January 10th the forge that we use to host our projects was taken down by DDoS attacks and was struggling to come back online(it's back now, read the <a href="https://sourcehut.org/blog/2024-01-19-outage-post-mortem/" target="_blank">post-mortem</a>), the event reminded us that we ought to host mirrors and release versions of these source files ourselves. We have begun to <a href="http://wiki.xxiivv.com/etc/" target="_blank">host copies</a> across our various websites. The builds are still accessible through <a href="https://hundredrabbits.itch.io/" target="_blank">itch.io</a>. These will be automatically updated as we work on them in their individual repositories, but mirrored there for reliability. We are thankful for Sourcehut's tireless work on resolving the issue and for taking the time to communicate important changes.</p>
+
+<p>In keeping with the spirit of improving the resilience of the tools we use we've taken a moment to write a kind of pocket version of the console emulator and <a href="http://wiki.xxiivv.com/site/drifblim.html" target="_blank">self-hosted assembler</a> as to see how many lines are needed to start from the seed assembler and replicate it. A copy of the pocket emulator, the source for the assembler and its hexadecimal representation have been <a href="http://wiki.xxiivv.com/site/uxn.html" target="_blank">documented</a>.</p>
+
+<p>On January 17th <a href="https://100r.co/site/victoria.html" target="_blank">Victoria</a> got its first <a href="https://100r.co/media/content/stream/2024_snow.jpg" target="_blank">snowfall</a>, with it came temperatures below freezing. We got to test our recent improvements, like a new <a href="https://100r.co//media/content/boat_projects/vent.jpg" target="_blank">louvered closet vent</a> to help ventilate the space(there are also two existing vents at the top, one on each side). The closet has been dry for the first time in 3 years. We've made an effort not to keep too many items on the floor so the area can breathe. We got ice inside of the windows for the first time ever though... not ideal.</p>
+
+<p>Devine has been writing some new music this month.
+
+<p>See {Uxn} running on a <a href="https://loutre.info/@Hiro/111784989319495175" target="_blank">Zaurus Husky</a>(Mastodon).</p>
+
+<h3>Pino book club</h3>
+
+<p>This month we are reading <b>The Haunting of Hill House</b> by Shirley Jackson.</p>
+<p><a href='https://100r.co/site/log.html#jan2024' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for December 2023</title>
   <link>https://100r.co/site/log.html#dec2023</link>
   <guid isPermaLink='false'>log.html#dec2023</guid>
