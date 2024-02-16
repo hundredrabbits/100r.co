@@ -23,6 +23,9 @@ main > h4 { font-size:35px; text-transform: capitalize}
 main p { line-height: 25px; font-size:16px; margin-top: 0px; }
 main > ul { line-height: 25px;}
 
+figure {margin:0; padding-bottom: 20px}
+figcaption {font-size: 14px;padding: 2px}
+
 svg.sprite { width:20px; height:20px; margin-bottom:0px }
 .empty { background:#efefef; }
 .bg0 { background:white; color:black; }
