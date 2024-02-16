@@ -205,6 +205,8 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	fpedited(f, srcpath);
 	fputs("<b>Hundredrabbits</b> © 2024 — ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
+	fputs("<a href='https://merveilles.town/@neauoire' rel='me' class='hidden'></a>", f);
+	fputs("<a href='https://merveilles.town/@rek' rel='me' class='hidden'></a>", f);
 	fputs("</footer>", f);
 	/* end */
 	fputs("</body></html>\n", f);
