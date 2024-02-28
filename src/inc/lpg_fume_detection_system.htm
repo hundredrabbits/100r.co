@@ -2,28 +2,17 @@
 
 <img src='../media/content/boat_projects/electro_systems_panel.jpg' alt='an electro systems lpg control panel installed on a sailboat bulkhead' loading='lazy' />
 
-<p>The GS/5 propane leak detector failed today, we couldn't use it switch the solenoid on. It showed other signs of failure before this. Sometimes, switching on the solenoid by way of the panel would make it turn on and off really fast, which could only be resolved by turning it off, and on again.</p>
+<p>The GS/5 propane leak detector failed today, we couldn't use it switch the solenoid on (switches no longer responsive). It showed other signs of failure before this, at times switching on the solenoid by way of the panel would make it turn on and off really fast, which could only be resolved by turning it off, and on again.</p>
 
-<p>We decided to keep the solenoid in line and to bypass the propane detector panel entirely, wiring the solenoid to the breaker switch. That way, the solenoid could be turned on and off from inside using that switch. The result was that the solenoid would get very hot, affecting its neighboring components—this wasn't ideal.</p>
+<p>We decided to keep the solenoid in line and to bypass the propane detector panel entirely, wiring the solenoid to the breaker switch. That way, the solenoid could be turned on and off from inside using that switch. The result was that the solenoid would get very hot, and stay hot, affecting its neighboring components—this wasn't ideal.</p>
 
-<p>We decided to remove the inline solenoid for now, until we can replace the propane detector panel in the fall. We also plan to get another solenoid as backup, in case all of the recent happenings have messed up our current one(it's new from last year). For now, the tank goes through the pressure gauge, the two-stage regulator, and then to the stove. We open the tank valve to use the stove, and close it as soon as we are finished(for safety). This is far from ideal, but given that we aren't close to any city at the moment, it'll have to do. In any case, we've cut down a lot on our LPG cooking this summer because of {solar cooking}.</p>
+<p>We decided to remove the inline solenoid for now, until we can replace the propane detector panel in the fall. We also plan to get another solenoid as a backup, in case all of the recent happenings have messed up our current one(it's new from last year). For now, the tank goes through the pressure gauge, the two-stage regulator, and then to the stove. We open the tank valve to use the stove, and close it as soon as we are finished(for safety). This is far from ideal, but given that we aren't close to any city at the moment, it'll have to do. In any case, we've cut down a lot on our LPG cooking this summer because of {solar cooking}.</p>
 
 <p>We ought to have replaced the panel when we made the initial {lpg refit}, that was a mistake.</p>
 
 <p><b><a id="feb2024">2024.02.15</a><br>Victoria, BC</b></p>
 
-<h3>How Solenoids Work</h3>
-
-<p>A solenoid is an electrically-controlled valve, it convers electrical energy into mechanical energy, it permits for remote, and autonomous operation of the valve. In a sailboat LPG system, the controller is placed inside the cabin and the valve is operated remotely from there, without having to physically open the tank outside. Some controllers are equipped with automatic shut-offs, triggered by a sniffer when detecting leaks in a system which will send a signal back to the controller to automatically turn the valve off.</p>
-
-<p>When the correct button on a controller is pressed, the controller sends a signal to the valve to open. There two types of valves, <b>Always Open</b> and <b>Always Closed</b>. In LPG systems, "always closed" valves are required.</p>
-
-<figure>
-<img src='../media/content/boat_projects/how_solenoids_work.jpg' loading='lazy'>
-<figcaption>Screenshot from <a href="https://youtu.be/BbmocfETTFo?si=m_g5PL3e2kGSLAoi" target="_blank">Solenoid Basics Explained</a>(YouTube) by <a href="https://theengineeringmindset.com/" target="_blank">The Engineering Mindset</a>.</figcaption>
-</figure>
-
-<p>With <b>Always Closed</b> valves, the passage of gas is blocked by default by a plunger with a spring forcing it into a closed position. The plunger and spring are centered, and contained within a large copper coil. When current is applied to a straight wire, the magnetic field moves in a circular pattern around the wire, but when the wire is shaped into a coil the magnetic field intensifies and is concentrated in the center. This magnetic field causes the metal plunger, attracted by the pull of magnetic field, to slide upward against the spring, opening the valve and allowing the gas to pass. When the current is turned off, the magnetic field collapses and the spring forces the plunger back into its original closed position.</p>
+{/how lpg solenoids work}
 
 <p>The solenoid we have uses 1 A of current, it will get warm when first turned on but should cool down after a while. A solenoid in an LPG system is designed to be turned on when you want to cook, and then turned off again immediately when you are done. If kept on, it will continue to draw power. If the goal is to keep a solenoid on more often(depending on usage), consider installing a <a href="https://sprinter-source.com/forums/index.php?threads/68288/" target="_blank">12V-5V buck converter</a>(Forum), or <a href="https://www.youtube.com/watch?v=Xdo3LK4qJS4" target="_blank">dissipating the energy as heat</a>(YouTube) with series resistor.</p>
 
@@ -41,7 +30,9 @@
 
 <p>We installed the sensor(sniffer) near the burner, on the floor in a spot protected from physical damage. LPG is heavier than air and will fall or settle if released. We installed ours on the side wall, near the floor. Our other sniffer was placed in the bilge, very far from the stove. We are not sure why the former owners thought that this was a smart place to put it, maybe because it's near the lowest point on board, where the gas might gather if there's a leak. Our thinking is that if the gas is allowed to reach that point, we're already in trouble</p>
 
-<p>Routing wires on a boat is never fun. The wire for the sniffer goes under the sink, under the galley floor, through the engine room, then up through another space to get to the control panel. It's important to note that the sensor draws power when the panel is left on. The detector will ring an alarm when fumes reach 18-20% LEL(Lower Explosive Limit, defined as the lowest concentration, by %, of a gas or vapor in the air that is capable of producing a flash of fire in the presence of an ignition source)s.</p>
+<p>Routing wires on a boat is never fun. The wire for the sniffer goes under the sink, under the galley floor, through the engine room, then up through another space to get to the control panel. It's important to note that the sensor draws power when the panel is left on. The detector will ring an alarm when fumes reach 18-20% LEL.</p>
+
+<q>Lower Explosive Limit(LEL) is defined as the lowest concentration, by %, of a gas or vapor in the air that is capable of producing a flash of fire in the presence of an ignition source.</q>
 
 <h3>Control Panel</h3>
 
