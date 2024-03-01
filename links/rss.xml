@@ -10,6 +10,39 @@
 </image>
 
 <item>
+  <title>Summary of changes for February 2024</title>
+  <link>https://100r.co/site/log.html#feb2024</link>
+  <guid isPermaLink='false'>log.html#feb2024</guid>
+  <pubDate>Fri, 01 Mar 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of February.</p>
+
+<h2>Summary Of Changes</h2>
+<ul>
+  <li><b>100r.co</b>, added <a href="https://100r.co/site/gimballed_stove.html">gimballed stove</a>, <a href="https://100r.co/site/open_pantry.html">open pantry</a>, <a href="https://100r.co/site/little_ninj.html">Little Ninj</a> and <a href="https://100r.co/site/lpg_fume_detection_system.html">LPG fume detection system</a>. Updated <a href="https://100r.co/site/galley_refit.html">galley refit</a> and <a href="https://100r.co/site/western_canada.html">Western Canada</a>(includes tidal/current resources).</li>
+  <li><b><a href="https://100r.co/site/uxn.html">Uxn</a></b>, with the help of the community, we defined a <a href='https://lists.sr.ht/~rabbits/uxn/%3C2ead8c73-a3f9-4ded-80b9-96a80d06d688%40100r.co%3E' target='_blank'>specification</a> on how labels and sublabels should be nested into each other. Assemblers were updated to reflect that change, including the <a href='https://wiki.xxiivv.com/etc/uxnrepl/' target='_blank'>Uxn REPL</a>.</li>
+  <li><b><a href="https://100r.co/site/left.html">Left</a></b>, added <a href="https://wiki.xxiivv.com/site/utf8.html" target="_blank">accented latin characters</a> support, so you can read and write French and Spanish text files.</li>
+  <li><b><a href="https://xxiivv.com/site/potato" target="_blank">Potato</a></b>, released a final version, added a <a href="https://merveilles.town/@neauoire/111973239737050713" target="_blank">screensaver</a>(Mastodon).</li>
+  <li><b><a href="https://kokorobot.ca/site/ruler_of_the_taiga.html" target="_blank">Hakum</a></b>, finished <a href="https://kokorobot.ca/site/ruler_of_the_taiga.html" target="_blank">Ruler of the Taiga</a>.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>Late last month we started re-modeling part of our galley, the work is now complete! It's subtle, but the splash image for the log now includes the re-design. We will test our new galley when we go out cruising.</p>
+
+<p>Pino will be adventuring a bit more north this summer, we're planning to explore the north coast of British Columbia, all the way to Prince Rupert, or possibly Ketchikan(AK), areas with little to no cell coverage. How far we go depends on what we find on the way. If the seas and winds are kind, and if we have time, we might go farther. We spend our days studying charts, gathering supplies, and fixing up the boat to make sure the passage is safe and pleasant. More updates on our plans soon!</p>
+
+<p>Want to see something cool? Xsodect made <a href="https://layer8.space/@vacuumbeef/111908425456442451" target="_blank">Tetris</a>(Mastodon) in <a href="https://100r.co/site/orca.html">Orca</a>.</p>
+
+<h3>Pino book & movie club</h3>
+
+<p>This month we watched The Race to Alaska Movie.</p>
+<p><a href='https://100r.co/site/log.html#feb2024' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for January 2024</title>
   <link>https://100r.co/site/log.html#jan2024</link>
   <guid isPermaLink='false'>log.html#jan2024</guid>
