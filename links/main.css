@@ -41,7 +41,7 @@ main hr { border:1px; clear:both; }
 
 main > ul.jump { columns:2; line-height: 20px}
 main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
-main img.medium { max-width: 300px; padding-right: 15px}
+main img.medium { max-width: 300px; padding: 10px}
 main img.normal { max-width: 192px;}
 main img.sm { max-width: 88px}
 
