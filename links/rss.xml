@@ -10,6 +10,42 @@
 </image>
 
 <item>
+  <title>Summary of changes for March 2024</title>
+  <link>https://100r.co/site/log.html#mar2024</link>
+  <guid isPermaLink='false'>log.html#mar2024</guid>
+  <pubDate>Mon, 01 Apr 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of March.</p>
+
+<img src="https://100r.co/media/content/videos/march_2024.jpg" loading="lazy">
+
+<h2>Summary Of Changes</h2>
+
+<ul>
+  <li><b>100r.co</b>, added <a href="https://100r.co/site/chainplates.html" target="_blank">chainplates</a>, <a href="https://100r.co/site/knots.html" target="_blank">knots</a>, <a href="https://100r.co/site/washing_dishes.html" target="_blank">washing dishes</a>, <a href="https://100r.co/site/receiving_mail.html" target="_blank">receiving mail</a>, updated our notes on <a href="https://100r.co/site/diy_carbonation_system.html" target="_blank">diy carbonation system</a>, and <a href="https://100r.co/site/refrigeration.html" target="_blank">refrigeration</a>.</li>
+  <li><b><a href="https://100r.co/site/uxn.html" target="_blank">Uxn</a></b>, added <a href="https://lists.sr.ht/~rabbits/uxn/%3C6a8207b3-9261-4a1a-9850-6ed56a6540c5%40100r.co%3E" target="_blank">2 new commands</a> to Varvara's System/expansion port and rewrote uxnasm.</li>
+  <li><b>Some toys</a></b>, made a two-player implementation of <a href="https://merveilles.town/@neauoire/112147254470345655" target="_blank">Pong</a>, and an <a href="https://merveilles.town/@neauoire/112028761735298073" target="_blank">orca that follows the cursor</a> like that old classic flash web toy.</li>
+  <li><b><a href="https://100r.co/site/left.html" target="_blank">Left</a></b>, improved the <a href="https://merveilles.town/@neauoire/112067416270979772" target="_blank">object inspector</a>, it's much prettier now!</li>
+  <li><b><a href="https://kokorobot.ca" target="_blank">Kokorobot</a></b> has a new splash page.</li>
+</ul>
+
+<h3>News</h3>
+
+<p>Pino now has all-new chainplates! We removed the original ones earlier this month to inspect them and found some pit corrosion(as well as a small crack), replacing them was necessary. With the chainplates gone, we removed the entire starboard side cabinet to see what was behind it—it's always nice to see parts of our boat we've never seen. We also replaced 3 old halyards on Pino. Devine earned themself a couple of blisters <a href="https://100r.co/media/content/boat_projects/dyneema_halyard_splice.jpg" target="_blank">splicing dyneema</a> onto some of our existing halyards.</p>
+
+<p>Sejo revisited the <a href="https://compudanzas.net/maintenance_practice.html" target="_blank">Uxn tutorial</a>, and appended corrections. The most important change is that the tutorial is now targeting the <a href="https://metasyn.srht.site/learn-uxn/" target="_blank">learn-uxn platform</a>(online) maintained by <a href="https://metasyn.pw/" target="_blank">metasyn</a>. Now, people can jump right in and experiment without having to set up a dev environment. Tsoding, someone who can code in front of the camera in a language they've never used or read the docs for, did a pretty funny session in Uxntal, you can watch it <a href='https://www.youtube.com/watch?v=d41KIL4cjQM' target="_blank">here</a>.</p>
+
+<p>There has been too many exciting Uxn projects coming out these past few days, so we'll just put <a href='https://merveilles.town/tags/uxn' target="_blank">a link to the hashtag</a>. Someone also created a <a href='https://discord.gg/QKapkAxsg9' target="_blank">Discord channel</a>, it's a good place to learn about other concatenative languages and an alternative for people who have trouble with #uxn, in <b>irc.libera.chat</b>.</p>
+
+<h3>Pino book & movie club</h3>
+
+<p>This month we watched Tenet.</p>
+<p><a href='https://100r.co/site/log.html#mar2024' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for February 2024</title>
   <link>https://100r.co/site/log.html#feb2024</link>
   <guid isPermaLink='false'>log.html#feb2024</guid>
