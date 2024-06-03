@@ -9,6 +9,39 @@
 <link>https://100r.co</link>
 </image>
 
+<item>
+  <title>Summary of changes for May 2024</title>
+  <link>https://100r.co/site/log.html#may2024</link>
+  <guid isPermaLink='false'>log.html#may2024</guid>
+  <pubDate>Mon, 03 Jun 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of May.</p>
+
+<img src="https://100r.co/media/content/videos/may_2024.jpg" loading="lazy">
+
+<h2>Summary Of Changes</h2>
+<ul>
+  <li><b>100r.co</b>, added <a href="https://100r.co/site/frances_bay.html">Frances Bay</a>, <a href="https://100r.co/site/yuculta_and_dent_rapids.html">Yuculta and Dent Rapids</a>, <a href="https://100r.co/site/shoal_bay.html">Shoal Bay</a>, <a href="https://100r.co/site/port_neville.html">Port Neville</a>, <a href="https://100r.co/site/telegraph_cove.html">Telegraph Cove</a>, <a href="https://100r.co/site/port_mcneill.html">Port McNeill</a>, <a href="https://100r.co/site/fury_cove.html">Fury Cove</a>, <a href="https://100r.co/site/prince_rupert.html">Prince Rupert</a>, <a href="https://100r.co/site/bc_north_coast_anchorages.html">B.C. north coast anchorages</a>, <a href="https://100r.co/site/us_se_alaska.html">US Southeast Alaska</a> and <a href="https://100r.co/site/united_states.html">United States</a>.</li>
+  <li><b><a href="https://100r.co/site/paradise.html">Paradise</a></b>, implemented paradise <a href='https://git.sr.ht/~rabbits/parade/tree/main/item/src/paradise.modal' target='_blank'>in Modal</a>.</li>
+  <li><b><a href="https://git.sr.ht/~rabbits/uxn-utils/tree/main/item/gui/notepad" target="_blank">Note Pad</a></b>, added <a href='https://merveilles.town/@neauoire/112528189068328657' target='_blank'>pen tool and line styles</a>.</li>
+  <li><b><a href="https://git.sr.ht/~rabbits/oekaki" target="_blank">Oekaki</a></b>, rect tool uses brush settings.</li>
+  <li><b><a href="https://100r.co/site/adelie.html">Adelie</a></b>, tga images are now dithered.</li>
+  <li><b><a href="https://100r.co/site/left.html">Left</a></b>, fixed issue for non-qwerty keyboards.</li>
+</ul>
+
+<p>We spent this month moving northward through both southern and northern British Columbia. We've been moving almost every day, stopping every night to anchor, sleep and recuperate. Sailing near land is not as relaxing as sailing offshore, this reef-strewn coast requires careful navigation. We've had many long days of endless tacking from one side of the channel to the other, almost all the way to Port McNeill, then after that we started to get more weather from the south for some mostly pleasant, but cold and rainy, downwind sailing. We've been using our woodstove a lot, in evenings it helps warm the boat after a long sail.</p>
+
+<p>On May 29th, 623 nautical miles miles after leaving Victoria, we arrived in Prince Rupert, our last major port in British Columbia before we head north to Southeast Alaska. Then, on June 2nd, we arrived in Ketchikan, Southeast Alaska. Most of our updates this month detail some of the places we've been(see the above list). To see our path, look at <a href="https://100r.co/site/western_canada.htm">Western Canada</a> and <a href="https://100r.co/site/us_se_alaska.html">us se alaska</a>. We update the map as we find internet.</p>
+
+<p>We've seen sea otters, lots of humpback whales, two pods of orcas(one pod had a baby tagging along), eagles, and lots of mountains. In other non-travel related news, Devine is going to speak again at <a href="https://handmadecities.com/seattle/" target="_blank">Handmade Seattle</a> this upcoming November!</p>
+
+<h3>Pino book & movie club</h3>
+
+<p><b>Book Club:</b> This month we are reading The Martian by Andy Weir.</p>
+<p><a href='https://100r.co/site/log.html#may2024' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
 
 <item>
   <title>Summary of changes for April 2024</title>
