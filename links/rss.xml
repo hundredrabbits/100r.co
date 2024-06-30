@@ -10,6 +10,36 @@
 </image>
 
 <item>
+  <title>Summary of changes for June 2024</title>
+  <link>https://100r.co/site/log.html#jun2024</link>
+  <guid isPermaLink='false'>log.html#jun2024</guid>
+  <pubDate>Sat, 29 Jun 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of June.</p>
+
+<img src="https://100r.co/media/content/videos/june_2024.jpg" loading="lazy">
+
+<h2>Summary Of Changes</h2>
+<ul>
+  <li><b>100r.co</b>, added <a href="https://100r.co/site/ketchikan.html" target="_blank">Ketchikan</a>, <a href="https://100r.co/site/snug_cove.html" target="_blank">Snug Cove</a>, <a href="https://100r.co/site/ratz_harbor.html" target="_blank">Ratz Harbor</a>, <a href="https://100r.co/site/frosty_bay.html" target="_blank">Frosty Bay</a>, <a href="https://100r.co/site/berg_bay.html" target="_blank">Berg Bay</a>, <a href="https://100r.co/site/wrangell.html" target="_blank">Wrangell</a>, <a href="https://100r.co/site/petersburg.html" target="_blank">Petersburg</a> and <a href="https://100r.co/site/ruth_island_cove.html" target="_blank">Ruth Island Cove</a>. Updated <a href="https://100r.co/site/library.html" target="_blank">library</a>.</li>
+  <li><b><a href="https://wiki.xxiivv.com/site/oekaki.html" target="_blank">Oekaki</a></b>, optimized and added a selection tool.</li>
+  <li><b><a href="https://100r.co/site/nasu.html">Nasu</a></b>, fixed selection issue.</li>
+  <li><b><a href="https://rabbits.srht.site/uxn5/" target="_blank">Uxn5</a></b>, redesigned and made responsive for mobile.</li>
+  <li><b><a href="https://git.sr.ht/~rabbits/uxn-utils/tree/main/item/cli/uxndis" target="_blank">Uxndis</a></b>, wrote a disassembler.</li>
+  <li><b><a href="https://wiki.xxiivv.com/etc/uxnrepl/" target="_blank">Uxnrepl</a></b>, added step-by-step evaluation.</li>
+</ul>
+
+<p>We spent all of June cruising through Southeast Alaska, we visited 4 cities and stopped by 14 different anchorages. On June 27th, 420 nautical miles later, we arrived in the beautiful town of Sitka — our favorite city so far.</p>
+
+<p>We have sailed as far north as we are willing to go this year, at 57°N — the same latitude as Kodiak. Sailing in these waters has been challenging, there is a lot of current, and the wind is often light, or absent. Because of these frequent calms, <a href="https://100r.co/site/engine_care.html" target="_blank">Calcifer II</a> has seen a lot of use this year. We will now slowly make our way back south, exploring new anchorages along the west coast of Southeast Alaska all the while. We continue to update our path in Alaska <a href="https://100r.co/site/us_se_alaska.html" target="_blank">here</a>, when we cross back into Canada we'll resume updates <a href="https://100r.co/site/western_canada.html#2024" target="_blank">here</a>.</p>
+
+<p><b>Book Club:</b> This month we are reading <i>West With the Night</i> by Beryl Markham.</p>
+<p><a href='https://100r.co/site/log.html#jun2024' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for May 2024</title>
   <link>https://100r.co/site/log.html#may2024</link>
   <guid isPermaLink='false'>log.html#may2024</guid>
