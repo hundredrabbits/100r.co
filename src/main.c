@@ -54,6 +54,13 @@ error(char *msg, char *val)
 }
 
 int
+warn(char *msg, char *val)
+{
+	printf("Warning: %s(%s)\n", msg, val);
+	return 1;
+}
+
+int
 findf(Lexicon *l, char *f)
 {
 	int i;
@@ -263,7 +270,7 @@ inspect(Lexicon *l)
 	int i;
 	for(i = 0; i < l->len; ++i)
 		if(!l->refs[i])
-			error("Orphaned", l->files[i]);
+			warn("Orphaned", l->files[i]);
 }
 
 int
