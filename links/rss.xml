@@ -10,6 +10,38 @@
 </image>
 
 <item>
+  <title>Summary of changes for August 2024</title>
+  <link>https://100r.co/site/log.html#aug2024</link>
+  <guid isPermaLink='false'>log.html#aug2024</guid>
+  <pubDate>Sat, 31 Aug 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of August.</p>
+
+<img src="https://100r.co/media/content/videos/august_2024.jpg" loading="lazy">
+
+<h2>Summary Of Changes</h2>
+<ul>
+  <li><b>100r.co</b>, added new pages: <a href="https://100r.co/site/sointula.html">Sointula</a>, <a href="https://100r.co/site/johnstone_strait_anchorages.html">Johnstone Strait anchorages</a>, and <a href="https://100r.co/site/central_coast_anchorages.html">Central coast anchorages</a>. Updated existing pages: added <a href="https://100r.co/site/yuculta_and_dent_rapids.html">Yuculta and Dent rapids</a> with <a href="https://100r.co/site/yuculta_and_dent_rapids.html#southbound">southbound tactics</a>, <a href="https://100r.co/site/no_windlass.html">no windlass</a> with 3 new photos, <a href="https://100r.co/site/lpg.html">lpg</a> with <a href="../site/lpg.html#troubleshoot">troubleshooting</a>, and <a href="https://100r.co/site/gimballed_stove.html">gimballed stove</a> with <a href="../site/gimballed_stove.html#performance">performance tests</a>.</li>
+  <li><b><a href="https://100r.co/site/left.html">Left</a></b>, added support for macros.</li>
+  <li><b><a href='https://wiki.xxiivv.com/site/uxnfor.html' target='_blank'>Uxnfor</a></b>, added support for macros.</li>
+  <li><b><a href="https://100r.co/site/uxn.html">Uxn</a></b>, found a tiny optimization that makes things a bit faster.</li>
+  <li><b><a href='https://git.sr.ht/~rabbits/uxn-utils/tree/main/item/gui/m291' target='_blank'>M291</a></b>, started a little music player for <a href='https://git.sr.ht/~rabbits/uxn11' target='_blank'>Uxn11</a>.</li>
+  <li><b><a href="https://100r.co/site/wiktopher.html">Wiktopher</a></b>, updated some Solresol words in the <a href="https://kokorobot/site/ilken.html" target="_blank">Ilken songs</a> featured in the book.</li>
+  <li><b><a href="https://kokorobot.ca/site/hakum.html" target="_blank">Hakum</a></b>, added a new comic named <a href="https://kokorobot.ca/site/smile.html" target="_blank">Smile</a>.</li>
+</ul>
+
+<p>This month, Pino reached the northern tip of Vancouver Island, sailed south through Johnstone Strait, and into calmer, familiar waters on the 11th of August. Both of us were eager for a taste of summer weather, we hoped to catch what was left of it. Our legs demanded an anchorage with options for walking, so we chose to anchor in {Hathayim Marine Park}. The lovely people on the sailboat Nanamuk were anchored here too, they <a href="https://100r.co/site/hathayim_marine_park.html#aug2024">mapped many of the trails</a> in the area, even the overgrown, less-traveled routes. We <a href="https://100r.co/site/western_canada.html#2024">updated our summer route map</a> through northern B.C.</p>
+
+<p>From May 1st to August 11th, like with our book <a href="https://100r.co/site/busy_doing_nothing.html">Busy Doing Nothing</a>, Rek kept a detailed logbook of daily happenings onboard. We hope to publish these notes to this wiki soon.</p>
+
+<p><b>Book Club:</b> This month we are reading <i>The Adventures of Sherlock Holmes</i> by Arthur Conan Doyle, <i>The Design of Everyday Things</i> by Don Norman, and <i>Everyday Utopia: What 2000 years of Wild Experiments Can Teach Us About the Good Life</i> by Kristen R. Ghodsee.</p>
+
+<p><a href='https://100r.co/site/log.html#aug2024' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for July 2024</title>
   <link>https://100r.co/site/log.html#jul2024</link>
   <guid isPermaLink='false'>log.html#jul2024</guid>
