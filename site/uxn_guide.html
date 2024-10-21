@@ -1,4 +1,78 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/rss.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; uxn guide</title></head><body><header><a href='home.html'><img src='../media/interface/logo.svg' alt='100R' height='50'></a></header><nav><details open>
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/rss.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; uxn guide</title></head><body><header><a href='home.html'><img src='../media/interface/logo.svg' alt='100R' height='65'></a></header><main>
+
+<!-- Generated file, do not edit -->
+
+<h1>uxn guide</h1><p>The same Uxn rom can be used on a variety of <a href='#desktop'>desktop computers</a>, on <a href='#other'>tiny electronics</a>, <a href='#other'>modern handhelds</a>, and in the <a href="https://rabbits.srht.site/uxn5/">browser</a>.</p>
+
+<img src='../media/content/projects/uxn_windows.jpg' alt='A screen of a Windows desktop with various open Uxn applications, like a calculator, a clock and a text editor' title='Image of Windows uxn emulator by Cancel' loading='lazy' />
+
+<p>Our general cross-platform desktop emulator requires <a href='https://www.libsdl.org/' target='_blank'>SDL2</a>, alternatively, you could download the plain <a href='https://github.com/randrew/uxn32' target='_blank'>Win32</a> or <a href='https://git.sr.ht/~rabbits/uxn11' target='_blank'>X11 version</a>, but we will not cover these in this guide. If you don't have SDL2, here's how to get it:</p>
+
+<pre>
+sudo pacman -Sy sdl2             # Arch
+sudo apt install libsdl2-dev     # Ubuntu
+sudo xbps-install SDL2-devel     # Void Linux
+brew install sdl2                # OSX
+doas pkg_add sdl2                # openBSD
+</pre>
+
+<h3>Startup</h3>
+
+<img src='../media/content/projects/uxnlauncher.png' alt='A screen of a Linux desktop with the Uxn emulator launcher opened, the launcher shows a list of Uxn roms' title='uxn emulator launch window' loading='lazy' />
+
+<p>Double-click on <b>uxnemu</b> to launch it, on some Linux distribution, it might not be possible to do so, if for some reason uxnemu is not be clickable, navigate to the downloaded files in the terminal and launch it from there. To launch the ROM from the terminal, point the emulator to the target .rom file:</p>
+
+<pre>
+bin/uxnemu path/to/example.rom
+</pre>
+
+<p>There are many ways to launch ROMs:</p>
+
+<ul>
+  <li>With the launcher program, see preview image above</li>
+  <li>By dragging .rom files onto the emulator window</li>
+  <li>Via the terminal</li>
+</ul>
+
+<h3><a id='controls'>Emulator Controls</a></h3>
+
+<dl class='shortcut-list' aria-labelledby='controls'>
+  <div><dt><kbd class='shortcut'>F1</kbd></dt><dd>toggle zoom</dd></div>
+  <div><dt><kbd class='shortcut'>F2</kbd></dt><dd>toggle debugger</dd></div>
+  <div><dt><kbd class='shortcut'>F3</kbd></dt><dd>take screenshot</dd></div>
+  <div><dt><kbd class='shortcut'>F4</kbd></dt><dd>load launcher.rom</dd></div>
+</dl>
+
+<h4>Buttons</h4>
+
+<dl class='shortcut-list'>
+  <div><dt><kbd class='shortcut'>L-Ctrl</kbd></dt><dd>A</dd></div>
+  <div><dt><kbd class='shortcut'>L-Alt</kbd></dt><dd>B</dd></div>
+  <div><dt><kbd class='shortcut'>L-Shift</kbd></dt><dd>Select</dd></div>
+  <div><dt><kbd class='shortcut'>Home</kbd></dt><dd>Start</dd></div>
+</dl>
+
+<h4><a id='other'>Other Systems</a></h4>
+
+<img src='../media/content/projects/uxn_ds.jpg' alt='A photo of a pink Nintendo DS with the card game Donsol on the screen' title='Nintendo DS uxn emulator with Donsol by Deltaf1' loading='lazy' />
+
+<p>Uxn can also run on classic consoles and on old electronics. Currently, there are ports(not all are complete) for GBA, Nintendo DS, Playdate, DOS, PS Vita, Raspberri Pi Pico, Teletype, ESP32, Amiga, iOS, STM32, IBM PC, and many more.</p>
+
+<p>See the <a href='https://github.com/hundredrabbits/awesome-uxn#emulators' target='_blank'>full list of emulators</a>.</p>
+
+<h3><a id='help'>Need a hand?</a></h3>
+
+<p>The following resources are a good place to start:</p>
+
+<ul>
+  <li><a href='https://github.com/hundredrabbits/awesome-uxn' target='_blank'>AwesomeUXN list</a></li>
+  <li><a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal(XXIIVV)</a></li>
+  <li><a href='https://wiki.xxiivv.com/site/uxntal_reference.html' target='_blank'>Uxntal reference(XXIIVV)</a></li>
+  <li><a href='https://compudanzas.net/uxn_tutorial.html'>Uxn tutorial(Compudanzas)</a></li>
+</ul>
+
+
+</main><nav><details open>
     <summary>Menu</summary>
     <section class="site-nav">
         <section>
@@ -101,79 +175,5 @@
         </section>
     </section>
 </details>
-</nav><main>
-
-<!-- Generated file, do not edit -->
-
-<h1>uxn guide</h1><p>The same Uxn rom can be used on a variety of <a href='#desktop'>desktop computers</a>, on <a href='#other'>tiny electronics</a>, <a href='#other'>modern handhelds</a>, and in the <a href="https://rabbits.srht.site/uxn5/">browser</a>.</p>
-
-<img src='../media/content/projects/uxn_windows.jpg' alt='A screen of a Windows desktop with various open Uxn applications, like a calculator, a clock and a text editor' title='Image of Windows uxn emulator by Cancel' loading='lazy' />
-
-<p>Our general cross-platform desktop emulator requires <a href='https://www.libsdl.org/' target='_blank'>SDL2</a>, alternatively, you could download the plain <a href='https://github.com/randrew/uxn32' target='_blank'>Win32</a> or <a href='https://git.sr.ht/~rabbits/uxn11' target='_blank'>X11 version</a>, but we will not cover these in this guide. If you don't have SDL2, here's how to get it:</p>
-
-<pre>
-sudo pacman -Sy sdl2             # Arch
-sudo apt install libsdl2-dev     # Ubuntu
-sudo xbps-install SDL2-devel     # Void Linux
-brew install sdl2                # OSX
-doas pkg_add sdl2                # openBSD
-</pre>
-
-<h3>Startup</h3>
-
-<img src='../media/content/projects/uxnlauncher.png' alt='A screen of a Linux desktop with the Uxn emulator launcher opened, the launcher shows a list of Uxn roms' title='uxn emulator launch window' loading='lazy' />
-
-<p>Double-click on <b>uxnemu</b> to launch it, on some Linux distribution, it might not be possible to do so, if for some reason uxnemu is not be clickable, navigate to the downloaded files in the terminal and launch it from there. To launch the ROM from the terminal, point the emulator to the target .rom file:</p>
-
-<pre>
-bin/uxnemu path/to/example.rom
-</pre>
-
-<p>There are many ways to launch ROMs:</p>
-
-<ul>
-  <li>With the launcher program, see preview image above</li>
-  <li>By dragging .rom files onto the emulator window</li>
-  <li>Via the terminal</li>
-</ul>
-
-<h3><a id='controls'>Emulator Controls</a></h3>
-
-<dl class='shortcut-list' aria-labelledby='controls'>
-  <div><dt><kbd class='shortcut'>F1</kbd></dt><dd>toggle zoom</dd></div>
-  <div><dt><kbd class='shortcut'>F2</kbd></dt><dd>toggle debugger</dd></div>
-  <div><dt><kbd class='shortcut'>F3</kbd></dt><dd>take screenshot</dd></div>
-  <div><dt><kbd class='shortcut'>F4</kbd></dt><dd>load launcher.rom</dd></div>
-</dl>
-
-<h4>Buttons</h4>
-
-<dl class='shortcut-list'>
-  <div><dt><kbd class='shortcut'>L-Ctrl</kbd></dt><dd>A</dd></div>
-  <div><dt><kbd class='shortcut'>L-Alt</kbd></dt><dd>B</dd></div>
-  <div><dt><kbd class='shortcut'>L-Shift</kbd></dt><dd>Select</dd></div>
-  <div><dt><kbd class='shortcut'>Home</kbd></dt><dd>Start</dd></div>
-</dl>
-
-<h4><a id='other'>Other Systems</a></h4>
-
-<img src='../media/content/projects/uxn_ds.jpg' alt='A photo of a pink Nintendo DS with the card game Donsol on the screen' title='Nintendo DS uxn emulator with Donsol by Deltaf1' loading='lazy' />
-
-<p>Uxn can also run on classic consoles and on old electronics. Currently, there are ports(not all are complete) for GBA, Nintendo DS, Playdate, DOS, PS Vita, Raspberri Pi Pico, Teletype, ESP32, Amiga, iOS, STM32, IBM PC, and many more.</p>
-
-<p>See the <a href='https://github.com/hundredrabbits/awesome-uxn#emulators' target='_blank'>full list of emulators</a>.</p>
-
-<h3><a id='help'>Need a hand?</a></h3>
-
-<p>The following resources are a good place to start:</p>
-
-<ul>
-  <li><a href='https://github.com/hundredrabbits/awesome-uxn' target='_blank'>AwesomeUXN list</a></li>
-  <li><a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal(XXIIVV)</a></li>
-  <li><a href='https://wiki.xxiivv.com/site/uxntal_reference.html' target='_blank'>Uxntal reference(XXIIVV)</a></li>
-  <li><a href='https://compudanzas.net/uxn_tutorial.html'>Uxn tutorial(Compudanzas)</a></li>
-</ul>
-
-
-</main><footer><hr /><span style='float:right'>Edited on Thu Feb 15 21:52:03 2024
+</nav><footer><hr /><span style='float:right'>Edited on Mon Aug  5 16:51:20 2024
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/uxn_guide.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2024 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a><a href='https://merveilles.town/@neauoire' rel='me' class='hidden'></a><a href='https://merveilles.town/@rek' rel='me' class='hidden'></a></footer></body></html>

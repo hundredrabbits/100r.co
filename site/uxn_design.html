@@ -1,4 +1,45 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/rss.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; uxn design</title></head><body><header><a href='home.html'><img src='../media/interface/logo.svg' alt='100R' height='50'></a></header><nav><details open>
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/rss.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; uxn design</title></head><body><header><a href='home.html'><img src='../media/interface/logo.svg' alt='100R' height='65'></a></header><main>
+
+<!-- Generated file, do not edit -->
+
+<h1>uxn design</h1><p>As it stands today, modern software is built with extreme short-sightedness, designed to be run on disposable electronics and near impossible to maintain. We decided to not participate. Our aim is to create a machine that focuses on answering the handful of little tasks we need, which is centered around building playful audio/visual experiences.</p>
+
+<p>Uxn was created <b>explicitly</b> to host software on <a href='https://wiki.xxiivv.com/site/permacomputing.html' target='_blank'>pre-existing platforms</a>, the design was advised primarily by relative software complexity, not by how fast it could run on new hardware standards. Features were weighted against the relative difficulty they would add for programmers implementing their own emulators.</p>
+
+<img src='../media/content/projects/uxn_05.jpg' alt='A screenshot of a Linux desktop with two instances of the Uxn application Left open' title='The Left text editor on Uxn' loading='lazy' />
+
+<p><a href='https://wiki.xxiivv.com/site/uxn.html' target='_blank'>Stack-machines</a> are ideal candidates for this scale of personal computing. Not only do they limit the complexity of the assembler, the resulting programs are succinct and translate well to <a href='https://wiki.xxiivv.com/site/paper_computing.html' target='_blank'>pen & paper computing</a>.</p>
+
+<p>With only 64kb of memory, it will never run Chrome, TensorFlow or a blockchain. It sucks at doing most modern computing, but it’s also sort of the point, it's more about finding what new things could be made in such a small system.</p>
+
+<q>What's the benefit of Uxn over C, when just about everything has a C compiler?</q>
+
+<p>While terminal utilities can be made portable, cross-platform graphical development is different. Even building projects for platforms with C compilers, such as Linux and <a href='https://wiki.xxiivv.com/site/plan9.html' target='_blank'>Plan 9</a>, will require a near total rewrite, whereas porting the thin layer that is the <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>uxn emulator</a> will allow that same rom file to be used on both systems.</p>
+
+<h3>Why create a smol virtual computer?</h3>
+
+
+<p>We want to produce lasting versions of our tools and games, and by using simpler systems(the UxnVM is <a href='https://git.sr.ht/~rabbits/uxn/tree/main/item/src/uxn.c' target='_blank'>about 100 lines of C89</a>) we can begin to experiment with designing projects that could still be played in many years.</p>
+
+<iframe width="600" height="315" src="https://www.youtube.com/embed/na0u5xc-wHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>To borrow the words of Viznut Heikkilä on <a href='http://viznut.fi/texts-en/permacomputing.html' target='_blank'>permacomputing</a>, we're interested in cultural and ecological permanence. "That is, how to give computers a meaningful and sustainable place in a human civilization that has a meaningful and sustainable place in the planetary biosphere".</p>
+
+<h2 id='story'><a href='story.html'>story</a></h2><p>Back in 2016, when first operating on a sailboat, we experienced frequent failures with both software & hardware, largely due to our small <a href='energy.html' class='local'>energy</a> storage and lack of reliable connectivity. The solution was to create tools that would be better suited to the limits of our new situation. The objective was to replace the bloated subscription software that we were using to do creative work, such as Photoshop, Xcode and Ableton. We were somewhat familiar with web technologies, so we decided to build our programs on this new up and coming framework called Electron.</p>
+
+<p>While solving some of our issues, Electron was rapidly increasing in size and hunger, so despite it being open-source soon joined the rest of the software that we did away with. Our focus shifted toward reducing our energy use, and to ensure reliability we began removing dependencies.</p>
+
+<p>To transition toward our new goals, we developed offline web versions as temporary stand-ins while researching ways to build more resilient software. We eventually ported our tools to C, but while we had achieved ideal energy usage, portability was still an issue for graphical applications, so we kept looking. We learned <a href='6502_assembly.html' class='local'>6502 Assembly</a>, seeing players run our games as NES roms on all these different platforms gave us an idea.</p>
+
+<p>In 2021, we began designing a small virtual machine with a <a href='https://wiki.xxiivv.com/site/devlog' target='_blank'>focus on implementability</a>; meaning that moving forward, the applications themselves would no longer need to be ported. Instead, to make any one program available on a new platform, the emulator would be the only code needing to be modified, which is explicitly designed to be easily implemented.</p>
+
+<p>This is where we are now. <a href='uxn.html' class='local'>Uxn</a> might solve our cross-platform issues, while being quite light and energy efficient. We hope that one day the Uxn versions of our software replace the desktop and web versions &mdash; But, we'll have to see about that [16.05.21].</p>
+
+<q>Let's try to go slow, and fix things.</q>
+
+
+
+</main><nav><details open>
     <summary>Menu</summary>
     <section class="site-nav">
         <section>
@@ -101,46 +142,5 @@
         </section>
     </section>
 </details>
-</nav><main>
-
-<!-- Generated file, do not edit -->
-
-<h1>uxn design</h1><p>As it stands today, modern software is built with extreme short-sightedness, designed to be run on disposable electronics and near impossible to maintain. We decided to not participate. Our aim is to create a machine that focuses on answering the handful of little tasks we need, which is centered around building playful audio/visual experiences.</p>
-
-<p>Uxn was created <b>explicitly</b> to host software on <a href='https://wiki.xxiivv.com/site/permacomputing.html' target='_blank'>pre-existing platforms</a>, the design was advised primarily by relative software complexity, not by how fast it could run on new hardware standards. Features were weighted against the relative difficulty they would add for programmers implementing their own emulators.</p>
-
-<img src='../media/content/projects/uxn_05.jpg' alt='A screenshot of a Linux desktop with two instances of the Uxn application Left open' title='The Left text editor on Uxn' loading='lazy' />
-
-<p><a href='https://wiki.xxiivv.com/site/uxn.html' target='_blank'>Stack-machines</a> are ideal candidates for this scale of personal computing. Not only do they limit the complexity of the assembler, the resulting programs are succinct and translate well to <a href='https://wiki.xxiivv.com/site/paper_computing.html' target='_blank'>pen & paper computing</a>.</p>
-
-<p>With only 64kb of memory, it will never run Chrome, TensorFlow or a blockchain. It sucks at doing most modern computing, but it’s also sort of the point, it's more about finding what new things could be made in such a small system.</p>
-
-<q>What's the benefit of Uxn over C, when just about everything has a C compiler?</q>
-
-<p>While terminal utilities can be made portable, cross-platform graphical development is different. Even building projects for platforms with C compilers, such as Linux and <a href='https://wiki.xxiivv.com/site/plan9.html' target='_blank'>Plan 9</a>, will require a near total rewrite, whereas porting the thin layer that is the <a href='https://wiki.xxiivv.com/site/varvara.html' target='_blank'>uxn emulator</a> will allow that same rom file to be used on both systems.</p>
-
-<h3>Why create a smol virtual computer?</h3>
-
-
-<p>We want to produce lasting versions of our tools and games, and by using simpler systems(the UxnVM is <a href='https://git.sr.ht/~rabbits/uxn/tree/main/item/src/uxn.c' target='_blank'>about 100 lines of C89</a>) we can begin to experiment with designing projects that could still be played in many years.</p>
-
-<iframe width="600" height="315" src="https://www.youtube.com/embed/na0u5xc-wHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p>To borrow the words of Viznut Heikkilä on <a href='http://viznut.fi/texts-en/permacomputing.html' target='_blank'>permacomputing</a>, we're interested in cultural and ecological permanence. "That is, how to give computers a meaningful and sustainable place in a human civilization that has a meaningful and sustainable place in the planetary biosphere".</p>
-
-<h2 id='story'><a href='story.html'>story</a></h2><p>Back in 2016, when first operating on a sailboat, we experienced frequent failures with both software & hardware, largely due to our small <a href='energy.html' class='local'>energy</a> storage and lack of reliable connectivity. The solution was to create tools that would be better suited to the limits of our new situation. The objective was to replace the bloated subscription software that we were using to do creative work, such as Photoshop, Xcode and Ableton. We were somewhat familiar with web technologies, so we decided to build our programs on this new up and coming framework called Electron.</p>
-
-<p>While solving some of our issues, Electron was rapidly increasing in size and hunger, so despite it being open-source soon joined the rest of the software that we did away with. Our focus shifted toward reducing our energy use, and to ensure reliability we began removing dependencies.</p>
-
-<p>To transition toward our new goals, we developed offline web versions as temporary stand-ins while researching ways to build more resilient software. We eventually ported our tools to C, but while we had achieved ideal energy usage, portability was still an issue for graphical applications, so we kept looking. We learned <a href='6502_assembly.html' class='local'>6502 Assembly</a>, seeing players run our games as NES roms on all these different platforms gave us an idea.</p>
-
-<p>In 2021, we began designing a small virtual machine with a <a href='https://wiki.xxiivv.com/site/devlog' target='_blank'>focus on implementability</a>; meaning that moving forward, the applications themselves would no longer need to be ported. Instead, to make any one program available on a new platform, the emulator would be the only code needing to be modified, which is explicitly designed to be easily implemented.</p>
-
-<p>This is where we are now. <a href='uxn.html' class='local'>Uxn</a> might solve our cross-platform issues, while being quite light and energy efficient. We hope that one day the Uxn versions of our software replace the desktop and web versions &mdash; But, we'll have to see about that [16.05.21].</p>
-
-<q>Let's try to go slow, and fix things.</q>
-
-
-
-</main><footer><hr /><span style='float:right'>Edited on Sat Feb 18 09:23:04 2023
+</nav><footer><hr /><span style='float:right'>Edited on Mon Aug  5 16:51:20 2024
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/uxn_design.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2024 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a><a href='https://merveilles.town/@neauoire' rel='me' class='hidden'></a><a href='https://merveilles.town/@rek' rel='me' class='hidden'></a></footer></body></html>

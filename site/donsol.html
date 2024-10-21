@@ -1,4 +1,77 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/rss.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; donsol</title></head><body><header><a href='home.html'><img src='../media/interface/logo.svg' alt='100R' height='50'></a></header><nav><details open>
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/rss.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; donsol</title></head><body><header><a href='home.html'><img src='../media/interface/logo.svg' alt='100R' height='65'></a></header><main>
+
+<!-- Generated file, do not edit -->
+
+<h1>donsol</h1>
+<ul class='jump'>
+    <li><a href='#introduction'>introduction</a></li>
+    <li><a href='#download'>download</a></li>
+    <li><a href='#production'>production</a></li>
+    <li><a href='#famicom_release'>famicom release</a></li>
+    <li><a href='#how_to_play'>how to play</a></li>
+    <li><a href='#screenshots'>screenshots</a></li>
+</ul>
+
+<h2 id='introduction'>introduction</h2>
+
+<img src='../media/content/projects/donsol_07.jpg' title='donsol' alt='A screenshot of the game Donsol showing 4 cards with the words: you drank a potion' loading='lazy'/>
+
+<p>Donsol is a <b>dungeon crawler card game</b> played with a standard 54 card deck.</p>
+
+<a class='button' href='https://hundredrabbits.itch.io/donsol/purchase?popup=1'>Buy Donsol | $5.00 USD</a><br>
+
+<p>Playable on any OS, as well as GBA, NDS, PSP, Playdate, etc. The <a href='https://hundredrabbits.itch.io/donsol' target='_blank'>Donsol ROM download</a> comes with an instruction booklet, which includes new art as well as printable assets for the Famicom-style box and cart.</p>
+
+<h2 id='production'>production</h2>
+
+<p>Donsol, short for <b>Dungeon Solitaire</b> was designed by John Eternal, during <a href='http://trainjam.com/' class='external' target='_blank'>train jam</a> in 2015, it was later made into an iOS game with Devine. It was released in April 2015 on the app store. The game was in turn ported to all desktop platforms.</p>
+
+<p>In 2018, we removed the game from the iOS store, in a conscious attempt to distance ourselves from the Apple ecosystem. After looking at the trajectory of the development tools, namely the bloated development environment, we did not believe that it was possible for us to continue working on our games, while at sea with little connectivity for the Apple mobile platform.</p>
+
+<p>We also could not reconcile pushing for environmentally conscious action, while supporting a company that fights against the <a href='https://www.ifixit.com/Right-to-Repair/Intro' target='_blank' class='external'>Right to Repair</a>, and create <a href='https://www.vice.com/en_us/article/neaz3d/airpods-are-a-tragedy' target='_blank' class='external'>wasteful products</a>. Instead, the game was published exclusively on the <a href='https://hundredrabbits.itch.io/oquonie' target='_blank' class='external'>Itch.io store</a>, a publishing platform in line with our values.</p>
+
+<img src='../media/content/projects/donsol_05.jpg' title='A NES cart of Donsol' alt='A hand holding a NES cart of the game Donsol' loading='lazy'/>
+
+<p>In 2020 Donsol re-written entirely in <a href='6502_assembly.html'>6502 assembly</a>, sold as a digital ROM and playable with an emulator. The iOS version of the game is no longer sold/supported.</p>
+
+<p>In October 2021 the Donsol Famicom(6502) code was ported to Varvara(<a href='uxn.html' class='local'>Uxn</a>) as an experiment to see how translating register-machine assembly to stack-machine would be like.</p>
+
+<img src='../media/content/projects/donsol_03.png' title='A page from the Donsol Playing Manual' alt='A preview image of the Donsol playing manual, explaining the use of Diamond Shields' loading='lazy'/>
+
+<p>The Donsol playing manual is 18 pages long, and features some new art along with some instuctions and hints on how to play the game.</p>
+
+<img src='../media/content/projects/donsol_09.jpg' title='A page from the Donsol Playing Manual' alt='A preview image of the Donsol playing manual, showing some of the monsters encountered in the game' loading='lazy'/>
+
+<h2 id='how_to_play'>how to play</h2>
+
+<p>A <b>standard deck of 54 cards</b>, jokers included, is a dungeon. Shuffle the deck and draw 4 cards, display them before you, this is a room. A room ends when all the cards are folded.</p>
+<p><b>♥︎ Heart Potions</b></p>
+<p>A <b>potion</b> gives you health points equal to its value, up to a maximum of 21 health points.</p>
+<p>Drinking multiple potions in a row will make you sick and result in no extra healing, only the first potion's value will be gained in HP. Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.</p>
+<p><b>♦ Diamond Shields</b></p>
+<p>A <b>shield</b> absorbs the damage difference between the shield value and that of the attacked monster's value.</p>
+<p>Shields can only defend against monsters in descending value and if you use a shield on a monster with higher or equal value to the previous, it will break. Broken shields leave you unarmored, and you take full damage. Folding shield card will always replace a previously equipped shield. Shields are equal to their value and face cards (J,Q,K,A) each are equal to 11.</p>
+<p><b>♣♠ Club/Spades Monsters</b></p>
+<p>Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.</p>
+<p>You may <b>escape a room</b>. When escaping, the remaining cards are put back at the end of the deck. A player is allowed to escape a room:</p>
+
+<img src='../media/content/projects/donsol.turnip.png' loading='lazy' title='Donsol turnip' alt='An illustration of a pear-shaped cyclops creature that represents the game Donsol' style='width: 200px;margin: 0px auto; margin-bottom: 0px;display: block;margin-bottom: 30px;'/>
+
+<ul class='bullet'>
+    <li><b>Easy Mode:</b> When all monsters in the room have been dealt with, or when the player has not escaped the previous room.</li>
+    <li><b>Normal Mode:</b> Only when the player has not escaped the previous room.</li>
+    <li><b>Hard Mode:</b> Only when all monsters in the room have been dealt with.</li>
+</ul>
+
+<h2 id='screenshots'>screenshots</h2>
+<img src='../media/content/projects/donsol_06.jpg' title='Donsol splash screen' alt='A screenshot of the Donsol game splash screen featuring a castle with the modes: easy, normal and hard' loading='lazy'/>
+<img src='../media/content/projects/donsol_08.jpg' title='Donsol screnshot' alt='A screenshot of the game Donsol featuring 4 cards with one face down, the text reads: You blocked the attack' loading='lazy'/>
+
+
+
+
+
+</main><nav><details open>
     <summary>Menu</summary>
     <section class="site-nav">
         <section>
@@ -101,78 +174,5 @@
         </section>
     </section>
 </details>
-</nav><main>
-
-<!-- Generated file, do not edit -->
-
-<h1>donsol</h1>
-<ul class='jump'>
-    <li><a href='#introduction'>introduction</a></li>
-    <li><a href='#download'>download</a></li>
-    <li><a href='#production'>production</a></li>
-    <li><a href='#famicom_release'>famicom release</a></li>
-    <li><a href='#how_to_play'>how to play</a></li>
-    <li><a href='#screenshots'>screenshots</a></li>
-</ul>
-
-<h2 id='introduction'>introduction</h2>
-
-<img src='../media/content/projects/donsol_07.jpg' title='donsol' alt='A screenshot of the game Donsol showing 4 cards with the words: you drank a potion' loading='lazy'/>
-
-<p>Donsol is a <b>dungeon crawler card game</b> played with a standard 54 card deck.</p>
-
-<a class='button' href='https://hundredrabbits.itch.io/donsol/purchase?popup=1'>Buy Donsol | $5.00 USD</a><br>
-
-<p>Playable on any OS, as well as GBA, NDS, PSP, Playdate, etc. The <a href='https://hundredrabbits.itch.io/donsol' target='_blank'>Donsol ROM download</a> comes with an instruction booklet, which includes new art as well as printable assets for the Famicom-style box and cart.</p>
-
-<h2 id='production'>production</h2>
-
-<p>Donsol, short for <b>Dungeon Solitaire</b> was designed by John Eternal, during <a href='http://trainjam.com/' class='external' target='_blank'>train jam</a> in 2015, it was later made into an iOS game with Devine. It was released in April 2015 on the app store. The game was in turn ported to all desktop platforms.</p>
-
-<p>In 2018, we removed the game from the iOS store, in a conscious attempt to distance ourselves from the Apple ecosystem. After looking at the trajectory of the development tools, namely the bloated development environment, we did not believe that it was possible for us to continue working on our games, while at sea with little connectivity for the Apple mobile platform.</p>
-
-<p>We also could not reconcile pushing for environmentally conscious action, while supporting a company that fights against the <a href='https://www.ifixit.com/Right-to-Repair/Intro' target='_blank' class='external'>Right to Repair</a>, and create <a href='https://www.vice.com/en_us/article/neaz3d/airpods-are-a-tragedy' target='_blank' class='external'>wasteful products</a>. Instead, the game was published exclusively on the <a href='https://hundredrabbits.itch.io/oquonie' target='_blank' class='external'>Itch.io store</a>, a publishing platform in line with our values.</p>
-
-<img src='../media/content/projects/donsol_05.jpg' title='A NES cart of Donsol' alt='A hand holding a NES cart of the game Donsol' loading='lazy'/>
-
-<p>In 2020 Donsol re-written entirely in <a href='6502_assembly.html'>6502 assembly</a>, sold as a digital ROM and playable with an emulator. The iOS version of the game is no longer sold/supported.</p>
-
-<p>In October 2021 the Donsol Famicom(6502) code was ported to Varvara(<a href='uxn.html' class='local'>Uxn</a>) as an experiment to see how translating register-machine assembly to stack-machine would be like.</p>
-
-<img src='../media/content/projects/donsol_03.png' title='A page from the Donsol Playing Manual' alt='A preview image of the Donsol playing manual, explaining the use of Diamond Shields' loading='lazy'/>
-
-<p>The Donsol playing manual is 18 pages long, and features some new art along with some instuctions and hints on how to play the game.</p>
-
-<img src='../media/content/projects/donsol_09.jpg' title='A page from the Donsol Playing Manual' alt='A preview image of the Donsol playing manual, showing some of the monsters encountered in the game' loading='lazy'/>
-
-<h2 id='how_to_play'>how to play</h2>
-
-<p>A <b>standard deck of 54 cards</b>, jokers included, is a dungeon. Shuffle the deck and draw 4 cards, display them before you, this is a room. A room ends when all the cards are folded.</p>
-<p><b>♥︎ Heart Potions</b></p>
-<p>A <b>potion</b> gives you health points equal to its value, up to a maximum of 21 health points.</p>
-<p>Drinking multiple potions in a row will make you sick and result in no extra healing, only the first potion's value will be gained in HP. Potions are equal to their value and face cards (J,Q,K,A) each are equal to 11.</p>
-<p><b>♦ Diamond Shields</b></p>
-<p>A <b>shield</b> absorbs the damage difference between the shield value and that of the attacked monster's value.</p>
-<p>Shields can only defend against monsters in descending value and if you use a shield on a monster with higher or equal value to the previous, it will break. Broken shields leave you unarmored, and you take full damage. Folding shield card will always replace a previously equipped shield. Shields are equal to their value and face cards (J,Q,K,A) each are equal to 11.</p>
-<p><b>♣♠ Club/Spades Monsters</b></p>
-<p>Monster cards are equal to their value, and face cards are as follows J is 11, Q is 13, K is 15, A is 17; Jokers are both equal to 21.</p>
-<p>You may <b>escape a room</b>. When escaping, the remaining cards are put back at the end of the deck. A player is allowed to escape a room:</p>
-
-<img src='../media/content/projects/donsol.turnip.png' loading='lazy' title='Donsol turnip' alt='An illustration of a pear-shaped cyclops creature that represents the game Donsol' style='width: 200px;margin: 0px auto; margin-bottom: 0px;display: block;margin-bottom: 30px;'/>
-
-<ul class='bullet'>
-    <li><b>Easy Mode:</b> When all monsters in the room have been dealt with, or when the player has not escaped the previous room.</li>
-    <li><b>Normal Mode:</b> Only when the player has not escaped the previous room.</li>
-    <li><b>Hard Mode:</b> Only when all monsters in the room have been dealt with.</li>
-</ul>
-
-<h2 id='screenshots'>screenshots</h2>
-<img src='../media/content/projects/donsol_06.jpg' title='Donsol splash screen' alt='A screenshot of the Donsol game splash screen featuring a castle with the modes: easy, normal and hard' loading='lazy'/>
-<img src='../media/content/projects/donsol_08.jpg' title='Donsol screnshot' alt='A screenshot of the game Donsol featuring 4 cards with one face down, the text reads: You blocked the attack' loading='lazy'/>
-
-
-
-
-
-</main><footer><hr /><span style='float:right'>Edited on Wed Oct 16 16:21:59 2024
+</nav><footer><hr /><span style='float:right'>Edited on Fri Oct 18 14:58:38 2024
  <a href='https://github.com/hundredrabbits/100r.co/edit/main/src/inc/donsol.htm'>[edit]</a><br/></span><b>Hundredrabbits</b> © 2024 — <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA 4.0</a><a href='https://merveilles.town/@neauoire' rel='me' class='hidden'></a><a href='https://merveilles.town/@rek' rel='me' class='hidden'></a></footer></body></html>

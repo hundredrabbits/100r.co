@@ -193,13 +193,8 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	fputs("<body>", f);
 	/* header */
 	fputs("<header>", f);
-	fputs("<a href='home.html'><img src='../media/interface/logo.svg' alt='" NAME "' height='50'></a>", f);
+	fputs("<a href='home.html'><img src='../media/interface/logo.svg' alt='" NAME "' height='65'></a>", f);
 	fputs("</header>", f);
-	/* nav */
-	fputs("<nav>", f);
-	if(!fpportal(f, l, "meta.nav", 0))
-		printf(">>> Building failed: %s\n", name);
-	fputs("</nav>", f);
 	/* main */
 	fputs("<main>\n\n", f);
 	fputs("<!-- Generated file, do not edit -->\n\n", f);
@@ -207,6 +202,11 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	if(!fpinject(f, l, srcpath))
 		printf(">>> Building failed: %s\n", name);
 	fputs("\n\n</main>", f);
+	/* nav */
+	fputs("<nav>", f);
+	if(!fpportal(f, l, "meta.nav", 0))
+		printf(">>> Building failed: %s\n", name);
+	fputs("</nav>", f);
 	/* footer */
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);

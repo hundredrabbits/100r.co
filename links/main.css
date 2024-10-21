@@ -3,16 +3,16 @@
 
 body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif; padding:0; margin:0; }
 
-header { padding: 45px; border-bottom: 1px solid #222; }
+header { padding: 45px; }
 header a img {}
 
-nav { padding: 45px; float: left; }
+nav { padding: 0px 45px; float: left; }
 nav details summary { margin-bottom: 30px }
 nav .site-nav section { line-height: 22px; margin-bottom: 40px;}
 nav .site-nav section h2 { margin: 20px 0 20px 0; }
 nav .site-nav section ul { margin: 0px; padding: 0px; }
 
-main { padding: 45px; float:left; max-width:700px; }
+main { padding: 0px 0px 45px 45px; float:left; max-width:700px; }
 main img { width:100%; max-width: 700px; margin-bottom: 15px;}
 main > * { max-width: 600px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
@@ -110,41 +110,21 @@ ul.nobull li {list-style-type: none}
 /* Theme */
 
 @media (prefers-color-scheme: dark) {
-  body {background: #000; color: white}
-  body header a img { filter: invert(1)}
-  body a { color: white;}
-  main > pre { background: white; color:#000}
-  main > code { background:white; color:#000}
-  body select { color: black; background-color: white;}
-  main .project { border-left:2px solid white }
-  .notice { border-color:white; }
-  .mono { filter: invert(1) }
-  main .progress > div { background-color: white}
-  main .progress > div > span { color: black}
-
+	body {background: #000; color: white}
+	body header a img { filter: invert(1)}
+	body a { color: white;}
+	main > pre { background: white; color:#000}
+	main > code { background:white; color:#000}
+	body select { color: black; background-color: white;}
+	main .project { border-left:2px solid white }
+	.notice { border-color:white; }
+	.mono { filter: invert(1) }
+	main .progress > div { background-color: white}
+	main .progress > div > span { color: black}
 }
 
 /* Mobile */
 
-@media (max-width: 1100px) {
-  nav { width: 100%; }
-	nav .site-nav section { float: left; margin: 0 10px 10px 0; }
-}
-@media (max-width: 1100px) and (min-width: 651px) {
-  nav .site-nav section { width: calc(25% - 10px); }
-  nav .site-nav section:nth-child(4n + 1) { clear: left; }
-}
-
-@media (max-width: 650px) and (min-width: 501px) {
-  nav .site-nav section { width: calc(33% - 10px); }
-  nav .site-nav section:nth-child(3n + 1) { clear: left; }
-}
-
-@media (max-width: 500px) and (min-width: 351px) {
-  nav .site-nav section { width: calc(50% - 10px); }
-  nav .site-nav section:nth-child(2n + 1) { clear: left; }
-}
-
-@media (max-width: 350px) {
-  nav .site-nav section { width: 100%; }
+@media only screen and (max-width: 600px) {
+	header, nav, main { padding: 30px;}
 }
