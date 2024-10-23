@@ -125,6 +125,6 @@ ul.nobull li {list-style-type: none}
 
 /* Mobile */
 
-@media only screen and (max-width: 600px) {
-	header, nav, main { padding: 30px;}
+@media only screen and (max-width: 1100px) {
+	header, nav, main { padding: 20px;}
 }
