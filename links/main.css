@@ -6,6 +6,8 @@ body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif;
 header { padding: 45px; }
 header a img {}
 
+nav { display: none; }
+main + nav { display: block; }
 nav { padding: 0px 45px; float: left; }
 nav details summary { margin-bottom: 30px }
 nav .site-nav section { line-height: 22px; margin-bottom: 40px;}
@@ -129,4 +131,7 @@ ul.nobull li {list-style-type: none}
 
 @media only screen and (max-width: 1100px) {
 	header, nav, main { padding: 20px;}
+	nav { float: none; }
+	nav { display: block; }
+	main + nav { display: none; }
 }
