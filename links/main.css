@@ -6,13 +6,13 @@ body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif;
 header { padding: 45px; border-bottom:2px solid black; margin-bottom:20px}
 header img { width: 10%; max-width:60px}
 
-nav { padding: 20px 30px; max-width:700px }
+nav { padding: 20px 30px; max-width:900px }
 nav a { display:inline-block; max-width: 19% }
 nav a img { width:100%; display:block; }
 
-main { padding: 0px 0px 45px 45px; float:left; max-width:700px; }
-main img { width:100%; max-width: 700px; margin-bottom: 15px;}
-main > * { max-width: 600px; margin-bottom: 30px }
+main { padding: 0px 0px 45px 45px; float:left; max-width:900px; }
+main img { width:100%; max-width: 900px; margin-bottom: 15px;}
+main > * { max-width: 800px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
 main > h2 { font-size:30px; text-transform: capitalize}
 main > h3 { font-size:20px; text-transform: capitalize}
