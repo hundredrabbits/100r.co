@@ -41,7 +41,7 @@ main hr { border:1px; clear:both; }
 main > ul.jump { columns:2; line-height: 20px}
 main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 main img.medium { max-width: 300px; padding: 10px}
-main img.normal { max-width: 192px;}
+main img.normal { max-width: 200px;}
 main img.sm { max-width: 88px}
 
 main cite {font-size: 17px;display: block;clear: both;margin-bottom: 30px;}
@@ -114,7 +114,7 @@ ul.nobull li {list-style-type: none}
 	body {background: #000; color: white}
 	body header a img { filter: invert(1)}
 	header { border-bottom:2px solid white}
-	nav a img.text { filter: invert(1)}
+	nav a img.text, img.invert { filter: invert(1)}
 	body a { color: white;}
 	main > pre { background: white; color:#000}
 	main > code { background:white; color:#000}

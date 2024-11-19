@@ -205,7 +205,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);
 	fputs("<b>Hundredrabbits</b> © 2024 — ", f);
-	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a> | <a href='../site/support.html'>Donate</a> | <a href='../site/rabbits.html'>Contact</a> | <a href='../site/index.html'>Meta</a>", f);
+	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a> | <a href='../site/support.html'>Donate</a> | <a href='../site/rabbits.html'>Contact</a> | <a href='../site/index.html'>Index</a>", f);
 	fputs("<a href='https://merveilles.town/@neauoire' rel='me' class='hidden'></a>", f);
 	fputs("<a href='https://merveilles.town/@rek' rel='me' class='hidden'></a>", f);
 	fputs("</footer>", f);
