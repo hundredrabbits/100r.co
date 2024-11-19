@@ -3,14 +3,12 @@
 
 body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif; padding:0; margin:0; }
 
-header { padding: 45px; }
-header a img {}
+header { padding: 45px; border-bottom:2px solid black; margin-bottom:20px}
+header img { width: 10%; max-width:60px}
 
-nav { padding: 0px 45px; float: left; }
-nav details summary { margin-bottom: 30px }
-nav .site-nav section { line-height: 22px; margin-bottom: 40px;}
-nav .site-nav section h2 { margin: 20px 0 20px 0; }
-nav .site-nav section ul { margin: 0px; padding: 0px; }
+nav { padding: 20px 30px; max-width:700px }
+nav a { display:inline-block; max-width: 19% }
+nav a img { width:100%; display:block; }
 
 main { padding: 0px 0px 45px 45px; float:left; max-width:700px; }
 main img { width:100%; max-width: 700px; margin-bottom: 15px;}
@@ -93,8 +91,8 @@ main > table img { max-width: 100%; display: block; margin:20px 0;}
 main > table tr th { text-align: left; font-weight: bold }
 main > table tr > * { padding:5px 15px; vertical-align: top;}
 
-footer { line-height: 30px; clear:both; padding:45px; }
-footer hr { margin-bottom: 15px }
+footer { line-height: 30px; clear:both; padding:45px; border-top:2px solid black }
+footer hr { margin-bottom: 15px; display:none;  }
 
 /* Modular */
 
@@ -114,6 +112,8 @@ ul.nobull li {list-style-type: none}
 @media (prefers-color-scheme: dark) {
 	body {background: #000; color: white}
 	body header a img { filter: invert(1)}
+	header { border-bottom:2px solid white}
+	nav a img.text { filter: invert(1)}
 	body a { color: white;}
 	main > pre { background: white; color:#000}
 	main > code { background:white; color:#000}
@@ -123,6 +123,7 @@ ul.nobull li {list-style-type: none}
 	.mono { filter: invert(1) }
 	main .progress > div { background-color: white}
 	main .progress > div > span { color: black}
+	footer { border-top: 2px solid white }
 }
 
 /* Mobile */
