@@ -95,6 +95,7 @@ main > table.logbook tr td { padding-bottom: 15px;padding-top: 15px;}
 main > table img { max-width: 100%; display: block; margin:20px 0;}
 main > table tr th { text-align: left; font-weight: bold }
 main > table tr > * { padding:5px 15px; vertical-align: top;}
+main > table.icon td {width: 25%}
 
 footer { line-height: 30px; clear:both; padding:45px; border-top:2px solid black }
 footer img {height: 18px}
