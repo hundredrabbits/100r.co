@@ -13,7 +13,7 @@ nav .hidden {position:absolute; overflow:hidden; left: -9999px}
 
 main { padding: 0px 0px 45px 45px; float:left; max-width:900px; }
 main img { width:100%; max-width: 900px; margin-bottom: 15px;}
-main > * { max-width: 800px; margin-bottom: 30px }
+main > * { max-width: 900px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
 main > h2 { font-size:30px; text-transform: capitalize}
 main > h3 { font-size:20px; text-transform: capitalize}
@@ -51,20 +51,16 @@ main > pre { font-family: monospace; background: black; color:white; padding:15p
 main > code { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
 main > code comment { color:#777}
 
-.grid {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(4, 1fr);gap: var(--pad-large);}
-.article {grid-column: span 2; padding: 10px}
-.featured {margin: var(--pad) 0;width: 100%;height: 100px;background-repeat: no-repeat;background-size: cover;background-position: center mix-blend-mode: multiply;}
-
 main ul.gallery { background:none,}
 main ul.gallery li { clear: both; display: block; height: 260px; margin-top: -2px}
 main ul.gallery li:last-child { border-bottom: 0px}
 main ul.gallery li a { display: block; padding: 10px}
 main ul.gallery li img { width:250px; float:left; display: block ; margin-right: 15px;}
 
-main .project { border-left:2px solid black; padding-left:30px; max-width: 555px;}
+/*main .project { border-left:2px solid black; padding-left:30px; max-width: 555px;}
 main .project > * { margin-bottom: 30px }
 main .project p { padding:0px; margin-top: 0px; margin-bottom: 30px; }
-main .project img { display: block; max-width: 100%; }
+main .project img { display: block; max-width: 100%; }*/
 
 main .button { background-color: #000;border: 2px solid white;color: white;padding: 13px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;border-radius: 200px;font-weight: bold; margin-right: 15px; margin-bottom: 30px;}
 main .button:hover { background-color: #333 !important; color: white; cursor:pointer;  }
@@ -83,10 +79,6 @@ main > table.col tr td:last-child { border-right: 0px }
 main > table.col tr > *:first-child { padding-left: 0px }
 main > table.col b { font-weight: bold }
 
-main .progress {padding: 2px; width: 100%;max-width: 100%; border: 1px solid grey}
-main .progress > div { height: 100%; width: 100%; background-color: black}
-main .progress > div > span { color: white;padding: 0px 2px}
-
 main img.detail { max-width: 64px; float: left;border: 1px solid #777;padding: 20px;margin: 0px 20px 20px 0px;border-radius: 3px; }
 main .shortcut, main kbd { background: #fff; display: inline-block; padding: 2px 5px; margin: 0px; color: black; font-size: 12px; line-height: 16px; border-radius: 2px; font-weight: bold }
 main .shortcut-list dt, main .shortcut-list dd { display: inline; line-height: 25px; margin-left: 0; margin-right: 10px; }
@@ -95,7 +87,13 @@ main > table.logbook tr td { padding-bottom: 15px;padding-top: 15px;}
 main > table img { max-width: 100%; display: block; margin:20px 0;}
 main > table tr th { text-align: left; font-weight: bold }
 main > table tr > * { padding:5px 15px; vertical-align: top;}
-main > table.icon td {width: 25%}
+
+.gridprojects {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(4, 1fr);}
+.projects {box-sizing: border-box;padding: 10px;margin: 0;}
+
+.grid {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(3, 1fr);}
+.article {box-sizing: border-box;padding: 10px;margin: 0;}
+.featured {width: 100%;height: 100px;background-repeat: no-repeat;background-size: cover;background-position: center mix-blend-mode: multiply;}
 
 footer { line-height: 30px; clear:both; padding:45px; border-top:2px solid black }
 footer img {height: 18px}
