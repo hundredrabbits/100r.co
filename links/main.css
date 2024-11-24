@@ -93,7 +93,7 @@ main > table tr > * { padding:5px 15px; vertical-align: top;}
 
 .grid {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(3, 1fr);}
 .article {box-sizing: border-box;padding: 10px;margin: 0;}
-.featured {width: 100%;height: 100px;background-repeat: no-repeat;background-size: cover;background-position: center mix-blend-mode: multiply;}
+.featured {width: 100%;height: 150px;background-repeat: no-repeat;background-size: cover;background-position: center mix-blend-mode: multiply;}
 
 footer { line-height: 30px; clear:both; padding:45px; border-top:2px solid black }
 footer img {height: 18px}
@@ -135,4 +135,6 @@ ul.nobull li {list-style-type: none}
 
 @media only screen and (max-width: 1100px) {
 	header, nav, main { padding: 20px;}
+	.gridprojects, .projects {grid-column-start: span 2;}
+	.article, .grid, .featured {grid-column-start: span 3;}
 }
