@@ -11,7 +11,7 @@ nav a { display:inline-block; max-width: 19% }
 nav a img { width:100%; display:block; }
 nav .hidden {position:absolute; overflow:hidden; left: -9999px}
 
-main { padding: 0px 0px 45px 45px; float:left; max-width:900px; }
+main { padding: 0px 0px 45px 45px; max-width:900px; }
 main img { width:100%; max-width: 900px; margin-bottom: 15px;}
 main > * { max-width: 900px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
