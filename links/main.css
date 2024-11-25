@@ -3,12 +3,21 @@
 
 body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif; padding:0; margin:0; }
 
-body.page_home nav a.home_rabbit,
-body.page_about nav a.about_rabbit,
-body.page_knowledge nav a.knowledge_rabbit,
-body.page_articles nav a.articles_rabbit,
-body.page_projects nav a.projects_rabbit,
-body.page_travel nav a.travel_rabbit { border-bottom:0px solid red }
+body nav a img.active { display:none }
+body nav a img.inactive { display:block }
+
+body.page_home nav a.home_rabbit img.active { display:block }
+body.page_home nav a.home_rabbit img.inactive { display:none }
+body.page_about nav a.about_rabbit img.active { display:block }
+body.page_about nav a.about_rabbit img.inactive { display:none }
+body.page_knowledge nav a.knowledge_rabbit img.active { display:block }
+body.page_knowledge nav a.knowledge_rabbit img.inactive { display:none }
+body.page_articles nav a.articles_rabbit img.active { display:block }
+body.page_articles nav a.articles_rabbit img.inactive { display:none }
+body.page_projects nav a.projects_rabbit img.active { display:block }
+body.page_projects nav a.projects_rabbit img.inactive { display:none }
+body.page_travel nav a.travel_rabbit img.active { display:block }
+body.page_travel nav a.travel_rabbit img.inactive { display:none }
 
 nav { padding: 20px 30px; max-width:900px; margin-top: 45px; margin-bottom:20px }
 nav a { display:inline-block; max-width: 16% }
