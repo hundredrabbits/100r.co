@@ -135,8 +135,10 @@ ul.nobull li {list-style-type: none}
 /* Mobile */
 
 @media only screen and (max-width: 1100px) {
-	
-nav, main { padding: 20px;}
-	.gridprojects, .projects {grid-column-start: span 2;}
-	.article, .grid, .featured {grid-column-start: span 3;}
+
+nav a {display:inline-block; max-width: 25%}
+nav {padding: 20px;text-align: center}
+main {padding: 20px;}
+.gridprojects, .projects {grid-column-start: span 2;}
+.article, .grid, .featured {grid-column-start: span 3;}
 }
