@@ -202,13 +202,8 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		printf(">>> Building failed: %s\n", name);
 	fputs("\n\n</main>", f);
 	/* footer */
-	fputs("<footer><hr />", f);
-	fpedited(f, srcpath);
-	fputs("<b>Hundredrabbits</b> © 2024 — ", f);
-	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a> | <a href='../site/support.html'>Support</a> | <a href='../site/index.html'>Index</a> | <a href='../site/rabbits.html'><img src='../media/interface/email.png' class='invert'></a>", f);
-	fputs("<a href='https://merveilles.town/@neauoire' rel='me' class='hidden'></a>", f);
-	fputs("<a href='https://merveilles.town/@rek' rel='me' class='hidden'></a>", f);
-	fputs("</footer>", f);
+	if(!fpportal(f, l, "meta.footer", 0))
+		printf(">>> Building failed: %s\n", name);
 	/* end */
 	fputs("</body></html>\n", f);
 	return f;
