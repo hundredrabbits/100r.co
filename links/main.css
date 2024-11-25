@@ -3,10 +3,18 @@
 
 body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif; padding:0; margin:0; }
 
+body.page_home nav a.home_rabbit,
+body.page_about nav a.about_rabbit,
+body.page_knowledge nav a.knowledge_rabbit,
+body.page_articles nav a.articles_rabbit,
+body.page_projects nav a.projects_rabbit,
+body.page_travel nav a.travel_rabbit { border-bottom:0px solid red }
+
 nav { padding: 20px 30px; max-width:900px; margin-top: 45px; margin-bottom:20px }
 nav a { display:inline-block; max-width: 16% }
 nav a img { width:100%; display:block; }
 nav .hidden {position:absolute; overflow:hidden; left: -9999px}
+
 
 main { padding: 0px 0px 45px 45px; max-width:900px; }
 main img { width:100%; max-width: 900px; margin-bottom: 15px;}
@@ -53,11 +61,6 @@ main ul.gallery li { clear: both; display: block; height: 260px; margin-top: -2p
 main ul.gallery li:last-child { border-bottom: 0px}
 main ul.gallery li a { display: block; padding: 10px}
 main ul.gallery li img { width:250px; float:left; display: block ; margin-right: 15px;}
-
-/*main .project { border-left:2px solid black; padding-left:30px; max-width: 555px;}
-main .project > * { margin-bottom: 30px }
-main .project p { padding:0px; margin-top: 0px; margin-bottom: 30px; }
-main .project img { display: block; max-width: 100%; }*/
 
 main .button { background-color: #000;border: 2px solid white;color: white;padding: 13px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;border-radius: 200px;font-weight: bold; margin-right: 15px; margin-bottom: 30px;}
 main .button:hover { background-color: #333 !important; color: white; cursor:pointer;  }

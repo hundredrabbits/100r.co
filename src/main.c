@@ -173,6 +173,7 @@ fpindex(FILE *f)
 FILE *
 build(FILE *f, Lexicon *l, char *name, char *srcpath)
 {
+	char filename[64];
 	if(!f)
 		return f;
 	/* begin */
@@ -190,7 +191,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		"<title>" NAME " &mdash; %s</title>",
 		name);
 	fputs("</head>", f);
-	fputs("<body>", f);
+	fprintf(f, "<body class='page_%s'>", scsw(scpy(name, filename, 64), ' ', '_'));
 	/* nav */
 	if(!fpportal(f, l, "meta.nav", 0))
 		printf(">>> Building failed: %s\n", name);
