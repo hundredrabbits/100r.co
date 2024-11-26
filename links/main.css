@@ -119,7 +119,7 @@ ul.nobull li {list-style-type: none}
 
 @media (prefers-color-scheme: dark) {
 	body {background: #000; color: white}
-	nav a img.text, img.invert, footer a.logo { filter: invert(1)}
+	nav a img.text, img.invert, footer a.logo { color:#000; filter: invert(1)}
 	body a { color: white;}
 	main > pre { background: white; color:#000}
 	main > code { background:white; color:#000}
