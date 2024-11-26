@@ -25,7 +25,7 @@ nav a img { width:144px; height:auto; display:block; }
 nav .hidden {position:absolute; overflow:hidden; left: -9999px}
 
 main { padding: 0px 0px 45px 45px; max-width:900px; }
-main img { width:100%; max-width: 900px; margin-bottom: 15px;}
+main img { width:100%; height:auto; max-width: 900px; margin-bottom: 15px;}
 main > * { max-width: 900px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
 main > h2 { font-size:30px; text-transform: capitalize}
