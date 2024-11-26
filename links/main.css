@@ -20,12 +20,12 @@ body.page_travel nav a.travel_rabbit img.active { display:block }
 body.page_travel nav a.travel_rabbit img.inactive { display:none }
 
 nav { padding: 20px 30px; max-width:900px; margin-top: 45px; margin-bottom:20px }
-nav a { display:inline-block; max-width: 16% }
-nav a img { width:100%; display:block; }
+nav a { display:inline-block; }
+nav a img { width:144px; height:auto; display:block; }
 nav .hidden {position:absolute; overflow:hidden; left: -9999px}
 
 main { padding: 0px 0px 45px 45px; max-width:900px; }
-main img { width:100%; max-width: 900px; margin-bottom: 15px;}
+main img { width:100%; height:auto; max-width: 900px; margin-bottom: 15px;}
 main > * { max-width: 900px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
 main > h2 { font-size:30px; text-transform: capitalize}
@@ -119,7 +119,7 @@ ul.nobull li {list-style-type: none}
 
 @media (prefers-color-scheme: dark) {
 	body {background: #000; color: white}
-	nav a img.text, img.invert, footer a.logo { filter: invert(1)}
+	nav a img.text, img.invert, footer a.logo { color:#000; filter: invert(1)}
 	body a { color: white;}
 	main > pre { background: white; color:#000}
 	main > code { background:white; color:#000}
@@ -135,10 +135,8 @@ ul.nobull li {list-style-type: none}
 /* Mobile */
 
 @media only screen and (max-width: 1100px) {
-
-nav a {display:inline-block; max-width: 25%}
-nav {padding: 20px;text-align: center}
-main {padding: 20px;}
-.gridprojects, .projects {grid-column-start: span 2;}
-.article, .grid, .featured {grid-column-start: span 3;}
+	nav {padding: 20px;text-align: center}
+	main {padding: 20px;}
+	.gridprojects, .projects {grid-column-start: span 2;}
+	.article, .grid, .featured {grid-column-start: span 3;}
 }
