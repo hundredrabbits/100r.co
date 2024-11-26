@@ -20,8 +20,8 @@ body.page_travel nav a.travel_rabbit img.active { display:block }
 body.page_travel nav a.travel_rabbit img.inactive { display:none }
 
 nav { padding: 20px 30px; max-width:900px; margin-top: 45px; margin-bottom:20px }
-nav a { display:inline-block; max-width: 16% }
-nav a img { width:100%; display:block; }
+nav a { display:inline-block; }
+nav a img { width:144px; height:auto; display:block; }
 nav .hidden {position:absolute; overflow:hidden; left: -9999px}
 
 main { padding: 0px 0px 45px 45px; max-width:900px; }
