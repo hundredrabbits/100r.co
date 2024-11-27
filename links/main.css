@@ -99,7 +99,7 @@ main > table tr > * { padding:5px 15px; vertical-align: top;}
 
 footer { line-height: 45px; clear:both; padding:45px; border-top:2px solid black }
 footer a.logo { margin-right: 20px; float:left }
-footer a.logo img { height: 45px }
+footer a.logo img { width: 45px; height: auto; }
 footer hr { margin-bottom: 15px; display:none;  }
 
 /* Modular */
