@@ -95,7 +95,7 @@ main > table tr > * { padding:5px 15px; vertical-align: top;}
 
 .grid {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(3, 1fr);}
 .article {box-sizing: border-box;padding: 10px;margin: 0;}
-.featured {width: 100%;height: 150px;background-repeat: no-repeat;background-size: cover;background-position: center mix-blend-mode: multiply;}
+.featured {width: 100%;height: 150px;background-repeat: no-repeat;background-size: cover;background-position: center;}
 
 footer { line-height: 45px; clear:both; padding:45px; border-top:2px solid black }
 footer a.logo { margin-right: 20px; float:left }
