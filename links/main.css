@@ -57,6 +57,9 @@ main img.medium { max-width: 300px; padding: 10px}
 main img.normal { max-width: 200px;}
 main img.sm { max-width: 88px}
 
+main .ethics-icons { display: flex; gap: 10px }
+main .ethics-icon { width: 100px; height: auto; align-self: end;}
+
 main cite {font-size: 17px;display: block;clear: both;margin-bottom: 30px;}
 main cite:before {content: "— ";}
 main > q { font-size: 20px;font-style: italic;max-width: 500px; display: block; margin-left:30px; }
