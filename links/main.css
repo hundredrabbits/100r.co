@@ -119,14 +119,13 @@ ul.nobull li {list-style-type: none}
 
 @media (prefers-color-scheme: dark) {
 	body {background: #000; color: white}
-	nav a img.text, img.invert, footer a.logo { color:#000; filter: invert(1)}
+	nav a img.text, img.invert, footer a.logo, .mono { color:#000; filter: invert(1)}
 	body a { color: white;}
 	main > pre { background: white; color:#000}
 	main > code { background:white; color:#000}
 	body select { color: black; background-color: white;}
 	main .project { border-left:2px solid white }
 	.notice { border-color:white; }
-	.mono { filter: invert(1) }
 	main .progress > div { background-color: white}
 	main .progress > div > span { color: black}
 	footer { border-top: 2px solid white }
