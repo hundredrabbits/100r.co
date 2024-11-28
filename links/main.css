@@ -3,6 +3,8 @@
 
 body { background:#fff; color:#000; overflow-x: hidden; font-family: sans-serif; padding:0; margin:0; }
 
+body nav { display: flex; flex-wrap: wrap; justify-content: center; }
+body nav .nav_link { text-align: center;}
 body nav a img.active { display:none }
 body nav a img.inactive { display:block }
 
@@ -25,7 +27,7 @@ nav a img { width:144px; height:auto; display:block; }
 nav .hidden {position:absolute; overflow:hidden; left: -9999px}
 
 main { padding: 0px 0px 45px 45px; max-width:900px; }
-main img { width:100%; height:auto; max-width: 900px; margin-bottom: 15px;}
+main img { display:block; width:100%; height:auto; max-width: 900px; margin-bottom: 15px;}
 main > * { max-width: 900px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
 main > h2 { font-size:30px; text-transform: capitalize}
@@ -56,6 +58,9 @@ main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: 
 main img.medium { max-width: 300px; padding: 10px}
 main img.normal { max-width: 200px;}
 main img.sm { max-width: 88px}
+
+main .ethics-icons { display: flex; gap: 10px }
+main .ethics-icon { width: 100px; height: auto; align-self: end;}
 
 main cite {font-size: 17px;display: block;clear: both;margin-bottom: 30px;}
 main cite:before {content: "— ";}
@@ -99,7 +104,7 @@ main > table tr > * { padding:5px 15px; vertical-align: top;}
 
 footer { line-height: 45px; clear:both; padding:45px; border-top:2px solid black }
 footer a.logo { margin-right: 20px; float:left }
-footer a.logo img { height: 45px }
+footer a.logo img { width: 45px; height: auto; }
 footer hr { margin-bottom: 15px; display:none;  }
 
 /* Modular */
@@ -119,14 +124,13 @@ ul.nobull li {list-style-type: none}
 
 @media (prefers-color-scheme: dark) {
 	body {background: #000; color: white}
-	nav a img.text, img.invert, footer a.logo { color:#000; filter: invert(1)}
+	nav a img.text, img.invert, footer a.logo, .mono { color:#000; filter: invert(1)}
 	body a { color: white;}
 	main > pre { background: white; color:#000}
 	main > code { background:white; color:#000}
 	body select { color: black; background-color: white;}
 	main .project { border-left:2px solid white }
 	.notice { border-color:white; }
-	.mono { filter: invert(1) }
 	main .progress > div { background-color: white}
 	main .progress > div > span { color: black}
 	footer { border-top: 2px solid white }
@@ -135,7 +139,7 @@ ul.nobull li {list-style-type: none}
 /* Mobile */
 
 @media only screen and (max-width: 1100px) {
-	nav {padding: 20px;text-align: center}
+	nav {padding: 20px;}
 	main {padding: 20px;}
 	.gridprojects, .projects {grid-column-start: span 2;}
 	.article, .grid, .featured {grid-column-start: span 3;}
