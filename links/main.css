@@ -103,7 +103,8 @@ main > table tr > * { padding:5px 15px; vertical-align: top;}
 .featured {width: 100%;height: 150px;background-repeat: no-repeat;background-size: cover;background-position: center;}
 
 footer { line-height: 45px; clear:both; padding:45px; border-top:2px solid black }
-footer a.logo { margin-right: 20px; float:left }
+footer .mobile { float: right; }
+footer a.logo { margin-right: 20px; float:left; }
 footer a.logo img { width: 45px; height: auto; }
 footer hr { margin-bottom: 15px; display:none;  }
 
@@ -123,7 +124,7 @@ ul.nobull li {list-style-type: none}
 /* Theme */
 
 @media (prefers-color-scheme: dark) {
-	body {background: #000; color: white}
+	body { background: #000; color: white}
 	nav a img.text, img.invert, footer a.logo, .mono { color:#000; filter: invert(1)}
 	body a { color: white;}
 	main > pre { background: white; color:#000}
@@ -139,8 +140,9 @@ ul.nobull li {list-style-type: none}
 /* Mobile */
 
 @media only screen and (max-width: 1100px) {
-	nav {padding: 20px;}
-	main {padding: 20px;}
-	.gridprojects, .projects {grid-column-start: span 2;}
-	.article, .grid, .featured {grid-column-start: span 3;}
+	nav { padding: 20px;}
+	main { padding: 20px;}
+	footer .mobile { float: left;}
+	.gridprojects, .projects { grid-column-start: span 2;}
+	.article, .grid, .featured { grid-column-start: span 3;}
 }
