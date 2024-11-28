@@ -183,6 +183,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		"<meta charset='utf-8'>"
 		"<meta name='thumbnail' content='" DOMAIN "media/services/rss.jpg' />"
 		"<meta name='viewport' content='width=device-width,initial-scale=1'>"
+		"<meta name='color-scheme' content='light dark'>"
 		"<link rel='alternate' type='application/rss+xml' title='RSS Feed' "
 		"href='../links/rss.xml' />"
 		"<link rel='stylesheet' type='text/css' href='../links/main.css'>"
