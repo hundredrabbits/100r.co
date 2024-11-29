@@ -87,8 +87,9 @@ main > table.col tr > *:first-child { padding-left: 0px }
 main > table.col b { font-weight: bold }
 
 main img.detail { max-width: 64px; float: left;border: 1px solid #777;padding: 20px;margin: 0px 20px 20px 0px;border-radius: 3px; }
-main .shortcut, main kbd { background: #fff; display: inline-block; padding: 2px 5px; margin: 0px; color: black; font-size: 12px; line-height: 16px; border-radius: 2px; font-weight: bold }
-main .shortcut-list dt, main .shortcut-list dd { display: inline; line-height: 25px; margin-left: 0; margin-right: 10px; }
+main .shortcut {display: inline-block; margin-right:10px; }
+main dt, kbd { background: #000; display: inline-block; padding: 2px 5px; margin: 0px; color: white; font-size: 12px; line-height: 16px; border-radius: 2px; font-weight: bold }
+main .shortcut-list dd { display: inline; line-height: 25px; margin-left: 10px; margin-right: 0px; }
 
 main > table.logbook tr td { padding-bottom: 15px;padding-top: 15px;}
 main > table img { max-width: 100%; display: block; margin:20px 0;}
@@ -126,7 +127,8 @@ ul.nobull li {list-style-type: none}
 @media (prefers-color-scheme: dark) {
 	body { background: #000; color: white}
 	nav a img.text, img.invert, footer a.logo, .mono { color:#000; filter: invert(1)}
-	body a { color: white;}
+	main dt, kbd {background:white; color:#000}
+	body a { color: white;
 	main > pre { background: white; color:#000}
 	main > code { background:white; color:#000}
 	body select { color: black; background-color: white;}
@@ -141,7 +143,7 @@ ul.nobull li {list-style-type: none}
 
 @media only screen and (max-width: 1100px) {
 	nav { padding: 20px;}
-	main { padding: 0px 25px 0px 25px;}
+	main { padding: 20px;}
 	footer .mobile { float: left;}
 	.gridprojects, .projects { grid-column-start: span 2;}
 	.article, .grid, .featured { grid-column-start: span 3;}
