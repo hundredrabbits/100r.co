@@ -34,7 +34,7 @@ main > h2 { font-size:30px; text-transform: capitalize}
 main > h3 { font-size:20px; text-transform: capitalize}
 main > h4 { font-size:35px; text-transform: capitalize}
 main p { line-height: 25px; font-size:16px; margin-top: 0px; max-width:700px }
-main > ul { line-height: 25px;}
+main > ul { line-height: 25px; max-width: 700px; }
 
 figure {margin:0; padding-bottom: 20px}
 figcaption {font-size: 14px;padding: 2px}
