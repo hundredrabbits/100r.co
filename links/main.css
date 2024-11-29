@@ -26,7 +26,7 @@ nav a { display:inline-block; }
 nav a img { width:144px; height:auto; display:block; }
 nav .hidden {position:absolute; overflow:hidden; left: -9999px}
 
-main { padding: 0px 0px 45px 45px; max-width:900px; }
+main { padding: 0px 45px 45px 45px; max-width:900px; }
 main img { display:block; width:100%; height:auto; max-width: 900px; margin-bottom: 15px;}
 main > * { max-width: 900px; margin-bottom: 30px }
 main > h1 { font-size:45px; text-transform: capitalize; display: none}
@@ -141,7 +141,7 @@ ul.nobull li {list-style-type: none}
 
 @media only screen and (max-width: 1100px) {
 	nav { padding: 20px;}
-	main { padding: 20px;}
+	main { padding: 0px 25px 0px 25px;}
 	footer .mobile { float: left;}
 	.gridprojects, .projects { grid-column-start: span 2;}
 	.article, .grid, .featured { grid-column-start: span 3;}
