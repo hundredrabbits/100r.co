@@ -87,7 +87,7 @@ main > table.col tr > *:first-child { padding-left: 0px }
 main > table.col b { font-weight: bold }
 
 main img.detail { max-width: 64px; float: left;border: 1px solid #777;padding: 20px;margin: 0px 20px 20px 0px;border-radius: 3px; }
-main .shortcut {display: inline-block; margin-right:10px; }
+main .shortcut {display: inline-block; margin-right:3px; }
 main dt, kbd { background: #000; display: inline-block; padding: 2px 5px; margin: 0px; color: white; font-size: 12px; line-height: 16px; border-radius: 2px; font-weight: bold }
 main .shortcut-list dd { display: inline; line-height: 25px; margin-left: 10px; margin-right: 0px; }
 

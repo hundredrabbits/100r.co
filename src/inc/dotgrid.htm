@@ -2,7 +2,6 @@
 <ul class='jump'>
     <li><a href='#introduction'>introduction</a></li>
     <li><a href='#dotbit'>dotbit</a></li>
-    <li><a href='#story'>story</a></li>
     <li><a href='#distributions'>Distributions</a></li>
     <li><a href='#tutorial'>tutorial</a></li>
     <li><a href='#line'>line</a></li>
@@ -33,8 +32,6 @@
 
 <a class='button' href='https://hundredrabbits.itch.io/dotgrid/purchase?popup=1'>Download Dotgrid</a>
 
-{/story}
-
 <h2 id='tutorial'>tutorial</h2>
 <p>Upon opening the application, you are presented with a dotted grid, which can be made bigger, or smaller, by resizing the window. A list of tools, represented as icons, sits on the bottom of the window.</p>
 <p>Clicking anywhere on the grid will add a white dot to the grid, and by adding additional dots to the grid, notice how the available tool icons become lighter, that means you have enough points to use them, their icon will darken again when you don't.</p>
@@ -50,7 +47,7 @@
 <img src='../media/content/projects/dotgrid.arc.jpg' style='float:left;' loading='lazy'  class='medium'/>
 <h2 id='arcs'>arcs</h2>
 <p>Press backspace to clear your last segment, and draw another two sets of points, but this time, click on <b>Arc</b>. This will connect your two points with a curve.</p>
-<p>If you undo your last move with <b>⌘ z</b>, connect your two points again by pressing <b>Arc Reverse</b>(the inverse curve icon). This creates an inverted curve.</p>
+<p>If you undo your last move with <kbd class='shortcut'>⌘ + z</kbd>, connect your two points again by pressing <b>Arc Reverse</b>(the inverse curve icon). This creates an inverted curve.</p>
 
 <hr />
 
@@ -81,20 +78,20 @@
 <h2 id='line_thickness'>line thickness</h2>
 <p>You can increase or decrease the thickness of your line anytime, using <b>Line Thickness</b> (the line with rectangle over it). The shortcuts to alter the line thickness are:</p>
 <ul>
-    <li>Thicker <b></b></li>
-    <li>Thinner <b></b></li>
-    <li>Thicker +5 <b>]</b></li>
-    <li>Thinner -5 <b>[</b></li>
+    <li>Thicker <kbd class='shortcut'>&#125;</kbd></li>
+    <li>Thinner <kbd class='shortcut'>&#123;</kbd></li>
+    <li>Thicker +5 <kbd class='shortcut'>]</kbd></li>
+    <li>Thinner -5 <kbd class='shortcut'>[</kbd></li>
 </ul>
 
 <h2 id='mirror'>mirror</h2>
-<p>Drawing a shape, and select <b>Mirror</b> (the icon with 4 lines that aren't crossing), will mirror the image horizontally on the canvas. Pressing on it again, will mirror it vertically, doing it again, mirrors it 180 degrees from the center.</p>
+<p>Drawing a shape, and select <b>Mirror</b> (the icon with 4 lines that aren't crossing), will mirror the image horizontally on the canvas. Pressing on it again, will mirror it vertically, doing it again, mirrors it 180° from the center.</p>
 <p>You can tell which sort of mirroring you've got, by seeing the changes in the icon on the menu. To remove the effect, click on the icon until it returns to its original state, with the lines not crossing.</p>
 
 <img src='../media/content/projects/dotgrid.fill.jpg' loading='lazy' style='float:left;'  class='medium'/><h2 id='fill'>fill</h2>
 <p>Drawing a closed shape, and selecting <b>Fill</b> (icon resembling a twisted rectangle) will fill it with a single colour.</p>
 <p>Pressing on the icon again, will remove the fill.</p>
-<p>Know that if you have other closed shapes on your canvas, this function will fill them all. The shortcut to use it is <b>R</b>.</p>
+<p>Know that if you have other closed shapes on your canvas, this function will fill them all. The shortcut to use it is <kbd class='shortcut'>r</kbd>.</p>
 
 <hr />
 
@@ -107,13 +104,13 @@
 <hr />
 
 <h2 id='other_functions'>other functions</h2>
-<p><b>Move points</b> - You can move any point, any time, by selecting it with your cursor and moving it around. If you choose to move a point that is part of an existing shape, it will warp the shape.</p>
-<p><b>Grid on/off</b> - You can toggle the grid, on and off, to better view a design using the shortcut <b>H</b>.</p>
+<p><b>Move points</b>. You can move any point, any time, by selecting it with your cursor and moving it around. If you choose to move a point that is part of an existing shape, it will warp the shape.</p>
+<p><b>Grid on/off</b>. You can toggle the grid, on and off, to better view a design using the shortcut <kbd class='shortcut'>h</kbd>.</p>
 <p><b>Layers</b> - You can toggle between each layer by using the shortcuts:</p>
 <ul>
-    <li><b>⌘ 1</b> for Layer 1</li>
-    <li><b>⌘ 2</b> for Layer 2</li>
-    <li><b>⌘ 3</b> for Layer 3</li>
+    <li><kbd class='shortcut'>⌘ 1</kbd> for Layer 1</li>
+    <li><kbd class='shortcut'>⌘ 2</kbd> for Layer 2</li>
+    <li><kbd class='shortcut'>⌘ 3</kbd> for Layer 3</li>
 </ul>
 <p>Dots will appear over the shapes of the layer that is selected. Having multiple layers, enables you to have designs of varying colour and complexity.</p>
 
@@ -131,51 +128,52 @@
 <h2 id='shortcut_quick_list'>shortcut quick list</h2>
 <p>Stroke types</p>
 <ul>
-    <li>Line <b>A</b></li>
-    <li>Arc <b>S</b></li>
-    <li>Arc Rev <b>D</b></li>
-    <li>Bezier <b>F</b></li>
-    <li>Close <b>Z</b></li>
+    <li><kbd class='shortcut'>a</kbd>Line</li>
+    <li><kbd class='shortcut'>s</kbd>Arc</li>
+    <li><kbd class='shortcut'>d</kbd>Arc Rev</li>
+    <li><kbd class='shortcut'>f</kbd>Bezier</li>
+    <li><kbd class='shortcut'>z</kbd>Close</li>
 </ul>
 <p>Stroke effects</p>
 <ul>
-    <li>Line cap <b>Q</b></li>
-    <li>Line join <b>W</b></li>
-    <li>Mirror <b>E</b></li>
-    <li>Fill <b>R</b></li>
-    <li>Thicker <b>&#125;</b></li>
-    <li>Thinner <b>&#123;</b></li>
-    <li>Thicker +5 <b>]</b></li>
-    <li>Thinner -5 <b>[</b></li>
+    <li><kbd class='shortcut'>q</kbd>Line cap</li>
+    <li><kbd class='shortcut'>w</kbd>Line join</li>
+    <li><kbd class='shortcut'>e</kbd>Mirror</li>
+    <li><kbd class='shortcut'>r</kbd>Fill</li>
+    <li><kbd class='shortcut'>&#125;</kbd>Thicker</li>
+    <li><kbd class='shortcut'>&#123;</kbd>Thinner</li>
+    <li><kbd class='shortcut'>]</kbd>Thicker +5</li>
+    <li><kbd class='shortcut'>[</kbd>Thinner -5</li>
 </ul>
 <p>Dotgrid can be operated with the keyboard</p>
 <ul>
-    <li>Add point <b>enter key</b></li>
-    <li>Move up <b>up arrow key</b></li>
-    <li>Move down <b>down arrow key</b></li>
-    <li>Move right <b>right arrow ley</b></li>
-    <li>Move left <b>left arrow key</b></li>
-    <li>Remove point <b>shift + backspace</b></li>
-    <li>Remove segment <b>backspace</b></li>
+    <li><kbd class='shortcut'>enter</kbd>Add point</li>
+    <li><kbd class='shortcut'>↑</kbd>Move up</li>
+    <li><kbd class='shortcut'>↓</kbd>Move down</li>
+    <li><kbd class='shortcut'>→</kbd>Move right</li>
+    <li><kbd class='shortcut'>←</kbd>Move left</li>
+    <li><kbd class='shortcut'>shift + backspace</kbd>Remove point</li>
+    <li><kbd class='shortcut'>backspace</kbd>Remove segment</li>
 </ul>
+
 <p>Toggling between layers</p>
 <ul>
-    <li>Foreground <b>⌘ 1</b></li>
-    <li>Middle <b>⌘ 2</b></li>
-    <li>Background <b>⌘ 3</b></li>
+    <li><kbd class='shortcut'>⌘ + 1</kbd>Foreground</li>
+    <li><kbd class='shortcut'>⌘ + 2</kbd>Middle</li>
+    <li><kbd class='shortcut'>⌘ + 3</kbd>Background</li>
 </ul>
 <p>Other</p>
 <ul>
-    <li>Color picker <b>G</b></li>
-    <li>Toggle grid on/off <b>H</b></li>
-    <li>Save <b>⌘ S</b></li>
-    <li>Export Vector <b>⌘ E</b></li>
-    <li>Export Image <b>⌘ shift E</b></li>
-    <li>Revert <b>⌘ + W</b></li>
-    <li>New <b>⌘ N</b></li>
-    <li>Open <b>⌘ O</b></li>
-    <li>Undo <b>⌘ Z</b></li>
-    <li>Redo <b>⌘ shift Z</b></li>
+    <li><kbd class='shortcut'>g</kbd>Color picker</li>
+    <li><kbd class='shortcut'>h</kbd>Toggle grid on/off</li>
+    <li><kbd class='shortcut'>⌘ + s</kbd>Save</li>
+    <li><kbd class='shortcut'>⌘ + e</kbd>Export Vector</li>
+    <li><kbd class='shortcut'>⌘ + shift + e</kbd>Export Image</li>
+    <li><kbd class='shortcut'>⌘ + w</kbd>Revert</li>
+    <li><kbd class='shortcut'>⌘ + n</kbd>New</li>
+    <li><kbd class='shortcut'>⌘ + o</kbd>Open</li>
+    <li><kbd class='shortcut'>⌘ + z</kbd>Undo</li>
+    <li><kbd class='shortcut'>⌘ + shift + z</kbd>Redo</li>
 </ul>
 
 {/license}
