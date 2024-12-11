@@ -49,12 +49,9 @@
     <li><a href='#tutorial'>Tutorial</a></li>
     <li><a href='#rename'>Rename</a></li>
     <li><a href='#snarf'>Snarf</a></li>
-    <li><a href='#leap'>Leaping through the text</a></li>
     <li><a href='#word'>Finding a word</a></li>
-    <li><a href='#directory'>Director</a></li>
-    <li><a href='#counter'>Counter</a></li>
+    <li><a href='#directory'>Directory</a></li>
     <li><a href='#saving'>Saving</a></li>
-    <li><a href='#linebreak'>Line break</a></li>
 </ul>
 
 <img src='../media/content/stream/2024_leftfont.jpg' title='uxn version of left' loading='lazy' />
@@ -63,7 +60,7 @@
 
 <p>Left is graphical plain-text editor written in <a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal</a>. Left doesn't do much, but packs many useful features in a tiny 13kb rom.</p>
 
-<p>It supports Uxntal syntax highlight, proportional text, inline images and the snarf buffer. The alt key is used as a LEAP key to navigate the body of the text. This version is updated regularly.</p>
+<p>It supports Uxntal syntax highlight, proportional text, inline images and the snarf buffer. This version is updated regularly.</p>
 
 <p>To view the documentation for the former version of Left, see <a href='left_electron.html' class='local'>left electron</a>. Both the Uxn and Electron versions are available on itch.io.</p>
 
@@ -86,19 +83,36 @@
 <h3><a id='controls'>Controls</a></h3>
 
 <dl class="col2 shortcut-list" aria-labelledby='controls'>
-    <div><kbd class='shortcut'><dt>alt + mouse2</dt></kbd><dd>find from top</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + mouse2</dt></kbd><dd>cut and find</dd></div>
-    <div><kbd class='shortcut'><dt>backspace/delete</dt></kbd><dd>erase</dd></div>
-    <div><kbd class='shortcut'><dt>escape</dt></kbd><dd>deselect</dd></div>
-    <div><kbd class='shortcut'><dt>arrow</dt></kbd><dd>move</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + up</dt></kbd><dd>next label</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + down</dt></kbd><dd>prev label</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + left</dt></kbd><dd>end of line</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + right</dt></kbd><dd>start of line</dd></div>
-    <div><kbd class='shortcut'><dt>alt + left</dt></kbd><dd>next word</dd></div>
-    <div><kbd class='shortcut'><dt>alt + right</dt></kbd><dd>prev word</dd></div>
-    <div><kbd class='shortcut'><dt>shift + arrow</dt></kbd><dd>scale selection</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + n</dt></kbd><dd>new</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + r</dt></kbd><dd>rename</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + o</dt></kbd><dd>open</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + s</dt></kbd><dd>save</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + p</dt></kbd><dd>send</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + b</dt></kbd><dd>build</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + q</dt></kbd><dd>exit</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + c</dt></kbd><dd>copy</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + v</dt></kbd><dd>paste</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + s + v</dt></kbd><dd>paste binary</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + x</dt></kbd><dd>cut</dd></div>
+    <div><kbd class='shortcut'><dt>backspace</dt></kbd><dd>erase</dd></div>
+    <div><kbd class='shortcut'><dt>delete</dt></kbd><dd>delete</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + /</dt></kbd><dd>go to directory</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + enter</dt></kbd><dd>go to selection</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + t</dt></kbd><dd>strip</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + i</dt></kbd><dd>trim</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + y</dt></kbd><dd>clip</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + j</dt></kbd><dd>join</dd></div>
+    <div><kbd class='shortcut'><dt>tab</dt></kbd><dd>tab</dd></div>
+    <div><kbd class='shortcut'><dt>s + tab</dt></kbd><dd>untab</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + tab</dt></kbd><dd>select word</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + g</dt></kbd><dd>select symbol</dd></div>
+    <div><kbd class='shortcut'><dt>s</dt></kbd><dd>select line start</dd></div>
     <div><kbd class='shortcut'><dt>ctrl + a</dt></kbd><dd>select all</dd></div>
+    <div><kbd class='shortcut'><dt>escape</dt></kbd><dd>select reset</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + f</dt></kbd><dd>find selection</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + h</dt></kbd><dd>View hint</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + spc</dt></kbd><dd>Symbol</dd></div>
+    <div><kbd class='shortcut'><dt>ctrl + l</dt></kbd><dd>Categories</dd></div>
 </dl>
 
 <h2 id='tutorial'>Tutorial</h2>
@@ -119,51 +133,15 @@
 
 <hr />
 
-<h3><a id='leap'>Leap</a></h3>
-
-<p>The <kbd class='shortcut'>alt</kbd> key is used as a <a href='https://www.youtube.com/watch?v=o_TlE_U_X3c' target='_blank'>LEAP key</a>(YouTube) to navigate the body of the text.</p>
-
-<hr />
-
-
 <h3><a id='word'>Finding a word</a></h3>
 
-<p>Finding a word is done by holding down the <kbd class='shortcut'>alt key</kbd>, and typing characters, and releasing <kbd class='shortcut'>alt</kbd> to jump. Alternatively, you can select a word with <kbd class='shortcut'>mouse2</kbd>, and jump to the next instance with <kbd class='shortcut'>mouse3</kbd>.</p>
-
-<dl class="shortcut-list">
-  <div><kbd class='shortcut'><dt>1</dt></kbd><dd>select character</dd></div>
-  <div><kbd class='shortcut'><dt>2</dt></kbd><dd>select word</dd></div>
-  <div><kbd class='shortcut'><dt>3</dt></kbd><dd>find</dd></div>
-</dl>
+<p>Find multiple occurences of a word by selecting one, and pressing <kbd class='shortcut'>ctrl + f</kbd>. A menu will appear on the left side showing the various occurences of the selected word, scroll through the list using <kbd class='shortcut'>alt + (up or down)arrows</kbd>. To leave the word finding mode press <kbd class='shortcut'>escape</kbd>.</p>
 
 <hr />
 
 <h3><a id='directory'>Directory</a></h3>
 
-<p>A listing of the files in the active directory can be seen by the sequence <kbd class='shortcut'>ctrl + r del</kbd> , a file from that listing can be opened by the sequence <kbd class='shortcut'>mouse2 ctrl + g</kbd>.</p>
-
-<dl class="col2 shortcut-list">
-    <div><kbd class='shortcut'><dt>ctrl + n</dt></kbd><dd>new</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + s</dt></kbd><dd>save</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + o</dt></kbd><dd>open</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + g</dt></kbd><dd>open selection</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + r</dt></kbd><dd>rename</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + c</dt></kbd><dd>copy</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + v</dt></kbd><dd>paste</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + x</dt></kbd><dd>cut</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + h</dt></kbd><dd>toggle syntax</dd></div>
-    <div><kbd class='shortcut'><dt>ctrl + f</dt></kbd><dd>toggle font</dd></div>
-</dl>
-
-<hr />
-
-<h3><a id='counter'>Counter</a></h3>
-
-<img src='../media/content/projects/left_04.png' class='detail'/>
-
-<p>At the top right corner of the window, there are 4 sets of digits (can be either numbers, or letters). Depending on what is selected, this number will mean different things.</p>
-
-<p>If moving forward or backward with the arrow keys, the number will indicate the position of the cursor and of the character in the window. If selecting a bit of text, the number will count up the number of characters in the selection.</p>
+<p>A listing of the files in the active directory can be seen by the sequence <kbd class='shortcut'>ctrl + /</kbd>. To open a file, select a word and press <kbd class='shortcut'>ctrl + enter</kbd>.</p>
 
 <hr />
 
@@ -173,15 +151,7 @@
 
 <p>To save a file, press <kbd class='shortcut'>ctrl + s</kbd>.</p>
 
-<p>At the top left corner of the window is a diamond shape, it changes color to indicate whether or not you have unsaved changes.</p>
-<hr />
-
-<h3 id='linebreak'>Linebreak</h3>
-
-<img src='../media/content/projects/left_05.png' class='detail'/>
-
-<p>If you skip a line, a diamond shape will mark the line break.</p>
-
+<p>At the top left corner of the window is a diamond shape, it changes color to indicate whether or not you have unsaved changes. Teal means unsaved, black means saved.</p>
 <hr />
 
 <img src='../media/interface/left.turnip.png' title='Hello, I am the baby form of Lefbit' alt='De-evolved Lefbit' style='width: 185px;margin: 0px auto; margin-bottom: 0px;display: block;margin-bottom: 30px;'/>
