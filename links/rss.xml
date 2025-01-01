@@ -9,10 +9,49 @@
 <link>https://100r.co</link>
 </image>
 
+<item>
+  <title>Summary of changes for December 2024</title>
+  <link>https://100r.co/site/log.html#dec2024</link>
+  <guid isPermaLink='false'>log.html#dec2024</guid>
+  <pubDate>Wed, 01 Jan 2025 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of December.</p>
+
+<img src="../media/content/videos/december_2024.jpg" alt="a seal in a halfmoon position" loading="lazy" width="1200" height="679">
+
+<h2>Summary Of Changes</h2>
+
+<ul>
+  <li><b>100r.co</b>, updated the documentation for our various <a href="https://100r.co/site/projects.html">projects</a>.</li>
+  <li><b><a href="https://100r.co/site/left.html">Left</a></b>, added support for <a href="https://merveilles.town/@neauoire/113671244114664911" target="_blank">unicode input</a>(Mastodon).</li>
+  <li><b><a href="https://100r.co/site/rabbit_waves.html">Rabbit Waves</a></b>, added a page on <a href="https://rabbitwaves.ca/site/aircraft.html" target="_blank">Air to Ground Signals</a>.</li>
+  <li><b><a href="https://eli.li/december-adventure" target="_blank">December Adventure</a></b>, collected <a href="https://rabbits.srht.site/decadv/#2024" target="_blank">Devine's code experiments</a>.</li>
+</ul>
+
+<p>Before diving into the ins and outs of the past year, we'd like to begin by sending our very warmest thanks to everyone who generously hosted us, drove us to the hardware store, invited us out for fries to cheer us up, fixed typos in the books, improved the documentation, lent us power-tools, donated to the studio, spent hours to show us how to fix broken things and corrected us when we were wrong.</p>
+
+<p>During the first few weeks of the year, we were busy with planning our upcoming sail north to Alaska, during which a DDoS attack took down many of our repositories and precipitated our decentralizing of the project source files. Mirroring our projects across multiple forges and diversifying the means in which they were available became necessary.</p>
+
+<p>In preparation for the heavy weather up north, we strengthened the <a href="https://100r.co/site/chainplates.html">chainplates</a> and replaced a few <i>experienced</i> halyards. In fact, our most vivid memories of the early spring was of the blisters we made splicing dyneema. We've also built ourselves a <a href="https://100r.co/site/gimballed_stove.html">gimballed stove</a> with space for an <a href="https://100r.co/site/open_pantry.html">open pantry</a> allowing us to store more fresh vegetables by doing away with the oven.</p>
+
+<p>Our summer was spent exploring the Northern Canada and Alaskan coastline to test the recent <a href="https://100r.co/site/boat_projects.html">boat projects</a>, a sort of shakedown if you will, in preparation for plans we may divulge in a future update. During our transit, we began writing down notes on various forms of analog communication which have now mostly fallen into obscurity. These notes later became an integral part of the <a href="https://100r.co/site/rabbit_waves.html">Rabbit Waves</a> project, created with the hope of sparking an interest in these valuable but vanishing skillsets.</p>
+
+<p>Through it all, we continued improving the <a href="https://100r.co/site/uxn.html">Uxn</a> ecosystem documentation and toolchain, which has played a central role in our work now for four years! We've also explored other enticing avenues where small robust virtual machines could be used for knowledge preservation, namely Conway's <a href='https://wiki.xxiivv.com/site/fractran.html' target='_blank'>Fractran</a>, which all came together into the <a href="https://100r.co/site/shining_sand.html">Shining Sand</a> talk given at the the year's end.</p>
+
+<p>We're looking cautiously forward to the challenges that awaits us all in 2025. Approaching these adversarial forces with collective tactical preparedness and clarity is more important than ever, and we shall all rise to the occasion!</p>
+
+<p>We had a lot of really good wildlife moments this year, and so the last drawing of 2024 is of a half-mooning seal.</p>
+
+<p><b>Book Club:</b> This month we are reading <i>The Secret History</i> by Donna Tartt. Our favorite book this year was <b>West with the Night</b> by Beryl Markham, see all of the other <a href="../site/library.html#2024">books</a> we read in 2024.</p>
+
+<p><a href='https://100r.co/site/log.html#dec2024' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
 
 <item>
   <title>Summary of changes for November 2024</title>
-  <link>https://100r.co/site/log.html#onov2024</link>
+  <link>https://100r.co/site/log.html#nov2024</link>
   <guid isPermaLink='false'>log.html#nov2024</guid>
   <pubDate>Sat, 30 Nov 2024 07:00:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
@@ -131,7 +170,7 @@
   <li><b><a href="https://kokorobot.ca/site/wunderland_rabbits.html" target="_blank">Wunderland Rabbits</a></b>, added a new <a href="https://kokorobot.ca/media/content/wunderland_14_full.jpg" target="_blank">rabbit pic</a>.</li>
 </ul>
 
-<p>This month, Pino reached the northern tip of Vancouver Island, sailed south through Johnstone Strait, and into calmer, familiar waters on the 11th of August. Both of us were eager for a taste of summer weather, we hoped to catch what was left of it. Our legs demanded an anchorage with options for walking, so we chose to anchor in {Hathayim Marine Park}. The lovely people on the sailboat Nanamuk were anchored here too, they <a href="https://100r.co/site/hathayim_marine_park.html#aug2024">mapped many of the trails</a> in the area, even the overgrown, less-traveled routes. We <a href="https://100r.co/site/western_canada.html#2024">updated our summer route map</a> through northern B.C.</p>
+<p>This month, Pino reached the northern tip of Vancouver Island, sailed south through Johnstone Strait, and into calmer, familiar waters on the 11th of August. Both of us were eager for a taste of summer weather, we hoped to catch what was left of it. Our legs demanded an anchorage with options for walking, so we chose to anchor in <a href="https://100r.co/site/hathayim_marine_park.html">Hathayim Marine Park</a>. The lovely people on the sailboat Nanamuk were anchored here too, they <a href="https://100r.co/site/hathayim_marine_park.html#aug2024">mapped many of the trails</a> in the area, even the overgrown, less-traveled routes. We <a href="https://100r.co/site/western_canada.html#2024">updated our summer route map</a> through northern B.C.</p>
 
 <p>From May 1st to August 11th, like with our book <a href="https://100r.co/site/busy_doing_nothing.html">Busy Doing Nothing</a>, Rek kept a detailed logbook of daily happenings onboard. We hope to publish these notes to this wiki soon.</p>
 
@@ -154,7 +193,7 @@
 
 <h2>Summary Of Changes</h2>
 <ul>
-  <li><b>100r.co</b>, added <a href="https://100r.co/site/sitka.html" target="_blank">Sitka</a>, and completed route in {us se alaska}.</li>
+  <li><b>100r.co</b>, added <a href="https://100r.co/site/sitka.html" target="_blank">Sitka</a>, and completed route in <a href="https://100r.co/site/us_se_alaska.html">us se alaska</a>.</li>
   <li><b><a href="https://100r.co/site/left.html" target="_blank">Left</a></b>, can now paste binary directly from programs like <a href="https://100r.co/site/nasu.html" target="_blank">Nasu</a>.</li>
   <li><b><a href="https://kokorobot.ca/site/hakum.html" target="_blank">Hakum</a></b>, added two drawings to the <a href="https://kokorobot.ca/site/hakum.html#characters">Characters</a> section, and a new very short comic called <a href="https://kokorobot.ca/media/content/hakum_shoes.jpg" target="_blank">Shoes</a>.</li>
   <li><b><a href="https://100r.co/site/wiktopher.html" target="_blank">Wiktopher</a></b>, fixed some typos.</li>
@@ -351,7 +390,7 @@
 <ul>
   <li><b><a href="https://100r.co">100r.co</a></b>, added <a href="https://100r.co/site/galley_refit.html" target="_blank">galley refit</a>, updated <a href="https://100r.co/site/lifelines.html#dec2023">lifelines</a>, <a href="https://100r.co/site/making_seamed_box_cushions.html#trapezoid">seamed box cushions</a>, and <a href="https://100r.co/site/moisture_prevention_underliner.html">moisture prevention underliner</a>.</li>
   <li><b><a href="http://wiki.xxiivv.com/site/permacomputing.html" target="_blank">Permacomputing</a></b>, revamped the page.</li>
-  <li><b><a href="https://git.sr.ht/~rabbits/uxn-games/tree/main/item/flap/flap.tal">Flappy Bird</a></b>, released an {Uxn} version of the Flappy Bird game.</li>
+  <li><b><a href="https://git.sr.ht/~rabbits/uxn-games/tree/main/item/flap/flap.tal">Flappy Bird</a></b>, released an <a href="https://100r.co/site/uxn.html">Uxn</a> version of the Flappy Bird game.</li>
   <li><a href="https://100r.co/site/grimgrains.html" target="_blank">Grimgrains</a>, released a new basic recipe: <a href="https://grimgrains.com/site/whole_wheat_pancakes.html" target="_blank">Whole Wheat Pancakes</a>.</li>
   <li><b><a href="https://soundcloud.com/neauoire" target="_blank">Aliceffekt</a></b>, Devine wrote some new music. </li>
 </ul>
@@ -637,7 +676,7 @@ made the <a href="https://wiki.xxiivv.com/site/varvara_zine.html">Varvara Zine</
 
 <h2>Summary Of Changes</h2>
 <ul>
-  <li><b>100r.co</b>, updated <a href='https://100r.co/site/jib_cars.html#may2023' target='_blank'>jib cars</a>, and added new recommendations on the {offshore checklist}(new entries labelled with dates).</li>
+  <li><b>100r.co</b>, updated <a href='https://100r.co/site/jib_cars.html#may2023' target='_blank'>jib cars</a>, and added new recommendations on the <a href="https://100r.co/site/offshore_checklist.html">offshore checklist</a>(new entries labelled with dates).</li>
   <li><b><a href='https://100r.co/site/donsol.html' target='_blank'>Donsol</a></b>, <a href='https://asie.pl/' target='_blank'>Asie</a> made some <a href='https://merveilles.town/@neauoire/110305853534721465' target='_blank'>3DS and NDS roms</a>(Mastodon).</li>
   <li><b><a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, added the revised and corrected version of <a href='http://wiktopher.ca/site/chapter_08.html' target='_blank'>Chapter 8</a>, and <a href='http://wiktopher.ca/site/chapter_09.html' target='_blank'>Chapter 9</a>, back online.</li>
   <li><b><a href='https://git.sr.ht/~rabbits/uxnbal' target='_blank'>Uxnbal</a></b>, wrote a type-checker, it's still very experimental, but it can infer most imbalancing stack-effects.</li>
@@ -1040,13 +1079,13 @@ https://git.sr.ht/~rabbits/uxn-playdate' target='_blank'>Playdate implementation
     <li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, improved the <a href='https://wiki.xxiivv.com/site/uxntal_reference.html' target='_blank'>Uxntal reference sheet</a> and improved the <a href='https://wiki.xxiivv.com/site/uxntal_cheatsheet.html' target='_blank'>Uxntal cheatsheet</a>.</li>
     <li><b><a href='https://wiki.xxiivv.com/site/dexe.html' target='_blank'>Dexe</a></b>, added menu bar.</li>
     <li><b><a href='https://100r.co/site/nasu.html' target='_blank'>Nasu</a></b>, added menu bar.</li>
-    <li><b><a href='https://100r.co/site/noodle.html' target='_blank'>Noodle</a>}</b>, added menu bar.</li>
+    <li><b><a href='https://100r.co/site/noodle.html' target='_blank'>Noodle</a></b>, added menu bar.</li>
     <li><b>100r.co</b>, updated <a href='https://100r.co/site/boom_tent.html' target='_blank'>boom tent</a>, and added <a href='https://100r.co/site/lpg_refit.html' target='_blank'>lpg refit</a> (backdated update).</li>
 </u>
 
 <h3>News</h3>
 
-<p>Pino is currently in Desolation Sound, enjoying the quiet. We've written a few posts about some of the anchorages we've visited, like {melanie cove}, {grace harbour} and {hathayim marine park}. We're updating <a href='https://100r.co/site/about_us.html#where' target='_blank'>our track</a> as we go.</p>
+<p>Pino is currently in Desolation Sound, enjoying the quiet. We've written a few posts about some of the anchorages we've visited, like <a href="https://100r.co/site/melanie_cove.html">melanie cove</a>, <a href="https://100r.co/site/grace_harbour.html">grace harbour</a> and <a href="https://100r.co/site/hathayim_marine_park.html">hathayim marine park</a>. We're updating <a href='https://100r.co/site/about_us.html#where' target='_blank'>our track</a> as we go.</p>
 
 <p>Devine has been adding a lot of notes to the <a href='https://permacomputing.net' target='_blank'>permacomputing wiki</a> this month. We also started a little arcade game named Inle, something that we could play together on the boat in the style of Gunbound/Tank Wars... but with rabbits (we finished reading Watership Down last month, so we blame that, haha). We don't have a project page yet for it, but we shared some images on the post for <a href='https://100r.co/site/grace_harbour.html' target='_blank'>grace harbour</a>, where we started working on the game.</p>
 
