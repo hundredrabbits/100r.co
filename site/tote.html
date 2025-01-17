@@ -51,17 +51,86 @@
 
 <a class='button' href='https://hundredrabbits.itch.io/tote'>Try Tote</a><br>
 
-<img src='../media/content/projects/tote_01.jpg' loading='lazy' />
-
-<p>Programming is done by dragging things from the Panel(left) into the Rules(middle) or Bag(right). Step through the evaluation by pressing the button with the squiggly symbol(bottom right) to rewrite the symbols in the Bag.</p>
-
-<img src='../media/content/projects/tote_merganser.png' alt='a merganser with a tote bag hanging over its front from around their neck' class='medium' style="float:right;" />
-
-<p>Click on the symbols in the Panel(left) to open the <b>Symbol Editor</b> with which you can draw new symbols, save/load the ICN graphics, lock/unlock the dragging of the symbol in the bag, activate continuous/step mode for when the symbol is clicked on.</p>
-
-<p>Clicking inside the bag during symbol editing gives that symbol an <b>anchor position</b>, when that symbol will be created as the result of a rule, it will spawn at that location.</p>
-
 <p>To learn more, see the examples from <a href="https://wiki.xxiivv.com/site/pocket_rewriting.html" target="_blank">Pocket Rewriting</a>, and <a href="https://wiki.xxiivv.com/site/fractran.html">Fractran</a>.</p>
+
+<h3>Introduction</h3>
+
+<p>Programming is done by dragging things from the Panel(left) into the
+Rules(middle) or Bag(right). Step through the evaluation by pressing the button
+with the squiggly symbol(bottom right) to rewrite the symbols in the Bag.</p>
+
+<table border='1'>
+	<tr><th colspan='2'>Subtract Program</th></tr>
+	<tr>
+		<td><img src="../media/content/projects/tote_sub.png" class="mono"/></td>
+		<td><pre style='line-height:22px'>
+:: x y sub > sub
+:: x   sub > sub pos
+::   y sub > sub neg
+::     sub >
+</pre></td>
+	</tr>
+</table>
+
+<p>Once the rules have been created, add things to the Bag by dragging them from
+the Panel. To get the resule of 8-3, add 8 times the first symbol(triangle), 3
+times the second(lozenge), and the subtract symbol(empty dot). Step through the
+evaluation by pressing the squiggly symbol until no transformation is
+possible.</p>
+
+<table border='1'>
+	<tr><th colspan='2'>Content of Bag</th></tr>
+	<tr>
+		<td><img src="../media/content/projects/tote_bag.png" class="mono" /></td>
+		<td><img src="../media/content/projects/tote_res.png" class="mono" /></td>
+	</tr>
+	<tr>
+		<td>x=8 y=3 sub</td>
+		<td>pos=5</td>
+	</tr>
+</table>
+
+<h3>Editing Symbols</h3>
+<p>Click on the symbols in the Panel(left) to open the <b>Symbol Editor</b> with
+which you can draw new symbols, save/load the <a href="https://xxiivv.com/site/icn_format.html" target="_blank">ICN
+graphics</a>, lock/unlock the dragging of the symbol in the bag, activate
+continuous/step mode for when the symbol is clicked on.</p>
+<ul>
+	<li>Clear sprite</li>
+	<li>Export sprite</li>
+	<li>Import sprite</li>
+	<li>Set Spawn direction</li>
+	<li>Toggle Visibility</li>
+	<li>Toggle Lock</li>
+</ul>
+
+<h3>Setting Anchors</h3>
+<p>Clicking inside the bag during <i>symbol editing</i> gives that symbol an
+<b>anchor position</b>, when that symbol will be created as the result of a
+rule, it will spawn at that location.</p>
+
+<video width="444" height="352" style="outline:1px solid black" autoplay loop>
+	<source src="../media/content/projects/tote_magic.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+
+<p>Click on a rule's arrow to toggle between one of four triggers that can
+trigger the rule:</p>
+
+<ul>
+	<li><kbd>--></kbd> On step</li>
+	<li><kbd>>--</kbd> On clicking on a symbol</li>
+	<li><kbd>-&#60;></kbd> On dragging a symbol onto another</li>
+	<li><kbd>..></kbd> On a timer</li>
+</ul>
+
+<img src='../media/content/projects/tote_merganser.png' alt='a merganser with a tote bag hanging over its front from around their neck' class='medium'/>
+
+<ul>
+	<li><a href='https://www.youtube.com/watch?v=xg_LdNuU9ks&list=PLZOFJGlHDrLLhSMkWF7SzHShsV30AK3kT' target='_blank'>watch examples</a>, playlist by CapitalEx</li>
+	<li><a href='https://git.sr.ht/~rabbits/tote' target='_blank'>view source</a></li>
+	<li><a href='https://rabbits.srht.site/tote/tote.rom' target='_blank'>download rom</a></li>
+</ul>
 
 <h2 id='license'><a href='license.html'>license</a></h2><p>The license applies to all the documented projects, the projects themselves and their assets. The source code of this website and our apps are under the <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE' target='_blank'>MIT License</a>, but the assets and text content of this website and of our apps are under the <a href='https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md' target='_blank'>BY-NC-SA4.0 License</a>. We are happy to pass knowledge, and that others can learn from our projects, improve on them, or make them into something else that is useful.</p><p>DO NOT resell or mint our work, doing so is very lazy, and disrespectful to us.</p>
 
