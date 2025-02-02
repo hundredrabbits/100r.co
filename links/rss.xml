@@ -10,6 +10,44 @@
 </image>
 
 <item>
+  <title>Summary of changes for January 2025</title>
+  <link>https://100r.co/site/log.html#jan2025</link>
+  <guid isPermaLink='false'>log.html#jan2025</guid>
+  <pubDate>Sat, 01 Feb 2025 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of January.</p>
+
+<img src="../media/content/videos/january_2025.jpg" alt="neomine, a bird-like character, standing on some isometric tiles floating in the void" loading="lazy" width="120" height="679">
+
+<h2>Summary Of Changes</h2>
+
+<ul>
+  <li><b>100r.co</b>, added a new page: <a href='https://100r.co/site/tote.html' target='_blank'>tote</a>. Added <a href='https://100r.co/site/victoria_to_sitka_logbook.html#week8'>Week 8</a> and <a href='https://100r.co/site/victoria_to_sitka_logbook.html#week9'>Week 9</a> of the <a href=
+'https://100r.co/site/victoria_to_sitka_logbook.html" target='_blank'>Victoria to Sitka logbook</a>.</li>
+  <li><b><a href="https://100r.co/site/tote.html" target="_blank">Tote</a></b>, released the project on <a href="https://hundredrabbits.itch.io/tote" target="_blank">itch.io</a>.</li>
+  <li><b><a href="<a href="https://100r.co/site/grimgrains.html" target="_blank">Grimgrains</a></b>, added a new recipe: <a href="https://grimgrains.com/site/chocolate_turtles.html" target="_blank">chocolate turtles</a>.</li>
+  <li><b><a href="https://100r.co/site/left.html" target="_blank">Left</a></b>, added an option to <a href="https://rabbits.srht.site/days/2025/02/01.html" target="_blank">collapse the nav bar</a> on the left.</li>
+  <li><b><a href="https://100r.co/site/orca.html" target="_blank">Orca</a></b>, added <a href="https://100r.co/site/orca.html#community">community links</a>.</li>
+</ul>
+
+<p>Devine spent time improving the html5 Uxn emulator, and thanks to their hard work it is now possible to play <a href="https://hundredrabbits.itch.io/niju" target="_blank">Niju</a>, <a href="https://hundredrabbits.itch.io/donsol" target="_blank">Donsol</a>, and <a href="https://hundredrabbits.itch.io/oquonie" target="_blank">Oquonie</a> directly in the browser on itch.io, the same goes for projects like <a href="https://hundredrabbits.itch.io/noodle" target="_blank">Noodle</a> and <a href="https://hundredrabbits.itch.io/tote" target="_blank">Tote</a>.</p>
+
+<p>It's been a long time coming, but <a href='https://100r.co/site/oquonie.html' target='_blank'>Oquonie</a> is now playable on <a href='https://play.date/'' target='_blank'>Playdate</a>. Rek spent the last week converting the 2-bit assets for Oquonie to 1-bit, because some of the characters and tiles were too difficult to read, now all of the assets work perfectly on monochromatic screens. As an amazing plus, Devine got the music and sounds working perfectly, just like in the original iOS version.</p>
+
+<p>From January 19-25th, we both participated in <a href="https://www.tumblr.com/goblinweek" target="_blank">Goblin Week</a>, an event in which you make goblins every day for a week(whatever that means to you). See the goblin series made by <a href="https://rabbits.srht.site/days/2025/01/25.html" target="_blank">Rek</a>(viewable <a href="https://kokorobot.ca/site/goblins.html" target="_blank">here</a> in higher rez also) and the one made by <a href="https://merveilles.town/@neauoire/113858664512777630" target="_blank">Devine</a>(Mastodon).</p>
+
+<p>Pino has earned <a href="https://rabbits.srht.site/days/2025/01/23.html" target="_blank">two new replacement solar panels</a> this month! We have not installed them yet, it is still too cold outside in Victoria (we are expecting snow this week).</p>
+
+<p>We share photos often in our monthly updates, and so Devine spent time building our very own <a href="https://rabbits.srht.site/days/" target="_blank">custom photo feed</a> named <a href="https://git.sr.ht/~rabbits/days" target="_blank">Days</a>. It is possible to follow the feed with RSS. </p>
+
+<p><b>Book Club:</b> This month we are reading <i>How do You Live?</i> by Genzaburo Yoshino and <i>Middlemarch</i> by George Eliot.</p>
+
+<p><a href='https://100r.co/site/log.html#jan2025' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for December 2024</title>
   <link>https://100r.co/site/log.html#dec2024</link>
   <guid isPermaLink='false'>log.html#dec2024</guid>
