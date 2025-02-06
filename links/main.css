@@ -74,6 +74,13 @@ main .button:hover { background-color: #333 !important; color: white; cursor:poi
 main .button small { color:black }
 main .button.patreon { border-color: #e75942}
 main .button.patreon:hover { background: #e75942 !important; cursor:pointer;}
+main .buttonstore { background-color: #000;border: 2px solid white;color: white;padding: 13px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;border-radius: 200px;font-weight: bold; margin-right: 15px; margin-bottom: 10px; }
+main .buttonstore:hover { background-color: #333 !important; color: white; cursor:pointer;  }
+main .buttondrop { background-color: #000;border: 2px solid white;color: white;padding: 8px 8px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;font-weight: bold; margin-right: 10px; margin-top: 8px; width: 120px; border-radius: 200px}
+main .buttondrop:hover { background-color: #333 !important; color: white; cursor:pointer;  }
+
+details > summary {font-size: 14px;font-weight: bold;text-align: center;padding: 8px; padding-top: 6px; background-color: #000; border: 2px solid white; border-radius: 200px;cursor: pointer}
+details p {padding-top: 10px; margin-bottom: 0px; }
 
 body select { color: black; margin-bottom: 20px }
 main table {max-width: 700px;}
