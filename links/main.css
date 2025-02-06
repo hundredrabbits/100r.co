@@ -79,7 +79,7 @@ main .buttonstore:hover { background-color: #333 !important; color: white; curso
 main .buttondrop { background-color: #000;border: 2px solid white;color: white;padding: 8px 8px;text-align: center;text-decoration: none;display: inline-block;font-size: 12px;font-weight: bold; margin-right: 10px; margin-top: 8px; width: 120px; border-radius: 200px}
 main .buttondrop:hover { background-color: #333 !important; color: white; cursor:pointer;  }
 
-details > summary {font-size: 14px;font-weight: bold;text-align: center;padding: 8px; padding-top: 6px; background-color: #000; border: 2px solid white; border-radius: 200px;cursor: pointer}
+details > summary {color: white;font-size: 14px;font-weight: bold;text-align: center;padding: 8px; padding-top: 6px; background-color: #000; border: 2px solid white; border-radius: 200px;cursor: pointer}
 details p {padding-top: 10px; margin-bottom: 0px; }
 
 body select { color: black; margin-bottom: 20px }
@@ -145,6 +145,7 @@ ul.nobull li {list-style-type: none}
 	main .progress > div { background-color: white}
 	main .progress > div > span { color: black}
 	footer { border-top: 2px solid white }
+	details > summary {color:#000}
 }
 
 /* Mobile */
