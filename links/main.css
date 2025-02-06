@@ -145,7 +145,7 @@ ul.nobull li {list-style-type: none}
 	main .progress > div { background-color: white}
 	main .progress > div > span { color: black}
 	footer { border-top: 2px solid white }
-	details > summary {color:#000}
+	details > summary {color:white}
 }
 
 /* Mobile */
