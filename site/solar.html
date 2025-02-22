@@ -45,15 +45,205 @@
 
 <h1>solar</h1><img src='../media/content/inventory/solar_07.jpg' loading='lazy'/>
 
-<h3>Our current solar setup</h3>
+<p>Tips, info or tricks we learned on solar along the way. We reserve the right to be wrong (we're still learning).</p>
+
+<p>View our <a href='energy.html' class='local'>energy</a> setup, or read about <a href='power.html' class='local'>power</a> on a sailboat.</p>
+
+<h3>Terms</h3>
+
+<p>The information below is usually found on the back of the solar panel, or in a downloadable spec sheet on the store's(or maker of the panel) website.</p>
 
 <ul>
-    <li>Renogy 100-watt monocrystalline hard panel (in front of companionway)</li>
-    <li>Renogy 100-watt monocrystalline hard panel (on mini-bini top)</li>
-    <li>ProStar-15 Solar Controller</li>
+    <li><b>Voc</b>. Open circuit voltage. Voc is a lab-produced value of the amount of voltage the panel can produce with no load at 25º C</li>
+    <li><b>Vmp</b>. Voltage at Maximum Power. The voltage the panel will produce a maximum power output. It is the working voltage of the panel. It is the voltage the panel will supply to a battery or charge controller.</li>
+    <li><b>Ipm</b>. Maximum Current</li>
+    <li><b>Ics</b>. Short Circuit Current</li>
+    <li><b>Nominal voltage</b>. The voltage class of a circuit or system, used as a reference point for electrical systems(12 V, 24 V etc).</li>
 </ul>
 
-<h3>Timeline</h3>
+<h3>What to choose?</h3>
+
+<p>The kind of panel you choose depends entirely on the available space, and your budget. Although, someone on a small budget on a small boat may struggle, because the cheaper the panel, the larger it is. A polycrystalline or thin film panel needs to be much larger to match the output of a similarly-sized monocrystalline panel.</p>
+
+<p>We can't recommend choosing flexible panels, they don't last long and will cost more in the long run. If this is the only option available to you, just be careful on where you install them(away from wave wash on deck, and make sure that the bend isn't too aggressive).</p>
+
+<p>Here are the different types of panels available out there, along with their advantages/disadvantages.</p>
+
+<p><b><a href="https://solarsena.com/monocrystalline-solar-cells-explained/" target="_blank">Monocrystalline</a>.</b> Darker in color, each cell is cut from a single silicon crystal, they are more efficient overall. They yield the highest output while occupying less space, but do better in warm weather. They can last near forever, up to 26 years of peak performance. Available in hard and flexible form. A bit more expensive than polycrystalline panels.</p>
+
+<img src='../media/content/inventory/solar_mono.jpg' loading='lazy' alt='a monocrystalline solar panel'/>
+
+<p><b>Polycrystalline.</b> Lighter, blue in color, the cells are composed of multiple, smaller crystals. They are less efficient than monocrystalline in lower light situations, but are cheaper to manufacture and therefore cheaper to buy. Available as hard panels. They can last near forever, with at least 25 years of peak performance.</p>
+
+<img src='../media/content/inventory/solar_03.jpg' loading='lazy' alt='a polycrystalline solar panel' />
+
+<p><b>Thin film</b>. Solid black in appearance, made by depositing a photovoltaic substance onto a solid smooth surface. The four main substances are Amorphous Silicon, Cadmium Telluride, Copper Indium Gallium Selenide, and Dye-Sensitized Solar Cells—technically all different, but they all fall under the category of thin film panels. They are less efficient, but cheap to produce. High temperatures and shading have less impact on these solar panels.</p>
+
+<h3>Types of coating used in flexible solar panels</h3>
+
+<p><b>ETFE( Ethylene tetrafluoroethylene).</b> A fluorine-based plastic. ETFE were created to help make robust flexible panels. It was apparently created with high corrosion resistance and were considered to have the same long life span as tempered glass when used in the solar industry.</p>
+
+<div class='notice'>
+    <p>Our ETFE panel delaminated after 2 years, we re-bonded it with marine-friendly clear silicone (hope it holds). In our experience, there is no such thing as a long-lasting flexible solar panel. It is entirely possible that our panel was a bad make/batch. If you've used ETFE panels and it hasn't failed early, let us know.</p>
+    <img src='../media/content/boat_projects/ETFE_delamination.jpg' title='ETFE panel delamination' loading='lazy'/>
+</div>
+
+<p><b>PET</b>. A kind of polyester-based plastic. Affordable and light. Has a short lifespan of 5 years, due to their proneness to delamination and to corrosion. Avoid.</p>
+
+<h3>Deck installation</h3>
+
+<p>Install hard panels with an air space underneath to permit the panel to cool down. Warm temperatures produce a decline in the panel voltage of approximately 1V for every 12°C(22°F) to 15°C(27°F) temperature rise.</p>
+
+<h3>Parallel wiring</h3>
+
+<img src='../media/content/inventory/solar_05.jpg' alt='connecting panels in parallel' loading='lazy' />
+
+<p>Note that the above diagram is for our boat, and sized to our system. Panels with more wattage will require additional fuses. See below to determine whether or not your system needs other fuses.</p>
+
+<p>On a 12V system solar panels ought to be connected in parallel so the voltage stays the same. With panels in parallel, the amperage of each panel is added up, and the performance of one panel is not dependent on the performance of another. This is important on a boat because at one point or another, one of the panels will have shade from the mast, radar post, boom etc. Multiple panels connected in parallel offer the best performance. Note that wiring panels in parallel requires a thicker wire gauge to accommodate higher passing current.</p>
+
+<p>To wire multiple panels in parallel you'll need <b>MC4 branch connectors</b>, or T connectors. Optionally, you can also lead wires indoors and them meet on a gang terminal.</p>
+
+ <img src='../media/content/boat_projects/solar_t_connector.jpg' title='a solar mc4 connector' loading='lazy'/>
+
+<p>Adding panels to a system is easy with branch connectors, this is how you connect them in parallel. A 3-way branch connector accepts 2 wires, and combines them into one, so a connector with two positives becomes one positive, and the same applies to the negative side. These two wires will in turn connect to the solar controller.</p>
+
+<figure>
+<img src='../media/content/inventory/solar_spacers.jpg' alt='mc4 caps used as spacers in a solar installation' loading='lazy'></a>
+<figcaption><i>The only thing mc4 connectors are good for: making spacers. The most expensive spacers in the world.</i></figcaption>
+</figure>
+
+<div class='notice'>
+    <p>MC4 connectors are supposed to protect connections from moisture and salt, but sadly that hasn't been our experience. Apparently, there are a lot of knock-offs on the market, sold in marine stores(it's where we got ours). We're not sure if ours were knock-offs, but at this point we've purchased many from various sources and all have failed. If you're going to use them, make sure they're <a href="https://marinehowto.com/installing-solar-mc4-terminals/" target="_blank">genuine</a>, or maybe go for a junction box, or hard-wire the connection. MC4's are only really useful if you want to take panel in and out of a system often.</p>
+    <img src='../media/content/boat_projects/solar_wiring_corrosion.jpg' alt='corrosion on solar wires from a bad mc4 connector' loading='lazy'/>
+    <p>In April 2023, we removed all MC4 connectors off our system. For outside we made permanent connections with adhesive-lined heat shrink butt connectors(and a heat shrink sleeve overtop). This means that we can't quickly disconnect the panel, but that's okay. We left an extra foot of wiring in case we wanted to place the panel higher. In all, we prefer hermetically sealed connections. Inside, the two panels meet on a large gang terminal, as opposed to a branch connector.</p>
+    <img src='../media/content/inventory/solar_bus.jpg' alt='solar connections meeting on a gang terminal' loading='lazy'>
+</div>
+
+<p>In short, things to remember:</p>
+
+<ul>
+    <li>Voltage stays the same</li>
+    <li>Amps are added up</li>
+    <li>Can perform if one panel is partially shaded</li>
+    <li>Thicker wiring</li>
+    <li>Requires extra gear like branch connectors(or gang terminal)</li>
+</ul>
+
+<h3>Wire sizing</h3>
+
+<p>When it comes to sizing wires, the smaller the number, the bigger the cable.</p>
+
+<p>Important to note that UL cables(AWG, American Wire Gauge) are larger than SAE(European standards). Some wires will display wire thickness in mm or inches, to find out their AWG equivalent view <a href='https://en.wikipedia.org/wiki/American_wire_gauge#Tables_of_AWG_wire_sizes' target='_blank'>this table</a>.</p>
+
+<p><b>Example:</b> For Pino, we calculated the round-trip distance the wires would take, which was less than 6m(20ft) with 3% voltage drop and with the NEC safety factors applied. Given that the max power that will ever run through the wires is 16.28 A, we bought some 10 AWG wire.</p>
+
+<h3>Example</h3>
+
+<ul>
+    <li>2x100W 12V panels</li>
+    <li>At 18V</li>
+    <li>Producing 5.21 A each</li>
+    <li>Distance to controller is 15 ft</li>
+</ul>
+
+<p><b>What voltage should a solar panel produce?</b>. The number will be indicated on the back of the panel. Another way is to estimate by counting the number of solar cells(usually available on the panel's spec sheet).</p>
+
+<p>Individual solar cells produce between <b>0.45-0.6 V</b> (Vmp) at 25º C. So a 36-cell 12V panel would produce anywhere between 16.2-21.6 V. The output of the individual solar cells vary due to the type and quality of the cells that were wired together.</p>
+
+<p>In the sample above, we've got 2 X 100W panels, with each running to the gang terminal(or an mc4 branch connector) at 18 V, each outputting ~5.21 A. Passing the branch connector the wires are now connected in parallel, and we have to add up the amps. We now have 10.42 A, while the voltage remains the same at 18 V. The solar charge controller then takes the 18 V and regulates it down to 12 V (most boats run on 12 V systems) and will be charging the batteries at 10.42 A.</p>
+
+<p>To calculate how the solar controller will regulate the system from a higher voltage — like 18 V from our example — to 12 V, use the formula below...</p>
+
+<p>The current I in amps (A) is equal to the power P in watts (W), divided by the Max Power Voltage in volts (V):</p>
+
+<p><b>I(A) = P(W) / V(V)</b></p>
+
+<p><b>200W / 18V = 11 A (maximum possible current)</b></p>
+
+<p>To properly size your system, you must apply the following safety buffers to comply with the National Electric Code(NEC) code:</p>
+
+<p>Add <b>25%</b> to max solar array current:</p>
+
+<p>10.42 x 1.25 = 13.025 A</p>
+
+<p>Apply <b>another 25%</b> for continuous currents:</p>
+
+<p>13.025 x 1.25 = 16.28 A</p>
+
+<p>The wire would need to be <b>10 AWG</b>. Now that we know how much voltage and amps run at each part of our system we can start sizing the wires, and we can choose a solar controller.</p>
+
+<p>To calculate the wiring gauge for your system, we recommend <a href='http://circuitwizard.bluesea.com/' target='_blank'>Circuit Wizard</a> by Blue Sea.</p>
+
+<p>The size of the wiring depends on the distance between each section, too.</p>
+
+<h3>PWM solar controller</h3>
+
+<p>Solar panel voltages are generally higher than battery voltages (our batteries are 12 V, our panels are 18 V), which is good if the battery needs a lot of recharging, but it's not ideal if it is approaching full charge. A PWM solar charge controller monitors the battery voltage and decides how much current it can safely feed into it.</p>
+
+<p>PWM stands for <b>Pulse Width Modulation</b>, which basically describes how it operates. Direct current from the solar panels is cut up into pulses at a certain voltage. The charger detects the voltage of the battery connected to it, and calculates the correct charging voltage to apply, which determines the charging current. The spaces between the voltage pulses are adjusted electronically. The average voltage depends on the time between the pulses.</p>
+
+<p>PWM charge controllers waste any surplus voltage from the solar panel, and aren't as efficient as MPPT controllers, but depending on the size of your solar array, a PWM may be entirely fine (this is what we have).</p>
+
+<p>Note: PWM controllers require nominal solar and battery voltage to be the same, eg. 12 V nominal solar with 12 V battery setup, 24 V nominal solar with 24 V battery setup.</p>
+
+<h3>MPPT solar controller</h3>
+
+<p>The most efficient type of solar charge controller are MPPT (Maximum Power Point Tracking) at 97-99%. A MPPT controller is much less efficient in low-power applications, and ought to be used with larger, more complex solar panel arrays.</p>
+
+<p>For more details, see <a href='https://marinehowto.com/mppt-vs-pwm-solar-controllers/' target='_blank'>Marine How-to's mppt vs pwm guide.</a>
+
+<h3>Sizing a solar controller</h3>
+
+<p>To size a solar controller, add up the amperage from your current solar panels, and multiply that number by 25% to account for environmental factors.</p>
+
+<p>Panels with a combined amperage of 10 A, plus 2.5 A (as a margin of safety) would require a 15 A controller:<br>10 A x 25% = 2.5 A<br>10 A + 2.5 A = 12.5 A</p>
+
+<p>If you want to charge more than one battery bank (if one is isolated), consider one with a dual charging function. Another option is to add an auxiliary charger to charge the other bank.</p>
+
+<h3>Does my system require a fuse between the panel and MC4 connector?</h3>
+
+<img src='../media/content/boat_projects/solar_mc4.jpg' title='a solar mc4 connector' loading='lazy'/>
+
+<p>In some cases, you may need to add a fuse between the solar panel and the solar controller (see below if it is something you need to add), and between the controller and the battery (as close to the battery as possible). Fuses are sacrificial, and protect your electricals from damages caused by overcurrent.</p>
+
+<p>Here is how to determine whether or not you need fuses between the panel and the MC4 connectors for your solar installation:</p>
+
+<p>Our solar arrray has a <b>total short circuit current</b> of 11.45 A, and the <b>maximum series fuse rating</b> stickers is 15 A per panel. This information is usually listed in specs of the solar panels (sometimes on a sticker on the panel itself).</p>
+
+<p>If the short circuit current of the entire array is <b>greater than</b> the maximum series fuse rating, fuses <b>must</b> be placed on each wire between the panels and the MC4 connectors. A fuse ought to be installed on the positive connection from the solar controller to the battery (nearest to the battery as is possible).</p>
+
+<p>If the short circuit current of the entire array is <b>less than</b> the maximum series fuse rating, fuses are <b>not required</b> between the panels and the MC4 connectors. A fuse ought to be installed on the positive connection from the solar controller to the battery (nearest to the battery as is possible). This applies to us.</p>
+
+<p>It is necessary to fuse an array at the point where the panels get combined to prevent potential fires or overheating due to a faulty panel.</p>
+
+<p>Read more about <a href='https://www.explorist.life/how-to-fuse-a-solar-panel-array-and-why-you-may-not-need-to/' target='_blank'>fusing solar arrays</a>, especially if you have a lot of solar.</p>
+
+<h3>Fuse between battery and solar controller</h3>
+
+<p>To calculate the fuse size needed between the charge controller and battery bank match the amperage rating on the charge controller. For example, if you have a 15 A charge controller use a 15 A fuse.</p>
+
+<p>To calculate the fuse size from the panel to the charge controller, add up the amperage of each panel and then add a <b>25%</b> industry rule to figure out the fuse size.</p>
+
+<p>For example, if you had 2 x 100 W panels that each produces about 5 A, you would use this equation:</p>
+
+<p><b>(2x5x1.25) = 12.5 A</b></p>
+
+<p>In the above example you would need a 12.5 A fuse, and we'd recommend a 15 A fuse (next biggest number).</p>
+
+<h3>On and off switch?</h3>
+
+<img src='../media/content/boat_projects/solar_switch.jpg' alt='a solar controller with an on and off switch wired in' loading='lazy' />
+
+<p>The system ought to have a solar disconnect option, wired after the MC4 connectors (if any) and the solar controller. The switch should be wired on the positive side. The idea is that you can choose to turn it off if say, you'd rather charge using another source (shore power, alternator), or if you need to work on the system.</p>
+
+<p>On our boat, we use a simple on/off switch our friend gave us (knob is full of paint but it works perfectly). Keep in mind to wire in a switch that is sized to the system.</p>
+
+<h3>Connecting panels with dissimilar voltage</h3>
+
+<p>Connecting two panels with different voltages, you will get voltage to lower voltage. If one panel is 17.40 V and the other 18 V, when connected in parallel the voltage will drop to 17.40 V.</p>
+
+<h3>Our solar panel timeline</h3>
 
 <ul>
     <li>04.2016 Bought one 80W (in front of mast) and a 100W flexible panels (on bimini)</li>
@@ -65,25 +255,10 @@
     <li>04.2021 Sold one of two hard 90W panels.</li>
     <li>06.2021 Bought and installed new monocrystalline 100W ETFE flexi panel on mini-bini.</li>
     <li>01.2023 Moved solar controller, and added an on/off switch between controller and panel.</li>
-    <li>03.2023 Noticed ETFE panel covering was starting to part... great. Panel may have too aggressive of a bend.</li>
-    <li>04.2023 Replaced all solar wiring. Lots of creeping corrosion. MC4 connectors arent as waterproof as advertised.</li>
-    <li>01.2025 Bought 2 new 100-watt hard monocrystalline panels to replace our existing panels, we are keeping the ETFE flexi as a backup.</li>
+    <li>03.2023 Noticed ETFE panel covering was starting to part.</li>
+    <li>04.2023 Replaced all solar wiring. Lots of creeping corrosion. MC4 connectors arent as waterproof as advertised, got rid of them all and hardwired the panels instead. Now both panels meet on a gang terminal inside the boat in a dry space.</li>
+    <li>01.2025 Bought 2 new 100-watt hard monocrystalline panels to replace our existing panels, we sold the 90W panel, and we are keeping the ETFE flexi as a backup.</li>
 </ul>
-
-<p>Flexis will never rival hard panels. All the ones we've owned have either cracked, or delaminated. Get a flexi at your own risk.</p>
-
-<h3>Solar versus The Ocean</h3>
-
-<p>We've experimented a lot with our solar setup, due to equipment failure (corrosion) or complete loss.</p>
-
-<p>We prefer to keep our solar panel setup small, because too many panels on deck is cumbersome, it is also dangerous—a large wave, or strong wind, will take gear that you thought secure in a second. In the words of Lin Pardey: "Anything on deck is sacrificial".</p>
-
-<p>Different kinds of panel (monocrystalline, poly etc) will be better in specific situations, and their placement on deck will also affect daily amperage. We positioned a 80W flexi in front of the mast, but that area is prone to wave wash, and the panel wiring corroded within two years. The flexi wiring was not weatherproof—it is possible it was not rated for marine use, we wrongly assumed it was. The 100W flexi lasted longer, but the plastic covering the cells was not UV resistant and began to part in 2020. The two hard 90W Solara panels did not suffer damage. The wiring is well-protected (IP65 waterproof junction box) and the tempered solar glass is very tough. One 90W suffered the wave event, it was thrown from its perch, but it did not break (and still worked on 23/01/09).</p>
-
-<p>For information on installing solar panels on your boat, see our <a href='solar_tips.html' class='local'>solar_tips</a>.</p>
-
-
-
 
 
 </main><footer>
