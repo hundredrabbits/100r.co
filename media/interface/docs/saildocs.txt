@@ -1,0 +1,110 @@
+The following is a mirror of http://saildocs.com/gribinfo published by Saildocs, because we wanted a lightweight local copy.
+===================
+Requesting grib files from Saildocs (2010‐07‐08)
+
+Custom grib data-files are available from Saildocs. These are extracted on a per-request basis from global computer models and can cover any requested area. The resulting file can be anywhere from 1K bytes to megabytes depending on the amount of data requested. Reasonable-sized files can be sent via low-speed data links such as radio email.
+
+Important note: Grib files are computer-generated forecast files from a NCEP/NOAA computer, which are sent without review, and are offered on an as-is basis. There is no assurance that the data is available, accurate or correct. Both Saildocs and the computer model itself are automated systems, subject to a variety of failures and
+errors. By using the data, you acknowledge and agree to these limitations.
+
+Viewing grib files:
+===================
+A simple grib-viewer is available as part of Viewfax, Airmail's fax and image viewer. More info is available from the "gribnews" document (send a blank email to gribnews@saildocs.com). You can also view gribs with many charting programs, see below.
+
+Requesting a grib file:
+=======================
+Saildocs is an automated system and the format for a grib request must be followed exactly.
+
+The format for a basic grib-file request is:
+gfs:lat0,lat1,lon0,lon1|dlat,dlon|VTs|Params
+
+"lat0,lat1,lon0,lon1" are the lat-lon limits (whole degrees followed by N/S or E/W)- this field is required, there is no default.
+"dlat,dlon" is the grid-spacing in degrees (e.g. "1,1" for a 1-deg by 1-deg grid), if omitted the default is "2,2". The minimum grid depends on the model, see "available models" below. This parameter has a large effect on file-size, see below.
+"VTs" is a comma-separated list of valid-times (forecast-times, e.g. "24,48,72"), if omitted the default is "24,48,72".
+Available valid-times depend on the model, see below. Note that forecasts beyond 4 or 5 days should be viewed with increasing skepticism.
+"Params" is a comma-separated list of parameters, default is pressure and wind if omitted.
+
+The "|" separator-character is the same vertical-bar character used with grib-requests, and is upper-case "\" (above the "Enter" key) on US-format keboards, or AltGr and "-" on most international keyboards. Alternately the "/" or "¦" characters can be used.
+
+If the entire request does not fit on a single line then insert a "=" character and continue on the next line-see example below. Do not include any extra spaces before the "=".
+
+Examples
+========
+To request a grib file which covers 20N-60N and 120W to 160W, on a 2-degree grid for valid times of 24 to 72 hours, containing surface pressure and wind, send the following email:
+------------
+To: query@saildocs.com
+Subject: anything
+
+send gfs:40N,60N,140W,120W
+
+Note that this is identical to:
+send gfs:40N,60N,140W,120W|2,2|24,48,72|PRESS,WIND
+
+IMPORTANT: Do not insert any extra spaces, Saildocs uses spaces to delimit parameters.
+
+This example is around 2K bytes. The size is proportional to the number of data-points: i.e. the size and resolution of the grid, the number of valid times, and the number or parameters, figure 1.5 bytes per point. The biggest effect on file-size is the grid spacing, a 1,1-deg file is 4x larger than a 2,2-deg file.
+
+These are uncompressed binary files which get compressed when sent via Sailmail or Winlink radio links, so there is no advantage to pre-compressed files.
+
+The request must fit on a single line. However a long request-line can be broken with a "=" character as follows:
+send gfs:20N,60N,160W,120W|2,2|6,12,18,=
+24,36,48,72,96|PRESS,WIND time=12:00
+
+A shortcut is also available for a long list of forecast-times, for example:
+send gfs:20N,60N,160W,120W|2,2|6,12..96|PRESS,WIND
+This means 6, 12 hours and then repeat the same 6-hour interval out to 96 hours.
+
+Subscribing
+===========
+To subscribe to this sample grib, use the same format and change the "send" to "sub" (or "subscribe"), for example:
+
+To: query@saildocs.com
+Subject: anything
+
+sub gfs:40N,60N,140W,120W
+
+This will enter a subscription which will be sent shortly after 06z (utc).
+The default subscription is 14 days, to change this add a space and "days=30" for a 30-day subscription, (or "days=0" for an indefinite subscription). Other times can also be requested. 
+
+For example:
+
+sub gfs:20N,60N,160W,120W days=30 time=18:00
+
+Available models
+=================
+The primary source for grib files is NOAA/NCEP's "GFS" global model (request-code "gfs:" or "grib:"). Available forecast-times are 0,3..180 hours on a 0.5-deg grid and 192,204..384 hours on a 2.5-deg grid. (Note that 0.5-deg data is not always available, in that case Saildocs will default to 1-deg). Available parameters are PRMSL for mean
+sea-level pressure, WIND for the gradient surface ((10-meter) wind, HGT for 500mb height, SEATMP for sea-surface temp, AIRTMP for air temperature (2M altitude), and WAVES for wave-height (from the WW3 model). The model data is updated shortly before 06:00z for the 00z model-run and every 6 hours.
+
+Data from other NOAA and US Navy models is available, send a (blank) email to: gribmodels@saildocs.com for details.
+
+Canceling a subscription
+========================
+To cancel a subscription, send the same message except change "sub" to "cancel". The grib-code must match exactly, even if it is incorrect. Cancelation instructions are also included with each subscription message.
+
+Compatibility:
+==============
+Grib files generated by Saildocs are standard WMO-format grib file which can be viewed with Airmail's Viewfax viewer or most charting programs including Coastal Explorer, Deckman for Windows, Expedition, Maxsea, Nobeltec, Raytech, or any other program that uses standard grib files.
+
+Gribs are sent as Mime-coded file attachments and can be sent via radio email via Sailmail (www.sailmail.com) or the Winlink ham-radio system (www.winlink.org). When using any low-speed connection attention must be paid to the file-size. Sailmail will handle grib-files up to 30K (10K for Pactor-2) but that may be too large depending on
+distance, conditions and connection speed. Winklink allows attachments after the use has set an attachment limit, this is done by sending a Winlink-2000 Options message (Airmail's Windows menu).
+
+Support addresses:
+==================
+To get general info about Saildocs send a (blank) email to: info@saildocs.com (auto-responder)
+
+For problems/questions relating to Saildocs, send an email to support@saildocs.com
+
+For problems using any of the charting programs see the respective manufacturer website.
+
+History:
+========
+Saildocs was started in 1999 to provide internet weather data to Sailmail members. It was created and is supported by Jim Corenman, who co-founded Sailmail with Stan Honey and wrote the Airmail software. The grib project started in 2002 as a "science project" and has recently moved to a new server with high-bandwidth connections to NOAA's servers. Saildocs continues to be available without charge thanks to the support from Sailmail (www.sailmail.com).
+
+Thanks for using Saildocs and Good Sailing!
+=====
+
+Thanks for using Saildocs, an Internet document retrieval service for the bandwidth-impaired. Saildocs is provided without charge thanks to the support of Sailmail, a membership-owned email service for cruising sailors which provides
+access through a marine-band radio network of 21 stations world-wide,
+plus internet and satellite gateways.
+
+For more information on SailMail see the web page at www.sailmail.com or send a query to the office at sysop@sailmail.com. More information on Saildocs is available by sending an email to info@saildocs.com, this will return the how-to document (about 5K).
