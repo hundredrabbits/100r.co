@@ -47,18 +47,55 @@
 
 <p>From 2016 to 2020, we used a Iridium GO! satellite phone to relay our position to our land crew (Devine's dad), and to communicate with our friends and family via SMS & emails, from anywhere in the world—even the middle of the ocean. We used again for a trip to <a href='us_se_alaska.html' class='local'>us se alaska</a> in 2024.</p>
 
-<p>Satellite phones lists positions in decimal degrees. To convert positions to degrees minutes seconds(Navionics coordinate format), use this formula:</p>
+<p>Satellite phones lists positions in <b>Decimal Degrees</b>(DD). To convert positions to <b>Degrees and Decimal Minutes</b>(DDM, the coordinate format Navionics uses), use this formula:</p>
 
-<pre>d = M.m / 60
-Decimal Degrees = Degrees + .d
+<pre>
+There are 3 different coordinate formats:
+
+Decimal Degrees (dd.dddd°)
+Degrees and Decimal Minutes (dd° mm.mmm')
+Degrees, Minutes and Seconds (dd° mm' sss")  
+
+° : degree (D)
+' : minute (M)
+" : second (S)
+DD : Decimal Degrees
+DDM : Decimal Degrees Minutes
+DMS : Decimal Minutes Seconds
+
+1 minute is equal to 60 seconds
+1 degree is equal to 60 minutes(3600 seconds)
+
+-------------------------
+
+Formula for DDM to DD:
+DDM = D + (M/60)
 
 Example:
-To convert 124° 44.740, a DMS coordinate, to DD.
+To convert 124° 44.740, a DDM coordinate, to DD
 
-44.740(m.m) / 60 = 0.74566667
-124(degrees) + 0.74566667(.d) = 124.0.74566667
+124.746 = 124 + (44.740/60)
+And so, 124° 44.740 DDM is 124.746 DD
 
-And so 124° 44.740 is 124.0.74566667 in Decimal Degrees.
+-------------------------
+
+Other:
+
+Formula for DMS to DD:
+DD = D + (M/60) + (S/3600)
+
+Example:
+To convert 43°26'8.03652"N, a DMS coordinate, to DD.
+
+43 = D
+26  = M
+8.03652 = S
+
+26 / 60 = 0.733 M
+8.03652 / 3600 = 0.206 S
+43 + M + S = 43.43556570
+
+And so 43°26'8.03652"N is 43.43556570 in Decimal Degrees.
 </pre>
 
 <p>Satellite phones are an expensive option (costs around about 100US$/month), and should you choose to go this route we recommend getting an unlimited plan, because data minutes run out quickly. The Iridium connects to overhead satellites and demands a stable connection to download weather data, like <a href='grib_files.html' class='local'>GRIB files</a>, or to fetch webpages.</p>
