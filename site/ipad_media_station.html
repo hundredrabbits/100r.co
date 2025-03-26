@@ -62,11 +62,11 @@ A camera connector with an SD card inserted into its slot is lying nearby." widt
 
 <p>We found a camera connection kit on Ebay (<b>30-pin male to SD card</b> and a <b>30-pin male to USB</b>) that we can use to transfer videos onto the Ipad.</p>
 
-<p>It is important to not that the Ipad2's 30-pin dock connector can only handle 20ma of current. Back in 2011, with the release of iOS 4.2, Apple crippled the Camera Connection Kit by implementing a software limitation that dropped the power output of the CCK to 20mA from 100mA.</p>
+<p>It is important to note that the Ipad2's 30-pin dock connector can only handle 20ma of current. Back in 2011, with the release of iOS 4.2, Apple crippled the Camera Connection Kit by implementing a software limitation that dropped the power output of the CCK to 20mA from 100mA.</p>
 
 <img src="../media/content/boat_projects/ipadmediastation3.jpg" alt="a 32gb usb stick plugged into a usb hub which is in turn connected to a 30-pin adapter and finally, into an ipad2. A video file is visible on screen" width="900" height="509" loading="lazy">
 
-<p>Plugging a 32GB flash drive results in the Ipad complaining that the accessory is "using too much power". Using a flash drive is possible, but make sure it doesn't require more than 20ma to power, or connect an <a href="https://www.youtube.com/watch?v=J-I-nnocYtU" target="_blank">unpowered USB hub</a> inline(I've tested it with a 32GB flash drive, it works). The UBS hub likely dampens the flash drive's initial start-up spike in current, keeping it under the threshold, which doesn't triggers the "too much power" warning.</p>
+<p>Plugging a 32GB flash drive results in the Ipad complaining that the accessory is "using too much power". Using a flash drive is possible, but make sure it doesn't require more than 20ma to power, or connect an <a href="https://www.youtube.com/watch?v=J-I-nnocYtU" target="_blank">unpowered USB hub</a> inline(I've tested it with a 32GB flash drive, it works). The USB hub likely dampens the flash drive's initial start-up spike in current, keeping it under the threshold, which doesn't triggers the "too much power" warning.</p>
 
 <img src="../media/content/boat_projects/ipadmediastation4.jpg" alt="a 32gb usb stick plugged into a usb hub which is in turn connected to a 30-pin adapter and finally, into an ipad2. A video file is visible on screen" width="900" height="509" loading="lazy">
 
@@ -95,7 +95,7 @@ do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf
 
 <h3>Filenames</h3>
 
-<p>The Ipad won't read files on an SD card,or USB flash drive, that doesn't follow the folder structure that is created when the card is used in a camera. We used a card that already had that folder structure, and deleted all existing photo media.</p>
+<p>The Ipad won't read files on an SD card, or on a USB flash drive, that doesn't follow the folder structure that is created when the card is used in a camera. We used a card that already had that folder structure, and deleted all existing photo media.</p>
 
 <p>The folder structure on our card looks like like this:<br>
 <b>DCIM > DSC03012</b><br><i>(Note: Yours may well be different)</i></p>
