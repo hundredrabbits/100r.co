@@ -21,7 +21,7 @@ A camera connector with an SD card inserted into its slot is lying nearby." widt
 
 <img src="../media/content/boat_projects/ipadmediastation3.jpg" alt="a 32gb usb stick plugged into a usb hub which is in turn connected to a 30-pin adapter and finally, into an ipad2. A video file is visible on screen" width="900" height="509" loading="lazy">
 
-<p>Plugging a 32GB flash drive will result in the Ipad complaining that the accessory is "using too much power". Using a USB key is possible, but make sure it doesn't require more than 20ma to work, or use a hack which involves connecting an <a href="https://www.youtube.com/watch?v=J-I-nnocYtU" target="_blank">unpowered USB hub inline</a>. I've tested it with a 32GB flash drive, it works. The UBS hub likely dampens the flash drive's initial start-up spike in current, keeping it under the threshold, which doesn't triggers the "too much power" warning.</p>
+<p>Plugging a 32GB flash drive results in the Ipad complaining that the accessory is "using too much power". Using a flash drive is possible, but make sure it doesn't require more than 20ma to power, or connect an <a href="https://www.youtube.com/watch?v=J-I-nnocYtU" target="_blank">unpowered USB hub</a> inline(I've tested it with a 32GB flash drive, it works). The UBS hub likely dampens the flash drive's initial start-up spike in current, keeping it under the threshold, which doesn't triggers the "too much power" warning.</p>
 
 <img src="../media/content/boat_projects/ipadmediastation4.jpg" alt="a 32gb usb stick plugged into a usb hub which is in turn connected to a 30-pin adapter and finally, into an ipad2. A video file is visible on screen" width="900" height="509" loading="lazy">
 
@@ -46,12 +46,14 @@ for f in *.mkv;
 do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/$
 </pre>
 
+<p>You can also use a software to do this, but we don't know any, and ffmpeg in the command line works great.</p>
+
 <h3>Filenames</h3>
 
-<p>The Ipad won't read files on an SD card that doesn't follow the folder structure that's created when the card is used in a camera. We used a card that already had that folder structure, and deleted all existing photo media.</p>
+<p>The Ipad won't read files on an SD card,or USB flash drive, that doesn't follow the folder structure that is created when the card is used in a camera. We used a card that already had that folder structure, and deleted all existing photo media.</p>
 
 <p>The folder structure on our card looks like like this:<br>
-<b>DCIM > DSC03012</b><br><i>Note: Yours may well be different</i></p>
+<b>DCIM > DSC03012</b><br><i>(Note: Yours may well be different)</i></p>
 
 <p>The media file itself also needs a name that is 8-digits long, with sequential numbers and/or letters, like DCM10596.mp4, for the Ipad to see it.</p>
 
