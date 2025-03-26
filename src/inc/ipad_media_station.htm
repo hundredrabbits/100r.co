@@ -1,0 +1,62 @@
+<p><b>2025.03.26</b><br>Victoria, B.C.</p>
+
+<img src="../media/content/boat_projects/ipadmediastation.jpg" alt="An Ipad2 is laying on its side, held up by its magnetic cover(which is folded up into a shape resembling an extruded triangle, forming a stand). On screen, an episode of Brooklyn Nine Nine is playing, with Captain Holt in his office.
+A camera connector with an SD card inserted into its slot is lying nearby." width="900" height="509" loading="lazy">
+
+<p>In the summer at anchor, we usually use Rek's main work computer, a Macbook Air 2011, as a media station, but watching movies drains the battery a lot, eating into Rek's work time, so we decided it was time to set up a dedicated media station.</p>
+
+<p>A few years ago, we used a Chromebook for this purpose, but we had to charge it through the inverter(nowadays our laptops are all DC-powered, see {charging electronics}). We looked into buying some kind of small monitor, which we could wire into our DC system, and watch movies by connecting an external hard drive. Unfortunately, much of the 12V monitors we looked at were very expensive, or too cheap. Then we realized we already had the perfect screen on hand: an Ipad2.</p>
+
+<p>Rek purchased this Ipad in 2012. We used it to draw, and play games, but it is now no longer possible to update it past iOS 9.3.5. For an Apple device, that is a death sentence. We've kept it around this whole time, but weren't using it.</p>
+
+<p>An Ipad really is an ideal screen(9.7 in | 24.6 cm, 1024-by-768-pixel resolution at 132 pixels per inch), we can power it on a 12V system, it draws very little power, and we already own one.</p>
+
+<p>The only problem was that getting files onto an Ipad is difficult. Most file-managing apps(like the Files App), require a later iOS version. In all though, we prefer to not have to install apps.</p>
+
+<img src="../media/content/boat_projects/ipadmediastation2.jpg" alt="a hand is holding a 30-Pin Male to SD card camera connector, with an SC card inserted" width="900" height="509" loading="lazy">
+
+<p>We found a camera connection kit on Ebay (<b>30-pin male to SD card</b> and a <b>30-pin male to USB</b>) that we can use to transfer videos onto the Ipad.</p>
+
+<p>It is important to not that the Ipad2's 30-pin dock connector can only handle 20ma of current. Back in 2011, with the release of iOS 4.2, Apple crippled the Camera Connection Kit by implementing a software limitation that dropped the power output of the CCK to 20mA from 100mA.</p>
+
+<img src="../media/content/boat_projects/ipadmediastation3.jpg" alt="a 32gb usb stick plugged into a usb hub which is in turn connected to a 30-pin adapter and finally, into an ipad2. A video file is visible on screen" width="900" height="509" loading="lazy">
+
+<p>Plugging a 32GB flash drive will result in the Ipad complaining that the accessory is "using too much power". Using a USB key is possible, but make sure it doesn't require more than 20ma to work, or use a hack which involves connecting an <a href="https://www.youtube.com/watch?v=J-I-nnocYtU" target="_blank">unpowered USB hub inline</a>. I've tested it with a 32GB flash drive, it works.</p>
+
+<p><i>"The USB hub controls and reduces the power consumption 'spike' that the ubs drive initially drains connecting to the iPad, which takes it above the threshold to give that "too much power" warning. When its connected to the hub first the power consumption spike is some how regulated just below the threshold as to not induce the warning message. So it seems the iPad can "power" the usb stick, just not on startup connection</i>[<a href="https://www.youtube.com/watch?v=J-I-nnocYtU" target="_blank">YouTube Commenter</a>]</p>
+
+<img src="../media/content/boat_projects/ipadmediastation4.jpg" alt="a 32gb usb stick plugged into a usb hub which is in turn connected to a 30-pin adapter and finally, into an ipad2. A video file is visible on screen" width="900" height="509" loading="lazy">
+
+<p>For a video to work on an Ipad, it must be encoded in a supported codec and video format.</p>
+
+<h3>How To Format a Video to Play on an Ipad2</h3>
+
+<p><b>Supported Video Compression Codecs</b>: H.264, H265, and MPEG-4.</p>
+
+<p><b>Supported Video Container Formats</b>: .mov, .mp4, and .m4v.</p>
+
+<p><b>Supported Resolution and Bitrate</b>: Videos with resolutions up to 1080p, 30 FPS, are compatible, but if the resolution or bitrate is too high, the Ipad will have difficulty playing it(or won't at all).</p>
+
+<p>All of our video files were scaled down, compressed and converted into .mp4s using <b><a href="https://ffmpeg.org/" target="_blank">ffmpeg</a></b> with the following command:</p>
+
+<pre>ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart output.mp4</pre>
+
+<p>To batch render all of the videos files in a directory named "converted":</p>
+
+<pre>
+for f in *.mkv;
+do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/$
+</pre>
+
+<h3>Filenames</h3>
+
+<p>The Ipad won't read files on an SD card that doesn't follow the folder structure that's created when the card is used in a camera. We used a card that already had that folder structure, and deleted all existing photo media.</p>
+
+<p>The folder structure on our card looks like like this:<br>
+<b>DCIM > DSC03012</b><br><i>Note: Yours may well be different</i></p>
+
+<p>The media file itself also needs a name that is 8-digits long, with sequential numbers and/or letters, like DCM10596.mp4, for the Ipad to see it.</p>
+
+<p>The video then appears in Photos, and is watchable from there. It's kinda weird and hacky, but it works, and we get to give an older device a purpose. Compressing videos en-masse also helped us save space on our external harddrives.</p>
+
+<p>Note that converting videos takes a lot of time, a film that is 90 minutes long may take 45 minutes to complete. I started this process in late March on a computer dedicated to this purpose(while we're connected to shore power).</p>
