@@ -3,13 +3,24 @@
 <img src="../media/content/boat_projects/ipadmediastation.jpg" alt="An Ipad2 is laying on its side, held up by its magnetic cover(which is folded up into a shape resembling an extruded triangle, forming a stand). On screen, an episode of Brooklyn Nine Nine is playing, with Captain Holt in his office.
 A camera connector with an SD card inserted into its slot is lying nearby." width="900" height="509" loading="lazy">
 
+<div class='notice'>We will be testing out the media station this summer(2025), expect detailed updates & thoughts on this setup come October 2025.</div>
+
 <p>In the summer at anchor, we usually use Rek's main work computer, a Macbook Air 2011, as a media station, but watching movies drains the battery a lot, eating into Rek's work time, so we decided it was time to set up a dedicated media station.</p>
 
-<p>A few years ago, we used a Chromebook for this purpose, but we had to charge it through the inverter(nowadays our laptops are all DC-powered, see {charging electronics}). We looked into buying some kind of small monitor, which we could wire into our DC system, and watch movies by connecting an external hard drive. Unfortunately, much of the 12V monitors we looked at were very expensive, or too cheap. Then we realized we already had the perfect screen on hand: an Ipad2.</p>
+<p>A few years ago, we used a Chromebook for this purpose, but we had to charge it through the inverter(nowadays our laptops are all DC-powered, see {charging electronics}). We looked into buying some kind of small monitor, which we could wire into our DC system, and watch movies by connecting an external hard drive. Unfortunately, much of the 12V monitors we looked at were very expensive, or too cheap.</p>
 
-<p>Rek purchased this Ipad in 2012. We used it to draw, and play games, but it is now no longer possible to update it past iOS 9.3.5. For an Apple device, that is a death sentence. We've kept it around this whole time, but weren't using it.</p>
+<p>Then we realized we already had the perfect screen on hand: an <b>Ipad2</b>(<i>purchased in 2012</i>)</p>
 
-<p>An Ipad really is an ideal screen(9.7 in | 24.6 cm, 1024-by-768-pixel resolution at 132 pixels per inch), we can power it on a 12V system, it draws very little power, and we already own one.</p>
+<p>We used it to draw, play games, but it is now no longer possible to update it past iOS 9.3.5 — for an Apple device, that is a death sentence. We've kept it around this whole time, but weren't using it.</p>
+
+<p>An Ipad really is an ideal screen...</p>
+
+<ul>
+	<li>24.6 cm(9.7 in), 1024-by-768-pixel resolution at 132 pixels per inch</li>
+	<li>Works on a 12 V system</li>
+	<li>Draws little little power(max 2 A)</li>
+	<li>We already own it!</li>
+</ul>
 
 <p>The only problem was that getting files onto an Ipad, without jailbreaking it, is difficult. Most file-managing apps(like the Files App), require a later iOS version. In all though, we prefer to not have to install apps.</p>
 
@@ -17,11 +28,15 @@ A camera connector with an SD card inserted into its slot is lying nearby." widt
 
 <p>We found a camera connection kit on Ebay (<b>30-pin male to SD card</b> and a <b>30-pin male to USB</b>) that we can use to transfer videos onto the Ipad.</p>
 
-<p>It is important to note that the Ipad2's 30-pin dock connector can only handle 20ma of current. Back in 2011, with the release of iOS 4.2, Apple crippled the Camera Connection Kit by implementing a software limitation that dropped the power output of the CCK to 20mA from 100mA.</p>
+<p>It is important to note that the Ipad2's 30-pin dock connector can only handle 20ma of current.</p>
+
+<p>Back in 2011, with the release of iOS 4.2, Apple crippled the Camera Connection Kit by implementing a software limitation that dropped the power output of the CCK to 20mA from 100mA.</p>
 
 <img src="../media/content/boat_projects/ipadmediastation3.jpg" alt="a 32gb usb stick plugged into a usb hub which is in turn connected to a 30-pin adapter and finally, into an ipad2. A video file is visible on screen" width="900" height="509" loading="lazy">
 
-<p>Plugging a 32GB flash drive results in the Ipad complaining that the accessory is "using too much power". Using a flash drive is possible, but make sure it doesn't require more than 20ma to power, or connect an <a href="https://www.youtube.com/watch?v=J-I-nnocYtU" target="_blank">unpowered USB hub</a> inline(I've tested it with a 32GB flash drive, it works). The USB hub likely dampens the flash drive's initial start-up spike in current, keeping it under the threshold, which doesn't triggers the "too much power" warning.</p>
+<p>Plugging a 32GB flash drive results in the Ipad complaining that the accessory is "using too much power".</p>
+
+<p>Using a flash drive is possible, but make sure it doesn't require more than 20ma to power, or connect an <a href="https://www.youtube.com/watch?v=J-I-nnocYtU" target="_blank">unpowered USB hub</a> inline(I've tested it with a 32GB flash drive, it works). The USB hub likely dampens the flash drive's initial start-up spike in current, keeping it under the threshold, which doesn't triggers the "too much power" warning.</p>
 
 <img src="../media/content/boat_projects/ipadmediastation4.jpg" alt="a 32gb usb stick plugged into a usb hub which is in turn connected to a 30-pin adapter and finally, into an ipad2. A video file is visible on screen" width="900" height="509" loading="lazy">
 
@@ -29,11 +44,11 @@ A camera connector with an SD card inserted into its slot is lying nearby." widt
 
 <p>For a video to work on an Ipad, it must be encoded in a supported codec and video format.</p>
 
-<p><b>Supported Video Compression Codecs</b>: H.264, H265, and MPEG-4.</p>
-
-<p><b>Supported Video Container Formats</b>: .mov, .mp4, and .m4v.</p>
-
-<p><b>Supported Resolution and Bitrate</b>: Videos with resolutions up to 1080p, 30 FPS, are compatible, but if the resolution or bitrate is too high, the Ipad will have difficulty playing it(or won't at all).</p>
+<ul>
+	<li><b>Supported Video Compression Codecs</b>: H.264, H265, and MPEG-4.</li>
+	<li><b>Supported Video Container Formats</b>: .mov, .mp4, and .m4v.</li>
+	<li><b>Supported Resolution and Bitrate</b>: Videos with resolutions up to 1080p, 30 FPS, are compatible, but if the resolution or bitrate is too high, the Ipad will have difficulty playing it(or won't at all).</li>
+</ul>
 
 <p>All of our video files were scaled down, compressed and converted into .mp4s using <b><a href="https://ffmpeg.org/" target="_blank">ffmpeg</a></b> with the following command:</p>
 
@@ -46,17 +61,22 @@ for f in *.mkv;
 do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/$
 </pre>
 
-<p>You can also use a software to do this, but we don't know any, and ffmpeg in the command line works great.</p>
+<p>You can also use <a href="https://www.howtogeek.com/434475/how-to-convert-a-video-or-audio-file-using-vlc/" target="_blank">VLC to make conversions</a>.</p>
 
 <h3>Filenames</h3>
 
 <p>The Ipad won't read files on an SD card, or on a USB flash drive, that doesn't follow the folder structure that is created when the card is used in a camera. We used a card that already had that folder structure, and deleted all existing photo media.</p>
 
-<p>The folder structure on our card looks like like this:<br>
-<b>DCIM > DSC03012</b><br><i>(Note: Yours may well be different)</i></p>
+<p>The folder structure on our card looks like like this<i>(Yours may well be different)</i>:</p>
 
-<p>The media file itself also needs a name that is 8-digits long, with sequential numbers and/or letters, like DCM10596.mp4, for the Ipad to see it.</p>
+<p><b>DCIM > DSC03012</b></p>
 
-<p>The video then appears in Photos, and is watchable from there. It's kinda weird and hacky, but it works, and we get to give an older device a purpose. Compressing videos en-masse also helped us save space on our external harddrives.</p>
+<p>The media file itself also needs a name that is 8-digits long, with sequential numbers and/or letters for the Ipad to see it:</p>
+
+<p><b>DCM10596.mp4</b></p>
+
+<p>The video then appears in <b>Photos</b>, and is watchable from there.</p>
+
+<p>It's kinda weird and hacky, but it works, and we get to give an older device a purpose. Compressing videos en-masse also helped us save space on our external harddrives.</p>
 
 <p>Note that converting videos takes a lot of time, a film that is 90 minutes long may take 45 minutes to complete. I started this process in late March on a computer dedicated to this purpose(while we're connected to shore power).</p>
