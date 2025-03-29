@@ -108,6 +108,26 @@ do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf
 
 <p>You can also use <a href="https://www.howtogeek.com/434475/how-to-convert-a-video-or-audio-file-using-vlc/" target="_blank">VLC to make conversions</a>.</p>
 
+<h3>Subtitles</h3>
+
+<p>You won't be able to choose a subtitle track from the Ipad, so we chose to hardcore them.</p>
+
+<p>For files that have a separate .srt file:</p>
+
+<pre>ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos, subtitles=file.srt" -movflags +faststart output.mp4</pre>
+
+<p>For movie files that don't have a separate .srt file, you can first extract it using ffmpeg:</p>
+
+<pre>ffmpeg -i input.mkv -map 0:s:0 input.srt</pre>
+
+<ul>
+	<li><b>-i:</b> Enter the file path</li>
+    <li><b>-map:</b> Choose one or more input streams as a source for the output file</li>
+    <li><b>s:0:</b> Select the subtitle stream</li>
+</ul>
+
+<p><b>0:s:0</b> will use the first subtitle track listed, <b>0:s:1</b> will use the second, <b>0:s:2</b> will use the third, etc, etc.</p>
+
 <h3>Filenames</h3>
 
 <p>The Ipad won't read files on an SD card, or on a USB flash drive, that doesn't follow the folder structure that is created when the card is used in a camera. We used a card that already had that folder structure, and deleted all existing photo media.</p>
