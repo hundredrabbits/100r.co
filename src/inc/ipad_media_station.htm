@@ -52,7 +52,9 @@ A camera connector with an SD card inserted into its slot is lying nearby." widt
 
 <p>All of our video files were scaled down, compressed and converted into .mp4s using <b><a href="https://ffmpeg.org/" target="_blank">ffmpeg</a></b> with the following command:</p>
 
-<pre>ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart output.mp4</pre>
+<pre>
+ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart output.mp4
+</pre>
 
 <p>To batch render all of the videos files in a directory named "converted":</p>
 
@@ -65,15 +67,19 @@ do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf
 
 <h3>Subtitles</h3>
 
-<p>You won't be able to choose a subtitle track from the Ipad, so we chose to hardcore them.</p>
+<p>You won't be able to choose a subtitle track from the Ipad, so we chose to hardcode them.</p>
 
 <p>For files that have a separate .srt file:</p>
 
-<pre>ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos, subtitles=file.srt" -movflags +faststart output.mp4</pre>
+<pre>
+ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos, subtitles=file.srt" -movflags +faststart output.mp4
+</pre>
 
 <p>For movie files that don't have a separate .srt file, you can first extract it using ffmpeg:</p>
 
-<pre>ffmpeg -i input.mkv -map 0:s:0 input.srt</pre>
+<pre>
+ffmpeg -i input.mkv -map 0:s:0 input.srt
+</pre>
 
 <ul>
 	<li><b>-i:</b> Enter the file path</li>
@@ -82,6 +88,19 @@ do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf
 </ul>
 
 <p><b>0:s:0</b> will use the first subtitle track listed, <b>0:s:1</b> will use the second, <b>0:s:2</b> will use the third, etc, etc.</p>
+
+
+<p>If the subtitles are .ass format:</p>
+
+<pre>
+ffmpeg -i input.mkv -c:s copy subtitles.ass
+</pre>
+
+<p>Re-combine them using:</p>
+
+<pre>
+ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos, ass=subtitles.ass" -movflags +faststart output.mp4
+</pre>
 
 <h3>Filenames</h3>
 
