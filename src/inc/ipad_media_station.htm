@@ -65,6 +65,30 @@ do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf
 
 <p>You can also use <a href="https://www.howtogeek.com/434475/how-to-convert-a-video-or-audio-file-using-vlc/" target="_blank">VLC to make conversions</a>.</p>
 
+<!-- <h3>Audio</h3>
+
+<p>To find the format(aac, or other) for the audio stream that we want to extract:</p>
+
+<pre>ffprobe video.mkv</pre>
+
+<p>To select a specific audio track when converting a video, include:</p>
+
+<pre>
+-map 0:v:0
+</pre>
+
+<p>0:v:0 would select the first listed audio stream, 0:v:1 would select the second, etc. It's also possible to select the audio stream using:</p>
+
+<pre>
+-map 0:m:language:eng
+</pre>
+
+<p>If you want to extract the audio from the file:</p>
+
+<pre>
+ffmpeg -i input-video.avi -vn -acodec copy output-audio.aac
+</pre>
+ -->
 <h3>Subtitles</h3>
 
 <p>You won't be able to choose a subtitle track from the Ipad, so we chose to hardcode them.</p>
@@ -100,6 +124,10 @@ ffmpeg -i input.mkv -c:s copy subtitles.ass
 <pre>
 ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos, ass=subtitles.ass" -movflags +faststart output.mp4
 </pre>
+
+<p>If you want to <b>remove subtitles entirely</b>, process the video as you normally would but include the following command:</p>
+
+<pre>-sn</pre>
 
 <h3>Filenames</h3>
 
