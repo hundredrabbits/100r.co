@@ -10,6 +10,42 @@
 </image>
 
 <item>
+  <title>Summary of changes for April 2025</title>
+  <link>https://100r.co/site/log.html#apr2025</link>
+  <guid isPermaLink='false'>log.html#apr2025</guid>
+  <pubDate>Wed, 29 Apr 2025 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of April.</p>
+
+<img src="https://100r.co/site/media/content/videos/april_2025.jpg" alt="little ninj, a plus ninja, is cleaning up the boat, wielding a mop " loading="lazy" width="1200" height="679">
+
+<ul>
+  <li><b>100r.co</b>, updated a href="https://100r.co/site/water.html">water</a>, a href="https://100r.co/site/ditch_bag.html">ditch bag</a>, <a href="https://100r.co/site/woodstove_installation.html#apr2025">woodstove installation</a>, and added new photos and information on <a href="https://100r.co/site/first_aid_kit.html">first-aid kit</a>.</li>
+  <li><b>a href="https://100r.co/site/rabbit_waves.html">Rabbit Waves</a></b>, updated <a href="https://rabbitwaves.ca/site/triangular_bandage.html" target="_blank">Triangular Bandages</a> with animated gifs, and <a href="https://rabbitwaves.ca/site/first_aid_kit.html" target="_blank">First-Aid kit</a> with new med suggestions (also appended a .txt list of meds and their intended use).</li>
+  <li><b><a href="https://kokorobot.ca/site/hakum.html" target="_blank">Hakum</a></b>, began a new comic sequence named <a href="https://kokorobot.ca/site/sabotage_study.html" target="_blank">Sabotage Study</a>(not yet completed).</li>
+  <li><b><a href="https://wiki.xxiivv.com/site/solresol.html" target="_blank">Solresol</a></b>, improved the documentation.</li>
+</ul>
+
+<p>The weather is getting warmer, which is perfect for airing out Pino's lockers, and drying off moldy clothes and tools. Anything stored in the v-berth lockers, below the waterline, suffer from extreme wetness. It is a very, very annoying fact of boat life, but there is really no way to bring good air flow in those spaces. We scrubbed the lockers clean, parted with items we no longer needed, and sent two laptops to the recycler.</p>
+
+<p>In last month's update, we mentioned Flickjam, a game jam based on Increpare's <a href="https://www.flickgame.org/index.html" target="_blank">Flickgame</a>. We received a total of <a href="https://itch.io/jam/flickjam-2025/entries" target="_blank">27 entries</a>! They're really fun, and all playable in the browser. <a href="https://itch.io/jam/flickjam-2025/rate/3445250" target="_blank">Devine's jam entry</a> is about a very adorable rabbit learning to play the word "rabbit" on a xylophone in <a href="https://wiki.xxiivv.com/site/solresol.html" target="_blank">Solresol</a>.</p>
+
+<p>Devine spent some time off the computer, <a href="https://wiki.xxiivv.com/site/skates.html" target="_blank">skating</a> and <a href="https://wiki.xxiivv.com/site/paper_logic.html" target="_blank">folding paper</a>. The <a href="https://wiki.xxiivv.com/site/paper_computer.html" target="_blank">paper computer</a> pages have been updated to cover some new ways in which computer emulators can be operated on paper. While on that subject, we highly recommend Tadashi Tokieda's excellent talk named <a href="https://www.youtube.com/watch?v=8p02DtmyQhU" target="_blank">A world from a sheet of paper</a>.</p>
+
+<p>Another item on Devine's list was to gradually phase out <a href="https://wiki.xxiivv.com/etc/uxnasm.c.txt" target="_blank">Uxnasm.c</a> in favor of the <a href="https://wiki.xxiivv.com/site/drifblim.html" target="_blank">self-hosted</a> assembler. We're not 100% pleased yet, but it is getting closer to retirement.</p>
+
+<p>Starting on May 20th 2025(1000 PST/PDT) the <a href="https://play.date/games/" target="_blank">Playdate Catalogue</a> will include {Oquonie}. The game is also available on our <a href="https://hundredrabbits.itch.io/" target="_blank">itch.io store</a>.</p>
+
+<p>The video for Devine's November 2024 talk <a href="https://100r.co/site/shining_sand.html">A Shining Place Built Upon The Sand</a> is now on <a href="https://youtu.be/EACF2VEpO3Q" target="_blank">YouTube</a>.</p>
+
+<p><b>Book Club:</b> This month we are reading <i>Banvard's Folly</i> by Paul Collins, <i>Einstein's Dreams</i> by Alan Lightman, and we are still making progress on the <i>The Goldfinch</i> by Donna Tartt.</p>
+
+<p><a href='https://100r.co/site/log.html#apr2025' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for March 2025</title>
   <link>https://100r.co/site/log.html#mar2025</link>
   <guid isPermaLink='false'>log.html#mar2025</guid>
@@ -961,14 +997,14 @@ made the <a href="https://wiki.xxiivv.com/site/varvara_zine.html">Varvara Zine</
 
 <h2>Summary Of Changes</h2>
 
-<ul>	
-	<li><b>100r.co</b>, added a new page: <a href='https://100r.co/site/electrical_refit.html' target='_blank'>electrical refit</a>, <a href='https://100r.co/site/fuel_sensor.html' target='_blank'>fuel sensor</a>, <a href='https://100r.co/site/marine_wire_termination.html' target='_blank'>marine wire termination</a>, also added updates to XPS and EPS in <a href='https://100r.co/site/winter_insulation.html' target='_blank'>winter insulation</a>.</li>
-	<li><b><a href='https://100r.co/site/orca.html' target='_blank'>Orca</a></b>, released a new build that improves the look and feel, added <a href='https://merveilles.town/@neauoire/109498859357833815' target='_blank'>app icon</a>(Mastodon) to the about modal.</li>
-	<li><b><a href='https://100r.co/site/busy_doing_nothing.html' target='_blank'>Busy Doing Nothing</a></b>, released a new version, in which we fixed extra typing errors (thanks Igor), and added explanations for certain sailing terms like reefing, etc.</li>
+<ul>  
+  <li><b>100r.co</b>, added a new page: <a href='https://100r.co/site/electrical_refit.html' target='_blank'>electrical refit</a>, <a href='https://100r.co/site/fuel_sensor.html' target='_blank'>fuel sensor</a>, <a href='https://100r.co/site/marine_wire_termination.html' target='_blank'>marine wire termination</a>, also added updates to XPS and EPS in <a href='https://100r.co/site/winter_insulation.html' target='_blank'>winter insulation</a>.</li>
+  <li><b><a href='https://100r.co/site/orca.html' target='_blank'>Orca</a></b>, released a new build that improves the look and feel, added <a href='https://merveilles.town/@neauoire/109498859357833815' target='_blank'>app icon</a>(Mastodon) to the about modal.</li>
+  <li><b><a href='https://100r.co/site/busy_doing_nothing.html' target='_blank'>Busy Doing Nothing</a></b>, released a new version, in which we fixed extra typing errors (thanks Igor), and added explanations for certain sailing terms like reefing, etc.</li>
 <li><b><a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, corrected chapter 6 and 7.</li>
-	<li><a href='http://wiki.xxiivv.com/site/beetbug.html' target='_blank'>Beetbug</a>, added break-point and <a href='http://wiki.xxiivv.com/site/symbols.html'>symbols</a> supports.</li>
-	<li>Took a detour into computer science to learn about <a href='https://www.youtube.com/watch?v=wIx1aCiRZl8' target='_blank'>arity testing and stack effect</a> checking, learn more about it <a href='https://docs.factorcode.org/content/article-inference.html' target='_blank'>here</a>.</li>
-	<li>TinyCode2022, spent some time doing <a href='https://www.youtube.com/watch?v=V1eQV_DKRl0' target='_blank'>demoscene experiments</a>.</li>
+  <li><a href='http://wiki.xxiivv.com/site/beetbug.html' target='_blank'>Beetbug</a>, added break-point and <a href='http://wiki.xxiivv.com/site/symbols.html'>symbols</a> supports.</li>
+  <li>Took a detour into computer science to learn about <a href='https://www.youtube.com/watch?v=wIx1aCiRZl8' target='_blank'>arity testing and stack effect</a> checking, learn more about it <a href='https://docs.factorcode.org/content/article-inference.html' target='_blank'>here</a>.</li>
+  <li>TinyCode2022, spent some time doing <a href='https://www.youtube.com/watch?v=V1eQV_DKRl0' target='_blank'>demoscene experiments</a>.</li>
 </ul>
 
 <h3>News</h3>
@@ -999,16 +1035,16 @@ made the <a href="https://wiki.xxiivv.com/site/varvara_zine.html">Varvara Zine</
 <h2>Summary Of Changes</h2>
 
 <ul>
-	<li><b><a href='https://grimgrains.com' target='_blank'>GrimGrains</a></b>, added a <a href='http://grimgrains.com/site/quick_grilled_cheese.html' target='_blank'>quick grilled cheese</a> recipe.</li>
-	<li><b><a href='https://100r.co/site/noodle.html' target='_blank'>Noodle</a></b>, updated the guide, and added <a href='https://merveilles.town/@neauoire/109280995419859430' target='_blank'>app icon</a>(Mastodon) to the about modal.</li>
-	<li><b><a href='https://100r.co/site/nasu.html' target='_blank'>Nasu</a></b>, added <a href='https://merveilles.town/@neauoire/109282043310182229' target='_blank'>app icon</a>(Mastodon) to the about modal.</li>
-	<li><b><a href='https://100r.co/site/store.html' target='_blank'>Store</a></b>, added sheets of <a href='https://100r.co/site/store.html#stickers2'>Ecosystem Rabbit Stickers(gen2)</a> to the store.</li>
-	<li><b><a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal</a></b>, created a list of Uxntal examples with equivalent C sources, you can find them <a href='https://git.sr.ht/~rabbits/uxntal-examples' target='_blank'>here</a>.</li>
-	<li><b><a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, made a progress bar (50% in the correction process) on the project page. We have finished processing chapter 5, and are currently applying corrections to chapter 6 & 7.</li>
-	<li><b><a href='https://100r.co/site/donsol.html' target='_blank'>Donsol</a></b>, updated GBA rom with a few fixes.</li>
-	<li><b>Soroban</b>, made a little <a href='https://merveilles.town/web/@neauoire/109417640512376459' target='_blank'>desktop graphical abacus</a>(Mastodon).</li>
-	<li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, ported to <a href='https://git.sr.ht/~vdupras/duskos' target='_blank'>DuskOS</a>(SourceHut).</li>
-	<li><b><a href='https://wiki.xxiivv.com/site/dexe.html' target='_blank'>Dexe</a></b>, redesigned and <a href='https://git.sr.ht/~rabbits/dexe' target='_blank'>much faster</a>(SourceHut).</li>
+  <li><b><a href='https://grimgrains.com' target='_blank'>GrimGrains</a></b>, added a <a href='http://grimgrains.com/site/quick_grilled_cheese.html' target='_blank'>quick grilled cheese</a> recipe.</li>
+  <li><b><a href='https://100r.co/site/noodle.html' target='_blank'>Noodle</a></b>, updated the guide, and added <a href='https://merveilles.town/@neauoire/109280995419859430' target='_blank'>app icon</a>(Mastodon) to the about modal.</li>
+  <li><b><a href='https://100r.co/site/nasu.html' target='_blank'>Nasu</a></b>, added <a href='https://merveilles.town/@neauoire/109282043310182229' target='_blank'>app icon</a>(Mastodon) to the about modal.</li>
+  <li><b><a href='https://100r.co/site/store.html' target='_blank'>Store</a></b>, added sheets of <a href='https://100r.co/site/store.html#stickers2'>Ecosystem Rabbit Stickers(gen2)</a> to the store.</li>
+  <li><b><a href='https://wiki.xxiivv.com/site/uxntal.html' target='_blank'>Uxntal</a></b>, created a list of Uxntal examples with equivalent C sources, you can find them <a href='https://git.sr.ht/~rabbits/uxntal-examples' target='_blank'>here</a>.</li>
+  <li><b><a href='https://100r.co/site/wiktopher.html' target='_blank'>Wiktopher</a></b>, made a progress bar (50% in the correction process) on the project page. We have finished processing chapter 5, and are currently applying corrections to chapter 6 & 7.</li>
+  <li><b><a href='https://100r.co/site/donsol.html' target='_blank'>Donsol</a></b>, updated GBA rom with a few fixes.</li>
+  <li><b>Soroban</b>, made a little <a href='https://merveilles.town/web/@neauoire/109417640512376459' target='_blank'>desktop graphical abacus</a>(Mastodon).</li>
+  <li><b><a href='https://100r.co/site/uxn.html' target='_blank'>Uxn</a></b>, ported to <a href='https://git.sr.ht/~vdupras/duskos' target='_blank'>DuskOS</a>(SourceHut).</li>
+  <li><b><a href='https://wiki.xxiivv.com/site/dexe.html' target='_blank'>Dexe</a></b>, redesigned and <a href='https://git.sr.ht/~rabbits/dexe' target='_blank'>much faster</a>(SourceHut).</li>
 </ul>
 
 <p>We put some <a href='https://100r.co/media/content/stream/2022_11xmas.jpg' target='_blank'>red lights</a> on Pino, to help combat winter gloom. We also started growing another lion's mane mushroom on board(we grew the same variety last fall), it already has a little <a href='https://100r.co/media/content/stream/2022_11lionmanes2.jpg' target='_blank'>tuft</a>!</p>
