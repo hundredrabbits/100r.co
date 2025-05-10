@@ -57,7 +57,7 @@ main > ul.jump { columns:2; line-height: 20px}
 main > ul.jump li { list-style-type: decimal-leading-zero; list-style-position: inside; text-transform: capitalize;}
 main img.medium { max-width: 300px; padding: 10px}
 main img.normal { max-width: 200px;}
-main img.sm { max-width: 88px}
+main img.sm { max-width: 72px; padding: 10px}
 
 main .ethics-icons { display: flex; gap: 10px }
 main .ethics-icon { width: 100px; height: auto; align-self: end;}
