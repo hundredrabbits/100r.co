@@ -69,7 +69,7 @@
 
 <img src="../media/content/blog/wsw_05.jpg" loading="lazy"/>
 
-<p>Many of the tools that we thought we could rely on broke down, whether it is Apple products, or software that require subscription services, DRM, etc. As an artist you spend time developping a skill, you become a Photoshop illustrator. When your connection to the internet fails and that the software locks up, that skill that you thought was yours was actually entirely owned by someone, and can be taken away.</p>
+<p>Many of the tools that we thought we could rely on broke down, whether it is Apple products, or software that require subscription services, <abbr title="Digital Rights Management">DRM</abbr>, etc. As an artist you spend time developping a skill, you become a Photoshop illustrator. When your connection to the internet fails and that the software locks up, that skill that you thought was yours was actually entirely owned by someone, and can be taken away.</p>
 
 <p>Even though we've been paying for this sort of software for years, the moment that you can't have access to authenticate yourself that skill is gone. We didn't expect this, it scared us.</p>
 
@@ -89,17 +89,17 @@
 
 <img src="../media/content/blog/wsw_07.jpg" loading="lazy"/>
 
-<p>We noticed that all the software that we had written in the past was gradually becoming unusable. We grew up in Montreal, and many of our friends worked in AAA studios like Ubisoft, making free-to-play games, building projects that had a lifespan of three years. The projects that we made in the past on the Apple stack, Electron, or on Unity3D, also had a lifespan of three to four years, but games like Super Mario, as well as others produced in that era, are still playable today. We are in a dark age, where game developers and artists spend years building games that quickly become lost <a href='http://wiki.xxiivv.com/site/stack.html' target='_blank'>bitrot</a>. We'll never be able to play Scott Pilgrim on the PlayStation again.</p>
+<p>We noticed that all the software that we had written in the past was gradually becoming unusable. We grew up in Montreal, and many of our friends worked in <abbr title="Triple-A">AAA</abbr> studios like Ubisoft, making free-to-play games, building projects that had a lifespan of three years. The projects that we made in the past on the Apple stack, Electron, or on Unity3D, also had a lifespan of three to four years, but games like Super Mario, as well as others produced in that era, are still playable today. We are in a dark age, where game developers and artists spend years building games that quickly become lost <a href='http://wiki.xxiivv.com/site/stack.html' target='_blank'>bitrot</a>. We'll never be able to play Scott Pilgrim on the PlayStation again.</p>
 
 <p>Looking online, it seemed that others shared these concerns.</p> 
 
-<p>In the above image are four philosophies of digital data preservation, they all have their flaws. Data preservation is a somewhat new field, we don't know what sort of data we'll be able to recover in a hundred years, but from the experiments that we've looked at, it doesn't look good. The BBC had a project where they were trying to mimic one of their longest lasting books, the <a href='https://en.wikipedia.org/wiki/Domesday_Book' target='_blank'>Domesday book</a>. It was written by monks a few hundred years ago. The BBC's thinking was that we still have this book today, we can still read it, do we have technology to make something like this? Is it possible to record our way of life today, so that people in a thousand years can see how we lived? They created the <a href='https://en.wikipedia.org/wiki/BBC_Domesday_Project' target='_blank'>BBC Domesday</a>, a disc that contained music, movies, and scientific papers. Then 10 years later, it was an unreadable, people forgot how to decrypt and decompile the disc. It seemed that there was no real way to preserve data long-term, and so we decided to try our own little experiment.</p>
+<p>In the above image are four philosophies of digital data preservation, they all have their flaws. Data preservation is a somewhat new field, we don't know what sort of data we'll be able to recover in a hundred years, but from the experiments that we've looked at, it doesn't look good. The <abbr title="The British Broadcasting Corporation">BBC</abbr> had a project where they were trying to mimic one of their longest lasting books, the <a href='https://en.wikipedia.org/wiki/Domesday_Book' target='_blank'>Domesday book</a>. It was written by monks a few hundred years ago. The <abbr title="The British Broadcasting Corporation">BBC</abbr>'s thinking was that we still have this book today, we can still read it, do we have technology to make something like this? Is it possible to record our way of life today, so that people in a thousand years can see how we lived? They created the <a href='https://en.wikipedia.org/wiki/BBC_Domesday_Project' target='_blank'>BBC Domesday</a>, a disc that contained music, movies, and scientific papers. Then 10 years later, it was an unreadable, people forgot how to decrypt and decompile the disc. It seemed that there was no real way to preserve data long-term, and so we decided to try our own little experiment.</p>
 
 <p>As a disclaimer, all that I am writing now is very naive. I draw, and I make music, when I started doing research I didn't have the vocabulary to find what I was looking for. I didn't know what virtual machines were, I didn't know what compilers were either. I had a vague idea of what programming was. I had written Swift and Objective C, but had no conception of how it actually tied to processors. It seemed like I was learning a service, the same way I was learning "To Photoshop". It wasn't like learning a skill, you don't learn to draw when you use Photoshop, you learn how to operate within the confines of someone else's playground, and when that rug is pulled from underneath you, there's nothing you can say or do, and you never really understood how it worked in the first place so you can't really replicate it.</p>
 
 <img src="../media/content/blog/wsw_08.jpg" loading="lazy"/>
 
-<p>We eventually stumbled on the words <b>virtual machine</b>. With a Super Mario brother NES file, I knew I could put it on a computer and I could run it, I could run it on my phone, I could run it on an old computer, I could run it on a Super Nintendo, I could also run a Super Nintendo emulator running Mario on a Nintendo 64. This seemed a good way of preserving data. We decided to not give up entirely on software, and to see what could be done in that space using virtual machines.</p>
+<p>We eventually stumbled on the words <b>virtual machine</b>. With a Super Mario brother <abbr title="Nintendo Entertainment System">NES</abbr> file, I knew I could put it on a computer and I could run it, I could run it on my phone, I could run it on an old computer, I could run it on a Super Nintendo, I could also run a Super Nintendo emulator running Mario on a Nintendo 64. This seemed a good way of preserving data. We decided to not give up entirely on software, and to see what could be done in that space using virtual machines.</p>
 
 <img src="../media/content/blog/wsw_09.jpg" loading="lazy"/>
 
@@ -107,7 +107,7 @@
 
 <img src="../media/content/blog/wsw_10.jpg" loading="lazy"/>
 
-<p>So looking at a VM from the outside, without having a sort of academic background, the first thing you find is the <a href='https://en.wikipedia.org/wiki/Java_virtual_machine' target='_blank'>JVM</a>. I've never written any Java, but I would go around and tell my friends who are actual programmers, "I'm gonna make the JVM! It seems like this would solve our problem!" Their response was that the JVM was so fractalized, and that this wasn't what we were looking for. We found plenty of academic papers with no software written for them.</p>
+<p>So looking at a VM from the outside, without having a sort of academic background, the first thing you find is the <a href='https://en.wikipedia.org/wiki/Java_virtual_machine' target='_blank'>JVM</a>. I've never written any Java, but I would go around and tell my friends who are actual programmers, "I'm gonna make the <abbr title="Java Virtual Machine">JVM</abbr>! It seems like this would solve our problem!" Their response was that the JVM was so fractalized, and that this wasn't what we were looking for. We found plenty of academic papers with no software written for them.</p>
 
 <img src="../media/content/blog/wsw_11.jpg" loading="lazy"/>
 
@@ -115,13 +115,13 @@
 
 <img src="../media/content/blog/wsw_12.jpg" loading="lazy"/>
 
-<p>I knew that we wanted to make playful little projects that could run on a variety of devices, on a sort of cross platform that was not Electron. Instead of always targeting the new modern thing, we thought we could make a VM, or something other, that could run increasingly further back into the past.</p>
+<p>I knew that we wanted to make playful little projects that could run on a variety of devices, on a sort of cross platform that was not Electron. Instead of always targeting the new modern thing, we thought we could make a <abbr title="Virtual Machine">VM</abbr>, or something other, that could run increasingly further back into the past.</p>
 
 <p>There is an incredible amount of fast computers out there. The first time <a href='donsol.html'>I made an NES game</a>, I was surprised at how much stuff I could draw on the screen at 60 fps. I had somehow been convinced that modern technology was better, faster, and all the eight bit stuff had been solved problems, I thought that we had explored this problem space entirely.</p>
 
 <img src="../media/content/blog/wsw_13.jpg" loading="lazy"/>
 
-<p>It didn't seem to be the case. There were a lot of ideas in the past that were forgotten, and I made it my mission to explore this. It was COVID, everyone was confined to their homes, it was the perfect time to figure out how computers work. We're going to look into the past to see how people did it, and what ideas were forgotten.</p>
+<p>It didn't seem to be the case. There were a lot of ideas in the past that were forgotten, and I made it my mission to explore this. It was <abbr title="Coronavirus Disease 2019 (SARS-2)">COVID</abbr>, everyone was confined to their homes, it was the perfect time to figure out how computers work. We're going to look into the past to see how people did it, and what ideas were forgotten.</p>
 
 <img src="../media/content/blog/wsw_14.jpg" loading="lazy"/>
 
@@ -157,7 +157,7 @@
 
 <img src="../media/content/blog/wsw_19.jpg" loading="lazy"/>
 
-<p>This doesn't work on a VM at all, but it's relevant because <b>Niklaus Wirth</b>, who wrote <a href='https://en.wikipedia.org/wiki/Oberon_(operating_system)' target='_blank'>Oberon</a>, wrote an entire operating system that came with a book.</p>
+<p>This doesn't work on a <abbr title="Virtual Machine">VM</abbr> at all, but it's relevant because <b>Niklaus Wirth</b>, who wrote <a href='https://en.wikipedia.org/wiki/Oberon_(operating_system)' target='_blank'>Oberon</a>, wrote an entire operating system that came with a book.</p>
 
 <p>The Oberon book is really nice, especially if you come into it with a clear mind, without prior knowledge or expectation of what programming is. The book explains how to build an operating system from scratch. It uses a language like <a href='https://en.wikipedia.org/wiki/Pascal_(programming_language)' target='_blank'>Pascal</a>, which is very easy to read, more beautiful than other <a href='https://en.wikipedia.org/wiki/ALGOL' target='_blank'>ALGOL languages</a>. One of the first things that it teaches you to do is how to draw pictures, which I thought was kind of interesting as someone who's very visually-inclined.</p>
 
@@ -185,7 +185,7 @@
 
 <p>Plan 9 didn't run on a VM, but it inspired another system. The lessons that they learned during Plan 9 led to the building of something called <a href='https://en.wikipedia.org/wiki/Inferno_(operating_system)' target='_blank'>Inferno</a>, which runs on a VM.</p>
 
-<p>I think I was starting to understand what VMs were. If this entire operating system runs on a vm, this is what I wanna be doing.</p>
+<p>I think I was starting to understand what <abbr title="Virtual Machines">VMs</abbr> were. If this entire operating system runs on a vm, this is what I wanna be doing.</p>
 
 <img src="../media/content/blog/wsw_25.jpg" loading="lazy"/>
 
@@ -213,7 +213,7 @@
 
 <p>The limits of a sailboat gives us a space for creativity, and these limitations became a sort of playground for us.</p>
 
-<p>I am not the sort of programmer who could build Plan 9, or Oberon, or Lisp machines, but I knew I could write simple NES games and port them. I couldn't write an NES game inside an NES game, and that was such a shame. I wanted something that was completely bootstrapped.</p>
+<p>I am not the sort of programmer who could build Plan 9, or Oberon, or Lisp machines, but I knew I could write simple NES games and port them. I couldn't write an <abbr title="Nintendo Entertainment System">NES</abbr> game inside an <abbr title="Nintendo Entertainment System">NES</abbr> game, and that was such a shame. I wanted something that was completely bootstrapped.</p>
 
 <img src="../media/content/blog/wsw_30.jpg" loading="lazy"/>
 
@@ -221,7 +221,7 @@
 
 <img src="../media/content/blog/wsw_31.jpg" loading="lazy"/>
 
-<p>6502 has a lot of mnemonics. When trying to implement the 6502 as a VM, it is possible to make a naive implementation in a week, or in a weekend if you don't do anything else. My knowledge of C is very limited, but luckily I had help. I wondered if this instruction set could be reduced further...</p>
+<p>6502 has a lot of mnemonics. When trying to implement the 6502 as a <abbr title="Virtual Machine">VM</abbr>, it is possible to make a naive implementation in a week, or in a weekend if you don't do anything else. My knowledge of C is very limited, but luckily I had help. I wondered if this instruction set could be reduced further...</p>
 
 <img src="../media/content/blog/wsw_32.jpg" loading="lazy"/>
 
@@ -241,7 +241,7 @@
 
 <img src="../media/content/blog/wsw_35.jpg" loading="lazy"/>
 
-<p>When I was looking at the BBC's Domesday book, I noticed that Alan Kay(Small Talk) also had a project that was in line with what I was trying to do. He thought, "Smalltalk is a vm, how much of a small VM can possibly run smalltalk-72."</p>
+<p>When I was looking at the <abbr title="The British Broadcasting Corporation">BBC</abbr>'s Domesday book, I noticed that Alan Kay(Small Talk) also had a project that was in line with what I was trying to do. He thought, "Smalltalk is a vm, how much of a small VM can possibly run smalltalk-72."</p>
 
 <p>He wrote a paper called <a href='https://dl.acm.org/doi/10.1145/2814228.2814250' target='_blank'>The Cuneiform Tablets of 2015</a>, he had all these words to talk about computers that went viral. He said things like, "Lisp was the Maxwell equation of programming." As a minimalist geek I was glad to hear this, it's what I wanted, but then looking into Lisp, I thought that a language that creates garbage by design wasn't really what I was looking for. This was a bit more like it, but it was a register machine, and I didn't see how that mapped to Smalltalk.</p>
 
@@ -259,7 +259,7 @@
 
 <img src="../media/content/blog/wsw_38.jpg" loading="lazy"/>
 
-<p><a href='http://wiki.xxiivv.com/site/fractran.html' target='_blank'>FRACTRAN</a> was another OISC system. It has one operation: multiply. Its primitives were not bytes, or shorts, but fractions. It used prime encoding, which was one of the most beautiful mathematical concept that I knew of.</p>
+<p><a href='http://wiki.xxiivv.com/site/fractran.html' target='_blank'>FRACTRAN</a> was another <abbr title="One-Instruction Set Computer">OISC</abbr> system. It has one operation: multiply. Its primitives were not bytes, or shorts, but fractions. It used prime encoding, which was one of the most beautiful mathematical concept that I knew of.</p>
 
 <p>For a while I thought I had found my bedrock, I was going to use fractions to make computers. The only issue... is that it maps poorly to silicone.</p>
 
@@ -279,7 +279,7 @@
 
 <img src="../media/content/blog/wsw_40.jpg" loading="lazy"/>
 
-<p>Someone wrote an FPGA system called <a href='https://excamera.com/files/j1.pdf' target='_blank'>J1</a>, a <a href='https://en.wikipedia.org/wiki/Forth_(programming_language)' target='_blank'>Forth system</a>. It had very few opcodes, but had one of the most beautiful mapping of byte code I had ever seen. The Stack Machine primitives were implemented so you could combine them with each other, with weird combinations of bit toggles on a byte you could have really interesting esoteric stack manipulators.</p>
+<p>Someone wrote an <abbr title="Field-Programmable Gate Array">FPGA</abbr> system called <a href='https://excamera.com/files/j1.pdf' target='_blank'>J1</a>, a <a href='https://en.wikipedia.org/wiki/Forth_(programming_language)' target='_blank'>Forth system</a>. It had very few opcodes, but had one of the most beautiful mapping of byte code I had ever seen. The Stack Machine primitives were implemented so you could combine them with each other, with weird combinations of bit toggles on a byte you could have really interesting esoteric stack manipulators.</p>
 
 <p>I was smitten.</p>
 
@@ -293,7 +293,7 @@
 
 <p>The <a href='http://wiki.xxiivv.com/site/chip8.html' target='_blank'>CHIP-8</a> is an interesting system that has a rich, vibrant community of people who build things for it during game jams.</p>
 
-<p>The spec is quite simple, it fits on maybe two pages of paper, side by side. It feels like the paper computer in ways that I like, but it was not designed to be a general purpose driving vm. It is meant to be building things in the scale of Pong. The keyboard is like a hex keyboard with just numbers on it. My plan was to build something that could build itself in it, so I'd need a keyboard, a cursor-a weird keyboard for me would not cut it.</p>
+<p>The spec is quite simple, it fits on maybe two pages of paper, side by side. It feels like the paper computer in ways that I like, but it was not designed to be a general purpose driving <abbr title="Virtual Machine">VM</abbr>. It is meant to be building things in the scale of Pong. The keyboard is like a hex keyboard with just numbers on it. My plan was to build something that could build itself in it, so I'd need a keyboard, a cursor-a weird keyboard for me would not cut it.</p>
 
 <img src="../media/content/blog/wsw_44.jpg" loading="lazy"/>
 
@@ -339,7 +339,7 @@
 
 <img src="../media/content/blog/wsw_51.jpg" loading="lazy"/>
 
-<p>The first thing I tried to do was to make an assembler in that language. It was easy. The language is so simple that the assembler itself is also going to be simple. I generated a X86 application of the VM that could run its own assembler in that language.</p>
+<p>The first thing I tried to do was to make an assembler in that language. It was easy. The language is so simple that the assembler itself is also going to be simple. I generated a X86 application of the <abbr title="Virtual Machine">VM</abbr> that could run its own assembler in that language.</p>
 
 <p>The assembler is <a href='https://git.sr.ht/~rabbits/drifblim/' target='_blank'>3000 bytes</a>.</p> 
 
@@ -359,7 +359,7 @@
 
 <img src="../media/content/blog/wsw_54.jpg" loading="lazy"/>
 
-<p>In his <a href='https://guide.handmade-seattle.com/c/2022/behind-crafting-interpreters/' target='_blank'>sit-down with Abner Coimbre</a> for the Handmade Seattle 2022 opening, <a href='https://journal.stuffwithstuff.com/' target='_blank'>Robert Nystrom</a> was encouraging everyone to make their own programming language and their own system. Many of the conference attendees share this view, but in other circles it is generally frowned upon. The first time I mentioned it to anyone I was laughed out the room. I liked to draw, and people were thinking, "what do you even know about computers?"</p> 
+<p>In a <a href='https://guide.handmade-seattle.com/c/2022/behind-crafting-interpreters/' target='_blank'>sit-down talk</a> <a href='https://journal.stuffwithstuff.com/' target='_blank'>Robert Nystrom</a> was encouraging everyone to make their own programming language and their own system. Many of the conference attendees share this view, but in other circles it is generally frowned upon. The first time I mentioned it to anyone I was laughed out the room. I liked to draw, and people were thinking, "what do you even know about computers?"</p> 
 
 <p>I would love to see everyone's programming language, to meet someone new and to ask them: "show me how many opcodes you have."</p>
 
@@ -369,7 +369,7 @@
 
 <p>We built this little system that is tailored to host the games we make. It'll be alien to anyone else, and that's okay, we are not trying to sell you on this idea, what we want is for everyone to try and make their own personal computer instead of piggybacking on someone else's idea that's cluttered with artifacts. I don't think we've even begun to scratch the surface of what can be done with this.</p>
 
-<p>A lot of people will try to tell you that we've tried everything with 8-bit, but by the time the NES was out, most of the game genres that we have today didn't exist. There are immense amounts of space left to explore, but now everyone has moved on, to VR, AR or other.</p>
+<p>A lot of people will try to tell you that we've tried everything with 8-bit, but by the time the <abbr title="Nintendo Entertainment System">NES</abbr> was out, most of the game genres that we have today didn't exist. There are immense amounts of space left to explore, but now everyone has moved on, to <abbr title="Virtual Reality">VR</abbr>, <abbr title="Augmented Reality">AR</abbr> or other.</p>
 
 <img src="../media/content/blog/wsw_56.jpg" loading="lazy"/>
 
