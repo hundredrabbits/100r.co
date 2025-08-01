@@ -10,6 +10,38 @@
 </image>
 
 <item>
+  <title>Summary of changes for July 2025</title>
+  <link>https://100r.co/site/log.html#jul2025</link>
+  <guid isPermaLink='false'>log.html#jul2025</guid>
+  <pubDate>Fri, 01 August 2025 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of July.</p>
+
+<img src="../media/content/videos/july_2025.jpg" alt="a hummingbird and a kingfisher who both are claiming Pino as theirs in Solresol." loading="lazy" width="1200" height="679">
+
+<ul>
+  <li><b><a href="https://itch.io/jam/catjam-2025">Catjam 2025</a></b>, finished a small game called <a href="https://hundredrabbits.itch.io/polycat" target="_blank">Polycat</a>!</li>
+  <li><b>100r.co</b>, added <a href="https://100r.co/site/vancouver_island_west_coast.html" target="_blank">Vancouver Island West Coast</a>, <a href="https://100r.co/site/ucluelet.html" target="_blank">Ucluelet</a>, <a href="https://100r.co/site/port_san_juan.html" target="_blank">Port San Juan</a>, <a href="https://100r.co/site/juan_de_fuca_strait.html" target="_blank">Juan de Fuca Strait</a> and <a href="https://100r.co/site/cadboro_bay.html" target="_blank">Cadboro Bay</a>.</li>
+  <li><b><a href="https://wiki.xxiivv.com/site/theme">Theme Editor</a></b>, made a nicer theme editor for our tools ecosystem.</li>
+  <li><b> <a href="https://kokorobot.ca/site/punk_rabbits.html" target="_blank">Punk Rabbits</a></b>, started a drawing series of rabbit characters with the goal of making one hundred.</li>
+</ul>
+
+<p>This month we sailed into the Juan de Fuca Strait, escorted by pods of orcas and a lone young humpback whale. The last time we had been here was in July 2020, on our way back from Japan. After weathering gale force winds at anchor in <a href="https://100r.co/media/content/travel/becher_bay.jpg" target="_blank">Becher Bay</a>, we stopped in Port San Juan. The beaches there are covered in old growth driftwood, carried there by winter storms. Some trees are so large and have been there so long that people have installed <a href="https://100r.co/media/content/travel/port_san_juan_05.jpg" target="_blank">swings</a> on them. The way to Barkley Sound was bleak, we spent 10 hours of it in a fog bank, only to emerge near Cape Beale to a bright sun over jade-colored waters. We pulled into Ucluelet the next day, just in time to meet up with our friend Avi to view the building site for their <a href="https://avibryant.com/2025" target="_blank">upcoming boatyard project</a>.</p>
+
+<p>We spent a few days anchored in Barkley Sound, in an anchorage with the biggest population of <a href="https://rabbits.srht.site/days/2025/07/10.html" target="_blank">hummingbirds</a> we'd ever seen. The hummingbird visits were constant, with 3-4 buzzing around us at all times. During our stay there we completed our game entry for <a href="https://itch.io/jam/catjam-2025" target="_blank">Catjam</a> named <a href="https://hundredrabbits.itch.io/polycat" target="_blank">Polycat</a>. The game is very hard, but also very short. Watch a <a href="https://www.youtube.com/watch?v=kzH6GchYMNM" target="_blank">video</a> of Devine playing the game.</p>
+
+<p>In the second half of July, Pino sailed back to the Southern Gulf islands and stayed anchored alongside a friend, messing with their <a href="https://rabbits.srht.site/days/2025/08/01.html" target="_blank">laser engraver</a>, hiking, picking blackberries, and working on projects. Instead of hummingbirds, in Fulford, we had kingfishers, they really liked sitting on the wind vane's arrow on top of the mast. See this <a href="https://merveilles.town/@neauoire/114954691829294465">amazing drone footage</a> shot by our friends aboard MV Poem.</p>
+
+<p>Devine has been invited to talk about permacomputing at <a href="https://criticalsignals.nz/programme/permacomputing-101/" target="_blank">Critical Signals</a> on August 12th. They will try to introduce some of the ideas that they find most interesting via practical examples. Save the date!</p>
+
+<p><b>Book Club:</b> This month we are reading <i>Ancillary Justice</i> by Ann Leckie.</p>
+
+<p><a href='https://100r.co/site/log.html#jul2025' target='_blank'>Continue Reading</a></p>]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for June 2025</title>
   <link>https://100r.co/site/log.html#june2025</link>
   <guid isPermaLink='false'>log.html#june2025</guid>
@@ -100,7 +132,7 @@
 
 <p>Another item on Devine's list was to gradually phase out <a href="https://wiki.xxiivv.com/etc/uxnasm.c.txt" target="_blank">Uxnasm.c</a> in favor of the <a href="https://wiki.xxiivv.com/site/drifblim.html" target="_blank">self-hosted</a> assembler. We're not 100% pleased yet, but it is getting closer to retirement.</p>
 
-<p>Starting on May 20th 2025(1000 PST/PDT) the <a href="https://play.date/games/" target="_blank">Playdate Catalogue</a> will include {Oquonie}. The game is also available on our <a href="https://hundredrabbits.itch.io/" target="_blank">itch.io store</a>.</p>
+<p>Starting on May 20th 2025(1000 PST/PDT) the <a href="https://play.date/games/" target="_blank">Playdate Catalogue</a> will include Oquonie. The game is also available on our <a href="https://hundredrabbits.itch.io/" target="_blank">itch.io store</a>.</p>
 
 <p>The video for Devine's November 2024 talk <a href="https://100r.co/site/shining_sand.html">A Shining Place Built Upon The Sand</a> is now on <a href="https://youtu.be/EACF2VEpO3Q" target="_blank">YouTube</a>.</p>
 
@@ -164,7 +196,7 @@
 
 <p>Devine completed <a href="https://wiki.xxiivv.com/site/nebu" target="_blank">Nebu</a>, a spritesheet editor as well as a <a href="https://wiki.xxiivv.com/media/generic/calendar.png" target="_blank">desktop calendar</a>, alongside many other little <a href="https://wiki.xxiivv.com/site/utilities.html" target="_blank">desktop utilities</a>. Nebu is just over 8.3 kB, a bit less than a blank excel file.</p>
 
-<p>In times of increasing climate and political instability, it is a good time to get together with your community and make plans for emergencies. Consider reading <a href="https://archive.org/details/disaster-preparedness-tokyo" target="_blank">Tokyo Bosai</a> about disaster preparedness, this elaborate document deals with disasters that occur specifically in Japan, but many of the recommendations are useful regardless. We released a new page on {rabbit waves} with suggestions on what to pack in an <a href="https://rabbitwaves.ca/site/emergency_bag.html">Emergency Bag</a>. Remember, every emergency bag is different, and what is essential varies per person.</p>
+<p>In times of increasing climate and political instability, it is a good time to get together with your community and make plans for emergencies. Consider reading <a href="https://archive.org/details/disaster-preparedness-tokyo" target="_blank">Tokyo Bosai</a> about disaster preparedness, this elaborate document deals with disasters that occur specifically in Japan, but many of the recommendations are useful regardless. We released a new page on rabbit waves with suggestions on what to pack in an <a href="https://rabbitwaves.ca/site/emergency_bag.html">Emergency Bag</a>. Remember, every emergency bag is different, and what is essential varies per person.</p>
 
 <p>We also put together a print-it-yourself zine, which combines useful information about <a href="https://rabbitwaves.ca/site/morse.html" target="_blank">Morse Code and <a href="https://rabbitwaves.ca/site/flags_maritime.html" target="_blank">Signal Flags</a>. If you have printed the zine and don't know how to fold it, see Rek's <a href="https://kokorobot.ca/site/folding_zine.html" target="_blank">illustrated instructions</a>. Speaking of signal flags, we printed <a href="https://100r.co/site/flag_stickers.html" target="_blank">stickers</a> of Rek's ICS flag drawings.</p>
 
