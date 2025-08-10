@@ -125,7 +125,8 @@ MODE 0f
 HEAD Larger Header
 MODE 08
 MOVE 00,05
-HEAD Smaller text`with a linebreak
+TEXT Some text on the first line
+TEXT and on the line below.
 </pre>
 
 <p>And here is a slide with both text and an image(<b>PICT</b>):</p>
@@ -143,17 +144,17 @@ HEAD Picture name
 
 <p>Adelie uses hexadecimal numbers, in which the numbers from 10 to 15 are represented as the letters a to f. So if the desired text position of an image in decimals is <b>12,11</b> the hexadecimal equivalent would be <b>0c,0b</b>. View this <a href='hexadecimal_table.html' class='local'>hexadecimal table</a> for help with conversion.</p>
 
-<p>The default ratio for any project is 768x448(30,1c). Specifying a size in the project text file (at the top of the text file before the slides), will load the slideshow at that resolution. When deciding on a slide size, it is necessary to use multiples of 16.</p>
+<p>The default ratio for any project is 768x448(30,1c). Specifying a size in the project text file (at the top of the text file before the slides), will load the slideshow at that resolution. When deciding on a slide size, it is necessary to use multiples of 8.</p>
 
 <pre>
 SIZE 30,1c ( 768 x 448 )
 </pre>
 
-<p>If, for example, the desired size is 720x480, it is necessary to make a calculation to get the correct size for Adelie. <b>720</b> and <b>480</b> must each be divided by 16, and then converted to hexadecimals.</p>
+<p>If, for example, the desired size is 720x480, it is necessary to make a calculation to get the correct size for Adelie. <b>720</b> and <b>480</b> must each be divided by 8, and then converted to hexadecimals.</p>
 
 <pre>
-720/16=45 decimal, or <b>0x2d</b> hexadecimal.
-480/16=30 decimal, or <b>0x1e</b> hexadecimal.
+720/8=45 decimal, or <b>0x2d</b> hexadecimal.
+480/8=30 decimal, or <b>0x1e</b> hexadecimal.
 Result: SIZE 2d,1e
 </pre>
 
@@ -167,7 +168,9 @@ Result: SIZE 2d,1e
 
 <pre>
 GOTO 24,04
-HEAD We began using`technology as little`as possible.
+HEAD We began using
+HEAD technology as little
+HEAD as possible.
 </pre>
 
 <h2><a id='mode'>Mode</a></h2>
@@ -228,8 +231,6 @@ HEAD We began using`technology as little`as possible.
 
 <p>Headers are labelled as <b>HEAD</b>, and sub-text as <b>TEXT</b>. Header text is larger, while sub-text is smaller.</p>
 
-<p>Writing text without linebreaks <kbd class='shortcut'><kbd>`</kbd></kbd> will leave the text as a continous phrase, which may spill out of the canvas. It is not necessary to add spaces before or after the <kbd class='shortcut'><kbd>`</kbd></kbd>.</p>
-
 <p>Below is the text used to make the above slide:</p>
 
 <pre>
@@ -238,7 +239,8 @@ FILL 03
 GOTO 04,03
 PICT weeding.tga
 GOTO 04,04
-HEAD Doing away with`bloated toolchains.
+HEAD Doing away with
+HEAD bloated toolchains.
 GOTO 08,10
 TEXT Weed out sources of waste.
 </pre>
@@ -268,7 +270,8 @@ PICT etc/adelie3.tga
 GOTO 20,0c
 HEAD Adelie Links
 MOVE 02,07
-TEXT You can make part of a slide clickable using the LINK command.`Press shift to see a slide's links.
+TEXT You can make part of a slide clickable using the LINK command.
+TEXT Press shift to see a slide's links.
 MODE 06
 GOTO 08,24
 LINK 1c,10 Introduction
@@ -392,9 +395,14 @@ GOTO 0d,00
 PICT media/sailing.tga
 GOTO 04,05
 MODE 05
-HEAD Living & working`from a sailboat.
+HEAD Living & working
+HEAD from a sailboat.
 GOTO 08,12
-TEXT Name: Pino`Make: Yamaha`Length: 10m`Made: 1982`Origin: Shizuoka, Japan
+TEXT Name: Pino
+TEXT Make: Yamaha
+TEXT Length: 10m
+TEXT Made: 1982
+TEXT Origin: Shizuoka, Japan
 </pre>
 
 <p>Adelie is capable of more complex projects, it's possible to make animated slide transitions using the <b>WAIT</b>, <b>STOP</b>, <b>PATT</b>(undocumented). See this <a href='https://merveilles.town/@neauoire/108647241571480372' target='_blank'>example project(Mastodon)</a>.</p>
