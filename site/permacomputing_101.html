@@ -1,0 +1,245 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://100r.co/media/services/rss.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><meta name='color-scheme' content='light dark'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>100R &mdash; permacomputing 101</title></head><body class='page_permacomputing_101'><nav class='hidden'>
+	<ul>
+		<li><a href="home.html" target="_blank">Home</a></li>
+		<li><a href="about.html" target="_blank">About</a></li>
+		<li><a href="knowledge.html" target="_blank">Knowledge</a></li>
+		<li><a href="articles.html" target="_blank">Articles</a></li>
+		<li><a href="projects.html" target="_blank">Projects</a></li>
+		<li><a href="travel.html" target="_blank">Travel</a></li>
+	</ul>
+</nav>
+<nav>
+	<a href='home.html' class='nav_link home_rabbit' aria-label='Home'>
+		<img src='../media/interface/home.png' alt='a rabbit wearing a funky sweater' width='200' height='200'/>
+		<img class='text inactive' src='../media/interface/home_txt.png' alt='Home' width='200' height='35'/>
+		<img class='text active' src='../media/interface/home_txt_underline.png' alt='Home' width='200' height='35'/>
+	</a>
+	<a href='about.html' class='nav_link about_rabbit' aria-label='About'>
+		<img src='../media/interface/about.png' alt='a mariner rabbit with a spyglass, coiled in ropes' width='200' height='200'/>
+		<img class='text inactive' src='../media/interface/about_txt.png' alt='About' width='200' height='35'/>
+	<img class='text active' src='../media/interface/about_txt_underline.png' alt='About' width='200' height='35'/>
+	</a>
+	<a href='knowledge.html' class='nav_link knowledge_rabbit' aria-label='Knowledge'>
+		<img src='../media/interface/knowledge.png' alt='a rabbit holding some rolled up documents' width='200' height='200'/>
+		<img class='text inactive' src='../media/interface/knowledge_txt.png' alt='Knowledge' width='200' height='35'/>
+		<img class='text active' src='../media/interface/knowledge_txt_underline.png' alt='Knowledge' width='200' height='35'/>
+	</a>
+	<a href='articles.html' class='nav_link articles_rabbit' aria-label='Articles'>
+		<img src='../media/interface/articles.png' alt='a rabbit laying on their belly and writing into a book' width='200' height='200'/>
+		<img class='text inactive' src='../media/interface/articles_txt.png' alt='Articles' width='200' height='35'/>
+		<img class='text active' src='../media/interface/articles_txt_underline.png' alt='Articles' width='200' height='35'/>
+	</a>
+	<a href='projects.html' class='nav_link projects_rabbit' aria-label='Projects'>
+		<img src='../media/interface/projects.png' alt='a rabbit working on a project, taking measurements while while a hard hat' width='200' height='200'/>
+		<img class='text inactive' src='../media/interface/projects_txt.png' alt='Projects' width='200' height='35'/>
+		<img class='text active' src='../media/interface/projects_txt_underline.png' alt='Projects' width='200' height='35'/>
+	</a>
+	<a href='travel.html' class='nav_link travel_rabbit' aria-label='Travel'>
+		<img src='../media/interface/travel.png' alt='a rabbit sitting in a small boat wearing a rain coat' width='200' height='200'/>
+		<img class='text inactive' src='../media/interface/travel_txt.png' alt='Travel' width='200' height='35'/>
+		<img class='text active' src='../media/interface/travel_txt_underline.png' alt='Travel' width='200' height='35'/>
+	</a>
+</nav><main>
+
+<!-- Generated file, do not edit -->
+
+<h1>permacomputing 101</h1>Hello, Critical Call signals. Thank you for having me. I wish I could be in Wellington with all of you right now.
+
+Um, if you hear uh noise in the background, it's because it's a bit windy today. I hope it's going to be okay. Um, before I begin this, none of the slides in this talk uses LLMs or AI or image generators. Everything has been handwritten or drawn. Um, so you don't have to wonder.
+
+--------------
+
+I am half of a little design studio called Hundred Rabbits, founded 10 years ago. We focus on the failability of modern tech, working entirely from secondhand devices. We operate aboard a 10 m sailboat named Pino, built in 1982. Pino is our workspace, our habitat, our gym, our rec room, our bedroom, and our kitchen. Our life is basically like we're camping all year long.
+
+We sailed to <a href='new_zealand.html' class='local'>New Zealand</a> a few years ago, by way of <a href='french_polynesia.html' class='local'>French Polynesia</a>, <a href='niue.html' class='local'>Niue</a>, <a href='tonga.html' class='local'>Tonga</a>. We stayed in Whangarei for 9 months — it was lovely.
+
+We started sailing because we wanted to live that solar punk life, according to seasons, and to learn more about repair and maintenance. We wanted to move between places our own terms. The sailboat gave us that flexibility, but it came with a lot of challenges, and a lot of these challenges advised much of what I'm going to be talking about today.
+
+We have become anachronistic to modern life, that path we chose diverges from the general direction of things. To give you some a sense of the limits that we have aboard, our studio is powered by 2x100 watt solar panels which feed 4x6V lead acid batteries. We use this to power our laptops, our habitat, the lights, and safety systems. In this talk I'll talk about the limits and the complexity and appropriate technologies.
+
+I think it's easy in this context to think like, oh well, you can like sort of engineer your way out of some problems by you know, buying more batteries which add more weight which makes it makes it harder for us to run away from storms, or like buy more solar panels, which adds more windage and you know more chance of cap size or hazards, and I think like managing this complexity and these limitations I think it's important but really like if you have the inclination of always you know buy more of X usually it's going to add more problems than it's going to solve.
+
+I'll try to you know explain some of the choices that we made and some of the conclusions that we found.
+
+So when we began looking for spaces that still build compatible tech for the way we were living, we found that modern tech is sort of like at odds with the nomad life. Even though, you know, it's easy to imagine that now everything is remote, but everything is also always online. Everything is two-step locked and you need an address and it's sort of it's harder today I think to live the nomad life.
+
+Even though some of technology seems, you know, like it would it would welcome this... it doesn't always. Inefficient software and always-online software is sort of like. Who still builds software today that works reliably offline? Who today still builds software that that is written in an efficient way? How far back in the past do we have to like, you know, look for these actual things, these tools that we can use? 
+
+In that research, in that in that questioning we found someone who highlighted uh the same pain points. This is an article I found a few years back and um it's the original permacomputing article. It articulated perfectly the problems that we were having and looking in deeper into it I found it was written by this artist called Viznut. His name is Vile Matias and he wrote about demos scene and ludism and digital aesthetics and the environmental impact of technologies. It was a pretty fresh vision of computation that was way different from the prevalent futurism that we see everywhere.
+
+He wrote this specification of permacomputing. I have it here. "It's a practice that encourages the maximization of hardware lifespan, minimization of energy usage, and focuses on the use of already available computational resources. It's about using computation only when it has a strengthening effect on ecosystems."
+
+When I read this these two sentences, I thought it was such a lucid enunciation of the problems that we were that we were facing. I immediately wanted to know more and found out who was behind this and if there was a community and who was exploring what seemed to be the solution to our problem. 
+
+We found communities but also we gathered the friends that we have that are operating under similar constraints and well in fact this is how we got in touch with Julian who runs Collapsible System which seems to be like another exploration of that space,  with hyper local solutions to problems and so I would like to explain some of the ideas behind permacomputing.
+
+The way I see it there are obviously there are many many ways of you know approaching this but I've divided permacomputing into 3 stages. So I guess stages of adaptation, relative to resource availability. So the way I'm going to break it down is going to be: frugal computing, salvage computing and collapse computing.
+
+So each stage is a step further away from available power, internet hardware, so on. 
+
+The first one - by the way these these are not my words sort of like things I found online that that people, use I'll rephrase it in my own words afterward but like the definition of frugal computing would be "utilizing computational resources as finite, to be utilized only when necessary and as effectively as possible."
+
+So basically like this is about familiarizing yourself with using as little as needed while resources are just generally available. So it's kind of like learning to use a med kit while you're still living in the city. So, you learn about what's inside, but also if you made a mistake you can course correct. It's always better to prepare, to practice preparation when resources are available than when it's too late and shit hits the fan and you don't have access to do the correcting.
+
+The second stage would be salvage computing. It's about utilizing only already available computational resources to be limited by that which is already produced. So you can imagine the production treadmill has stalled and what is produced is just more of what's already available.
+
+The last stage is collapse, it's about utilizing what has survived the collapse of industrial production or network infrastructure. So at that point, consumption is more like fighting over what's left, and most of  what's already being produced is just sort of decaying, so it's more about maintenance and at that point you can't just you know, run to the market and get a new one.
+
+As we move through these three stages of adaptation computation is used increasingly as a tool of control as the climate collapse worsens. So further down the descent, the more technical things get and the more technology is something people have to act actively engage with and understand especially if it's, you know, forced upon you. 
+
+So I guess permacomputation is like a framework for navigating uh this sort of language and also this sort of environment where things might not be as reliable as they once were. You can phrase it as a utopian ideal that requires doing a lot of rethinking and rebuilding and technological design and education to put it into practice.
+
+But I don't mean that you know people have to go like jump into learning Assembly and there's much more proactive things to do first. I think also it's more something to be engaged in as a community than as an individual, so you can leverage different people's different skills.
+
+But really the first things that you can do, that doesn't have anything to do with assembly. It doesn't even have to do anything with technological knowledge. It's about exploring the value of absence. It's finding where technologies do not have a strengthening effect on the ecosystem. It's also finding ways to do away with technologies that precipitate climate collapse. So like it's about stopping to produce things that can't be repaired. It's reducing technological waste. And further it's getting rid of technologies that are clearly antagonistic, and to sabotage them if possible.
+
+Going from finding where technology is not needed to finding where technology is like having a harmful effect and moving beyond this is like finding where technology actually can bring you where you want to go and then it just vanishes in the background. Well, there's a perfect word for this, and it's it's called self obviation, which is an aspect of technology that tries to makes itself less and less necessary to the realization of its purpose, gradually allowing people to provide for their own welfare.
+
+A technology can't both be emancipating and making you dependent on it. It has to you know lead bring you where you want to go and just get out of the way. It can't start wedging itself in between people Self obviation in terms of technology is something that people should strive for. It could be an engineering practice.
+
+I'm going to dive down further into this right now. Permaculture, which is literally the first half of permacomputing, is about developing systems where nature does most of the work. For this to work permaculture thrives in diversity. It uses load balancing of a diversity of solutions to create resilience. It's not about finding a silver bullet. There's not like "a most permacomputing technology", permacomputing technology is always going to be diversity of tech and products and people and it's not going to try to develop a monoculture of a like a single crop for tackling a scale of problem.
+
+The first question that permacomputing asks is where technology is not appropriate? Where can it be removed by where can we do without? In most cases technology is sold as a timesaver but really it isn't it rarely saves time. It complexifies things a whole lot and makes people dependent on supply chains. It usually turns into a tool for controlling people and making sure that people don't understand the tool that rules their lives. They're made as opaque as possible. And in some cases, they even like will complexify things that are simple and make complex things seem simple. So in that process, they sort of obfuscate the waste, the byproducts, so people have no idea what's going on. Doing away with like identifying them, getting away with them, is a really good first take and requires very little knowledge of the intricacies of computation.
+
+If we stop forcing people computers down people's throats, what we find is that, either we don't need computers anymore, I mean there's definitely a case where a whole bunch of people would be happier, their lives would be simpler, if computers were just not there and if they were not forced to use them. We might find that there's still a need for computers, like as ways of learning about the world, for games, for art for music, whatever, but once we identified where computation actually has a strengthening effect on the ecosystem, whether it's creating things, in most cases it will be benign tasks, and this is where permacompution exists right now in the space.
+
+Obviously when I say that people should understand the tools that they're dealing with, well it's a sliding scale, right? Having the option to reverse-engineer or repair a tool gives you leverage, it also allows you to repair something when it breaks. The agency that this gives you doesn't have to be individuals dealing with this complexity all on their own. You can have someone that has the skills needed to repair something, but not having that option at all makes tools that will never be able to emancipate anything.
+
+So, the way I've looked at this is that from the original permacomputing specification, it's basically just good engineering practices, and I'll walk you through some that I found are interesting.
+
+The first one is designing for disassembly. Designing for disassembly I mean it's what it says it is basically, like it encourages repair. The idea is that a product can be taken apart at the end of its life and each component can be reclaimed, basically. So designing thing for disassembly has a, like in a hardware it would mean giving a manual or the instruction for the assembly and disassembly of the product, using parts that are not proprietary in software. It means you know like having the source file, the binary files, the good documentation so people can understand what they're using and how it works.
+
+That makes a ton of sense in a world that has spotty internet, for example Hundred Rabbits, like the
+way we operate, for lengths at a time we don't have access to internet so we can't do tech support for the tools that we make. So, people have to be able to disassemble them, find out how to solve their own problem. In some cases, we will turn up and have internet again and see that people have like, reverse engineered or like use the docs, and found ways to solve their problems without our interfering. I mean, if we had been available we would have helped, but giving the option that if something happens to us, the tools is still usable while it's a pretty good tool for fighting bitrot in general cases.
+
+Another tip for engineering practices that align with
+permacomputing is to design for encapsulation. It's a bit more abstract, but really, what it means is to be able to replicate the environment of a product. So you might not have the knowledge to understand how the product works or the internals of the thing, but if you can replicate its environment it should behave the same way as it did before. So software emulation for example recreates the mechanism of hardware. Today you can run like a a piece of software that was made for the classic Nintendo for example, that is a form of encapsulation. So, it allows us to preserve a piece of software through time even though the source code was gone, even though we don't have access to the internals and the logic and the design documents that made this artifact happen. We can still use it because we were able to replicate the environment perfectly.
+
+Encapsulation has different facets to it. I'll explain a couple, skim over this just, so you have an idea of like what what tactics people use in the past. The first one is migration. 
+
+You convert a program from one operating system to the next. For example with something like Word for Windows 95. When a new Word was made for Windows 98 the code was migrated. Most of the code, I'm pretty sure, was reused. So, we can call that migration. Emulation is mimicking the behavior of older hardware. It's basically tricking old programs to think that they're running on their original platform. It's how we get to play video games from the past, but also it's how Nintendo keeps churning out new versions of their old games because they just change the wrapper around it. 
+
+Encapsulation straight up means like containerizing. If you're familiar with Docker, it's about replicating, it's recreating the capsule the environment in which the software ran in a more higher level thinking. 
+
+The last thing is called universal virtual computer, and that one is more like defining the axioms or the mathematics, or the logic systems of a program. It's about defining the program in abstract terms that will adapt to various ecosystems and should transcend hardware and software.
+
+For example this is one approach that we took as a studio to make sure that our software would keep running over time. As I mentioned I'm pretty sure you have example that pops into your head, but like if you're like a programmer you would think like Java, the JVM is sort of a an ecosystem. The tagline for Java was like "write once run everywhere," and it's a strategy to fight hardware obsolescence. I think at that point they were already seeing that they would have to rewrite the same program over and over and over again,  and by targeting a virtual machine they were allowed to to write the program once and run it everywhere.
+
+Is Java permacomputing? I mean, it's less about finding out if something permacomputing or not. That specific attribute of Java is appropriate for the situation, it's appropriate for fighting obsolescence. I can't say if Java is permacomputing or not, but that attribute though, is.
+
+You're probably watching this through Chrome or Firefox or something else, you might be thinking well browsers is one thing right? Browser is sort of like the JVM. It it runs on all sorts of devices, but like all of these like virtual machines and encapsulation systems doesn't solve the whole problem. It usually comes at a cost of efficiency.
+
+For example like web apps are super slow, like most websites like do pretty simple things, but they consume maximum amount of energy and power. Web browsers come with like a a whole swath of problems that are beyond the scope of this talk. "Is the web browser  permacomputing?" is something that comes up quite quite a bit. For one the web specification can only be implemented by two companies, and so that means the whole ecosystem has been captured by a handful of people.
+
+Building new web browsers today is unthinkable, this in itself voids the compatibility with permacomputing. The bloat and the corporate capture makes it impossible for anyone to understand the tool because the tool is growing at such a logarithmic scale that there's no way someone's going to understand what the hell is going on , making it at odds.
+
+One misconception that people will often straight up tell us is that, "We don't want to halt the development of new tech because, isn't it getting more efficient over time?" I think that's a misconception that people have, that new hardware will do a lot more, but they will always use more energy. It's sort of Jevon's Paradox. It wouldn't work for us. A lot of time people suggest technologies for us that are seemingly more efficient, they're more efficient at doing really complex things, which we don't do, but really inefficient in a way that makes it impossible for us to even run them on the battery power that we have.
+
+I will tell you about one last little engineering tidbit, which is to design for descent, which means to design things to degrade gracefully. Designing for when the power is low, for when connection is unstable, for when one of the components fail like. It's an engineering tactic that ensures that if the sound card of your computer fails it doesn't take down the whole ship with it and you can still use the rest. It's making sure that if the internet slows down you can still use the tool, it's when you know you're running out of power it starts to take less power.
+
+This ties to resilience. Resilience applies to much more than computation, and I'll just walk through the four pillars of resilience.
+
+The first one is agility. This defines the capacity to adapt and respond to a changing environment. For example, if something is too rigid then it will not be resilient.
+
+Preparedness means looking ahead, having a plan.
+
+Elasticity is having flexible requirements and needs for the things to work properly.
+
+Redundancy is just having more of a thing in case one fails. Redundancy is extremely useful aboard a boat. 
+
+The permacomputing paper I shared earlier is just a few years old, it didn't invent the concept of digital preservation. A couple of people rallied around this word, but really this has been a field of research for many years. The first one that I discovered that was permacomputing-adjacent work from the past was PADI(Preserving Access to Digital Information), a gathering of people in Australia who explored that problem.
+
+There is also Cedars(CURL Exemplars in DigitalARchiveS), and CAMiLEON. CAMiLEON's objectives could have been in the permacomputing paper because it it is so aligned. Their three main objectives are as follows:
+
+"To explore the options of long-term retention of the original functionality and look and feel of digital objects." Fancy words for saying "make software work tomorrow".
+
+Their second objective is "to investigate technology emulation as a strategy for long-term preservation and access of digital objects." This is what makes it possible today to run DOS  games on your computer. They were exploring emulation as their tactic to preserve software.
+
+Their third objective is "to consider where and how emulation fits in a suit of digital preservation strategies." Like permacomputing, they didn't think that there would be a silver bullet, it is more about leveraging different tactics for maximum resilience.
+
+Unfortunately, all these projects are now defunct only available through The Internet Archive. It doesn't speak well of people who had a lot of funding and the means to explore this space if just a few years later we can't see any of it any of it anymore. This is a common pattern when you start digging into these things.
+
+A classic example is the Domesday project. In the 80's  the BBC wanted to mark the 900th anniversary of a book called the Domesday book, which was a census of England written by monks in the 11th century. It's a big book that sits in a museum that some people have access to, and that is understandable today. In its honor, the BBC wanted to make a project that captured the 80's British way of life through music, videos, pictures and stories. They had this idea of encoding all of this on these big proprietary discs. They figured that the people of the future would have disc players. By 2002, it was so hard to access this, all of the drives were gone. The people who had worked on the project retired, and they were mostly undocumented.
+
+CAMiLEON worked on figuring out how to get this data back, but it was the dawning realization that this is a fiendishly hard problem. They made all these projects and specifications and plans, and today, none of it remains. 
+
+But there are outliers, like the 1996 Space Jam movie website. It is still visible today, it still works and displays just the same as it did in 1996. 
+
+What can we learn from this? There seems to be a hard cut off of usable archived media and technology after the Commodore, Macintosh, DOS era. Somehow, it's easier to run a project made 40 years ago than it is to run  something that was made 10 years ago. That makes sense in a way, right? We have a better understanding of how things work back then, but also the reason  permacomputing aesthetics seems like it is stuck in this bygone era, is because permacomputing is about managing that complexity, and we probably don't have the tools today to manage the complexity of something that was made last year. We do have something to manage the complexity of something that was made in the 80s, to emulate it, and run it at a reliable speed. But if all these organizations, all these explorations, research products, and these academics couldn't make it work like, do we have any insights on what actually might actually work for doing this kind of preservation?
+
+One thing that reliably works, is piracy. Piracy has allowed games to survive when their authors has given up on migration or portability. There are ways to run games today through piracy that runs a thousand times better than the wrappers and emulators that the official emulators that their creators made. A thousand times is not a number I made up, I tried running Age of Empire 2 through an emulator that replicated the hardware in which it was supposed to be run, it was athousand times faster than running it the same game through the wrapper made by Microsoft. So, piracy definitely has a role in this. 
+
+A massively popular project will have a massive following that allows for this, it is more man hours, with more people spending time to fix, understand, reverse-engineer, and document these projects.
+
+Can we plan ahead is a question that I really like to think about, but to understand how to plan ahead I have to in the weeds here, but it's I think I found a way to explain it in a way that's interesting, I hope.
+
+Complexity, in the abstract, in computation, we can think of it like, "the distribution of chaos." This is sort of a complicated language, but on this slide below here there are 2 lengths of text(2 strings). The one above is:
+
+42 42 42 42... is 12 * 4 and 2. 
+
+So, if you were to write a program that generated this text, it would be the amount of characters that you see underneath. 
+
+def print_a():
+print("42" * 12)
+
+So, the length of the smallest program that can that can generate that length of text is a good indicator of the actual inherent complexity of that bit of data.
+
+The text below, OJMD4X and so on. Well, since you can't infer or generate it by rules, you have to encode the whole thing and so the programs to generate that bit of data is a bit longer.
+
+In one we have a small program, and in the other we have a bigger program. We can say that complexity, in the abstract, can be referenced to as "the length of the smallest program that can generate that bit of data."
+
+I have a better example for this and it will just make this clearer.
+
+So, on the left here I have the lyrics of the song I Am Blue by Eiffel65, and on the right I have the lyrics of No Regrets by Aesop Rock. The entropy of one is bigger than the other. 
+
+If you've ever used a compression tool, like if you  right-right click on a file and zip it, the compression algorithm in most cases is something like exploring the complexity index of a bit of data, of <i>any</i> bit of data. If we were to compress I Am Blue by Eiffel65 using the exact same algorithm, it ends up as 176 bytes,  or 176 characters. For Aesop Rock's No Regrets, it's 348. This means that the song on the right is almost twice as complex. 
+
+Complexity wise, this is something that exists across all media, not just with lyrics or songs.
+
+I'm showing you here 2 images. This is a binary  representation of these same songs. In binary, a number 1 is a black pixel, and 0 is no pixels. The left is the binary representation of I Am blue by Eiffel65, in it we can see a repeating pattern. The eye will notice instantly that there's less chaos in this one than in the one on the right. This exists in audio, video and in any other sort of data stream. You can start comparing songs or pictures or diagrams or symbols or flags, and notice how there are a few rules, a few axioms you can rely on to recreate that pattern or that logo or that design. This is an indication of complexity. When people talk about complexity and computation, that's exactly what they mean. 
+
+In the concrete though complexity is something entirely different. It is how many lines of code that you need to migrate if you want to port your program. If you want to fix a program, the time that you will have to spend learning how a program works, the internal aspect of it, the line of codes, etc, is a pretty good indicator of the complexity of something, and in almost all cases the arrow goes up. 
+
+There's a saying with boats which aligns perfectly with software and hardware, it's "small boat, small problems. Big boats, big problems." This is something that has been explored by a sailor called Roger Taylor, who sails a little boat called Mingming. Everything he writes about is fantastic. His whole thing is about safety through simple systems and resilience through redundancy and planning.
+
+Resilience in computing is finding ways to manage this complexity. Preservation is like studying the artifacts and working backward, but designing for preservation is figuring out the simple primitives that will generate the complexity further down the road. If you manage this properly, it will lighten the load in the future.
+
+An example I love of this is the Arecibo message. It was an interstellar radio message that was beamed into space. We don't know what the potential receivers' capabilities are. They don't know ASCII, they don't know English, etc. We can make pictograms, but even so, how do we send send pictograms through a radio signal? You have to engineer things with robustness in mind. They found a beautiful solution to this problem, they set the length of the Arecibo message to 1,679 bits(so just like before where we were looking at all the little bits for all the lyrics of 2 songs, where a 1 is a black pixel and a zero is a white pixel, there are 1,679 bits.) The reason why they chose that specific length for a message is that it's a semi-prime. A semi prime is made of two other prime numbers. 1,679 can only be reached by multiplying 73 by 23. It gives the the dimension of this image. We can't know that aliens will have a base 10, or a base 20, or a base 400 numbering system, but we can be sure if that if they have a technology to receive radio signals, they might have come across primes. Because primes are found in nature, they might be able to decipher the message that we're sending them. That's a way of using robustness as a first design principle.
+
+The Arecibo message is a message without a header, it doesn't have a data format really, it's just a bunch of bits. Throughout the ages we've gone through a ton of file formats. Some of them are more robust than others. The more complex the file format, the more likely they will stop being supported in the future, and the more interactive the multimedia, the harder it is to preserve.
+
+The complexity of Domesday book BBC project was pretty high because it was music, video and all that, but it's even harder and more complex to maintain if it's a specification for an entire computer. There were forays in this space, it's a fascinating space for me especially, but right, if we know all this like why isn't there someone that created the perfect computer system that will preserve things in the future, indefinitely?
+
+Well, in the 4 approaches of encapsulation, the last one was the UVM. The UVM is the idea of specifying a computer that will be so simple, that would be so close to the rules of nature, or that can be specified in so few words, that it has, through sheer ease of portability, a chance of surviving.
+
+In theory, writing software, or writing anything that would work and be decompiled or deciphered through a system like this, would be the easiest. But it's always a trade-off. You're always balancing this trifecta of portability. A system as small as this one here is portable because it's easy to migrate, it's resilient because the specification fits on a napkin, but it's very slow because it does atomic operations that can't utilize the system's hardware.
+
+You're always shifting this irreducible complexity and not doing any headway. Most systems that were designed for archival and long-term preservation are just not used because they're so inefficient.
+
+We're in this middle space, where we're exploring the boundaries between suffocating minimalism and unsustainable maximalism. Computation is about managing state, and the vast number of permutations that a specific length of memory can take. At this point we're increasingly diving faster and faster into larger and bigger universes of state and we've not even begun to to explore the one that we just left. Permacomputation is an invitation to slow down, to make sense of where we are, and to explore what's possible with what's already here to prepare for what could happen. It's an invitation to participate and to learn to control tools so that they don't control us.
+
+I hope that I've inspired you to become interested in exploring what could help make computers last a bit longer.
+
+Thank you.
+
+
+</main><footer>
+	<a class='logo' href="home.html">
+		<img src="../media/interface/logo.svg" aria-label='open homepage' alt="hundred rabbits logo consisting of one hundred white dots" width="100" height="100">
+	</a>
+	<span>
+		<b>Hundredrabbits</b> © 2025
+	</span>
+<div class='mobile'>
+	<span>
+		<a href="../site/index.html">All Pages</a> |
+		<a href="../site/support.html">Support</a> |
+		<a href="../site/store.html">Store</a> |
+		<a href="../site/rabbits.html">Contact</a> |
+		<a href="https://github.com/hundredrabbits/100r.co/blob/main/LICENSE.by-nc-sa-4.0.md" target="_blank">BY-NC-SA 4.0</a>
+	</span>
+</div>
+	<!-- Mastodon -->
+	<a href="https://merveilles.town/@neauoire" rel="me" class="hidden"></a>
+	<a href="https://merveilles.town/@rek" rel="me" class="hidden"></a>
+</footer></body></html>
