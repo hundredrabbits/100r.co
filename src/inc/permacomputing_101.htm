@@ -4,59 +4,56 @@
 
 <p>Thank you Critical Signals for inviting me, I wish I could have been in Wellington to present it in person.</p>
 
-<h2>Permacomputing 101</h2>
-
 <img style='max-width:700px' src="../media/content/blog/per101_069.png" loading="lazy"/>
 
-<p>I am one half of a little design studio called Hundred Rabbits, founded 10 years ago. Together, we focus on the failability of modern tech, working entirely from secondhand devices.</p>
+<h2>Permacomputing 101</h2>
+
+<p>I am one half of a little design studio called Hundred Rabbits, founded 10 years ago. Together, we also explore the failability of modern technology, working entirely from secondhand devices.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_067.png" loading="lazy"/>
 
-<p>We operate aboard a 1982 10 m sailboat named Pino. Our vessel is our workspace, habitat, gym, rec room, bedroom, and our kitchen. Our life is very much like camping all year long.</p>
+<p>We operate aboard a 10 meters long sailboat built in 1982, named {Pino}. Our vessel is our workspace, habitat, gym, rec room, bedroom, and our kitchen. Our life is very much like camping all year long.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_066.png" loading="lazy"/>
 
 <p>We sailed to {New Zealand} in 2017, by way of {French Polynesia}, {Niue}, {Tonga}. We stayed in Whangarei for 9 months — it was lovely!</p>
 
-<img style='max-width:700px' src="../media/content/blog/per101_064.png" loading="lazy"/>
+<img style="max-width:378px" src="../media/content/blog/per101_064.png" loading="lazy"/>
 
-<p>We started sailing because we wanted to live that solar punk life, to learn more about repair and maintenance. We wanted to move between places on our terms, according to seasons. The sailboat afforded that flexibility. Taking this path came with a lot of challenges which advised much of what I'm going to be covering in this post.</p>
+<p>We started sailing because we wanted to live that <i>solarpunk life</i> and to learn more about repair & maintenance. We wanted to move between places on our terms and according to seasons. The sailboat afforded us that flexibility. But going down that path came with a lot of challenges which, in turn, advised much of what I'm going to be covering in this article.</p>
 
 <figure>
-<img style='max-width:700px' src="../media/content/blog/per101_063.png" loading="lazy"/>
-<figcaption><i>"And actually, I surf with images off." From The Computer Chronicles(TV series) - The Internet (1993)</i></figcaption>
+	<img style='max-width:700px' src="../media/content/blog/per101_063.png" loading="lazy"/>
+	<figcaption><i>"And actually, I surf with images off." From The Computer Chronicles(TV series) - The Internet (1993)</i></figcaption>
 </figure>
 
-<p>In a lot of ways, we've become anachronistic to modern life, we diverge from the general direction of things.</p>
+<p>In a lot of ways, we've become anachronistic to modern life, we somehow diverged from the general direction of things.</p>
+
+<p>To give you some a sense of the limits that we have aboard Pino, our studio is powered by two 100w solar panels which feed four 6v lead-acid batteries. We use this to power our laptops, the lights, and safety systems. In this post I'll talk about the limits, the complexity and appropriate technologies.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_062.png" loading="lazy"/>
 
-<p>To give you some a sense of the limits that we have aboard Pino, our studio is powered by 2 x 100 watt solar panels which feed 4x6V lead acid batteries. We use this to power our laptops, the lights, and safety systems. In this post I'll talk about the limits, the complexity and appropriate technologies.</p>
+<p>In this context, it is common to think that it is possible to engineer your way out of some problems by say, buying more batteries, which add more weight which in turn makes it makes it harder for us to run away from storms, or to buy more solar panels, which add more windage and increase the chances of violent breakages. Managing this complexity and these limitations is important, but if you have the inclination to always "buy more of X", it is likely to create more problems than it is going to solve.</p>
 
-<p>In this context it is easy to think that it is possible to engineer your way out of some problems by say, buying more batteries, which add more weight which in turn makes it makes it harder for us to run away from storms, or to buy more solar panels, which add more windage and increase the chances of violent breakages. Managing this complexity and these limitations is important, but if you have the inclination to always "buy more of X", it is likely to create more problems than it is going to solve.</p>
+<p>I will try to explain some of the choices that we made and some of the conclusions that we reached.</p>
 
-<figure>
-<img style='max-width:700px' src="../media/content/blog/per101_061.png" loading="lazy"/>
-<figcaption><i>Redacted genie, by C2oh.</i></figcaption>
-</figure>
-
-<p>I will try to explain some of the choices that we made and some of the conclusions that we found.</p>
-
-<p>When we began looking for spaces that still build tech that was compatible with our new way of life, we found that modern tech was aggressively at odds with it. A common assumption is that technology is welcoming to nomads, but always-online software, two-step verification, and the reliance on physical addresses create very difficult barriers, often forcing people like us to look for alternatives, work-arounds.</p>
+<p>When we began looking for spaces that still built tech that was compatible with our new way of life, we found that modern tech was aggressively at odds with it. A common assumption is that technology is welcoming to nomads, but always-online software, two-step verification, and the reliance on physical addresses create very difficult barriers, often forcing people like us to look for alternatives, work-arounds.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_060.png" loading="lazy"/>
 
-<p>Who still builds software that works well offline? Who still remembers how to write efficient programs? How far back in the past do we have look to find tools that we can use? While researching this, we found someone who highlighted some of the same pain points.</p>
+<p>While researching this, we found someone who highlighted some of the same pain points.</p>
 
-<img style='max-width:700px' src="../media/content/blog/per101_058.png" loading="lazy"/>
+<ul>
+	<li>Who still builds software that works well offline?</li>
+	<li>Who still remembers how to write efficient programs?</li>
+	<li>How far back in the past do we have look to find tools that we can use?</li>
+</ul>
 
-<p>A few years back I found the original permacomputing article written by an artist called Viznut(Ville-Matias Heikkilä), which articulated perfectly the problems that we were struggling with. Viznut wrote about the demoscene, ludism, digital aesthetics, as well as the environmental impact of technologies. His website had the sentence:</p>
+<p>A few years back I found the <a href='http://viznut.fi/texts-en/permacomputing.html' target='_blank'>original permacomputing article</a>, written by an artist called Viznut(Ville-Matias Heikkilä), which articulated perfectly the problems that we were struggling with. Viznut wrote about the demoscene, ludism, digital aesthetics, as well as the environmental impact of technologies. His website had the sentence:</p>
 
 <p><i>"I want to be among the builders of a better world-"</i></p>
 
-<p>It was a pretty fresh vision of computation that was different from the prevalent futurism that is everywhere today.</p>
-
-<p>He wrote a first specification of permacomputing:</p>
+<p>It was a pretty fresh vision of computation that was different from the prevalent futurism that is everywhere today. He wrote a first specification of permacomputing:</p>
 
 <p><i>"It's a practice that encourages the maximization of hardware lifespan, minimization of energy usage, and focuses on the use of already available computational resources. It's about using computation only when it has a strengthening effect on ecosystems."</i></p>
 
@@ -65,11 +62,11 @@
 <p>When I read this these two sentences, I thought it was such a lucid enunciation of the problems that we were facing. I immediately wanted to know more, I went digging to find out who was behind this and if there was a community of people interested in exploring what seemed to be the solution to our problem. We began gathering friends operating under similar constraints.</p>
 
 <figure>
-<img style='max-width:700px' src="../media/content/blog/per101_054.png" loading="lazy"/>
-<figcaption><i>From <a href="https://wiki.collapsible.systems" target="_blank">Collapsible Systems</a>.</i></figcaption>
+	<img style='max-width:700px' src="../media/content/blog/per101_054.png" loading="lazy"/>
+	<figcaption><i>From <a href="https://wiki.collapsible.systems" target="_blank">Collapsible Systems</a>.</i></figcaption>
 </figure>
 
-<p>This line of research is what got us in touch with Julian who runs Collapsible Systems, a project that is another exploration of that space, with hyperlocal solutions to problems.</p>
+<p>This line of research is what got us in touch with Julian who runs <a href='https://wiki.collapsible.systems' target='_blank'>Collapsible Systems</a>, a project that is another exploration of that space, with hyperlocal solutions to problems.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_052.png" loading="lazy"/>
 
@@ -85,19 +82,19 @@
 
 <img style='max-width:700px' src="../media/content/blog/per101_051.png" loading="lazy"/>
 
-<p>The definition of frugal computing would be to "utilize computational resources as finite, to be utilized only when necessary and as effectively as possible." I did not write this, but to explain it in my own words, it is about familiarizing yourself with using as little as needed while resources are available. Like learning to use a med kit, what is inside, how each item is used, while still living in the city. If you made a mistake you can course correct. It's always better to prepare, to practice preparation when resources are available than when disaster strikes and correcting is no longer feasible.</p>
+<p>The definition of <b>frugal computing</b> would be to "utilize computational resources as finite, to be utilized only when necessary and as effectively as possible." I did not write this, but to explain it in my own words, it is about familiarizing yourself with using as little as needed while resources are available. Like learning to use a med kit, what is inside, how each item is used, while still living in the city. If you made a mistake you can course-correct. It's always better to prepare, to practice preparation when resources are available than when disaster strikes and correcting is no longer feasible.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_050.png" loading="lazy"/>
 
-<p>Salvage computing is about utilizing only already available computational resources to be limited by that which is already produced. Imagine the production treadmill has stalled and that what is produced is just more of what's already there.</p>
+<p><b>Salvage computing</b> is about utilizing only already available computational resources to be limited by that which is already produced. Imagine the production treadmill has stalled and that what is produced is just more of what's already there.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_049.png" loading="lazy"/>
 
-<p>Collapse computing is about utilizing what has survived the collapse of industrial production or network infrastructure. At that point consumption consists of fighting over what's left, with most of what was already being produced decaying. It is more maintenance-focused because it is not possible to run to the market to get a replacement.</p>
+<p><b>Collapse computing</b> is about utilizing what has survived the collapse of industrial production or network infrastructure. At that point consumption consists of fighting over what's left, with most of what was already being produced decaying. It is more maintenance-focused because it is not possible to run to the market to get a replacement.</p>
 
 <figure>
-<img style='max-width:700px' src="../media/content/blog/per101_048.png" loading="lazy"/>
-<figcaption><i>From the manga Gyo by Junji Ito.</i></figcaption>
+	<img style='max-width:700px' src="../media/content/blog/per101_048.png" loading="lazy"/>
+	<figcaption><i>From the manga Gyo by Junji Ito.</i></figcaption>
 </figure>
 
 <p>As we move through these three stages of adaptation, as the climate worsens and that technology is forced on people, computation is used increasingly as a tool of control. The further down the descent, the more technical things get. The more technology is something to be actively engaged with and understood, especially when it's forced upon people.</p>
@@ -109,11 +106,11 @@
 <p>I don't mean to say that people have to start learning Assembly, there are many more proactive things to do first. It is also something that is better to be engaged in as a community rather than as an individual, so it is possible to leverage people's different skills.</p>
 
 <figure>
-<img style='max-width:700px' src="../media/content/blog/per101_046.png" loading="lazy"/>
-<figcaption><i>From the "System for Converting Television Commercials Into Interactive Networked Video Games" <a href="https://patents.google.com/patent/US8246454B2/en" target="_blank">patent</a>.</i></figcaption>
+	<img style='max-width:700px' src="../media/content/blog/per101_046.png" loading="lazy"/>
+	<figcaption><i>From the "System for Converting Television Commercials Into Interactive Networked Video Games" <a href="https://patents.google.com/patent/US8246454B2/en" target="_blank">patent</a>.</i></figcaption>
 </figure>
 
-<p>The first thing that you can do, that doesn't have anything to do with Assembly, it doesn't even have anything to do with technological knowledge, is about exploring the value of absence. It is about finding where technologies do not have a strengthening effect on the ecosystem, and on finding ways to do away with technologies that precipitate climate collapse.</p>
+<p>The first things that anyone can do, doesn't have anything to do with Assembly, it doesn't even have anything to do with technological knowledge, is about the <i>value of absence</i>. It is about finding where technologies do not have a strengthening effect on the ecosystem, and on finding ways to do away with technologies that precipitate climate collapse.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_044.png" loading="lazy"/>
 
@@ -128,39 +125,42 @@
 <p>A technology can't both make you dependent, and emancipate you. It's about asking "what happens to the tool once it leads you to your goal?" It teaches people the means to get to where they want to go instead of wedging itself between them. Self-obviation in terms of technology is something that people should strive for. It ought to become an engineering practice.</p>
 
 <figure>
-<img style='max-width:700px' src="../media/content/blog/per101_041.png" loading="lazy"/>
-<figcaption><i>From an <a href="https://essays.georgestrakhov.com/elvish" target="_blank">essay</a> entitled "Towards a More Elvish Vision for Technology" by George Strakhov.</i></figcaption>
+	<img style='max-width:700px' src="../media/content/blog/per101_041.png" loading="lazy"/>
+	<figcaption><i>From an <a href="https://essays.georgestrakhov.com/elvish" target="_blank">essay</a> entitled "Towards a More Elvish Vision for Technology" by George Strakhov.</i></figcaption>
 </figure>
 
-<p>Permaculture, which is literally the first half of permacomputing, is about developing systems where nature does most of the work. Permaculture thrives in diversity, it's the load balancing of that diversity that creates resilience. It's not about finding a silver bullet, there isn't a "most permacomputing technology." Permacomputing is always going to be diversity of tech, products and people. It's not going to try to develop a monoculture of a single crop for tackling a scale of problems.</p>
+<p>Permaculture, which is literally the first half of permacomputing, is about developing systems where nature does most of the work. Permaculture thrives in diversity, it's the load-balancing of that diversity that creates resilience. It's not about finding a <i>silver bullet</i>, there isn't a "most permacomputing technology." Permacomputing is always going to be diversity of tech, products and people. It's not going to try to develop a monoculture of a single crop for tackling a scale of problems.</p>
 
 <figure>
-<img style='max-width:700px' src="../media/content/blog/per101_040.png" loading="lazy"/>
-<figcaption><i>From <a href="https://catandgirl.com/">Cat & Girl</a>, The Genius. CC BY-NC-SA 2.5.</i></figcaption>
+	<img style='max-width:700px' src="../media/content/blog/per101_040.png" loading="lazy"/>
+	<figcaption><i>From <a href="https://catandgirl.com/">Cat & Girl</a>, The Genius. CC BY-NC-SA 2.5.</i></figcaption>
 </figure>
 
-<p>The first question that permacomputing asks is "where is technology not appropriate? Where can it be removed so we can do without?" In most cases, technology is sold as a timesaver, but it tends to do the opposite. It adds complexity while making people dependent on supply chains, usually turning into a tool of control by making the tool as opaque as possible, ensuring that people don't understand the tech that rules their lives. They will make simple things appear as complicated as possible, and make complex things appear as simple as possible, while obfuscating their waste and byproducts so people have no idea what's going on. Identifying inappropriate tech, doing away with it, is a really good first take and requires very little knowledge of the intricacies of computation.</p>
+<p>The first question that permacomputing asks is "where is technology not appropriate? Where can it be removed?" In most cases, technology is sold as a timesaver, but it tends to do the opposite. It adds complexity while making people dependent on supply chains, usually turning into a tool of control by making the tool as opaque as possible, ensuring that people don't understand the tech that rules their lives.</p>
+<p>They will make simple things appear as complicated as possible, and make complex things appear as simple as possible, while obfuscating their waste and byproducts so people have no idea what's going on. Identifying inappropriate tech, doing away with it, is a really good first take and requires very little knowledge of the intricacies of computation.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_039.png" loading="lazy"/>
 
-<p>If we stop forcing computers down people's throats, what we find is that we don't need computers anymore. There's definitely a case where a lot of people would be happier, their lives would be simpler, if computers were just not there and if they were not forced to use them. We might find that there's still a need for computers, like as way of learning about the world, for games, for art, and for music, but once we identified where computation actually has a strengthening effect on the ecosystem in most cases it will be used to do benign tasks. This is where permacomputing exists right now in this space.</p>
+<p>If we stop forcing computers down people's throats, and we find that we don't need computers anymore. There's definitely a case where a lot of people would be happier, their lives would be simpler, if computers were just not there and if they were not forced to use them.</p>
+
+<p>But, we might also find that there's still a need for computers, as way of learning about the world, for games, for art, and for music, but once we identified where computation actually has a strengthening effect on the ecosystem, in most cases it will be used to do benign tasks. This is where permacomputing exists right now, it's in this space.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_038.png" loading="lazy"/>
 
-<p>Obviously, when I say that people should understand the tools that they're dealing with, it's a sliding scale, right? What skills to people need to participate? Having the option to reverse-engineer or repair a tool gives you leverage, it also allows you to repair something when it breaks. Again, if a community doesn't understand the inner workings of a tool they rely on it becomes a tool of control. So what does it mean for people at variable degrees of skills when it comes to understanding their tools? They won't have agency, not having that option makes it that they will never be able to emancipate anything.</p>
-
-<p>Let's explore a few good practices, that range from engineering, to architecture, that focus on enpowering people.</p>
+<p>Obviously, when I say that people should understand the tools that they're dealing with, it's a sliding scale, right? What skills to people need to participate? Having the option to reverse-engineer or repair a tool gives you leverage, it also allows you to repair something when it breaks. Again, if a community doesn't understand the inner workings of a tool they rely on, it becomes a tool of control. So what does it mean for people of variable degrees of skills when it comes to understanding their tools? They won't all have agency, not having that option makes it that they will never be able to emancipate anything..</p>
 
 <figure>
-<img style='max-width:700px' src="../media/content/blog/per101_037.png" loading="lazy"/>
-<figcaption><i>Super Chair by Ken Isaacs, Living Structures.</i></figcaption>
+	<img style='max-width:700px' src="../media/content/blog/per101_037.png" loading="lazy"/>
+	<figcaption><i>Super Chair by Ken Isaacs, Living Structures.</i></figcaption>
 </figure>
+
+<p>Let's explore a few good practices, that range from engineering, to architecture, that focus on enpowering people.</p>
 
 <p>The first one is <b>designing for disassembly</b>. Designing for disassembly encourages repair. The idea is that a product can be taken apart at the end of its life and each component can be reclaimed.</p>
 
 <p>When it comes to hardware, designing things for disassembly would mean providing a manual or instructions for the assembly and disassembly of the product, using parts that are not proprietary in software. It means having access to the source files, the binary files, the full documentation so that people can understand what they're using and how it works.</p>
 
-<p>That makes a ton of sense in a world that has spotty internet. We, Hundred Rabbits, don't have access to internet for lengths at a time, so we can't always do tech support for the tools that we make. People have to be able to disassemble them, find out how to solve their own problem. In some cases, when we have internet again we often see that people have reverse engineered the thing, used the docs, and found ways to solve their problems without our interfering. Had we been available we would have helped, but giving people the option, having a tool still be usable even if something happens to us, is a pretty good tactic for fighting bitrot.</p>
+<p>That makes a ton of sense in a world that has spotty internet. We, Hundred Rabbits, don't have access to internet for lengths at a time, so we can't always do tech support for the tools that we make. People have to be able to disassemble them, find out how to solve their own problem. In some cases, when we have internet again we often see that people have reverse-engineered the thing, used the docs, and found ways to solve their problems without our interfering. Had we been available we would have helped, but giving people the option, having a tool still be usable even if something happens to us, is a pretty good tactic for fighting bitrot.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_036.png" loading="lazy"/>
 
@@ -176,40 +176,36 @@
 
 <img style='max-width:700px' src="../media/content/blog/per101_034.png" loading="lazy"/>
 
-<p>Encapsulation straight up means containerizing. If you're familiar with Docker it's about replicating,  recreating the capsule the environment in which the software ran in a more higher-level of thinking.</p>
+<p>Encapsulation straight up means containerizing. If you're familiar with Docker it's about replicating,  recreating the capsule, the environment, in which the software ran in a more higher-level of thinking.</p>
 
-<p>The last thing is called universal virtual computer, and that one is more like defining the axioms or the mathematics, or the logic systems of a program. It's about defining the program in abstract terms that will adapt to various ecosystems and that should transcend both hardware and software.</p>
+<p>The last thing is called <i>universal virtual computer</i>, and that one is more like defining the axioms, the mathematics, or the logic systems of a program. It's about defining the program in abstract terms that will adapt to various ecosystems and that should transcend both hardware and software.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_033.png" loading="lazy"/>
 
-<p>Making a universal virtual computer is the approach that we took as a studio to make sure that our software would keep running over time. As I mentioned, I'm pretty sure you have examples that pop into your head when I say this, but if you're a programmer you might think of Java. The JVM is a sort of ecosystem. The tagline for Java was something like "write once run everywhere". It is a strategy to fight hardware obsolescence. I think that at that point they were already seeing that they would have to rewrite the same program over and over again, by targeting a virtual machine they were allowed to write the program once and to run it everywhere.</p>
+<p>Making a universal virtual computer is the approach that we took as a studio to make sure that our software would keep running over time. As I mentioned, I'm pretty sure you have examples that pop into your head when I say this, but if you're a programmer you might think of Java. The JVM's tagline was something like "write once, run everywhere". It is a strategy to fight hardware obsolescence. I think that at that point they were already seeing that they would have to rewrite the same program over and over again, by targeting a virtual machine they were allowed to write the program once and to run it everywhere.</p>
 
-<p>Is Java permacomputing? I mean, really it's less about finding out if something permacomputing or not. That specific attribute of Java is appropriate for the situation, it's appropriate for fighting obsolescence. I can't say if Java is permacomputing or not, but that attribute though, is.</p>
+<p>Is Java permacomputing? I mean, really, it's less about finding if something is permacomputing or not. That specific attribute of Java is appropriate for the situation, it's appropriate for fighting obsolescence. I can't say if Java is permacomputing or not, but that attribute, is.</p>
 
 <figure>
 <img style='max-width:700px' src="../media/content/blog/per101_032.png" loading="lazy"/>
 <figcaption><i><a href="https://knowyourmeme.com/memes/google-chrome-ram-hog#fn2" target="_blank">Google Chrome RAM Hog</a>. Author unknown.</i></figcaption>
 </figure>
 
-<p>You're probably watching this through Chrome or Firefox or something else, you might be thinking well, browsers is another good example, right?</p>
-
-<p>A browser is similar to the JVM, it runs on all sorts of devices, but like virtual machines and encapsulation systems it doesn't solve the whole problem. With browsers, it usually comes at the cost of efficiency.</p>
+<p>You're probably watching this through Chrome or Firefox or something else, you might be thinking, well, browsers are another good example, right? A browser is similar to the JVM, it runs on all sorts of devices, but like virtual machines and encapsulation systems it doesn't solve the whole problem. With browsers, it usually comes at the cost of efficiency.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_031.png" loading="lazy"/>
 
-<p>Web apps are super slow. Most websites do pretty simple things, but they consume maximum amount of energy and power — web browsers come with a whole swath of problems that are beyond the scope of this talk. "Is the web browser permacomputing?" is something that comes up quite quite a bit. For one, only 2 companies can implement the web specification, and so that means the whole ecosystem has been captured by a handful of people.</p>
+<p>Web apps are super slow. Most websites do pretty simple things, but they consume maximum amount of energy and power — web browsers come with a whole swath of problems that are beyond the scope of this talk. "Is the web browser permacomputing?" is something that comes up quite a bit. For one, only 2 companies can implement the web specification, and so that means the whole ecosystem has been captured by a handful of people.</p>
 
-<p>And because building new web browsers today, the lens that nearly the entire world use to talk to each other, is unthinkable. The fragility of the web is due to it growing at such a logarithmic scale, making difficult for people to participate in the creation of new tools to browse the web, or for anyone to understand the tool. These bloat and corporate capture make the web somewhat at odds with permacomputing.</p>
+<p>And because building new web browsers today, the lens that nearly the entire world use to talk to each other, is unthinkable. The fragility of the web is due to it growing at such a logarithmic scale, making difficult for people to participate in the creation of new tools to browse the web, or for anyone to understand the tool. The bloat and corporate capture make the web somewhat at odds with permacomputing.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_030.png" loading="lazy"/>
 
-<p>One misconception that people will often straight up tell us is that they don't want to halt the development of new tech because "aren't they getting faster and more efficient over time?"</p>
-
-<p>They might be more efficient, as in they do more work, but they will <i>always</i> use <a href="https://en.wikipedia.org/wiki/Jevons_paradox" target="_blank">more energy</a></p>
+<p>One misconception that people will often fall pray to when they recommend things to us, is that they don't want to halt the development of new tech because "aren't they getting faster and more efficient over time?" They might be more efficient, as in they do more work, but they will <i>always</i> use <a href="https://en.wikipedia.org/wiki/Jevons_paradox" target="_blank">more energy</a></p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_029.png" loading="lazy"/>
 
-<p>A lot of time people suggest technologies for us that are seemingly more efficient, they're more efficient at doing really complex things, which we don't do, but really inefficient in a way that makes it impossible for us to even run them on the battery power that we have.</p>
+<p>A lot of time people suggest technologies to us that are seemingly more efficient, they're more efficient at doing really complex things, which we don't do, but really inefficient in a way that makes it impossible for us to even run them on the battery power that we have.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_028.png" loading="lazy"/>
 
@@ -227,7 +223,7 @@
 
 <p>The permacomputing paper I shared earlier did not mark the creation of the concept of digital preservation, it has been a field of research for many years, although it did result in people rallying around the term "permacomputing".</p>
 
-<p>The first mention of digital preservation that I found was <abbr title="Preserving Access to Digital Information">PADI</abbr>PADI, a gathering of people in Australia who's focus was to explore that problem.</p>
+<p>The first mention of digital preservation that I found was <abbr title="Preserving Access to Digital Information">PADI</abbr>, a gathering of people in Australia who's focus was to explore that problem.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_024.png" loading="lazy"/>
 
@@ -235,17 +231,17 @@
 
 <img style='max-width:700px' src="../media/content/blog/per101_023.png" loading="lazy"/>
 
-<p>CAMiLEON's objectives could have been in the permacomputing paper because they are so aligned. Their three main objectives are as follows:</p>
+<p>CAMiLEON's objectives could have been in the permacomputing paper as they are so tightly aligned. Their three main objectives are as follows:</p>
 
-<p>Their first objective is "to explore the options of long-term retention of the original functionality and look and feel of digital objects." Fancy words for saying "make software work tomorrow".</p>
-
-<p>Their second objective is "to investigate technology emulation as a strategy for long-term preservation and access of digital objects." This is what makes it possible today to run <abbr title="disk operating system">DOS</abbr> games on your computer. They were exploring emulation as their tactic to preserve software.</p>
-
-<p>Their third objective is "to consider where and how emulation fits in a suit of digital preservation strategies." Like permacomputing, they didn't think that there would be a silver bullet, it is more about leveraging different tactics for maximum resilience.</p>
+<ul>
+	<li>Their first objective is "to explore the options of long-term retention of the original functionality and look and feel of digital objects." Fancy words for saying "make software work tomorrow".</li>
+	<li>Their second objective is "to investigate technology emulation as a strategy for long-term preservation and access of digital objects." This is what makes it possible today to run <abbr title="disk operating system">DOS</abbr> games on your computer. They were exploring emulation as their tactic to preserve software.</li>
+	<li>Their third objective is "to consider where and how emulation fits in a suit of digital preservation strategies." Like permacomputing, they didn't think that there would be a silver bullet, it is more about leveraging different tactics for maximum resilience.</li>
+</ul>
 
 <img style='max-width:700px' src="../media/content/blog/per101_022.png" loading="lazy"/>
 
-<p>Unfortunately, all these projects are now defunct, only available through <a href="https://archive.org/" target="_blank">The Internet Archive</a>. It doesn't speak well of people who had a lot of funding and the means to explore this space if just a few years later we can't see any of it any of it anymore. This is a common pattern when you start digging into this topic.</p>
+<p>Unfortunately, all these projects are now defunct, only available through <a href="https://archive.org/" target="_blank">The Internet Archive</a>. It doesn't speak well of attempts who even had access to funding and the means to explore this space, if just a few years later we can't see any of it any of it anymore. This is a common pattern when you start digging into this topic.</p>
 
 <img style='max-width:700px' src="../media/content/blog/per101_021.png" loading="lazy"/>
 
@@ -355,7 +351,7 @@ print("42" * 12)
 
 <img style='max-width:700px' src="../media/content/blog/per101_002.png" loading="lazy"/>
 
-<p>In theory writing software, or writing anything that would work and be decompiled or deciphered through a system like this would be the easiest, but it's always a trade-off. You're always balancing this trifecta of portability. A system as small as this one here is portable because it's easy to migrate, it's resilient because the specification fits on a napkin, but it's very slow because it does atomic operations that can't utilize the system's hardware.</p>
+<p>In theory writing software, or writing anything that would work and be decompiled or deciphered through a system like this would be the easiest, but it's always a trade-off. You're always balancing this trifecta of portability: A system as small as this one here is portable because it's easy to migrate, it's resilient because the specification fits on a napkin, but it's very slow because it does atomic operations that can't utilize the system's hardware.</p>
 
 <figure>
 <img style='max-width:700px' src="../media/content/blog/per101_001.png" loading="lazy"/>
