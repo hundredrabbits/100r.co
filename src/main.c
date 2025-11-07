@@ -65,7 +65,7 @@ findf(Lexicon *l, char *f)
 {
 	int i;
 	char filename[64];
-	scat(scsw(stlc(scpy(f, filename, 64)), ' ', '_'), ".htm");
+	scat(scsw(scsw(stlc(scpy(f, filename, 64)), '|', 0), ' ', '_'), ".htm");
 	for(i = 0; i < l->len; ++i)
 		if(scmp(l->files[i], filename))
 			return i;
@@ -102,17 +102,31 @@ fpportal(FILE *f, Lexicon *l, char *s, int head)
 }
 
 int
+get_alias(char *s)
+{
+	int r = 0;
+	char c, *ss;
+	while((c = *s++) && ++r)
+		if(c == '|')
+			return r;
+	return 0;
+}
+
+int
 fptemplate(FILE *f, Lexicon *l, char *s)
 {
-	int target;
-	char raw[64];
+	int target, alias = get_alias(s);
+	char c, *ss = s, raw[64];
 	if(s[0] == '/')
 		return fpportal(f, l, s + 1, 1);
 	target = findf(l, s);
 	if(target < 0)
 		return error("Missing link", s);
 	scpy(s, raw, 64);
-	fprintf(f, "<a href='%s.html' class='local'>%s</a>", scsw(stlc(s), ' ', '_'), raw);
+	if(alias)
+		fprintf(f, "<a href='%s.html' class='local'>%s</a>", scsw(scsw(stlc(s), '|', 0), ' ', '_'), s + alias);
+	else
+		fprintf(f, "<a href='%s.html' class='local'>%s</a>", scsw(stlc(s), ' ', '_'), raw);
 	l->refs[target]++;
 	return 1;
 }
