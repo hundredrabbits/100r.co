@@ -140,7 +140,7 @@ ul.nobull li {list-style-type: none}
 	main > pre { background: white; color:#000}
 	main > code { background:white; color:#000}
 	body select { color: black; background-color: white;}
-	main .project { border-left:2px solid white }
+	main .project {border-left:2px solid white; padding-left: 15px; font-style: italic;}
 	.notice { border-color:white; }
 	main .progress > div { background-color: white}
 	main .progress > div > span { color: black}
