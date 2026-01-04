@@ -66,7 +66,7 @@ main cite {font-size: 17px;display: block;clear: both;margin-bottom: 30px;}
 main cite:before {content: "— ";}
 main > q { font-size: 20px;font-style: italic;max-width: 500px; display: block; margin-left:30px; }
 main > pre { max-width: 700px; font-family: monospace; background: black; color:white; padding:15px; overflow: scroll; }
-main > code { max-width: 700px; font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre}
+main > code { max-width: 700px; font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:black; color:white; padding:15px; white-space: pre; }
 main > code comment { color:#777}
 
 main .button { background-color: #000;border: 2px solid white;color: white;padding: 13px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;border-radius: 200px;font-weight: bold; margin-right: 15px; margin-bottom: 30px;}
@@ -83,7 +83,7 @@ details > summary {color: white;font-size: 14px;font-weight: bold;text-align: ce
 details p {padding-top: 10px; margin-bottom: 0px; }
 
 body select { color: black; margin-bottom: 20px }
-main table {max-width: 700px;}
+main table {max-width: 700px; overflow-x:auto;}
 main table.drpdown { padding-bottom: 15px; font-size: 18px}
 main table.drpdown td { padding-bottom: 15px; color: black;}
 
