@@ -48,7 +48,7 @@
 <img src="../media/content/boat_projects/ipadmediastation.jpg" alt="An Ipad2 is laying on its side, held up by its magnetic cover(which is folded up into a shape resembling an extruded triangle, forming a stand). On screen, an episode of Brooklyn Nine Nine is playing, with Captain Holt in his office.
 A camera connector with an SD card inserted into its slot is lying nearby." width="900" height="509" loading="lazy">
 
-<aside class='notice'>We will be testing out the media station this summer(2025), expect detailed updates & thoughts on this setup come October 2025. Note that we are aware that it is possible to jailbreak it, we chose not to, we were looking for something less aggressive(for now).</aside>
+<aside class='notice'>Note that we are aware that it is possible to jailbreak it, we chose not to, we were looking for something less aggressive(for now).</aside>
 
 <p>In the summer at anchor, we usually use Rek's main work computer, a Macbook Air 2011, as a media station, but watching movies drains the battery a lot, eating into Rek's work time, so we decided it was time to set up a dedicated media station.</p>
 
@@ -113,7 +113,7 @@ done
 
 <h3>Audio</h3>
 
-<p>To find the format(aac, dts, or other) for the audio stream that we want to extract:</p>
+<p>For the audio to work on Ipad, the file format needs to be <b>aac</b>, otherwise it may not work. To find the format(aac, dts, or other) for the audio stream that we want to extract:</p>
 
 <pre>
 ffprobe video.mkv
@@ -139,12 +139,11 @@ ffprobe video.mkv
 ffmpeg -i input-video.avi -vn -acodec copy output-audio.aac
 </pre>
 
-<p>Sometimes, it is easier to remove the audio and to combine it again later using VLC:</p>
+<p>Sometimes, it is easier to strip the audio and to combine it again later using VLC:</p>
 
 <pre>
 ffmpeg -i input_file.mkv -c copy -an output_file.mkv
 </pre>
-
 
 <h3>Subtitles</h3>
 
@@ -203,6 +202,10 @@ ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -c
 <p>It's kinda weird and hacky, but it works, and we get to give an older device a purpose. Compressing videos en-masse also helped us save space on our external harddrives.</p>
 
 <p>Note that converting videos takes a lot of time, a film that is 90 minutes long may take 45 minutes to complete. I started this process in late March on a computer dedicated to this purpose(while we're connected to shore power).</p>
+
+<h3>Thoughts</h3>
+
+<p>We used the Ipad2 as a media station in the summer 2025. The biggest issue we faced wasn't with the transfer of files, but with the file codecs. For files to work on Ipad, they the audio codec needs to be AAC, and the i</p>
 
 </main><footer>
 	<a class='logo' href="home.html">
