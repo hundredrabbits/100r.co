@@ -65,7 +65,7 @@ findf(Lexicon *l, char *f)
 {
 	int i;
 	char filename[64];
-	scat(scsw(scsw(stlc(scpy(f, filename, 64)), '|', 0), ' ', '_'), ".htm");
+	scat(stlc(scsw(scsw(scpy(f, filename, 64), '|', 0), ' ', '_')), ".htm");
 	for(i = 0; i < l->len; ++i)
 		if(scmp(l->files[i], filename))
 			return i;
