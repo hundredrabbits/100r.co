@@ -10,13 +10,43 @@
 </image>
 
 <item>
+  <title>Summary of changes for August 2026</title>
+  <link>https://100r.ca/site/log.html#aug2026</link>
+  <guid isPermaLink='false'>log.html#aug2026</guid>
+  <pubDate>Tue, 01 Sep 2026 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of August.</p>
+<img src="../media/content/videos/august_2026.jpg" alt="a collection of drawings that are spelling out a phrase. The first drawing is of a pen, then an END gate, paper, a person sighing, 2 very fluffy animals with arrows pointing at their fur, a pirate with a speech bubble with the word A_(a letter is missing), the hiragana A, a maze, and someone singing." loading="lazy" width="1200" height="679">
+<ul>
+  <li><b>Wiki</b>, updated various sections in <a href="https://100r.ca/site/solar_cooking_experiment.html">solar cooking experiment</a>.</li>
+  <li><b><a href="https://100r.ca/site/donsol.html">Donsol</a></b>, putting some final touches to the new release.</li>
+  <li><b><a href="https://kokorobot.ca/site/hakum.html" target="_blank">Hakum</a></b>, completed <a href="https://kokorobot.ca/site/recharge.html" target="_blank">Recharge</a>.</li>
+  <li><b><a href="https://100r.ca/site/rabbitwaves.html">Rabbit Waves</a></b>, added an image for the <a href="https://rabbitwaves.ca/404.html" target="_blank">404 page</a>, completed a <a href="https://rabbitwaves.ca/media/comic/p3.jpg" target="_blank">new comic page</a>, and finished a page about <a href="https://rabbitwaves.ca/site/hand_ciphers.html" target="_blank">Pen and Paper Ciphers</a>.</li>
+  <li><b><a href="https://grimgrains.com" target="_blank">GrimGrains</a></b>, published a new recipe: <a href="https://grimgrains.com/site/curried_lentil_rice_loaf.html" target="_blank">Curried Lentil Rice Loaf</a>. Updated the section about <a href="https://grimgrains.com/site/lactofermentation.html#weck" target="_blank">Weck jars</a>.</li>
+  <li><b><a href='http://wiki.xxiivv.com/site/win7.html' target="_blank">Win7</a></b>, a little file manager that looks just like the Macintosh windowing system.</li>
+  <li><b><a href='http://wiki.xxiivv.com/site/pop2.html' target='_blank'>POP-2</a></b>, trying to resurrect a ALGOL language from the 70s.</li>
+</ul>
+
+<p>In comparison to the past few months spent mostly on our own, we've had a very social August. It seems all our friends made it up north all at the same time. It has been great to run into some familiar faces, meet some new ones, and fill our days wandering in the woods catching up on the time we spent apart. But we really ought to start thinking about returning back south ourselves soon. </p>
+
+<p>Many of our conversations this month have been about languages and coded messages. How to encode a message, how to transmit them if the signal is noisy and how much of this can be done practically with just a few tools. We've added a <a href="https://rabbitwaves.ca/site/hand_ciphers.html" target="_blank">new page</a> to <a href="https://100r.ca/site/rabbitwaves.ca">Rabbit Waves</a> talking about just that, covering examples from history and some practical pen-n-paper exercises that can be done by anyone.</p>
+
+<p>Pulling on the thread of auxiliary language, Devine made <a href='https://lists.sr.ht/~rabbits/juxta/%3C4e1364ed-390d-4d37-850d-9b5fb27bf8e2@xxiivv.com%3E' target='_blank'>open call</a> to invite anyone writing Concatenative programs to see if they would be willing to implement a <a href='https://wiki.xxiivv.com/site/pop2' target='_blank'>POP-2</a> compiler for their own language. The idea is to see if this mostly dead language from the 70s could be revived as a language of exchange between the different insular Catlang dialects. Devine has also been busy writing a talk, and making many, many slides for the upcoming <a href='https://oredev.org/' target='_blank'>Oredev 2026</a> in Sweden.</p>
+
+<p><b>Book Club:</b> We are rereading <i>Dracula</i> by Bram Stoker and <i>Paradise Lost</i> by John Milton.</p>
+]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for July 2026</title>
   <link>https://100r.ca/site/log.html#jul2026</link>
   <guid isPermaLink='false'>log.html#jul2026</guid>
   <pubDate>Thu, 30 Jul 2026 07:00:00 GMT</pubDate>
   <dc:creator><![CDATA[Rek Bell]]></dc:creator>
   <description>
-<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of June.</p>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of July.</p>
 <img src="../media/content/videos/july_2026.jpg" loading="lazy" width="1200" height="679">
 
 <img src="../media/content/videos/july_2026.jpg" alt="" loading="lazy" width="1200" height="679">
