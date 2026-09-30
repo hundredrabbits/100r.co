@@ -10,6 +10,36 @@
 </image>
 
 <item>
+  <title>Summary of changes for September 2026</title>
+  <link>https://100r.ca/site/log.html#sep2026</link>
+  <guid isPermaLink='false'>log.html#sep2026</guid>
+  <pubDate>Wed, 30 Sep 2026 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of September.</p>
+<img src="../media/content/videos/september_2026.jpg" alt="characters from the Donsol game all standing inside their own cards, all of the monsters are looking at the hero character with a shield and sword who has just slain an elemental" loading="lazy" width="1200" height="679">
+<ul>
+  <li><b>Wiki</b>, added <a href="https://100r.ca/site/portland_island.html">portland island</a>, and updated <a href="https://100r.ca/site/alcohol_stove.html">alcohol stove</a>.</li>
+  <li><b><a href="https://100r.ca/site/donsol.html">Donsol</a></b>, released on <a href='https://hundredrabbits.itch.io/donsol'>Itch.io</a>!</li>
+  <li><b><a href="https://hundredrabbits.itch.io/legs" target="_blank">Legs</a></b>, we made a last minute gizmo for Catjam 2026.</li>
+  <li><b><a href="https://100r.ca/site/rabbit_waves.html">Rabbit Waves</a></b>, finished a page about <a href="https://rabbitwaves.ca/site/one_time_pads.html" target="_blank">One-time Pads</a>.</li>
+  <li><b><a href="https://wiki.xxiivv.com/site/rejoicehtml" target="_blank">Rejoice</a></b>, discovered <a href="https://wiki.xxiivv.com/site/rejoice.html#infinity" target="_blank">infinity</a>.</li>
+  <li><b><a href="https://100r.ca/site/tote.html">Tote</a></b>, added support for I/O.</li>
+  <li><b><a href="https://kokorobot.ca">Korokobot</a></b>, added a page on <a href="https://kokorobot.ca/site/processing_analog_artwork.html">Processing Analog Art</a>.</li>
+</ul>
+
+<p>We're disheartened to see a lot of the organization for direct action done on platforms that spy on its users, we've often talked about how it would be worthwhile to offer basic cryptography know-how to our friends, and so for a second month now, we're releasing a new <a href="https://100r.ca/site/rabbit_waves.html">Rabbit Waves</a> page on how to encrypt and decrypt messages, this time using <a href='https://rabbitwaves.ca/site/one_time_pads.html' target='_blank'>One-Time Pads</a>.</p>
+
+<p>Ten years after the original release of <a href="https://100r.ca/site/donsol.html">Donsol</a>, we decided to make a new version with animated sprites and a proper in-game manual as a definitive release, and it's finally out and available directly <a href='https://hundredrabbits.itch.io/donsol'>in the browser</a> or your favourite Uxn emulator!</p>
+
+<p>Devine has been invited to <a href='https://oredev.org/' target='_blank'>Oredev 2026</a> in Sweden to talk about software archival, because of it this month was spent making a lot of slides and talk notes. As usual, we'll share the full transcription after the conference.</p>
+
+<p><b>Book Club:</b> We read <i>To Kill a Mockingbird</i> by Harper Lee, <i>Madame Bovary</i> by Gustave Flaubert, and we are still re-reading <i>Dracula</i> by Bram Stoker.</p>
+]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for August 2026</title>
   <link>https://100r.ca/site/log.html#aug2026</link>
   <guid isPermaLink='false'>log.html#aug2026</guid>
