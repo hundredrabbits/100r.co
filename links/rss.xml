@@ -10,6 +10,30 @@
 </image>
 
 <item>
+  <title>Summary of changes for October 2026</title>
+  <link>https://100r.ca/site/log.html#oct2026</link>
+  <guid isPermaLink='false'>log.html#oct2026</guid>
+  <pubDate>Sun, 01 Nov 2026 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[<p>Hey everyone!</p><p>This is the list of all the changes we've done to our projects during the month of October.</p>
+<img src="../media/content/videos/october_2026.jpg" alt="a boat has run into the edge of the world, someone aboard is touching the wall from the bow, another person is walking along the edge of the world to a staircase leading to an exit of the world" loading="lazy" width="1200" height="679">
+<ul>
+  <li><b>Wiki</b>, added <a href="https://100r.ca/site/taxes.html">taxes</a>, and updated <a href="https://100r.ca/site/woodstove_installation.html#oct2026"></a>.</li>
+  <li><b><a href="https://100r.ca/site/donsol.html">Donsol</a></b>, fixed some bugs. Note that we plan to release a Playdate build on itch.io next month.</li>
+  <li><b><a href="https://rabbitwaves.ca">Rabbit Waves</a></b>, finished a <a href="https://rabbitwaves.ca/media/comic/p4.jpg" target="_blank">new comic page</a>, added a section on <a href="https://rabbitwaves.ca/site/flags_maritime.html" target="_blank">monochrome signal flags</a>(scroll to bottom) and updated the <a href="https://rabbitwaves.ca/media/zines/communication.png" target="_blank">zine</a> to include them.</li>
+</ul>
+<p>Over the summer, we looked around Pino and tried to make a list of all that had changed since we sailed back from <a href="https://100r.ca/site/japan.html">Japan</a> and thought it might be nice to make a <a href="https://youtu.be/tNWhQ74iwHQ?si=wJYEG0qjRx5_JS8s" target="_blank">new video</a> to show you what those changes were. Our last vlog-type video was released in 2020, we are considering maybe getting back into the habit of making montly videos. We also released two other videos from past talks, one is about <a href="https://youtu.be/xZb1kah5JII?si=nZdNuJrJY8PKcZ5I" target="_blank">Analog Communication & Solresol</a> and the other is an <a href="https://youtu.be/olKYEzrrbas?si=OgrIitGTCNFnrtX3" target="_blank">Orca Livecoding Demo</a>.</p>
+<p>We both participated in Drawtober this year, finishing 31 daily drawings. See <a href="https://merveilles.town/@neauoire/117365937662920723" target="_blank">Devine's drawings</a> which are illustrations for the <a href="https://wiki.xxiivv.com/site/neauismetica.html" target="_blank">Neauismetica</a>, and see Rek's series of 31 <a href="https://kokorobot.ca/site/drawtober.html" target="_blank">5x5 cm tile-like drawings</a>.</p>
+<p>We carved a <a href="https://100r.ca/site/halloween_pumpkins.html">halloween pumpkin</a> inspired by the <a href="https://kokorobot.ca/media/content/dt_21.jpg" target="_blank">ghost enemy</a>(lower left character) Rek designed for <a href="https://100r.ca/site/donsol.html">Donsol</a>. As another Halloween treat, members of Merveilles Town worked together to make an <a href="youtube.com/watch?v=MP6rvSwsfQw" target="_blank">album of spooky tracks</a>.</p>
+<p>In the little world of Uxn, <a href='https://taylor.town/' target='_blank'>Taylor</a> gave us a <a href='https://wiki.xxiivv.com/site/xte_ink' target="_blank">XTE INK reader</a>, for which Devine wrote a firmware in Uxn. The source is <a href='https://git.sr.ht/~rabbits/uxn4' target='_blank'>here</a>. Not having a smartphone or a printer, it has been quite convenient for us to bring QR code tickets to venues.</p>
+<p>Like last year, Oquonie is part of <a href="https://play.date/games/oquonie/" target="_blank">Playdate Catalog Fall Sale</a> running from November 5th to the 19th. Thank you for continuing to spend time in the little worlds we create!</p>
+<p><b>Book Club:</b> We are reading <i>Le Ton beau de Marot</i> by Douglas Hofstadter.</p>
+]]>
+</description>
+</item>
+
+<item>
   <title>Summary of changes for September 2026</title>
   <link>https://100r.ca/site/log.html#sep2026</link>
   <guid isPermaLink='false'>log.html#sep2026</guid>
